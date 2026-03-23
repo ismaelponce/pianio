@@ -5,7 +5,7 @@ import { PianoKeyboard } from "./PianoKeyboard";
 import { markExerciseComplete } from "../progress";
 import confetti from "canvas-confetti";
 import { Check, X as XIcon, Play, ArrowRight, RotateCcw, ChevronDown } from "lucide-react";
-import { playNote, releaseNote, startAudio, scheduleExercisePlayback, startMetronome, stopMetronome } from "../audio/pianoSampler";
+import { playNote, releaseNote, startAudio, scheduleExercisePlayback, startMetronome, stopMetronome, isSamplerReady } from "../audio/pianoSampler";
 import {
   createPracticeExpectedSequence,
   createPracticeMatcher,
@@ -98,6 +98,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
   const [pedalEngaged, setPedalEngaged] = useState(false);
   const [metronomeOn, setMetronomeOn] = useState(false);
   const [isPreviewing, setIsPreviewing] = useState(false);
+  const [isLoadingPiano, setIsLoadingPiano] = useState(false);
   const previewTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const [showCelebration, setShowCelebration] = useState(false);
@@ -148,8 +149,17 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
   }, [exercise.id]);
 
   const handlePreview = async () => {
-    if (isPreviewing) return;
+    if (isPreviewing || isLoadingPiano) return;
     await startAudio();
+    if (!isSamplerReady()) {
+      setIsLoadingPiano(true);
+      await new Promise<void>((resolve) => {
+        const check = setInterval(() => {
+          if (isSamplerReady()) { clearInterval(check); resolve(); }
+        }, 100);
+      });
+      setIsLoadingPiano(false);
+    }
     setIsPreviewing(true);
     const bpm = exercise.tempoBpm * tempoMultiplier;
     scheduleExercisePlayback(exercise.expectedNotes, bpm);
@@ -532,10 +542,10 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
           className={`preview-btn${isPreviewing ? " previewing" : ""}`}
           type="button"
           onClick={handlePreview}
-          disabled={isPreviewing}
+          disabled={isPreviewing || isLoadingPiano}
           title="Hear the exercise played through"
         >
-          {isPreviewing ? <><Play size={13} /> Listening…</> : <><Play size={13} /> Preview</>}
+          {isLoadingPiano ? <><Play size={13} /> Loading piano…</> : isPreviewing ? <><Play size={13} /> Listening…</> : <><Play size={13} /> Preview</>}
         </button>
       </div>
 

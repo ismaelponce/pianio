@@ -1,0 +1,44 @@
+<svg viewBox="0 0 200 236" xmlns="http://www.w3.org/2000/svg">
+  <!-- Right arm (behind body) -->
+  <path d="M150 120 C158 134 161 150 157 166" stroke="#2D2D2D" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M150 120 C158 134 161 150 157 166" stroke="#3B9AB2" stroke-width="10" stroke-linecap="round" fill="none"/>
+
+  <!-- Legs -->
+  <path d="M76 143 L70 197" stroke="#2D2D2D" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M76 143 L70 197" stroke="#3B9AB2" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M122 143 L128 197" stroke="#2D2D2D" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M122 143 L128 197" stroke="#3B9AB2" stroke-width="12" stroke-linecap="round" fill="none"/>
+
+  <!-- Shoes -->
+  <ellipse cx="64" cy="204" rx="16" ry="9" fill="white" stroke="#2D2D2D" stroke-width="2.5"/>
+  <ellipse cx="134" cy="204" rx="16" ry="9" fill="white" stroke="#2D2D2D" stroke-width="2.5"/>
+
+  <!-- Body 3D shadow -->
+  <rect x="36" y="99" width="118" height="48" rx="5" fill="#2D7A8E" stroke="#2D2D2D" stroke-width="2.5"/>
+
+  <!-- Left arm (behind body) -->
+  <path d="M40 120 C30 110 20 100 12 92" stroke="#2D2D2D" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M40 120 C30 110 20 100 12 92" stroke="#3B9AB2" stroke-width="10" stroke-linecap="round" fill="none"/>
+
+  <!-- Stem -->
+  <rect x="143" y="25" width="7" height="73" rx="1" fill="#3B9AB2" stroke="#2D2D2D" stroke-width="2.5"/>
+
+  <!-- Body -->
+  <rect x="32" y="95" width="118" height="48" rx="5" fill="#3B9AB2" stroke="#2D2D2D" stroke-width="2.5"/>
+
+  <!-- Flag -->
+  <path d="M147 26 C151 16 178 14 183 32 C186 46 168 50 150 54 Z" fill="#E8B84B" stroke="#2D2D2D" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Left eye -->
+  <ellipse cx="76" cy="113" rx="13" ry="14" fill="white" stroke="#2D2D2D" stroke-width="2.2"/>
+  <circle cx="73" cy="110" r="6.5" fill="#2D2D2D"/>
+  <circle cx="71" cy="108" r="2.2" fill="white"/>
+
+  <!-- Right eye -->
+  <ellipse cx="114" cy="113" rx="13" ry="14" fill="white" stroke="#2D2D2D" stroke-width="2.2"/>
+  <circle cx="111" cy="110" r="6.5" fill="#2D2D2D"/>
+  <circle cx="109" cy="108" r="2.2" fill="white"/>
+
+  <!-- Mouth -->
+  <path d="M88 130 Q95 137 102 130" stroke="#2D2D2D" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+</svg>

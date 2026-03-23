@@ -40,7 +40,12 @@ function getBackgroundSampler(): Tone.Sampler {
 
 export async function startAudio(): Promise<void> {
   await Tone.start();
-  getSampler(); // ensure sampler is created and samples start loading
+  getSampler();
+  getBackgroundSampler();
+}
+
+export function isSamplerReady(): boolean {
+  return getBackgroundSampler().loaded;
 }
 
 let metronomeLoop: Tone.Loop | null = null;

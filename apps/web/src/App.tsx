@@ -2,6 +2,7 @@ import { lazy, Suspense, useCallback, useEffect, useRef, useState, type ReactNod
 import type { CatalogCourse, CatalogExercise, GeneratedCatalog } from "@pianio/content-schema";
 import { getBestStars, getCompletedCount, getCompletedSlugs, getPracticeStreak, isExerciseComplete, recordPracticeDay, exportProgress, importProgress, resetProgress } from "./progress";
 import { describeMidiSupport } from "@pianio/midi-web";
+import { startAudio } from "./audio/pianoSampler";
 import { DiagnosticsScreen } from "./screens/DiagnosticsScreen";
 import {
   Check,
@@ -119,11 +120,30 @@ function PianioMascot({ height = 200 }: { height?: number }) {
       {/* Body 3D shadow */}
       <rect x="36" y="99" width="118" height="48" rx="5" fill="#2D7A8E" stroke="#2D2D2D" strokeWidth="2.5"/>
 
-      {/* Body */}
-      <rect x="32" y="95" width="118" height="48" rx="5" fill="#3B9AB2" stroke="#2D2D2D" strokeWidth="2.5"/>
+      {/* Left arm — waves once then drops to resting position */}
+      <g>
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          values="0 40 120;-20 40 120;5 40 120;-20 40 120;5 40 120;-20 40 120;0 40 120"
+          keyTimes="0;0.12;0.24;0.36;0.48;0.6;1"
+          dur="1.5s"
+          repeatCount="1"
+          fill="freeze"
+        />
+        <path d="M40 120 C30 110 20 100 12 92" stroke="#2D2D2D" strokeWidth="14" strokeLinecap="round" fill="none">
+          <animate attributeName="d" from="M40 120 C30 110 20 100 12 92" to="M40 120 C32 134 29 150 33 166" begin="1.5s" dur="0.6s" fill="freeze"/>
+        </path>
+        <path d="M40 120 C30 110 20 100 12 92" stroke="#3B9AB2" strokeWidth="10" strokeLinecap="round" fill="none">
+          <animate attributeName="d" from="M40 120 C30 110 20 100 12 92" to="M40 120 C32 134 29 150 33 166" begin="1.5s" dur="0.6s" fill="freeze"/>
+        </path>
+      </g>
 
       {/* Stem */}
       <rect x="143" y="25" width="7" height="73" rx="1" fill="#3B9AB2" stroke="#2D2D2D" strokeWidth="2.5"/>
+
+      {/* Body */}
+      <rect x="32" y="95" width="118" height="48" rx="5" fill="#3B9AB2" stroke="#2D2D2D" strokeWidth="2.5"/>
 
       {/* Flag */}
       <path d="M147 26 C151 16 178 14 183 32 C186 46 168 50 150 54 Z" fill="#E8B84B" stroke="#2D2D2D" strokeWidth="2.5" strokeLinejoin="round"/>
@@ -140,22 +160,6 @@ function PianioMascot({ height = 200 }: { height?: number }) {
 
       {/* Mouth */}
       <path d="M88 130 Q95 137 102 130" stroke="#2D2D2D" strokeWidth="2.2" strokeLinecap="round" fill="none"/>
-
-      {/* Left arm — waving */}
-      <g>
-        <animateTransform
-          attributeName="transform"
-          type="rotate"
-          values="0 40 120;-20 40 120;5 40 120;-20 40 120;5 40 120;-20 40 120;0 40 120;0 40 120"
-          keyTimes="0;0.08;0.16;0.24;0.32;0.4;0.5;1"
-          dur="2.5s"
-          repeatCount="indefinite"
-        />
-        <path d="M40 120 C30 110 20 100 12 92" stroke="#2D2D2D" strokeWidth="14" strokeLinecap="round" fill="none"/>
-        <path d="M40 120 C30 110 20 100 12 92" stroke="#3B9AB2" strokeWidth="10" strokeLinecap="round" fill="none"/>
-        <circle cx="11" cy="90" r="7" fill="#3B9AB2" stroke="#2D2D2D" strokeWidth="2.2"/>
-        <ellipse cx="8" cy="80" rx="3.5" ry="6" fill="#3B9AB2" stroke="#2D2D2D" strokeWidth="2" transform="rotate(-10 8 80)"/>
-      </g>
     </svg>
   );
 }
@@ -1131,7 +1135,7 @@ function TopNav({ midi, darkMode, setDarkMode, route }: {
   return (
     <header className="top-nav">
       <a className="top-nav-logo" href={getCatalogHref()}>
-        <img src="/pianio.png" alt="" className="top-nav-logo-icon" width={24} height={24} />
+        <img src="/pianio.svg" alt="" className="top-nav-logo-icon" width={24} height={24} />
         Pianio
       </a>
       <nav className="top-nav-links">
@@ -1175,6 +1179,20 @@ export default function App() {
     typeof window === "undefined" ? { screen: "catalog" } : parseRoute(window.location.hash)
   );
   const midi = describeMidiSupport();
+
+  useEffect(() => {
+    const handler = () => {
+      startAudio();
+      document.removeEventListener("click", handler);
+      document.removeEventListener("touchstart", handler);
+    };
+    document.addEventListener("click", handler, { once: true });
+    document.addEventListener("touchstart", handler, { once: true });
+    return () => {
+      document.removeEventListener("click", handler);
+      document.removeEventListener("touchstart", handler);
+    };
+  }, []);
 
   useEffect(() => {
     if (darkMode) {
