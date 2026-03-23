@@ -1,0 +1,316 @@
+{
+  "courseId": "method-level-4",
+  "title": "Method Level 4",
+  "level": 4,
+  "summary": "G major and D major scales, two-sharp key, syncopated rhythms, broken chords, and waltz in G to bridge into late-beginner reading.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "method4-001",
+      "slug": "g-scale-rh",
+      "title": "G Scale RH Full Octave",
+      "summary": "Right hand G major scale across a full octave with F-sharp.",
+      "goal": "Read and play all eight notes of G major evenly, noting the F-sharp.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:q", "B4:q", "C5:q"],
+        ["D5:q", "E5:q", "F#5:q", "G5:q"],
+        ["G5:w"]
+      ]
+    },
+    {
+      "id": "method4-002",
+      "slug": "g-scale-lh",
+      "title": "G Scale LH Full Octave",
+      "summary": "Left hand G major scale across a full octave in bass clef.",
+      "goal": "Read and play G major in bass clef with an accurate F-sharp.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 69,
+      "timeSignature": [4, 4],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G3:q", "A3:q", "B3:q", "C4:q"],
+        ["D4:q", "E4:q", "F#4:q", "G4:q"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "method4-003",
+      "slug": "d-major-rh",
+      "title": "D Major Five-Finger RH",
+      "summary": "Right hand D major five-finger pattern with F-sharp and C-sharp.",
+      "goal": "Play D major with accurate F-sharp and C-sharp in the right hand.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "keySignature": 2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "E4:q", "F#4:q", "G4:q"],
+        ["A4:q", "G4:q", "F#4:q", "E4:q"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "method4-004",
+      "slug": "d-major-lh",
+      "title": "D Major Five-Finger LH",
+      "summary": "Left hand D major five-finger pattern in bass clef.",
+      "goal": "Navigate D major with sharps in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 63,
+      "timeSignature": [4, 4],
+      "keySignature": 2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D3:q", "E3:q", "F#3:q", "G3:q"],
+        ["A3:q", "G3:q", "F#3:q", "E3:q"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "method4-005",
+      "slug": "syncopated-rhythm",
+      "title": "Syncopated Rhythm Study",
+      "summary": "A melody using the quarter–eighth–eighth–quarter–quarter syncopation pattern.",
+      "goal": "Feel and play the off-beat push of a syncopated rhythm.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "E4:e", "F4:e", "G4:q", "A4:q"],
+        ["G4:q", "E4:e", "F4:e", "E4:q", "D4:q"],
+        ["C4:q", "D4:e", "E4:e", "F4:q", "G4:q"],
+        ["A4:h", "C4:h"]
+      ]
+    },
+    {
+      "id": "method4-006",
+      "slug": "eighth-etude",
+      "title": "Eighth-Note Étude",
+      "summary": "Ascending and descending C major through an extended range in eighth notes.",
+      "goal": "Keep eighth notes even across register shifts in an extended scale passage.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["D5:e", "E5:e", "F5:e", "G5:e", "F5:e", "E5:e", "D5:e", "C5:e"],
+        ["B4:e", "A4:e", "G4:e", "F4:e", "E4:e", "D4:e", "C4:e", "D4:e"],
+        ["E4:h", "C4:h"]
+      ]
+    },
+    {
+      "id": "method4-007",
+      "slug": "bass-arpeggio-lh",
+      "title": "Bass Arpeggio Pattern LH",
+      "summary": "Left hand broken-chord pattern spanning C and G bass positions.",
+      "goal": "Play a flowing arpeggiated bass line in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["G2:e", "G3:e", "B3:e", "G3:e", "G2:e", "G3:e", "B3:e", "G3:e"],
+        ["A2:e", "E3:e", "C3:e", "E3:e", "F2:e", "C3:e", "A2:e", "C3:e"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "method4-008",
+      "slug": "g-major-melody",
+      "title": "G Major Melody",
+      "summary": "An extended melody in G major spanning a full octave.",
+      "goal": "Play a flowing G major melody with accurate F-sharps throughout.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "B4:q", "D5:q", "B4:q"],
+        ["C5:q", "A4:q", "B4:h"],
+        ["G4:q", "A4:q", "B4:q", "C5:q"],
+        ["D5:q", "C5:q", "B4:h"],
+        ["A4:q", "B4:q", "C5:q", "A4:q"],
+        ["B4:h", "G4:h"],
+        ["G4:q", "F#5:q", "E5:q", "D5:q"],
+        ["G5:h", "G4:h"]
+      ]
+    },
+    {
+      "id": "method4-009",
+      "slug": "waltz-in-g",
+      "title": "Waltz in G Major",
+      "summary": "A flowing waltz melody in G major with F-sharp colour.",
+      "goal": "Play G major in three-four time with a graceful waltz phrasing.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [3, 4],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "D5:q", "B4:q"],
+        ["A4:h", "G4:q"],
+        ["B4:q", "C5:q", "D5:q"],
+        ["G5:h", "R:q"],
+        ["F#5:q", "E5:q", "D5:q"],
+        ["C5:h", "B4:q"],
+        ["A4:q", "B4:q", "C5:q"],
+        ["G4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "method4-010",
+      "slug": "d-minor-melody",
+      "title": "D Minor Melody",
+      "summary": "A melody in D natural minor with expressive B-flat colour.",
+      "goal": "Feel the D minor sound across a phrase with an accurate B-flat.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "keySignature": -1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "F4:q", "A4:q", "C5:q"],
+        ["Bb4:q", "A4:q", "G4:h"],
+        ["F4:q", "G4:q", "A4:q", "Bb4:q"],
+        ["A4:h", "D4:h"]
+      ]
+    },
+    {
+      "id": "method4-011",
+      "slug": "eighth-syncopation",
+      "title": "Eighth-Note Syncopation",
+      "summary": "Off-beat eighth-note patterns creating a lively syncopated effect.",
+      "goal": "Accurately place eighth notes between the beats without rushing.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["E4:e", "F4:e", "G4:q", "A4:q", "G4:q"],
+        ["F4:e", "E4:e", "D4:q", "E4:q", "D4:q"],
+        ["C4:e", "D4:e", "E4:q", "F4:q", "E4:q"],
+        ["G4:h", "C4:h"]
+      ]
+    },
+    {
+      "id": "method4-012",
+      "slug": "g-broken-chord",
+      "title": "G Major Broken Chord Melody",
+      "summary": "A melody built from ascending and descending G major triad arpeggios.",
+      "goal": "Connect the triad tones into one smooth melodic arc.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "B4:e", "D5:q", "G5:h"],
+        ["D5:e", "B4:e", "G4:q", "D4:h"],
+        ["G4:e", "B4:e", "D5:e", "G5:e", "D5:e", "B4:e", "G4:e", "D4:e"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "method4-013",
+      "slug": "register-leaps",
+      "title": "Register Leap Melody",
+      "summary": "Wide leaps between registers demanding quick visual scanning.",
+      "goal": "Read and play large leaps without hesitation across two octaves.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G5:q", "C4:q", "E5:q", "C4:q"],
+        ["F5:q", "D4:q", "A4:q", "F4:q"],
+        ["E4:q", "G4:q", "B4:q", "G4:q"],
+        ["C5:h", "C4:h"]
+      ]
+    },
+    {
+      "id": "method4-014",
+      "slug": "level-four-review",
+      "title": "Level Four Review",
+      "summary": "A review phrase drawing on D major, sharps, and mixed rhythms.",
+      "goal": "Apply Level 4 skills: two-sharp key, syncopation, and wide range.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "keySignature": 2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "F#4:q", "A4:q", "F#4:q"],
+        ["E4:e", "F#4:e", "G4:q", "A4:h"],
+        ["F#4:e", "E4:e", "D4:q", "C#4:q", "D4:q"],
+        ["A3:q", "D4:q", "E4:q", "F#4:q"],
+        ["G4:h", "F#4:h"],
+        ["E4:q", "D4:q", "C#4:q", "D4:q"],
+        ["A4:e", "G4:e", "F#4:q", "E4:q", "D4:q"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "method4-015",
+      "slug": "level-four-finale",
+      "title": "Level Four Finale",
+      "summary": "A complete melody combining G major, syncopation, and wide leaps.",
+      "goal": "Demonstrate Level 4 fluency: sharp key, rhythmic variety, and range.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "A4:e", "B4:q", "C5:q", "D5:q"],
+        ["E5:h", "D5:h"],
+        ["C5:q", "B4:q", "A4:q", "G4:q"],
+        ["F#4:q", "G4:q", "A4:h"],
+        ["B4:e", "C5:e", "D5:q", "E5:q", "D5:q"],
+        ["C5:h", "B4:h"],
+        ["A4:q", "B4:q", "C5:q", "A4:q"],
+        ["G4:w"]
+      ]
+    }
+  ]
+}

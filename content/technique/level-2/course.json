@@ -1,0 +1,288 @@
+{
+  "courseId": "technique-level-2",
+  "title": "Technique Level 2",
+  "level": 2,
+  "summary": "G major and A minor scales, Hanon finger patterns, broken triads, and position shifts building on Level 1 technique.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "tech2-001",
+      "slug": "g-major-rh-up",
+      "title": "G Major RH Ascent",
+      "summary": "Right hand G major scale ascending.",
+      "goal": "Play G major with an even touch and correct F-sharp.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:q", "B4:q", "C5:q"],
+        ["D5:q", "E5:q", "F#5:q", "G5:q"],
+        ["G5:w"]
+      ]
+    },
+    {
+      "id": "tech2-002",
+      "slug": "g-major-rh-down",
+      "title": "G Major RH Descent",
+      "summary": "Right hand G major scale descending.",
+      "goal": "Descend G major smoothly with no hesitation on F-sharp.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G5:q", "F#5:q", "E5:q", "D5:q"],
+        ["C5:q", "B4:q", "A4:q", "G4:q"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "tech2-003",
+      "slug": "g-major-lh-up",
+      "title": "G Major LH Ascent",
+      "summary": "Left hand G major scale ascending in bass clef.",
+      "goal": "Play the G major scale with the left hand, noting F-sharp.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G2:q", "A2:q", "B2:q", "C3:q"],
+        ["D3:q", "E3:q", "F#3:q", "G3:q"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "tech2-004",
+      "slug": "g-major-lh-down",
+      "title": "G Major LH Descent",
+      "summary": "Left hand G major scale descending.",
+      "goal": "Descend the G major scale in bass clef evenly.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G3:q", "F#3:q", "E3:q", "D3:q"],
+        ["C3:q", "B2:q", "A2:q", "G2:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "tech2-005",
+      "slug": "a-minor-rh-up",
+      "title": "A Natural Minor RH",
+      "summary": "Right hand A natural minor scale ascending.",
+      "goal": "Recognize and play the natural minor sound.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 69,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:q", "B4:q", "C5:q", "D5:q"],
+        ["E5:q", "F5:q", "G5:q", "A5:q"],
+        ["A5:w"]
+      ]
+    },
+    {
+      "id": "tech2-006",
+      "slug": "a-minor-lh-up",
+      "title": "A Natural Minor LH",
+      "summary": "Left hand A natural minor scale ascending.",
+      "goal": "Play A natural minor in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A2:q", "B2:q", "C3:q", "D3:q"],
+        ["E3:q", "F3:q", "G3:q", "A3:q"],
+        ["A3:w"]
+      ]
+    },
+    {
+      "id": "tech2-007",
+      "slug": "hanon-pattern-1-rh",
+      "title": "Hanon Pattern 1 RH",
+      "summary": "Ascending eighth-note finger drill in the right hand.",
+      "goal": "Build finger independence with an even eighth-note drill.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "F4:e", "E4:e", "D4:e"],
+        ["E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "A4:e", "G4:e", "F4:e"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "tech2-008",
+      "slug": "hanon-pattern-1-lh",
+      "title": "Hanon Pattern 1 LH",
+      "summary": "Ascending eighth-note finger drill in the left hand.",
+      "goal": "Build left-hand finger independence with the same drill.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:e", "D3:e", "E3:e", "F3:e", "G3:e", "F3:e", "E3:e", "D3:e"],
+        ["E3:e", "F3:e", "G3:e", "A3:e", "B3:e", "A3:e", "G3:e", "F3:e"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "tech2-009",
+      "slug": "g-triad-rh-broken",
+      "title": "G Triad RH Broken",
+      "summary": "Right hand G major broken triad pattern.",
+      "goal": "Arpeggiate the G major triad cleanly.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "B4:q", "D5:q", "B4:q"],
+        ["G4:q", "D5:q", "B4:q", "G4:q"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "tech2-010",
+      "slug": "g-triad-lh-broken",
+      "title": "G Triad LH Broken",
+      "summary": "Left hand G major broken triad pattern.",
+      "goal": "Arpeggiate the G major triad with the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G2:q", "B2:q", "D3:q", "B2:q"],
+        ["G2:q", "D3:q", "B2:q", "G2:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "tech2-011",
+      "slug": "position-shift-rh",
+      "title": "Position Shift RH",
+      "summary": "Right hand shifts from C position to G position.",
+      "goal": "Shift hand positions fluidly without pausing.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "F4:q"],
+        ["G4:q", "A4:q", "B4:q", "C5:q"],
+        ["D5:h", "C5:h"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "tech2-012",
+      "slug": "repeated-note-rh",
+      "title": "Repeated Note Speed RH",
+      "summary": "Fast repeated notes on each finger of the right hand.",
+      "goal": "Lift and replant each finger quickly for repeated notes.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "C4:e", "D4:e", "D4:e", "E4:e", "E4:e", "F4:e", "F4:e"],
+        ["G4:e", "G4:e", "F4:e", "F4:e", "E4:e", "E4:e", "D4:e", "D4:e"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "tech2-013",
+      "slug": "octave-reach-rh",
+      "title": "Octave Reach RH",
+      "summary": "Alternating low and high C, G, and E to practise large stretches.",
+      "goal": "Land octave leaps accurately without tension.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:h", "C5:h"],
+        ["G4:h", "G5:h"],
+        ["E4:h", "E5:h"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "tech2-014",
+      "slug": "technique-level-2-checkpoint",
+      "title": "Technique Level 2 Checkpoint",
+      "summary": "G major melody combining scales, skips, and eighth notes.",
+      "goal": "Apply all Level 2 techniques in a flowing G major passage.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:q", "B4:q", "C5:q"],
+        ["D5:e", "C5:e", "B4:q", "A4:h"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "tech2-015",
+      "slug": "technique-level-2-finale",
+      "title": "Technique Level 2 Finale",
+      "summary": "Full G major run with a descent and cadence.",
+      "goal": "Demonstrate fluency across the full G major scale range.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "A4:e", "B4:e", "C5:e", "D5:e", "C5:e", "B4:e", "A4:e"],
+        ["G4:q", "D5:q", "B4:q", "G4:q"],
+        ["G5:h", "F#5:q", "E5:q"],
+        ["G4:w"]
+      ]
+    }
+  ]
+}

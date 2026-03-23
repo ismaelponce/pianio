@@ -1,0 +1,416 @@
+{
+  "courseId": "technique-level-6a",
+  "title": "Technique Level 6A — Trill Exercises",
+  "level": 6,
+  "summary": "Written-out trill patterns on every scale degree in multiple keys — building finger speed and evenness for ornamental playing.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "t6a-001",
+      "slug": "trill-c-d-rh",
+      "title": "Trill C-D RH",
+      "summary": "Written-out trill alternating C4 and D4 in eighth notes.",
+      "goal": "Play the C-D trill evenly at 100 BPM — no accent on either note.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "C4:e", "D4:e", "C4:e", "D4:e", "C4:e", "D4:e"],
+        ["C4:e", "D4:e", "C4:e", "D4:e", "C4:e", "D4:e", "C4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t6a-002",
+      "slug": "trill-d-e-rh",
+      "title": "Trill D-E RH",
+      "summary": "Written-out trill alternating D4 and E4.",
+      "goal": "Play the D-E trill evenly — weak-finger pair (2-3).",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "D4:e", "E4:e", "D4:e", "E4:e", "D4:e", "E4:e"],
+        ["D4:e", "E4:e", "D4:e", "E4:e", "D4:e", "E4:e", "D4:q"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "t6a-003",
+      "slug": "trill-e-f-rh",
+      "title": "Trill E-F RH",
+      "summary": "Written-out trill alternating E4 and F4.",
+      "goal": "Play the E-F trill — 3-4 finger pair, often the weakest.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["E4:e", "F4:e", "E4:e", "F4:e", "E4:e", "F4:e", "E4:e", "F4:e"],
+        ["E4:e", "F4:e", "E4:e", "F4:e", "E4:e", "F4:e", "E4:q"],
+        ["E4:w"]
+      ]
+    },
+    {
+      "id": "t6a-004",
+      "slug": "trill-f-g-rh",
+      "title": "Trill F-G RH",
+      "summary": "Written-out trill alternating F4 and G4.",
+      "goal": "Play the F-G trill — 4-5 finger pair at 96 BPM.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F4:e", "G4:e", "F4:e", "G4:e", "F4:e", "G4:e", "F4:e", "G4:e"],
+        ["F4:e", "G4:e", "F4:e", "G4:e", "F4:e", "G4:e", "F4:q"],
+        ["F4:w"]
+      ]
+    },
+    {
+      "id": "t6a-005",
+      "slug": "trill-scale-c-rh",
+      "title": "Trill on Each Scale Degree C Major RH",
+      "summary": "One-beat trill on each note of the C major scale ascending.",
+      "goal": "Move the trill up the scale — shift hand position smoothly between trills.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "C4:e", "D4:e", "D4:e", "E4:e", "D4:e", "E4:e"],
+        ["E4:e", "F4:e", "E4:e", "F4:e", "F4:e", "G4:e", "F4:e", "G4:e"],
+        ["G4:e", "A4:e", "G4:e", "A4:e", "A4:e", "B4:e", "A4:e", "B4:e"],
+        ["B4:e", "C5:e", "B4:e", "C5:e", "C5:h"]
+      ]
+    },
+    {
+      "id": "t6a-006",
+      "slug": "trill-scale-c-lh",
+      "title": "Trill on Each Scale Degree C Major LH",
+      "summary": "One-beat trill on each note of the C major scale, left hand.",
+      "goal": "Move the trill up the scale in the left hand — build LH trill strength.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:e", "D3:e", "C3:e", "D3:e", "D3:e", "E3:e", "D3:e", "E3:e"],
+        ["E3:e", "F3:e", "E3:e", "F3:e", "F3:e", "G3:e", "F3:e", "G3:e"],
+        ["G3:e", "A3:e", "G3:e", "A3:e", "A3:e", "B3:e", "A3:e", "B3:e"],
+        ["B3:e", "C4:e", "B3:e", "C4:e", "C4:h"]
+      ]
+    },
+    {
+      "id": "t6a-007",
+      "slug": "trill-g-major-rh",
+      "title": "Trill on Each Scale Degree G Major RH",
+      "summary": "One-beat trill on each note of the G major scale.",
+      "goal": "Navigate trills through G major with F#.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "A4:e", "G4:e", "A4:e", "A4:e", "B4:e", "A4:e", "B4:e"],
+        ["B4:e", "C5:e", "B4:e", "C5:e", "C5:e", "D5:e", "C5:e", "D5:e"],
+        ["D5:e", "E5:e", "D5:e", "E5:e", "E5:e", "F#5:e", "E5:e", "F#5:e"],
+        ["F#5:e", "G5:e", "F#5:e", "G5:e", "G5:h"]
+      ]
+    },
+    {
+      "id": "t6a-008",
+      "slug": "trill-d-major-rh",
+      "title": "Trill on Each Scale Degree D Major RH",
+      "summary": "One-beat trill on each note of the D major scale.",
+      "goal": "Navigate trills through D major with F# and C#.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "D4:e", "E4:e", "E4:e", "F#4:e", "E4:e", "F#4:e"],
+        ["F#4:e", "G4:e", "F#4:e", "G4:e", "G4:e", "A4:e", "G4:e", "A4:e"],
+        ["A4:e", "B4:e", "A4:e", "B4:e", "B4:e", "C#5:e", "B4:e", "C#5:e"],
+        ["C#5:e", "D5:e", "C#5:e", "D5:e", "D5:h"]
+      ]
+    },
+    {
+      "id": "t6a-009",
+      "slug": "trill-f-major-rh",
+      "title": "Trill on Each Scale Degree F Major RH",
+      "summary": "One-beat trill on each note of the F major scale.",
+      "goal": "Navigate trills through F major with Bb.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F4:e", "G4:e", "F4:e", "G4:e", "G4:e", "A4:e", "G4:e", "A4:e"],
+        ["A4:e", "Bb4:e", "A4:e", "Bb4:e", "Bb4:e", "C5:e", "Bb4:e", "C5:e"],
+        ["C5:e", "D5:e", "C5:e", "D5:e", "D5:e", "E5:e", "D5:e", "E5:e"],
+        ["E5:e", "F5:e", "E5:e", "F5:e", "F5:h"]
+      ]
+    },
+    {
+      "id": "t6a-010",
+      "slug": "trill-a-major-rh",
+      "title": "Trill on Each Scale Degree A Major RH",
+      "summary": "One-beat trill on each note of the A major scale.",
+      "goal": "Navigate trills through three sharps in A major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "B4:e", "A4:e", "B4:e", "B4:e", "C#5:e", "B4:e", "C#5:e"],
+        ["C#5:e", "D5:e", "C#5:e", "D5:e", "D5:e", "E5:e", "D5:e", "E5:e"],
+        ["E5:e", "F#5:e", "E5:e", "F#5:e", "F#5:e", "G#5:e", "F#5:e", "G#5:e"],
+        ["G#5:e", "A5:e", "G#5:e", "A5:e", "A5:h"]
+      ]
+    },
+    {
+      "id": "t6a-011",
+      "slug": "trill-long-c-rh",
+      "title": "Long Trill C-D with Resolution RH",
+      "summary": "Extended trill on C with D, resolving to E — Baroque trill practice.",
+      "goal": "Sustain a long trill evenly and resolve cleanly to the target note.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "C4:e", "D4:e", "C4:e", "D4:e", "C4:e", "D4:e"],
+        ["C4:e", "D4:e", "C4:e", "D4:e", "C4:e", "D4:e", "E4:q"],
+        ["E4:w"]
+      ]
+    },
+    {
+      "id": "t6a-012",
+      "slug": "trill-long-e-rh",
+      "title": "Long Trill E-F with Resolution RH",
+      "summary": "Extended trill on E with F, resolving to G.",
+      "goal": "Sustain the weakest-finger trill (3-4) and resolve cleanly.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["E4:e", "F4:e", "E4:e", "F4:e", "E4:e", "F4:e", "E4:e", "F4:e"],
+        ["E4:e", "F4:e", "E4:e", "F4:e", "E4:e", "F4:e", "G4:q"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "t6a-013",
+      "slug": "trill-ht-c",
+      "title": "Trill with Accompaniment in C HT",
+      "summary": "Right hand trill over left hand sustained chords.",
+      "goal": "Maintain an even trill while the other hand holds steady — independence test.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C5:e", "D5:e", "C5:e", "D5:e", "C5:e", "D5:e", "C5:e", "D5:e"],
+        ["E5:e", "F5:e", "E5:e", "F5:e", "E5:e", "F5:e", "G5:q"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["[C3,E3,G3]:w"],
+        ["[C3,E3,G3]:h", "[G2,B2,D3]:h"],
+        ["[C3,E3,G3]:w"]
+      ]
+    },
+    {
+      "id": "t6a-014",
+      "slug": "trill-ht-g",
+      "title": "Trill with Accompaniment in G HT",
+      "summary": "Right hand trill over left hand G major chords.",
+      "goal": "Maintain a trill over chord changes in G major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G5:e", "A5:e", "G5:e", "A5:e", "G5:e", "A5:e", "G5:e", "A5:e"],
+        ["B5:e", "C5:e", "B5:e", "C5:e", "B5:e", "C5:e", "D5:q"],
+        ["G5:w"]
+      ],
+      "measuresLeft": [
+        ["[G2,B2,D3]:w"],
+        ["[G2,B2,D3]:h", "[D3,F#3,A3]:h"],
+        ["[G2,B2,D3]:w"]
+      ]
+    },
+    {
+      "id": "t6a-015",
+      "slug": "trill-bb-major-rh",
+      "title": "Trill on Each Scale Degree Bb Major RH",
+      "summary": "One-beat trill on each note of the Bb major scale.",
+      "goal": "Navigate trills through Bb major with two flats.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:e", "C5:e", "Bb4:e", "C5:e", "C5:e", "D5:e", "C5:e", "D5:e"],
+        ["D5:e", "Eb5:e", "D5:e", "Eb5:e", "Eb5:e", "F5:e", "Eb5:e", "F5:e"],
+        ["F5:e", "G5:e", "F5:e", "G5:e", "G5:e", "A5:e", "G5:e", "A5:e"],
+        ["A5:e", "Bb5:e", "A5:e", "Bb5:e", "Bb5:h"]
+      ]
+    },
+    {
+      "id": "t6a-016",
+      "slug": "trill-eb-major-rh",
+      "title": "Trill on Each Scale Degree Eb Major RH",
+      "summary": "One-beat trill on each note of the Eb major scale.",
+      "goal": "Navigate trills through three flats in Eb major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:e", "F4:e", "Eb4:e", "F4:e", "F4:e", "G4:e", "F4:e", "G4:e"],
+        ["G4:e", "Ab4:e", "G4:e", "Ab4:e", "Ab4:e", "Bb4:e", "Ab4:e", "Bb4:e"],
+        ["Bb4:e", "C5:e", "Bb4:e", "C5:e", "C5:e", "D5:e", "C5:e", "D5:e"],
+        ["D5:e", "Eb5:e", "D5:e", "Eb5:e", "Eb5:h"]
+      ]
+    },
+    {
+      "id": "t6a-017",
+      "slug": "trill-speed-c-rh",
+      "title": "Speed Trill C-D at 112 BPM RH",
+      "summary": "Fast trill at elevated tempo — pushing finger speed.",
+      "goal": "Sustain an even trill at 112 BPM — speed and control combined.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 112,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C5:e", "D5:e", "C5:e", "D5:e", "C5:e", "D5:e", "C5:e", "D5:e"],
+        ["C5:e", "D5:e", "C5:e", "D5:e", "C5:e", "D5:e", "C5:e", "D5:e"],
+        ["C5:e", "D5:e", "C5:e", "D5:e", "E5:h"]
+      ]
+    },
+    {
+      "id": "t6a-018",
+      "slug": "trill-chain-c-rh",
+      "title": "Trill Chain C Major Ascending RH",
+      "summary": "Chain of short trills moving up the C major scale without stopping.",
+      "goal": "Shift trill positions seamlessly while ascending — a Baroque staple.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "C4:e", "D4:e", "E4:e", "F4:e", "E4:e", "F4:e"],
+        ["G4:e", "A4:e", "G4:e", "A4:e", "B4:e", "C5:e", "B4:e", "C5:e"],
+        ["D5:e", "E5:e", "D5:e", "E5:e", "F5:e", "G5:e", "F5:e", "G5:e"],
+        ["A5:e", "B5:e", "A5:e", "B5:e", "C5:h"]
+      ]
+    },
+    {
+      "id": "t6a-019",
+      "slug": "trill-lh-scale-c",
+      "title": "Trill Chain C Major Ascending LH",
+      "summary": "Chain of short trills moving up the C major scale in the left hand.",
+      "goal": "Build left hand trill strength ascending through C major.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:e", "D3:e", "C3:e", "D3:e", "E3:e", "F3:e", "E3:e", "F3:e"],
+        ["G3:e", "A3:e", "G3:e", "A3:e", "B3:e", "C4:e", "B3:e", "C4:e"],
+        ["D4:e", "E4:e", "D4:e", "E4:e", "F4:e", "G4:e", "F4:e", "G4:e"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t6a-020",
+      "slug": "trill-mastery-ht",
+      "title": "Trill Mastery Review HT",
+      "summary": "Both hands trill exercises across C, G, D keys — the L6A mastery test.",
+      "goal": "Demonstrate trill fluency in both hands across multiple keys.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C5:e", "D5:e", "C5:e", "D5:e", "E5:e", "F5:e", "E5:e", "F5:e"],
+        ["G5:e", "A5:e", "G5:e", "A5:e", "B5:e", "C5:e", "B5:e", "C5:e"],
+        ["D5:e", "E5:e", "D5:e", "E5:e", "F#5:e", "G5:e", "F#5:e", "G5:e"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "D3:e", "C3:e", "D3:e", "E3:e", "F3:e", "E3:e", "F3:e"],
+        ["G3:e", "A3:e", "G3:e", "A3:e", "B3:e", "C4:e", "B3:e", "C4:e"],
+        ["D3:e", "E3:e", "D3:e", "E3:e", "F#3:e", "G3:e", "F#3:e", "G3:e"],
+        ["C3:w"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.pnpm-*
+
+# Build outputs
+dist/
+build/
+.turbo/
+
+# Generated content (produced by scripts/generate-content.mjs at build time)
+apps/web/public/generated/
+
+# Test artifacts
+packages/midi-web/.test-dist/
+
+# Firebase
+.firebase/
+.firebaserc
+
+# Environment variables
+.env
+.env.*
+!.env.example
+*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# TypeScript incremental build info
+*.tsbuildinfo

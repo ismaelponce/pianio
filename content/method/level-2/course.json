@@ -1,0 +1,285 @@
+{
+  "courseId": "method-level-2",
+  "title": "Method Level 2",
+  "level": 2,
+  "summary": "Expanded positions, 3/4 time, eighth-note melodies, and wider hand ranges building on Level 1.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "method2-001",
+      "slug": "d-position-steps",
+      "title": "D Position Steps",
+      "summary": "Five-note reading from D4 with one sharp.",
+      "goal": "Navigate the D position with F-sharp.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 63,
+      "timeSignature": [4, 4],
+      "keySignature": 2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "E4:q", "F#4:q", "G4:q"],
+        ["A4:q", "G4:q", "F#4:q", "E4:q"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "method2-002",
+      "slug": "d-position-bass",
+      "title": "D Position Bass",
+      "summary": "Left hand D position in bass clef.",
+      "goal": "Read D-position notes in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "keySignature": 2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D3:q", "E3:q", "F#3:q", "G3:q"],
+        ["A3:q", "G3:q", "F#3:q", "E3:q"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "method2-003",
+      "slug": "eighth-note-walk",
+      "title": "Eighth Note Walk",
+      "summary": "Continuous eighth notes through the C five-finger position.",
+      "goal": "Keep eighth notes even and steady.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "F4:e", "E4:e", "D4:e"],
+        ["C4:q", "E4:q", "G4:h"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "method2-004",
+      "slug": "waltz-step",
+      "title": "Waltz Step",
+      "summary": "First piece in three-four time.",
+      "goal": "Feel the three-beat waltz pulse.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 84,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q"],
+        ["F4:q", "E4:q", "D4:q"],
+        ["E4:q", "D4:q", "C4:q"],
+        ["C4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "method2-005",
+      "slug": "bass-waltz",
+      "title": "Bass Waltz",
+      "summary": "Three-four time in the left hand.",
+      "goal": "Count three beats per measure in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 80,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "E3:q", "G3:q"],
+        ["G3:q", "E3:q", "C3:q"],
+        ["D3:q", "F3:q", "A3:q"],
+        ["G3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "method2-006",
+      "slug": "g-position-intro",
+      "title": "G Position Intro",
+      "summary": "Right hand reading from G4 to D5.",
+      "goal": "Shift hand position to G and read fluently.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:q", "B4:q", "C5:q"],
+        ["D5:q", "C5:q", "B4:q", "A4:q"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "method2-007",
+      "slug": "g-position-bass",
+      "title": "G Position Bass",
+      "summary": "Left hand G position in bass clef.",
+      "goal": "Read the G five-finger position in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 63,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G2:q", "A2:q", "B2:q", "C3:q"],
+        ["D3:q", "C3:q", "B2:q", "A2:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "method2-008",
+      "slug": "skip-and-step-mix",
+      "title": "Skip and Step Mix",
+      "summary": "Alternating stepwise motion and skips.",
+      "goal": "Recognize and play steps vs skips in sequence.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "E4:q", "D4:q", "F4:q"],
+        ["E4:q", "G4:q", "F4:q", "A4:q"],
+        ["G4:h", "C4:h"]
+      ]
+    },
+    {
+      "id": "method2-009",
+      "slug": "mixed-values-melody",
+      "title": "Mixed Values Melody",
+      "summary": "Halves, quarters, and eighths in one piece.",
+      "goal": "Switch note lengths smoothly within a phrase.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 63,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:h", "D4:q", "E4:e", "F4:e"],
+        ["G4:h", "F4:q", "E4:e", "D4:e"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "method2-010",
+      "slug": "a-minor-walk",
+      "title": "A Minor Walk",
+      "summary": "Left hand reading through the A minor five-finger pattern.",
+      "goal": "Play the natural minor position in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A2:q", "B2:q", "C3:q", "D3:q"],
+        ["E3:q", "D3:q", "C3:q", "B2:q"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "method2-011",
+      "slug": "echo-octaves",
+      "title": "Echo Octaves",
+      "summary": "A phrase in treble then echoed an octave lower.",
+      "goal": "Read identical patterns at different octave heights.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C5:q", "D5:q", "E5:q", "F5:q"],
+        ["C4:q", "D4:q", "E4:q", "F4:q"],
+        ["G4:h", "C4:h"]
+      ]
+    },
+    {
+      "id": "method2-012",
+      "slug": "waltz-melody",
+      "title": "Waltz Melody",
+      "summary": "A flowing melody in three-four time.",
+      "goal": "Phrase a waltz melody with a three-beat lilt.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["E4:q", "F4:q", "G4:q"],
+        ["A4:h", "G4:q"],
+        ["F4:q", "E4:q", "D4:q"],
+        ["E4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "method2-013",
+      "slug": "eighth-bass-line",
+      "title": "Eighth Bass Line",
+      "summary": "Eighth note motion in the left hand.",
+      "goal": "Keep a smooth eighth-note bass line.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:e", "D3:e", "E3:e", "F3:e", "G3:e", "F3:e", "E3:e", "D3:e"],
+        ["C3:q", "G2:q", "C3:h"]
+      ]
+    },
+    {
+      "id": "method2-014",
+      "slug": "level-two-review",
+      "title": "Level Two Review",
+      "summary": "G position melody combining all Level 2 rhythms.",
+      "goal": "Apply G position and varied note values in one piece.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:q", "B4:q", "C5:q"],
+        ["D5:e", "C5:e", "B4:q", "A4:h"],
+        ["G4:h", "B4:h"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "method2-015",
+      "slug": "level-two-finale",
+      "title": "Level Two Finale",
+      "summary": "A complete ascending and descending run using all Level 2 positions.",
+      "goal": "Read fluently across C, G, and D positions.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["C5:q", "B4:q", "A4:q", "G4:q"],
+        ["F4:h", "E4:q", "D4:q"],
+        ["C4:w"]
+      ]
+    }
+  ]
+}

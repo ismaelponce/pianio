@@ -1,0 +1,481 @@
+{
+  "courseId": "technique-level-4b",
+  "title": "Technique Level 4B — Bb, Eb & Ab Major",
+  "level": 4,
+  "summary": "Scales and broken chords in Bb major, Eb major, and Ab major — building fluency in flat keys with hands separate and together.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "t4b-001",
+      "slug": "bb-major-scale-rh",
+      "title": "Bb Major Scale RH",
+      "summary": "Right hand Bb major scale with Bb and Eb.",
+      "goal": "Play Bb major RH with clean flats at 84 BPM.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb3:e", "C4:e", "D4:e", "Eb4:e", "F4:e", "G4:e", "A4:e", "Bb4:e"],
+        ["Bb4:e", "A4:e", "G4:e", "F4:e", "Eb4:e", "D4:e", "C4:e", "Bb3:e"],
+        ["Bb3:e", "C4:e", "D4:e", "Eb4:e", "F4:e", "G4:e", "A4:e", "Bb4:e"],
+        ["Bb4:w"]
+      ]
+    },
+    {
+      "id": "t4b-002",
+      "slug": "bb-major-scale-lh",
+      "title": "Bb Major Scale LH",
+      "summary": "Left hand Bb major scale with Bb and Eb.",
+      "goal": "Play Bb major LH with even tone through the flats.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -2,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb2:e", "C3:e", "D3:e", "Eb3:e", "F3:e", "G3:e", "A3:e", "Bb3:e"],
+        ["Bb3:e", "A3:e", "G3:e", "F3:e", "Eb3:e", "D3:e", "C3:e", "Bb2:e"],
+        ["Bb2:e", "C3:e", "D3:e", "Eb3:e", "F3:e", "G3:e", "A3:e", "Bb3:e"],
+        ["Bb3:w"]
+      ]
+    },
+    {
+      "id": "t4b-003",
+      "slug": "bb-major-scale-ht",
+      "title": "Bb Major Scale HT",
+      "summary": "Hands together Bb major scale in parallel motion.",
+      "goal": "Play Bb major HT with synchronized flats.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:e", "C5:e", "D5:e", "Eb5:e", "F5:e", "G5:e", "A5:e", "Bb5:e"],
+        ["Bb5:e", "A5:e", "G5:e", "F5:e", "Eb5:e", "D5:e", "C5:e", "Bb4:e"],
+        ["Bb4:e", "C5:e", "D5:e", "Eb5:e", "F5:e", "G5:e", "A5:e", "Bb5:e"],
+        ["Bb5:w"]
+      ],
+      "measuresLeft": [
+        ["Bb2:e", "C3:e", "D3:e", "Eb3:e", "F3:e", "G3:e", "A3:e", "Bb3:e"],
+        ["Bb3:e", "A3:e", "G3:e", "F3:e", "Eb3:e", "D3:e", "C3:e", "Bb2:e"],
+        ["Bb2:e", "C3:e", "D3:e", "Eb3:e", "F3:e", "G3:e", "A3:e", "Bb3:e"],
+        ["Bb3:w"]
+      ]
+    },
+    {
+      "id": "t4b-004",
+      "slug": "bb-major-broken-chord",
+      "title": "Bb Major Broken Chord",
+      "summary": "Bb major broken chord pattern (Bb-D-F) ascending and descending.",
+      "goal": "Play the Bb major broken chord smoothly.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb3:e", "D4:e", "F4:e", "Bb4:e", "F4:e", "D4:e", "Bb3:e", "R:e"],
+        ["Bb3:e", "D4:e", "F4:e", "Bb4:e", "F4:e", "D4:e", "Bb3:e", "R:e"],
+        ["Bb3:q", "D4:q", "F4:q", "Bb4:q"],
+        ["Bb4:w"]
+      ]
+    },
+    {
+      "id": "t4b-005",
+      "slug": "bb-major-arpeggio",
+      "title": "Bb Major Arpeggio",
+      "summary": "Bb major arpeggio over one octave.",
+      "goal": "Play the Bb major arpeggio with smooth finger crossings.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 76,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb3:q", "D4:q", "F4:q"],
+        ["Bb4:q", "F4:q", "D4:q"],
+        ["Bb3:q", "D4:q", "F4:q"],
+        ["Bb4:h", "R:q"],
+        ["Bb4:q", "F4:q", "D4:q"],
+        ["Bb3:q", "D4:q", "F4:q"],
+        ["Bb4:q", "F4:q", "D4:q"],
+        ["Bb3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "t4b-006",
+      "slug": "eb-major-scale-rh",
+      "title": "Eb Major Scale RH",
+      "summary": "Right hand Eb major scale with Bb, Eb, and Ab.",
+      "goal": "Play Eb major RH with all three flats clean and even.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "C5:e", "D5:e", "Eb5:e"],
+        ["Eb5:e", "D5:e", "C5:e", "Bb4:e", "Ab4:e", "G4:e", "F4:e", "Eb4:e"],
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "C5:e", "D5:e", "Eb5:e"],
+        ["Eb5:w"]
+      ]
+    },
+    {
+      "id": "t4b-007",
+      "slug": "eb-major-scale-lh",
+      "title": "Eb Major Scale LH",
+      "summary": "Left hand Eb major scale with Bb, Eb, and Ab.",
+      "goal": "Play Eb major LH with clean flats.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -3,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb3:e", "F3:e", "G3:e", "Ab3:e", "Bb3:e", "C4:e", "D4:e", "Eb4:e"],
+        ["Eb4:e", "D4:e", "C4:e", "Bb3:e", "Ab3:e", "G3:e", "F3:e", "Eb3:e"],
+        ["Eb3:e", "F3:e", "G3:e", "Ab3:e", "Bb3:e", "C4:e", "D4:e", "Eb4:e"],
+        ["Eb4:w"]
+      ]
+    },
+    {
+      "id": "t4b-008",
+      "slug": "eb-major-scale-ht",
+      "title": "Eb Major Scale HT",
+      "summary": "Hands together Eb major scale in parallel motion.",
+      "goal": "Play Eb major HT with all flats synchronized.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "C5:e", "D5:e", "Eb5:e"],
+        ["Eb5:e", "D5:e", "C5:e", "Bb4:e", "Ab4:e", "G4:e", "F4:e", "Eb4:e"],
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "C5:e", "D5:e", "Eb5:e"],
+        ["Eb5:w"]
+      ],
+      "measuresLeft": [
+        ["Eb3:e", "F3:e", "G3:e", "Ab3:e", "Bb3:e", "C4:e", "D4:e", "Eb4:e"],
+        ["Eb4:e", "D4:e", "C4:e", "Bb3:e", "Ab3:e", "G3:e", "F3:e", "Eb3:e"],
+        ["Eb3:e", "F3:e", "G3:e", "Ab3:e", "Bb3:e", "C4:e", "D4:e", "Eb4:e"],
+        ["Eb4:w"]
+      ]
+    },
+    {
+      "id": "t4b-009",
+      "slug": "eb-major-broken-chord",
+      "title": "Eb Major Broken Chord",
+      "summary": "Eb major broken chord pattern (Eb-G-Bb).",
+      "goal": "Play the Eb major broken chord smoothly.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:e", "G4:e", "Bb4:e", "Eb5:e", "Bb4:e", "G4:e", "Eb4:e", "R:e"],
+        ["Eb4:e", "G4:e", "Bb4:e", "Eb5:e", "Bb4:e", "G4:e", "Eb4:e", "R:e"],
+        ["Eb4:q", "G4:q", "Bb4:q", "Eb5:q"],
+        ["Eb5:w"]
+      ]
+    },
+    {
+      "id": "t4b-010",
+      "slug": "eb-major-arpeggio",
+      "title": "Eb Major Arpeggio",
+      "summary": "Eb major arpeggio over one octave.",
+      "goal": "Play the Eb major arpeggio with smooth crossings.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 76,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:q", "G4:q", "Bb4:q"],
+        ["Eb5:q", "Bb4:q", "G4:q"],
+        ["Eb4:q", "G4:q", "Bb4:q"],
+        ["Eb5:h", "R:q"],
+        ["Eb5:q", "Bb4:q", "G4:q"],
+        ["Eb4:q", "G4:q", "Bb4:q"],
+        ["Eb5:q", "Bb4:q", "G4:q"],
+        ["Eb4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "t4b-011",
+      "slug": "ab-major-scale-rh",
+      "title": "Ab Major Scale RH",
+      "summary": "Right hand Ab major scale with Bb, Eb, Ab, and Db.",
+      "goal": "Play Ab major RH with all four flats clean.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab3:e", "Bb3:e", "C4:e", "Db4:e", "Eb4:e", "F4:e", "G4:e", "Ab4:e"],
+        ["Ab4:e", "G4:e", "F4:e", "Eb4:e", "Db4:e", "C4:e", "Bb3:e", "Ab3:e"],
+        ["Ab3:e", "Bb3:e", "C4:e", "Db4:e", "Eb4:e", "F4:e", "G4:e", "Ab4:e"],
+        ["Ab4:w"]
+      ]
+    },
+    {
+      "id": "t4b-012",
+      "slug": "ab-major-scale-lh",
+      "title": "Ab Major Scale LH",
+      "summary": "Left hand Ab major scale with four flats.",
+      "goal": "Play Ab major LH with even tone through all flats.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -4,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab2:e", "Bb2:e", "C3:e", "Db3:e", "Eb3:e", "F3:e", "G3:e", "Ab3:e"],
+        ["Ab3:e", "G3:e", "F3:e", "Eb3:e", "Db3:e", "C3:e", "Bb2:e", "Ab2:e"],
+        ["Ab2:e", "Bb2:e", "C3:e", "Db3:e", "Eb3:e", "F3:e", "G3:e", "Ab3:e"],
+        ["Ab3:w"]
+      ]
+    },
+    {
+      "id": "t4b-013",
+      "slug": "ab-major-scale-ht",
+      "title": "Ab Major Scale HT",
+      "summary": "Hands together Ab major scale in parallel motion.",
+      "goal": "Play Ab major HT with all four flats synchronized.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab4:e", "Bb4:e", "C5:e", "Db5:e", "Eb5:e", "F5:e", "G5:e", "Ab5:e"],
+        ["Ab5:e", "G5:e", "F5:e", "Eb5:e", "Db5:e", "C5:e", "Bb4:e", "Ab4:e"],
+        ["Ab4:e", "Bb4:e", "C5:e", "Db5:e", "Eb5:e", "F5:e", "G5:e", "Ab5:e"],
+        ["Ab5:w"]
+      ],
+      "measuresLeft": [
+        ["Ab2:e", "Bb2:e", "C3:e", "Db3:e", "Eb3:e", "F3:e", "G3:e", "Ab3:e"],
+        ["Ab3:e", "G3:e", "F3:e", "Eb3:e", "Db3:e", "C3:e", "Bb2:e", "Ab2:e"],
+        ["Ab2:e", "Bb2:e", "C3:e", "Db3:e", "Eb3:e", "F3:e", "G3:e", "Ab3:e"],
+        ["Ab3:w"]
+      ]
+    },
+    {
+      "id": "t4b-014",
+      "slug": "ab-major-broken-chord",
+      "title": "Ab Major Broken Chord",
+      "summary": "Ab major broken chord pattern (Ab-C-Eb).",
+      "goal": "Play the Ab major broken chord smoothly.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab3:e", "C4:e", "Eb4:e", "Ab4:e", "Eb4:e", "C4:e", "Ab3:e", "R:e"],
+        ["Ab3:e", "C4:e", "Eb4:e", "Ab4:e", "Eb4:e", "C4:e", "Ab3:e", "R:e"],
+        ["Ab3:q", "C4:q", "Eb4:q", "Ab4:q"],
+        ["Ab4:w"]
+      ]
+    },
+    {
+      "id": "t4b-015",
+      "slug": "ab-major-arpeggio",
+      "title": "Ab Major Arpeggio",
+      "summary": "Ab major arpeggio over one octave.",
+      "goal": "Play the Ab major arpeggio with smooth finger crossings.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab3:q", "C4:q", "Eb4:q"],
+        ["Ab4:q", "Eb4:q", "C4:q"],
+        ["Ab3:q", "C4:q", "Eb4:q"],
+        ["Ab4:h", "R:q"],
+        ["Ab4:q", "Eb4:q", "C4:q"],
+        ["Ab3:q", "C4:q", "Eb4:q"],
+        ["Ab4:q", "Eb4:q", "C4:q"],
+        ["Ab3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "t4b-016",
+      "slug": "bb-minor-broken-chord",
+      "title": "Bb Minor Broken Chord",
+      "summary": "Bb minor broken chord pattern (Bb-Db-F) with both hands.",
+      "goal": "Play the Bb minor broken chord with both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb3:e", "Db4:e", "F4:e", "Bb4:e", "F4:e", "Db4:e", "Bb3:e", "R:e"],
+        ["Bb3:e", "Db4:e", "F4:e", "Bb4:e", "F4:e", "Db4:e", "Bb3:e", "R:e"],
+        ["Bb3:q", "Db4:q", "F4:q", "Bb4:q"],
+        ["Bb4:w"]
+      ],
+      "measuresLeft": [
+        ["Bb2:e", "Db3:e", "F3:e", "Bb3:e", "F3:e", "Db3:e", "Bb2:e", "R:e"],
+        ["Bb2:e", "Db3:e", "F3:e", "Bb3:e", "F3:e", "Db3:e", "Bb2:e", "R:e"],
+        ["Bb2:q", "Db3:q", "F3:q", "Bb3:q"],
+        ["Bb3:w"]
+      ]
+    },
+    {
+      "id": "t4b-017",
+      "slug": "eb-minor-arpeggio",
+      "title": "Eb Minor Arpeggio",
+      "summary": "Eb minor arpeggio (Eb-Gb-Bb) hands together.",
+      "goal": "Play the Eb minor arpeggio HT with smooth crossings.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -6,
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:q", "Gb4:q", "Bb4:q"],
+        ["Eb5:q", "Bb4:q", "Gb4:q"],
+        ["Eb4:q", "Gb4:q", "Bb4:q"],
+        ["Eb5:h", "R:q"],
+        ["Eb5:q", "Bb4:q", "Gb4:q"],
+        ["Eb4:q", "Gb4:q", "Bb4:q"],
+        ["Eb5:q", "Bb4:q", "Gb4:q"],
+        ["Eb4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["Eb3:q", "Gb3:q", "Bb3:q"],
+        ["Eb4:q", "Bb3:q", "Gb3:q"],
+        ["Eb3:q", "Gb3:q", "Bb3:q"],
+        ["Eb4:h", "R:q"],
+        ["Eb4:q", "Bb3:q", "Gb3:q"],
+        ["Eb3:q", "Gb3:q", "Bb3:q"],
+        ["Eb4:q", "Bb3:q", "Gb3:q"],
+        ["Eb3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "t4b-018",
+      "slug": "bb-major-i-iv-v",
+      "title": "I-IV-V in Bb Major",
+      "summary": "Chord progression Bb-Eb-F-Bb using blocked chords.",
+      "goal": "Play the I-IV-V-I progression in Bb major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[Bb3,D4,F4]:w"],
+        ["[Bb3,D4,F4]:w"],
+        ["[Bb3,Eb4,G4]:w"],
+        ["[Bb3,Eb4,G4]:w"],
+        ["[A3,C4,F4]:w"],
+        ["[A3,C4,F4]:w"],
+        ["[Bb3,D4,F4]:h", "[A3,C4,F4]:h"],
+        ["[Bb3,D4,F4]:w"]
+      ]
+    },
+    {
+      "id": "t4b-019",
+      "slug": "eb-major-i-iv-v",
+      "title": "I-IV-V in Eb Major",
+      "summary": "Chord progression Eb-Ab-Bb-Eb using blocked chords.",
+      "goal": "Play the I-IV-V-I progression in Eb major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[Eb4,G4,Bb4]:w"],
+        ["[Eb4,G4,Bb4]:w"],
+        ["[Eb4,Ab4,C5]:w"],
+        ["[Eb4,Ab4,C5]:w"],
+        ["[D4,F4,Bb4]:w"],
+        ["[D4,F4,Bb4]:w"],
+        ["[Eb4,G4,Bb4]:h", "[D4,F4,Bb4]:h"],
+        ["[Eb4,G4,Bb4]:w"]
+      ]
+    },
+    {
+      "id": "t4b-020",
+      "slug": "flat-key-scale-review",
+      "title": "Flat Key Scale Review",
+      "summary": "Combined review — Bb, Eb, and Ab major scales back to back.",
+      "goal": "Play all three flat-key scales smoothly in one exercise.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:e", "C5:e", "D5:e", "Eb5:e", "F5:e", "G5:e", "A5:e", "Bb5:e"],
+        ["Bb5:e", "A5:e", "G5:e", "F5:e", "Eb5:e", "D5:e", "C5:e", "Bb4:e"],
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "C5:e", "D5:e", "Eb5:e"],
+        ["Eb5:e", "D5:e", "C5:e", "Bb4:e", "Ab4:e", "G4:e", "F4:e", "Eb4:e"],
+        ["Ab4:e", "Bb4:e", "C5:e", "Db5:e", "Eb5:e", "F5:e", "G5:e", "Ab5:e"],
+        ["Ab5:e", "G5:e", "F5:e", "Eb5:e", "Db5:e", "C5:e", "Bb4:e", "Ab4:e"],
+        ["Bb4:q", "Eb4:q", "Ab4:q", "Bb4:q"],
+        ["Bb4:w"]
+      ],
+      "measuresLeft": [
+        ["Bb2:e", "C3:e", "D3:e", "Eb3:e", "F3:e", "G3:e", "A3:e", "Bb3:e"],
+        ["Bb3:e", "A3:e", "G3:e", "F3:e", "Eb3:e", "D3:e", "C3:e", "Bb2:e"],
+        ["Eb3:e", "F3:e", "G3:e", "Ab3:e", "Bb3:e", "C4:e", "D4:e", "Eb4:e"],
+        ["Eb4:e", "D4:e", "C4:e", "Bb3:e", "Ab3:e", "G3:e", "F3:e", "Eb3:e"],
+        ["Ab2:e", "Bb2:e", "C3:e", "Db3:e", "Eb3:e", "F3:e", "G3:e", "Ab3:e"],
+        ["Ab3:e", "G3:e", "F3:e", "Eb3:e", "Db3:e", "C3:e", "Bb2:e", "Ab2:e"],
+        ["Bb2:q", "Eb3:q", "Ab2:q", "Bb2:q"],
+        ["Bb2:w"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1580 @@
+{
+  "courseId": "method-level-6b",
+  "title": "Method Level 6B — Expansion",
+  "level": 6,
+  "summary": "Expansion: Bb harmonic minor (5 flats) introduced with Classical-style phrasing, E harmonic minor (1 sharp) as the contrasting sharp-side minor, chromatic passages, and hand-independence patterns — all exercises in grand staff.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "m6b-001",
+      "slug": "m6b-001",
+      "title": "Bb Harmonic Minor Scale — Grand Staff",
+      "summary": "Bb harmonic minor scale ascending and descending in both hands, featuring the raised leading tone A natural.",
+      "goal": "Navigate Bb harmonic minor in grand staff, placing A natural accurately as the raised 7th against the five-flat key signature.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "Db5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:q",
+          "Gb5:q",
+          "A5:q",
+          "Bb5:q"
+        ],
+        [
+          "Bb5:q",
+          "A5:q",
+          "Gb5:q",
+          "F5:q"
+        ],
+        [
+          "Eb5:q",
+          "Db5:q",
+          "C5:q",
+          "Bb4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb3:q",
+          "C4:q",
+          "Db4:q",
+          "Eb4:q"
+        ],
+        [
+          "F4:q",
+          "Gb4:q",
+          "A4:q",
+          "Bb4:q"
+        ],
+        [
+          "Bb4:q",
+          "A4:q",
+          "Gb4:q",
+          "F4:q"
+        ],
+        [
+          "Eb4:q",
+          "Db4:q",
+          "C4:q",
+          "Bb3:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-002",
+      "slug": "m6b-002",
+      "title": "Bb Harmonic Minor — Five-Finger Pattern",
+      "summary": "Five-note Bb harmonic minor pattern ascending and descending in both hands.",
+      "goal": "Build Bb harmonic minor five-finger fluency in grand staff before tackling the full scale.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "Db5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:h",
+          "Eb5:h"
+        ],
+        [
+          "Eb5:q",
+          "Db5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "Bb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb3:q",
+          "C4:q",
+          "Db4:q",
+          "Eb4:q"
+        ],
+        [
+          "F4:h",
+          "Eb4:h"
+        ],
+        [
+          "Eb4:q",
+          "Db4:q",
+          "C4:q",
+          "Bb3:q"
+        ],
+        [
+          "Bb3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-003",
+      "slug": "m6b-003",
+      "title": "Bb Harmonic Minor — Melody",
+      "summary": "Expressive melody in Bb harmonic minor with A natural resolving up to Bb.",
+      "goal": "Shape a cantabile line in Bb harmonic minor, using A natural to create dramatic leading-tone tension.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "Db5:q",
+          "F5:q",
+          "Db5:q"
+        ],
+        [
+          "Bb5:h",
+          "A5:q",
+          "Gb5:q"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "Db5:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb3:h",
+          "F4:h"
+        ],
+        [
+          "Bb3:h",
+          "Gb3:h"
+        ],
+        [
+          "F3:h",
+          "Bb2:h"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-004",
+      "slug": "m6b-004",
+      "title": "Bb Harmonic Minor — Étude in Eighths",
+      "summary": "Eighth-note étude through Bb harmonic minor including A natural as the raised leading tone.",
+      "goal": "Maintain even eighth-note motion in Bb harmonic minor, placing A natural accurately.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Db5:e",
+          "F5:e",
+          "Db5:e"
+        ],
+        [
+          "Eb5:e",
+          "F5:e",
+          "Gb5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "A4:e",
+          "Bb4:e",
+          "C5:e"
+        ],
+        [
+          "Bb4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb3:h",
+          "F4:h"
+        ],
+        [
+          "Bb3:h",
+          "Gb3:h"
+        ],
+        [
+          "F3:h",
+          "Eb3:h"
+        ],
+        [
+          "Bb3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-005",
+      "slug": "m6b-005",
+      "title": "Bb Minor — Baroque Sequence",
+      "summary": "Descending Baroque sequence in Bb harmonic minor with the characteristic A natural leading tone.",
+      "goal": "Execute a Baroque descending sequence in Bb harmonic minor with rhythmic precision and clean articulation.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "F5:e",
+          "Gb5:e",
+          "A5:e",
+          "Bb5:e",
+          "A5:e",
+          "Gb5:e",
+          "F5:e",
+          "Eb5:e"
+        ],
+        [
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "Db5:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e"
+        ],
+        [
+          "Db5:q",
+          "C5:q",
+          "Bb4:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb3:h",
+          "F4:h"
+        ],
+        [
+          "Bb3:h",
+          "Gb3:h"
+        ],
+        [
+          "F3:h",
+          "Bb3:h"
+        ],
+        [
+          "Bb3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-006",
+      "slug": "m6b-006",
+      "title": "Bb Harmonic Minor — Waltz",
+      "summary": "Waltz in 3/4 in Bb harmonic minor with A natural giving the melody a dramatic lift.",
+      "goal": "Shape a minor-key waltz in 3/4 in Bb harmonic minor, letting A natural add expressive tension.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 72,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "Db5:q",
+          "F5:q"
+        ],
+        [
+          "Gb5:q",
+          "F5:q",
+          "Eb5:q"
+        ],
+        [
+          "Db5:q",
+          "A5:q",
+          "Bb5:q"
+        ],
+        [
+          "Gb5:q",
+          "F5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:q",
+          "Db5:q",
+          "Eb5:q"
+        ],
+        [
+          "Bb4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb3:h",
+          "R:q"
+        ],
+        [
+          "Gb3:h",
+          "R:q"
+        ],
+        [
+          "F3:h",
+          "R:q"
+        ],
+        [
+          "Bb3:h",
+          "R:q"
+        ],
+        [
+          "Eb3:h",
+          "R:q"
+        ],
+        [
+          "Bb3:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-007",
+      "slug": "m6b-007",
+      "title": "Bb Minor — Classical Balanced Phrase",
+      "summary": "Classical antecedent–consequent phrase in Bb harmonic minor with a clear cadential resolution.",
+      "goal": "Play a balanced Classical period in Bb harmonic minor, shaping the antecedent question and consequent answer.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "Db5:q",
+          "F5:q",
+          "Eb5:q"
+        ],
+        [
+          "Db5:q",
+          "C5:q",
+          "Bb4:h"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "Db5:q",
+          "Eb5:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "A4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb3:h",
+          "F4:h"
+        ],
+        [
+          "Gb3:h",
+          "F3:h"
+        ],
+        [
+          "Bb3:h",
+          "Eb4:h"
+        ],
+        [
+          "F3:h",
+          "Bb2:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-008",
+      "slug": "m6b-008",
+      "title": "Bb Minor — Expanded Melody",
+      "summary": "Six-measure lyrical melody in Bb harmonic minor exploring the full range of the key.",
+      "goal": "Shape a longer musical arc in Bb harmonic minor, building to the high A natural and resolving to Bb.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "Db5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:h",
+          "Eb5:h"
+        ],
+        [
+          "Db5:q",
+          "Eb5:q",
+          "F5:q",
+          "Gb5:q"
+        ],
+        [
+          "A5:q",
+          "Bb5:q",
+          "Gb5:h"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "Db5:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb3:h",
+          "F4:h"
+        ],
+        [
+          "Bb3:h",
+          "F3:h"
+        ],
+        [
+          "Gb3:h",
+          "F3:h"
+        ],
+        [
+          "F3:h",
+          "Eb3:h"
+        ],
+        [
+          "Db3:h",
+          "F3:h"
+        ],
+        [
+          "Bb2:h",
+          "R:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-009",
+      "slug": "m6b-009",
+      "title": "Bb Minor — Contrary Motion",
+      "summary": "Hands move in opposite directions through Bb harmonic minor — right hand ascending, left hand descending.",
+      "goal": "Coordinate contrary motion in Bb harmonic minor, keeping both voices even and independent.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "Db5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:q",
+          "Gb5:q",
+          "A5:q",
+          "Bb5:q"
+        ],
+        [
+          "Bb5:q",
+          "A5:q",
+          "Gb5:q",
+          "F5:q"
+        ],
+        [
+          "Eb5:q",
+          "Db5:q",
+          "C5:q",
+          "Bb4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb4:q",
+          "A4:q",
+          "Gb4:q",
+          "F4:q"
+        ],
+        [
+          "Eb4:q",
+          "Db4:q",
+          "C4:q",
+          "Bb3:q"
+        ],
+        [
+          "Bb3:q",
+          "C4:q",
+          "Db4:q",
+          "Eb4:q"
+        ],
+        [
+          "F4:q",
+          "Gb4:q",
+          "A4:q",
+          "Bb4:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-010",
+      "slug": "m6b-010",
+      "title": "F Harmonic Minor — Classical Phrase",
+      "summary": "Classical-style phrase in F harmonic minor with balanced antecedent and consequent.",
+      "goal": "Apply Classical phrase structure to F harmonic minor, letting E natural create a clear half-cadence tension.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "F4:q",
+          "Ab4:q",
+          "C5:q",
+          "Ab4:q"
+        ],
+        [
+          "F5:h",
+          "E5:q",
+          "C5:q"
+        ],
+        [
+          "Db5:q",
+          "C5:q",
+          "Bb4:q",
+          "Ab4:q"
+        ],
+        [
+          "G4:e",
+          "Ab4:e",
+          "E5:q",
+          "F5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "F3:h",
+          "Ab3:h"
+        ],
+        [
+          "Bb3:h",
+          "C4:h"
+        ],
+        [
+          "C4:h",
+          "F3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-011",
+      "slug": "m6b-011",
+      "title": "C Harmonic Minor — Classical Phrase",
+      "summary": "Classical-style balanced phrase in C harmonic minor with B natural leading tone.",
+      "goal": "Shape a Classical antecedent–consequent structure in C harmonic minor with expressive use of B natural.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "Eb4:q",
+          "G4:q",
+          "Eb4:q"
+        ],
+        [
+          "C5:h",
+          "B4:q",
+          "Ab4:q"
+        ],
+        [
+          "G4:q",
+          "Ab4:q",
+          "B4:q",
+          "C5:q"
+        ],
+        [
+          "G4:h",
+          "C4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "C3:h",
+          "Ab3:h"
+        ],
+        [
+          "G3:h",
+          "Eb3:h"
+        ],
+        [
+          "C3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-012",
+      "slug": "m6b-012",
+      "title": "Ab Major — Classical Sonatina Theme",
+      "summary": "Bright Classical sonatina theme in Ab major with scalewise right-hand passages.",
+      "goal": "Play a Classical sonatina-style theme in Ab major with clear phrase shape and even passage work.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:q",
+          "C5:q",
+          "Eb5:q",
+          "C5:q"
+        ],
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Db5:q"
+        ],
+        [
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "Ab4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab3:h",
+          "Eb4:h"
+        ],
+        [
+          "F3:h",
+          "Eb3:h"
+        ],
+        [
+          "Ab3:h",
+          "Eb3:h"
+        ],
+        [
+          "Ab3:q",
+          "Eb3:q",
+          "Ab2:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-013",
+      "slug": "m6b-013",
+      "title": "Chromatic Passage — Minor Context",
+      "summary": "Chromatic ascending and descending passage resolving to E minor, exercising all twelve chromatic pitches.",
+      "goal": "Play chromatic semitone steps evenly in both hands and resolve cleanly to E minor.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "E4:e",
+          "F4:e",
+          "F#4:e",
+          "G4:e",
+          "Ab4:e",
+          "A4:e",
+          "Bb4:e",
+          "B4:e"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "D5:e",
+          "Eb5:e",
+          "E5:e",
+          "F5:e",
+          "E5:e",
+          "D5:e"
+        ],
+        [
+          "C5:e",
+          "B4:e",
+          "Bb4:e",
+          "A4:e",
+          "Ab4:e",
+          "G4:e",
+          "F#4:e",
+          "F4:e"
+        ],
+        [
+          "E4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "E3:h",
+          "B3:h"
+        ],
+        [
+          "C4:h",
+          "G3:h"
+        ],
+        [
+          "A3:h",
+          "E3:h"
+        ],
+        [
+          "E3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-014",
+      "slug": "m6b-014",
+      "title": "E Harmonic Minor Scale — Grand Staff",
+      "summary": "E harmonic minor scale ascending and descending in both hands, featuring the raised leading tone D sharp.",
+      "goal": "Recognise and play D sharp as the raised 7th of E harmonic minor; all other notes from the one-sharp key signature.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "E4:q",
+          "F#4:q",
+          "G4:q",
+          "A4:q"
+        ],
+        [
+          "B4:q",
+          "C5:q",
+          "D#5:q",
+          "E5:q"
+        ],
+        [
+          "E5:q",
+          "D#5:q",
+          "C5:q",
+          "B4:q"
+        ],
+        [
+          "A4:q",
+          "G4:q",
+          "F#4:q",
+          "E4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "E3:q",
+          "F#3:q",
+          "G3:q",
+          "A3:q"
+        ],
+        [
+          "B3:q",
+          "C4:q",
+          "D#4:q",
+          "E4:q"
+        ],
+        [
+          "E4:q",
+          "D#4:q",
+          "C4:q",
+          "B3:q"
+        ],
+        [
+          "A3:q",
+          "G3:q",
+          "F#3:q",
+          "E3:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-015",
+      "slug": "m6b-015",
+      "title": "E Harmonic Minor — Melody",
+      "summary": "Expressive melody in E harmonic minor with D sharp resolving up to E.",
+      "goal": "Play a singing line in E harmonic minor, using D sharp to create harmonic tension that resolves to the tonic.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "E4:q",
+          "G4:q",
+          "B4:q",
+          "G4:q"
+        ],
+        [
+          "E5:h",
+          "D#5:q",
+          "C5:q"
+        ],
+        [
+          "B4:q",
+          "A4:q",
+          "G4:q",
+          "F#4:q"
+        ],
+        [
+          "E4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "E3:h",
+          "B3:h"
+        ],
+        [
+          "E3:h",
+          "C4:h"
+        ],
+        [
+          "B3:h",
+          "G3:h"
+        ],
+        [
+          "E3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-016",
+      "slug": "m6b-016",
+      "title": "E Harmonic Minor — Étude in Eighths",
+      "summary": "Eighth-note étude through E harmonic minor including D sharp as the raised leading tone.",
+      "goal": "Sustain even eighth notes in E harmonic minor, placing D sharp accurately before the bar-line resolution.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "E4:e",
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "A4:e",
+          "G4:e",
+          "F#4:e"
+        ],
+        [
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C5:e",
+          "D#5:e",
+          "C5:e",
+          "B4:e",
+          "A4:e"
+        ],
+        [
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "G4:e",
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e"
+        ],
+        [
+          "E4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "E3:h",
+          "B3:h"
+        ],
+        [
+          "E3:h",
+          "B3:h"
+        ],
+        [
+          "G3:h",
+          "B3:h"
+        ],
+        [
+          "E3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-017",
+      "slug": "m6b-017",
+      "title": "E Minor — Baroque Sequence",
+      "summary": "Baroque descending sequence in E harmonic minor with D sharp as the dramatic leading tone.",
+      "goal": "Execute a Baroque descending sequence in E harmonic minor with clean rhythmic precision.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "B4:e",
+          "C5:e",
+          "D#5:e",
+          "E5:e",
+          "D#5:e",
+          "C5:e",
+          "B4:e",
+          "A4:e"
+        ],
+        [
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "G4:e",
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e"
+        ],
+        [
+          "G4:q",
+          "F#4:q",
+          "E4:q",
+          "F#4:q"
+        ],
+        [
+          "E4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "E3:h",
+          "B3:h"
+        ],
+        [
+          "E3:h",
+          "G3:h"
+        ],
+        [
+          "B3:h",
+          "E3:h"
+        ],
+        [
+          "E3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-018",
+      "slug": "m6b-018",
+      "title": "E Harmonic Minor — Waltz",
+      "summary": "Waltz in 3/4 in E harmonic minor, with D sharp lending the dance a dramatic character.",
+      "goal": "Shape an expressive minor waltz in E harmonic minor, attending to the raised leading tone in the melody.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "E4:q",
+          "G4:q",
+          "B4:q"
+        ],
+        [
+          "C5:q",
+          "B4:q",
+          "A4:q"
+        ],
+        [
+          "B4:q",
+          "D#5:q",
+          "E5:q"
+        ],
+        [
+          "C5:q",
+          "B4:q",
+          "G4:q"
+        ],
+        [
+          "A4:q",
+          "F#4:q",
+          "G4:q"
+        ],
+        [
+          "E4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "E3:h",
+          "R:q"
+        ],
+        [
+          "C4:h",
+          "R:q"
+        ],
+        [
+          "B3:h",
+          "R:q"
+        ],
+        [
+          "E3:h",
+          "R:q"
+        ],
+        [
+          "A3:h",
+          "R:q"
+        ],
+        [
+          "E3:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-019",
+      "slug": "m6b-019",
+      "title": "E Minor — Contrary Motion",
+      "summary": "Right hand ascends through E harmonic minor while the left hand descends simultaneously.",
+      "goal": "Coordinate contrary motion in E harmonic minor, keeping both hands equal in tone and timing.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "E4:q",
+          "F#4:q",
+          "G4:q",
+          "A4:q"
+        ],
+        [
+          "B4:q",
+          "C5:q",
+          "D#5:q",
+          "E5:q"
+        ],
+        [
+          "E5:q",
+          "D#5:q",
+          "C5:q",
+          "B4:q"
+        ],
+        [
+          "A4:q",
+          "G4:q",
+          "F#4:q",
+          "E4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "E4:q",
+          "D#4:q",
+          "C4:q",
+          "B3:q"
+        ],
+        [
+          "A3:q",
+          "G3:q",
+          "F#3:q",
+          "E3:q"
+        ],
+        [
+          "E3:q",
+          "F#3:q",
+          "G3:q",
+          "A3:q"
+        ],
+        [
+          "B3:q",
+          "C4:q",
+          "D#4:q",
+          "E4:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6b-020",
+      "slug": "m6b-020",
+      "title": "Bb Minor — Classical Theme with Expansion",
+      "summary": "Six-measure Classical theme in Bb harmonic minor: opening phrase, sequence, climax on A natural, and cadential resolution.",
+      "goal": "Bring together Bb harmonic minor vocabulary and Classical phrasing in a complete six-measure theme.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:e",
+          "C5:e",
+          "Db5:q",
+          "F5:h"
+        ],
+        [
+          "Gb5:q",
+          "F5:q",
+          "Eb5:h"
+        ],
+        [
+          "Db5:q",
+          "Eb5:q",
+          "F5:q",
+          "Gb5:q"
+        ],
+        [
+          "A5:q",
+          "Bb5:h",
+          "R:q"
+        ],
+        [
+          "Bb5:q",
+          "A5:q",
+          "Gb5:q",
+          "F5:q"
+        ],
+        [
+          "Bb4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb3:h",
+          "F4:h"
+        ],
+        [
+          "Gb3:h",
+          "F3:h"
+        ],
+        [
+          "Bb3:h",
+          "Eb4:h"
+        ],
+        [
+          "F3:h",
+          "Eb3:h"
+        ],
+        [
+          "Db3:h",
+          "F3:h"
+        ],
+        [
+          "Bb2:h",
+          "R:h"
+        ]
+      ]
+    }
+  ]
+}

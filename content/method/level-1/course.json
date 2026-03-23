@@ -1,0 +1,955 @@
+{
+  "courseId": "method-level-1",
+  "title": "Method Level 1",
+  "level": 1,
+  "summary": "Original reading and rhythm drills for the first weeks of study.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "method-001",
+      "slug": "middle-c-pulse",
+      "title": "Middle C Pulse",
+      "summary": "Steady quarter notes on middle C.",
+      "goal": "Keep an even pulse on middle C.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "C4:q",
+          "C4:q",
+          "C4:q"
+        ],
+        [
+          "C4:q",
+          "C4:q",
+          "C4:q",
+          "C4:q"
+        ]
+      ]
+    },
+    {
+      "id": "method-002",
+      "slug": "steps-up-and-down",
+      "title": "Steps Up and Down",
+      "summary": "Right hand stepwise reading around middle C.",
+      "goal": "Read and play small stepwise motion.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 64,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "D4:q",
+          "E4:q",
+          "F4:q"
+        ],
+        [
+          "E4:q",
+          "D4:q",
+          "C4:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-003",
+      "slug": "bass-c-steps",
+      "title": "Bass C Steps",
+      "summary": "First left-hand reading in bass clef.",
+      "goal": "Recognize stepwise notes in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 60,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C3:q",
+          "D3:q",
+          "E3:q",
+          "F3:q"
+        ],
+        [
+          "E3:q",
+          "D3:q",
+          "C3:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-004",
+      "slug": "quarter-rest-breaths",
+      "title": "Quarter Rest Breaths",
+      "summary": "Alternating sound and silence.",
+      "goal": "Count quarter rests accurately.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 56,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "R:q",
+          "C4:q",
+          "R:q"
+        ],
+        [
+          "D4:q",
+          "R:q",
+          "C4:q",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "method-005",
+      "slug": "skips-and-steps",
+      "title": "Skips and Steps",
+      "summary": "Alternating seconds and thirds in the right hand.",
+      "goal": "Notice the difference between steps and skips.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "E4:q",
+          "D4:q",
+          "F4:q"
+        ],
+        [
+          "E4:q",
+          "C4:q",
+          "D4:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-006",
+      "slug": "three-beat-walk",
+      "title": "Three Beat Walk",
+      "summary": "First 3/4 reading pattern.",
+      "goal": "Feel a steady three-beat measure.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 58,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "D4:q",
+          "E4:q"
+        ],
+        [
+          "F4:q",
+          "E4:q",
+          "D4:q"
+        ],
+        [
+          "C4:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "method-007",
+      "slug": "half-note-hold",
+      "title": "Half Note Hold",
+      "summary": "Longer note values with simple changes.",
+      "goal": "Hold half notes for their full value.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 52,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C3:h",
+          "G2:h"
+        ],
+        [
+          "C3:h",
+          "D3:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-008",
+      "slug": "two-note-answer",
+      "title": "Two Note Answer",
+      "summary": "Short rhythmic call and answer figures.",
+      "goal": "Match pairs of notes with a steady beat.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "D4:q",
+          "R:q",
+          "D4:q"
+        ],
+        [
+          "E4:q",
+          "F4:q",
+          "R:q",
+          "C4:q"
+        ]
+      ]
+    },
+    {
+      "id": "method-009",
+      "slug": "bass-skip-ladder",
+      "title": "Bass Skip Ladder",
+      "summary": "Bass clef skips with stepwise return.",
+      "goal": "Track larger note jumps in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 60,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C3:q",
+          "E3:q",
+          "G3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "F3:q",
+          "E3:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-010",
+      "slug": "eighth-note-pairs",
+      "title": "Eighth Note Pairs",
+      "summary": "First eighth-note motion in simple groups.",
+      "goal": "Keep two equal sounds inside one beat.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C4:e",
+          "D4:e",
+          "E4:e",
+          "F4:e",
+          "G4:q",
+          "E4:q"
+        ],
+        [
+          "D4:e",
+          "C4:e",
+          "D4:e",
+          "E4:e",
+          "C4:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-011",
+      "slug": "two-beat-march",
+      "title": "Two Beat March",
+      "summary": "Compact rhythm reading in 2/4.",
+      "goal": "Feel the strong beat in a march pattern.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [
+        2,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "G4:q"
+        ],
+        [
+          "D4:q",
+          "A4:q"
+        ],
+        [
+          "E4:q",
+          "F4:q"
+        ],
+        [
+          "G4:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-012",
+      "slug": "five-note-reading",
+      "title": "Five Note Reading",
+      "summary": "Reading within a five-note right-hand position.",
+      "goal": "Read across a full five-note position.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 62,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "D4:q",
+          "E4:q",
+          "F4:q"
+        ],
+        [
+          "G4:q",
+          "F4:q",
+          "E4:q",
+          "D4:q"
+        ],
+        [
+          "C4:h",
+          "R:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-013",
+      "slug": "bass-five-note-reading",
+      "title": "Bass Five Note Reading",
+      "summary": "Left-hand five-note reading.",
+      "goal": "Read evenly in a left-hand five-note pattern.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 62,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C3:q",
+          "D3:q",
+          "E3:q",
+          "F3:q"
+        ],
+        [
+          "G3:q",
+          "F3:q",
+          "E3:q",
+          "D3:q"
+        ],
+        [
+          "C3:h",
+          "R:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-014",
+      "slug": "question-and-answer",
+      "title": "Question and Answer",
+      "summary": "Simple phrase ending awareness.",
+      "goal": "Shape two short phrases with a final hold.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 58,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "D4:q",
+          "E4:q",
+          "C4:q"
+        ],
+        [
+          "D4:q",
+          "E4:q",
+          "F4:h"
+        ],
+        [
+          "E4:q",
+          "D4:q",
+          "C4:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-015",
+      "slug": "level-one-checkpoint",
+      "title": "Level One Checkpoint",
+      "summary": "A short review combining notes, rests, and eighths.",
+      "goal": "Play a compact review with steady counting.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 64,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C4:e",
+          "D4:e",
+          "E4:q",
+          "R:q",
+          "C4:q"
+        ],
+        [
+          "F4:q",
+          "E4:q",
+          "D4:e",
+          "C4:e",
+          "C4:q"
+        ],
+        [
+          "G4:h",
+          "C4:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-016",
+      "slug": "g-position-steps",
+      "title": "G Position Steps",
+      "summary": "Right hand settles into G position and reads steps.",
+      "goal": "Move into a new hand position and read steps evenly.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 64,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "G4:q",
+          "A4:q",
+          "B4:q",
+          "A4:q"
+        ],
+        [
+          "G4:q",
+          "B4:q",
+          "A4:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-017",
+      "slug": "sustained-melody",
+      "title": "Sustained Melody",
+      "summary": "A smooth right-hand melody using longer note values.",
+      "goal": "Sustain each note for its full value in a connected melody.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 52,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "E4:h",
+          "F4:h"
+        ],
+        [
+          "G4:h",
+          "E4:h"
+        ],
+        [
+          "D4:q",
+          "E4:q",
+          "D4:h"
+        ],
+        [
+          "C4:w"
+        ]
+      ]
+    },
+    {
+      "id": "method-018",
+      "slug": "bass-steps-and-rests",
+      "title": "Bass Steps and Rests",
+      "summary": "Left hand reading with rests and longer note values in bass clef.",
+      "goal": "Count rests accurately in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 56,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C3:q",
+          "R:q",
+          "D3:q",
+          "R:q"
+        ],
+        [
+          "E3:q",
+          "R:q",
+          "F3:h"
+        ],
+        [
+          "G3:h",
+          "R:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-019",
+      "slug": "mixed-rhythm-reading",
+      "title": "Mixed Rhythm Reading",
+      "summary": "Right hand combining eighth, quarter, and half notes.",
+      "goal": "Read mixed note values within a single phrase.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C4:e",
+          "D4:e",
+          "E4:q",
+          "F4:q",
+          "G4:q"
+        ],
+        [
+          "A4:e",
+          "G4:e",
+          "F4:q",
+          "E4:h"
+        ],
+        [
+          "D4:q",
+          "E4:q",
+          "C4:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-020",
+      "slug": "level-one-finale",
+      "title": "Level One Finale",
+      "summary": "A complete short piece using all Level 1 reading skills.",
+      "goal": "Perform a complete short piece with confidence and accuracy.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "D4:q",
+          "E4:q",
+          "F4:q"
+        ],
+        [
+          "G4:q",
+          "E4:q",
+          "C4:h"
+        ],
+        [
+          "D4:e",
+          "E4:e",
+          "F4:q",
+          "G4:q",
+          "E4:q"
+        ],
+        [
+          "D4:h",
+          "C4:h"
+        ]
+      ]
+    },
+    {
+      "id": "method-021",
+      "slug": "grand-staff-intro",
+      "title": "Grand Staff Intro",
+      "summary": "First grand-staff exercise: treble and bass alternate, one note at a time.",
+      "goal": "Alternate between right and left hand notes reading both staves.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 56,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "R:q",
+          "E4:q",
+          "R:q"
+        ],
+        [
+          "G4:q",
+          "R:q",
+          "E4:q",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "R:q",
+          "G3:q",
+          "R:q",
+          "G3:q"
+        ],
+        [
+          "R:q",
+          "G3:q",
+          "R:q",
+          "C3:q"
+        ]
+      ]
+    },
+    {
+      "id": "method-022",
+      "slug": "grand-staff-c-position",
+      "title": "Grand Staff C Position",
+      "summary": "Both hands together in C position, each beat shared between treble and bass.",
+      "goal": "Coordinate both hands reading the grand staff in C position.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 56,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "D4:q",
+          "E4:q",
+          "F4:q"
+        ],
+        [
+          "E4:q",
+          "D4:q",
+          "C4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "C3:q",
+          "D3:q",
+          "E3:q",
+          "F3:q"
+        ],
+        [
+          "E3:q",
+          "D3:q",
+          "C3:h"
+        ]
+      ]
+    }
+  ]
+}

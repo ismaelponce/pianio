@@ -1,0 +1,736 @@
+{
+  "courseId": "method-level-3d",
+  "title": "Method Level 3D — Character Pieces",
+  "level": 3,
+  "summary": "Application: named character pieces, folk songs, and musical excerpts in C/G/F major and A/D harmonic minor. Introduces 12-bar blues with swing. Dynamics and pedal markings throughout. 15 grand-staff exercises with expressive phrasing.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "m3d-001",
+      "slug": "morning-song-c-major-rh",
+      "title": "Morning Song (RH)",
+      "summary": "A bright, flowing morning melody in C major — piano to mezzo-forte.",
+      "goal": "Play a lyrical C major melody with smooth eighth-note motion and gentle dynamic shaping.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 4, "marking": "mf" }
+      ],
+      "measures": [
+        ["E4:h","F4:q","G4:q"],
+        ["G4:q","F4:q","E4:h"],
+        ["D4:q","E4:q","F4:q","E4:q"],
+        ["C4:h","D4:q","E4:q"],
+        ["F4:q","E4:q","D4:q","C4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "m3d-002",
+      "slug": "bass-walking-g-major-lh",
+      "title": "Bass Walking in G Major (LH)",
+      "summary": "A walking bass line in G major across G2–G3 with F#. Mezzo-forte throughout.",
+      "goal": "Play a jazz-influenced walking bass in G major with steady dynamic control.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "f" }
+      ],
+      "measures": [
+        ["G2:e","A2:e","B2:e","C3:e","D3:e","C3:e","B2:e","A2:e"],
+        ["G2:q","B2:e","D3:e","C3:q","B2:q"],
+        ["A2:e","B2:e","C3:q","D3:e","E3:e","F#3:q"],
+        ["G3:q","F#3:e","E3:e","D3:h"],
+        ["R:e","B2:e","C3:q","D3:e","E3:e","F#3:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "m3d-003",
+      "slug": "f-major-serenade-rh",
+      "title": "Red River Valley",
+      "summary": "The beloved American folk song in F major — a tender, lyrical melody with piano dynamics.",
+      "goal": "Play a sentimental folk melody in F major with expressive phrasing and soft dynamics.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": { "type": "CC0-1.0", "attribution": "Traditional American folk song, arr. Pianio", "notes": "Public domain. Arrangement CC0." },
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 5, "marking": "mf" },
+        { "measure": 7, "marking": "p" }
+      ],
+      "measures": [
+        ["R:q","F4:q","F4:q","A4:q"],
+        ["C5:h","Bb4:q","A4:q"],
+        ["Bb4:q","A4:q","G4:q","F4:q"],
+        ["G4:h","R:h"],
+        ["R:q","F4:q","F4:q","A4:q"],
+        ["C5:h","C5:q","C5:q"],
+        ["Bb4:q","A4:q","G4:q","F4:q"],
+        ["F4:w"]
+      ]
+    },
+    {
+      "id": "m3d-004",
+      "slug": "a-minor-nocturne-rh",
+      "title": "A Minor Nocturne (RH)",
+      "summary": "A slow, expressive nocturne in A harmonic minor with G# leading tone. Piano with pedal.",
+      "goal": "Play a brooding A minor melody with sustained pedal and a forte climax at G#.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 58,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 5, "marking": "f" },
+        { "measure": 6, "marking": "p" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 6, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["A3:h","B3:q","C4:q"],
+        ["D4:h","C4:q","B3:q"],
+        ["C4:e","D4:e","E4:q","F4:q","E4:q"],
+        ["D4:h","C4:q","B3:q"],
+        ["E4:e","F4:e","G#4:q","A4:h"],
+        ["A4:w"]
+      ]
+    },
+    {
+      "id": "m3d-005",
+      "slug": "blues-melody-in-c-rh",
+      "title": "12-Bar Swing Blues in C (RH)",
+      "summary": "A 12-measure right-hand blues melody in C with swing feel and Bb as the flat seventh.",
+      "goal": "Play a 12-bar blues with swing rhythm — off-beat eighths land late, giving that blues feel.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "swing": true,
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "f" },
+        { "measure": 9, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:q","E4:q","G4:q","Bb4:q"],
+        ["A4:q","G4:e","F4:e","E4:q","D4:q"],
+        ["G4:q","E4:q","C4:q","E4:q"],
+        ["D4:e","E4:e","G4:q","Bb4:q","G4:q"],
+        ["F4:q","A4:q","C5:q","A4:q"],
+        ["Bb4:q","A4:e","G4:e","F4:h"],
+        ["E4:q","G4:q","E4:q","C4:q"],
+        ["G4:h","Bb4:q","G4:q"],
+        ["G4:q","F4:e","E4:e","D4:q","G4:q"],
+        ["F4:q","A4:q","C5:e","Bb4:e","A4:q"],
+        ["G4:e","E4:e","C4:q","E4:q","G4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "m3d-006",
+      "slug": "morning-hymn",
+      "title": "Morning Hymn",
+      "summary": "A reverent hymn-style piece in C major, both hands. Piano opening, mezzo-forte middle.",
+      "goal": "Play a hymn texture with dynamic shaping: soft beginning, fuller middle, soft close.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 3, "marking": "mf" },
+        { "measure": 5, "marking": "p" }
+      ],
+      "measures": [
+        ["E4:h","F4:q","G4:q"],
+        ["G4:q","F4:q","E4:h"],
+        ["D4:q","E4:q","F4:q","E4:q"],
+        ["C4:h","D4:q","E4:q"],
+        ["F4:q","E4:q","D4:q","C4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:h","E3:q","G3:q"],
+        ["G3:q","F3:q","E3:h"],
+        ["G3:h","C3:h"],
+        ["F3:h","G3:h"],
+        ["F3:h","G3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m3d-007",
+      "slug": "village-dance",
+      "title": "Village Dance",
+      "summary": "A lively waltz in G major evoking a country celebration. Forte throughout.",
+      "goal": "Play a bouncing G major waltz with confident forte energy.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["G4:q","A4:q","B4:q"],
+        ["C5:h","B4:q"],
+        ["A4:e","B4:e","C5:q","D5:q"],
+        ["D5:h","C5:q"],
+        ["B4:e","C5:e","A4:q","G4:q"],
+        ["G4:h","R:q"]
+      ],
+      "measuresLeft": [
+        ["G2:q","D3:q","D3:q"],
+        ["G2:q","D3:q","D3:q"],
+        ["G2:q","D3:q","D3:q"],
+        ["G2:q","D3:q","B2:q"],
+        ["G2:q","D3:q","D3:q"],
+        ["G2:h","R:q"]
+      ]
+    },
+    {
+      "id": "m3d-008",
+      "slug": "spinning-song",
+      "title": "Spinning Song",
+      "summary": "Eight-measure F major piece with continuous spinning eighth notes. Mezzo-forte to forte.",
+      "goal": "Maintain a flowing eighth-note stream with a forte reprise in the second half.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "f" },
+        { "measure": 7, "marking": "mf" }
+      ],
+      "measures": [
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","Bb4:e","A4:e","G4:e"],
+        ["F4:q","A4:e","C5:e","Bb4:q","A4:q"],
+        ["G4:e","A4:e","Bb4:e","C5:e","Bb4:q","A4:q"],
+        ["R:e","A4:e","Bb4:q","C5:q","A4:q"],
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","Bb4:e","A4:e","G4:e"],
+        ["A4:e","G4:e","F4:q","G4:q","A4:q"],
+        ["Bb4:e","A4:e","G4:q","A4:e","Bb4:e","C5:q"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["F3:q","C4:q","F3:q","C4:q"],
+        ["F3:h","C4:h"],
+        ["Bb3:h","C4:h"],
+        ["F3:q","G3:q","A3:q","Bb3:q"],
+        ["F3:q","C4:q","F3:q","C4:q"],
+        ["F3:h","C4:h"],
+        ["Bb3:h","C4:h"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "m3d-009",
+      "slug": "lullaby-in-a-minor",
+      "title": "Lullaby in A Minor",
+      "summary": "A gentle, rocking lullaby in A harmonic minor. Piano with sustain pedal.",
+      "goal": "Play a soft lullaby with sustained pedal, letting the harmonies ring together.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 60,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 6, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["A3:h","B3:q"],
+        ["C4:h","B3:q"],
+        ["D4:q","C4:e","B3:e","A3:q"],
+        ["E4:h","D4:q"],
+        ["C4:e","D4:e","E4:q","G#4:q"],
+        ["A4:h","R:q"]
+      ],
+      "measuresLeft": [
+        ["A2:q","E3:q","E3:q"],
+        ["A2:q","E3:q","E3:q"],
+        ["A2:q","E3:q","E3:q"],
+        ["A2:q","E3:q","E3:q"],
+        ["A2:q","E3:q","E3:q"],
+        ["A2:h","R:q"]
+      ]
+    },
+    {
+      "id": "m3d-010",
+      "slug": "d-minor-sarabande",
+      "title": "D Minor Sarabande",
+      "summary": "A stately sarabande in D harmonic minor with sustain pedal and dynamic contrast.",
+      "goal": "Play a dignified sarabande with pedal changes and a forte climax at the C# leading tone.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 60,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 5, "marking": "f" },
+        { "measure": 7, "marking": "mp" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 4, "beat": 1, "type": "up" },
+        { "measure": 5, "beat": 1, "type": "down" },
+        { "measure": 8, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["D4:h","E4:q"],
+        ["F4:q","E4:q","D4:q"],
+        ["G4:h","A4:q"],
+        ["A4:h","R:q"],
+        ["Bb4:q","A4:e","G4:e","F4:q"],
+        ["E4:e","F4:e","G4:q","A4:q"],
+        ["A4:e","C#5:e","D5:q","A4:q"],
+        ["D4:h","R:q"]
+      ],
+      "measuresLeft": [
+        ["D3:h","A3:q"],
+        ["D3:q","F3:q","A3:q"],
+        ["G2:q","D3:q","D3:q"],
+        ["A2:h","R:q"],
+        ["Bb2:q","F3:q","F3:q"],
+        ["A2:q","E3:q","E3:q"],
+        ["A2:q","E3:q","A2:q"],
+        ["D3:h","R:q"]
+      ]
+    },
+    {
+      "id": "m3d-011",
+      "slug": "march-in-c-major",
+      "title": "March in C Major",
+      "summary": "A crisp 2/4 march in C major with both hands in step. Forte and proud.",
+      "goal": "Play a precise march with bold forte dynamics and crisp rhythm.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e"],
+        ["G4:q","E4:q"],
+        ["F4:e","E4:e","D4:e","C4:e"],
+        ["D4:e","E4:e","F4:q"],
+        ["G4:e","A4:e","B4:e","C5:e"],
+        ["C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q","G3:q"],
+        ["C3:q","G3:q"],
+        ["F3:q","C3:q"],
+        ["G3:q","G3:q"],
+        ["C3:q","G3:q"],
+        ["C3:h"]
+      ]
+    },
+    {
+      "id": "m3d-012",
+      "slug": "gavotte-in-g",
+      "title": "Gavotte in G Major",
+      "summary": "An eight-measure gavotte in G major with elegant eighth-note motion. Mezzo-forte to forte.",
+      "goal": "Play a courtly G major gavotte with a forte second half for contrast.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "f" }
+      ],
+      "measures": [
+        ["G4:q","A4:e","B4:e","C5:q","D5:q"],
+        ["E5:e","D5:e","C5:q","B4:q","A4:q"],
+        ["R:e","B4:e","C5:q","D5:q","C5:q"],
+        ["B4:e","A4:e","G4:h","R:q"],
+        ["D5:q","C5:e","B4:e","A4:q","G4:q"],
+        ["B4:e","C5:e","D5:q","E5:e","F#5:e","G5:q"],
+        ["G5:q","F#5:e","E5:e","D5:q","C5:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G2:h","D3:h"],
+        ["G2:q","B2:q","D3:h"],
+        ["G2:q","D3:q","G2:q","D3:q"],
+        ["G2:h","D3:h"],
+        ["D3:h","G2:h"],
+        ["G2:q","D3:q","G2:q","D3:q"],
+        ["D3:h","G2:h"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "m3d-013",
+      "slug": "barcarolle-in-f",
+      "title": "For He's a Jolly Good Fellow",
+      "summary": "The traditional celebration song in F major, 3/4 — both hands with LH bass-chord waltz pattern and pedal.",
+      "goal": "Play a familiar folk melody with waltz-style accompaniment, sustained pedal, and dynamic contrast.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": { "type": "CC0-1.0", "attribution": "Traditional, arr. Pianio", "notes": "Public domain. Arrangement CC0." },
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "f" },
+        { "measure": 7, "marking": "mf" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 8, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["F4:q","A4:q","A4:q"],
+        ["A4:q","G4:q","A4:q"],
+        ["Bb4:h","A4:q"],
+        ["G4:q","F4:q","G4:q"],
+        ["A4:h","G4:q"],
+        ["F4:q","A4:q","C5:q"],
+        ["Bb4:h","A4:q"],
+        ["F4:h","R:q"]
+      ],
+      "measuresLeft": [
+        ["F3:q","C4:q","C4:q"],
+        ["F3:q","C4:q","C4:q"],
+        ["Bb3:q","F3:q","F3:q"],
+        ["F3:q","C4:q","C4:q"],
+        ["C3:q","G3:q","G3:q"],
+        ["F3:q","C4:q","C4:q"],
+        ["Bb3:q","F3:q","F3:q"],
+        ["F3:h","R:q"]
+      ]
+    },
+    {
+      "id": "m3d-014",
+      "slug": "a-minor-elegy",
+      "title": "A Minor Elegy",
+      "summary": "An eight-measure elegy in A harmonic minor — slow, deeply expressive, with pedal and dynamic arc.",
+      "goal": "Shape a long phrase with pedal sustain, building to a forte climax at G# then fading to piano.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 58,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 5, "marking": "f" },
+        { "measure": 7, "marking": "p" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 4, "beat": 1, "type": "up" },
+        { "measure": 5, "beat": 1, "type": "down" },
+        { "measure": 8, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["A3:h","B3:q","C4:q"],
+        ["D4:h","C4:q","B3:q"],
+        ["C4:e","D4:e","E4:q","F4:q","E4:q"],
+        ["D4:h","C4:q","B3:q"],
+        ["A3:e","B3:e","C4:q","D4:e","E4:e","F4:q"],
+        ["G#4:q","A4:h","R:q"],
+        ["E4:q","D4:e","C4:e","B3:q","A3:q"],
+        ["A3:w"]
+      ],
+      "measuresLeft": [
+        ["A2:h","E3:h"],
+        ["D3:h","E3:h"],
+        ["A2:q","C3:q","E3:h"],
+        ["E3:h","A2:h"],
+        ["A2:q","E3:q","A2:q","E3:q"],
+        ["E3:h","A2:h"],
+        ["E3:h","A2:h"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "m3d-015",
+      "slug": "minuet-in-c",
+      "title": "Minuet in C Major",
+      "summary": "An eight-measure classical minuet in C major with mezzo-forte grace.",
+      "goal": "Play a graceful minuet with lighter dynamics in the B section and fuller sound at the return.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 68,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "mp" },
+        { "measure": 7, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:q","E4:q","G4:q"],
+        ["G4:h","F4:q"],
+        ["E4:q","F4:q","G4:q"],
+        ["F4:h","E4:q"],
+        ["D4:q","E4:q","F4:q"],
+        ["E4:h","D4:q"],
+        ["C4:e","D4:e","E4:q","F4:q"],
+        ["C4:h","R:q"]
+      ],
+      "measuresLeft": [
+        ["C3:q","G3:q","G3:q"],
+        ["C3:q","G3:q","G3:q"],
+        ["C3:q","G3:q","G3:q"],
+        ["F3:q","C3:q","C3:q"],
+        ["G3:q","D3:q","D3:q"],
+        ["C3:q","G3:q","G3:q"],
+        ["G3:q","G3:q","G3:q"],
+        ["C3:h","R:q"]
+      ]
+    },
+    {
+      "id": "m3d-016",
+      "slug": "g-major-style-etude",
+      "title": "G Major Étude de Style",
+      "summary": "Six-measure G major étude at a faster tempo — forte with a fortissimo finale.",
+      "goal": "Build speed and fluency in G major with powerful dynamics, culminating in fortissimo.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "f" },
+        { "measure": 5, "marking": "ff" }
+      ],
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","C5:e","B4:e","A4:e"],
+        ["G4:q","B4:e","D5:e","C5:q","B4:q"],
+        ["E5:e","D5:e","C5:e","B4:e","A4:q","G4:q"],
+        ["R:e","A4:e","B4:q","C5:q","D5:q"],
+        ["E5:e","F#5:e","G5:e","F#5:e","E5:q","D5:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G2:q","D3:q","G2:q","D3:q"],
+        ["G2:h","D3:h"],
+        ["G2:q","D3:q","G2:q","D3:q"],
+        ["D3:h","G2:h"],
+        ["G2:q","D3:q","G2:q","D3:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "m3d-017",
+      "slug": "f-major-serenade-both-hands",
+      "title": "F Major Serenade — Both Hands",
+      "summary": "Six-measure lyrical F major serenade with cantabile RH, supporting LH, and sustain pedal.",
+      "goal": "Shape a singing melody with pedal sustain and mezzo-piano to mezzo-forte dynamic arc.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 3, "marking": "mf" },
+        { "measure": 5, "marking": "mp" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 6, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["F4:q","A4:e","C5:e","Bb4:h"],
+        ["C5:e","Bb4:e","A4:q","G4:h"],
+        ["G4:q","A4:e","Bb4:e","C5:q","A4:q"],
+        ["R:e","Bb4:e","C5:q","Bb4:q","A4:q"],
+        ["G4:e","A4:e","Bb4:q","C5:e","Bb4:e","A4:q"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["F3:h","C4:h"],
+        ["C4:h","F3:h"],
+        ["F3:q","G3:q","C4:h"],
+        ["F3:q","Bb3:q","C4:h"],
+        ["F3:h","C4:h"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "m3d-018",
+      "slug": "a-minor-waltz",
+      "title": "A Minor Waltz",
+      "summary": "An expressive waltz in A harmonic minor — piano to mezzo-forte at the G# climax.",
+      "goal": "Play an A minor waltz with soft beginning and expressive dynamic build at G#.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 62,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 5, "marking": "mf" }
+      ],
+      "measures": [
+        ["A3:q","C4:q","E4:q"],
+        ["F4:q","E4:q","D4:q"],
+        ["E4:q","D4:e","C4:e","B3:q"],
+        ["C4:h","B3:q"],
+        ["G#4:e","A4:e","G#4:q","F4:q"],
+        ["A4:h","R:q"]
+      ],
+      "measuresLeft": [
+        ["A2:q","E3:q","E3:q"],
+        ["D3:q","A2:q","A2:q"],
+        ["A2:q","E3:q","E3:q"],
+        ["A2:q","E3:q","E3:q"],
+        ["E3:q","E3:q","E3:q"],
+        ["A2:h","R:q"]
+      ]
+    },
+    {
+      "id": "m3d-019",
+      "slug": "d-minor-nocturne",
+      "title": "D Minor Nocturne",
+      "summary": "An eight-measure nocturne in D harmonic minor — piano with pedal, mezzo-forte at the C# climax.",
+      "goal": "Play a slow D minor nocturne with pedal sustain, building intensity toward C# then fading.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 58,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 5, "marking": "mf" },
+        { "measure": 7, "marking": "p" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 4, "beat": 1, "type": "up" },
+        { "measure": 5, "beat": 1, "type": "down" },
+        { "measure": 8, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["D4:h","E4:q","F4:q"],
+        ["G4:h","A4:h"],
+        ["Bb4:q","A4:e","G4:e","F4:h"],
+        ["E4:h","D4:h"],
+        ["F4:e","G4:e","A4:q","Bb4:q","A4:q"],
+        ["G4:e","A4:e","C#5:q","D5:h"],
+        ["D5:e","C#5:e","Bb4:q","A4:q","G4:q"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:h","A3:h"],
+        ["G2:q","D3:q","G2:q","D3:q"],
+        ["Bb2:h","A2:h"],
+        ["A2:h","D3:h"],
+        ["D3:h","A3:h"],
+        ["A2:q","E3:q","A2:q","E3:q"],
+        ["A3:h","D3:h"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "m3d-020",
+      "slug": "level-3d-capstone",
+      "title": "Level 3D Capstone — Journey Through Three Keys",
+      "summary": "Eight-measure grand-staff capstone through C major, G major, and A minor with full dynamic arc.",
+      "goal": "Demonstrate Level 3D mastery: expressive phrasing, dynamics, and character across three keys.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 3, "marking": "f" },
+        { "measure": 5, "marking": "p" },
+        { "measure": 7, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:q","E4:q","G4:q","E4:q"],
+        ["F4:q","E4:e","D4:e","C4:h"],
+        ["G4:e","A4:e","B4:e","C5:e","D5:q","B4:q"],
+        ["D5:e","C5:e","B4:q","A4:e","G4:e","F#4:q"],
+        ["A3:e","B3:e","C4:q","D4:e","E4:e","F4:q"],
+        ["E4:q","F4:e","G#4:e","A4:h"],
+        ["R:e","C4:e","D4:q","E4:q","F4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:h","G3:h"],
+        ["F3:h","G3:h"],
+        ["G2:q","D3:q","G2:q","D3:q"],
+        ["D3:h","G2:h"],
+        ["A2:h","E3:h"],
+        ["E3:h","A2:h"],
+        ["C3:q","G3:q","C3:q","G3:q"],
+        ["C3:w"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "courseId": "method-level-2b",
+  "title": "Method Level 2B — Expansion",
+  "level": 2,
+  "summary": "Steps and skips in D, G, and A minor positions — more varied rhythms and longer melodies, all using written-in accidentals.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "m2b-001",
+      "slug": "d-steps-and-skips",
+      "title": "D Steps and Skips",
+      "summary": "Right hand alternates stepwise motion with skips in D position.",
+      "goal": "Distinguish between steps (adjacent notes) and skips (one note apart) in D position.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "F#4:q", "D4:q", "E4:q"],
+        ["F#4:q", "G4:q", "A4:h"],
+        ["G4:q", "F#4:q", "E4:q", "D4:q"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "m2b-002",
+      "slug": "d-position-song",
+      "title": "D Position Song",
+      "summary": "Five-measure melodic piece in D position mixing quarters and halves.",
+      "goal": "Play a flowing D-position melody with F-sharp written as an accidental.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "E4:q", "F#4:h"],
+        ["G4:q", "F#4:q", "E4:h"],
+        ["F#4:q", "E4:q", "D4:q", "E4:q"],
+        ["F#4:h", "D4:h"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "m2b-003",
+      "slug": "d-waltz",
+      "title": "D Waltz",
+      "summary": "Six-measure waltz exploring the full D five-finger position.",
+      "goal": "Play a D-position waltz with a clear three-beat lift.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 70,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "E4:q", "F#4:q"],
+        ["A4:h", "R:q"],
+        ["G4:q", "F#4:q", "E4:q"],
+        ["F#4:h", "R:q"],
+        ["E4:q", "F#4:q", "D4:q"],
+        ["D4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "m2b-004",
+      "slug": "d-march",
+      "title": "D March",
+      "summary": "Six-measure D-position march in 2/4 time.",
+      "goal": "Play crisp two-beat patterns in D position at a march tempo.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "F#4:q"],
+        ["E4:q", "G4:q"],
+        ["F#4:q", "A4:q"],
+        ["G4:q", "F#4:q"],
+        ["E4:q", "D4:q"],
+        ["D4:h"]
+      ]
+    },
+    {
+      "id": "m2b-005",
+      "slug": "g-steps-and-skips",
+      "title": "G Steps and Skips",
+      "summary": "Right hand alternates steps and skips in G position, reaching up to D5.",
+      "goal": "Distinguish steps and skips in G position, including the leap to D5.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "B4:q", "G4:q", "A4:q"],
+        ["B4:q", "C5:q", "D5:h"],
+        ["C5:q", "B4:q", "A4:q", "G4:q"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "m2b-006",
+      "slug": "g-position-song",
+      "title": "G Position Song",
+      "summary": "Five-measure melodic piece in G position mixing quarters and halves.",
+      "goal": "Shape a flowing G-position melody with direction and resolution.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:q", "B4:h"],
+        ["C5:q", "B4:q", "A4:h"],
+        ["B4:q", "A4:q", "G4:q", "A4:q"],
+        ["B4:h", "G4:h"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "m2b-007",
+      "slug": "g-waltz",
+      "title": "G Waltz",
+      "summary": "Six-measure waltz in G position.",
+      "goal": "Sustain a lilting three-beat waltz character across G position.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 70,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:q", "B4:q"],
+        ["D5:h", "R:q"],
+        ["C5:q", "B4:q", "A4:q"],
+        ["B4:h", "R:q"],
+        ["A4:q", "B4:q", "G4:q"],
+        ["G4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "m2b-008",
+      "slug": "g-march",
+      "title": "G March",
+      "summary": "Six-measure G-position march in 2/4.",
+      "goal": "Play clean two-beat figures in G position at a march tempo.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "B4:q"],
+        ["A4:q", "C5:q"],
+        ["B4:q", "D5:q"],
+        ["C5:q", "B4:q"],
+        ["A4:q", "G4:q"],
+        ["G4:h"]
+      ]
+    },
+    {
+      "id": "m2b-009",
+      "slug": "a-minor-skips-rh",
+      "title": "A Minor Skips",
+      "summary": "Right hand explores thirds and skips within the A minor five-finger position.",
+      "goal": "Play thirds (A–C, B–D, C–E) confidently in A minor.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:q", "C4:q", "A3:q", "B3:q"],
+        ["C4:q", "D4:q", "E4:h"],
+        ["D4:q", "C4:q", "B3:q", "A3:q"],
+        ["A3:w"]
+      ]
+    },
+    {
+      "id": "m2b-010",
+      "slug": "a-minor-waltz-rh",
+      "title": "A Minor Waltz",
+      "summary": "Six-measure A minor waltz with a dark, expressive character.",
+      "goal": "Feel the three-beat waltz pulse in a minor key.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:q", "B3:q", "C4:q"],
+        ["E4:h", "R:q"],
+        ["D4:q", "C4:q", "B3:q"],
+        ["C4:h", "R:q"],
+        ["A3:q", "C4:q", "B3:q"],
+        ["A3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "m2b-011",
+      "slug": "d-bass-steps-skips",
+      "title": "D Bass Steps and Skips",
+      "summary": "Left hand alternates steps and skips in D position.",
+      "goal": "Identify and play steps vs. skips in bass D position.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D3:q", "F#3:q", "D3:q", "E3:q"],
+        ["F#3:q", "G3:q", "A3:h"],
+        ["G3:q", "F#3:q", "E3:q", "D3:q"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "m2b-012",
+      "slug": "d-bass-song",
+      "title": "D Bass Song",
+      "summary": "Five-measure melodic bass line in D position.",
+      "goal": "Play a musical D-position bass melody with a clear phrase shape.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D3:q", "E3:q", "F#3:h"],
+        ["G3:q", "F#3:q", "E3:h"],
+        ["F#3:q", "E3:q", "D3:q", "E3:q"],
+        ["F#3:h", "D3:h"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "m2b-013",
+      "slug": "g-bass-steps-skips",
+      "title": "G Bass Steps and Skips",
+      "summary": "Left hand steps and skips in bass G position.",
+      "goal": "Play thirds and skips cleanly in bass G position.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G2:q", "B2:q", "G2:q", "A2:q"],
+        ["B2:q", "C3:q", "D3:h"],
+        ["C3:q", "B2:q", "A2:q", "G2:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "m2b-014",
+      "slug": "g-bass-song",
+      "title": "G Bass Song",
+      "summary": "Five-measure melodic bass line in G position.",
+      "goal": "Shape a G-position bass melody with even tone and clear phrasing.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G2:q", "A2:q", "B2:h"],
+        ["C3:q", "B2:q", "A2:h"],
+        ["B2:q", "A2:q", "G2:q", "A2:q"],
+        ["B2:h", "G2:h"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "m2b-015",
+      "slug": "a-minor-bass-skips",
+      "title": "A Minor Bass Skips",
+      "summary": "Left hand thirds and skips in the bass A minor position.",
+      "goal": "Play thirds in bass A minor position with a clear, dark tone.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A2:q", "C3:q", "A2:q", "B2:q"],
+        ["C3:q", "D3:q", "E3:h"],
+        ["D3:q", "C3:q", "B2:q", "A2:q"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "m2b-016",
+      "slug": "d-position-melody",
+      "title": "D Position Melody",
+      "summary": "Six-measure D-position melody with a full rise and fall.",
+      "goal": "Play a complete melodic arc in D position with phrase direction.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "E4:q", "F#4:q", "G4:q"],
+        ["A4:h", "G4:h"],
+        ["F#4:q", "E4:q", "F#4:q", "D4:q"],
+        ["E4:h", "F#4:h"],
+        ["G4:q", "F#4:q", "E4:q", "D4:q"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "m2b-017",
+      "slug": "g-position-melody",
+      "title": "G Position Melody",
+      "summary": "Six-measure G-position melody rising to D5 and descending back.",
+      "goal": "Play a full-range G-position melody reaching D5 with confidence.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:q", "B4:q", "C5:q"],
+        ["D5:h", "C5:h"],
+        ["B4:q", "A4:q", "B4:q", "G4:q"],
+        ["A4:h", "B4:h"],
+        ["C5:q", "B4:q", "A4:q", "G4:q"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "m2b-018",
+      "slug": "a-minor-song-rh",
+      "title": "A Minor Song",
+      "summary": "Six-measure A minor melody with a plaintive, flowing character.",
+      "goal": "Play a complete A minor phrase with expressive minor-mode character.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:q", "B3:q", "C4:q", "D4:q"],
+        ["E4:h", "D4:h"],
+        ["C4:q", "B3:q", "C4:q", "A3:q"],
+        ["B3:h", "C4:h"],
+        ["D4:q", "C4:q", "B3:q", "A3:q"],
+        ["A3:w"]
+      ]
+    },
+    {
+      "id": "m2b-019",
+      "slug": "a-minor-bass-song",
+      "title": "A Minor Bass Song",
+      "summary": "Six-measure A minor melody in bass clef.",
+      "goal": "Shape a complete A minor bass melody with tone and phrasing.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A2:q", "B2:q", "C3:q", "D3:q"],
+        ["E3:h", "D3:h"],
+        ["C3:q", "B2:q", "C3:q", "A2:q"],
+        ["B2:h", "C3:h"],
+        ["D3:q", "C3:q", "B2:q", "A2:q"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "m2b-020",
+      "slug": "level-2b-capstone",
+      "title": "Level 2B Capstone",
+      "summary": "Six-measure D-position capstone combining steps, skips, and varied note values.",
+      "goal": "Demonstrate D-position fluency with accurate F-sharp, clear steps and skips, and musical phrase shape.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "F#4:q", "E4:q", "G4:q"],
+        ["F#4:q", "A4:q", "G4:h"],
+        ["A4:q", "G4:q", "F#4:q", "E4:q"],
+        ["G4:h", "F#4:h"],
+        ["E4:q", "F#4:q", "E4:q", "D4:q"],
+        ["D4:w"]
+      ]
+    }
+  ]
+}

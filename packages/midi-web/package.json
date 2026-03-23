@@ -1,0 +1,10 @@
+{
+  "name": "@pianio/midi-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "tsc -p tsconfig.test.json && node --test ./.test-dist/test/index.test.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  }
+}

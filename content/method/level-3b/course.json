@@ -1,0 +1,530 @@
+{
+  "courseId": "method-level-3b",
+  "title": "Method Level 3B — Key Signature Expansion",
+  "level": 3,
+  "summary": "Expansion: syncopated rhythms, D harmonic minor (new), longer melodies in C/G/F major and A minor. Key signatures reinforced across all three sharp/flat levels. Dynamics and pedal introduced on expressive minor pieces. Single hand throughout.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "m3b-001",
+      "slug": "c-major-syncopation-rh",
+      "title": "C Major Syncopation (RH)",
+      "summary": "Off-beat entries in C major using eighth rests for syncopation.",
+      "goal": "Play syncopated rhythms in C major, keeping a steady internal pulse.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:q","E4:q","G4:q","E4:q"],
+        ["R:e","D4:e","E4:q","F4:q","G4:q"],
+        ["G4:e","F4:e","E4:q","D4:q","C4:q"],
+        ["R:e","E4:e","F4:q","G4:e","F4:e","E4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "m3b-002",
+      "slug": "c-major-bass-syncopation-lh",
+      "title": "C Major Bass Syncopation (LH)",
+      "summary": "Off-beat entries and syncopated figures in C major bass clef.",
+      "goal": "Play syncopated bass patterns in C major with a steady pulse.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["R:e","D3:e","E3:q","F3:q","G3:q"],
+        ["G3:e","F3:e","E3:q","D3:q","C3:q"],
+        ["R:e","E3:e","F3:q","G3:e","F3:e","E3:q"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m3b-003",
+      "slug": "g-major-extended-melody-rh",
+      "title": "G Major Extended Melody (RH)",
+      "summary": "Six-measure melody spanning G4–G5 in G major with F#.",
+      "goal": "Play a longer G major phrase with F# and syncopated figures, growing toward mezzo-forte.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 4, "marking": "mf" }
+      ],
+      "measures": [
+        ["G4:q","A4:e","B4:e","C5:q","D5:q"],
+        ["E5:e","D5:e","C5:q","B4:q","A4:q"],
+        ["B4:e","C5:e","D5:q","E5:e","F#5:e","G5:q"],
+        ["G5:q","F#5:e","E5:e","D5:h"],
+        ["R:e","B4:e","C5:q","D5:e","E5:e","F#5:q"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "m3b-004",
+      "slug": "g-major-extended-bass-lh",
+      "title": "G Major Extended Bass (LH)",
+      "summary": "Six-measure bass melody in G major G2–G3, including F#.",
+      "goal": "Play a longer G major bass phrase with F# and syncopated entries, building to mezzo-forte.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 4, "marking": "mf" }
+      ],
+      "measures": [
+        ["G2:q","A2:e","B2:e","C3:q","D3:q"],
+        ["E3:e","D3:e","C3:q","B2:q","A2:q"],
+        ["B2:e","C3:e","D3:q","E3:e","F#3:e","G3:q"],
+        ["G3:q","F#3:e","E3:e","D3:h"],
+        ["R:e","B2:e","C3:q","D3:e","E3:e","F#3:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "m3b-005",
+      "slug": "f-major-expanded-melody-rh",
+      "title": "F Major Expanded Melody (RH)",
+      "summary": "Six-measure melody in F major with Bb and syncopated figures.",
+      "goal": "Play an extended F major melody including Bb and off-beat rhythms with dynamic shaping.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 5, "marking": "mf" }
+      ],
+      "measures": [
+        ["F4:q","G4:e","A4:e","Bb4:q","C5:q"],
+        ["C5:e","Bb4:e","A4:q","G4:q","F4:q"],
+        ["G4:e","A4:e","Bb4:q","C5:e","Bb4:e","A4:q"],
+        ["R:e","A4:e","Bb4:q","C5:q","A4:q"],
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:q","A4:q"],
+        ["F4:w"]
+      ]
+    },
+    {
+      "id": "m3b-006",
+      "slug": "f-major-waltz-rh",
+      "title": "F Major Waltz (RH)",
+      "summary": "A flowing 3/4 waltz melody in F major with Bb.",
+      "goal": "Play a lyrical waltz in F major, noting the Bb in key and in melody, with a gentle dynamic arc.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 66,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 4, "marking": "mp" }
+      ],
+      "measures": [
+        ["F4:q","G4:q","A4:q"],
+        ["Bb4:h","A4:q"],
+        ["C5:e","Bb4:e","A4:q","G4:q"],
+        ["G4:e","A4:e","Bb4:q","C5:q"],
+        ["A4:e","G4:e","F4:q","G4:q"],
+        ["F4:h","R:q"]
+      ]
+    },
+    {
+      "id": "m3b-007",
+      "slug": "d-harmonic-minor-scale-rh",
+      "title": "D Harmonic Minor Scale (RH)",
+      "summary": "One-octave D harmonic minor scale D4–D5 with Bb and C# written explicitly.",
+      "goal": "Play D harmonic minor ascending and descending, recognizing Bb (key) and C# (raised 7th).",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" }
+      ],
+      "measures": [
+        ["D4:e","E4:e","F4:e","G4:e","A4:e","Bb4:e","C#5:e","D5:e"],
+        ["D5:q","C#5:q","Bb4:q","A4:q"],
+        ["G4:q","F4:q","E4:q","D4:q"],
+        ["A4:e","C#5:e","D5:q","A4:q","D4:q"]
+      ]
+    },
+    {
+      "id": "m3b-008",
+      "slug": "d-harmonic-minor-scale-lh",
+      "title": "D Harmonic Minor Scale (LH)",
+      "summary": "One-octave D harmonic minor scale D3–D4 in bass clef.",
+      "goal": "Play D harmonic minor in bass clef, sounding Bb and C# explicitly.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -1,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" }
+      ],
+      "measures": [
+        ["D3:e","E3:e","F3:e","G3:e","A3:e","Bb3:e","C#4:e","D4:e"],
+        ["D4:q","C#4:q","Bb3:q","A3:q"],
+        ["G3:q","F3:q","E3:q","D3:q"],
+        ["A3:e","C#4:e","D4:q","A3:q","D3:q"]
+      ]
+    },
+    {
+      "id": "m3b-009",
+      "slug": "d-minor-melody-rh",
+      "title": "D Minor Melody (RH)",
+      "summary": "Six-measure melody in D harmonic minor featuring Bb and C# as leading tone. Piano with sustain pedal.",
+      "goal": "Play a musical D minor phrase with the characteristic C# leading tone resolving to D, using pedal and dynamic contrast.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 4, "marking": "f" },
+        { "measure": 5, "marking": "p" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 6, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["D4:q","E4:e","F4:e","G4:q","A4:q"],
+        ["Bb4:h","A4:q","G4:q"],
+        ["A4:e","G4:e","F4:q","E4:q","D4:q"],
+        ["E4:e","F4:e","G4:q","A4:e","C#5:e","D5:q"],
+        ["D5:e","C#5:e","Bb4:q","A4:q","G4:q"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "m3b-010",
+      "slug": "a-minor-expanded-study-rh",
+      "title": "A Minor Expanded Study (RH)",
+      "summary": "Six-measure A harmonic minor study with chromatic G# motion.",
+      "goal": "Play A minor melodic lines featuring G# as the expressive leading tone, with a dynamic climax.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 4, "marking": "f" },
+        { "measure": 6, "marking": "p" }
+      ],
+      "measures": [
+        ["A3:e","B3:e","C4:e","D4:e","E4:q","F4:q"],
+        ["G#4:e","A4:e","G#4:e","F4:e","E4:h"],
+        ["E4:q","D4:e","C4:e","B3:q","A3:q"],
+        ["C4:e","D4:e","E4:q","F4:e","G#4:e","A4:q"],
+        ["A4:e","G#4:e","F4:q","E4:q","D4:q"],
+        ["A3:w"]
+      ]
+    },
+    {
+      "id": "m3b-011",
+      "slug": "a-minor-waltz-rh",
+      "title": "A Minor Waltz (RH)",
+      "summary": "Flowing 3/4 waltz in A harmonic minor with G# leading tone. Piano with sustain pedal.",
+      "goal": "Play a waltz phrase in A minor, using G# as the characteristic leading tone, with soft dynamics and pedal.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 62,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 6, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["A3:q","C4:q","E4:q"],
+        ["F4:q","E4:q","D4:q"],
+        ["E4:q","D4:e","C4:e","B3:q"],
+        ["C4:h","B3:q"],
+        ["G#4:e","A4:e","G#4:q","E4:q"],
+        ["A4:h","R:q"]
+      ]
+    },
+    {
+      "id": "m3b-012",
+      "slug": "c-major-syncopation-study-rh",
+      "title": "C Major Syncopation Study (RH)",
+      "summary": "Six-measure study with various syncopated patterns in C major.",
+      "goal": "Master multiple syncopation patterns in C major across a longer phrase.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["R:e","C4:e","D4:q","E4:q","F4:q"],
+        ["R:e","G4:e","F4:q","E4:q","D4:q"],
+        ["C4:e","D4:q","E4:e","F4:e","G4:q","F4:e"],
+        ["R:e","E4:e","D4:q","C4:h"],
+        ["E4:e","F4:e","G4:q","F4:e","E4:e","D4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "m3b-013",
+      "slug": "g-major-dance-2-4-rh",
+      "title": "Low Bridge, Everybody Down (RH)",
+      "summary": "The traditional Erie Canal folk song in G major — a lively 2/4 melody with stepwise motion.",
+      "goal": "Play this spirited American folk tune in G major, keeping the dancing 2/4 pulse steady.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 84,
+      "timeSignature": [2, 4],
+      "sourceKind": "public_domain",
+      "license": { "type": "CC0-1.0", "attribution": "Traditional American folk song ('Erie Canal'), arr. Pianio", "notes": "Public domain. Arrangement CC0." },
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["G4:q","A4:q"],
+        ["B4:q","G4:q"],
+        ["A4:e","B4:e","C5:q"],
+        ["D5:q","B4:q"],
+        ["C5:e","B4:e","A4:e","G4:e"],
+        ["G4:h"]
+      ]
+    },
+    {
+      "id": "m3b-014",
+      "slug": "f-major-etude-lh",
+      "title": "F Major Étude (LH)",
+      "summary": "Six-measure left-hand étude in F major with eighth notes and syncopation.",
+      "goal": "Build left-hand fluency in F major including Bb and syncopated patterns.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -1,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["F3:e","G3:e","A3:e","Bb3:e","C4:e","Bb3:e","A3:e","G3:e"],
+        ["F3:q","A3:e","C4:e","Bb3:q","A3:q"],
+        ["R:e","G3:e","A3:q","Bb3:q","C4:q"],
+        ["C4:q","Bb3:e","A3:e","G3:q","F3:q"],
+        ["G3:e","A3:e","Bb3:e","C4:e","A3:q","G3:q"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "m3b-015",
+      "slug": "d-minor-study-lh",
+      "title": "D Minor Study (LH)",
+      "summary": "Six-measure D harmonic minor bass study with Bb and C# leading tone. Piano with sustain pedal.",
+      "goal": "Play a D minor bass line in bass clef, including C# as the harmonic leading tone, with soft expressive dynamics and pedal.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -1,
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 3, "marking": "mp" },
+        { "measure": 5, "marking": "p" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 6, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["D3:q","F3:q","A3:q","F3:q"],
+        ["Bb3:h","A3:h"],
+        ["G3:e","A3:e","Bb3:q","A3:e","G3:e","F3:q"],
+        ["E3:q","F3:q","G3:q","A3:q"],
+        ["A3:e","C#4:e","D4:q","A3:q","D3:q"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "m3b-016",
+      "slug": "g-major-waltz-rh",
+      "title": "G Major Waltz (RH)",
+      "summary": "A flowing 3/4 waltz in G major spanning G4–G5 with F#.",
+      "goal": "Play a lyrical waltz in G major, using F# naturally within the key, with a gentle dynamic arc.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 68,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 4, "marking": "mf" }
+      ],
+      "measures": [
+        ["G4:q","B4:q","D5:q"],
+        ["C5:h","B4:q"],
+        ["A4:e","B4:e","C5:q","D5:q"],
+        ["F#5:q","E5:q","D5:q"],
+        ["B4:e","C5:e","D5:q","E5:q"],
+        ["G4:h","R:q"]
+      ]
+    },
+    {
+      "id": "m3b-017",
+      "slug": "c-major-full-octave-scale-rh",
+      "title": "C Major Full Octave Scale (RH)",
+      "summary": "One-octave C major scale ascending and descending C4–C5 with melodic ending.",
+      "goal": "Play the full C major scale fluently across one octave.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["C5:q","B4:q","A4:q","G4:q"],
+        ["F4:e","G4:e","A4:e","B4:e","C5:e","B4:e","A4:e","G4:e"],
+        ["E4:q","D4:q","C4:h"]
+      ]
+    },
+    {
+      "id": "m3b-018",
+      "slug": "intervals-study-c-rh",
+      "title": "Intervals Study in C (RH)",
+      "summary": "Six-measure study outlining 2nds, 3rds, 4ths, and 5ths in C major.",
+      "goal": "Recognize and play 2nd, 3rd, 4th, and 5th intervals in C major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["C4:q","E4:q","D4:q","F4:q"],
+        ["C4:q","F4:q","D4:q","G4:q"],
+        ["C4:q","G4:q","E4:q","G4:q"],
+        ["C4:e","D4:e","C4:e","E4:e","C4:e","F4:e","C4:e","G4:e"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "m3b-019",
+      "slug": "f-major-expanded-bass-lh",
+      "title": "F Major Expanded Bass (LH)",
+      "summary": "Six-measure F major bass study from F2 to F3, full octave range.",
+      "goal": "Play an F major bass line across a full octave with syncopation and eighth notes.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -1,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 4, "marking": "mf" }
+      ],
+      "measures": [
+        ["F2:e","G2:e","A2:e","Bb2:e","C3:e","D3:e","E3:e","F3:e"],
+        ["F3:q","E3:q","D3:q","C3:q"],
+        ["Bb2:h","C3:h"],
+        ["R:e","A2:e","Bb2:q","C3:q","D3:q"],
+        ["E3:e","F3:e","E3:e","D3:e","C3:q","Bb2:q"],
+        ["F2:w"]
+      ]
+    },
+    {
+      "id": "m3b-020",
+      "slug": "level-3b-capstone-c-a-minor",
+      "title": "Level 3B Capstone: C Major and A Minor (RH)",
+      "summary": "Eight-measure capstone melody moving from C major into A harmonic minor and back.",
+      "goal": "Navigate a tonal shift from C major to A minor mid-piece, using G# expressively with a dynamic arc.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "mp" },
+        { "measure": 8, "marking": "f" }
+      ],
+      "measures": [
+        ["C4:q","E4:q","G4:q","E4:q"],
+        ["D4:e","E4:e","F4:q","G4:q","R:q"],
+        ["A3:e","B3:e","C4:q","D4:q","E4:q"],
+        ["F4:h","E4:q","D4:q"],
+        ["E4:e","F4:e","G#4:q","A4:q","R:q"],
+        ["A4:h","E4:q","C4:q"],
+        ["R:e","D4:e","E4:q","F4:q","G4:q"],
+        ["C4:w"]
+      ]
+    }
+  ]
+}

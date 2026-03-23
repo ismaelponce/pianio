@@ -1,0 +1,2536 @@
+{
+  "courseId": "method-level-6d",
+  "title": "Method Level 6D — Application",
+  "level": 6,
+  "summary": "Application: 20 named character pieces spanning Baroque dances (sarabande, allemande, gavotte, toccata), Classical forms (waltz, minuet, march, barcarolle, mazurka), and Romantic idioms (nocturne, lament, romanza, impromptu, elegy, berceuse) across all L6 keys — all in grand staff.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "m6d-001",
+      "slug": "m6d-001",
+      "title": "Sarabande in B Minor",
+      "summary": "Slow, stately Baroque sarabande in 3/4 in B harmonic minor.",
+      "goal": "Project the noble character of the Baroque sarabande in B minor — slow, weighted, with expressive A sharp leading to B. Ornaments on long notes are stylistic but not scored.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 52,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "B4:q",
+          "D5:q",
+          "F#5:q"
+        ],
+        [
+          "E5:h",
+          "D5:q"
+        ],
+        [
+          "C#5:q",
+          "D5:q",
+          "E5:q"
+        ],
+        [
+          "F#5:h",
+          "R:q"
+        ],
+        [
+          "D5:q",
+          "F#5:q",
+          "A#5:q"
+        ],
+        [
+          "B5:h",
+          "A#5:q"
+        ],
+        [
+          "G5:q",
+          "F#5:q",
+          "E5:q"
+        ],
+        [
+          "B4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B3:h",
+          "R:q"
+        ],
+        [
+          "E3:h",
+          "R:q"
+        ],
+        [
+          "A3:h",
+          "R:q"
+        ],
+        [
+          "D3:h",
+          "R:q"
+        ],
+        [
+          "B3:h",
+          "R:q"
+        ],
+        [
+          "B3:h",
+          "R:q"
+        ],
+        [
+          "E3:h",
+          "R:q"
+        ],
+        [
+          "B2:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-002",
+      "slug": "m6d-002",
+      "title": "Nocturne in F Minor",
+      "summary": "Slow, lyrical Romantic nocturne in F harmonic minor with expressive E natural leading tone.",
+      "goal": "Sing the nocturne melody in F minor — shape each phrase, let E natural create harmonic tension, and resolve gently. Imagine a singing bow stroke.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 56,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "F4:q",
+          "Ab4:q",
+          "C5:q",
+          "Ab4:q"
+        ],
+        [
+          "F5:h",
+          "E5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "Eb5:q",
+          "C5:h"
+        ],
+        [
+          "Bb4:q",
+          "Ab4:q",
+          "G4:h"
+        ],
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "E5:e",
+          "F5:e",
+          "E5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:q",
+          "G4:q",
+          "Ab4:q",
+          "G4:q"
+        ],
+        [
+          "F4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "F3:h",
+          "Db4:h"
+        ],
+        [
+          "Ab3:h",
+          "Eb4:h"
+        ],
+        [
+          "C4:h",
+          "Eb3:h"
+        ],
+        [
+          "Ab3:h",
+          "Eb4:h"
+        ],
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "C4:h",
+          "Eb3:h"
+        ],
+        [
+          "F3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-003",
+      "slug": "m6d-003",
+      "title": "Waltz in Bb Major",
+      "summary": "Bright Classical waltz in 3/4 in Bb major.",
+      "goal": "Dance through the Bb major waltz with a light one–two–three feel, projecting the melody over the left-hand bass.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 84,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 8,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "D5:q",
+          "F5:q"
+        ],
+        [
+          "G5:q",
+          "F5:q",
+          "Eb5:q"
+        ],
+        [
+          "D5:q",
+          "Eb5:q",
+          "F5:q"
+        ],
+        [
+          "Bb4:h",
+          "R:q"
+        ],
+        [
+          "Bb4:q",
+          "C5:q",
+          "D5:q"
+        ],
+        [
+          "Eb5:q",
+          "F5:q",
+          "G5:q"
+        ],
+        [
+          "A5:q",
+          "G5:q",
+          "F5:q"
+        ],
+        [
+          "Bb4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb3:h",
+          "R:q"
+        ],
+        [
+          "Eb3:h",
+          "R:q"
+        ],
+        [
+          "F3:h",
+          "R:q"
+        ],
+        [
+          "Bb3:h",
+          "R:q"
+        ],
+        [
+          "Bb3:h",
+          "R:q"
+        ],
+        [
+          "Eb3:h",
+          "R:q"
+        ],
+        [
+          "F3:h",
+          "R:q"
+        ],
+        [
+          "Bb2:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-004",
+      "slug": "m6d-004",
+      "title": "March in Bb Minor",
+      "summary": "Energetic minor march in Bb harmonic minor with dotted feel implied by eighth-note pairs.",
+      "goal": "Drive the march forward in Bb minor — crisp quarter notes in the melody, steady quarter-note pulse in the bass.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 100,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:e",
+          "Bb4:e",
+          "Db5:q",
+          "Eb5:q",
+          "F5:q"
+        ],
+        [
+          "Gb5:q",
+          "F5:q",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "Db5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:h",
+          "A5:h"
+        ],
+        [
+          "Bb5:e",
+          "C5:e",
+          "Bb5:e",
+          "Ab5:e",
+          "Gb5:q",
+          "F5:q"
+        ],
+        [
+          "Bb4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb3:q",
+          "R:q",
+          "Bb3:q",
+          "R:q"
+        ],
+        [
+          "Gb3:q",
+          "R:q",
+          "F3:q",
+          "R:q"
+        ],
+        [
+          "Bb3:q",
+          "R:q",
+          "F3:q",
+          "R:q"
+        ],
+        [
+          "F3:q",
+          "R:q",
+          "F3:q",
+          "R:q"
+        ],
+        [
+          "Bb3:q",
+          "R:q",
+          "Eb3:q",
+          "R:q"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-005",
+      "slug": "m6d-005",
+      "title": "Barcarolle in F Minor",
+      "summary": "Swaying Romantic barcarolle in 3/4 in F harmonic minor.",
+      "goal": "Rock gently through the barcarolle — one strong bass note followed by two lighter chord beats. Let the melody float above.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "F4:q",
+          "Ab4:q",
+          "C5:q"
+        ],
+        [
+          "Db5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "Ab4:q",
+          "C5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:h",
+          "R:q"
+        ],
+        [
+          "Db5:q",
+          "Eb5:q",
+          "F5:q"
+        ],
+        [
+          "E5:q",
+          "F5:q",
+          "Ab5:q"
+        ],
+        [
+          "G5:q",
+          "F5:q",
+          "Eb5:q"
+        ],
+        [
+          "F4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F3:q",
+          "Ab3:q",
+          "C4:q"
+        ],
+        [
+          "Bb3:q",
+          "Ab3:q",
+          "F3:q"
+        ],
+        [
+          "Ab3:h",
+          "R:q"
+        ],
+        [
+          "C4:h",
+          "R:q"
+        ],
+        [
+          "Db3:h",
+          "R:q"
+        ],
+        [
+          "C3:h",
+          "R:q"
+        ],
+        [
+          "Eb3:h",
+          "R:q"
+        ],
+        [
+          "F3:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-006",
+      "slug": "m6d-006",
+      "title": "Minuet in Bb Major",
+      "summary": "Elegant Classical minuet in 3/4 in Bb major.",
+      "goal": "Play the minuet with Classical elegance in Bb major — graceful melody, clear three-beat phrasing, and a singing tone throughout.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 88,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 8,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "D5:q",
+          "F5:q"
+        ],
+        [
+          "Eb5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:q",
+          "C5:q",
+          "D5:q"
+        ],
+        [
+          "Eb5:h",
+          "R:q"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "D5:q"
+        ],
+        [
+          "C5:q",
+          "D5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F5:q"
+        ],
+        [
+          "Bb4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb3:h",
+          "R:q"
+        ],
+        [
+          "Eb3:h",
+          "R:q"
+        ],
+        [
+          "F3:h",
+          "R:q"
+        ],
+        [
+          "Eb3:h",
+          "R:q"
+        ],
+        [
+          "F3:h",
+          "R:q"
+        ],
+        [
+          "Bb3:h",
+          "R:q"
+        ],
+        [
+          "F3:h",
+          "R:q"
+        ],
+        [
+          "Bb2:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-007",
+      "slug": "m6d-007",
+      "title": "Étude romantique in C Minor",
+      "summary": "Eight-measure Romantic étude in C harmonic minor with continuous eighth-note motion.",
+      "goal": "Flow through the C minor étude with even eighth notes and a singing tone — the left-hand harmony should support, never cover, the melodic line.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C4:e",
+          "Eb4:e",
+          "G4:e",
+          "Eb4:e",
+          "C4:e",
+          "Eb4:e",
+          "G4:e",
+          "C5:e"
+        ],
+        [
+          "C5:e",
+          "B4:e",
+          "C5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "B4:e",
+          "Ab4:e"
+        ],
+        [
+          "G4:e",
+          "Ab4:e",
+          "B4:e",
+          "C5:e",
+          "Eb5:e",
+          "C5:e",
+          "B4:e",
+          "G4:e"
+        ],
+        [
+          "Ab4:e",
+          "G4:e",
+          "F4:e",
+          "Eb4:e",
+          "D4:e",
+          "Eb4:e",
+          "F4:e",
+          "G4:e"
+        ],
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e"
+        ],
+        [
+          "C5:e",
+          "B4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e",
+          "Eb4:e",
+          "D4:e",
+          "C4:e"
+        ],
+        [
+          "C4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "G3:h",
+          "Eb3:h"
+        ],
+        [
+          "Ab3:h",
+          "Eb3:h"
+        ],
+        [
+          "Ab3:h",
+          "Eb3:h"
+        ],
+        [
+          "F3:h",
+          "Eb3:h"
+        ],
+        [
+          "G3:h",
+          "C3:h"
+        ],
+        [
+          "C3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-008",
+      "slug": "m6d-008",
+      "title": "Allemande in A Minor",
+      "summary": "Flowing Baroque allemande in A harmonic minor with continuous eighth-note motion.",
+      "goal": "Sustain the measured Baroque eighth-note flow of the allemande in A minor — even touch, clear melodic direction, G sharp placed with intention.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "A4:e",
+          "B4:e",
+          "C5:e",
+          "D5:e",
+          "E5:e",
+          "D5:e",
+          "C5:e",
+          "B4:e"
+        ],
+        [
+          "C5:e",
+          "B4:e",
+          "A4:e",
+          "G#4:e",
+          "F4:e",
+          "G#4:e",
+          "A4:e",
+          "B4:e"
+        ],
+        [
+          "C5:e",
+          "D5:e",
+          "E5:e",
+          "F5:e",
+          "E5:e",
+          "D5:e",
+          "C5:e",
+          "B4:e"
+        ],
+        [
+          "A4:e",
+          "G#4:e",
+          "A4:e",
+          "B4:e",
+          "C5:e",
+          "B4:e",
+          "A4:e",
+          "G4:e"
+        ],
+        [
+          "F4:e",
+          "G4:e",
+          "A4:e",
+          "Bb4:e",
+          "C5:e",
+          "Bb4:e",
+          "A4:e",
+          "G4:e"
+        ],
+        [
+          "F4:e",
+          "G#4:e",
+          "A4:e",
+          "B4:e",
+          "C5:e",
+          "D5:e",
+          "E5:e",
+          "F5:e"
+        ],
+        [
+          "E5:e",
+          "D5:e",
+          "C5:e",
+          "B4:e",
+          "A4:e",
+          "G#4:e",
+          "F4:e",
+          "E4:e"
+        ],
+        [
+          "A4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A3:h",
+          "E4:h"
+        ],
+        [
+          "A3:h",
+          "E4:h"
+        ],
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "E3:h",
+          "A3:h"
+        ],
+        [
+          "F3:h",
+          "C3:h"
+        ],
+        [
+          "A2:h",
+          "E3:h"
+        ],
+        [
+          "A2:h",
+          "E3:h"
+        ],
+        [
+          "A2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-009",
+      "slug": "m6d-009",
+      "title": "Lament in E Minor",
+      "summary": "Slow, plaintive Romantic lament in E harmonic minor.",
+      "goal": "Play this E minor lament with deep expression — project the slow-moving melody over the sustained bass, letting D sharp ache before resolving to E.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 56,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "E4:q",
+          "G4:q",
+          "B4:q",
+          "G4:q"
+        ],
+        [
+          "E5:h",
+          "D#5:q",
+          "C5:q"
+        ],
+        [
+          "B4:q",
+          "A4:q",
+          "G4:q",
+          "F#4:q"
+        ],
+        [
+          "G4:q",
+          "F#4:q",
+          "E4:h"
+        ],
+        [
+          "B4:e",
+          "C5:e",
+          "D#5:q",
+          "E5:h"
+        ],
+        [
+          "E4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "E3:h",
+          "B3:h"
+        ],
+        [
+          "E3:h",
+          "C4:h"
+        ],
+        [
+          "B3:h",
+          "G3:h"
+        ],
+        [
+          "C4:h",
+          "E3:h"
+        ],
+        [
+          "B2:h",
+          "B3:h"
+        ],
+        [
+          "E3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-010",
+      "slug": "m6d-010",
+      "title": "Pastorale in Ab Major",
+      "summary": "Gentle, flowing pastorale in Ab major — serene and unhurried.",
+      "goal": "Play the Ab major pastorale with a warm, unhurried tone — smooth melodic lines, balanced hands, no rushing.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:q",
+          "C5:q",
+          "Eb5:q",
+          "C5:q"
+        ],
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Db5:q"
+        ],
+        [
+          "Eb5:q",
+          "F5:q",
+          "G5:q",
+          "Ab5:q"
+        ],
+        [
+          "Eb5:h",
+          "Db5:h"
+        ],
+        [
+          "C5:q",
+          "Db5:q",
+          "Eb5:q",
+          "F5:q"
+        ],
+        [
+          "G5:q",
+          "F5:q",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e"
+        ],
+        [
+          "Ab4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab3:h",
+          "Eb4:h"
+        ],
+        [
+          "F3:h",
+          "Bb3:h"
+        ],
+        [
+          "Ab3:h",
+          "Eb3:h"
+        ],
+        [
+          "Ab3:h",
+          "Eb4:h"
+        ],
+        [
+          "Ab3:h",
+          "F3:h"
+        ],
+        [
+          "Eb3:h",
+          "Bb3:h"
+        ],
+        [
+          "Ab3:h",
+          "Eb4:h"
+        ],
+        [
+          "Ab3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-011",
+      "slug": "m6d-011",
+      "title": "Fughetta Fragment in D Minor",
+      "summary": "Short Baroque fughetta in D harmonic minor: right hand states the subject, left hand answers.",
+      "goal": "Keep the two voices independent in this D minor fughetta — the subject enters in the right hand, then the left hand answers; balance both voices equally.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D4:q",
+          "F4:q",
+          "A4:q",
+          "F4:q"
+        ],
+        [
+          "D5:h",
+          "C#5:q",
+          "A4:q"
+        ],
+        [
+          "Bb4:q",
+          "A4:q",
+          "G4:q",
+          "F4:q"
+        ],
+        [
+          "E4:q",
+          "F4:q",
+          "A4:h"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F5:e",
+          "E5:e"
+        ],
+        [
+          "D5:e",
+          "C#5:e",
+          "Bb4:e",
+          "A4:e",
+          "G4:e",
+          "F4:e",
+          "E4:e",
+          "D4:e"
+        ],
+        [
+          "F4:q",
+          "A4:q",
+          "C#5:q",
+          "D5:q"
+        ],
+        [
+          "D4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "R:q",
+          "R:q",
+          "D3:q",
+          "F3:q"
+        ],
+        [
+          "A3:q",
+          "F3:q",
+          "D3:h"
+        ],
+        [
+          "D3:q",
+          "F3:q",
+          "A3:q",
+          "G3:q"
+        ],
+        [
+          "C#4:q",
+          "A3:q",
+          "D3:h"
+        ],
+        [
+          "D3:h",
+          "A3:h"
+        ],
+        [
+          "Bb2:h",
+          "A2:h"
+        ],
+        [
+          "D3:h",
+          "F3:h"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-012",
+      "slug": "m6d-012",
+      "title": "Romanza in B Minor",
+      "summary": "Lyrical Romantic song-without-words in B harmonic minor.",
+      "goal": "Sing the romanza melody in B minor — long, sustained phrases with a warm cantabile tone. A sharp must resolve tenderly to B.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 60,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "B4:q",
+          "D5:q",
+          "F#5:q",
+          "D5:q"
+        ],
+        [
+          "E5:q",
+          "F#5:q",
+          "G5:h"
+        ],
+        [
+          "F#5:e",
+          "G5:e",
+          "A#5:e",
+          "B5:e",
+          "A#5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e"
+        ],
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:h"
+        ],
+        [
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A#5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e"
+        ],
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:q",
+          "A#4:q"
+        ],
+        [
+          "B4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B3:h",
+          "F#4:h"
+        ],
+        [
+          "G3:h",
+          "D4:h"
+        ],
+        [
+          "B3:h",
+          "F#4:h"
+        ],
+        [
+          "E3:h",
+          "F#3:h"
+        ],
+        [
+          "B3:h",
+          "F#4:h"
+        ],
+        [
+          "B3:h",
+          "G4:h"
+        ],
+        [
+          "F#3:h",
+          "E3:h"
+        ],
+        [
+          "B2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-013",
+      "slug": "m6d-013",
+      "title": "Toccata Fragment in F Sharp Minor",
+      "summary": "Brilliant Baroque toccata passage in F sharp harmonic minor.",
+      "goal": "Execute the toccata with clean, even eighth notes in F sharp minor — brilliant but controlled, every note articulated. E sharp must ring clearly before F sharp.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 88,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "F#4:e",
+          "G#4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E#5:e",
+          "F#5:e"
+        ],
+        [
+          "F#5:e",
+          "E#5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "A4:e",
+          "G#4:e",
+          "F#4:e"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E#5:e",
+          "F#5:e",
+          "E#5:e",
+          "D5:e"
+        ],
+        [
+          "C#5:e",
+          "D5:e",
+          "E#5:e",
+          "F#5:e",
+          "E#5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e"
+        ],
+        [
+          "A4:q",
+          "G#4:q",
+          "F#4:q",
+          "G#4:q"
+        ],
+        [
+          "F#4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F#3:h",
+          "C#4:h"
+        ],
+        [
+          "F#3:h",
+          "C#4:h"
+        ],
+        [
+          "A3:h",
+          "C#4:h"
+        ],
+        [
+          "D4:h",
+          "C#4:h"
+        ],
+        [
+          "C#4:h",
+          "F#3:h"
+        ],
+        [
+          "F#3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-014",
+      "slug": "m6d-014",
+      "title": "Berceuse in Bb Minor",
+      "summary": "Gentle lullaby in 3/4 in Bb harmonic minor — hushed and rocking.",
+      "goal": "Play the berceuse with a soft, rocking quality in Bb minor — very gentle dynamic, smooth melody, left-hand bass quarter notes like a cradle.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 52,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "Db5:q",
+          "F5:q"
+        ],
+        [
+          "Gb5:h",
+          "F5:q"
+        ],
+        [
+          "Eb5:q",
+          "Db5:q",
+          "Bb4:q"
+        ],
+        [
+          "C5:h",
+          "R:q"
+        ],
+        [
+          "Db5:q",
+          "Eb5:q",
+          "F5:q"
+        ],
+        [
+          "Gb5:q",
+          "A5:q",
+          "Bb5:q"
+        ],
+        [
+          "A5:q",
+          "Gb5:q",
+          "F5:q"
+        ],
+        [
+          "Bb4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb3:h",
+          "R:q"
+        ],
+        [
+          "Gb3:h",
+          "R:q"
+        ],
+        [
+          "Eb3:h",
+          "R:q"
+        ],
+        [
+          "F3:h",
+          "R:q"
+        ],
+        [
+          "Db3:h",
+          "R:q"
+        ],
+        [
+          "F3:h",
+          "R:q"
+        ],
+        [
+          "C4:h",
+          "R:q"
+        ],
+        [
+          "Bb2:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-015",
+      "slug": "m6d-015",
+      "title": "Gavotte in B Minor",
+      "summary": "Energetic Baroque gavotte in B harmonic minor — crisp, dance-like.",
+      "goal": "Play the gavotte with crisp articulation and rhythmic energy in B minor — even beats, bright tone, each phrase well-shaped.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 96,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 8,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "B4:e",
+          "B4:e",
+          "D5:q",
+          "F#5:q",
+          "G5:q"
+        ],
+        [
+          "F#5:q",
+          "E5:q",
+          "D5:h"
+        ],
+        [
+          "E5:e",
+          "F#5:e",
+          "G5:q",
+          "F#5:q",
+          "E5:q"
+        ],
+        [
+          "D5:h",
+          "C#5:h"
+        ],
+        [
+          "B4:e",
+          "C#5:e",
+          "D5:q",
+          "E5:q",
+          "F#5:q"
+        ],
+        [
+          "G5:q",
+          "F#5:q",
+          "E5:q",
+          "D5:q"
+        ],
+        [
+          "C#5:e",
+          "D5:e",
+          "E5:q",
+          "F#5:q",
+          "E5:q"
+        ],
+        [
+          "B4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B3:h",
+          "F#4:h"
+        ],
+        [
+          "G3:h",
+          "F#3:h"
+        ],
+        [
+          "E3:h",
+          "F#3:h"
+        ],
+        [
+          "B3:h",
+          "F#3:h"
+        ],
+        [
+          "B3:h",
+          "D4:h"
+        ],
+        [
+          "G3:h",
+          "E3:h"
+        ],
+        [
+          "A3:h",
+          "F#3:h"
+        ],
+        [
+          "B2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-016",
+      "slug": "m6d-016",
+      "title": "Impromptu in F Minor",
+      "summary": "Spontaneous Romantic impromptu in F harmonic minor with flowing eighth-note passages.",
+      "goal": "Give the impromptu a free, spontaneous quality in F minor — the eighth-note passages should feel effortless, with E natural always ringing clearly before the resolution.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "F4:q",
+          "Ab4:q",
+          "C5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "Db5:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:q",
+          "C5:q",
+          "Db5:q",
+          "Eb5:q"
+        ],
+        [
+          "E5:q",
+          "F5:q",
+          "E5:h"
+        ],
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "E5:e",
+          "F5:e",
+          "E5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Ab4:q"
+        ],
+        [
+          "F4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "F3:h",
+          "Db4:h"
+        ],
+        [
+          "Bb3:h",
+          "F3:h"
+        ],
+        [
+          "C4:h",
+          "Ab3:h"
+        ],
+        [
+          "Ab3:h",
+          "Eb4:h"
+        ],
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "C4:h",
+          "Eb3:h"
+        ],
+        [
+          "F3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-017",
+      "slug": "m6d-017",
+      "title": "Mazurka in C Minor",
+      "summary": "Dance-like Romantic mazurka in 3/4 in C harmonic minor.",
+      "goal": "Give the mazurka its characteristic dance energy in C minor — accent beat 2 or 3 mentally, keep rhythmic momentum, project B natural as a bright moment.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 80,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 8,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "Eb4:q",
+          "G4:q"
+        ],
+        [
+          "Ab4:q",
+          "G4:q",
+          "Eb4:q"
+        ],
+        [
+          "G4:q",
+          "B4:q",
+          "C5:q"
+        ],
+        [
+          "C5:h",
+          "R:q"
+        ],
+        [
+          "Eb5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "B4:q",
+          "C5:q",
+          "Eb5:q"
+        ],
+        [
+          "G5:q",
+          "F5:q",
+          "Eb5:q"
+        ],
+        [
+          "C4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "C3:h",
+          "R:q"
+        ],
+        [
+          "Ab3:h",
+          "R:q"
+        ],
+        [
+          "G3:h",
+          "R:q"
+        ],
+        [
+          "C3:h",
+          "R:q"
+        ],
+        [
+          "Eb3:h",
+          "R:q"
+        ],
+        [
+          "G3:h",
+          "R:q"
+        ],
+        [
+          "Ab3:h",
+          "R:q"
+        ],
+        [
+          "C3:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-018",
+      "slug": "m6d-018",
+      "title": "Prelude in E Minor",
+      "summary": "Baroque-Classical prelude in E harmonic minor with flowing eighth-note figuration.",
+      "goal": "Sustain the even eighth-note flow of the E minor prelude — D sharp must be placed precisely, and the left-hand sustained notes should ring underneath the passage work.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "E4:e",
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "A4:e",
+          "G4:e",
+          "F#4:e"
+        ],
+        [
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C5:e",
+          "D#5:e",
+          "C5:e",
+          "B4:e",
+          "A4:e"
+        ],
+        [
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "G4:e",
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e"
+        ],
+        [
+          "G4:q",
+          "A4:q",
+          "B4:h"
+        ],
+        [
+          "C5:e",
+          "D5:e",
+          "E5:e",
+          "D5:e",
+          "C5:e",
+          "B4:e",
+          "A4:e",
+          "G4:e"
+        ],
+        [
+          "D#5:e",
+          "E5:e",
+          "F#5:e",
+          "E5:e",
+          "D#5:e",
+          "C5:e",
+          "B4:e",
+          "A4:e"
+        ],
+        [
+          "G4:q",
+          "F#4:q",
+          "E4:q",
+          "D#4:q"
+        ],
+        [
+          "E4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "E3:h",
+          "B3:h"
+        ],
+        [
+          "E3:h",
+          "B3:h"
+        ],
+        [
+          "G3:h",
+          "B3:h"
+        ],
+        [
+          "G3:h",
+          "E3:h"
+        ],
+        [
+          "C4:h",
+          "G3:h"
+        ],
+        [
+          "B2:h",
+          "B3:h"
+        ],
+        [
+          "B2:h",
+          "E3:h"
+        ],
+        [
+          "E3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-019",
+      "slug": "m6d-019",
+      "title": "Serenade in Ab Major",
+      "summary": "Gentle Romantic serenade in 3/4 in Ab major — singing and unhurried.",
+      "goal": "Play the Ab major serenade with a gentle, tender tone — shape the melody as a song, keep the left-hand quarter notes light, never heavy.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 76,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:q",
+          "Eb5:q",
+          "C5:q"
+        ],
+        [
+          "Db5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q"
+        ],
+        [
+          "Eb5:h",
+          "R:q"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "Ab4:q"
+        ],
+        [
+          "G5:q",
+          "F5:q",
+          "Eb5:q"
+        ],
+        [
+          "Ab4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab3:h",
+          "R:q"
+        ],
+        [
+          "Bb3:h",
+          "R:q"
+        ],
+        [
+          "Ab3:h",
+          "R:q"
+        ],
+        [
+          "Eb3:h",
+          "R:q"
+        ],
+        [
+          "F3:h",
+          "R:q"
+        ],
+        [
+          "Ab3:h",
+          "R:q"
+        ],
+        [
+          "Eb3:h",
+          "R:q"
+        ],
+        [
+          "Ab2:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6d-020",
+      "slug": "m6d-020",
+      "title": "Grand Finale in B Minor — L6D Synthesis",
+      "summary": "Ten-measure synthesis piece in B harmonic minor combining Baroque, Classical, and Romantic elements.",
+      "goal": "Bring every L6D skill together in this B minor finale — noble opening, surging eighth-note development, and a quiet Romantic close. Project the full musical arc from first note to last.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 6,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "B4:q",
+          "D5:q",
+          "F#5:q",
+          "D5:q"
+        ],
+        [
+          "G5:q",
+          "F#5:q",
+          "E5:q",
+          "D5:q"
+        ],
+        [
+          "C#5:h",
+          "D5:h"
+        ],
+        [
+          "E5:q",
+          "F#5:q",
+          "G5:q",
+          "A#5:q"
+        ],
+        [
+          "B5:h",
+          "A#5:q",
+          "G5:q"
+        ],
+        [
+          "F#5:e",
+          "G5:e",
+          "A#5:e",
+          "B5:e",
+          "A#5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "D5:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e"
+        ],
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:q",
+          "A#4:q"
+        ],
+        [
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "B4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B3:h",
+          "F#4:h"
+        ],
+        [
+          "G3:h",
+          "D4:h"
+        ],
+        [
+          "A3:h",
+          "F#3:h"
+        ],
+        [
+          "G3:h",
+          "E3:h"
+        ],
+        [
+          "F#3:h",
+          "G3:h"
+        ],
+        [
+          "B3:h",
+          "F#4:h"
+        ],
+        [
+          "B3:h",
+          "D4:h"
+        ],
+        [
+          "F#3:h",
+          "E3:h"
+        ],
+        [
+          "B2:h",
+          "F#3:h"
+        ],
+        [
+          "B2:w"
+        ]
+      ]
+    }
+  ]
+}

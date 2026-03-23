@@ -1,0 +1,473 @@
+{
+  "courseId": "technique-level-5a",
+  "title": "Technique Level 5A — Alberti Bass Foundations",
+  "level": 5,
+  "summary": "Alberti bass patterns in C, G, F, D, and A major — building left-hand independence for Classical-era accompaniment.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "t5a-001",
+      "slug": "alberti-c-major-lh",
+      "title": "Alberti Bass in C Major LH",
+      "summary": "Left hand Alberti bass pattern (C-G-E-G) in C major.",
+      "goal": "Play the C major Alberti pattern evenly at 80 BPM.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["F3:e", "C4:e", "A3:e", "C4:e", "F3:e", "C4:e", "A3:e", "C4:e"],
+        ["G3:e", "D4:e", "B3:e", "D4:e", "G3:e", "D4:e", "B3:e", "D4:e"],
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:h"]
+      ]
+    },
+    {
+      "id": "t5a-002",
+      "slug": "alberti-c-major-rh",
+      "title": "Alberti Pattern in C Major RH",
+      "summary": "Right hand Alberti pattern (C-G-E-G) in C major treble range.",
+      "goal": "Mirror the Alberti pattern in the right hand for finger independence.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "G4:e", "E4:e", "G4:e", "C4:e", "G4:e", "E4:e", "G4:e"],
+        ["F4:e", "C5:e", "A4:e", "C5:e", "F4:e", "C5:e", "A4:e", "C5:e"],
+        ["G4:e", "D5:e", "B4:e", "D5:e", "G4:e", "D5:e", "B4:e", "D5:e"],
+        ["C4:e", "G4:e", "E4:e", "G4:e", "C4:h"]
+      ]
+    },
+    {
+      "id": "t5a-003",
+      "slug": "alberti-c-major-ht",
+      "title": "Alberti Bass with Melody in C Major HT",
+      "summary": "Left hand Alberti bass under a simple right hand melody in C major.",
+      "goal": "Coordinate Alberti bass with a sustained melody — the Classical-era texture.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["E5:h", "D5:h"],
+        ["C5:h", "D5:h"],
+        ["E5:h", "G5:h"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["F3:e", "C4:e", "A3:e", "C4:e", "G3:e", "D4:e", "B3:e", "D4:e"],
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:h"]
+      ]
+    },
+    {
+      "id": "t5a-004",
+      "slug": "alberti-g-major-lh",
+      "title": "Alberti Bass in G Major LH",
+      "summary": "Left hand Alberti bass pattern in G major (G-D-B-D).",
+      "goal": "Play the G major Alberti pattern with clean F# at 80 BPM.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G2:e", "D3:e", "B2:e", "D3:e", "G2:e", "D3:e", "B2:e", "D3:e"],
+        ["G2:e", "D3:e", "B2:e", "D3:e", "G2:e", "D3:e", "B2:e", "D3:e"],
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["D3:e", "A3:e", "F#3:e", "A3:e", "D3:e", "A3:e", "F#3:e", "A3:e"],
+        ["G2:e", "D3:e", "B2:e", "D3:e", "G2:h"]
+      ]
+    },
+    {
+      "id": "t5a-005",
+      "slug": "alberti-g-major-ht",
+      "title": "Alberti Bass with Melody in G Major HT",
+      "summary": "Left hand Alberti bass under right hand melody in G major.",
+      "goal": "Coordinate G major Alberti bass with a singing melody line.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["B4:h", "A4:h"],
+        ["G4:h", "A4:h"],
+        ["B4:h", "D5:h"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G2:e", "D3:e", "B2:e", "D3:e", "G2:e", "D3:e", "B2:e", "D3:e"],
+        ["C3:e", "G3:e", "E3:e", "G3:e", "D3:e", "A3:e", "F#3:e", "A3:e"],
+        ["G2:e", "D3:e", "B2:e", "D3:e", "G2:e", "D3:e", "B2:e", "D3:e"],
+        ["G2:e", "D3:e", "B2:e", "D3:e", "G2:h"]
+      ]
+    },
+    {
+      "id": "t5a-006",
+      "slug": "alberti-f-major-lh",
+      "title": "Alberti Bass in F Major LH",
+      "summary": "Left hand Alberti bass pattern in F major (F-C-A-C).",
+      "goal": "Play the F major Alberti pattern with Bb at 80 BPM.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F2:e", "C3:e", "A2:e", "C3:e", "F2:e", "C3:e", "A2:e", "C3:e"],
+        ["F2:e", "C3:e", "A2:e", "C3:e", "F2:e", "C3:e", "A2:e", "C3:e"],
+        ["Bb2:e", "F3:e", "D3:e", "F3:e", "Bb2:e", "F3:e", "D3:e", "F3:e"],
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["F2:e", "C3:e", "A2:e", "C3:e", "F2:h"]
+      ]
+    },
+    {
+      "id": "t5a-007",
+      "slug": "alberti-f-major-ht",
+      "title": "Alberti Bass with Melody in F Major HT",
+      "summary": "Left hand Alberti bass under right hand melody in F major.",
+      "goal": "Coordinate F major Alberti bass with melody — maintain independence.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:h", "G4:h"],
+        ["F4:h", "G4:h"],
+        ["A4:h", "C5:h"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["F2:e", "C3:e", "A2:e", "C3:e", "F2:e", "C3:e", "A2:e", "C3:e"],
+        ["Bb2:e", "F3:e", "D3:e", "F3:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["F2:e", "C3:e", "A2:e", "C3:e", "F2:e", "C3:e", "A2:e", "C3:e"],
+        ["F2:e", "C3:e", "A2:e", "C3:e", "F2:h"]
+      ]
+    },
+    {
+      "id": "t5a-008",
+      "slug": "alberti-d-major-lh",
+      "title": "Alberti Bass in D Major LH",
+      "summary": "Left hand Alberti bass pattern in D major (D-A-F#-A).",
+      "goal": "Play the D major Alberti pattern with F# and C# at 80 BPM.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 2,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D3:e", "A3:e", "F#3:e", "A3:e", "D3:e", "A3:e", "F#3:e", "A3:e"],
+        ["D3:e", "A3:e", "F#3:e", "A3:e", "D3:e", "A3:e", "F#3:e", "A3:e"],
+        ["G3:e", "D4:e", "B3:e", "D4:e", "G3:e", "D4:e", "B3:e", "D4:e"],
+        ["A3:e", "E4:e", "C#4:e", "E4:e", "A3:e", "E4:e", "C#4:e", "E4:e"],
+        ["D3:e", "A3:e", "F#3:e", "A3:e", "D3:h"]
+      ]
+    },
+    {
+      "id": "t5a-009",
+      "slug": "alberti-d-major-ht",
+      "title": "Alberti Bass with Melody in D Major HT",
+      "summary": "Left hand Alberti bass under right hand melody in D major.",
+      "goal": "Coordinate D major Alberti bass with a singing melody.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F#5:h", "E5:h"],
+        ["D5:h", "E5:h"],
+        ["F#5:h", "A5:h"],
+        ["D5:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "A3:e", "F#3:e", "A3:e", "D3:e", "A3:e", "F#3:e", "A3:e"],
+        ["G3:e", "D4:e", "B3:e", "D4:e", "A3:e", "E4:e", "C#4:e", "E4:e"],
+        ["D3:e", "A3:e", "F#3:e", "A3:e", "D3:e", "A3:e", "F#3:e", "A3:e"],
+        ["D3:e", "A3:e", "F#3:e", "A3:e", "D3:h"]
+      ]
+    },
+    {
+      "id": "t5a-010",
+      "slug": "alberti-a-major-lh",
+      "title": "Alberti Bass in A Major LH",
+      "summary": "Left hand Alberti bass pattern in A major (A-E-C#-E).",
+      "goal": "Play the A major Alberti pattern with C#, F#, G# at 80 BPM.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 3,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A2:e", "E3:e", "C#3:e", "E3:e", "A2:e", "E3:e", "C#3:e", "E3:e"],
+        ["A2:e", "E3:e", "C#3:e", "E3:e", "A2:e", "E3:e", "C#3:e", "E3:e"],
+        ["D3:e", "A3:e", "F#3:e", "A3:e", "D3:e", "A3:e", "F#3:e", "A3:e"],
+        ["E3:e", "B3:e", "G#3:e", "B3:e", "E3:e", "B3:e", "G#3:e", "B3:e"],
+        ["A2:e", "E3:e", "C#3:e", "E3:e", "A2:h"]
+      ]
+    },
+    {
+      "id": "t5a-011",
+      "slug": "alberti-a-major-ht",
+      "title": "Alberti Bass with Melody in A Major HT",
+      "summary": "Left hand Alberti bass under right hand melody in A major.",
+      "goal": "Coordinate A major Alberti bass with melody — full sharp key independence.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C#5:h", "B4:h"],
+        ["A4:h", "B4:h"],
+        ["C#5:h", "E5:h"],
+        ["A4:w"]
+      ],
+      "measuresLeft": [
+        ["A2:e", "E3:e", "C#3:e", "E3:e", "A2:e", "E3:e", "C#3:e", "E3:e"],
+        ["D3:e", "A3:e", "F#3:e", "A3:e", "E3:e", "B3:e", "G#3:e", "B3:e"],
+        ["A2:e", "E3:e", "C#3:e", "E3:e", "A2:e", "E3:e", "C#3:e", "E3:e"],
+        ["A2:e", "E3:e", "C#3:e", "E3:e", "A2:h"]
+      ]
+    },
+    {
+      "id": "t5a-012",
+      "slug": "alberti-minor-c-lh",
+      "title": "Alberti Bass in C Minor LH",
+      "summary": "Left hand Alberti bass pattern in C minor (C-G-Eb-G).",
+      "goal": "Play the C minor Alberti pattern — hear the minor color in the accompaniment.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -3,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:e", "G3:e", "Eb3:e", "G3:e", "C3:e", "G3:e", "Eb3:e", "G3:e"],
+        ["C3:e", "G3:e", "Eb3:e", "G3:e", "C3:e", "G3:e", "Eb3:e", "G3:e"],
+        ["F3:e", "C4:e", "Ab3:e", "C4:e", "F3:e", "C4:e", "Ab3:e", "C4:e"],
+        ["G3:e", "D4:e", "B3:e", "D4:e", "G3:e", "D4:e", "B3:e", "D4:e"],
+        ["C3:e", "G3:e", "Eb3:e", "G3:e", "C3:h"]
+      ]
+    },
+    {
+      "id": "t5a-013",
+      "slug": "alberti-minor-a-lh",
+      "title": "Alberti Bass in A Minor LH",
+      "summary": "Left hand Alberti bass pattern in A minor (A-E-C-E).",
+      "goal": "Play the A minor Alberti pattern smoothly at 76 BPM.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A2:e", "E3:e", "C3:e", "E3:e", "A2:e", "E3:e", "C3:e", "E3:e"],
+        ["A2:e", "E3:e", "C3:e", "E3:e", "A2:e", "E3:e", "C3:e", "E3:e"],
+        ["D3:e", "A3:e", "F3:e", "A3:e", "D3:e", "A3:e", "F3:e", "A3:e"],
+        ["E3:e", "B3:e", "G#3:e", "B3:e", "E3:e", "B3:e", "G#3:e", "B3:e"],
+        ["A2:e", "E3:e", "C3:e", "E3:e", "A2:h"]
+      ]
+    },
+    {
+      "id": "t5a-014",
+      "slug": "alberti-minor-ht",
+      "title": "Alberti Bass with Melody in A Minor HT",
+      "summary": "Left hand A minor Alberti bass under a minor-key melody.",
+      "goal": "Coordinate minor Alberti bass with an expressive melody.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["E5:h", "D5:h"],
+        ["C5:h", "B4:h"],
+        ["A4:h", "B4:h"],
+        ["C5:h", "E5:h"],
+        ["A4:w"]
+      ],
+      "measuresLeft": [
+        ["A2:e", "E3:e", "C3:e", "E3:e", "A2:e", "E3:e", "C3:e", "E3:e"],
+        ["A2:e", "E3:e", "C3:e", "E3:e", "E3:e", "B3:e", "G#3:e", "B3:e"],
+        ["A2:e", "E3:e", "C3:e", "E3:e", "D3:e", "A3:e", "F3:e", "A3:e"],
+        ["A2:e", "E3:e", "C3:e", "E3:e", "A2:e", "E3:e", "C3:e", "E3:e"],
+        ["A2:e", "E3:e", "C3:e", "E3:e", "A2:h"]
+      ]
+    },
+    {
+      "id": "t5a-015",
+      "slug": "alberti-dotted-c",
+      "title": "Dotted Alberti Pattern in C Major",
+      "summary": "Alberti bass using dotted eighth + sixteenth rhythm (de token).",
+      "goal": "Play dotted Alberti pattern — the swing of Classical slow movements.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:de", "G3:de", "E3:de", "G3:de", "C3:q"],
+        ["C3:de", "G3:de", "E3:de", "G3:de", "C3:q"],
+        ["F3:de", "C4:de", "A3:de", "C4:de", "F3:q"],
+        ["G3:de", "D4:de", "B3:de", "D4:de", "G3:q"],
+        ["C3:h", "R:h"]
+      ]
+    },
+    {
+      "id": "t5a-016",
+      "slug": "alberti-waltz-g",
+      "title": "Alberti Waltz Pattern in G Major",
+      "summary": "Alberti bass in 3/4 waltz time — bass note on beat 1, Alberti fills beats 2-3.",
+      "goal": "Play a waltz-style Alberti pattern with strong downbeat emphasis.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 1,
+      "tempoBpm": 88,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G2:q", "B2:e", "D3:e", "B2:e", "D3:e"],
+        ["G2:q", "B2:e", "D3:e", "B2:e", "D3:e"],
+        ["C3:q", "E3:e", "G3:e", "E3:e", "G3:e"],
+        ["D3:q", "F#3:e", "A3:e", "F#3:e", "A3:e"],
+        ["G2:dh"]
+      ]
+    },
+    {
+      "id": "t5a-017",
+      "slug": "alberti-chord-change-c",
+      "title": "Alberti Bass Chord Changes in C Major",
+      "summary": "Alberti bass moving through I-vi-IV-V progression in C.",
+      "goal": "Maintain even Alberti pattern while navigating chord changes.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["A2:e", "E3:e", "C3:e", "E3:e", "A2:e", "E3:e", "C3:e", "E3:e"],
+        ["F2:e", "C3:e", "A2:e", "C3:e", "F2:e", "C3:e", "A2:e", "C3:e"],
+        ["G2:e", "D3:e", "B2:e", "D3:e", "G2:e", "D3:e", "B2:e", "D3:e"],
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:h"]
+      ]
+    },
+    {
+      "id": "t5a-018",
+      "slug": "alberti-chord-change-d",
+      "title": "Alberti Bass Chord Changes in D Major",
+      "summary": "Alberti bass moving through I-IV-V-I progression in D major.",
+      "goal": "Navigate D major chord changes while keeping Alberti pattern steady.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D3:e", "A3:e", "F#3:e", "A3:e", "D3:e", "A3:e", "F#3:e", "A3:e"],
+        ["G3:e", "D4:e", "B3:e", "D4:e", "G3:e", "D4:e", "B3:e", "D4:e"],
+        ["A3:e", "E4:e", "C#4:e", "E4:e", "A3:e", "E4:e", "C#4:e", "E4:e"],
+        ["D3:e", "A3:e", "F#3:e", "A3:e", "D3:h"]
+      ]
+    },
+    {
+      "id": "t5a-019",
+      "slug": "alberti-sonatina-c",
+      "title": "Sonatina-Style Alberti in C Major HT",
+      "summary": "A Clementi-style passage: scalar melody over flowing Alberti bass.",
+      "goal": "Play a sonatina texture — the foundation of Classical keyboard writing.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C5:e", "D5:e", "E5:e", "F5:e", "G5:h"],
+        ["A5:e", "G5:e", "F5:e", "E5:e", "D5:h"],
+        ["E5:e", "F5:e", "G5:e", "A5:e", "G5:h"],
+        ["F5:e", "E5:e", "D5:e", "C5:e", "C5:h"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["F3:e", "C4:e", "A3:e", "C4:e", "G3:e", "D4:e", "B3:e", "D4:e"],
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["F3:e", "C4:e", "A3:e", "C4:e", "C3:e", "G3:e", "E3:e", "G3:e"]
+      ]
+    },
+    {
+      "id": "t5a-020",
+      "slug": "alberti-all-keys-review",
+      "title": "Alberti Bass All Keys Review HT",
+      "summary": "Alberti bass cycles through C, G, D, A, F major with a melody on top.",
+      "goal": "Demonstrate Alberti fluency in all five keys — the L5A mastery test.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["E5:h", "G5:h"],
+        ["B4:h", "D5:h"],
+        ["F#5:h", "A5:h"],
+        ["C#5:h", "E5:h"],
+        ["A4:h", "C5:h"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["G2:e", "D3:e", "B2:e", "D3:e", "G2:e", "D3:e", "B2:e", "D3:e"],
+        ["D3:e", "A3:e", "F#3:e", "A3:e", "D3:e", "A3:e", "F#3:e", "A3:e"],
+        ["A2:e", "E3:e", "C#3:e", "E3:e", "A2:e", "E3:e", "C#3:e", "E3:e"],
+        ["F2:e", "C3:e", "A2:e", "C3:e", "F2:e", "C3:e", "A2:e", "C3:e"],
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:h"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "courseId": "technique-level-4a",
+  "title": "Technique Level 4A — D & A Major Foundations",
+  "level": 4,
+  "summary": "Scales, broken chords, and arpeggios in D major and A major with their harmonic minor relatives — building fluency in sharp keys.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "t4a-001",
+      "slug": "d-major-scale-rh",
+      "title": "D Major Scale RH",
+      "summary": "Right hand D major scale ascending and descending over one octave.",
+      "goal": "Play D major RH with clean F# and C# at 84 BPM.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D5:e", "C#5:e", "B4:e", "A4:e", "G4:e", "F#4:e", "E4:e", "D4:e"],
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D5:w"]
+      ]
+    },
+    {
+      "id": "t4a-002",
+      "slug": "d-major-scale-lh",
+      "title": "D Major Scale LH",
+      "summary": "Left hand D major scale ascending and descending over one octave.",
+      "goal": "Play D major LH with even tone through F# and C#.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 2,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:e", "B3:e", "C#4:e", "D4:e"],
+        ["D4:e", "C#4:e", "B3:e", "A3:e", "G3:e", "F#3:e", "E3:e", "D3:e"],
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:e", "B3:e", "C#4:e", "D4:e"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "t4a-003",
+      "slug": "d-major-scale-ht",
+      "title": "D Major Scale HT",
+      "summary": "Hands together D major scale in parallel motion.",
+      "goal": "Play D major hands together with synchronized F# and C#.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D5:e", "C#5:e", "B4:e", "A4:e", "G4:e", "F#4:e", "E4:e", "D4:e"],
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D5:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:e", "B3:e", "C#4:e", "D4:e"],
+        ["D4:e", "C#4:e", "B3:e", "A3:e", "G3:e", "F#3:e", "E3:e", "D3:e"],
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:e", "B3:e", "C#4:e", "D4:e"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "t4a-004",
+      "slug": "d-major-broken-chord-rh",
+      "title": "D Major Broken Chord RH",
+      "summary": "D major broken chord pattern (D-F#-A) ascending and descending.",
+      "goal": "Play the D major broken chord smoothly with correct F#.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "A4:e", "F#4:e", "D4:e", "R:e"],
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "A4:e", "F#4:e", "D4:e", "R:e"],
+        ["D4:q", "F#4:q", "A4:q", "D5:q"],
+        ["D5:w"]
+      ]
+    },
+    {
+      "id": "t4a-005",
+      "slug": "d-major-arpeggio-rh",
+      "title": "D Major Arpeggio RH",
+      "summary": "D major arpeggio over one octave, ascending and descending.",
+      "goal": "Play the D major arpeggio with smooth finger crossings.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "F#4:q", "A4:q"],
+        ["D5:q", "A4:q", "F#4:q"],
+        ["D4:q", "F#4:q", "A4:q"],
+        ["D5:h", "R:q"],
+        ["D5:q", "A4:q", "F#4:q"],
+        ["D4:q", "F#4:q", "A4:q"],
+        ["D5:q", "A4:q", "F#4:q"],
+        ["D4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "t4a-006",
+      "slug": "a-major-scale-rh",
+      "title": "A Major Scale RH",
+      "summary": "Right hand A major scale with F#, C#, and G#.",
+      "goal": "Play A major RH with all three sharps clean and even.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:e", "B3:e", "C#4:e", "D4:e", "E4:e", "F#4:e", "G#4:e", "A4:e"],
+        ["A4:e", "G#4:e", "F#4:e", "E4:e", "D4:e", "C#4:e", "B3:e", "A3:e"],
+        ["A3:e", "B3:e", "C#4:e", "D4:e", "E4:e", "F#4:e", "G#4:e", "A4:e"],
+        ["A4:w"]
+      ]
+    },
+    {
+      "id": "t4a-007",
+      "slug": "a-major-scale-lh",
+      "title": "A Major Scale LH",
+      "summary": "Left hand A major scale with F#, C#, and G#.",
+      "goal": "Play A major LH cleanly with all three sharps.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 3,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A2:e", "B2:e", "C#3:e", "D3:e", "E3:e", "F#3:e", "G#3:e", "A3:e"],
+        ["A3:e", "G#3:e", "F#3:e", "E3:e", "D3:e", "C#3:e", "B2:e", "A2:e"],
+        ["A2:e", "B2:e", "C#3:e", "D3:e", "E3:e", "F#3:e", "G#3:e", "A3:e"],
+        ["A3:w"]
+      ]
+    },
+    {
+      "id": "t4a-008",
+      "slug": "a-major-scale-ht",
+      "title": "A Major Scale HT",
+      "summary": "Hands together A major scale in parallel motion.",
+      "goal": "Play A major hands together with all three sharps synchronized.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "B4:e", "C#5:e", "D5:e", "E5:e", "F#5:e", "G#5:e", "A5:e"],
+        ["A5:e", "G#5:e", "F#5:e", "E5:e", "D5:e", "C#5:e", "B4:e", "A4:e"],
+        ["A4:e", "B4:e", "C#5:e", "D5:e", "E5:e", "F#5:e", "G#5:e", "A5:e"],
+        ["A5:w"]
+      ],
+      "measuresLeft": [
+        ["A2:e", "B2:e", "C#3:e", "D3:e", "E3:e", "F#3:e", "G#3:e", "A3:e"],
+        ["A3:e", "G#3:e", "F#3:e", "E3:e", "D3:e", "C#3:e", "B2:e", "A2:e"],
+        ["A2:e", "B2:e", "C#3:e", "D3:e", "E3:e", "F#3:e", "G#3:e", "A3:e"],
+        ["A3:w"]
+      ]
+    },
+    {
+      "id": "t4a-009",
+      "slug": "a-major-broken-chord-rh",
+      "title": "A Major Broken Chord RH",
+      "summary": "A major broken chord pattern (A-C#-E) ascending and descending.",
+      "goal": "Play the A major broken chord smoothly with correct C#.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:e", "C#4:e", "E4:e", "A4:e", "E4:e", "C#4:e", "A3:e", "R:e"],
+        ["A3:e", "C#4:e", "E4:e", "A4:e", "E4:e", "C#4:e", "A3:e", "R:e"],
+        ["A3:q", "C#4:q", "E4:q", "A4:q"],
+        ["A4:w"]
+      ]
+    },
+    {
+      "id": "t4a-010",
+      "slug": "a-major-arpeggio-rh",
+      "title": "A Major Arpeggio RH",
+      "summary": "A major arpeggio over one octave, ascending and descending.",
+      "goal": "Play the A major arpeggio with smooth crossings.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 76,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:q", "C#4:q", "E4:q"],
+        ["A4:q", "E4:q", "C#4:q"],
+        ["A3:q", "C#4:q", "E4:q"],
+        ["A4:h", "R:q"],
+        ["A4:q", "E4:q", "C#4:q"],
+        ["A3:q", "C#4:q", "E4:q"],
+        ["A4:q", "E4:q", "C#4:q"],
+        ["A3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "t4a-011",
+      "slug": "d-harmonic-minor-rh",
+      "title": "D Harmonic Minor Scale RH",
+      "summary": "Right hand D harmonic minor with raised C#.",
+      "goal": "Play D harmonic minor RH with the distinctive augmented 2nd interval.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "Bb4:e", "C#5:e", "D5:e"],
+        ["D5:e", "C#5:e", "Bb4:e", "A4:e", "G4:e", "F4:e", "E4:e", "D4:e"],
+        ["D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "Bb4:e", "C#5:e", "D5:e"],
+        ["D5:w"]
+      ]
+    },
+    {
+      "id": "t4a-012",
+      "slug": "d-harmonic-minor-lh",
+      "title": "D Harmonic Minor Scale LH",
+      "summary": "Left hand D harmonic minor with raised C#.",
+      "goal": "Play D harmonic minor LH with smooth Bb to C# transition.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D3:e", "E3:e", "F3:e", "G3:e", "A3:e", "Bb3:e", "C#4:e", "D4:e"],
+        ["D4:e", "C#4:e", "Bb3:e", "A3:e", "G3:e", "F3:e", "E3:e", "D3:e"],
+        ["D3:e", "E3:e", "F3:e", "G3:e", "A3:e", "Bb3:e", "C#4:e", "D4:e"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "t4a-013",
+      "slug": "d-harmonic-minor-ht",
+      "title": "D Harmonic Minor Scale HT",
+      "summary": "Hands together D harmonic minor in parallel motion.",
+      "goal": "Play D harmonic minor HT with synchronized raised 7th.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "Bb4:e", "C#5:e", "D5:e"],
+        ["D5:e", "C#5:e", "Bb4:e", "A4:e", "G4:e", "F4:e", "E4:e", "D4:e"],
+        ["D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "Bb4:e", "C#5:e", "D5:e"],
+        ["D5:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "E3:e", "F3:e", "G3:e", "A3:e", "Bb3:e", "C#4:e", "D4:e"],
+        ["D4:e", "C#4:e", "Bb3:e", "A3:e", "G3:e", "F3:e", "E3:e", "D3:e"],
+        ["D3:e", "E3:e", "F3:e", "G3:e", "A3:e", "Bb3:e", "C#4:e", "D4:e"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "t4a-014",
+      "slug": "a-harmonic-minor-rh",
+      "title": "A Harmonic Minor Scale RH",
+      "summary": "Right hand A harmonic minor with raised G#.",
+      "goal": "Play A harmonic minor RH with the raised 7th degree.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:e", "B3:e", "C4:e", "D4:e", "E4:e", "F4:e", "G#4:e", "A4:e"],
+        ["A4:e", "G#4:e", "F4:e", "E4:e", "D4:e", "C4:e", "B3:e", "A3:e"],
+        ["A3:e", "B3:e", "C4:e", "D4:e", "E4:e", "F4:e", "G#4:e", "A4:e"],
+        ["A4:w"]
+      ]
+    },
+    {
+      "id": "t4a-015",
+      "slug": "a-harmonic-minor-lh",
+      "title": "A Harmonic Minor Scale LH",
+      "summary": "Left hand A harmonic minor with raised G#.",
+      "goal": "Play A harmonic minor LH with smooth G# fingering.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A2:e", "B2:e", "C3:e", "D3:e", "E3:e", "F3:e", "G#3:e", "A3:e"],
+        ["A3:e", "G#3:e", "F3:e", "E3:e", "D3:e", "C3:e", "B2:e", "A2:e"],
+        ["A2:e", "B2:e", "C3:e", "D3:e", "E3:e", "F3:e", "G#3:e", "A3:e"],
+        ["A3:w"]
+      ]
+    },
+    {
+      "id": "t4a-016",
+      "slug": "a-harmonic-minor-ht",
+      "title": "A Harmonic Minor Scale HT",
+      "summary": "Hands together A harmonic minor in parallel motion.",
+      "goal": "Play A harmonic minor HT with synchronized raised 7th.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "B4:e", "C5:e", "D5:e", "E5:e", "F5:e", "G#5:e", "A5:e"],
+        ["A5:e", "G#5:e", "F5:e", "E5:e", "D5:e", "C5:e", "B4:e", "A4:e"],
+        ["A4:e", "B4:e", "C5:e", "D5:e", "E5:e", "F5:e", "G#5:e", "A5:e"],
+        ["A5:w"]
+      ],
+      "measuresLeft": [
+        ["A2:e", "B2:e", "C3:e", "D3:e", "E3:e", "F3:e", "G#3:e", "A3:e"],
+        ["A3:e", "G#3:e", "F3:e", "E3:e", "D3:e", "C3:e", "B2:e", "A2:e"],
+        ["A2:e", "B2:e", "C3:e", "D3:e", "E3:e", "F3:e", "G#3:e", "A3:e"],
+        ["A3:w"]
+      ]
+    },
+    {
+      "id": "t4a-017",
+      "slug": "d-minor-broken-chord",
+      "title": "D Minor Broken Chord",
+      "summary": "D minor broken chord pattern (D-F-A) with both hands.",
+      "goal": "Play the D minor broken chord smoothly with both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "F4:e", "A4:e", "D5:e", "A4:e", "F4:e", "D4:e", "R:e"],
+        ["D4:e", "F4:e", "A4:e", "D5:e", "A4:e", "F4:e", "D4:e", "R:e"],
+        ["D4:q", "F4:q", "A4:q", "D5:q"],
+        ["D5:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "F3:e", "A3:e", "D4:e", "A3:e", "F3:e", "D3:e", "R:e"],
+        ["D3:e", "F3:e", "A3:e", "D4:e", "A3:e", "F3:e", "D3:e", "R:e"],
+        ["D3:q", "F3:q", "A3:q", "D4:q"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "t4a-018",
+      "slug": "a-minor-arpeggio-ht",
+      "title": "A Minor Arpeggio HT",
+      "summary": "A minor arpeggio (A-C-E) hands together over one octave.",
+      "goal": "Play the A minor arpeggio hands together with smooth crossings.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:q", "C5:q", "E5:q"],
+        ["A5:q", "E5:q", "C5:q"],
+        ["A4:q", "C5:q", "E5:q"],
+        ["A5:h", "R:q"],
+        ["A5:q", "E5:q", "C5:q"],
+        ["A4:q", "C5:q", "E5:q"],
+        ["A5:q", "E5:q", "C5:q"],
+        ["A4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["A2:q", "C3:q", "E3:q"],
+        ["A3:q", "E3:q", "C3:q"],
+        ["A2:q", "C3:q", "E3:q"],
+        ["A3:h", "R:q"],
+        ["A3:q", "E3:q", "C3:q"],
+        ["A2:q", "C3:q", "E3:q"],
+        ["A3:q", "E3:q", "C3:q"],
+        ["A2:h", "R:q"]
+      ]
+    },
+    {
+      "id": "t4a-019",
+      "slug": "d-major-i-iv-v",
+      "title": "I-IV-V in D Major",
+      "summary": "Chord progression D-G-A-D using blocked chords.",
+      "goal": "Play the I-IV-V-I progression in D major with solid voicing.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[D4,F#4,A4]:w"],
+        ["[D4,F#4,A4]:w"],
+        ["[D4,G4,B4]:w"],
+        ["[D4,G4,B4]:w"],
+        ["[C#4,E4,A4]:w"],
+        ["[C#4,E4,A4]:w"],
+        ["[D4,F#4,A4]:h", "[C#4,E4,A4]:h"],
+        ["[D4,F#4,A4]:w"]
+      ]
+    },
+    {
+      "id": "t4a-020",
+      "slug": "d-a-scale-review",
+      "title": "D & A Major Scale Review",
+      "summary": "Combined review — D major and A major scales back to back, hands together.",
+      "goal": "Play both D and A major scales HT seamlessly in one exercise.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D5:e", "C#5:e", "B4:e", "A4:e", "G4:e", "F#4:e", "E4:e", "D4:e"],
+        ["A4:e", "B4:e", "C#5:e", "D5:e", "E5:e", "F#5:e", "G#5:e", "A5:e"],
+        ["A5:e", "G#5:e", "F#5:e", "E5:e", "D5:e", "C#5:e", "B4:e", "A4:e"],
+        ["D4:q", "F#4:q", "A4:q", "D5:q"],
+        ["A4:q", "C#5:q", "E5:q", "A5:q"],
+        ["D5:h", "A4:h"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:e", "B3:e", "C#4:e", "D4:e"],
+        ["D4:e", "C#4:e", "B3:e", "A3:e", "G3:e", "F#3:e", "E3:e", "D3:e"],
+        ["A2:e", "B2:e", "C#3:e", "D3:e", "E3:e", "F#3:e", "G#3:e", "A3:e"],
+        ["A3:e", "G#3:e", "F#3:e", "E3:e", "D3:e", "C#3:e", "B2:e", "A2:e"],
+        ["D3:q", "F#3:q", "A3:q", "D4:q"],
+        ["A2:q", "C#3:q", "E3:q", "A3:q"],
+        ["D3:h", "A2:h"],
+        ["D3:w"]
+      ]
+    }
+  ]
+}

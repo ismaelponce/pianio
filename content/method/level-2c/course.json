@@ -1,0 +1,485 @@
+{
+  "courseId": "method-level-2c",
+  "title": "Method Level 2C — Combination",
+  "level": 2,
+  "summary": "Both hands together in D position, G position, and A minor — the first grand-staff reading in new hand positions.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "m2c-001",
+      "slug": "d-position-review",
+      "title": "D Position Review",
+      "summary": "Six-measure right-hand review of D position combining steps and skips.",
+      "goal": "Play D position fluently at a confident tempo before introducing both hands.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "E4:q", "F#4:q", "G4:q"],
+        ["A4:h", "G4:h"],
+        ["F#4:q", "E4:q", "F#4:q", "D4:q"],
+        ["E4:h", "F#4:h"],
+        ["G4:q", "F#4:q", "E4:q", "D4:q"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "m2c-002",
+      "slug": "g-position-review",
+      "title": "G Position Review",
+      "summary": "Six-measure right-hand review of G position before playing both hands.",
+      "goal": "Play G position confidently from G4 up to D5 and back.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:q", "B4:q", "C5:q"],
+        ["D5:h", "C5:h"],
+        ["B4:q", "A4:q", "B4:q", "G4:q"],
+        ["A4:h", "B4:h"],
+        ["C5:q", "B4:q", "A4:q", "G4:q"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "m2c-003",
+      "slug": "a-minor-review",
+      "title": "A Minor Review",
+      "summary": "Six-measure right-hand review of A natural minor position.",
+      "goal": "Play A minor position with a flowing, expressive minor-mode character.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:q", "B3:q", "C4:q", "D4:q"],
+        ["E4:h", "D4:h"],
+        ["C4:q", "B3:q", "A3:q", "B3:q"],
+        ["C4:h", "E4:h"],
+        ["D4:q", "C4:q", "B3:q", "A3:q"],
+        ["A3:w"]
+      ]
+    },
+    {
+      "id": "m2c-004",
+      "slug": "d-bass-review",
+      "title": "D Bass Review",
+      "summary": "Six-measure left-hand review of D position in bass clef.",
+      "goal": "Play D position bass line with accurate F-sharp and clear phrasing.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D3:q", "E3:q", "F#3:q", "G3:q"],
+        ["A3:h", "G3:h"],
+        ["F#3:q", "E3:q", "F#3:q", "D3:q"],
+        ["E3:h", "F#3:h"],
+        ["G3:q", "F#3:q", "E3:q", "D3:q"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "m2c-005",
+      "slug": "g-bass-review",
+      "title": "G Bass Review",
+      "summary": "Six-measure left-hand review of G position in bass clef.",
+      "goal": "Play bass G position fluently from G2 up to D3 and back.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G2:q", "A2:q", "B2:q", "C3:q"],
+        ["D3:h", "C3:h"],
+        ["B2:q", "A2:q", "B2:q", "G2:q"],
+        ["A2:h", "B2:h"],
+        ["C3:q", "B2:q", "A2:q", "G2:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "m2c-006",
+      "slug": "a-minor-bass-review",
+      "title": "A Minor Bass Review",
+      "summary": "Six-measure left-hand review of A minor position in bass clef.",
+      "goal": "Play bass A minor position expressively before introducing both hands.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A2:q", "B2:q", "C3:q", "D3:q"],
+        ["E3:h", "D3:h"],
+        ["C3:q", "B2:q", "A2:q", "B2:q"],
+        ["C3:h", "E3:h"],
+        ["D3:q", "C3:q", "B2:q", "A2:q"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "m2c-007",
+      "slug": "d-hands-together",
+      "title": "D Hands Together",
+      "summary": "First grand-staff exercise in D position — both hands in parallel motion.",
+      "goal": "Coordinate both hands in D position simultaneously for the first time.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "E4:q", "F#4:q", "G4:q"],
+        ["A4:q", "G4:q", "F#4:h"],
+        ["E4:q", "D4:q", "D4:h"]
+      ],
+      "measuresLeft": [
+        ["D3:q", "E3:q", "F#3:q", "G3:q"],
+        ["A3:q", "G3:q", "F#3:h"],
+        ["E3:q", "D3:q", "D3:h"]
+      ]
+    },
+    {
+      "id": "m2c-008",
+      "slug": "g-hands-together",
+      "title": "G Hands Together",
+      "summary": "Both hands in parallel motion through G position.",
+      "goal": "Coordinate both hands across two octaves in G position.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:q", "B4:q", "C5:q"],
+        ["D5:q", "C5:q", "B4:h"],
+        ["A4:q", "G4:q", "G4:h"]
+      ],
+      "measuresLeft": [
+        ["G2:q", "A2:q", "B2:q", "C3:q"],
+        ["D3:q", "C3:q", "B2:h"],
+        ["A2:q", "G2:q", "G2:h"]
+      ]
+    },
+    {
+      "id": "m2c-009",
+      "slug": "a-minor-hands-together",
+      "title": "A Minor Hands Together",
+      "summary": "Both hands in parallel motion through A minor position.",
+      "goal": "Play A minor together in both hands — feel the minor mode in both registers.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 58,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:q", "B3:q", "C4:q", "D4:q"],
+        ["E4:q", "D4:q", "C4:h"],
+        ["B3:q", "A3:q", "A3:h"]
+      ],
+      "measuresLeft": [
+        ["A2:q", "B2:q", "C3:q", "D3:q"],
+        ["E3:q", "D3:q", "C3:h"],
+        ["B2:q", "A2:q", "A2:h"]
+      ]
+    },
+    {
+      "id": "m2c-010",
+      "slug": "d-melody-over-bass",
+      "title": "D Melody Over Bass",
+      "summary": "Right hand plays the D melody while left hand holds sustained bass notes.",
+      "goal": "Keep left-hand half notes steady while right hand moves independently.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "E4:q", "F#4:q", "G4:q"],
+        ["A4:q", "G4:q", "F#4:q", "E4:q"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:h", "F#3:h"],
+        ["G3:h", "A3:h"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "m2c-011",
+      "slug": "g-melody-over-bass",
+      "title": "G Melody Over Bass",
+      "summary": "Right hand plays the G melody while left hand holds bass half notes.",
+      "goal": "Balance a flowing G-position melody over a sustained bass line.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:q", "B4:q", "C5:q"],
+        ["D5:q", "C5:q", "B4:q", "A4:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G2:h", "B2:h"],
+        ["C3:h", "D3:h"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "m2c-012",
+      "slug": "d-waltz-together",
+      "title": "D Waltz Together",
+      "summary": "Both hands dance in 3/4 waltz time in D position.",
+      "goal": "Coordinate both hands in D position with a waltz character.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 68,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "E4:q", "F#4:q"],
+        ["A4:h", "R:q"],
+        ["G4:q", "F#4:q", "E4:q"],
+        ["D4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["D3:h", "R:q"],
+        ["D3:q", "E3:q", "F#3:q"],
+        ["G3:h", "R:q"],
+        ["D3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "m2c-013",
+      "slug": "g-waltz-together",
+      "title": "G Waltz Together",
+      "summary": "Both hands in G position waltz style.",
+      "goal": "Lock both hands onto a shared three-beat waltz pulse in G position.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 68,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:q", "B4:q"],
+        ["D5:h", "R:q"],
+        ["C5:q", "B4:q", "A4:q"],
+        ["G4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["G2:h", "R:q"],
+        ["G2:q", "A2:q", "B2:q"],
+        ["C3:h", "R:q"],
+        ["G2:h", "R:q"]
+      ]
+    },
+    {
+      "id": "m2c-014",
+      "slug": "d-march-together",
+      "title": "D March Together",
+      "summary": "Both hands march together in D position in 2/4.",
+      "goal": "Keep both hands locked onto a unified march pulse in D position.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "F#4:q"],
+        ["E4:q", "G4:q"],
+        ["F#4:q", "A4:q"],
+        ["G4:q", "F#4:q"],
+        ["E4:q", "D4:q"],
+        ["D4:h"]
+      ],
+      "measuresLeft": [
+        ["D3:q", "F#3:q"],
+        ["E3:q", "G3:q"],
+        ["F#3:q", "A3:q"],
+        ["G3:q", "F#3:q"],
+        ["E3:q", "D3:q"],
+        ["D3:h"]
+      ]
+    },
+    {
+      "id": "m2c-015",
+      "slug": "g-march-together",
+      "title": "G March Together",
+      "summary": "Both hands march together in G position in 2/4.",
+      "goal": "Coordinate two-beat G-position figures in both hands simultaneously.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "B4:q"],
+        ["A4:q", "C5:q"],
+        ["B4:q", "D5:q"],
+        ["C5:q", "B4:q"],
+        ["A4:q", "G4:q"],
+        ["G4:h"]
+      ],
+      "measuresLeft": [
+        ["G2:q", "B2:q"],
+        ["A2:q", "C3:q"],
+        ["B2:q", "D3:q"],
+        ["C3:q", "B2:q"],
+        ["A2:q", "G2:q"],
+        ["G2:h"]
+      ]
+    },
+    {
+      "id": "m2c-016",
+      "slug": "a-minor-duet",
+      "title": "A Minor Duet",
+      "summary": "Right hand carries a minor melody while left hand provides bass half notes.",
+      "goal": "Balance a minor-mode melody over a supportive bass line.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 58,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:q", "B3:q", "C4:q", "D4:q"],
+        ["E4:h", "D4:h"],
+        ["C4:q", "B3:q", "A3:h"],
+        ["A3:w"]
+      ],
+      "measuresLeft": [
+        ["A2:h", "C3:h"],
+        ["E3:h", "D3:h"],
+        ["C3:h", "E3:h"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "m2c-017",
+      "slug": "d-two-voices",
+      "title": "D Two Voices",
+      "summary": "Right hand sings a D melody while left hand moves independently.",
+      "goal": "Maintain independent rhythmic lines in each hand in D position.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F#4:q", "E4:q", "D4:q", "E4:q"],
+        ["F#4:h", "G4:h"],
+        ["A4:q", "G4:q", "F#4:h"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:h", "E3:h"],
+        ["D3:h", "A3:h"],
+        ["G3:h", "F#3:h"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "m2c-018",
+      "slug": "g-two-voices",
+      "title": "G Two Voices",
+      "summary": "Independent melodic lines in both hands in G position.",
+      "goal": "Sustain two distinct voices in G position with clear tone in each hand.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["B4:q", "A4:q", "G4:q", "A4:q"],
+        ["B4:h", "C5:h"],
+        ["D5:q", "C5:q", "B4:h"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G2:h", "A2:h"],
+        ["G2:h", "D3:h"],
+        ["C3:h", "B2:h"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "m2c-019",
+      "slug": "a-minor-song-extended",
+      "title": "A Minor Song Extended",
+      "summary": "Eight-measure A minor right-hand piece with full phrase shape.",
+      "goal": "Play a complete, expressive A minor melody across eight measures.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:q", "B3:q", "C4:q", "D4:q"],
+        ["E4:h", "C4:h"],
+        ["D4:q", "C4:q", "B3:q", "A3:q"],
+        ["B3:h", "E4:h"],
+        ["C4:q", "D4:q", "E4:h"],
+        ["D4:q", "C4:q", "B3:h"],
+        ["C4:q", "B3:q", "A3:q", "B3:q"],
+        ["A3:w"]
+      ]
+    },
+    {
+      "id": "m2c-020",
+      "slug": "combination-capstone",
+      "title": "Combination Capstone",
+      "summary": "Six-measure grand-staff D-position capstone drawing on all Level 2C skills.",
+      "goal": "Perform a complete two-hand D-position piece with confident F-sharp and musical phrasing.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "E4:q", "F#4:h"],
+        ["G4:q", "F#4:q", "E4:q", "D4:q"],
+        ["F#4:h", "A4:h"],
+        ["G4:q", "F#4:q", "E4:h"],
+        ["F#4:q", "E4:q", "D4:q", "E4:q"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:w"],
+        ["G3:h", "E3:h"],
+        ["D3:h", "A3:h"],
+        ["D3:h", "F#3:h"],
+        ["G3:h", "E3:h"],
+        ["D3:w"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "courseId": "technique-level-6d",
+  "title": "Technique Level 6D — Octave Passages",
+  "level": 6,
+  "summary": "Blocked octaves, broken octaves, and octave scale passages in multiple keys — building wrist flexibility and power for advanced repertoire.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "t6d-001",
+      "slug": "octave-c-rh-blocked",
+      "title": "Blocked Octaves C Major Scale RH",
+      "summary": "Right hand blocked octaves ascending and descending through C major.",
+      "goal": "Play blocked octaves with relaxed wrist — no tension at 72 BPM.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,C5]:q", "[D4,D5]:q", "[E4,E5]:q", "[F4,F5]:q"],
+        ["[G4,G5]:q", "[A4,A5]:q", "[B4,B5]:q", "[C4,C5]:q"],
+        ["[B4,B5]:q", "[A4,A5]:q", "[G4,G5]:q", "[F4,F5]:q"],
+        ["[E4,E5]:q", "[D4,D5]:q", "[C4,C5]:h"]
+      ]
+    },
+    {
+      "id": "t6d-002",
+      "slug": "octave-c-lh-blocked",
+      "title": "Blocked Octaves C Major Scale LH",
+      "summary": "Left hand blocked octaves ascending through C major.",
+      "goal": "Play LH blocked octaves with wrist rotation — no arm tension.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C2,C3]:q", "[D2,D3]:q", "[E2,E3]:q", "[F2,F3]:q"],
+        ["[G2,G3]:q", "[A2,A3]:q", "[B2,B3]:q", "[C3,C4]:q"],
+        ["[B2,B3]:q", "[A2,A3]:q", "[G2,G3]:q", "[F2,F3]:q"],
+        ["[E2,E3]:q", "[D2,D3]:q", "[C2,C3]:h"]
+      ]
+    },
+    {
+      "id": "t6d-003",
+      "slug": "broken-octave-c-rh",
+      "title": "Broken Octaves C Major RH",
+      "summary": "Alternating between lower and upper notes of each octave in C major.",
+      "goal": "Play broken octaves smoothly — wrist pivots between thumb and pinky.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "C5:e", "D4:e", "D5:e", "E4:e", "E5:e", "F4:e", "F5:e"],
+        ["G4:e", "G5:e", "A4:e", "A5:e", "B4:e", "B5:e", "C4:e", "C5:e"],
+        ["B4:e", "B5:e", "A4:e", "A5:e", "G4:e", "G5:e", "F4:e", "F5:e"],
+        ["E4:e", "E5:e", "D4:e", "D5:e", "C4:e", "C5:e", "C4:q"]
+      ]
+    },
+    {
+      "id": "t6d-004",
+      "slug": "broken-octave-c-lh",
+      "title": "Broken Octaves C Major LH",
+      "summary": "Left hand broken octaves ascending through C major.",
+      "goal": "Build LH broken octave technique — wrist flexibility is key.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C2:e", "C3:e", "D2:e", "D3:e", "E2:e", "E3:e", "F2:e", "F3:e"],
+        ["G2:e", "G3:e", "A2:e", "A3:e", "B2:e", "B3:e", "C3:e", "C4:e"],
+        ["B2:e", "B3:e", "A2:e", "A3:e", "G2:e", "G3:e", "F2:e", "F3:e"],
+        ["E2:e", "E3:e", "D2:e", "D3:e", "C2:e", "C3:e", "C2:q"]
+      ]
+    },
+    {
+      "id": "t6d-005",
+      "slug": "octave-g-rh-blocked",
+      "title": "Blocked Octaves G Major Scale RH",
+      "summary": "Right hand blocked octaves through G major.",
+      "goal": "Play octaves in G major with F# — maintain relaxed wrist.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[G4,G5]:q", "[A4,A5]:q", "[B4,B5]:q", "[C4,C5]:q"],
+        ["[D4,D5]:q", "[E4,E5]:q", "[F#4,F#5]:q", "[G4,G5]:q"],
+        ["[F#4,F#5]:q", "[E4,E5]:q", "[D4,D5]:q", "[C4,C5]:q"],
+        ["[B4,B5]:q", "[A4,A5]:q", "[G4,G5]:h"]
+      ]
+    },
+    {
+      "id": "t6d-006",
+      "slug": "broken-octave-g-rh",
+      "title": "Broken Octaves G Major RH",
+      "summary": "Broken octaves ascending and descending through G major.",
+      "goal": "Navigate broken octaves with F# in G major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "G5:e", "A4:e", "A5:e", "B4:e", "B5:e", "C4:e", "C5:e"],
+        ["D4:e", "D5:e", "E4:e", "E5:e", "F#4:e", "F#5:e", "G4:e", "G5:e"],
+        ["F#4:e", "F#5:e", "E4:e", "E5:e", "D4:e", "D5:e", "C4:e", "C5:e"],
+        ["B4:e", "B5:e", "A4:e", "A5:e", "G4:h"]
+      ]
+    },
+    {
+      "id": "t6d-007",
+      "slug": "octave-d-rh-blocked",
+      "title": "Blocked Octaves D Major Scale RH",
+      "summary": "Right hand blocked octaves through D major.",
+      "goal": "Play octaves in D major with F# and C#.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[D4,D5]:q", "[E4,E5]:q", "[F#4,F#5]:q", "[G4,G5]:q"],
+        ["[A4,A5]:q", "[B4,B5]:q", "[C#5,C#4]:q", "[D4,D5]:q"],
+        ["[C#5,C#4]:q", "[B4,B5]:q", "[A4,A5]:q", "[G4,G5]:q"],
+        ["[F#4,F#5]:q", "[E4,E5]:q", "[D4,D5]:h"]
+      ]
+    },
+    {
+      "id": "t6d-008",
+      "slug": "octave-f-rh-blocked",
+      "title": "Blocked Octaves F Major Scale RH",
+      "summary": "Right hand blocked octaves through F major.",
+      "goal": "Play octaves in F major with Bb.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[F4,F5]:q", "[G4,G5]:q", "[A4,A5]:q", "[Bb4,Bb5]:q"],
+        ["[C5,C4]:q", "[D5,D4]:q", "[E5,E4]:q", "[F4,F5]:q"],
+        ["[E5,E4]:q", "[D5,D4]:q", "[C5,C4]:q", "[Bb4,Bb5]:q"],
+        ["[A4,A5]:q", "[G4,G5]:q", "[F4,F5]:h"]
+      ]
+    },
+    {
+      "id": "t6d-009",
+      "slug": "octave-ht-c",
+      "title": "Blocked Octaves C Major HT",
+      "summary": "Both hands blocked octaves in parallel through C major.",
+      "goal": "Synchronize octave scales in both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,C5]:q", "[D4,D5]:q", "[E4,E5]:q", "[F4,F5]:q"],
+        ["[G4,G5]:q", "[F4,F5]:q", "[E4,E5]:q", "[D4,D5]:q"],
+        ["[C4,C5]:w"]
+      ],
+      "measuresLeft": [
+        ["[C2,C3]:q", "[D2,D3]:q", "[E2,E3]:q", "[F2,F3]:q"],
+        ["[G2,G3]:q", "[F2,F3]:q", "[E2,E3]:q", "[D2,D3]:q"],
+        ["[C2,C3]:w"]
+      ]
+    },
+    {
+      "id": "t6d-010",
+      "slug": "broken-octave-ht-c",
+      "title": "Broken Octaves C Major HT",
+      "summary": "Both hands broken octaves in C major.",
+      "goal": "Synchronize broken octaves in both hands — rapid wrist pivots together.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "C5:e", "D4:e", "D5:e", "E4:e", "E5:e", "F4:e", "F5:e"],
+        ["G4:e", "G5:e", "F4:e", "F5:e", "E4:e", "E5:e", "D4:e", "D5:e"],
+        ["C4:e", "C5:e", "C4:q", "R:h"]
+      ],
+      "measuresLeft": [
+        ["C2:e", "C3:e", "D2:e", "D3:e", "E2:e", "E3:e", "F2:e", "F3:e"],
+        ["G2:e", "G3:e", "F2:e", "F3:e", "E2:e", "E3:e", "D2:e", "D3:e"],
+        ["C2:e", "C3:e", "C2:q", "R:h"]
+      ]
+    },
+    {
+      "id": "t6d-011",
+      "slug": "octave-a-rh-blocked",
+      "title": "Blocked Octaves A Major Scale RH",
+      "summary": "Right hand blocked octaves through A major.",
+      "goal": "Play octaves in A major with three sharps.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[A4,A5]:q", "[B4,B5]:q", "[C#5,C#4]:q", "[D5,D4]:q"],
+        ["[E5,E4]:q", "[F#5,F#4]:q", "[G#5,G#4]:q", "[A4,A5]:q"],
+        ["[G#5,G#4]:q", "[F#5,F#4]:q", "[E5,E4]:q", "[D5,D4]:q"],
+        ["[C#5,C#4]:q", "[B4,B5]:q", "[A4,A5]:h"]
+      ]
+    },
+    {
+      "id": "t6d-012",
+      "slug": "octave-bb-rh-blocked",
+      "title": "Blocked Octaves Bb Major Scale RH",
+      "summary": "Right hand blocked octaves through Bb major.",
+      "goal": "Play octaves in Bb major with two flats.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[Bb4,Bb5]:q", "[C5,C4]:q", "[D5,D4]:q", "[Eb5,Eb4]:q"],
+        ["[F5,F4]:q", "[G5,G4]:q", "[A5,A4]:q", "[Bb4,Bb5]:q"],
+        ["[A5,A4]:q", "[G5,G4]:q", "[F5,F4]:q", "[Eb5,Eb4]:q"],
+        ["[D5,D4]:q", "[C5,C4]:q", "[Bb4,Bb5]:h"]
+      ]
+    },
+    {
+      "id": "t6d-013",
+      "slug": "broken-octave-d-rh",
+      "title": "Broken Octaves D Major RH",
+      "summary": "Broken octaves ascending through D major.",
+      "goal": "Navigate broken octaves with F# and C#.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "D5:e", "E4:e", "E5:e", "F#4:e", "F#5:e", "G4:e", "G5:e"],
+        ["A4:e", "A5:e", "B4:e", "B5:e", "A4:e", "A5:e", "G4:e", "G5:e"],
+        ["F#4:e", "F#5:e", "E4:e", "E5:e", "D4:h"]
+      ]
+    },
+    {
+      "id": "t6d-014",
+      "slug": "octave-chromatic-rh",
+      "title": "Chromatic Octaves RH",
+      "summary": "Blocked octaves ascending chromatically from C to G.",
+      "goal": "Play chromatic octaves — maximum wrist flexibility demanded.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,C5]:q", "[C#4,C#5]:q", "[D4,D5]:q", "[Eb4,Eb5]:q"],
+        ["[E4,E5]:q", "[F4,F5]:q", "[F#4,F#5]:q", "[G4,G5]:q"],
+        ["[F#4,F#5]:q", "[F4,F5]:q", "[E4,E5]:q", "[Eb4,Eb5]:q"],
+        ["[D4,D5]:q", "[C#4,C#5]:q", "[C4,C5]:h"]
+      ]
+    },
+    {
+      "id": "t6d-015",
+      "slug": "octave-speed-c-rh",
+      "title": "Speed Octaves C Major RH",
+      "summary": "Blocked octaves at elevated tempo in C major.",
+      "goal": "Play octaves at 84 BPM — speed with relaxed wrist.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,C5]:q", "[D4,D5]:q", "[E4,E5]:q", "[F4,F5]:q"],
+        ["[G4,G5]:q", "[A4,A5]:q", "[B4,B5]:q", "[C4,C5]:q"],
+        ["[B4,B5]:q", "[A4,A5]:q", "[G4,G5]:q", "[F4,F5]:q"],
+        ["[E4,E5]:q", "[D4,D5]:q", "[C4,C5]:h"]
+      ]
+    },
+    {
+      "id": "t6d-016",
+      "slug": "octave-melody-c-rh",
+      "title": "Octave Melody in C Major RH",
+      "summary": "A melodic phrase played entirely in octaves — musical application.",
+      "goal": "Play a melody in octaves — power and expression combined.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,C5]:q", "[E4,E5]:q", "[G4,G5]:h"],
+        ["[A4,A5]:q", "[G4,G5]:q", "[F4,F5]:h"],
+        ["[E4,E5]:q", "[D4,D5]:q", "[C4,C5]:q", "[E4,E5]:q"],
+        ["[D4,D5]:h", "[C4,C5]:h"]
+      ]
+    },
+    {
+      "id": "t6d-017",
+      "slug": "octave-ht-g",
+      "title": "Blocked Octaves G Major HT",
+      "summary": "Both hands blocked octaves in G major.",
+      "goal": "Synchronize octave scales in both hands through G major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[G4,G5]:q", "[A4,A5]:q", "[B4,B5]:q", "[C4,C5]:q"],
+        ["[D4,D5]:q", "[C4,C5]:q", "[B4,B5]:q", "[A4,A5]:q"],
+        ["[G4,G5]:w"]
+      ],
+      "measuresLeft": [
+        ["[G2,G3]:q", "[A2,A3]:q", "[B2,B3]:q", "[C3,C4]:q"],
+        ["[D3,D4]:q", "[C3,C4]:q", "[B2,B3]:q", "[A2,A3]:q"],
+        ["[G2,G3]:w"]
+      ]
+    },
+    {
+      "id": "t6d-018",
+      "slug": "broken-octave-speed-c-rh",
+      "title": "Speed Broken Octaves C Major RH",
+      "summary": "Broken octaves at 92 BPM in C major.",
+      "goal": "Play broken octaves at speed — rapid wrist pivots.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "C5:e", "D4:e", "D5:e", "E4:e", "E5:e", "F4:e", "F5:e"],
+        ["G4:e", "G5:e", "F4:e", "F5:e", "E4:e", "E5:e", "D4:e", "D5:e"],
+        ["C4:e", "C5:e", "C4:q", "R:h"]
+      ]
+    },
+    {
+      "id": "t6d-019",
+      "slug": "octave-contrary-c-ht",
+      "title": "Contrary Motion Octaves C Major HT",
+      "summary": "Octave scales in contrary motion — RH up while LH down.",
+      "goal": "Navigate contrary motion octaves — the most demanding coordination.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,C5]:q", "[D4,D5]:q", "[E4,E5]:q", "[F4,F5]:q"],
+        ["[G4,G5]:q", "[F4,F5]:q", "[E4,E5]:q", "[D4,D5]:q"],
+        ["[C4,C5]:w"]
+      ],
+      "measuresLeft": [
+        ["[C3,C4]:q", "[B2,B3]:q", "[A2,A3]:q", "[G2,G3]:q"],
+        ["[F2,F3]:q", "[G2,G3]:q", "[A2,A3]:q", "[B2,B3]:q"],
+        ["[C3,C4]:w"]
+      ]
+    },
+    {
+      "id": "t6d-020",
+      "slug": "octave-mastery-ht",
+      "title": "Octave Mastery Review HT",
+      "summary": "Mixed blocked and broken octaves across C, G, D — the L6D mastery test.",
+      "goal": "Demonstrate octave fluency in both hands — the L6D capstone.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,C5]:q", "[D4,D5]:q", "[E4,E5]:q", "[F4,F5]:q"],
+        ["G4:e", "G5:e", "A4:e", "A5:e", "B4:e", "B5:e", "C4:e", "C5:e"],
+        ["[G4,G5]:q", "[A4,A5]:q", "[B4,B5]:q", "[C4,C5]:q"],
+        ["[C4,C5]:w"]
+      ],
+      "measuresLeft": [
+        ["[C2,C3]:q", "[D2,D3]:q", "[E2,E3]:q", "[F2,F3]:q"],
+        ["G2:e", "G3:e", "A2:e", "A3:e", "B2:e", "B3:e", "C3:e", "C4:e"],
+        ["[G2,G3]:q", "[A2,A3]:q", "[B2,B3]:q", "[C3,C4]:q"],
+        ["[C3,C4]:w"]
+      ]
+    }
+  ]
+}

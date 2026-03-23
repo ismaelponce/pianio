@@ -1,0 +1,629 @@
+{
+  "courseId": "songs-jazz-blues",
+  "title": "Songs: Jazz & Blues",
+  "level": 3,
+  "summary": "15 public-domain jazz standards, blues patterns, and ragtime classics — from 12-bar blues to Scott Joplin, with swing, syncopation, and stride bass.",
+  "sourcePolicy": "public_domain_only",
+  "exercises": [
+    {
+      "id": "songs-jb-001",
+      "slug": "12-bar-blues-c",
+      "title": "12-Bar Blues in C",
+      "summary": "The classic 12-bar blues progression in C major with swing feel.",
+      "goal": "Play the 12-bar blues chord pattern with a swing groove.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional blues pattern, arr. Pianio", "notes": "Traditional chord pattern in the public domain. Arrangement CC0."},
+      "category": "jazz-blues",
+      "dynamics": [
+        {"measure": 1, "marking": "mf"}
+      ],
+      "measures": [
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["F4:q", "A4:q", "C5:q", "A4:q"],
+        ["F4:q", "A4:q", "C5:q", "A4:q"],
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["G4:q", "B4:q", "D5:q", "B4:q"],
+        ["F4:q", "A4:q", "C5:q", "A4:q"],
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["G4:q", "B4:q", "C5:h"]
+      ],
+      "measuresLeft": [
+        ["C3:h", "C3:h"],
+        ["C3:h", "C3:h"],
+        ["C3:h", "C3:h"],
+        ["C3:h", "C3:h"],
+        ["F2:h", "F2:h"],
+        ["F2:h", "F2:h"],
+        ["C3:h", "C3:h"],
+        ["C3:h", "C3:h"],
+        ["G2:h", "G2:h"],
+        ["F2:h", "F2:h"],
+        ["C3:h", "C3:h"],
+        ["G2:h", "C3:h"]
+      ]
+    },
+    {
+      "id": "songs-jb-002",
+      "slug": "12-bar-blues-f",
+      "title": "12-Bar Blues in F",
+      "summary": "12-bar blues in F major with walking bass and swing.",
+      "goal": "Play the blues in F with a walking bass line.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional blues pattern, arr. Pianio", "notes": "Traditional chord pattern in the public domain. Arrangement CC0."},
+      "category": "jazz-blues",
+      "dynamics": [
+        {"measure": 1, "marking": "mf"},
+        {"measure": 9, "marking": "f"}
+      ],
+      "measures": [
+        ["F4:q", "A4:q", "C5:q", "A4:q"],
+        ["F4:q", "A4:q", "C5:q", "A4:q"],
+        ["F4:q", "A4:q", "C5:q", "A4:q"],
+        ["F4:q", "A4:q", "C5:q", "A4:q"],
+        ["Bb3:q", "D4:q", "F4:q", "D4:q"],
+        ["Bb3:q", "D4:q", "F4:q", "D4:q"],
+        ["F4:q", "A4:q", "C5:q", "A4:q"],
+        ["F4:q", "A4:q", "C5:q", "A4:q"],
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["Bb3:q", "D4:q", "F4:q", "D4:q"],
+        ["F4:q", "A4:q", "C5:q", "A4:q"],
+        ["C4:q", "E4:q", "F4:h"]
+      ],
+      "measuresLeft": [
+        ["F2:q", "A2:q", "C3:q", "A2:q"],
+        ["F2:q", "A2:q", "C3:q", "A2:q"],
+        ["F2:q", "A2:q", "C3:q", "A2:q"],
+        ["F2:q", "A2:q", "C3:q", "A2:q"],
+        ["Bb2:q", "D3:q", "F3:q", "D3:q"],
+        ["Bb2:q", "D3:q", "F3:q", "D3:q"],
+        ["F2:q", "A2:q", "C3:q", "A2:q"],
+        ["F2:q", "A2:q", "C3:q", "A2:q"],
+        ["C3:q", "E3:q", "G3:q", "E3:q"],
+        ["Bb2:q", "D3:q", "F3:q", "D3:q"],
+        ["F2:q", "A2:q", "C3:q", "A2:q"],
+        ["C3:q", "E3:q", "F2:h"]
+      ]
+    },
+    {
+      "id": "songs-jb-003",
+      "slug": "12-bar-blues-g",
+      "title": "12-Bar Blues in G",
+      "summary": "12-bar blues in G major with swing and seventh-chord flavor.",
+      "goal": "Play the blues in G with swing and dominant 7th color.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 104,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional blues pattern, arr. Pianio", "notes": "Traditional chord pattern in the public domain. Arrangement CC0."},
+      "category": "jazz-blues",
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ],
+      "measures": [
+        ["G4:q", "B4:q", "D5:q", "B4:q"],
+        ["G4:q", "B4:q", "D5:q", "F5:q"],
+        ["G4:q", "B4:q", "D5:q", "B4:q"],
+        ["G4:q", "B4:q", "D5:q", "F5:q"],
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["C4:q", "E4:q", "G4:q", "Bb4:q"],
+        ["G4:q", "B4:q", "D5:q", "B4:q"],
+        ["G4:q", "B4:q", "D5:q", "F5:q"],
+        ["D4:q", "F#4:q", "A4:q", "C5:q"],
+        ["C4:q", "E4:q", "G4:q", "Bb4:q"],
+        ["G4:q", "B4:q", "D5:q", "B4:q"],
+        ["D4:q", "F#4:q", "G4:h"]
+      ],
+      "measuresLeft": [
+        ["G2:h", "G2:h"],
+        ["G2:h", "G2:h"],
+        ["G2:h", "G2:h"],
+        ["G2:h", "G2:h"],
+        ["C3:h", "C3:h"],
+        ["C3:h", "C3:h"],
+        ["G2:h", "G2:h"],
+        ["G2:h", "G2:h"],
+        ["D3:h", "D3:h"],
+        ["C3:h", "C3:h"],
+        ["G2:h", "G2:h"],
+        ["D3:h", "G2:h"]
+      ]
+    },
+    {
+      "id": "songs-jb-004",
+      "slug": "the-entertainer",
+      "title": "The Entertainer (simplified)",
+      "summary": "Scott Joplin's famous ragtime masterpiece — simplified A section.",
+      "goal": "Play the iconic Entertainer melody with ragtime rhythm.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Scott Joplin (1902), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "ragtime",
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ],
+      "measures": [
+        ["D4:e", "E4:e", "C4:q", "R:h"],
+        ["D4:e", "E4:e", "C4:q", "R:h"],
+        ["D4:e", "E4:e", "C4:e", "E4:e", "D4:e", "E4:e", "C4:q"],
+        ["E4:e", "C4:e", "D4:e", "E4:e", "C4:q", "R:q"],
+        ["C4:e", "D4:e", "E4:e", "C4:e", "E4:q", "G4:q"],
+        ["E4:e", "C4:e", "D4:q", "E4:q", "R:q"],
+        ["C4:e", "D4:e", "E4:e", "C4:e", "E4:q", "G4:q"],
+        ["A4:q", "G4:q", "E4:q", "C4:q"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["F3:q", "C3:q", "G2:q", "C3:q"]
+      ]
+    },
+    {
+      "id": "songs-jb-005",
+      "slug": "maple-leaf-rag",
+      "title": "Maple Leaf Rag (simplified A section)",
+      "summary": "Scott Joplin's first hit — simplified opening section with stride-like LH.",
+      "goal": "Play the Maple Leaf Rag melody with syncopated rhythm.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Scott Joplin (1899), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "ragtime",
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ],
+      "measures": [
+        ["Ab4:e", "Eb4:e", "Ab4:e", "C5:e", "Eb5:e", "C5:e", "Ab4:e", "R:e"],
+        ["Bb4:e", "Ab4:e", "G4:e", "Ab4:e", "Eb4:q", "R:q"],
+        ["Ab4:e", "Eb4:e", "Ab4:e", "C5:e", "Eb5:e", "C5:e", "Ab4:e", "R:e"],
+        ["Bb4:e", "Ab4:e", "G4:e", "Ab4:e", "Eb4:q", "R:q"],
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "Ab4:e", "G4:e", "F4:e"],
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:q", "Ab4:q"],
+        ["G4:e", "Ab4:e", "Bb4:e", "C5:e", "Db5:e", "C5:e", "Bb4:e", "Ab4:e"],
+        ["G4:q", "Ab4:q", "Eb4:h"]
+      ],
+      "measuresLeft": [
+        ["Ab2:q", "Eb3:q", "Ab2:q", "Eb3:q"],
+        ["Ab2:q", "Eb3:q", "Ab2:q", "Eb3:q"],
+        ["Ab2:q", "Eb3:q", "Ab2:q", "Eb3:q"],
+        ["Ab2:q", "Eb3:q", "Ab2:q", "Eb3:q"],
+        ["Eb3:q", "Bb3:q", "Eb3:q", "Bb3:q"],
+        ["Eb3:q", "Bb3:q", "Eb3:q", "Bb3:q"],
+        ["Ab2:q", "Eb3:q", "Ab2:q", "Eb3:q"],
+        ["Eb3:q", "Bb3:q", "Ab2:h"]
+      ]
+    },
+    {
+      "id": "songs-jb-006",
+      "slug": "the-easy-winners",
+      "title": "The Easy Winners (simplified)",
+      "summary": "Scott Joplin's cheerful ragtime — simplified A section.",
+      "goal": "Play this bouncy ragtime melody with steady LH.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Scott Joplin (1901), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "ragtime",
+      "dynamics": [
+        {"measure": 1, "marking": "mf"},
+        {"measure": 5, "marking": "f"}
+      ],
+      "measures": [
+        ["E4:e", "C4:e", "E4:e", "G4:e", "A4:q", "G4:q"],
+        ["E4:e", "C4:e", "E4:e", "G4:e", "A4:q", "G4:q"],
+        ["C5:e", "B4:e", "A4:e", "G4:e", "E4:q", "C4:q"],
+        ["D4:e", "E4:e", "F4:e", "G4:e", "E4:q", "C4:q"],
+        ["E4:e", "C4:e", "E4:e", "G4:e", "A4:q", "G4:q"],
+        ["C5:e", "B4:e", "A4:e", "G4:e", "E4:q", "G4:q"],
+        ["A4:e", "G4:e", "E4:e", "C4:e", "D4:q", "E4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["F3:q", "C3:q", "F3:q", "C3:q"],
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["F3:q", "C3:q", "F3:q", "C3:q"],
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "songs-jb-007",
+      "slug": "solace",
+      "title": "Solace (simplified)",
+      "summary": "Scott Joplin's gentle ragtime — a Mexican serenade in simplified form.",
+      "goal": "Play this lyrical ragtime with a gentle, flowing feel.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Scott Joplin (1909), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "ragtime",
+      "dynamics": [
+        {"measure": 1, "marking": "mp"},
+        {"measure": 5, "marking": "mf"}
+      ],
+      "pedal": [
+        {"measure": 1, "beat": 1, "type": "down"},
+        {"measure": 2, "beat": 1, "type": "up"},
+        {"measure": 2, "beat": 1, "type": "down"},
+        {"measure": 3, "beat": 1, "type": "up"},
+        {"measure": 3, "beat": 1, "type": "down"},
+        {"measure": 4, "beat": 1, "type": "up"},
+        {"measure": 4, "beat": 1, "type": "down"},
+        {"measure": 5, "beat": 1, "type": "up"},
+        {"measure": 5, "beat": 1, "type": "down"},
+        {"measure": 6, "beat": 1, "type": "up"},
+        {"measure": 6, "beat": 1, "type": "down"},
+        {"measure": 7, "beat": 1, "type": "up"},
+        {"measure": 7, "beat": 1, "type": "down"},
+        {"measure": 8, "beat": 1, "type": "up"},
+        {"measure": 8, "beat": 1, "type": "down"},
+        {"measure": 8, "beat": 4, "type": "up"}
+      ],
+      "measures": [
+        ["B4:q", "A4:q", "G4:q", "E4:q"],
+        ["D4:q", "E4:q", "G4:h"],
+        ["B4:q", "A4:q", "G4:q", "F#4:q"],
+        ["E4:q", "D4:q", "D4:h"],
+        ["B4:q", "A4:q", "G4:q", "E4:q"],
+        ["D4:q", "E4:q", "G4:q", "B4:q"],
+        ["A4:q", "G4:q", "F#4:q", "E4:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["E3:q", "B3:q", "E3:q", "B3:q"],
+        ["A2:q", "E3:q", "D3:q", "A2:q"],
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["D3:q", "A3:q", "D3:q", "A3:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "songs-jb-008",
+      "slug": "boogie-woogie-bass",
+      "title": "Boogie-Woogie Bass Pattern",
+      "summary": "Classic boogie-woogie walking bass with simple RH riffs in C.",
+      "goal": "Play the boogie-woogie bass with rhythmic RH fills.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 112,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional boogie-woogie pattern, arr. Pianio", "notes": "Traditional pattern in the public domain. Arrangement CC0."},
+      "category": "jazz-blues",
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ],
+      "measures": [
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["C4:q", "E4:q", "G4:q", "A4:q"],
+        ["G4:q", "E4:q", "C4:q", "E4:q"],
+        ["G4:q", "A4:q", "G4:q", "E4:q"],
+        ["F4:q", "A4:q", "C5:q", "A4:q"],
+        ["F4:q", "A4:q", "C5:q", "A4:q"],
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["G4:q", "E4:q", "C4:h"]
+      ],
+      "measuresLeft": [
+        ["C2:e", "E2:e", "G2:e", "A2:e", "Bb2:e", "A2:e", "G2:e", "E2:e"],
+        ["C2:e", "E2:e", "G2:e", "A2:e", "Bb2:e", "A2:e", "G2:e", "E2:e"],
+        ["C2:e", "E2:e", "G2:e", "A2:e", "Bb2:e", "A2:e", "G2:e", "E2:e"],
+        ["C2:e", "E2:e", "G2:e", "A2:e", "Bb2:e", "A2:e", "G2:e", "E2:e"],
+        ["F2:e", "A2:e", "C3:e", "D3:e", "Eb3:e", "D3:e", "C3:e", "A2:e"],
+        ["F2:e", "A2:e", "C3:e", "D3:e", "Eb3:e", "D3:e", "C3:e", "A2:e"],
+        ["C2:e", "E2:e", "G2:e", "A2:e", "Bb2:e", "A2:e", "G2:e", "E2:e"],
+        ["G2:e", "B2:e", "D3:e", "E3:e", "C3:h"]
+      ]
+    },
+    {
+      "id": "songs-jb-009",
+      "slug": "st-louis-blues",
+      "title": "St. Louis Blues (simplified)",
+      "summary": "W.C. Handy's iconic blues — simplified melody with swing.",
+      "goal": "Play the St. Louis Blues melody with swing feel.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "W.C. Handy (1914), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "jazz-blues",
+      "dynamics": [
+        {"measure": 1, "marking": "mf"},
+        {"measure": 5, "marking": "f"}
+      ],
+      "measures": [
+        ["C4:q", "E4:q", "G4:e", "A4:e", "G4:q"],
+        ["E4:q", "C4:q", "R:h"],
+        ["C4:q", "E4:q", "G4:e", "A4:e", "Bb4:q"],
+        ["A4:q", "G4:q", "R:h"],
+        ["C5:q", "A4:q", "G4:e", "A4:e", "G4:q"],
+        ["E4:q", "G4:q", "A4:q", "G4:q"],
+        ["E4:q", "C4:q", "D4:q", "E4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:h", "G2:h"],
+        ["C3:h", "G2:h"],
+        ["C3:h", "G2:h"],
+        ["C3:h", "G2:h"],
+        ["F2:h", "C3:h"],
+        ["C3:h", "G2:h"],
+        ["G2:h", "C3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "songs-jb-010",
+      "slug": "blues-scale-study",
+      "title": "Blues Scale Improvisation Study",
+      "summary": "Practice the C blues scale (C-Eb-F-Gb-G-Bb) with swing.",
+      "goal": "Play the blues scale patterns with confident swing.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Original exercise. CC0."},
+      "category": "jazz-blues",
+      "dynamics": [
+        {"measure": 1, "marking": "mf"},
+        {"measure": 5, "marking": "f"}
+      ],
+      "measures": [
+        ["C4:e", "Eb4:e", "F4:e", "Gb4:e", "G4:e", "Bb4:e", "C5:e", "Bb4:e"],
+        ["G4:e", "Gb4:e", "F4:e", "Eb4:e", "C4:q", "R:q"],
+        ["C4:e", "Eb4:e", "F4:e", "G4:e", "Bb4:e", "G4:e", "F4:e", "Eb4:e"],
+        ["C4:q", "Eb4:q", "G4:q", "Bb4:q"],
+        ["C5:e", "Bb4:e", "G4:e", "Gb4:e", "F4:e", "Eb4:e", "C4:e", "Eb4:e"],
+        ["F4:e", "G4:e", "Bb4:e", "C5:e", "Bb4:e", "G4:e", "F4:e", "Eb4:e"],
+        ["C4:e", "Eb4:e", "G4:e", "Bb4:e", "C5:q", "R:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "songs-jb-011",
+      "slug": "stride-piano-pattern",
+      "title": "Stride Piano Pattern",
+      "summary": "Classic stride piano LH pattern (bass-chord alternation) with RH melody in C.",
+      "goal": "Play the stride bass-chord pattern with a melody on top.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional stride pattern, arr. Pianio", "notes": "Traditional pattern in the public domain. Arrangement CC0."},
+      "category": "jazz-blues",
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ],
+      "measures": [
+        ["E4:q", "G4:q", "E4:q", "C4:q"],
+        ["D4:q", "F4:q", "D4:q", "B3:q"],
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["A4:q", "G4:q", "E4:q", "C4:q"],
+        ["E4:q", "G4:q", "E4:q", "C4:q"],
+        ["D4:q", "F4:q", "A4:q", "F4:q"],
+        ["E4:q", "G4:q", "C5:q", "G4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C2:q", "[E3,G3]:q", "C2:q", "[E3,G3]:q"],
+        ["G2:q", "[D3,F3]:q", "G2:q", "[D3,F3]:q"],
+        ["C2:q", "[E3,G3]:q", "C2:q", "[E3,G3]:q"],
+        ["F2:q", "[A3,C4]:q", "G2:q", "[B3,D4]:q"],
+        ["C2:q", "[E3,G3]:q", "C2:q", "[E3,G3]:q"],
+        ["G2:q", "[D3,F3]:q", "G2:q", "[D3,F3]:q"],
+        ["C2:q", "[E3,G3]:q", "G2:q", "[D3,F3]:q"],
+        ["C2:w"]
+      ]
+    },
+    {
+      "id": "songs-jb-012",
+      "slug": "swing-waltz",
+      "title": "Swing Waltz in F",
+      "summary": "A gentle 3/4 swing waltz — combining jazz feel with waltz time.",
+      "goal": "Play this swing waltz with relaxed, lilting rhythm.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 108,
+      "timeSignature": [3, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Original exercise. CC0."},
+      "category": "jazz-blues",
+      "dynamics": [
+        {"measure": 1, "marking": "mp"},
+        {"measure": 5, "marking": "mf"}
+      ],
+      "measures": [
+        ["F4:q", "A4:q", "C5:q"],
+        ["Bb4:q", "A4:q", "G4:q"],
+        ["A4:q", "G4:q", "F4:q"],
+        ["G4:h", "R:q"],
+        ["A4:q", "C5:q", "F5:q"],
+        ["E5:q", "D5:q", "C5:q"],
+        ["Bb4:q", "A4:q", "G4:q"],
+        ["F4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["F2:q", "C3:q", "A3:q"],
+        ["Bb2:q", "F3:q", "D3:q"],
+        ["F2:q", "C3:q", "A3:q"],
+        ["C3:q", "G3:q", "E3:q"],
+        ["F2:q", "C3:q", "A3:q"],
+        ["C3:q", "G3:q", "Bb3:q"],
+        ["Bb2:q", "F3:q", "C3:q"],
+        ["F2:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-jb-013",
+      "slug": "memphis-blues",
+      "title": "Memphis Blues (simplified)",
+      "summary": "W.C. Handy's 1912 classic — simplified melody with swing.",
+      "goal": "Play the Memphis Blues melody with authentic swing.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "W.C. Handy (1912), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "jazz-blues",
+      "dynamics": [
+        {"measure": 1, "marking": "mf"},
+        {"measure": 5, "marking": "f"}
+      ],
+      "measures": [
+        ["G4:e", "A4:e", "G4:q", "E4:q", "C4:q"],
+        ["D4:e", "E4:e", "G4:q", "E4:q", "R:q"],
+        ["G4:e", "A4:e", "G4:q", "E4:q", "C4:q"],
+        ["D4:q", "E4:q", "C4:h"],
+        ["C5:e", "B4:e", "A4:q", "G4:q", "E4:q"],
+        ["G4:e", "A4:e", "G4:q", "E4:q", "C4:q"],
+        ["D4:q", "E4:e", "G4:e", "E4:q", "C4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:h", "G2:h"],
+        ["C3:h", "G2:h"],
+        ["C3:h", "G2:h"],
+        ["G2:h", "C3:h"],
+        ["F2:h", "C3:h"],
+        ["C3:h", "G2:h"],
+        ["G2:h", "C3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "songs-jb-014",
+      "slug": "ragtime-dance-pattern",
+      "title": "Ragtime Dance Pattern",
+      "summary": "Syncopation study in G major — practice the ragtime 'off-beat' feel.",
+      "goal": "Play this ragtime pattern with crisp syncopation.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Original exercise. CC0."},
+      "category": "ragtime",
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ],
+      "measures": [
+        ["R:e", "D4:e", "G4:e", "B4:e", "D5:q", "B4:q"],
+        ["R:e", "D4:e", "G4:e", "B4:e", "A4:q", "G4:q"],
+        ["R:e", "E4:e", "G4:e", "C5:e", "B4:q", "A4:q"],
+        ["G4:q", "B4:q", "D5:q", "B4:q"],
+        ["R:e", "D4:e", "G4:e", "B4:e", "D5:q", "B4:q"],
+        ["R:e", "C4:e", "E4:e", "A4:e", "G4:q", "E4:q"],
+        ["D4:e", "G4:e", "B4:e", "D5:e", "B4:q", "G4:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["C3:q", "G3:q", "D3:q", "A3:q"],
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "songs-jb-015",
+      "slug": "jazz-turnaround-c",
+      "title": "Jazz Turnaround in C",
+      "summary": "Classic I-vi-ii-V jazz turnaround in C with swing — the backbone of jazz harmony.",
+      "goal": "Play the jazz turnaround with smooth chord voice leading.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional jazz harmony, arr. Pianio", "notes": "Traditional chord pattern in the public domain. Arrangement CC0."},
+      "category": "jazz-blues",
+      "dynamics": [
+        {"measure": 1, "marking": "mf"},
+        {"measure": 5, "marking": "f"}
+      ],
+      "measures": [
+        ["E4:q", "G4:q", "C5:q", "G4:q"],
+        ["E4:q", "A4:q", "C5:q", "A4:q"],
+        ["D4:q", "F4:q", "A4:q", "F4:q"],
+        ["D4:q", "G4:q", "B4:q", "G4:q"],
+        ["E4:q", "G4:q", "C5:q", "G4:q"],
+        ["E4:q", "A4:q", "C5:q", "A4:q"],
+        ["D4:q", "F4:q", "A4:q", "G4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["A2:q", "E3:q", "A2:q", "E3:q"],
+        ["D3:q", "A3:q", "D3:q", "A3:q"],
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["A2:q", "E3:q", "A2:q", "E3:q"],
+        ["D3:q", "A3:q", "G2:q", "D3:q"],
+        ["C3:w"]
+      ]
+    }
+  ]
+}

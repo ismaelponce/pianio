@@ -1,0 +1,429 @@
+{
+  "courseId": "technique-level-6b",
+  "title": "Technique Level 6B — Ornament Patterns",
+  "level": 6,
+  "summary": "Written-out grace notes, mordents, and turn figures in multiple keys — mastering Baroque and Classical ornamental technique.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "t6b-001",
+      "slug": "mordent-c-rh",
+      "title": "Mordent Figures in C Major RH",
+      "summary": "Written-out mordent (main-lower-main) on each scale degree in C.",
+      "goal": "Play crisp mordent figures — quick lower neighbor and return.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "B4:e", "C4:e", "R:e", "D4:e", "C4:e", "D4:e", "R:e"],
+        ["E4:e", "D4:e", "E4:e", "R:e", "F4:e", "E4:e", "F4:e", "R:e"],
+        ["G4:e", "F4:e", "G4:e", "R:e", "A4:e", "G4:e", "A4:e", "R:e"],
+        ["B4:e", "A4:e", "B4:e", "R:e", "C5:h"]
+      ]
+    },
+    {
+      "id": "t6b-002",
+      "slug": "mordent-c-lh",
+      "title": "Mordent Figures in C Major LH",
+      "summary": "Written-out mordent on each scale degree in C, left hand.",
+      "goal": "Build left hand mordent speed — quick ornaments in the bass.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:e", "B2:e", "C3:e", "R:e", "D3:e", "C3:e", "D3:e", "R:e"],
+        ["E3:e", "D3:e", "E3:e", "R:e", "F3:e", "E3:e", "F3:e", "R:e"],
+        ["G3:e", "F3:e", "G3:e", "R:e", "A3:e", "G3:e", "A3:e", "R:e"],
+        ["B3:e", "A3:e", "B3:e", "R:e", "C4:h"]
+      ]
+    },
+    {
+      "id": "t6b-003",
+      "slug": "turn-c-rh",
+      "title": "Turn Figures in C Major RH",
+      "summary": "Written-out turn (upper-main-lower-main) on scale degrees.",
+      "goal": "Play smooth four-note turn figures — a Classical staple.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "C4:e", "B4:e", "C4:e", "E4:e", "D4:e", "C4:e", "D4:e"],
+        ["F4:e", "E4:e", "D4:e", "E4:e", "G4:e", "F4:e", "E4:e", "F4:e"],
+        ["A4:e", "G4:e", "F4:e", "G4:e", "B4:e", "A4:e", "G4:e", "A4:e"],
+        ["C5:h", "R:h"]
+      ]
+    },
+    {
+      "id": "t6b-004",
+      "slug": "turn-g-rh",
+      "title": "Turn Figures in G Major RH",
+      "summary": "Written-out turns ascending through G major.",
+      "goal": "Play turns with F# in G major — navigate the sharp.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "G4:e", "F#4:e", "G4:e", "B4:e", "A4:e", "G4:e", "A4:e"],
+        ["C5:e", "B4:e", "A4:e", "B4:e", "D5:e", "C5:e", "B4:e", "C5:e"],
+        ["E5:e", "D5:e", "C5:e", "D5:e", "F#5:e", "E5:e", "D5:e", "E5:e"],
+        ["G5:h", "R:h"]
+      ]
+    },
+    {
+      "id": "t6b-005",
+      "slug": "turn-d-rh",
+      "title": "Turn Figures in D Major RH",
+      "summary": "Written-out turns ascending through D major.",
+      "goal": "Navigate turns with F# and C# in D major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["E4:e", "D4:e", "C#4:e", "D4:e", "F#4:e", "E4:e", "D4:e", "E4:e"],
+        ["G4:e", "F#4:e", "E4:e", "F#4:e", "A4:e", "G4:e", "F#4:e", "G4:e"],
+        ["B4:e", "A4:e", "G4:e", "A4:e", "C#5:e", "B4:e", "A4:e", "B4:e"],
+        ["D5:h", "R:h"]
+      ]
+    },
+    {
+      "id": "t6b-006",
+      "slug": "grace-note-c-rh",
+      "title": "Grace Note Approaches in C Major RH",
+      "summary": "Quick approach note (grace) before each scale tone — written as eighth + quarter.",
+      "goal": "Play quick approach notes before the main note — grace note style.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["B4:e", "C4:dq", "D4:e", "E4:dq"],
+        ["F4:e", "G4:dq", "A4:e", "B4:dq"],
+        ["C5:e", "B4:dq", "A4:e", "G4:dq"],
+        ["F4:e", "E4:dq", "D4:e", "C4:dq"]
+      ]
+    },
+    {
+      "id": "t6b-007",
+      "slug": "grace-note-g-rh",
+      "title": "Grace Note Approaches in G Major RH",
+      "summary": "Quick approach notes before each scale tone in G major.",
+      "goal": "Play grace-style approaches with F# in G major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F#4:e", "G4:dq", "A4:e", "B4:dq"],
+        ["C5:e", "D5:dq", "E5:e", "F#5:dq"],
+        ["G5:e", "F#5:dq", "E5:e", "D5:dq"],
+        ["C5:e", "B4:dq", "A4:e", "G4:dq"]
+      ]
+    },
+    {
+      "id": "t6b-008",
+      "slug": "mordent-g-rh",
+      "title": "Mordent Figures in G Major RH",
+      "summary": "Mordent on each scale degree in G major.",
+      "goal": "Play mordents with F# — flat-key and sharp-key mordent feel.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "F#4:e", "G4:e", "R:e", "A4:e", "G4:e", "A4:e", "R:e"],
+        ["B4:e", "A4:e", "B4:e", "R:e", "C5:e", "B4:e", "C5:e", "R:e"],
+        ["D5:e", "C5:e", "D5:e", "R:e", "E5:e", "D5:e", "E5:e", "R:e"],
+        ["F#5:e", "E5:e", "F#5:e", "R:e", "G5:h"]
+      ]
+    },
+    {
+      "id": "t6b-009",
+      "slug": "turn-f-rh",
+      "title": "Turn Figures in F Major RH",
+      "summary": "Written-out turns ascending through F major with Bb.",
+      "goal": "Navigate turns in F major — smooth Bb navigation.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "F4:e", "E4:e", "F4:e", "A4:e", "G4:e", "F4:e", "G4:e"],
+        ["Bb4:e", "A4:e", "G4:e", "A4:e", "C5:e", "Bb4:e", "A4:e", "Bb4:e"],
+        ["D5:e", "C5:e", "Bb4:e", "C5:e", "E5:e", "D5:e", "C5:e", "D5:e"],
+        ["F5:h", "R:h"]
+      ]
+    },
+    {
+      "id": "t6b-010",
+      "slug": "mordent-d-rh",
+      "title": "Mordent Figures in D Major RH",
+      "summary": "Mordent on each scale degree in D major.",
+      "goal": "Play crisp mordents with F# and C# in D major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "C#4:e", "D4:e", "R:e", "E4:e", "D4:e", "E4:e", "R:e"],
+        ["F#4:e", "E4:e", "F#4:e", "R:e", "G4:e", "F#4:e", "G4:e", "R:e"],
+        ["A4:e", "G4:e", "A4:e", "R:e", "B4:e", "A4:e", "B4:e", "R:e"],
+        ["C#5:e", "B4:e", "C#5:e", "R:e", "D5:h"]
+      ]
+    },
+    {
+      "id": "t6b-011",
+      "slug": "grace-note-f-rh",
+      "title": "Grace Note Approaches in F Major RH",
+      "summary": "Quick approach notes before each scale tone in F major.",
+      "goal": "Play grace approaches with Bb in F major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["E4:e", "F4:dq", "G4:e", "A4:dq"],
+        ["Bb4:e", "C5:dq", "D5:e", "E5:dq"],
+        ["F5:e", "E5:dq", "D5:e", "C5:dq"],
+        ["Bb4:e", "A4:dq", "G4:e", "F4:dq"]
+      ]
+    },
+    {
+      "id": "t6b-012",
+      "slug": "turn-ht-c",
+      "title": "Turns with Accompaniment in C HT",
+      "summary": "Right hand turns over left hand sustained notes.",
+      "goal": "Maintain turns while the other hand holds — ornamental independence.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D5:e", "C5:e", "B4:e", "C5:e", "E5:e", "D5:e", "C5:e", "D5:e"],
+        ["F5:e", "E5:e", "D5:e", "E5:e", "G5:e", "F5:e", "E5:e", "F5:e"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:h", "F3:h"],
+        ["G3:h", "C3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t6b-013",
+      "slug": "mordent-ht-g",
+      "title": "Mordents with Accompaniment in G HT",
+      "summary": "Right hand mordents over left hand bass line in G major.",
+      "goal": "Play mordents while the left hand moves independently.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "F#4:e", "G4:e", "R:e", "A4:e", "G4:e", "A4:e", "R:e"],
+        ["B4:e", "A4:e", "B4:e", "R:e", "C5:e", "B4:e", "C5:e", "R:e"],
+        ["D5:e", "C5:e", "D5:e", "R:e", "G4:h"]
+      ],
+      "measuresLeft": [
+        ["G2:q", "B2:q", "D3:q", "G3:q"],
+        ["G3:q", "D3:q", "C3:q", "E3:q"],
+        ["D3:q", "G3:q", "G2:h"]
+      ]
+    },
+    {
+      "id": "t6b-014",
+      "slug": "ornament-bb-rh",
+      "title": "Ornament Figures in Bb Major RH",
+      "summary": "Mixed mordents and turns in Bb major.",
+      "goal": "Navigate ornaments in flat keys — Bb and Eb under the fingers.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:e", "A4:e", "Bb4:e", "R:e", "C5:e", "Bb4:e", "A4:e", "Bb4:e"],
+        ["D5:e", "C5:e", "D5:e", "R:e", "Eb5:e", "D5:e", "C5:e", "D5:e"],
+        ["F5:e", "Eb5:e", "F5:e", "R:e", "G5:e", "F5:e", "Eb5:e", "F5:e"],
+        ["Bb5:h", "R:h"]
+      ]
+    },
+    {
+      "id": "t6b-015",
+      "slug": "ornament-eb-rh",
+      "title": "Ornament Figures in Eb Major RH",
+      "summary": "Mixed mordents and turns in Eb major.",
+      "goal": "Navigate ornaments in Eb — three flats under the fingers.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:e", "D4:e", "Eb4:e", "R:e", "F4:e", "Eb4:e", "D4:e", "Eb4:e"],
+        ["G4:e", "F4:e", "G4:e", "R:e", "Ab4:e", "G4:e", "F4:e", "G4:e"],
+        ["Bb4:e", "Ab4:e", "Bb4:e", "R:e", "C5:e", "Bb4:e", "Ab4:e", "Bb4:e"],
+        ["Eb5:h", "R:h"]
+      ]
+    },
+    {
+      "id": "t6b-016",
+      "slug": "ornament-a-rh",
+      "title": "Ornament Figures in A Major RH",
+      "summary": "Mixed mordents and turns in A major with three sharps.",
+      "goal": "Navigate ornaments through C#, F#, G# in A major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "G#4:e", "A4:e", "R:e", "B4:e", "A4:e", "G#4:e", "A4:e"],
+        ["C#5:e", "B4:e", "C#5:e", "R:e", "D5:e", "C#5:e", "B4:e", "C#5:e"],
+        ["E5:e", "D5:e", "E5:e", "R:e", "F#5:e", "E5:e", "D5:e", "E5:e"],
+        ["A5:h", "R:h"]
+      ]
+    },
+    {
+      "id": "t6b-017",
+      "slug": "ornament-lh-c",
+      "title": "Ornament Figures in C Major LH",
+      "summary": "Mixed mordents and turns in C major, left hand.",
+      "goal": "Build left hand ornamental technique — often neglected.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:e", "B2:e", "C3:e", "R:e", "D3:e", "C3:e", "B2:e", "C3:e"],
+        ["E3:e", "D3:e", "E3:e", "R:e", "F3:e", "E3:e", "D3:e", "E3:e"],
+        ["G3:e", "F3:e", "G3:e", "R:e", "A3:e", "G3:e", "F3:e", "G3:e"],
+        ["C4:h", "R:h"]
+      ]
+    },
+    {
+      "id": "t6b-018",
+      "slug": "ornament-speed-c-rh",
+      "title": "Speed Ornaments in C Major RH",
+      "summary": "Rapid mordents and turns at elevated tempo.",
+      "goal": "Play ornaments at 100 BPM — speed and clarity combined.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "B4:e", "C4:e", "D4:e", "E4:e", "D4:e", "C4:e", "D4:e"],
+        ["E4:e", "D4:e", "E4:e", "F4:e", "G4:e", "F4:e", "E4:e", "F4:e"],
+        ["G4:e", "F4:e", "G4:e", "A4:e", "B4:e", "A4:e", "G4:e", "A4:e"],
+        ["C5:w"]
+      ]
+    },
+    {
+      "id": "t6b-019",
+      "slug": "ornament-ht-melody",
+      "title": "Ornamented Melody in C Major HT",
+      "summary": "Simple melody with ornaments over Alberti bass.",
+      "goal": "Play ornamented melody over accompaniment — musical context for ornaments.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D5:e", "C5:e", "B4:e", "C5:e", "E5:h"],
+        ["F5:e", "E5:e", "D5:e", "E5:e", "G5:h"],
+        ["A5:e", "G5:e", "A5:e", "G5:e", "F5:e", "E5:e", "D5:q"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["F3:e", "C4:e", "A3:e", "C4:e", "G3:e", "D4:e", "B3:e", "D4:e"],
+        ["F3:e", "C4:e", "A3:e", "C4:e", "G3:e", "D4:e", "B3:e", "D4:e"],
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:h"]
+      ]
+    },
+    {
+      "id": "t6b-020",
+      "slug": "ornament-mastery-ht",
+      "title": "Ornament Mastery Review HT",
+      "summary": "Mixed ornaments across C, G, D, F keys — the L6B mastery test.",
+      "goal": "Demonstrate ornamental fluency in both hands across multiple keys.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C5:e", "B4:e", "C5:e", "D5:e", "E5:e", "D5:e", "C5:e", "D5:e"],
+        ["G5:e", "F#5:e", "G5:e", "A5:e", "B5:e", "A5:e", "G5:e", "A5:e"],
+        ["F5:e", "E5:e", "D5:e", "E5:e", "C5:e", "B4:e", "C5:q"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "E3:q", "G3:q", "C4:q"],
+        ["G2:q", "B2:q", "D3:q", "G3:q"],
+        ["F3:q", "A3:q", "G3:q", "C3:q"],
+        ["C3:w"]
+      ]
+    }
+  ]
+}

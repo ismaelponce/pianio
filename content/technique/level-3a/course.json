@@ -1,0 +1,444 @@
+{
+  "courseId": "technique-level-3a",
+  "title": "Technique Level 3A — Key Signature Foundations",
+  "level": 3,
+  "summary": "Scales in C, G, and F major plus A and D harmonic minor. Broken chords, arpeggios, and I-IV-V blocked-chord progressions in each key.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "t3a-001",
+      "slug": "c-major-scale-rh",
+      "title": "C Major Scale — RH",
+      "summary": "Right hand C major scale ascending and descending.",
+      "goal": "Play the C major scale smoothly with correct fingering.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["D5:e","E5:e","F5:e","G5:e","G5:e","F5:e","E5:e","D5:e"],
+        ["C5:e","B4:e","A4:e","G4:e","F4:e","E4:e","D4:e","C4:e"],
+        ["C4:q","E4:q","G4:q","C5:q"]
+      ]
+    },
+    {
+      "id": "t3a-002",
+      "slug": "c-major-scale-ht",
+      "title": "C Major Scale — Hands Together",
+      "summary": "Both hands play the C major scale in parallel motion.",
+      "goal": "Coordinate both hands playing the C major scale in unison.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["C5:e","B4:e","A4:e","G4:e","F4:e","E4:e","D4:e","C4:e"],
+        ["C4:e","D4:e","E4:e","F4:e","G4:q","E4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e","D3:e","E3:e","F3:e","G3:e","A3:e","B3:e","C4:e"],
+        ["C4:e","B3:e","A3:e","G3:e","F3:e","E3:e","D3:e","C3:e"],
+        ["C3:e","D3:e","E3:e","F3:e","G3:q","E3:q"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t3a-003",
+      "slug": "c-major-broken-chord-rh",
+      "title": "C Major Broken Chord — RH",
+      "summary": "Right hand C-E-G-C broken chord pattern ascending and descending.",
+      "goal": "Play C major broken chords smoothly with the right hand.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:q","E4:q","G4:q","C5:q"],
+        ["C5:q","G4:q","E4:q","C4:q"],
+        ["C4:e","E4:e","G4:e","C5:e","C5:e","G4:e","E4:e","C4:e"],
+        ["E4:q","G4:q","C5:h"]
+      ]
+    },
+    {
+      "id": "t3a-004",
+      "slug": "c-major-broken-chord-lh",
+      "title": "C Major Broken Chord — LH",
+      "summary": "Left hand C-E-G-C broken chord pattern ascending and descending.",
+      "goal": "Play C major broken chords smoothly with the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C3:q","E3:q","G3:q","C4:q"],
+        ["C4:q","G3:q","E3:q","C3:q"],
+        ["C3:e","E3:e","G3:e","C4:e","C4:e","G3:e","E3:e","C3:e"],
+        ["E3:q","G3:q","C4:h"]
+      ]
+    },
+    {
+      "id": "t3a-005",
+      "slug": "c-major-arpeggio-rh",
+      "title": "C Major Arpeggio — RH",
+      "summary": "Right hand C major arpeggio ascending and descending.",
+      "goal": "Play C-E-G-C arpeggio smoothly with thumb-under technique.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:q","E4:q","G4:q"],
+        ["C5:q","G4:q","E4:q"],
+        ["C4:q","E4:q","G4:q"],
+        ["C5:dh"]
+      ]
+    },
+    {
+      "id": "t3a-006",
+      "slug": "g-major-scale-rh",
+      "title": "G Major Scale — RH",
+      "summary": "Right hand G major scale ascending and descending with F#.",
+      "goal": "Play the G major scale smoothly, noting the F# in the key signature.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","E5:e","F#5:e","G5:e"],
+        ["A5:e","B5:e","A5:e","G5:e","F#5:e","E5:e","D5:e","C5:e"],
+        ["B4:e","A4:e","G4:e","A4:e","B4:e","C5:e","D5:e","E5:e"],
+        ["F#5:e","E5:e","D5:e","C5:e","B4:e","A4:e","G4:q"]
+      ]
+    },
+    {
+      "id": "t3a-007",
+      "slug": "g-major-scale-ht",
+      "title": "G Major Scale — Hands Together",
+      "summary": "Both hands play the G major scale in parallel motion.",
+      "goal": "Coordinate both hands in G major with correct F# placement.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","E5:e","F#5:e","G5:e"],
+        ["G5:e","F#5:e","E5:e","D5:e","C5:e","B4:e","A4:e","G4:e"],
+        ["G4:e","A4:e","B4:e","C5:e","D5:q","B4:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G2:e","A2:e","B2:e","C3:e","D3:e","E3:e","F#3:e","G3:e"],
+        ["G3:e","F#3:e","E3:e","D3:e","C3:e","B2:e","A2:e","G2:e"],
+        ["G2:e","A2:e","B2:e","C3:e","D3:q","B2:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "t3a-008",
+      "slug": "g-major-broken-chord-arpeggio",
+      "title": "G Major Broken Chord + Arpeggio",
+      "summary": "Right hand G major broken chord and arpeggio patterns.",
+      "goal": "Combine broken chord and arpeggio patterns in G major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:q","B4:q","D5:q","G5:q"],
+        ["G5:q","D5:q","B4:q","G4:q"],
+        ["G4:e","B4:e","D5:e","G5:e","D5:e","B4:e","G4:e","B4:e"],
+        ["D5:q","G5:q","D5:q","G4:q"]
+      ]
+    },
+    {
+      "id": "t3a-009",
+      "slug": "f-major-scale-rh",
+      "title": "F Major Scale — RH",
+      "summary": "Right hand F major scale ascending and descending with Bb.",
+      "goal": "Play the F major scale smoothly, noting the Bb in the key signature.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","D5:e","E5:e","F5:e"],
+        ["G5:e","A5:e","G5:e","F5:e","E5:e","D5:e","C5:e","Bb4:e"],
+        ["A4:e","G4:e","F4:e","G4:e","A4:e","Bb4:e","C5:e","D5:e"],
+        ["E5:e","D5:e","C5:e","Bb4:e","A4:e","G4:e","F4:q"]
+      ]
+    },
+    {
+      "id": "t3a-010",
+      "slug": "f-major-scale-ht",
+      "title": "F Major Scale — Hands Together",
+      "summary": "Both hands play the F major scale in parallel motion.",
+      "goal": "Coordinate both hands in F major with correct Bb placement.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","D5:e","E5:e","F5:e"],
+        ["F5:e","E5:e","D5:e","C5:e","Bb4:e","A4:e","G4:e","F4:e"],
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:q","A4:q"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["F2:e","G2:e","A2:e","Bb2:e","C3:e","D3:e","E3:e","F3:e"],
+        ["F3:e","E3:e","D3:e","C3:e","Bb2:e","A2:e","G2:e","F2:e"],
+        ["F2:e","G2:e","A2:e","Bb2:e","C3:q","A2:q"],
+        ["F2:w"]
+      ]
+    },
+    {
+      "id": "t3a-011",
+      "slug": "f-major-broken-chord-arpeggio",
+      "title": "F Major Broken Chord + Arpeggio",
+      "summary": "Right hand F major broken chord and arpeggio patterns.",
+      "goal": "Combine broken chord and arpeggio patterns in F major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:q","A4:q","C5:q","F5:q"],
+        ["F5:q","C5:q","A4:q","F4:q"],
+        ["F4:e","A4:e","C5:e","F5:e","C5:e","A4:e","F4:e","A4:e"],
+        ["C5:q","F5:q","C5:q","F4:q"]
+      ]
+    },
+    {
+      "id": "t3a-012",
+      "slug": "a-harmonic-minor-scale-rh",
+      "title": "A Harmonic Minor Scale — RH",
+      "summary": "Right hand A harmonic minor scale with raised G#.",
+      "goal": "Play A harmonic minor scale with the characteristic G# leading tone.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["A4:e","B4:e","C5:e","D5:e","E5:e","F5:e","G#5:e","A5:e"],
+        ["A5:e","G#5:e","F5:e","E5:e","D5:e","C5:e","B4:e","A4:e"],
+        ["A4:e","C5:e","E5:e","A5:e","E5:e","C5:e","A4:e","C5:e"],
+        ["E5:q","A5:q","E5:q","A4:q"]
+      ]
+    },
+    {
+      "id": "t3a-013",
+      "slug": "a-harmonic-minor-scale-ht",
+      "title": "A Harmonic Minor Scale — Hands Together",
+      "summary": "Both hands play A harmonic minor in parallel.",
+      "goal": "Coordinate both hands in A harmonic minor with the G# accidental.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["A4:e","B4:e","C5:e","D5:e","E5:e","F5:e","G#5:e","A5:e"],
+        ["A5:e","G#5:e","F5:e","E5:e","D5:e","C5:e","B4:e","A4:e"],
+        ["A4:q","C5:q","E5:q","A5:q"],
+        ["A5:q","E5:q","C5:q","A4:q"]
+      ],
+      "measuresLeft": [
+        ["A2:e","B2:e","C3:e","D3:e","E3:e","F3:e","G#3:e","A3:e"],
+        ["A3:e","G#3:e","F3:e","E3:e","D3:e","C3:e","B2:e","A2:e"],
+        ["A2:q","C3:q","E3:q","A3:q"],
+        ["A3:q","E3:q","C3:q","A2:q"]
+      ]
+    },
+    {
+      "id": "t3a-014",
+      "slug": "a-minor-broken-chord-arpeggio",
+      "title": "A Minor Broken Chord + Arpeggio",
+      "summary": "Right hand A minor broken chord and arpeggio patterns.",
+      "goal": "Play A minor broken chords and arpeggios with smooth transitions.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["A4:q","C5:q","E5:q","A5:q"],
+        ["A5:q","E5:q","C5:q","A4:q"],
+        ["A4:e","C5:e","E5:e","A5:e","E5:e","C5:e","A4:e","C5:e"],
+        ["E5:q","A5:q","E5:q","A4:q"]
+      ]
+    },
+    {
+      "id": "t3a-015",
+      "slug": "d-harmonic-minor-scale-rh",
+      "title": "D Harmonic Minor Scale — RH",
+      "summary": "Right hand D harmonic minor scale with Bb and raised C#.",
+      "goal": "Play D harmonic minor with the characteristic C# leading tone.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["D4:e","E4:e","F4:e","G4:e","A4:e","Bb4:e","C#5:e","D5:e"],
+        ["D5:e","C#5:e","Bb4:e","A4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["D4:e","F4:e","A4:e","D5:e","A4:e","F4:e","D4:e","F4:e"],
+        ["A4:q","D5:q","A4:q","D4:q"]
+      ]
+    },
+    {
+      "id": "t3a-016",
+      "slug": "d-harmonic-minor-scale-ht",
+      "title": "D Harmonic Minor Scale — Hands Together",
+      "summary": "Both hands play D harmonic minor in parallel.",
+      "goal": "Coordinate both hands in D harmonic minor with Bb and C# accidentals.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["D4:e","E4:e","F4:e","G4:e","A4:e","Bb4:e","C#5:e","D5:e"],
+        ["D5:e","C#5:e","Bb4:e","A4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["D4:q","F4:q","A4:q","D5:q"],
+        ["D5:q","A4:q","F4:q","D4:q"]
+      ],
+      "measuresLeft": [
+        ["D3:e","E3:e","F3:e","G3:e","A3:e","Bb3:e","C#4:e","D4:e"],
+        ["D4:e","C#4:e","Bb3:e","A3:e","G3:e","F3:e","E3:e","D3:e"],
+        ["D3:q","F3:q","A3:q","D4:q"],
+        ["D4:q","A3:q","F3:q","D3:q"]
+      ]
+    },
+    {
+      "id": "t3a-017",
+      "slug": "i-iv-v-blocked-chords-c",
+      "title": "I-IV-V Chord Progression in C",
+      "summary": "Blocked chord progression: C major, F major, G major, C major.",
+      "goal": "Play I-IV-V-I progression in C major with solid, even blocked chords.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,F4,A4]:h","[C4,F4,A4]:h"],
+        ["[B3,D4,G4]:h","[B3,D4,G4]:h"],
+        ["[C4,E4,G4]:w"]
+      ]
+    },
+    {
+      "id": "t3a-018",
+      "slug": "i-iv-v-blocked-chords-g",
+      "title": "I-IV-V Chord Progression in G",
+      "summary": "Blocked chord progression: G major, C major, D major, G major.",
+      "goal": "Play I-IV-V-I progression in G major with solid, even blocked chords.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["[G4,B4,D5]:h","[G4,B4,D5]:h"],
+        ["[G4,C5,E5]:h","[G4,C5,E5]:h"],
+        ["[F#4,A4,D5]:h","[F#4,A4,D5]:h"],
+        ["[G4,B4,D5]:w"]
+      ]
+    },
+    {
+      "id": "t3a-019",
+      "slug": "i-iv-v-blocked-chords-f",
+      "title": "I-IV-V Chord Progression in F",
+      "summary": "Blocked chord progression: F major, Bb major, C major, F major.",
+      "goal": "Play I-IV-V-I progression in F major with solid, even blocked chords.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["[F4,A4,C5]:h","[F4,A4,C5]:h"],
+        ["[F4,Bb4,D5]:h","[F4,Bb4,D5]:h"],
+        ["[E4,G4,C5]:h","[E4,G4,C5]:h"],
+        ["[F4,A4,C5]:w"]
+      ]
+    },
+    {
+      "id": "t3a-020",
+      "slug": "scale-chord-combo-review",
+      "title": "Scale + Chord Combo Review (C, G, F)",
+      "summary": "Combined review: scale passages leading into blocked chords in C, G, and F.",
+      "goal": "Fluently transition between scale runs and blocked chords across three keys.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["[C4,E4,G4]:h","[C4,F4,A4]:h"],
+        ["[B3,D4,G4]:h","[C4,E4,G4]:h"],
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","E5:e","F#5:e","G5:e"],
+        ["[G4,B4,D5]:h","[G4,C5,E5]:h"],
+        ["[F#4,A4,D5]:h","[G4,B4,D5]:h"],
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","D5:e","E5:e","F5:e"],
+        ["[F4,A4,C5]:h","[F4,Bb4,D5]:h"],
+        ["[E4,G4,C5]:h","[F4,A4,C5]:h"]
+      ]
+    }
+  ]
+}

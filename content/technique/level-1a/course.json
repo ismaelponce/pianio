@@ -1,0 +1,405 @@
+{
+  "courseId": "technique-level-1a",
+  "title": "Technique Level 1A — Foundations",
+  "level": 1,
+  "summary": "Five-finger C major foundation exercises in single-hand format. Introduces whole, half, and quarter notes in 4/4, 3/4, and 2/4 time, training both right and left hand independently in the C position (C–G).",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "t1a-001",
+      "slug": "t1a-001",
+      "title": "Five-Finger Warm-Up — Whole Notes Up (RH)",
+      "summary": "Right hand ascends from C4 to G4 one whole note per measure.",
+      "goal": "Establish C position fingering (1–2–3–4–5) with even whole-note tone.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:w"],
+        ["D4:w"],
+        ["E4:w"],
+        ["F4:w"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "t1a-002",
+      "slug": "t1a-002",
+      "title": "Five-Finger Warm-Up — Whole Notes Down (RH)",
+      "summary": "Right hand descends from G4 to C4 one whole note per measure.",
+      "goal": "Practice descending C position with finger independence on each whole note.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["G4:w"],
+        ["F4:w"],
+        ["E4:w"],
+        ["D4:w"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t1a-003",
+      "slug": "t1a-003",
+      "title": "Half Notes Ascending (RH)",
+      "summary": "Right hand plays C position pairs in half notes, rising then returning.",
+      "goal": "Play two half notes per measure smoothly, lifting the wrist slightly between notes.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:h","D4:h"],
+        ["E4:h","F4:h"],
+        ["G4:h","F4:h"],
+        ["E4:h","C4:h"]
+      ]
+    },
+    {
+      "id": "t1a-004",
+      "slug": "t1a-004",
+      "title": "Half Notes Descending (RH)",
+      "summary": "Right hand descends from G4 in half-note pairs, practicing smooth downward motion.",
+      "goal": "Control descent through the five-finger position with even half-note weight.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["G4:h","F4:h"],
+        ["E4:h","D4:h"],
+        ["C4:h","D4:h"],
+        ["E4:h","C4:h"]
+      ]
+    },
+    {
+      "id": "t1a-005",
+      "slug": "t1a-005",
+      "title": "Quarter Notes Ascending (RH)",
+      "summary": "Right hand runs through C position in quarter notes, ascending then descending.",
+      "goal": "Play four quarter notes per measure with even rhythm and steady tempo.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:q","F4:q","E4:q","D4:q"],
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:h","C4:h"]
+      ]
+    },
+    {
+      "id": "t1a-006",
+      "slug": "t1a-006",
+      "title": "Quarter Notes Descending (RH)",
+      "summary": "Right hand descends from G4 through C position in quarter notes.",
+      "goal": "Maintain even quarter-note timing while descending the five-finger scale.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["G4:q","F4:q","E4:q","D4:q"],
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:q","E4:q","C4:q","E4:q"],
+        ["G4:q","F4:q","E4:h"]
+      ]
+    },
+    {
+      "id": "t1a-007",
+      "slug": "t1a-007",
+      "title": "Quarter Notes Up and Down (RH)",
+      "summary": "Right hand climbs then descends C position across four measures.",
+      "goal": "Connect ascending and descending five-finger motion smoothly at a steady quarter-note pulse.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:q","F4:q","E4:q","D4:q"],
+        ["E4:q","F4:q","G4:q","F4:q"],
+        ["E4:q","D4:q","C4:h"]
+      ]
+    },
+    {
+      "id": "t1a-008",
+      "slug": "t1a-008",
+      "title": "C Position in 3/4 — Half and Quarter (RH)",
+      "summary": "Right hand plays C position notes in waltz-like 3/4 time: half note then quarter note per measure.",
+      "goal": "Feel the 3/4 pulse while moving through the five-finger C position.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:h","D4:q"],
+        ["E4:h","F4:q"],
+        ["G4:h","F4:q"],
+        ["E4:h","D4:q"],
+        ["C4:h","E4:q"],
+        ["E4:q","D4:q","C4:q"]
+      ]
+    },
+    {
+      "id": "t1a-009",
+      "slug": "t1a-009",
+      "title": "C Position in 2/4 — Quarter Notes (RH)",
+      "summary": "Right hand plays two quarter notes per measure through C position in march-time 2/4.",
+      "goal": "Develop steady two-beat pulse in the right hand through the five-finger position.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","D4:q"],
+        ["E4:q","F4:q"],
+        ["G4:q","F4:q"],
+        ["E4:q","D4:q"],
+        ["C4:q","E4:q"],
+        ["G4:q","E4:q"],
+        ["F4:q","D4:q"],
+        ["C4:h"]
+      ]
+    },
+    {
+      "id": "t1a-010",
+      "slug": "t1a-010",
+      "title": "Mixed Whole and Half Notes (RH)",
+      "summary": "Right hand alternates whole notes and half-note pairs through C position.",
+      "goal": "Distinguish whole-note and half-note durations clearly in C position.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:h","E4:h"],
+        ["G4:w"],
+        ["F4:h","D4:h"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t1a-011",
+      "slug": "t1a-011",
+      "title": "Five-Finger Warm-Up — Whole Notes Up (LH)",
+      "summary": "Left hand ascends from C3 to G3 one whole note per measure.",
+      "goal": "Establish left-hand C position (5–4–3–2–1) with even whole-note tone in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:w"],
+        ["D3:w"],
+        ["E3:w"],
+        ["F3:w"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "t1a-012",
+      "slug": "t1a-012",
+      "title": "Five-Finger Warm-Up — Whole Notes Down (LH)",
+      "summary": "Left hand descends from G3 to C3 one whole note per measure.",
+      "goal": "Practice descending left-hand C position with independent finger control.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["G3:w"],
+        ["F3:w"],
+        ["E3:w"],
+        ["D3:w"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t1a-013",
+      "slug": "t1a-013",
+      "title": "Half Notes Ascending (LH)",
+      "summary": "Left hand plays C3 position pairs in half notes, ascending then returning.",
+      "goal": "Move through left-hand C3 position in half notes with a relaxed wrist.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:h","D3:h"],
+        ["E3:h","F3:h"],
+        ["G3:h","F3:h"],
+        ["E3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1a-014",
+      "slug": "t1a-014",
+      "title": "Half Notes Descending (LH)",
+      "summary": "Left hand descends from G3 in half-note pairs through C position.",
+      "goal": "Control descending half-note motion with even weight in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["G3:h","F3:h"],
+        ["E3:h","D3:h"],
+        ["C3:h","D3:h"],
+        ["E3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1a-015",
+      "slug": "t1a-015",
+      "title": "Quarter Notes Ascending (LH)",
+      "summary": "Left hand runs through C3 position in quarter notes, ascending then descending.",
+      "goal": "Play four quarter notes per measure evenly in left-hand C position.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["G3:q","F3:q","E3:q","D3:q"],
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["G3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1a-016",
+      "slug": "t1a-016",
+      "title": "Quarter Notes Descending (LH)",
+      "summary": "Left hand descends from G3 through C position in quarter notes.",
+      "goal": "Maintain even quarter-note timing while descending the left-hand five-finger scale.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["G3:q","F3:q","E3:q","D3:q"],
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["G3:q","E3:q","C3:q","E3:q"],
+        ["G3:q","F3:q","E3:h"]
+      ]
+    },
+    {
+      "id": "t1a-017",
+      "slug": "t1a-017",
+      "title": "Quarter Notes Up and Down (LH)",
+      "summary": "Left hand climbs then descends C3 position across four measures.",
+      "goal": "Connect ascending and descending five-finger motion in the left hand at a steady pulse.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["G3:q","F3:q","E3:q","D3:q"],
+        ["E3:q","F3:q","G3:q","F3:q"],
+        ["E3:q","D3:q","C3:h"]
+      ]
+    },
+    {
+      "id": "t1a-018",
+      "slug": "t1a-018",
+      "title": "C Position in 3/4 — Half and Quarter (LH)",
+      "summary": "Left hand plays C3 position notes in 3/4 time: half note then quarter note per measure.",
+      "goal": "Feel the 3/4 pulse in the left hand while moving through the five-finger C3 position.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:h","D3:q"],
+        ["E3:h","F3:q"],
+        ["G3:h","F3:q"],
+        ["E3:h","D3:q"],
+        ["C3:h","E3:q"],
+        ["G3:q","F3:q","C3:q"]
+      ]
+    },
+    {
+      "id": "t1a-019",
+      "slug": "t1a-019",
+      "title": "C Position in 2/4 — Quarter Notes (LH)",
+      "summary": "Left hand plays two quarter notes per measure through C3 position in 2/4.",
+      "goal": "Develop a steady two-beat pulse in the left hand through the five-finger C3 position.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 72,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:q","D3:q"],
+        ["E3:q","F3:q"],
+        ["G3:q","F3:q"],
+        ["E3:q","D3:q"],
+        ["C3:q","E3:q"],
+        ["G3:q","E3:q"],
+        ["F3:q","D3:q"],
+        ["C3:h"]
+      ]
+    },
+    {
+      "id": "t1a-020",
+      "slug": "t1a-020",
+      "title": "Mixed Whole and Half Notes (LH)",
+      "summary": "Left hand alternates whole notes and half-note pairs through C3 position.",
+      "goal": "Distinguish whole-note and half-note durations clearly in the left-hand C3 position.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:h","E3:h"],
+        ["G3:w"],
+        ["F3:h","D3:h"],
+        ["C3:w"]
+      ]
+    }
+  ]
+}

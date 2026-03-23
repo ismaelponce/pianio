@@ -1,0 +1,26 @@
+{
+  "name": "pianio",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Free, open-source piano learning platform with Web MIDI, sheet music rendering, and 80 courses",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ismaelponce/pianio.git"
+  },
+  "packageManager": "pnpm@10.18.3",
+  "scripts": {
+    "dev": "pnpm generate:content && pnpm --filter @pianio/web dev",
+    "build": "pnpm generate:content && pnpm --filter @pianio/web build",
+    "typecheck": "pnpm --filter @pianio/web typecheck",
+    "test": "pnpm --filter @pianio/midi-web test",
+    "generate:content": "node ./scripts/generate-content.mjs",
+    "deploy": "pnpm build && firebase deploy --only hosting"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "lucide-react": "^0.577.0"
+  }
+}

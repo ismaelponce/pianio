@@ -1,0 +1,400 @@
+{
+  "courseId": "method-level-1b",
+  "title": "Method Level 1B — Expansion",
+  "level": 1,
+  "summary": "More rhythmic variety with eighth notes, longer phrases, left-hand independence, and three folk songs — all within C position.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "m1b-001",
+      "slug": "quarter-pattern-a",
+      "title": "Quarter Pattern A",
+      "summary": "Right hand plays longer quarter-note phrases across the full C position.",
+      "goal": "Play all five C-position notes evenly in longer quarter-note passages.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "F4:q"],
+        ["G4:q", "F4:q", "E4:q", "D4:q"],
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "m1b-002",
+      "slug": "thirds-and-fifths",
+      "title": "Thirds and Fifths",
+      "summary": "Right hand skips a third to E and a fifth to G from C.",
+      "goal": "Recognize and play thirds (C\u2013E) and fifths (C\u2013G) with the right hand.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "E4:q", "C4:q", "G4:q"],
+        ["E4:q", "G4:q", "E4:q", "C4:q"],
+        ["G4:h", "E4:h"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "m1b-003",
+      "slug": "hot-cross-buns",
+      "title": "Hot Cross Buns",
+      "summary": "The traditional nursery song Hot Cross Buns arranged in C position using three notes.",
+      "goal": "Play Hot Cross Buns from memory using just three notes (C, D, E).",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional folk song, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "folk",
+      "measures": [
+        ["E4:q", "D4:q", "C4:h"],
+        ["E4:q", "D4:q", "C4:h"],
+        ["C4:q", "C4:q", "D4:q", "D4:q"],
+        ["E4:q", "D4:q", "C4:h"]
+      ]
+    },
+    {
+      "id": "m1b-004",
+      "slug": "step-and-rest",
+      "title": "Step and Rest",
+      "summary": "Quarter notes separated by rests \u2014 counting silence within a phrase.",
+      "goal": "Count quarter and half rests accurately and resume on time.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "R:q", "E4:q", "R:q"],
+        ["D4:q", "R:q", "C4:h"],
+        ["E4:h", "R:h"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "m1b-005",
+      "slug": "merrily-we-roll-along",
+      "title": "Merrily We Roll Along",
+      "summary": "The traditional song Merrily We Roll Along arranged in C position.",
+      "goal": "Play Merrily We Roll Along with clear half notes at phrase endings.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional folk song, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "folk",
+      "measures": [
+        ["E4:q", "D4:q", "C4:q", "D4:q"],
+        ["E4:q", "E4:q", "E4:h"],
+        ["D4:q", "D4:q", "D4:h"],
+        ["E4:q", "G4:q", "G4:h"]
+      ]
+    },
+    {
+      "id": "m1b-006",
+      "slug": "top-to-bottom",
+      "title": "Top to Bottom",
+      "summary": "Right hand descends from G4 to C4 in varied rhythms.",
+      "goal": "Play a descending C-position melody with control.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "F4:q", "E4:q", "D4:q"],
+        ["E4:q", "D4:q", "C4:h"],
+        ["G4:h", "E4:h"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "m1b-007",
+      "slug": "waltz-steps",
+      "title": "Waltz Steps",
+      "summary": "Right hand plays a three-beat stepping melody.",
+      "goal": "Feel a strong downbeat and even beat 2\u20133 in 3/4 time.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q"],
+        ["F4:q", "E4:q", "D4:q"],
+        ["E4:q", "D4:q", "C4:q"],
+        ["G4:h", "R:q"],
+        ["C4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "m1b-008",
+      "slug": "march-pattern",
+      "title": "March Pattern",
+      "summary": "Right hand plays crisp two-beat figures with eighth-note pickups in march style.",
+      "goal": "Feel a strong, even two-beat pulse with eighth-note figures.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:q"],
+        ["D4:e", "E4:e", "F4:q"],
+        ["E4:q", "G4:q"],
+        ["F4:q", "E4:q"],
+        ["D4:e", "E4:e", "D4:e", "C4:e"],
+        ["C4:h"]
+      ]
+    },
+    {
+      "id": "m1b-009",
+      "slug": "slow-melody",
+      "title": "Slow Melody",
+      "summary": "A half-note melody requiring a full, ringing tone.",
+      "goal": "Sustain half notes for their complete value with relaxed arm weight.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 52,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:h", "E4:h"],
+        ["G4:h", "E4:h"],
+        ["F4:h", "D4:h"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "m1b-010",
+      "slug": "mary-had-a-little-lamb",
+      "title": "Mary Had a Little Lamb",
+      "summary": "The beloved nursery song Mary Had a Little Lamb in C position.",
+      "goal": "Play the complete Mary Had a Little Lamb melody resolving to C.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional folk song, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "folk",
+      "measures": [
+        ["E4:q", "D4:q", "C4:q", "D4:q"],
+        ["E4:q", "E4:q", "E4:h"],
+        ["D4:q", "D4:q", "E4:q", "D4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "m1b-011",
+      "slug": "bass-quarter-walk",
+      "title": "Bass Quarter Walk",
+      "summary": "Left hand plays longer quarter-note passages through bass C position.",
+      "goal": "Read all five C-position notes in bass clef in extended phrases.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "D3:q", "E3:q", "F3:q"],
+        ["G3:q", "F3:q", "E3:q", "D3:q"],
+        ["C3:q", "E3:q", "G3:q", "E3:q"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m1b-012",
+      "slug": "bass-skips",
+      "title": "Bass Skips",
+      "summary": "Left hand skips a third and a fifth from bass C.",
+      "goal": "Play thirds (C3\u2013E3) and fifths (C3\u2013G3) with the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "E3:q", "C3:q", "G3:q"],
+        ["E3:q", "G3:q", "E3:q", "C3:q"],
+        ["G3:h", "E3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m1b-013",
+      "slug": "bass-mixed-values",
+      "title": "Bass Mixed Values",
+      "summary": "Left hand melody mixing quarter and half notes.",
+      "goal": "Read and play mixed note values in bass clef with steady tone.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 58,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "D3:q", "E3:h"],
+        ["F3:q", "E3:q", "D3:h"],
+        ["E3:q", "D3:q", "C3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m1b-014",
+      "slug": "bass-waltz",
+      "title": "Bass Waltz",
+      "summary": "Left hand in 3/4, stepping through bass C position.",
+      "goal": "Count three beats per measure in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 66,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "D3:q", "E3:q"],
+        ["F3:q", "E3:q", "D3:q"],
+        ["E3:q", "D3:q", "C3:q"],
+        ["G3:h", "R:q"],
+        ["C3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "m1b-015",
+      "slug": "bass-march",
+      "title": "Bass March",
+      "summary": "Left hand plays crisp two-beat figures with eighth notes in march time.",
+      "goal": "Keep a steady two-beat pulse with eighth-note figures in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:e", "D3:e", "E3:q"],
+        ["D3:e", "E3:e", "F3:q"],
+        ["E3:q", "G3:q"],
+        ["F3:q", "E3:q"],
+        ["D3:e", "E3:e", "D3:e", "C3:e"],
+        ["C3:h"]
+      ]
+    },
+    {
+      "id": "m1b-016",
+      "slug": "bass-with-rests",
+      "title": "Bass With Rests",
+      "summary": "Left hand steps with half rests \u2014 counting silence in the bass.",
+      "goal": "Hold longer rests in bass clef without rushing the next note.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 58,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "R:q", "D3:q", "R:q"],
+        ["E3:q", "R:q", "C3:h"],
+        ["G3:h", "R:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m1b-017",
+      "slug": "bass-descent",
+      "title": "Bass Descent",
+      "summary": "Left hand descends from G3 through the full C position.",
+      "goal": "Play a smooth descending passage in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G3:q", "F3:q", "E3:q", "D3:q"],
+        ["E3:q", "D3:q", "C3:h"],
+        ["G3:h", "E3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m1b-018",
+      "slug": "whole-note-voyage",
+      "title": "Whole Note Voyage",
+      "summary": "Wide-spaced whole notes in low register \u2014 tone control study.",
+      "goal": "Produce a full, singing tone on each whole note in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 50,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:w"],
+        ["G2:w"],
+        ["E3:w"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m1b-019",
+      "slug": "skip-and-step",
+      "title": "Skip and Step",
+      "summary": "Right hand mixes skips, steps, and eighth notes in a longer flowing phrase.",
+      "goal": "Navigate a melody combining steps, skips, and eighth notes without hesitation.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "E4:q", "D4:q", "F4:q"],
+        ["E4:e", "F4:e", "G4:q", "F4:h"],
+        ["E4:q", "D4:q", "C4:q", "E4:q"],
+        ["G4:q", "F4:e", "E4:e", "F4:h"],
+        ["E4:q", "D4:q", "C4:h"]
+      ]
+    },
+    {
+      "id": "m1b-020",
+      "slug": "expansion-capstone",
+      "title": "Expansion Capstone",
+      "summary": "A five-measure review mixing steps, skips, varied rhythms, eighth notes, and a rest.",
+      "goal": "Demonstrate all Level 1B skills \u2014 steps, skips, mixed values, eighths, and rests \u2014 in one piece.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:h"],
+        ["G4:q", "F4:e", "E4:e", "D4:q", "C4:q"],
+        ["E4:q", "R:q", "G4:h"],
+        ["F4:e", "E4:e", "D4:q", "C4:h"],
+        ["C4:w"]
+      ]
+    }
+  ]
+}

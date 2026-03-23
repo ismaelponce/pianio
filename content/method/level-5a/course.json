@@ -1,0 +1,1823 @@
+{
+  "courseId": "method-level-5a",
+  "title": "Method Level 5A — Foundations",
+  "level": 5,
+  "summary": "L5 Foundations: reviews all five L4 keys and introduces G and D harmonic minor. All grand-staff, 4–8 measures, moderate tempos.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "m5a-001",
+      "slug": "m5a-001",
+      "title": "D Major Melody",
+      "summary": "Stepwise D major melody, hands together, simple quarter and half notes.",
+      "goal": "Establish hand coordination in D major with clear melodic shaping.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D4:q",
+          "E4:q",
+          "F#4:q",
+          "G4:q"
+        ],
+        [
+          "A4:q",
+          "G4:q",
+          "F#4:q",
+          "E4:q"
+        ],
+        [
+          "F#4:h",
+          "A4:h"
+        ],
+        [
+          "D4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:h",
+          "A2:h"
+        ],
+        [
+          "A2:h",
+          "D3:h"
+        ],
+        [
+          "D3:h",
+          "A3:h"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-002",
+      "slug": "m5a-002",
+      "title": "D Major Eighth Notes",
+      "summary": "D major melody with eighth-note passages, extended to 6 measures.",
+      "goal": "Play eighth-note runs in D major with steady left-hand support.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D4:e",
+          "E4:e",
+          "F#4:q",
+          "G4:q",
+          "A4:q"
+        ],
+        [
+          "B4:q",
+          "A4:q",
+          "G4:e",
+          "F#4:e",
+          "E4:q"
+        ],
+        [
+          "F#4:q",
+          "E4:q",
+          "D4:q",
+          "E4:q"
+        ],
+        [
+          "F#4:h",
+          "A4:h"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "A4:q",
+          "G4:q",
+          "F#4:q"
+        ],
+        [
+          "D4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "D3:q",
+          "D3:q",
+          "D3:q"
+        ],
+        [
+          "A2:q",
+          "A2:q",
+          "A2:q",
+          "A2:q"
+        ],
+        [
+          "D3:q",
+          "A2:q",
+          "D3:h"
+        ],
+        [
+          "D3:h",
+          "A2:h"
+        ],
+        [
+          "A2:h",
+          "A2:h"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-003",
+      "slug": "m5a-003",
+      "title": "D Major Waltz",
+      "summary": "Graceful 3/4 waltz in D major with a lilting melody.",
+      "goal": "Coordinate hands in 3/4 meter while shaping a D major waltz phrase.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "D4:q",
+          "F#4:q",
+          "A4:q"
+        ],
+        [
+          "B4:q",
+          "A4:q",
+          "G4:q"
+        ],
+        [
+          "F#4:q",
+          "E4:q",
+          "D4:q"
+        ],
+        [
+          "E4:h",
+          "D4:q"
+        ],
+        [
+          "A4:q",
+          "G4:q",
+          "F#4:q"
+        ],
+        [
+          "D4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A2:q",
+          "A2:q"
+        ],
+        [
+          "G2:q",
+          "D3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A2:q",
+          "A2:q"
+        ],
+        [
+          "A2:h",
+          "A2:q"
+        ],
+        [
+          "A2:q",
+          "A2:q",
+          "A2:q"
+        ],
+        [
+          "D3:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-004",
+      "slug": "m5a-004",
+      "title": "D Major Study",
+      "summary": "Eight-measure D major study covering the full scale range with expressive phrasing.",
+      "goal": "Play a longer D major piece with both hands, shaping phrases naturally.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D4:q",
+          "E4:q",
+          "F#4:q",
+          "G4:q"
+        ],
+        [
+          "A4:q",
+          "B4:q",
+          "A4:q",
+          "G4:q"
+        ],
+        [
+          "F#4:q",
+          "G4:q",
+          "A4:q",
+          "B4:q"
+        ],
+        [
+          "A4:h",
+          "G4:h"
+        ],
+        [
+          "G4:q",
+          "F#4:q",
+          "E4:q",
+          "D4:q"
+        ],
+        [
+          "E4:q",
+          "F#4:q",
+          "G4:q",
+          "A4:q"
+        ],
+        [
+          "F#4:q",
+          "E4:q",
+          "D4:q",
+          "C#4:q"
+        ],
+        [
+          "D4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:h",
+          "A2:h"
+        ],
+        [
+          "D3:h",
+          "A2:h"
+        ],
+        [
+          "D3:q",
+          "A2:q",
+          "D3:q",
+          "A2:q"
+        ],
+        [
+          "G2:h",
+          "A2:h"
+        ],
+        [
+          "G2:h",
+          "D3:h"
+        ],
+        [
+          "A2:h",
+          "E3:h"
+        ],
+        [
+          "A2:h",
+          "A2:h"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-005",
+      "slug": "m5a-005",
+      "title": "A Major Melody",
+      "summary": "Stepwise A major melody rising to the fifth, hands together.",
+      "goal": "Navigate A major's three sharps (F#, C#, G#) with confident hand coordination.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "A4:q",
+          "B4:q",
+          "C#5:q",
+          "D5:q"
+        ],
+        [
+          "E5:q",
+          "D5:q",
+          "C#5:q",
+          "B4:q"
+        ],
+        [
+          "C#5:h",
+          "E5:h"
+        ],
+        [
+          "A4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A2:h",
+          "E3:h"
+        ],
+        [
+          "A2:h",
+          "E3:h"
+        ],
+        [
+          "A2:h",
+          "E3:h"
+        ],
+        [
+          "A3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-006",
+      "slug": "m5a-006",
+      "title": "A Major Eighth Notes",
+      "summary": "A major melody with eighth-note runs ascending and descending.",
+      "goal": "Play smooth eighth-note passages in A major with a steady bass.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:q",
+          "D5:q",
+          "E5:q"
+        ],
+        [
+          "F#5:q",
+          "E5:q",
+          "D5:e",
+          "C#5:e",
+          "B4:q"
+        ],
+        [
+          "C#5:q",
+          "B4:q",
+          "A4:q",
+          "B4:q"
+        ],
+        [
+          "C#5:h",
+          "E5:h"
+        ],
+        [
+          "E5:e",
+          "D5:e",
+          "C#5:q",
+          "B4:q",
+          "A4:q"
+        ],
+        [
+          "A4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A2:q",
+          "A2:q",
+          "A2:q",
+          "A2:q"
+        ],
+        [
+          "E3:q",
+          "E3:q",
+          "E3:q",
+          "E3:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A2:h"
+        ],
+        [
+          "A2:h",
+          "E3:h"
+        ],
+        [
+          "E3:h",
+          "E3:h"
+        ],
+        [
+          "A2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-007",
+      "slug": "m5a-007",
+      "title": "A Major Waltz",
+      "summary": "Lyrical 3/4 waltz in A major with a flowing right-hand melody.",
+      "goal": "Coordinate a 3/4 waltz in A major, shaping the long-short-short feel.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 72,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "A4:q",
+          "C#5:q",
+          "E5:q"
+        ],
+        [
+          "F#5:q",
+          "E5:q",
+          "D5:q"
+        ],
+        [
+          "C#5:q",
+          "B4:q",
+          "A4:q"
+        ],
+        [
+          "B4:h",
+          "A4:q"
+        ],
+        [
+          "E5:q",
+          "D5:q",
+          "C#5:q"
+        ],
+        [
+          "A4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A2:q",
+          "E3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "A3:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "E3:q"
+        ],
+        [
+          "E3:h",
+          "E3:q"
+        ],
+        [
+          "E3:q",
+          "E3:q",
+          "E3:q"
+        ],
+        [
+          "A2:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-008",
+      "slug": "m5a-008",
+      "title": "A Major Study",
+      "summary": "Eight-measure A major study exploring the full scale including G# and F#.",
+      "goal": "Play an extended A major piece fluently, with balanced hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "A4:q",
+          "B4:q",
+          "C#5:q",
+          "D5:q"
+        ],
+        [
+          "E5:q",
+          "D5:q",
+          "C#5:q",
+          "B4:q"
+        ],
+        [
+          "G#4:q",
+          "A4:q",
+          "B4:q",
+          "C#5:q"
+        ],
+        [
+          "D5:h",
+          "E5:h"
+        ],
+        [
+          "F#5:q",
+          "E5:q",
+          "D5:q",
+          "C#5:q"
+        ],
+        [
+          "B4:q",
+          "A4:q",
+          "G#4:q",
+          "A4:q"
+        ],
+        [
+          "C#5:q",
+          "B4:q",
+          "A4:q",
+          "G#4:q"
+        ],
+        [
+          "A4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A2:h",
+          "E3:h"
+        ],
+        [
+          "A2:h",
+          "E3:h"
+        ],
+        [
+          "E3:h",
+          "E3:h"
+        ],
+        [
+          "D3:h",
+          "A2:h"
+        ],
+        [
+          "D3:h",
+          "A2:h"
+        ],
+        [
+          "E3:h",
+          "E3:h"
+        ],
+        [
+          "E3:h",
+          "A2:h"
+        ],
+        [
+          "A2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-009",
+      "slug": "m5a-009",
+      "title": "Bb Major Melody",
+      "summary": "Warm Bb major melody with Bb and Eb written explicitly throughout.",
+      "goal": "Navigate Bb major's two flats with confident melodic shaping.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "D5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "D5:h",
+          "F5:h"
+        ],
+        [
+          "Bb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:h",
+          "F3:h"
+        ],
+        [
+          "Bb2:h",
+          "F3:h"
+        ],
+        [
+          "Bb2:h",
+          "F3:h"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-010",
+      "slug": "m5a-010",
+      "title": "Bb Major Eighth Notes",
+      "summary": "Bb major melody reaching up to G5, with eighth-note passages.",
+      "goal": "Play smooth eighth-note runs in Bb major, keeping flats consistent.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:e",
+          "C5:e",
+          "D5:q",
+          "Eb5:q",
+          "F5:q"
+        ],
+        [
+          "G5:q",
+          "F5:q",
+          "Eb5:e",
+          "D5:e",
+          "C5:q"
+        ],
+        [
+          "D5:q",
+          "C5:q",
+          "Bb4:q",
+          "C5:q"
+        ],
+        [
+          "D5:h",
+          "F5:h"
+        ],
+        [
+          "F5:e",
+          "Eb5:e",
+          "D5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "Bb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "Bb2:q",
+          "Bb2:q",
+          "Bb2:q"
+        ],
+        [
+          "F2:q",
+          "F2:q",
+          "F2:q",
+          "F2:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb2:h"
+        ],
+        [
+          "Bb2:h",
+          "F3:h"
+        ],
+        [
+          "F2:h",
+          "F2:h"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-011",
+      "slug": "m5a-011",
+      "title": "Bb Major Waltz",
+      "summary": "Graceful 3/4 waltz in Bb major with a singing melody.",
+      "goal": "Shape a Bb major waltz phrase in 3/4 with balanced hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 69,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "D5:q",
+          "F5:q"
+        ],
+        [
+          "G5:q",
+          "F5:q",
+          "Eb5:q"
+        ],
+        [
+          "D5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "C5:h",
+          "Bb4:q"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "D5:q"
+        ],
+        [
+          "Bb4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "F3:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Bb2:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "F3:q"
+        ],
+        [
+          "F3:h",
+          "F3:q"
+        ],
+        [
+          "F3:q",
+          "F3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-012",
+      "slug": "m5a-012",
+      "title": "Eb Major Melody",
+      "summary": "Stepwise Eb major melody with Eb, Bb, and Ab written explicitly.",
+      "goal": "Build confidence in Eb major's three flats with a singable melody.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Eb4:q",
+          "F4:q",
+          "G4:q",
+          "Ab4:q"
+        ],
+        [
+          "Bb4:q",
+          "Ab4:q",
+          "G4:q",
+          "F4:q"
+        ],
+        [
+          "G4:h",
+          "Bb4:h"
+        ],
+        [
+          "Eb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "Eb3:h",
+          "Bb3:h"
+        ],
+        [
+          "Eb3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-013",
+      "slug": "m5a-013",
+      "title": "Eb Major Study",
+      "summary": "Six-measure Eb major study with eighth-note passages and rising phrases.",
+      "goal": "Play Eb major eighth-note runs with accurate flat pitches throughout.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Eb4:e",
+          "F4:e",
+          "G4:q",
+          "Ab4:q",
+          "Bb4:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "Ab4:e",
+          "G4:e",
+          "F4:q"
+        ],
+        [
+          "G4:q",
+          "F4:q",
+          "Eb4:q",
+          "F4:q"
+        ],
+        [
+          "G4:h",
+          "Bb4:h"
+        ],
+        [
+          "Bb4:q",
+          "Ab4:q",
+          "G4:q",
+          "F4:q"
+        ],
+        [
+          "Eb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Eb3:q",
+          "Eb3:q",
+          "Eb3:q",
+          "Eb3:q"
+        ],
+        [
+          "Bb2:q",
+          "Bb2:q",
+          "Bb2:q",
+          "Bb2:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:h"
+        ],
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "Bb2:h",
+          "Bb2:h"
+        ],
+        [
+          "Eb3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-014",
+      "slug": "m5a-014",
+      "title": "Ab Major Melody",
+      "summary": "Warm Ab major melody with all four flats written explicitly.",
+      "goal": "Navigate Ab major including Db with confidence and smooth phrasing.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 63,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 3,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 4,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Db5:q"
+        ],
+        [
+          "Eb5:q",
+          "Db5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "C5:h",
+          "Eb5:h"
+        ],
+        [
+          "Ab4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab2:h",
+          "Eb3:h"
+        ],
+        [
+          "Ab2:h",
+          "Eb3:h"
+        ],
+        [
+          "Ab2:h",
+          "Eb3:h"
+        ],
+        [
+          "Ab3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-015",
+      "slug": "m5a-015",
+      "title": "Ab Major Study",
+      "summary": "Six-measure Ab major study with eighth notes rising to F5.",
+      "goal": "Play eighth-note passages in Ab major accurately, using all four flats.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:q",
+          "Db5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "Db5:e",
+          "C5:e",
+          "Bb4:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "Ab4:q",
+          "Bb4:q"
+        ],
+        [
+          "C5:h",
+          "Eb5:h"
+        ],
+        [
+          "Eb5:q",
+          "Db5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "Ab4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab2:q",
+          "Ab2:q",
+          "Ab2:q",
+          "Ab2:q"
+        ],
+        [
+          "Eb3:q",
+          "Eb3:q",
+          "Eb3:q",
+          "Eb3:q"
+        ],
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "Ab2:h"
+        ],
+        [
+          "Ab2:h",
+          "Eb3:h"
+        ],
+        [
+          "Eb3:h",
+          "Eb3:h"
+        ],
+        [
+          "Ab3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-016",
+      "slug": "m5a-016",
+      "title": "G Harmonic Minor Melody",
+      "summary": "G harmonic minor melody featuring the raised 7th (F#) for a dramatic leading tone.",
+      "goal": "Recognize and play the raised 7th (F#) that defines G harmonic minor.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 63,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 3,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 4,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "G4:q",
+          "A4:q",
+          "Bb4:q",
+          "C5:q"
+        ],
+        [
+          "D5:q",
+          "C5:q",
+          "Bb4:q",
+          "A4:q"
+        ],
+        [
+          "G4:q",
+          "F#4:q",
+          "G4:q",
+          "A4:q"
+        ],
+        [
+          "G4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "G3:h",
+          "D3:h"
+        ],
+        [
+          "G3:h",
+          "D3:h"
+        ],
+        [
+          "D3:h",
+          "D3:h"
+        ],
+        [
+          "G3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-017",
+      "slug": "m5a-017",
+      "title": "G Minor Eighth Notes",
+      "summary": "G harmonic minor with eighth-note passages including the raised F# leading tone.",
+      "goal": "Play G harmonic minor eighth-note runs with smooth hand coordination.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "G4:e",
+          "A4:e",
+          "Bb4:q",
+          "C5:q",
+          "D5:q"
+        ],
+        [
+          "Eb5:q",
+          "D5:q",
+          "C5:e",
+          "Bb4:e",
+          "A4:q"
+        ],
+        [
+          "Bb4:q",
+          "A4:q",
+          "G4:q",
+          "A4:q"
+        ],
+        [
+          "G4:h",
+          "D5:h"
+        ],
+        [
+          "F#4:q",
+          "G4:q",
+          "A4:q",
+          "Bb4:q"
+        ],
+        [
+          "G4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "G3:q",
+          "G3:q",
+          "G3:q",
+          "G3:q"
+        ],
+        [
+          "D3:q",
+          "D3:q",
+          "D3:q",
+          "D3:q"
+        ],
+        [
+          "G3:q",
+          "D3:q",
+          "G3:h"
+        ],
+        [
+          "G3:h",
+          "D3:h"
+        ],
+        [
+          "D3:h",
+          "D3:h"
+        ],
+        [
+          "G3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-018",
+      "slug": "m5a-018",
+      "title": "G Minor Waltz",
+      "summary": "Expressive 3/4 waltz in G harmonic minor with a plaintive character.",
+      "goal": "Shape a G minor waltz, highlighting the dramatic F# leading tone.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 66,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "G4:q",
+          "Bb4:q",
+          "D5:q"
+        ],
+        [
+          "Eb5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:q",
+          "A4:q",
+          "G4:q"
+        ],
+        [
+          "A4:h",
+          "G4:q"
+        ],
+        [
+          "F#4:q",
+          "G4:q",
+          "A4:q"
+        ],
+        [
+          "G4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "G3:q",
+          "D3:q",
+          "D3:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Bb2:q"
+        ],
+        [
+          "G3:q",
+          "D3:q",
+          "D3:q"
+        ],
+        [
+          "D3:h",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "D3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-019",
+      "slug": "m5a-019",
+      "title": "D Harmonic Minor Melody",
+      "summary": "D harmonic minor melody featuring the raised C# leading tone.",
+      "goal": "Recognize and play the raised 7th (C#) that defines D harmonic minor.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 63,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 3,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 4,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "D4:q",
+          "E4:q",
+          "F4:q",
+          "G4:q"
+        ],
+        [
+          "A4:q",
+          "G4:q",
+          "F4:q",
+          "E4:q"
+        ],
+        [
+          "D4:q",
+          "C#4:q",
+          "D4:q",
+          "E4:q"
+        ],
+        [
+          "D4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:h",
+          "A2:h"
+        ],
+        [
+          "D3:h",
+          "A2:h"
+        ],
+        [
+          "A2:h",
+          "A2:h"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m5a-020",
+      "slug": "m5a-020",
+      "title": "D Minor Study",
+      "summary": "Six-measure D harmonic minor study with eighth notes and expressive C# leading tone.",
+      "goal": "Play D harmonic minor fluently, emphasizing the C# to D resolution.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D4:e",
+          "E4:e",
+          "F4:q",
+          "G4:q",
+          "A4:q"
+        ],
+        [
+          "Bb4:q",
+          "A4:q",
+          "G4:e",
+          "F4:e",
+          "E4:q"
+        ],
+        [
+          "F4:q",
+          "E4:q",
+          "D4:q",
+          "E4:q"
+        ],
+        [
+          "F4:h",
+          "A4:h"
+        ],
+        [
+          "C#4:q",
+          "D4:q",
+          "E4:q",
+          "F4:q"
+        ],
+        [
+          "D4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "D3:q",
+          "D3:q",
+          "D3:q"
+        ],
+        [
+          "A2:q",
+          "A2:q",
+          "A2:q",
+          "A2:q"
+        ],
+        [
+          "D3:q",
+          "A2:q",
+          "D3:h"
+        ],
+        [
+          "D3:h",
+          "A2:h"
+        ],
+        [
+          "A2:h",
+          "A2:h"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "courseId": "technique-level-1d",
+  "title": "Technique Level 1D — Application",
+  "level": 1,
+  "summary": "Named character pieces applying C major five-finger technique in musical contexts: songs, marches, lullabies, dances, hymns, and waltzes. Eight single-hand miniatures followed by twelve grand-staff pieces with both hands, including contrary-motion études and a capstone celebration piece.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "t1d-001",
+      "slug": "t1d-001",
+      "title": "Little Song (RH)",
+      "summary": "A gentle RH melody in 4/4 combining half, quarter, and eighth notes with a singable contour.",
+      "goal": "Shape a musical phrase with natural rise and fall through C4–G4.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:h","E4:q","D4:q"],
+        ["E4:q","F4:q","E4:q","D4:q"],
+        ["C4:q","E4:q","G4:h"],
+        ["G4:q","F4:q","E4:q","D4:q"],
+        ["E4:e","F4:e","E4:e","D4:e","C4:q","D4:q"],
+        ["E4:h","C4:h"]
+      ]
+    },
+    {
+      "id": "t1d-002",
+      "slug": "t1d-002",
+      "title": "March (RH)",
+      "summary": "Crisp quarter notes in a bold march character through C4–G4.",
+      "goal": "Play with firm, even quarter-note attacks as if keeping a marching step.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","E4:q","G4:q","E4:q"],
+        ["F4:q","D4:q","E4:q","C4:q"],
+        ["G4:q","E4:q","F4:q","D4:q"],
+        ["E4:h","C4:h"]
+      ]
+    },
+    {
+      "id": "t1d-003",
+      "slug": "t1d-003",
+      "title": "Lullaby (LH)",
+      "summary": "A gentle left-hand lullaby in 3/4 with flowing half and quarter notes.",
+      "goal": "Play softly and evenly in the left hand, rocking gently through the three-beat phrase.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 60,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:h","D3:q"],
+        ["E3:q","D3:q","C3:q"],
+        ["G3:h","F3:q"],
+        ["E3:q","D3:q","E3:q"],
+        ["F3:h","E3:q"],
+        ["E3:q","D3:q","C3:q"]
+      ]
+    },
+    {
+      "id": "t1d-004",
+      "slug": "t1d-004",
+      "title": "Dance (RH)",
+      "summary": "A lively 2/4 dance with eighth-note runs and quarter rests for bounce.",
+      "goal": "Play with energy and lift in 2/4, keeping the eighth notes light and even.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 92,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e"],
+        ["G4:q","R:q"],
+        ["G4:e","F4:e","E4:e","D4:e"],
+        ["C4:h"],
+        ["E4:e","F4:e","G4:e","F4:e"],
+        ["E4:q","D4:q"],
+        ["E4:e","D4:e","C4:e","D4:e"],
+        ["C4:h"]
+      ]
+    },
+    {
+      "id": "t1d-005",
+      "slug": "t1d-005",
+      "title": "Hymn (LH)",
+      "summary": "A solemn LH hymn using whole and half notes through C3–G3.",
+      "goal": "Hold each note for its full value, conveying a sense of weight and reverence.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:w"],
+        ["E3:h","G3:h"],
+        ["F3:w"],
+        ["G3:h","E3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t1d-006",
+      "slug": "t1d-006",
+      "title": "Spinning Song (RH)",
+      "summary": "Continuous right-hand eighth notes that spin through C position in varied patterns.",
+      "goal": "Maintain unbroken eighth-note motion with even finger weight throughout.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["C4:e","E4:e","D4:e","F4:e","E4:e","G4:e","F4:e","E4:e"],
+        ["D4:e","C4:e","D4:e","E4:e","F4:e","G4:e","F4:e","E4:e"],
+        ["D4:e","E4:e","F4:e","G4:e","F4:e","E4:e","D4:e","C4:e"],
+        ["E4:e","D4:e","C4:e","D4:e","E4:e","F4:e","E4:e","D4:e"],
+        ["E4:q","D4:q","C4:h"]
+      ]
+    },
+    {
+      "id": "t1d-007",
+      "slug": "t1d-007",
+      "title": "Morning Walk (LH)",
+      "summary": "Steady left-hand quarter notes stepping through C3 position like a confident morning walk.",
+      "goal": "Play left-hand quarter steps with consistent tone and tempo across six measures.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["G3:q","F3:q","E3:q","D3:q"],
+        ["E3:q","F3:q","G3:q","F3:q"],
+        ["E3:q","D3:q","E3:q","F3:q"],
+        ["G3:q","E3:q","D3:q","C3:q"],
+        ["E3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1d-008",
+      "slug": "t1d-008",
+      "title": "Evening Song (LH)",
+      "summary": "A lyrical left-hand melody in 3/4 with a calm, winding character.",
+      "goal": "Sing out the left-hand melody with smooth tone in a gentle waltz time.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 66,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:q","E3:q","G3:q"],
+        ["G3:h","F3:q"],
+        ["E3:q","D3:q","C3:q"],
+        ["D3:h","E3:q"],
+        ["F3:q","E3:q","D3:q"],
+        ["C3:h","R:q"]
+      ]
+    },
+    {
+      "id": "t1d-009",
+      "slug": "t1d-009",
+      "title": "First Duet",
+      "summary": "Both hands play quarter notes in parallel octaves through C position in a simple melody.",
+      "goal": "Keep both hands perfectly synchronized on every quarter note.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:h","E4:h"],
+        ["F4:q","E4:q","D4:q","C4:q"],
+        ["E4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["G3:h","E3:h"],
+        ["F3:q","E3:q","D3:q","C3:q"],
+        ["E3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1d-010",
+      "slug": "t1d-010",
+      "title": "Waltz",
+      "summary": "A gentle 3/4 waltz with both hands in parallel octaves through C position.",
+      "goal": "Feel the one-two-three waltz pulse with both hands moving together.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:h","E4:q"],
+        ["G4:h","E4:q"],
+        ["F4:q","E4:q","D4:q"],
+        ["E4:h","D4:q"],
+        ["C4:e","D4:e","E4:e","F4:e","E4:q"],
+        ["D4:h","C4:q"]
+      ],
+      "measuresLeft": [
+        ["C3:h","D3:q"],
+        ["E3:h","D3:q"],
+        ["F3:q","E3:q","D3:q"],
+        ["E3:h","D3:q"],
+        ["G3:q","F3:q","E3:q"],
+        ["G3:h","C3:q"]
+      ]
+    },
+    {
+      "id": "t1d-011",
+      "slug": "t1d-011",
+      "title": "Happy Children",
+      "summary": "Both hands play with quarter rests for a bouncy, playful character.",
+      "goal": "Count rests carefully so both hands lift and re-attack together.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","R:q","E4:q","R:q"],
+        ["G4:q","E4:q","R:h"],
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q","R:q","E3:q","R:q"],
+        ["G3:q","E3:q","R:h"],
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["G3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1d-012",
+      "slug": "t1d-012",
+      "title": "Bells",
+      "summary": "Right hand rings out a melody above steady left-hand half-note harmonics.",
+      "goal": "Keep the left-hand half notes calm and even while the right hand moves freely.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["E4:q","G4:q","F4:q","E4:q"],
+        ["D4:q","E4:q","F4:q","G4:q"],
+        ["G4:e","F4:e","E4:e","D4:e","C4:q","E4:q"],
+        ["G4:h","E4:h"],
+        ["F4:q","E4:q","D4:q","C4:q"],
+        ["E4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:h","G3:h"],
+        ["F3:h","G3:h"],
+        ["C3:h","G3:h"],
+        ["E3:h","C3:h"],
+        ["F3:h","G3:h"],
+        ["C3:h","G3:h"]
+      ]
+    },
+    {
+      "id": "t1d-013",
+      "slug": "t1d-013",
+      "title": "Folk Dance",
+      "summary": "An energetic both-hands dance with eighth-note runs and quarter skips.",
+      "goal": "Play with rhythmic energy and precision, keeping both hands synchronized.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["C4:q","E4:q","G4:q","E4:q"],
+        ["D4:e","E4:e","F4:e","G4:e","F4:e","E4:e","D4:e","C4:e"],
+        ["E4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:e","D3:e","E3:e","F3:e","G3:e","F3:e","E3:e","D3:e"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["D3:e","E3:e","F3:e","G3:e","F3:e","E3:e","D3:e","C3:e"],
+        ["E3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1d-014",
+      "slug": "t1d-014",
+      "title": "Study in Contrary Motion",
+      "summary": "Right hand ascends while left hand descends, then they converge and diverge again across six measures.",
+      "goal": "Move each hand confidently in its own direction, keeping both lines even and clear.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:q","F4:q","E4:q","D4:q"],
+        ["E4:h","G4:h"],
+        ["G4:q","F4:q","E4:q","D4:q"],
+        ["E4:e","F4:e","E4:e","D4:e","C4:e","D4:e","E4:e","F4:e"],
+        ["E4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["G3:q","F3:q","E3:q","D3:q"],
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["E3:h","C3:h"],
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["G3:e","F3:e","G3:e","F3:e","E3:e","D3:e","C3:e","D3:e"],
+        ["E3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1d-015",
+      "slug": "t1d-015",
+      "title": "Sunrise",
+      "summary": "Both hands rise through C position in long whole and half notes, like the gradual brightening of dawn.",
+      "goal": "Hold each note for its full duration, listening for balance between both hands.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:w"],
+        ["E4:w"],
+        ["G4:w"],
+        ["G4:h","E4:h"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:w"],
+        ["E3:w"],
+        ["G3:w"],
+        ["G3:h","E3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t1d-016",
+      "slug": "t1d-016",
+      "title": "Marching Band",
+      "summary": "Bold repeated quarter notes in both hands with a fanfare-like repeated-note figure.",
+      "goal": "Play with strong, confident attacks like a drum major leading a marching band.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","C4:q","G4:q","G4:q"],
+        ["E4:q","E4:q","G4:q","G4:q"],
+        ["F4:q","E4:q","D4:q","C4:q"],
+        ["G4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q","C3:q","G3:q","G3:q"],
+        ["E3:q","E3:q","G3:q","G3:q"],
+        ["F3:q","E3:q","D3:q","C3:q"],
+        ["G3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1d-017",
+      "slug": "t1d-017",
+      "title": "Lullaby for Two Hands",
+      "summary": "A gentle 3/4 lullaby with both hands moving in parallel, soft and unhurried.",
+      "goal": "Play pianissimo and legato with both hands rocking evenly through the three-beat phrase.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:h","E4:q"],
+        ["G4:q","F4:q","E4:q"],
+        ["D4:h","E4:q"],
+        ["F4:q","E4:q","D4:q"],
+        ["C4:h","D4:q"],
+        ["E4:q","D4:q","C4:q"]
+      ],
+      "measuresLeft": [
+        ["C3:h","D3:q"],
+        ["E3:q","D3:q","C3:q"],
+        ["D3:h","E3:q"],
+        ["F3:q","E3:q","D3:q"],
+        ["C3:h","D3:q"],
+        ["E3:q","D3:q","C3:q"]
+      ]
+    },
+    {
+      "id": "t1d-018",
+      "slug": "t1d-018",
+      "title": "Fanfare",
+      "summary": "Bold, repeated-note fanfare figures in both hands, ascending through C position with energy.",
+      "goal": "Play with forte character and clear rhythmic precision on each repeated quarter note.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","C4:q","G4:q","E4:q"],
+        ["F4:q","F4:q","G4:q","G4:q"],
+        ["E4:q","F4:q","E4:q","D4:q"],
+        ["E4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q","C3:q","G3:q","E3:q"],
+        ["F3:q","F3:q","G3:q","G3:q"],
+        ["E3:q","F3:q","E3:q","D3:q"],
+        ["E3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1d-019",
+      "slug": "t1d-019",
+      "title": "Evening Hymn",
+      "summary": "Both hands sustain long whole and half notes in a peaceful hymn through C position.",
+      "goal": "Hold notes for their complete value with both hands sounding balanced and serene.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:w"],
+        ["E4:h","F4:h"],
+        ["G4:w"],
+        ["F4:h","E4:h"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:w"],
+        ["E3:h","F3:h"],
+        ["G3:w"],
+        ["F3:h","E3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t1d-020",
+      "slug": "t1d-020",
+      "title": "C Major Celebration",
+      "summary": "An eight-measure grand-staff capstone piece combining all Level 1 techniques in both hands: quarter steps, eighth runs, skips, and a triumphant close.",
+      "goal": "Perform this piece musically from start to finish, demonstrating all Level 1 technique in a single expressive statement.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:h","F4:q","E4:q"],
+        ["D4:e","E4:e","F4:q","G4:q","F4:q"],
+        ["E4:h","C4:h"],
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["C4:q","E4:q","G4:q","E4:q"],
+        ["D4:q","F4:q","E4:q","G4:q"],
+        ["E4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["G3:h","F3:q","E3:q"],
+        ["D3:e","E3:e","F3:q","G3:q","F3:q"],
+        ["E3:h","C3:h"],
+        ["C3:e","D3:e","E3:e","F3:e","G3:e","F3:e","E3:e","D3:e"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["D3:q","F3:q","E3:q","G3:q"],
+        ["E3:h","C3:h"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "courseId": "method-level-1c",
+  "title": "Method Level 1C — Combination",
+  "level": 1,
+  "summary": "Mix steps, skips, and varied rhythms from both hands, then bring them together on the grand staff.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "m1c-001",
+      "slug": "c-position-round",
+      "title": "C Position Round",
+      "summary": "Right hand ascends, skips to G, then steps back down.",
+      "goal": "Combine stepwise motion and skips in a single flowing phrase.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "G4:q"],
+        ["G4:q", "F4:q", "E4:q", "D4:q"],
+        ["E4:q", "C4:q", "D4:h"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "m1c-002",
+      "slug": "waltz-song",
+      "title": "Waltz Song",
+      "summary": "A six-measure waltz combining steps and skips in 3/4.",
+      "goal": "Play a musical waltz with even, flowing beat placement.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "E4:q", "G4:q"],
+        ["G4:q", "F4:q", "E4:q"],
+        ["D4:q", "E4:q", "D4:q"],
+        ["C4:h", "R:q"],
+        ["E4:q", "G4:q", "E4:q"],
+        ["C4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "m1c-003",
+      "slug": "march-song",
+      "title": "March Song",
+      "summary": "A six-measure march mixing steps and thirds in 2/4.",
+      "goal": "Play a crisp, rhythmic march with a strong two-beat pulse.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "E4:q"],
+        ["G4:q", "E4:q"],
+        ["F4:q", "D4:q"],
+        ["E4:q", "C4:q"],
+        ["D4:q", "F4:q"],
+        ["E4:h"]
+      ]
+    },
+    {
+      "id": "m1c-004",
+      "slug": "slow-air",
+      "title": "Slow Air",
+      "summary": "A lyrical half-note melody mixing halves and quarters.",
+      "goal": "Shape a singing tone across mixed note values.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 52,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:h", "E4:h"],
+        ["G4:h", "E4:h"],
+        ["F4:q", "E4:q", "D4:h"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "m1c-005",
+      "slug": "skip-and-rest",
+      "title": "Skip and Rest",
+      "summary": "Right hand skips with rests in between — combining skips and silence.",
+      "goal": "Count rests precisely within a phrase that includes both steps and skips.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "R:q", "E4:q", "R:q"],
+        ["G4:q", "R:q", "E4:h"],
+        ["D4:q", "R:q", "C4:h"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "m1c-006",
+      "slug": "bass-round",
+      "title": "Bass Round",
+      "summary": "Left hand ascends, skips to G3, then steps back down.",
+      "goal": "Combine steps and skips fluently in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "D3:q", "E3:q", "G3:q"],
+        ["G3:q", "F3:q", "E3:q", "D3:q"],
+        ["E3:q", "C3:q", "D3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m1c-007",
+      "slug": "bass-waltz-song",
+      "title": "Bass Waltz Song",
+      "summary": "Left hand six-measure waltz mixing steps and skips.",
+      "goal": "Play a flowing waltz with a clear three-beat feel in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 66,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "E3:q", "G3:q"],
+        ["G3:q", "F3:q", "E3:q"],
+        ["D3:q", "E3:q", "D3:q"],
+        ["C3:h", "R:q"],
+        ["E3:q", "G3:q", "E3:q"],
+        ["C3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "m1c-008",
+      "slug": "bass-march-song",
+      "title": "Bass March Song",
+      "summary": "Left hand march combining steps and thirds in 2/4.",
+      "goal": "Maintain a crisp two-beat pulse in bass clef march style.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "E3:q"],
+        ["G3:q", "E3:q"],
+        ["F3:q", "D3:q"],
+        ["E3:q", "C3:q"],
+        ["D3:q", "F3:q"],
+        ["E3:h"]
+      ]
+    },
+    {
+      "id": "m1c-009",
+      "slug": "bass-slow-air",
+      "title": "Bass Slow Air",
+      "summary": "Left hand lyrical melody with half notes and a quarter descent.",
+      "goal": "Produce a singing bass-clef tone across mixed note values.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 52,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:h", "E3:h"],
+        ["G3:h", "E3:h"],
+        ["F3:q", "E3:q", "D3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m1c-010",
+      "slug": "bass-skip-rest",
+      "title": "Bass Skip and Rest",
+      "summary": "Left hand skips combined with quarter rests.",
+      "goal": "Count rests accurately in a bass-clef phrase with skips.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "R:q", "E3:q", "R:q"],
+        ["G3:q", "R:q", "E3:h"],
+        ["D3:q", "R:q", "C3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m1c-011",
+      "slug": "parallel-steps",
+      "title": "Parallel Steps",
+      "summary": "Both hands step up and down together in C position.",
+      "goal": "Coordinate both hands moving in the same direction at the same time.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 58,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "F4:q"],
+        ["G4:q", "F4:q", "E4:h"],
+        ["D4:q", "C4:q", "C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "D3:q", "E3:q", "F3:q"],
+        ["G3:q", "F3:q", "E3:h"],
+        ["D3:q", "C3:q", "C3:h"]
+      ]
+    },
+    {
+      "id": "m1c-012",
+      "slug": "contrary-motion",
+      "title": "Contrary Motion",
+      "summary": "Right hand ascends while left hand descends, then they meet on C.",
+      "goal": "Coordinate hands moving in opposite directions.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 58,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "F4:q"],
+        ["G4:q", "F4:q", "E4:h"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["G3:q", "F3:q", "E3:q", "D3:q"],
+        ["C3:q", "D3:q", "E3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m1c-013",
+      "slug": "both-hands-waltz",
+      "title": "Both Hands Waltz",
+      "summary": "Both hands step together in 3/4 waltz time.",
+      "goal": "Keep a shared three-beat pulse with both hands stepping in parallel.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q"],
+        ["F4:q", "E4:q", "D4:q"],
+        ["E4:q", "D4:q", "C4:q"],
+        ["C4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "D3:q", "E3:q"],
+        ["F3:q", "E3:q", "D3:q"],
+        ["E3:q", "D3:q", "C3:q"],
+        ["C3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "m1c-014",
+      "slug": "both-hands-march",
+      "title": "Both Hands March",
+      "summary": "Both hands march together in parallel in 2/4.",
+      "goal": "Lock both hands onto the same two-beat march pulse.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "E4:q"],
+        ["D4:q", "F4:q"],
+        ["E4:q", "G4:q"],
+        ["D4:q", "C4:q"],
+        ["C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "E3:q"],
+        ["D3:q", "F3:q"],
+        ["E3:q", "G3:q"],
+        ["D3:q", "C3:q"],
+        ["C3:h"]
+      ]
+    },
+    {
+      "id": "m1c-015",
+      "slug": "melody-over-whole-notes",
+      "title": "Melody Over Whole Notes",
+      "summary": "Right hand carries a quarter-note melody while left hand sustains whole notes.",
+      "goal": "Keep the left-hand whole note steady while the right hand moves independently.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 56,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "D4:q"],
+        ["E4:q", "F4:q", "E4:q", "D4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:w"],
+        ["G3:w"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m1c-016",
+      "slug": "melody-over-half-notes",
+      "title": "Melody Over Half Notes",
+      "summary": "Right hand plays a quarter-note melody above left-hand half notes.",
+      "goal": "Sustain left-hand halves independently while the right hand moves.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 58,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "F4:q"],
+        ["G4:q", "E4:q", "D4:q", "C4:q"],
+        ["E4:q", "D4:q", "C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:h", "E3:h"],
+        ["G3:h", "E3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m1c-017",
+      "slug": "call-and-response",
+      "title": "Call and Response",
+      "summary": "Right hand calls with a melody; left hand answers while right rests.",
+      "goal": "Understand phrase alternation between hands using rests as cues.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:h"],
+        ["R:w"],
+        ["C4:q", "E4:q", "G4:h"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["R:w"],
+        ["C3:q", "D3:q", "E3:h"],
+        ["R:w"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m1c-018",
+      "slug": "parallel-thirds",
+      "title": "Parallel Thirds",
+      "summary": "Both hands skip in thirds together — C–E–G pattern.",
+      "goal": "Play the C–E–G skip pattern simultaneously in both hands.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["C4:h", "G4:h"],
+        ["E4:q", "G4:q", "E4:q", "C4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "E3:q", "G3:q", "E3:q"],
+        ["C3:h", "G3:h"],
+        ["E3:q", "G3:q", "E3:q", "C3:q"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "m1c-019",
+      "slug": "grand-waltz",
+      "title": "Grand Waltz",
+      "summary": "Both hands in a six-measure waltz with independent rhythmic patterns.",
+      "goal": "Coordinate independent rhythmic patterns between hands in 3/4.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q"],
+        ["G4:h", "R:q"],
+        ["F4:q", "E4:q", "D4:q"],
+        ["E4:h", "R:q"],
+        ["D4:q", "C4:q", "D4:q"],
+        ["C4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["C3:h", "R:q"],
+        ["C3:q", "D3:q", "E3:q"],
+        ["D3:h", "R:q"],
+        ["D3:q", "E3:q", "D3:q"],
+        ["E3:h", "R:q"],
+        ["C3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "m1c-020",
+      "slug": "combination-capstone",
+      "title": "Combination Capstone",
+      "summary": "Grand-staff piece drawing on all Level 1C skills — steps, skips, mixed values, and independent hands.",
+      "goal": "Perform a complete grand-staff piece combining all skills from Levels 1A, 1B, and 1C.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:h"],
+        ["G4:q", "F4:q", "E4:q", "D4:q"],
+        ["E4:q", "R:q", "G4:h"],
+        ["F4:q", "E4:q", "D4:h"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:w"],
+        ["G3:h", "E3:h"],
+        ["C3:h", "E3:h"],
+        ["G3:q", "F3:q", "E3:h"],
+        ["C3:w"]
+      ]
+    }
+  ]
+}

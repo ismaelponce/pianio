@@ -1,0 +1,773 @@
+{
+  "courseId": "method-level-3e",
+  "title": "Method Level 3E — Mastery",
+  "level": 3,
+  "summary": "Fluency capstone for Level 3: full dynamic range (pp–ff), blocked and broken I/IV/V chords, pedal on lyrical pieces, Morning Mood (Grieg), and 8-measure pieces across all L3 keys.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "m3e-001",
+      "slug": "c-major-velocity-study",
+      "title": "C Major Velocity Study",
+      "summary": "Fast right-hand scalar runs through C major, building finger independence and speed. Forte with a fortissimo finale.",
+      "goal": "Play C major scale passages at tempo with clean articulation and bold dynamics.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "f" },
+        { "measure": 3, "marking": "mf" },
+        { "measure": 4, "marking": "ff" }
+      ],
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["D5:e","C5:e","B4:e","A4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["C4:e","E4:e","G4:e","C5:e","E5:e","C5:e","G4:e","E4:e"],
+        ["C4:q","G4:q","E4:q","C4:q"]
+      ]
+    },
+    {
+      "id": "m3e-002",
+      "slug": "g-major-speed-etude",
+      "title": "G Major Speed Étude",
+      "summary": "Right-hand G major passages with F# key signature; builds scale fluency at speed with growing intensity.",
+      "goal": "Navigate G major scale with accurate F# in fast context, building to fortissimo.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 3, "marking": "f" },
+        { "measure": 4, "marking": "ff" }
+      ],
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","E5:e","F#5:e","G5:e"],
+        ["F#5:e","E5:e","D5:e","C5:e","B4:e","A4:e","G4:e","A4:e"],
+        ["B4:e","D5:e","G5:e","D5:e","B4:e","G4:e","D4:e","G4:e"],
+        ["G4:q","D5:q","B4:q","G4:q"]
+      ]
+    },
+    {
+      "id": "m3e-003",
+      "slug": "f-major-sprint",
+      "title": "F Major Sprint",
+      "summary": "Left-hand F major scale study in the bass register. Forte opening, fortissimo close.",
+      "goal": "Play F major passages smoothly in LH with bold dynamic projection.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -1,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "f" },
+        { "measure": 3, "marking": "mf" },
+        { "measure": 4, "marking": "ff" }
+      ],
+      "measures": [
+        ["F3:e","G3:e","A3:e","Bb3:e","C4:e","D4:e","E4:e","F4:e"],
+        ["E4:e","D4:e","C4:e","Bb3:e","A3:e","G3:e","F3:e","G3:e"],
+        ["A3:e","C4:e","F4:e","C4:e","A3:e","F3:e","C3:e","F3:e"],
+        ["F3:q","C4:q","A3:q","F3:q"]
+      ]
+    },
+    {
+      "id": "m3e-004",
+      "slug": "a-minor-velocity-study",
+      "title": "A Minor Velocity Study",
+      "summary": "A harmonic minor right-hand étude with G# leading tone. Builds from piano to fortissimo.",
+      "goal": "Play A harmonic minor scale rapidly with accurate G# and a dramatic dynamic arc.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 3, "marking": "f" },
+        { "measure": 5, "marking": "ff" }
+      ],
+      "measures": [
+        ["A4:e","B4:e","C5:e","D5:e","E5:e","F5:e","G#5:e","A5:e"],
+        ["G#5:e","F5:e","E5:e","D5:e","C5:e","B4:e","A4:e","B4:e"],
+        ["C5:e","E5:e","A5:e","E5:e","C5:e","A4:e","E4:e","A4:e"],
+        ["A4:q","E5:q","C5:q","A4:q"],
+        ["A3:e","B3:e","C4:e","D4:e","E4:e","F4:e","G#4:e","A4:e"],
+        ["E5:e","D5:e","C5:e","B4:e","A4:e","G#4:e","F4:e","E4:e"]
+      ]
+    },
+    {
+      "id": "m3e-005",
+      "slug": "sonata-fragment",
+      "title": "Sonata Fragment with I/IV/V Chords",
+      "summary": "A familiar melody harmonized with blocked I, IV, and V chords in C major — introducing functional harmony in both hands.",
+      "goal": "Coordinate melodic RH with blocked chord LH, hearing how I/IV/V chords support a melody.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "f" },
+        { "measure": 7, "marking": "p" },
+        { "measure": 8, "marking": "f" }
+      ],
+      "measures": [
+        ["E5:q","D5:q","C5:q","D5:q"],
+        ["E5:q","E5:q","E5:h"],
+        ["D5:q","D5:q","D5:h"],
+        ["E5:q","G5:q","G5:h"],
+        ["E5:q","D5:q","C5:q","D5:q"],
+        ["E5:q","E5:q","E5:q","E5:q"],
+        ["D5:q","E5:q","D5:q","C5:q"],
+        ["C5:h","C5:h"]
+      ],
+      "measuresLeft": [
+        ["[C3,E3,G3]:h","[C3,E3,G3]:h"],
+        ["[C3,E3,G3]:h","[G2,B2,D3]:h"],
+        ["[G2,B2,D3]:h","[G2,B2,D3]:h"],
+        ["[C3,E3,G3]:h","[C3,E3,G3]:h"],
+        ["[C3,E3,G3]:h","[C3,E3,G3]:h"],
+        ["[C3,E3,G3]:h","[F2,A2,C3]:h"],
+        ["[G2,B2,D3]:h","[G2,B2,D3]:h"],
+        ["[C3,E3,G3]:w"]
+      ]
+    },
+    {
+      "id": "m3e-006",
+      "slug": "g-major-prelude",
+      "title": "Morning Mood in G",
+      "summary": "Grieg's iconic Morning Mood theme transposed to G major — a gentle pastoral melody over flowing LH arpeggios with sustained pedal.",
+      "goal": "Play the Morning Mood theme with gentle dynamics, singing RH line over flowing LH arpeggios.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": { "type": "CC0-1.0", "attribution": "Edvard Grieg, Peer Gynt Suite No. 1, Op. 46 (1875), arr. Pianio", "notes": "Public domain. Arrangement CC0." },
+      "category": "classical",
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 5, "marking": "mp" },
+        { "measure": 7, "marking": "p" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 4, "beat": 1, "type": "up" },
+        { "measure": 5, "beat": 1, "type": "down" },
+        { "measure": 8, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:q","D5:q"],
+        ["D5:e","C5:e","B4:e","A4:e","G4:h"],
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","E5:e","D5:e","C5:e"],
+        ["B4:h","G4:h"],
+        ["G4:e","A4:e","B4:e","C5:e","D5:q","E5:q"],
+        ["E5:e","D5:e","C5:e","B4:e","A4:h"],
+        ["B4:e","C5:e","D5:q","B4:e","A4:e","G4:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G3:q","B3:q","D4:q","B3:q"],
+        ["D3:q","F#3:q","A3:q","F#3:q"],
+        ["G3:q","B3:q","D4:q","B3:q"],
+        ["E3:q","G3:q","B3:q","G3:q"],
+        ["G3:q","B3:q","D4:q","B3:q"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["D3:q","F#3:q","A3:q","F#3:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "m3e-007",
+      "slug": "f-major-invention",
+      "title": "F Major Invention",
+      "summary": "Two-voice invention-style piece in F major for both hands. Mezzo-forte with a forte climax.",
+      "goal": "Maintain independent melodic lines in both hands with dynamic contrast.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "f" },
+        { "measure": 7, "marking": "mf" }
+      ],
+      "measures": [
+        ["F5:e","G5:e","A5:e","Bb5:e","A5:e","G5:e","F5:e","E5:e"],
+        ["F5:q","C5:q","A4:q","F4:q"],
+        ["G4:e","A4:e","Bb4:e","C5:e","D5:e","E5:e","F5:e","G5:e"],
+        ["A5:h","F5:h"],
+        ["F5:e","E5:e","D5:e","C5:e","Bb4:e","A4:e","G4:e","F4:e"],
+        ["E4:q","C5:q","A4:q","F4:q"],
+        ["G4:e","A4:e","Bb4:e","A4:e","G4:e","F4:e","E4:e","F4:e"],
+        ["F4:h","F4:h"]
+      ],
+      "measuresLeft": [
+        ["F3:q","C3:q","F3:q","C3:q"],
+        ["F3:e","G3:e","A3:e","Bb3:e","A3:e","G3:e","F3:e","E3:e"],
+        ["F3:q","C4:q","F3:q","C4:q"],
+        ["F3:e","E3:e","D3:e","C3:e","Bb2:e","A2:e","G2:e","F2:e"],
+        ["C3:q","G3:q","E3:q","C3:q"],
+        ["F3:e","G3:e","A3:e","Bb3:e","C4:e","Bb3:e","A3:e","G3:e"],
+        ["C3:q","G3:q","C4:q","G3:q"],
+        ["F2:h","F2:h"]
+      ]
+    },
+    {
+      "id": "m3e-008",
+      "slug": "a-minor-fantasy",
+      "title": "A Minor Fantasy",
+      "summary": "Expressive grand-staff piece in A harmonic minor with dramatic phrases, sustained pedal, and dynamic arc.",
+      "goal": "Shape melodic phrases with clear direction in A minor, building to a forte climax.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 5, "marking": "f" },
+        { "measure": 7, "marking": "p" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 4, "beat": 1, "type": "up" },
+        { "measure": 5, "beat": 1, "type": "down" },
+        { "measure": 8, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["A4:h","E5:h"],
+        ["F5:q","E5:q","D5:q","C5:q"],
+        ["B4:q","G#4:q","A4:h"],
+        ["A4:w"],
+        ["C5:h","D5:h"],
+        ["E5:q","F5:q","E5:q","D5:q"],
+        ["C5:q","B4:q","G#4:q","A4:q"],
+        ["A4:h","A4:h"]
+      ],
+      "measuresLeft": [
+        ["A3:h","E3:h"],
+        ["F3:q","C4:q","A3:q","E3:q"],
+        ["E3:q","B2:q","A2:h"],
+        ["A2:w"],
+        ["C3:h","G3:h"],
+        ["A3:q","F3:q","C3:q","G3:q"],
+        ["A2:q","E3:q","A3:q","E3:q"],
+        ["A2:h","A2:h"]
+      ]
+    },
+    {
+      "id": "m3e-009",
+      "slug": "d-minor-study",
+      "title": "D Minor Study",
+      "summary": "Grand-staff study in D harmonic minor with C# leading tone. Mezzo-piano with a forte climax.",
+      "goal": "Play D harmonic minor passages in both hands with dynamic shaping.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 5, "marking": "f" },
+        { "measure": 7, "marking": "mp" }
+      ],
+      "measures": [
+        ["D5:q","E5:q","F5:q","G5:q"],
+        ["A5:h","F5:h"],
+        ["E5:q","F5:q","G5:q","A5:q"],
+        ["Bb5:h","A5:h"],
+        ["G5:q","F5:q","E5:q","D5:q"],
+        ["C#5:q","D5:q","E5:q","F5:q"],
+        ["G5:q","A5:q","C#5:q","D5:q"],
+        ["D5:h","D5:h"]
+      ],
+      "measuresLeft": [
+        ["D3:q","A3:q","F3:q","A3:q"],
+        ["D3:q","F3:q","A3:q","F3:q"],
+        ["A2:q","E3:q","A3:q","E3:q"],
+        ["D3:q","F3:q","Bb3:q","F3:q"],
+        ["G3:q","D3:q","Bb2:q","D3:q"],
+        ["A2:q","E3:q","A3:q","E3:q"],
+        ["D3:q","A3:q","C#3:q","A3:q"],
+        ["D2:h","D2:h"]
+      ]
+    },
+    {
+      "id": "m3e-010",
+      "slug": "c-major-waltz",
+      "title": "C Major Waltz",
+      "summary": "Grand-staff waltz in 3/4 with flowing RH melody and LH waltz-style I/IV/V blocked chords.",
+      "goal": "Maintain waltz character with clear 1-2-3 feel, playing blocked chords in the left hand.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "f" },
+        { "measure": 7, "marking": "mf" }
+      ],
+      "measures": [
+        ["E5:q","D5:q","C5:q"],
+        ["G5:h","G5:q"],
+        ["F5:q","E5:q","D5:q"],
+        ["E5:h","E5:q"],
+        ["D5:q","E5:q","F5:q"],
+        ["G5:h","G5:q"],
+        ["E5:q","D5:q","C5:q"],
+        ["C5:h","C5:q"]
+      ],
+      "measuresLeft": [
+        ["C3:q","[E3,G3]:q","[E3,G3]:q"],
+        ["[C3,E3,G3]:dh"],
+        ["F3:q","[A3,C4]:q","[A3,C4]:q"],
+        ["[C3,E3,G3]:dh"],
+        ["G2:q","[B2,D3]:q","[B2,D3]:q"],
+        ["[C3,E3,G3]:dh"],
+        ["G2:q","[B2,D3]:q","[B2,D3]:q"],
+        ["[C3,E3,G3]:h","C3:q"]
+      ]
+    },
+    {
+      "id": "m3e-011",
+      "slug": "g-major-march",
+      "title": "G Major March",
+      "summary": "Crisp 2/4 march in G major for both hands. Forte with a fortissimo finale.",
+      "goal": "Project march character with precise rhythmic coordination and powerful dynamics.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 88,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "f" },
+        { "measure": 5, "marking": "ff" }
+      ],
+      "measures": [
+        ["G5:q","G5:q"],
+        ["A5:q","F#5:q"],
+        ["G5:q","D5:q"],
+        ["G5:h"],
+        ["E5:q","F#5:q"],
+        ["G5:q","A5:q"],
+        ["B5:q","A5:q"],
+        ["G5:h"]
+      ],
+      "measuresLeft": [
+        ["G3:q","G3:q"],
+        ["D3:q","D3:q"],
+        ["G3:q","B3:q"],
+        ["G3:h"],
+        ["C4:q","B3:q"],
+        ["G3:q","D4:q"],
+        ["G3:q","D3:q"],
+        ["G3:h"]
+      ]
+    },
+    {
+      "id": "m3e-012",
+      "slug": "f-major-rondo",
+      "title": "F Major Rondo",
+      "summary": "Rondo-style theme in F major with dynamic contrast between theme and episode.",
+      "goal": "Recognize and shape the main theme dynamically while navigating contrasting material.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 4, "marking": "p" },
+        { "measure": 6, "marking": "f" }
+      ],
+      "measures": [
+        ["F5:q","E5:q","D5:q","C5:q"],
+        ["Bb4:q","C5:q","D5:q","E5:q"],
+        ["F5:h","F5:h"],
+        ["F5:q","G5:q","A5:q","Bb5:q"],
+        ["A5:h","G5:h"],
+        ["F5:q","E5:q","D5:q","C5:q"],
+        ["Bb4:q","C5:q","D5:q","E5:q"],
+        ["F5:h","F5:h"]
+      ],
+      "measuresLeft": [
+        ["F3:q","C4:q","A3:q","C4:q"],
+        ["Bb2:q","F3:q","D3:q","F3:q"],
+        ["C3:q","G3:q","E3:q","G3:q"],
+        ["F3:q","A3:q","C4:q","A3:q"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["F3:q","C4:q","A3:q","C4:q"],
+        ["Bb2:q","F3:q","D3:q","F3:q"],
+        ["F2:h","F2:h"]
+      ]
+    },
+    {
+      "id": "m3e-013",
+      "slug": "a-minor-etude-de-concert",
+      "title": "A Minor Étude de Concert",
+      "summary": "Concert étude in A minor with eighth-note melodic momentum in both hands and a wide dynamic arc.",
+      "goal": "Maintain flowing eighth-note motion with expressive dynamic shaping from piano to forte.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 3, "marking": "mf" },
+        { "measure": 5, "marking": "f" },
+        { "measure": 7, "marking": "p" }
+      ],
+      "measures": [
+        ["A4:e","B4:e","C5:e","D5:e","E5:e","F5:e","G#5:e","A5:e"],
+        ["A5:q","E5:q","C5:q","A4:q"],
+        ["G#4:e","A4:e","B4:e","C5:e","D5:e","E5:e","F5:e","G#5:e"],
+        ["A5:h","E5:h"],
+        ["F5:e","E5:e","D5:e","C5:e","B4:e","A4:e","G#4:e","A4:e"],
+        ["C5:q","E5:q","A5:q","E5:q"],
+        ["D5:e","C5:e","B4:e","A4:e","G#4:e","F4:e","E4:e","A4:e"],
+        ["A4:h","A4:h"]
+      ],
+      "measuresLeft": [
+        ["A2:q","E3:q","A3:q","E3:q"],
+        ["A3:e","G#3:e","A3:e","B3:e","C4:e","B3:e","A3:e","G#3:e"],
+        ["A2:q","E3:q","A3:q","E3:q"],
+        ["A3:q","E3:q","C3:q","A2:q"],
+        ["F2:q","C3:q","F3:q","C3:q"],
+        ["A2:q","E3:q","A3:q","E3:q"],
+        ["E2:q","B2:q","E3:q","B2:q"],
+        ["A2:h","A2:h"]
+      ]
+    },
+    {
+      "id": "m3e-014",
+      "slug": "cross-key-journey",
+      "title": "Cross-Key Journey C → G",
+      "summary": "Modulating piece that travels from C major to G major, with dynamic shift at the key change.",
+      "goal": "Navigate a key change from C to G major with growing dynamic intensity.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "f" }
+      ],
+      "measures": [
+        ["C5:q","D5:q","E5:q","F5:q"],
+        ["G5:h","E5:h"],
+        ["D5:q","E5:q","F5:q","G5:q"],
+        ["C5:h","C5:h"],
+        ["D5:q","E5:q","F#5:q","G5:q"],
+        ["A5:h","G5:h"],
+        ["F#5:q","E5:q","D5:q","G5:q"],
+        ["G5:h","G5:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q","G3:q","E3:q","G3:q"],
+        ["C4:q","G3:q","C3:q","G3:q"],
+        ["G2:q","D3:q","G3:q","D3:q"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["G2:q","D3:q","G3:q","D3:q"],
+        ["D3:q","A3:q","F#3:q","D3:q"],
+        ["G3:q","B3:q","D4:q","B3:q"],
+        ["G2:h","G2:h"]
+      ]
+    },
+    {
+      "id": "m3e-015",
+      "slug": "d-minor-tarantella",
+      "title": "D Minor Tarantella",
+      "summary": "Fast 3/4 tarantella in D minor for both hands. Forte opening, piano interlude, fortissimo close.",
+      "goal": "Sustain rapid tarantella character with dramatic dynamic contrasts.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 88,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "f" },
+        { "measure": 5, "marking": "p" },
+        { "measure": 7, "marking": "ff" }
+      ],
+      "measures": [
+        ["D5:e","E5:e","F5:q","A5:q"],
+        ["G5:e","F5:e","E5:q","D5:q"],
+        ["C#5:e","D5:e","E5:q","F5:q"],
+        ["A5:h","A5:q"],
+        ["F5:e","G5:e","A5:q","Bb5:q"],
+        ["A5:e","G5:e","F5:q","E5:q"],
+        ["D5:e","E5:e","F5:q","C#5:q"],
+        ["D5:h","D5:q"]
+      ],
+      "measuresLeft": [
+        ["D3:q","A3:q","F3:q"],
+        ["A2:q","E3:q","C3:q"],
+        ["A2:q","E3:q","A3:q"],
+        ["D3:h","D3:q"],
+        ["Bb2:q","F3:q","D3:q"],
+        ["C3:q","G3:q","E3:q"],
+        ["A2:q","E3:q","A3:q"],
+        ["D3:h","D3:q"]
+      ]
+    },
+    {
+      "id": "m3e-016",
+      "slug": "f-major-grand-etude",
+      "title": "F Major Grand Étude",
+      "summary": "Comprehensive F major étude combining scalar passages and sustained melody with dynamic shaping.",
+      "goal": "Integrate scale technique with musical phrasing and dynamic contrast in F major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "f" },
+        { "measure": 7, "marking": "mf" }
+      ],
+      "measures": [
+        ["F5:e","G5:e","A5:e","Bb5:e","A5:e","G5:e","F5:e","E5:e"],
+        ["F5:h","C5:h"],
+        ["D5:e","E5:e","F5:e","G5:e","A5:e","Bb5:e","A5:e","G5:e"],
+        ["F5:h","A5:h"],
+        ["Bb5:e","A5:e","G5:e","F5:e","E5:e","D5:e","C5:e","Bb4:e"],
+        ["A4:q","C5:q","F5:q","C5:q"],
+        ["G5:e","F5:e","E5:e","F5:e","G5:e","A5:e","Bb5:e","A5:e"],
+        ["F5:h","F5:h"]
+      ],
+      "measuresLeft": [
+        ["F3:q","C4:q","A3:q","C4:q"],
+        ["F3:q","A3:q","C4:q","A3:q"],
+        ["Bb2:q","F3:q","D3:q","F3:q"],
+        ["F3:q","C4:q","F4:q","C4:q"],
+        ["Bb2:q","F3:q","D3:q","F3:q"],
+        ["C3:q","G3:q","E3:q","C3:q"],
+        ["F3:q","A3:q","C4:q","A3:q"],
+        ["F2:h","F2:h"]
+      ]
+    },
+    {
+      "id": "m3e-017",
+      "slug": "syncopation-fantasia",
+      "title": "Syncopation Fantasia",
+      "summary": "Grand-staff piece featuring off-beat entries and syncopated rhythms in C major with dynamic variety.",
+      "goal": "Execute syncopated rhythms precisely with dynamic contrast between phrases.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "p" },
+        { "measure": 7, "marking": "f" }
+      ],
+      "measures": [
+        ["R:e","E5:e","G5:q","E5:q","G5:q"],
+        ["R:e","A5:e","G5:q","F5:q","E5:q"],
+        ["R:e","D5:e","F5:q","D5:q","E5:q"],
+        ["C5:h","C5:h"],
+        ["R:e","G5:e","F5:q","E5:q","D5:q"],
+        ["R:e","E5:e","D5:q","C5:q","D5:q"],
+        ["R:e","F5:e","E5:q","D5:q","C5:q"],
+        ["C5:h","C5:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q","G3:q","E3:q","G3:q"],
+        ["F3:q","C4:q","A3:q","C4:q"],
+        ["G2:q","D3:q","B3:q","D3:q"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["G2:q","D3:q","G3:q","D3:q"],
+        ["C3:q","G3:q","E3:q","G3:q"],
+        ["G2:q","B3:q","D3:q","B3:q"],
+        ["C3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "m3e-018",
+      "slug": "g-major-impromptu",
+      "title": "G Major Impromptu",
+      "summary": "Spontaneous-sounding G major piece with varied rhythms. Mezzo-piano to mezzo-forte with a quiet close.",
+      "goal": "Project an improvisatory character with subtle dynamic nuance.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 3, "marking": "mf" },
+        { "measure": 5, "marking": "p" },
+        { "measure": 7, "marking": "mp" }
+      ],
+      "measures": [
+        ["G5:h","F#5:q","E5:q"],
+        ["D5:q","E5:q","F#5:q","G5:q"],
+        ["A5:h","G5:q","F#5:q"],
+        ["G5:h","G5:h"],
+        ["B5:q","A5:q","G5:q","F#5:q"],
+        ["E5:h","D5:h"],
+        ["C5:q","D5:q","E5:q","F#5:q"],
+        ["G5:h","G5:h"]
+      ],
+      "measuresLeft": [
+        ["G3:q","D3:q","B3:q","D3:q"],
+        ["G3:q","B3:q","D4:q","B3:q"],
+        ["D3:q","A3:q","F#3:q","A3:q"],
+        ["G3:q","D4:q","B3:q","G3:q"],
+        ["E3:q","B3:q","G3:q","B3:q"],
+        ["A2:q","E3:q","C3:q","E3:q"],
+        ["D3:q","A3:q","F#3:q","A3:q"],
+        ["G2:h","G2:h"]
+      ]
+    },
+    {
+      "id": "m3e-019",
+      "slug": "a-minor-grand-nocturne",
+      "title": "A Minor Grand Nocturne",
+      "summary": "Lyrical nocturne in A minor with sustained melody over gentle LH motion, pedal, and pianissimo dynamics.",
+      "goal": "Shape a long melodic line with the softest dynamics and sustained pedal.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "pp" },
+        { "measure": 3, "marking": "p" },
+        { "measure": 5, "marking": "mp" },
+        { "measure": 7, "marking": "pp" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 4, "beat": 1, "type": "up" },
+        { "measure": 5, "beat": 1, "type": "down" },
+        { "measure": 8, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["A4:h","C5:h"],
+        ["E5:q","D5:q","C5:q","B4:q"],
+        ["A4:h","G#4:h"],
+        ["A4:w"],
+        ["C5:h","E5:h"],
+        ["F5:q","E5:q","D5:q","C5:q"],
+        ["B4:q","G#4:q","A4:h"],
+        ["A4:h","A4:h"]
+      ],
+      "measuresLeft": [
+        ["A2:q","E3:q","A3:q","E3:q"],
+        ["A2:q","E3:q","A3:q","E3:q"],
+        ["E2:q","B2:q","E3:q","B2:q"],
+        ["A2:q","E3:q","A3:q","E3:q"],
+        ["F2:q","C3:q","F3:q","C3:q"],
+        ["F2:q","C3:q","A3:q","C3:q"],
+        ["E2:q","B2:q","E3:q","B2:q"],
+        ["A2:h","A2:h"]
+      ]
+    },
+    {
+      "id": "m3e-020",
+      "slug": "level-3-mastery-capstone",
+      "title": "Level 3 Mastery Capstone",
+      "summary": "Grand finale piece drawing on all Level 3 keys and techniques — dynamics from forte to fortissimo, with blocked chord cadences.",
+      "goal": "Demonstrate complete fluency across all Level 3 material with full dynamic range and blocked chord cadences.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [
+        { "measure": 1, "marking": "f" },
+        { "measure": 5, "marking": "mf" },
+        { "measure": 9, "marking": "p" },
+        { "measure": 13, "marking": "ff" }
+      ],
+      "measures": [
+        ["C5:q","D5:q","E5:q","F5:q"],
+        ["G5:h","E5:h"],
+        ["F5:q","G5:q","A5:q","G5:q"],
+        ["F5:h","E5:h"],
+        ["D5:q","E5:q","F#5:q","G5:q"],
+        ["A5:h","G5:q","F#5:q"],
+        ["E5:q","D5:q","C5:q","B4:q"],
+        ["G4:h","G4:h"],
+        ["A4:e","B4:e","C5:e","D5:e","E5:e","F5:e","G#5:e","A5:e"],
+        ["A5:q","E5:q","C5:q","A4:q"],
+        ["Bb4:e","C5:e","D5:e","E5:e","F5:e","G5:e","A5:e","Bb5:e"],
+        ["F5:h","F5:h"],
+        ["C5:e","D5:e","E5:e","F5:e","G5:e","A5:e","B5:e","C5:e"],
+        ["E5:q","G5:q","C5:q","G5:q"],
+        ["F5:q","E5:q","D5:q","C5:q"],
+        ["C5:h","C5:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q","G3:q","E3:q","G3:q"],
+        ["G2:q","D3:q","G3:q","D3:q"],
+        ["F3:q","C4:q","A3:q","C4:q"],
+        ["[C3,E3,G3]:h","[G2,B2,D3]:h"],
+        ["G2:q","D3:q","G3:q","D3:q"],
+        ["D3:q","A3:q","F#3:q","A3:q"],
+        ["G3:q","D3:q","B3:q","D3:q"],
+        ["[G2,B2,D3]:w"],
+        ["A2:q","E3:q","A3:q","E3:q"],
+        ["A2:q","E3:q","C3:q","E3:q"],
+        ["Bb2:q","F3:q","D3:q","F3:q"],
+        ["[F2,A2,C3]:h","[F2,A2,C3]:h"],
+        ["C3:q","G3:q","E3:q","G3:q"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["G2:q","D3:q","B3:q","D3:q"],
+        ["[C3,E3,G3]:w"]
+      ]
+    }
+  ]
+}

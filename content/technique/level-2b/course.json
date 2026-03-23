@@ -1,0 +1,413 @@
+{
+  "courseId": "technique-level-2b",
+  "title": "Technique Level 2B — Expansion",
+  "level": 2,
+  "summary": "Eighth notes, quarter rests, Hanon-style patterns, and broken chord figures in G major and F major. Single-hand exercises building speed and fluency.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "t2b-001",
+      "slug": "g-major-rh-eighth-notes",
+      "title": "G Major RH Eighth Notes",
+      "summary": "Right hand G major five-finger exercise with continuous eighth notes.",
+      "goal": "Play even eighth notes ascending and descending through G major.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","C5:e","B4:e","A4:e"],
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","C5:e","B4:e","A4:e"],
+        ["D5:e","C5:e","B4:e","A4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["D5:h","G4:h"]
+      ]
+    },
+    {
+      "id": "t2b-002",
+      "slug": "g-major-rh-hanon",
+      "title": "G Major RH Hanon Pattern",
+      "summary": "Right hand Hanon-style G major exercise: G–A–B–C–D–C–B–A repeated.",
+      "goal": "Build even finger motion through the full G major five-finger pattern.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","C5:e","B4:e","A4:e"],
+        ["B4:e","A4:e","G4:e","A4:e","B4:e","C5:e","D5:e","C5:e"],
+        ["B4:e","C5:e","D5:e","C5:e","B4:e","A4:e","G4:e","A4:e"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "t2b-003",
+      "slug": "g-major-rh-broken-chord",
+      "title": "G Major RH Broken Chord",
+      "summary": "Right hand broken chord pattern on the G major triad: G–B–D.",
+      "goal": "Arpeggiate the G major triad smoothly within the five-finger position.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","B4:e","D5:e","B4:e","G4:e","B4:e","D5:e","B4:e"],
+        ["G4:e","B4:e","D5:e","B4:e","G4:e","B4:e","D5:e","B4:e"],
+        ["D5:e","B4:e","G4:e","B4:e","D5:e","B4:e","G4:e","A4:e"],
+        ["B4:h","G4:h"]
+      ]
+    },
+    {
+      "id": "t2b-004",
+      "slug": "g-major-rh-rests",
+      "title": "G Major RH with Quarter Rests",
+      "summary": "Right hand G major study mixing eighth notes, quarter notes, and quarter rests.",
+      "goal": "Maintain pulse through rests and cleanly re-enter on the beat.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:q","R:q","A4:q","B4:q"],
+        ["C5:q","R:q","D5:q","R:q"],
+        ["D5:q","C5:q","R:q","B4:q"],
+        ["A4:e","B4:e","C5:q","R:q","G4:q"],
+        ["B4:q","A4:q","G4:q","R:q"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "t2b-005",
+      "slug": "g-major-rh-extended",
+      "title": "G Major RH Extended Phrase",
+      "summary": "Eight-measure right hand G major melody in 3/4 with eighth-note flourishes.",
+      "goal": "Sustain a flowing G major phrase over eight measures.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:q","A4:q","B4:q"],
+        ["C5:e","B4:e","A4:q","G4:q"],
+        ["A4:e","B4:e","C5:q","B4:q"],
+        ["D5:h","R:q"],
+        ["D5:q","C5:q","B4:q"],
+        ["A4:e","B4:e","C5:q","D5:q"],
+        ["C5:q","B4:q","A4:q"],
+        ["G4:h","R:q"]
+      ]
+    },
+    {
+      "id": "t2b-006",
+      "slug": "g-major-lh-eighth-notes",
+      "title": "G Major LH Eighth Notes",
+      "summary": "Left hand G major five-finger exercise with continuous eighth notes.",
+      "goal": "Play even eighth notes through G major with the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G3:e","A3:e","B3:e","C4:e","D4:e","C4:e","B3:e","A3:e"],
+        ["G3:e","A3:e","B3:e","C4:e","D4:e","C4:e","B3:e","A3:e"],
+        ["D4:e","C4:e","B3:e","A3:e","G3:e","A3:e","B3:e","C4:e"],
+        ["D4:h","G3:h"]
+      ]
+    },
+    {
+      "id": "t2b-007",
+      "slug": "g-major-lh-hanon",
+      "title": "G Major LH Hanon Pattern",
+      "summary": "Left hand Hanon-style G major exercise: G–A–B–C–D–C–B–A repeated.",
+      "goal": "Build even left hand finger motion through the G major five-finger pattern.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G3:e","A3:e","B3:e","C4:e","D4:e","C4:e","B3:e","A3:e"],
+        ["B3:e","A3:e","G3:e","A3:e","B3:e","C4:e","D4:e","C4:e"],
+        ["B3:e","C4:e","D4:e","C4:e","B3:e","A3:e","G3:e","A3:e"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "t2b-008",
+      "slug": "g-major-lh-broken-chord",
+      "title": "G Major LH Broken Chord",
+      "summary": "Left hand broken chord pattern on the G major triad: G–B–D.",
+      "goal": "Arpeggiate the G major triad smoothly with the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G3:e","B3:e","D4:e","B3:e","G3:e","B3:e","D4:e","B3:e"],
+        ["G3:e","B3:e","D4:e","B3:e","G3:e","B3:e","D4:e","B3:e"],
+        ["D4:e","B3:e","G3:e","B3:e","D4:e","B3:e","G3:e","A3:e"],
+        ["B3:h","G3:h"]
+      ]
+    },
+    {
+      "id": "t2b-009",
+      "slug": "g-major-lh-rests",
+      "title": "G Major LH with Quarter Rests",
+      "summary": "Left hand G major study mixing eighth notes, quarter notes, and quarter rests.",
+      "goal": "Re-enter cleanly after rests and maintain a steady left hand pulse.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G3:q","R:q","A3:q","B3:q"],
+        ["C4:q","R:q","D4:q","R:q"],
+        ["D4:q","C4:q","R:q","B3:q"],
+        ["A3:e","B3:e","C4:q","R:q","G3:q"],
+        ["B3:q","A3:q","G3:q","R:q"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "t2b-010",
+      "slug": "g-major-lh-extended",
+      "title": "G Major LH Extended Phrase",
+      "summary": "Eight-measure left hand G major melody in 3/4 with eighth-note passages.",
+      "goal": "Build LH endurance and musical shape over an eight-measure G major phrase.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 88,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G3:q","A3:q","B3:q"],
+        ["C4:e","B3:e","A3:q","G3:q"],
+        ["A3:e","B3:e","C4:q","B3:q"],
+        ["D4:h","R:q"],
+        ["D4:q","C4:q","B3:q"],
+        ["A3:e","B3:e","C4:q","D4:q"],
+        ["C4:q","B3:q","A3:q"],
+        ["G3:h","R:q"]
+      ]
+    },
+    {
+      "id": "t2b-011",
+      "slug": "f-major-rh-eighth-notes",
+      "title": "F Major RH Eighth Notes",
+      "summary": "Right hand F major five-finger exercise with continuous eighth notes, including Bb.",
+      "goal": "Play even eighth notes through F major, landing on Bb4 cleanly at speed.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","Bb4:e","A4:e","G4:e"],
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","Bb4:e","A4:e","G4:e"],
+        ["C5:e","Bb4:e","A4:e","G4:e","F4:e","G4:e","A4:e","Bb4:e"],
+        ["C5:h","F4:h"]
+      ]
+    },
+    {
+      "id": "t2b-012",
+      "slug": "f-major-rh-hanon",
+      "title": "F Major RH Hanon Pattern",
+      "summary": "Right hand Hanon-style F major exercise: F–G–A–Bb–C–Bb–A–G repeated.",
+      "goal": "Build finger evenness through the F major five-finger pattern with Bb.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","Bb4:e","A4:e","G4:e"],
+        ["A4:e","G4:e","F4:e","G4:e","A4:e","Bb4:e","C5:e","Bb4:e"],
+        ["A4:e","Bb4:e","C5:e","Bb4:e","A4:e","G4:e","F4:e","G4:e"],
+        ["F4:w"]
+      ]
+    },
+    {
+      "id": "t2b-013",
+      "slug": "f-major-rh-broken-chord",
+      "title": "F Major RH Broken Chord",
+      "summary": "Right hand broken chord pattern on the F major triad: F–A–C.",
+      "goal": "Arpeggiate the F major triad smoothly, placing A4 and C5 accurately.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","A4:e","C5:e","A4:e","F4:e","A4:e","C5:e","A4:e"],
+        ["F4:e","A4:e","C5:e","A4:e","F4:e","A4:e","C5:e","A4:e"],
+        ["C5:e","A4:e","F4:e","A4:e","C5:e","A4:e","F4:e","G4:e"],
+        ["A4:h","F4:h"]
+      ]
+    },
+    {
+      "id": "t2b-014",
+      "slug": "f-major-rh-rests",
+      "title": "F Major RH with Quarter Rests",
+      "summary": "Right hand F major study mixing eighth notes, quarter notes, and rests.",
+      "goal": "Re-enter cleanly after rests and play Bb4 accurately at varied rhythms.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:q","R:q","G4:q","A4:q"],
+        ["Bb4:q","R:q","C5:q","R:q"],
+        ["C5:q","Bb4:q","R:q","A4:q"],
+        ["G4:e","A4:e","Bb4:q","R:q","F4:q"],
+        ["A4:q","G4:q","F4:q","R:q"],
+        ["F4:w"]
+      ]
+    },
+    {
+      "id": "t2b-015",
+      "slug": "f-major-rh-extended",
+      "title": "F Major RH Extended Phrase",
+      "summary": "Eight-measure right hand F major melody in 3/4 with Bb in musical context.",
+      "goal": "Play a flowing F major phrase with natural Bb placement over eight measures.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:q","G4:q","A4:q"],
+        ["Bb4:e","A4:e","G4:q","F4:q"],
+        ["G4:e","A4:e","Bb4:q","A4:q"],
+        ["C5:h","R:q"],
+        ["C5:q","Bb4:q","A4:q"],
+        ["G4:e","A4:e","Bb4:q","C5:q"],
+        ["Bb4:q","A4:q","G4:q"],
+        ["F4:h","R:q"]
+      ]
+    },
+    {
+      "id": "t2b-016",
+      "slug": "f-major-lh-eighth-notes",
+      "title": "F Major LH Eighth Notes",
+      "summary": "Left hand F major five-finger exercise with continuous eighth notes, including Bb.",
+      "goal": "Play even eighth notes through F major with the left hand, landing on Bb3 cleanly.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F3:e","G3:e","A3:e","Bb3:e","C4:e","Bb3:e","A3:e","G3:e"],
+        ["F3:e","G3:e","A3:e","Bb3:e","C4:e","Bb3:e","A3:e","G3:e"],
+        ["C4:e","Bb3:e","A3:e","G3:e","F3:e","G3:e","A3:e","Bb3:e"],
+        ["C4:h","F3:h"]
+      ]
+    },
+    {
+      "id": "t2b-017",
+      "slug": "f-major-lh-hanon",
+      "title": "F Major LH Hanon Pattern",
+      "summary": "Left hand Hanon-style F major exercise: F–G–A–Bb–C–Bb–A–G repeated.",
+      "goal": "Build LH finger evenness through the F major five-finger pattern with Bb.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F3:e","G3:e","A3:e","Bb3:e","C4:e","Bb3:e","A3:e","G3:e"],
+        ["A3:e","G3:e","F3:e","G3:e","A3:e","Bb3:e","C4:e","Bb3:e"],
+        ["A3:e","Bb3:e","C4:e","Bb3:e","A3:e","G3:e","F3:e","G3:e"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "t2b-018",
+      "slug": "f-major-lh-broken-chord",
+      "title": "F Major LH Broken Chord",
+      "summary": "Left hand broken chord pattern on the F major triad: F–A–C.",
+      "goal": "Arpeggiate the F major triad with the left hand, placing A3 and C4 accurately.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F3:e","A3:e","C4:e","A3:e","F3:e","A3:e","C4:e","A3:e"],
+        ["F3:e","A3:e","C4:e","A3:e","F3:e","A3:e","C4:e","A3:e"],
+        ["C4:e","A3:e","F3:e","A3:e","C4:e","A3:e","F3:e","G3:e"],
+        ["A3:h","F3:h"]
+      ]
+    },
+    {
+      "id": "t2b-019",
+      "slug": "f-major-lh-rests",
+      "title": "F Major LH with Quarter Rests",
+      "summary": "Left hand F major study with eighth notes, quarter notes, and quarter rests.",
+      "goal": "Play Bb3 accurately when it falls after a rest, maintaining steady pulse.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F3:q","R:q","G3:q","A3:q"],
+        ["Bb3:q","R:q","C4:q","R:q"],
+        ["C4:q","Bb3:q","R:q","A3:q"],
+        ["G3:e","A3:e","Bb3:q","R:q","F3:q"],
+        ["A3:q","G3:q","F3:q","R:q"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "t2b-020",
+      "slug": "f-major-lh-extended",
+      "title": "F Major LH Extended Phrase",
+      "summary": "Eight-measure left hand F major melody in 3/4 with flowing eighth-note passages.",
+      "goal": "Build LH phrasing over a long F major melody, placing Bb3 with confidence.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 88,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F3:q","G3:q","A3:q"],
+        ["Bb3:e","A3:e","G3:q","F3:q"],
+        ["G3:e","A3:e","Bb3:q","A3:q"],
+        ["C4:h","R:q"],
+        ["C4:q","Bb3:q","A3:q"],
+        ["G3:e","A3:e","Bb3:q","C4:q"],
+        ["Bb3:q","A3:q","G3:q"],
+        ["F3:h","R:q"]
+      ]
+    }
+  ]
+}

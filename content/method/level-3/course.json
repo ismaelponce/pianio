@@ -1,0 +1,288 @@
+{
+  "courseId": "method-level-3",
+  "title": "Method Level 3",
+  "level": 3,
+  "summary": "Full octave scales, F major, E minor, wider skips, and register contrast to bridge into intermediate reading.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "method3-001",
+      "slug": "c-scale-rh",
+      "title": "C Scale RH Full Octave",
+      "summary": "Right hand C major scale across a full octave.",
+      "goal": "Read and play all eight notes of C major evenly.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "F4:q"],
+        ["G4:q", "A4:q", "B4:q", "C5:q"],
+        ["C5:w"]
+      ]
+    },
+    {
+      "id": "method3-002",
+      "slug": "c-scale-lh",
+      "title": "C Scale LH Full Octave",
+      "summary": "Left hand C major scale across a full octave.",
+      "goal": "Read and play C major in bass clef over one octave.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 69,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "D3:q", "E3:q", "F3:q"],
+        ["G3:q", "A3:q", "B3:q", "C4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "method3-003",
+      "slug": "f-major-rh",
+      "title": "F Major RH",
+      "summary": "Right hand F major five-finger pattern with B-flat.",
+      "goal": "Play F major with an accurate B-flat.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "keySignature": -1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F4:q", "G4:q", "A4:q", "Bb4:q"],
+        ["C5:q", "Bb4:q", "A4:q", "G4:q"],
+        ["F4:w"]
+      ]
+    },
+    {
+      "id": "method3-004",
+      "slug": "f-major-lh",
+      "title": "F Major LH",
+      "summary": "Left hand F major five-finger pattern in bass clef.",
+      "goal": "Navigate F major with B-flat in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 63,
+      "timeSignature": [4, 4],
+      "keySignature": -1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F3:q", "G3:q", "A3:q", "Bb3:q"],
+        ["C4:q", "Bb3:q", "A3:q", "G3:q"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "method3-005",
+      "slug": "e-minor-rh",
+      "title": "E Minor RH",
+      "summary": "Right hand E natural minor five-finger pattern.",
+      "goal": "Recognize the minor sound through the E minor position.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 63,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["E4:q", "F#4:q", "G4:q", "A4:q"],
+        ["B4:q", "A4:q", "G4:q", "F#4:q"],
+        ["E4:w"]
+      ]
+    },
+    {
+      "id": "method3-006",
+      "slug": "sixth-skips-rh",
+      "title": "Sixth Skips RH",
+      "summary": "Right hand reading with leaps of a sixth.",
+      "goal": "Sight-read large skips without hesitation.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:h", "A4:h"],
+        ["D4:h", "B4:h"],
+        ["E4:h", "C5:h"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "method3-007",
+      "slug": "scale-run-eighth",
+      "title": "Scale Run in Eighths",
+      "summary": "Ascending and descending C major in continuous eighth notes.",
+      "goal": "Keep eighth notes even across a full octave run.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["C5:e", "B4:e", "A4:e", "G4:e", "F4:e", "E4:e", "D4:e", "C4:e"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "method3-008",
+      "slug": "waltz-in-f",
+      "title": "Waltz in F Major",
+      "summary": "A flowing waltz melody using the F major position.",
+      "goal": "Play F major in three-four time with a smooth phrase.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [3, 4],
+      "keySignature": -1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F4:q", "G4:q", "A4:q"],
+        ["Bb4:h", "A4:q"],
+        ["G4:q", "F4:q", "E4:q"],
+        ["F4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "method3-009",
+      "slug": "register-contrast",
+      "title": "Register Contrast",
+      "summary": "Alternating phrases in high and low registers.",
+      "goal": "Read quickly between octave registers.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C5:q", "G4:q", "E5:q", "G4:q"],
+        ["F4:q", "C5:q", "A4:q", "F4:q"],
+        ["G4:h", "E4:h"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "method3-010",
+      "slug": "broken-chord-melody",
+      "title": "Broken Chord Melody",
+      "summary": "A melody built from broken C and G major triads.",
+      "goal": "Connect broken chord notes into a smooth melodic line.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "E4:e", "G4:q", "C5:h"],
+        ["G4:e", "B4:e", "D5:q", "G4:h"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "method3-011",
+      "slug": "a-minor-melody",
+      "title": "A Minor Melody",
+      "summary": "An expressive melody in A natural minor.",
+      "goal": "Feel and play the natural minor colour across a phrase.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 63,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:q", "C5:q", "E5:q", "C5:q"],
+        ["B4:q", "D5:q", "C5:q", "A4:q"],
+        ["A4:w"]
+      ]
+    },
+    {
+      "id": "method3-012",
+      "slug": "mixed-rhythm-melody",
+      "title": "Mixed Rhythm Melody",
+      "summary": "A melody combining halves, quarters, and eighths freely.",
+      "goal": "Switch note lengths smoothly within a longer phrase.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 69,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["E4:e", "F4:e", "G4:q", "A4:h"],
+        ["G4:e", "F4:e", "E4:q", "D4:h"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "method3-013",
+      "slug": "bass-octave-melody",
+      "title": "Bass Octave Melody",
+      "summary": "Left hand melody spanning a full octave in bass clef.",
+      "goal": "Read a full octave passage fluently in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "E3:q", "G3:q", "B3:q"],
+        ["C4:q", "B3:q", "G3:q", "E3:q"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "method3-014",
+      "slug": "level-three-review",
+      "title": "Level Three Review",
+      "summary": "A phrase drawing on F major, skips, and octave range.",
+      "goal": "Apply Level 3 skills: flat key, wide skips, and eighth runs.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "keySignature": -1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F4:q", "A4:q", "C5:q", "A4:q"],
+        ["Bb4:e", "A4:e", "G4:q", "F4:h"],
+        ["C5:h", "F4:h"],
+        ["F4:w"]
+      ]
+    },
+    {
+      "id": "method3-015",
+      "slug": "level-three-finale",
+      "title": "Level Three Finale",
+      "summary": "A complete melody combining C major, A minor, and F major colours.",
+      "goal": "Demonstrate fluent reading across three key areas.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["E4:q", "F4:q", "G4:q", "A4:q"],
+        ["G4:h", "F4:h"],
+        ["E4:q", "D4:q", "C4:q", "D4:q"],
+        ["C4:w"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3385 @@
+{
+  "courseId": "method-level-4e",
+  "title": "Method Level 4E — Mastery",
+  "level": 4,
+  "summary": "Velocity études, perpetual-motion studies, and 8–16 measure grand-staff pieces across all five Level 4 keys at faster tempos.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "m4e-001",
+      "slug": "d-major-velocity-study",
+      "title": "D Major Velocity Study",
+      "summary": "Eight-measure velocity étude in D major with continuous RH eighth-note scale runs.",
+      "goal": "Execute D major scale passages at speed with accurate F# and C# throughout.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 96,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        },
+        {
+          "measure": 5,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "D4:e",
+          "E4:e",
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e"
+        ],
+        [
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e"
+        ],
+        [
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e"
+        ],
+        [
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "A4:e",
+          "G4:e"
+        ],
+        [
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e"
+        ],
+        [
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e"
+        ],
+        [
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "A4:e",
+          "G4:e"
+        ],
+        [
+          "F#4:q",
+          "D4:h",
+          "F#4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:q",
+          "D3:q",
+          "G3:q",
+          "D3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-002",
+      "slug": "d-major-grande-etude",
+      "title": "D Major Grande Étude",
+      "summary": "Twelve-measure étude in D major alternating singing melody with eighth-note scale passages.",
+      "goal": "Contrast lyrical and running passages in D major across twelve measures.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 88,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 7,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:q",
+          "G5:q",
+          "A5:q"
+        ],
+        [
+          "B4:h",
+          "A4:h"
+        ],
+        [
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e"
+        ],
+        [
+          "F#5:h",
+          "E5:h"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e"
+        ],
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:h"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:q",
+          "C#5:q"
+        ],
+        [
+          "D5:h",
+          "D5:h"
+        ],
+        [
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "B4:q",
+          "C#5:q",
+          "D5:h"
+        ],
+        [
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e"
+        ],
+        [
+          "D5:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "A3:h",
+          "E3:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "G3:q",
+          "D3:q",
+          "G3:q",
+          "D3:q"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-003",
+      "slug": "d-major-perpetual-motion",
+      "title": "D Major Perpetual Motion",
+      "summary": "Eight-measure perpetual-motion study in D major with unbroken RH eighth-note flow.",
+      "goal": "Sustain unbroken eighth-note motion in D major for eight full measures.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 92,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        },
+        {
+          "measure": 5,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "D4:e",
+          "E4:e",
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "G4:e",
+          "F#4:e",
+          "E4:e"
+        ],
+        [
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e"
+        ],
+        [
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "A4:e",
+          "G4:e"
+        ],
+        [
+          "F#4:e",
+          "A4:e",
+          "D5:e",
+          "A4:e",
+          "F#4:e",
+          "A4:e",
+          "D5:e",
+          "A4:e"
+        ],
+        [
+          "E4:e",
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "A4:e",
+          "G4:e",
+          "F#4:e"
+        ],
+        [
+          "E4:e",
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e"
+        ],
+        [
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "D5:q",
+          "B4:q",
+          "D5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "G3:q",
+          "D3:q",
+          "G3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-004",
+      "slug": "a-major-speed-study",
+      "title": "A Major Speed Study",
+      "summary": "Eight-measure speed study in A major with RH running through the full octave.",
+      "goal": "Play A major scale runs at high speed with F#, C#, G# precise throughout.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 96,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        },
+        {
+          "measure": 5,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G#5:e",
+          "A5:e"
+        ],
+        [
+          "B5:e",
+          "A5:e",
+          "G#5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e"
+        ],
+        [
+          "A4:e",
+          "C#5:e",
+          "E5:e",
+          "A5:e",
+          "E5:e",
+          "C#5:e",
+          "A4:e",
+          "E4:e"
+        ],
+        [
+          "D4:e",
+          "E4:e",
+          "F#4:e",
+          "G#4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e"
+        ],
+        [
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "A4:e",
+          "G#4:e",
+          "F#4:e",
+          "E4:e"
+        ],
+        [
+          "F#4:e",
+          "G#4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e"
+        ],
+        [
+          "G#5:e",
+          "A5:e",
+          "G#5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e"
+        ],
+        [
+          "A4:q",
+          "E4:h",
+          "A4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "A2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-005",
+      "slug": "a-major-scherzo",
+      "title": "A Major Scherzo",
+      "summary": "Twelve-measure playful scherzo in A major, 3/4 time, with lively eighth-note passages.",
+      "goal": "Project a quick, witty scherzo character in A major with crisp articulation.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 88,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 7,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "A4:q",
+          "C#5:q",
+          "E5:q"
+        ],
+        [
+          "F#5:h",
+          "E5:q"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:q",
+          "G#5:q"
+        ],
+        [
+          "A5:h",
+          "A5:q"
+        ],
+        [
+          "G#5:q",
+          "F#5:q",
+          "E5:q"
+        ],
+        [
+          "D5:h",
+          "C#5:q"
+        ],
+        [
+          "B4:e",
+          "C#5:e",
+          "D5:q",
+          "E5:q"
+        ],
+        [
+          "F#5:h",
+          "E5:q"
+        ],
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:q"
+        ],
+        [
+          "A4:h",
+          "G#4:q"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:q"
+        ],
+        [
+          "A4:h",
+          "A4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A2:q",
+          "E3:q",
+          "C#3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "C#3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "C#3:q"
+        ],
+        [
+          "A2:h",
+          "A2:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q"
+        ],
+        [
+          "A2:h",
+          "A2:q"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-006",
+      "slug": "a-major-grande-piece",
+      "title": "A Major Grande Pièce",
+      "summary": "Twelve-measure grand piece in A major combining lyrical phrases with ascending scale climaxes.",
+      "goal": "Shape a full musical arc in A major over twelve measures with both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 84,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 7,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "A4:q",
+          "B4:q",
+          "C#5:q",
+          "D5:q"
+        ],
+        [
+          "E5:h",
+          "D5:h"
+        ],
+        [
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G#5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e"
+        ],
+        [
+          "A5:h",
+          "E5:h"
+        ],
+        [
+          "F#5:q",
+          "E5:q",
+          "D5:q",
+          "C#5:q"
+        ],
+        [
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:h"
+        ],
+        [
+          "G#5:e",
+          "A5:e",
+          "G#5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e"
+        ],
+        [
+          "A4:h",
+          "A4:h"
+        ],
+        [
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "E5:q",
+          "D5:q"
+        ],
+        [
+          "C#5:h",
+          "B4:h"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:q",
+          "F#5:q"
+        ],
+        [
+          "A4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "A2:h",
+          "A2:h"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "A3:q",
+          "F#3:q",
+          "E3:q",
+          "C#3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "A2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-007",
+      "slug": "bb-major-etude-de-vitesse",
+      "title": "Bb Major Étude de Vitesse",
+      "summary": "Eight-measure speed étude in Bb major with RH running the full octave plus.",
+      "goal": "Execute Bb major scale passages at speed with Bb and Eb consistently accurate.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 88,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "A5:e",
+          "Bb5:e"
+        ],
+        [
+          "A5:e",
+          "Bb5:e",
+          "A5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e"
+        ],
+        [
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e"
+        ],
+        [
+          "Bb4:q",
+          "F5:q",
+          "D5:h"
+        ],
+        [
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "A4:e",
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "A5:e"
+        ],
+        [
+          "Bb5:e",
+          "A5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Bb4:q",
+          "D5:h",
+          "Bb4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "C3:q",
+          "G3:q",
+          "Eb3:q",
+          "C3:q"
+        ],
+        [
+          "F3:q",
+          "C4:q",
+          "A3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-008",
+      "slug": "bb-major-rondo",
+      "title": "Bb Major Rondo",
+      "summary": "Twelve-measure rondo in Bb major with a recurring theme and contrasting episodes.",
+      "goal": "Navigate a rondo structure in Bb major with precise returns to the main theme.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 84,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 7,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "D5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:h",
+          "Eb5:h"
+        ],
+        [
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e"
+        ],
+        [
+          "Bb4:h",
+          "Bb4:h"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:q",
+          "A4:q",
+          "Bb4:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:q",
+          "C5:q",
+          "D5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:h",
+          "Eb5:h"
+        ],
+        [
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "A5:e",
+          "Bb5:e",
+          "A5:e",
+          "G5:e",
+          "F5:e"
+        ],
+        [
+          "Eb5:q",
+          "D5:q",
+          "C5:h"
+        ],
+        [
+          "R:e",
+          "Bb4:e",
+          "Eb5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "F3:q",
+          "A3:q",
+          "C4:q",
+          "A3:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb3:q"
+        ],
+        [
+          "F3:q",
+          "C4:q",
+          "A3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "C3:q",
+          "G3:q",
+          "Eb3:q",
+          "Bb2:q"
+        ],
+        [
+          "F3:q",
+          "C4:q",
+          "A3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-009",
+      "slug": "eb-major-velocity-study",
+      "title": "Eb Major Velocity Study",
+      "summary": "Eight-measure velocity study in Eb major with continuous RH eighth-note runs.",
+      "goal": "Execute Eb major passages at speed with Eb, Ab, and Bb accurate throughout.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 92,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        },
+        {
+          "measure": 5,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "Eb4:e",
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e"
+        ],
+        [
+          "Eb4:e",
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:e"
+        ],
+        [
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e"
+        ],
+        [
+          "Eb4:q",
+          "Bb4:q",
+          "G4:h"
+        ],
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e"
+        ],
+        [
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e"
+        ],
+        [
+          "Eb4:q",
+          "G4:h",
+          "Eb4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Eb3:q",
+          "Bb3:q",
+          "G3:q",
+          "Eb3:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb3:q"
+        ],
+        [
+          "Ab3:q",
+          "Eb3:q",
+          "Ab3:q",
+          "Eb3:q"
+        ],
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "Ab3:q",
+          "Eb3:q",
+          "Ab3:q",
+          "Eb3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb3:q"
+        ],
+        [
+          "Eb3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-010",
+      "slug": "eb-major-grande-etude",
+      "title": "Eb Major Grande Étude",
+      "summary": "Twelve-measure étude in Eb major with broad melodic arcs and flowing eighth-note passages.",
+      "goal": "Balance singing melody and scale runs in Eb major over twelve measures.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 84,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 7,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Eb5:h",
+          "Bb4:h"
+        ],
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:q",
+          "D5:q"
+        ],
+        [
+          "C5:e",
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e",
+          "Bb5:e",
+          "Ab5:e"
+        ],
+        [
+          "G5:h",
+          "F5:h"
+        ],
+        [
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:h",
+          "G4:h"
+        ],
+        [
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "Eb5:q",
+          "Bb4:q"
+        ],
+        [
+          "Ab4:h",
+          "G4:h"
+        ],
+        [
+          "F4:q",
+          "G4:q",
+          "Ab4:q",
+          "Bb4:q"
+        ],
+        [
+          "Eb5:e",
+          "D5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e",
+          "Eb4:e"
+        ],
+        [
+          "R:e",
+          "Eb5:e",
+          "D5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "Eb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Eb3:h",
+          "Bb3:h"
+        ],
+        [
+          "Ab3:q",
+          "Eb3:q",
+          "Ab3:q",
+          "Eb3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "Eb3:h",
+          "Bb3:h"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb3:q"
+        ],
+        [
+          "Ab3:h",
+          "Eb3:h"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "Ab3:q",
+          "Eb3:q",
+          "Ab3:q",
+          "Eb3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb3:q"
+        ],
+        [
+          "Ab3:q",
+          "Eb3:q",
+          "Ab3:q",
+          "Bb3:q"
+        ],
+        [
+          "Eb3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-011",
+      "slug": "ab-major-speed-study",
+      "title": "Ab Major Speed Study",
+      "summary": "Eight-measure speed study in Ab major with RH running through all four flats at tempo.",
+      "goal": "Execute Ab major passages at speed with Bb, Eb, Ab, Db all consistently placed.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 88,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e"
+        ],
+        [
+          "G5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:q",
+          "Eb5:q",
+          "C5:h"
+        ],
+        [
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e"
+        ],
+        [
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e"
+        ],
+        [
+          "Ab5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e"
+        ],
+        [
+          "Ab4:q",
+          "C5:h",
+          "Ab4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "C3:q",
+          "Ab2:q"
+        ],
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "Ab3:q",
+          "Eb3:q"
+        ],
+        [
+          "Db3:h",
+          "Ab2:h"
+        ],
+        [
+          "Ab2:h",
+          "Eb3:h"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb2:q"
+        ],
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "C3:q",
+          "Ab2:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb2:q"
+        ],
+        [
+          "Ab2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-012",
+      "slug": "ab-major-grand-piece",
+      "title": "Ab Major Grand Piece",
+      "summary": "Twelve-measure grand piece in Ab major with flowing passages and expressive melody.",
+      "goal": "Perform a complete musical arc in Ab major maintaining four-flat accuracy at tempo.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 7,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Db5:q"
+        ],
+        [
+          "Eb5:h",
+          "Db5:h"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e"
+        ],
+        [
+          "Eb5:h",
+          "Db5:h"
+        ],
+        [
+          "C5:q",
+          "Db5:q",
+          "Eb5:q",
+          "Ab4:q"
+        ],
+        [
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e"
+        ],
+        [
+          "C5:h",
+          "Db5:h"
+        ],
+        [
+          "Eb5:q",
+          "F5:q",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e"
+        ],
+        [
+          "Eb5:h",
+          "Ab4:h"
+        ],
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:q",
+          "C5:q"
+        ],
+        [
+          "Ab4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "C3:q",
+          "Ab2:q"
+        ],
+        [
+          "Eb3:h",
+          "Ab2:h"
+        ],
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "Ab3:q",
+          "Eb3:q"
+        ],
+        [
+          "Eb3:h",
+          "Ab2:h"
+        ],
+        [
+          "Ab3:q",
+          "Eb3:q",
+          "Db3:q",
+          "Ab2:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb2:q"
+        ],
+        [
+          "Ab2:q",
+          "C3:q",
+          "Eb3:q",
+          "C3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Db3:q",
+          "Bb2:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Ab2:q"
+        ],
+        [
+          "Eb3:h",
+          "Ab2:h"
+        ],
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "C3:q",
+          "Ab2:q"
+        ],
+        [
+          "Ab2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-013",
+      "slug": "d-major-cross-octave-study",
+      "title": "D Major Cross-Octave Study",
+      "summary": "Ten-measure D major study spanning wide melodic leaps and cross-octave scale passages.",
+      "goal": "Navigate D major across two octaves with confident leaps and smooth scale runs.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 88,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 6,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D4:q",
+          "F#4:q",
+          "A4:q",
+          "D5:q"
+        ],
+        [
+          "F#5:q",
+          "A5:q",
+          "F#5:q",
+          "D5:q"
+        ],
+        [
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e"
+        ],
+        [
+          "G5:q",
+          "F#5:q",
+          "E5:h"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "F#5:q",
+          "E5:q"
+        ],
+        [
+          "D5:h",
+          "A4:h"
+        ],
+        [
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e"
+        ],
+        [
+          "A5:h",
+          "G5:h"
+        ],
+        [
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "D5:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "G3:h",
+          "D3:h"
+        ],
+        [
+          "G3:q",
+          "D3:q",
+          "G3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-014",
+      "slug": "sharp-keys-mastery",
+      "title": "Sharp Keys Mastery",
+      "summary": "Twelve-measure D major piece drawing on A major harmony to explore the circle of fifths.",
+      "goal": "Demonstrate mastery of the sharp-key sound world across a twelve-measure musical arc.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 88,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 7,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:q",
+          "G5:q",
+          "A5:q"
+        ],
+        [
+          "B4:h",
+          "A4:h"
+        ],
+        [
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "D5:h",
+          "D5:h"
+        ],
+        [
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e"
+        ],
+        [
+          "E5:h",
+          "D5:h"
+        ],
+        [
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e"
+        ],
+        [
+          "C#5:h",
+          "D5:h"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e"
+        ],
+        [
+          "A4:q",
+          "B4:q",
+          "C#5:h"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:q",
+          "B5:q"
+        ],
+        [
+          "D5:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-015",
+      "slug": "flat-keys-mastery",
+      "title": "Flat Keys Mastery",
+      "summary": "Twelve-measure Bb major piece with eighth-note fluency exploring the flat-key harmonic world.",
+      "goal": "Demonstrate mastery of the flat-key sound world across a twelve-measure musical arc.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 84,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 7,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:e",
+          "C5:e",
+          "D5:q",
+          "Eb5:q",
+          "F5:q"
+        ],
+        [
+          "G5:h",
+          "F5:h"
+        ],
+        [
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "A5:e",
+          "Bb5:e",
+          "A5:e",
+          "G5:e",
+          "F5:e"
+        ],
+        [
+          "Eb5:h",
+          "D5:h"
+        ],
+        [
+          "C5:e",
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e"
+        ],
+        [
+          "C5:h",
+          "Bb4:h"
+        ],
+        [
+          "R:e",
+          "Bb4:e",
+          "Eb5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:h",
+          "Bb4:h"
+        ],
+        [
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "A5:e",
+          "Bb5:e",
+          "A5:e",
+          "G5:e"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "D5:h"
+        ],
+        [
+          "C5:e",
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:q",
+          "F5:q"
+        ],
+        [
+          "Bb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "C3:q",
+          "G3:q",
+          "Eb3:q",
+          "Bb2:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "F3:q",
+          "C4:q",
+          "A3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb3:q"
+        ],
+        [
+          "F3:q",
+          "A3:q",
+          "C4:q",
+          "A3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "C3:q",
+          "G3:q",
+          "Eb3:q",
+          "Bb2:q"
+        ],
+        [
+          "F3:q",
+          "C4:q",
+          "A3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-016",
+      "slug": "ab-major-capstone-etude",
+      "title": "Ab Major Capstone Étude",
+      "summary": "Ten-measure capstone étude in Ab major with flowing eighth-note passages and lyrical climax.",
+      "goal": "Demonstrate complete Ab major fluency across ten measures at a fluent tempo.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 84,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 6,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e"
+        ],
+        [
+          "Ab5:q",
+          "Eb5:q",
+          "C5:h"
+        ],
+        [
+          "G5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:h",
+          "Ab4:h"
+        ],
+        [
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:q",
+          "C5:q"
+        ],
+        [
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e"
+        ],
+        [
+          "Db5:h",
+          "C5:h"
+        ],
+        [
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "C5:q",
+          "Eb5:q"
+        ],
+        [
+          "Ab4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "Ab3:q",
+          "Eb3:q"
+        ],
+        [
+          "Ab2:q",
+          "C3:q",
+          "Eb3:q",
+          "C3:q"
+        ],
+        [
+          "Db3:h",
+          "Ab2:h"
+        ],
+        [
+          "Ab2:h",
+          "Eb3:h"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb2:q"
+        ],
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "C3:q",
+          "Ab2:q"
+        ],
+        [
+          "Db3:q",
+          "Ab2:q",
+          "Db3:q",
+          "Ab2:q"
+        ],
+        [
+          "Eb3:h",
+          "Ab2:h"
+        ],
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "C3:q",
+          "Ab2:q"
+        ],
+        [
+          "Ab2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-017",
+      "slug": "d-major-brilliant-etude",
+      "title": "D Major Brilliant Étude",
+      "summary": "Ten-measure brilliant étude in D major at the fastest L4 tempo with wide-range runs.",
+      "goal": "Execute continuous D major passages with brilliance and precision across ten measures.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 96,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        },
+        {
+          "measure": 6,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "D4:e",
+          "E4:e",
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e"
+        ],
+        [
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e"
+        ],
+        [
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e"
+        ],
+        [
+          "A4:q",
+          "D5:h",
+          "A4:q"
+        ],
+        [
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e"
+        ],
+        [
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "A4:e",
+          "G4:e"
+        ],
+        [
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e"
+        ],
+        [
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e"
+        ],
+        [
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "A4:e",
+          "G4:e"
+        ],
+        [
+          "F#4:q",
+          "D4:h",
+          "D4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:q",
+          "D3:q",
+          "G3:q",
+          "D3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:h",
+          "D3:h"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "G3:q",
+          "D3:q",
+          "G3:q",
+          "D3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:h",
+          "D3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-018",
+      "slug": "a-major-mastery-piece",
+      "title": "A Major Mastery Piece",
+      "summary": "Twelve-measure mastery piece in A major reaching the full upper register.",
+      "goal": "Demonstrate full A major fluency with three-sharp accuracy across twelve measures.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 88,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 7,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "A4:q",
+          "B4:q",
+          "C#5:q",
+          "D5:q"
+        ],
+        [
+          "E5:h",
+          "D5:h"
+        ],
+        [
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G#5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e"
+        ],
+        [
+          "G#5:q",
+          "A5:q",
+          "G#5:q",
+          "F#5:q"
+        ],
+        [
+          "E5:e",
+          "F#5:e",
+          "G#5:e",
+          "A5:e",
+          "G#5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e"
+        ],
+        [
+          "C#5:h",
+          "B4:h"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:q",
+          "F#5:q"
+        ],
+        [
+          "G#5:h",
+          "A5:h"
+        ],
+        [
+          "F#5:e",
+          "G#5:e",
+          "A5:e",
+          "G#5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "B4:q",
+          "C#5:q",
+          "D5:h"
+        ],
+        [
+          "E5:e",
+          "F#5:e",
+          "G#5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G#5:e",
+          "F#5:e"
+        ],
+        [
+          "A4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "A3:q",
+          "F#3:q",
+          "E3:q",
+          "C#3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "A2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-019",
+      "slug": "bb-major-final-study",
+      "title": "Bb Major Final Study",
+      "summary": "Twelve-measure final study in Bb major with syncopation, eighth-note runs, and a broad climax.",
+      "goal": "Integrate all L4E Bb major techniques in a complete twelve-measure musical statement.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 88,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 7,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:e",
+          "C5:e",
+          "D5:q",
+          "Eb5:q",
+          "F5:q"
+        ],
+        [
+          "G5:h",
+          "F5:h"
+        ],
+        [
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "A5:e",
+          "Bb5:e",
+          "A5:e",
+          "G5:e",
+          "F5:e"
+        ],
+        [
+          "Eb5:q",
+          "D5:q",
+          "C5:h"
+        ],
+        [
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "A5:e",
+          "Bb5:e"
+        ],
+        [
+          "A5:q",
+          "Bb5:q",
+          "A5:q",
+          "G5:q"
+        ],
+        [
+          "F5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e"
+        ],
+        [
+          "Bb4:h",
+          "D5:h"
+        ],
+        [
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "A4:q",
+          "Bb4:q",
+          "C5:h"
+        ],
+        [
+          "R:e",
+          "Bb4:e",
+          "Eb5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "C3:q",
+          "G3:q",
+          "Eb3:q",
+          "Bb2:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "C3:q",
+          "G3:q",
+          "Eb3:q",
+          "Bb2:q"
+        ],
+        [
+          "F3:q",
+          "C4:q",
+          "A3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb3:q"
+        ],
+        [
+          "F3:q",
+          "A3:q",
+          "C4:q",
+          "A3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4e-020",
+      "slug": "l4e-grand-mastery-capstone",
+      "title": "L4E Grand Mastery Capstone",
+      "summary": "Sixteen-measure capstone in D major showcasing the full range of Level 4E mastery techniques.",
+      "goal": "Demonstrate complete Level 4 fluency across sixteen measures with both hands at full tempo.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 88,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 9,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:q",
+          "G5:q",
+          "A5:q"
+        ],
+        [
+          "B4:h",
+          "A4:h"
+        ],
+        [
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e"
+        ],
+        [
+          "F#5:h",
+          "E5:h"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e"
+        ],
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:h"
+        ],
+        [
+          "R:e",
+          "A5:e",
+          "G5:q",
+          "F#5:q",
+          "E5:q"
+        ],
+        [
+          "D5:h",
+          "D5:h"
+        ],
+        [
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e"
+        ],
+        [
+          "E5:h",
+          "D5:h"
+        ],
+        [
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e"
+        ],
+        [
+          "C#5:h",
+          "D5:h"
+        ],
+        [
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e"
+        ],
+        [
+          "D5:q",
+          "E5:q",
+          "F#5:h"
+        ],
+        [
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e"
+        ],
+        [
+          "D5:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "A3:h",
+          "E3:h"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    }
+  ]
+}

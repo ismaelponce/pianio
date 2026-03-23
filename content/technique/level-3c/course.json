@@ -1,0 +1,457 @@
+{
+  "courseId": "technique-level-3c",
+  "title": "Technique Level 3C — Combination",
+  "level": 3,
+  "summary": "Hands-together scales at 80+ BPM, chord inversions in C major, arpeggio patterns ascending and descending, contrary motion scales, and combined scale-arpeggio-chord exercises.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "t3c-001",
+      "slug": "c-major-ht-80bpm",
+      "title": "C Major — Hands Together at 80 BPM",
+      "summary": "C major scale hands together at performance tempo.",
+      "goal": "Play C major hands together smoothly at 80 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["D5:e","E5:e","F5:e","G5:e","G5:e","F5:e","E5:e","D5:e"],
+        ["C5:e","B4:e","A4:e","G4:e","F4:e","E4:e","D4:e","C4:e"],
+        ["C4:q","E4:q","G4:q","C5:q"]
+      ],
+      "measuresLeft": [
+        ["C3:e","D3:e","E3:e","F3:e","G3:e","A3:e","B3:e","C4:e"],
+        ["D4:e","E4:e","F4:e","G4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["C4:e","B3:e","A3:e","G3:e","F3:e","E3:e","D3:e","C3:e"],
+        ["C3:q","E3:q","G3:q","C4:q"]
+      ]
+    },
+    {
+      "id": "t3c-002",
+      "slug": "g-major-ht-80bpm",
+      "title": "G Major — Hands Together at 80 BPM",
+      "summary": "G major scale hands together at performance tempo.",
+      "goal": "Play G major hands together smoothly at 80 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","E5:e","F#5:e","G5:e"],
+        ["G5:e","F#5:e","E5:e","D5:e","C5:e","B4:e","A4:e","G4:e"],
+        ["G4:e","A4:e","B4:e","C5:e","D5:q","B4:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G2:e","A2:e","B2:e","C3:e","D3:e","E3:e","F#3:e","G3:e"],
+        ["G3:e","F#3:e","E3:e","D3:e","C3:e","B2:e","A2:e","G2:e"],
+        ["G2:e","A2:e","B2:e","C3:e","D3:q","B2:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "t3c-003",
+      "slug": "f-major-ht-80bpm",
+      "title": "F Major — Hands Together at 80 BPM",
+      "summary": "F major scale hands together at performance tempo.",
+      "goal": "Play F major hands together smoothly at 80 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","D5:e","E5:e","F5:e"],
+        ["F5:e","E5:e","D5:e","C5:e","Bb4:e","A4:e","G4:e","F4:e"],
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:q","A4:q"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["F2:e","G2:e","A2:e","Bb2:e","C3:e","D3:e","E3:e","F3:e"],
+        ["F3:e","E3:e","D3:e","C3:e","Bb2:e","A2:e","G2:e","F2:e"],
+        ["F2:e","G2:e","A2:e","Bb2:e","C3:q","A2:q"],
+        ["F2:w"]
+      ]
+    },
+    {
+      "id": "t3c-004",
+      "slug": "a-minor-ht-80bpm",
+      "title": "A Harmonic Minor — Hands Together at 80 BPM",
+      "summary": "A harmonic minor scale hands together at performance tempo.",
+      "goal": "Play A harmonic minor hands together smoothly at 80 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["A4:e","B4:e","C5:e","D5:e","E5:e","F5:e","G#5:e","A5:e"],
+        ["A5:e","G#5:e","F5:e","E5:e","D5:e","C5:e","B4:e","A4:e"],
+        ["A4:e","B4:e","C5:e","D5:e","E5:q","C5:q"],
+        ["A4:w"]
+      ],
+      "measuresLeft": [
+        ["A2:e","B2:e","C3:e","D3:e","E3:e","F3:e","G#3:e","A3:e"],
+        ["A3:e","G#3:e","F3:e","E3:e","D3:e","C3:e","B2:e","A2:e"],
+        ["A2:e","B2:e","C3:e","D3:e","E3:q","C3:q"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "t3c-005",
+      "slug": "d-minor-ht-80bpm",
+      "title": "D Harmonic Minor — Hands Together at 80 BPM",
+      "summary": "D harmonic minor scale hands together at performance tempo.",
+      "goal": "Play D harmonic minor hands together smoothly at 80 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["D4:e","E4:e","F4:e","G4:e","A4:e","Bb4:e","C#5:e","D5:e"],
+        ["D5:e","C#5:e","Bb4:e","A4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["D4:e","E4:e","F4:e","G4:e","A4:q","F4:q"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e","E3:e","F3:e","G3:e","A3:e","Bb3:e","C#4:e","D4:e"],
+        ["D4:e","C#4:e","Bb3:e","A3:e","G3:e","F3:e","E3:e","D3:e"],
+        ["D3:e","E3:e","F3:e","G3:e","A3:q","F3:q"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "t3c-006",
+      "slug": "c-major-root-position",
+      "title": "C Major Chord — Root Position",
+      "summary": "C major chord in root position (C-E-G) with varied rhythms.",
+      "goal": "Play C major root position chords with even balance.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,E4,G4]:q","[C4,E4,G4]:q","[C4,E4,G4]:h"],
+        ["[C4,E4,G4]:q","R:q","[C4,E4,G4]:q","R:q"],
+        ["[C4,E4,G4]:w"]
+      ]
+    },
+    {
+      "id": "t3c-007",
+      "slug": "c-major-first-inversion",
+      "title": "C Major Chord — First Inversion",
+      "summary": "C major chord in first inversion (E-G-C).",
+      "goal": "Play C major first inversion chords with even balance.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["[E4,G4,C5]:h","[E4,G4,C5]:h"],
+        ["[E4,G4,C5]:q","[E4,G4,C5]:q","[E4,G4,C5]:h"],
+        ["[E4,G4,C5]:q","R:q","[E4,G4,C5]:q","R:q"],
+        ["[E4,G4,C5]:w"]
+      ]
+    },
+    {
+      "id": "t3c-008",
+      "slug": "c-major-second-inversion",
+      "title": "C Major Chord — Second Inversion",
+      "summary": "C major chord in second inversion (G-C-E).",
+      "goal": "Play C major second inversion chords with even balance.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["[G4,C5,E5]:h","[G4,C5,E5]:h"],
+        ["[G4,C5,E5]:q","[G4,C5,E5]:q","[G4,C5,E5]:h"],
+        ["[G4,C5,E5]:q","R:q","[G4,C5,E5]:q","R:q"],
+        ["[G4,C5,E5]:w"]
+      ]
+    },
+    {
+      "id": "t3c-009",
+      "slug": "c-major-inversion-cycle",
+      "title": "C Major Inversions — Full Cycle",
+      "summary": "Cycle through all three inversions of C major chord.",
+      "goal": "Transition smoothly between root position, 1st, and 2nd inversion.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["[C4,E4,G4]:h","[E4,G4,C5]:h"],
+        ["[G4,C5,E5]:h","[C4,E4,G4]:h"],
+        ["[C4,E4,G4]:q","[E4,G4,C5]:q","[G4,C5,E5]:q","[C4,E4,G4]:q"],
+        ["[E4,G4,C5]:h","[C4,E4,G4]:h"]
+      ]
+    },
+    {
+      "id": "t3c-010",
+      "slug": "c-major-inversion-cycle-lh",
+      "title": "C Major Inversions — LH Cycle",
+      "summary": "Left hand cycles through all C major inversions.",
+      "goal": "Build left hand chord inversion fluency in C major.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["[C3,E3,G3]:h","[E3,G3,C4]:h"],
+        ["[G3,C4,E4]:h","[C3,E3,G3]:h"],
+        ["[C3,E3,G3]:q","[E3,G3,C4]:q","[G3,C4,E4]:q","[C3,E3,G3]:q"],
+        ["[E3,G3,C4]:h","[C3,E3,G3]:h"]
+      ]
+    },
+    {
+      "id": "t3c-011",
+      "slug": "arpeggio-c-ascending-descending",
+      "title": "Arpeggio Patterns — C Major",
+      "summary": "C major arpeggios ascending and descending in varied patterns.",
+      "goal": "Play C major arpeggios with fluid motion in both directions.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","E4:e","G4:e","C5:e","E5:e","G5:e","E5:e","C5:e"],
+        ["G4:e","E4:e","C4:e","E4:e","G4:e","C5:e","E5:e","G5:e"],
+        ["G5:e","E5:e","C5:e","G4:e","E4:e","C4:e","E4:e","G4:e"],
+        ["C5:q","E5:q","C5:q","C4:q"]
+      ]
+    },
+    {
+      "id": "t3c-012",
+      "slug": "arpeggio-g-ascending-descending",
+      "title": "Arpeggio Patterns — G Major",
+      "summary": "G major arpeggios ascending and descending in varied patterns.",
+      "goal": "Play G major arpeggios with fluid motion in both directions.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","B4:e","D5:e","G5:e","D5:e","B4:e","G4:e","B4:e"],
+        ["D5:e","G5:e","D5:e","B4:e","G4:e","B4:e","D5:e","G5:e"],
+        ["G5:e","D5:e","B4:e","G4:e","B4:e","D5:e","G5:e","D5:e"],
+        ["B4:q","G5:q","B4:q","G4:q"]
+      ]
+    },
+    {
+      "id": "t3c-013",
+      "slug": "arpeggio-f-ascending-descending",
+      "title": "Arpeggio Patterns — F Major",
+      "summary": "F major arpeggios ascending and descending in varied patterns.",
+      "goal": "Play F major arpeggios with fluid motion in both directions.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","A4:e","C5:e","F5:e","C5:e","A4:e","F4:e","A4:e"],
+        ["C5:e","F5:e","C5:e","A4:e","F4:e","A4:e","C5:e","F5:e"],
+        ["F5:e","C5:e","A4:e","F4:e","A4:e","C5:e","F5:e","C5:e"],
+        ["A4:q","F5:q","A4:q","F4:q"]
+      ]
+    },
+    {
+      "id": "t3c-014",
+      "slug": "arpeggio-am-ascending-descending",
+      "title": "Arpeggio Patterns — A Minor",
+      "summary": "A minor arpeggios ascending and descending in varied patterns.",
+      "goal": "Play A minor arpeggios with fluid motion in both directions.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["A4:e","C5:e","E5:e","A5:e","E5:e","C5:e","A4:e","C5:e"],
+        ["E5:e","A5:e","E5:e","C5:e","A4:e","C5:e","E5:e","A5:e"],
+        ["A5:e","E5:e","C5:e","A4:e","C5:e","E5:e","A5:e","E5:e"],
+        ["C5:q","A5:q","C5:q","A4:q"]
+      ]
+    },
+    {
+      "id": "t3c-015",
+      "slug": "contrary-motion-c-major",
+      "title": "Contrary Motion — C Major",
+      "summary": "Hands move in opposite directions through C major scale.",
+      "goal": "Play C major scale with hands moving in contrary motion.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["C5:e","B4:e","A4:e","G4:e","F4:e","E4:e","D4:e","C4:e"],
+        ["C4:e","D4:e","E4:e","F4:e","G4:q","E4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C4:e","B3:e","A3:e","G3:e","F3:e","E3:e","D3:e","C3:e"],
+        ["C3:e","D3:e","E3:e","F3:e","G3:e","A3:e","B3:e","C4:e"],
+        ["C4:e","B3:e","A3:e","G3:e","F3:q","A3:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t3c-016",
+      "slug": "contrary-motion-g-major",
+      "title": "Contrary Motion — G Major",
+      "summary": "Hands move in opposite directions through G major scale.",
+      "goal": "Play G major scale with hands moving in contrary motion.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","E5:e","F#5:e","G5:e"],
+        ["G5:e","F#5:e","E5:e","D5:e","C5:e","B4:e","A4:e","G4:e"],
+        ["G4:e","A4:e","B4:e","C5:e","D5:q","B4:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G3:e","F#3:e","E3:e","D3:e","C3:e","B2:e","A2:e","G2:e"],
+        ["G2:e","A2:e","B2:e","C3:e","D3:e","E3:e","F#3:e","G3:e"],
+        ["G3:e","F#3:e","E3:e","D3:e","C3:q","E3:q"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "t3c-017",
+      "slug": "contrary-motion-f-major",
+      "title": "Contrary Motion — F Major",
+      "summary": "Hands move in opposite directions through F major scale.",
+      "goal": "Play F major scale with hands moving in contrary motion.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","D5:e","E5:e","F5:e"],
+        ["F5:e","E5:e","D5:e","C5:e","Bb4:e","A4:e","G4:e","F4:e"],
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:q","A4:q"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["F3:e","E3:e","D3:e","C3:e","Bb2:e","A2:e","G2:e","F2:e"],
+        ["F2:e","G2:e","A2:e","Bb2:e","C3:e","D3:e","E3:e","F3:e"],
+        ["F3:e","E3:e","D3:e","C3:e","Bb2:q","D3:q"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "t3c-018",
+      "slug": "combined-scale-arpeggio-c",
+      "title": "Combined Scale + Arpeggio — C Major",
+      "summary": "Scale passage followed by arpeggio pattern in C major.",
+      "goal": "Transition smoothly between scale runs and arpeggios in C.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["C4:e","E4:e","G4:e","C5:e","E5:e","C5:e","G4:e","E4:e"],
+        ["C5:e","B4:e","A4:e","G4:e","F4:e","E4:e","D4:e","C4:e"],
+        ["[C4,E4,G4]:h","[E4,G4,C5]:h"]
+      ]
+    },
+    {
+      "id": "t3c-019",
+      "slug": "combined-scale-arpeggio-g",
+      "title": "Combined Scale + Arpeggio — G Major",
+      "summary": "Scale passage followed by arpeggio pattern in G major.",
+      "goal": "Transition smoothly between scale runs and arpeggios in G.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","E5:e","F#5:e","G5:e"],
+        ["G4:e","B4:e","D5:e","G5:e","D5:e","B4:e","G4:e","B4:e"],
+        ["G5:e","F#5:e","E5:e","D5:e","C5:e","B4:e","A4:e","G4:e"],
+        ["[G4,B4,D5]:h","[B4,D5,G5]:h"]
+      ]
+    },
+    {
+      "id": "t3c-020",
+      "slug": "combined-scale-arpeggio-f",
+      "title": "Combined Scale + Arpeggio — F Major",
+      "summary": "Scale passage followed by arpeggio pattern in F major.",
+      "goal": "Transition smoothly between scale runs and arpeggios in F.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","D5:e","E5:e","F5:e"],
+        ["F4:e","A4:e","C5:e","F5:e","C5:e","A4:e","F4:e","A4:e"],
+        ["F5:e","E5:e","D5:e","C5:e","Bb4:e","A4:e","G4:e","F4:e"],
+        ["[F4,A4,C5]:h","[A4,C5,F5]:h"]
+      ]
+    }
+  ]
+}

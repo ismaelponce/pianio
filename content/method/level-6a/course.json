@@ -1,0 +1,1676 @@
+{
+  "courseId": "method-level-6a",
+  "title": "Method Level 6A — Baroque Foundations",
+  "level": 6,
+  "summary": "Foundations: Ab major reinforcement in grand staff, F harmonic minor and C harmonic minor introductions, chromatic passages, and Baroque-style sequences — all 20 exercises in grand staff.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "m6a-001",
+      "slug": "m6a-001",
+      "title": "Ab Major Scale — Grand Staff",
+      "summary": "Ab major scale ascending and descending in both hands.",
+      "goal": "Play Ab major fluently in grand staff, observing all four flats from the key signature.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Db5:q"
+        ],
+        [
+          "Eb5:q",
+          "F5:q",
+          "G5:q",
+          "Ab5:q"
+        ],
+        [
+          "G5:q",
+          "F5:q",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "Ab4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab3:q",
+          "Bb3:q",
+          "C4:q",
+          "Db4:q"
+        ],
+        [
+          "Eb4:q",
+          "F4:q",
+          "G4:q",
+          "Ab4:q"
+        ],
+        [
+          "G4:q",
+          "F4:q",
+          "Eb4:q",
+          "Db4:q"
+        ],
+        [
+          "C4:q",
+          "Bb3:q",
+          "Ab3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-002",
+      "slug": "m6a-002",
+      "title": "Ab Major Étude — Eighth Notes",
+      "summary": "Flowing eighth-note passage through Ab major with sustained left-hand support.",
+      "goal": "Sustain even eighth-note motion in Ab major while balancing melody and accompaniment.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab3:h",
+          "Eb4:h"
+        ],
+        [
+          "Ab3:h",
+          "F4:h"
+        ],
+        [
+          "Eb3:h",
+          "Eb4:h"
+        ],
+        [
+          "Ab3:h",
+          "R:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-003",
+      "slug": "m6a-003",
+      "title": "Ab Major Melody — Baroque Style",
+      "summary": "Stepwise Baroque-style melody in Ab major with a rising sequence and gentle cadence.",
+      "goal": "Shape a Baroque-inspired melodic line in Ab major, attending to phrase direction.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "C5:q",
+          "Db5:q",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "Ab4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab3:h",
+          "Eb4:h"
+        ],
+        [
+          "Ab3:h",
+          "F3:h"
+        ],
+        [
+          "G3:h",
+          "Eb3:h"
+        ],
+        [
+          "F3:q",
+          "Eb3:q",
+          "Ab3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-004",
+      "slug": "m6a-004",
+      "title": "Ab Major Imitative Pattern",
+      "summary": "Right hand melody imitated a measure later in the left hand.",
+      "goal": "Coordinate an imitative texture in Ab major, keeping each voice independent.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:q",
+          "C5:q",
+          "Eb5:q",
+          "C5:q"
+        ],
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Db5:q"
+        ],
+        [
+          "Eb5:q",
+          "Db5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "Ab4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab3:h",
+          "C4:h"
+        ],
+        [
+          "F3:q",
+          "G3:q",
+          "Ab3:q",
+          "Bb3:q"
+        ],
+        [
+          "C4:q",
+          "Bb3:q",
+          "Ab3:q",
+          "G3:q"
+        ],
+        [
+          "Ab3:h",
+          "R:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-005",
+      "slug": "m6a-005",
+      "title": "Ab Major Waltz — Grand Staff",
+      "summary": "Waltz melody in 3/4 over sustained left-hand bass notes in Ab major.",
+      "goal": "Feel the 3/4 waltz lilt while navigating Ab major's four flats in grand staff.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:q",
+          "C5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "Ab4:q"
+        ],
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q"
+        ],
+        [
+          "Eb5:q",
+          "Db5:q",
+          "C5:q"
+        ],
+        [
+          "Ab4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab3:h",
+          "R:q"
+        ],
+        [
+          "F3:h",
+          "R:q"
+        ],
+        [
+          "Eb3:h",
+          "R:q"
+        ],
+        [
+          "Ab3:h",
+          "R:q"
+        ],
+        [
+          "Eb3:h",
+          "R:q"
+        ],
+        [
+          "Ab3:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-006",
+      "slug": "m6a-006",
+      "title": "F Harmonic Minor Scale — Grand Staff",
+      "summary": "F harmonic minor scale ascending and descending in both hands, featuring the raised leading tone E natural.",
+      "goal": "Recognise and play E natural as the raised 7th of F harmonic minor; observe all other notes from the four-flat key signature.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "F4:q",
+          "G4:q",
+          "Ab4:q",
+          "Bb4:q"
+        ],
+        [
+          "C5:q",
+          "Db5:q",
+          "E5:q",
+          "F5:q"
+        ],
+        [
+          "F5:q",
+          "E5:q",
+          "Db5:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:q",
+          "Ab4:q",
+          "G4:q",
+          "F4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F3:q",
+          "G3:q",
+          "Ab3:q",
+          "Bb3:q"
+        ],
+        [
+          "C4:q",
+          "Db4:q",
+          "E4:q",
+          "F4:q"
+        ],
+        [
+          "F4:q",
+          "E4:q",
+          "Db4:q",
+          "C4:q"
+        ],
+        [
+          "Bb3:q",
+          "Ab3:q",
+          "G3:q",
+          "F3:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-007",
+      "slug": "m6a-007",
+      "title": "F Harmonic Minor — Five-Finger Pattern",
+      "summary": "Five-note F harmonic minor pattern ascending and descending in both hands.",
+      "goal": "Build F harmonic minor five-finger fluency in grand staff before the full scale.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "F4:q",
+          "G4:q",
+          "Ab4:q",
+          "Bb4:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "Ab4:q",
+          "C5:q"
+        ],
+        [
+          "Ab4:q",
+          "G4:q",
+          "Ab4:q",
+          "G4:q"
+        ],
+        [
+          "F4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F3:q",
+          "G3:q",
+          "Ab3:q",
+          "Bb3:q"
+        ],
+        [
+          "C4:q",
+          "Bb3:q",
+          "Ab3:q",
+          "C4:q"
+        ],
+        [
+          "Ab3:q",
+          "G3:q",
+          "Ab3:q",
+          "G3:q"
+        ],
+        [
+          "F3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-008",
+      "slug": "m6a-008",
+      "title": "F Harmonic Minor — Melody",
+      "summary": "Expressive melody in F harmonic minor with E natural resolving upward to F.",
+      "goal": "Play F harmonic minor melodically, letting E natural create harmonic tension before resolving to F.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "F4:q",
+          "Ab4:q",
+          "C5:q",
+          "Ab4:q"
+        ],
+        [
+          "F5:h",
+          "E5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "Ab4:q",
+          "G4:q"
+        ],
+        [
+          "F4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "F3:h",
+          "Db4:h"
+        ],
+        [
+          "C4:q",
+          "G3:q",
+          "F3:h"
+        ],
+        [
+          "F3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-009",
+      "slug": "m6a-009",
+      "title": "F Harmonic Minor — Étude in Eighths",
+      "summary": "Eighth-note étude through F harmonic minor including the raised leading tone.",
+      "goal": "Maintain even eighth-note rhythm in F harmonic minor while placing E natural accurately.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e",
+          "Ab4:e",
+          "C5:e",
+          "Ab4:e"
+        ],
+        [
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "E5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e"
+        ],
+        [
+          "F4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "Bb3:h",
+          "C4:h"
+        ],
+        [
+          "C4:h",
+          "F3:h"
+        ],
+        [
+          "F3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-010",
+      "slug": "m6a-010",
+      "title": "F Minor — Baroque Sequence",
+      "summary": "Descending Baroque sequence in F harmonic minor, featuring the characteristic raised leading tone.",
+      "goal": "Execute a Baroque-style descending sequence in F harmonic minor with rhythmic precision.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C5:e",
+          "Db5:e",
+          "E5:e",
+          "F5:e",
+          "E5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Ab4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e"
+        ],
+        [
+          "Ab4:q",
+          "G4:q",
+          "F4:q",
+          "G4:q"
+        ],
+        [
+          "F4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "F3:h",
+          "Eb3:h"
+        ],
+        [
+          "G3:h",
+          "F3:h"
+        ],
+        [
+          "F3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-011",
+      "slug": "m6a-011",
+      "title": "F Harmonic Minor — Waltz",
+      "summary": "Waltz-style melody in 3/4 in F harmonic minor with the raised leading tone E natural.",
+      "goal": "Shape a minor-key waltz in 3/4, letting the E natural give a poignant character.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "F4:q",
+          "Ab4:q",
+          "C5:q"
+        ],
+        [
+          "Db5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "Ab4:q",
+          "E5:q",
+          "F5:q"
+        ],
+        [
+          "Db5:q",
+          "C5:q",
+          "Ab4:q"
+        ],
+        [
+          "G4:q",
+          "Ab4:q",
+          "C5:q"
+        ],
+        [
+          "F4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F3:h",
+          "C4:q"
+        ],
+        [
+          "Bb3:h",
+          "R:q"
+        ],
+        [
+          "C4:h",
+          "R:q"
+        ],
+        [
+          "F3:h",
+          "R:q"
+        ],
+        [
+          "Eb3:h",
+          "R:q"
+        ],
+        [
+          "F3:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-012",
+      "slug": "m6a-012",
+      "title": "C Harmonic Minor Scale — Grand Staff",
+      "summary": "C harmonic minor scale ascending and descending in both hands, featuring the raised leading tone B natural.",
+      "goal": "Recognise and play B natural as the raised 7th of C harmonic minor; all other flats from the three-flat key signature.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "D4:q",
+          "Eb4:q",
+          "F4:q"
+        ],
+        [
+          "G4:q",
+          "Ab4:q",
+          "B4:q",
+          "C5:q"
+        ],
+        [
+          "C5:q",
+          "B4:q",
+          "Ab4:q",
+          "G4:q"
+        ],
+        [
+          "F4:q",
+          "Eb4:q",
+          "D4:q",
+          "C4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "C3:q",
+          "D3:q",
+          "Eb3:q",
+          "F3:q"
+        ],
+        [
+          "G3:q",
+          "Ab3:q",
+          "B3:q",
+          "C4:q"
+        ],
+        [
+          "C4:q",
+          "B3:q",
+          "Ab3:q",
+          "G3:q"
+        ],
+        [
+          "F3:q",
+          "Eb3:q",
+          "D3:q",
+          "C3:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-013",
+      "slug": "m6a-013",
+      "title": "C Harmonic Minor — Five-Finger Pattern",
+      "summary": "Five-note C harmonic minor pattern with eighth-note motion in both hands.",
+      "goal": "Build C harmonic minor five-finger fluency in both hands, preparing for the full scale.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "D4:q",
+          "Eb4:q",
+          "F4:q"
+        ],
+        [
+          "G4:q",
+          "F4:q",
+          "Eb4:q",
+          "D4:q"
+        ],
+        [
+          "C4:e",
+          "D4:e",
+          "Eb4:e",
+          "F4:e",
+          "G4:e",
+          "F4:e",
+          "Eb4:e",
+          "D4:e"
+        ],
+        [
+          "C4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "C3:q",
+          "D3:q",
+          "Eb3:q",
+          "F3:q"
+        ],
+        [
+          "G3:q",
+          "F3:q",
+          "Eb3:q",
+          "D3:q"
+        ],
+        [
+          "C3:e",
+          "D3:e",
+          "Eb3:e",
+          "F3:e",
+          "G3:e",
+          "F3:e",
+          "Eb3:e",
+          "D3:e"
+        ],
+        [
+          "C3:h",
+          "R:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-014",
+      "slug": "m6a-014",
+      "title": "C Harmonic Minor — Melody",
+      "summary": "Expressive melody in C harmonic minor with B natural resolving upward to C.",
+      "goal": "Play a cantabile line in C harmonic minor, using B natural to create dramatic harmonic tension.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "Eb4:q",
+          "G4:q",
+          "Eb4:q"
+        ],
+        [
+          "C5:h",
+          "B4:q",
+          "Ab4:q"
+        ],
+        [
+          "G4:e",
+          "Ab4:e",
+          "B4:q",
+          "C5:h"
+        ],
+        [
+          "G4:q",
+          "F4:q",
+          "Eb4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "C3:h",
+          "Ab3:h"
+        ],
+        [
+          "G3:h",
+          "Eb3:h"
+        ],
+        [
+          "C3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-015",
+      "slug": "m6a-015",
+      "title": "C Harmonic Minor — Étude in Eighths",
+      "summary": "Eighth-note étude through C harmonic minor including the raised B natural.",
+      "goal": "Maintain steady eighth notes in C harmonic minor, placing B natural accurately.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C4:e",
+          "D4:e",
+          "Eb4:e",
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "B4:e",
+          "C5:e"
+        ],
+        [
+          "C5:e",
+          "B4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e",
+          "Eb4:e",
+          "D4:e",
+          "C4:e"
+        ],
+        [
+          "C4:e",
+          "Eb4:e",
+          "G4:e",
+          "Eb4:e",
+          "D4:e",
+          "F4:e",
+          "Ab4:e",
+          "F4:e"
+        ],
+        [
+          "G4:q",
+          "Ab4:q",
+          "G4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "Eb3:h",
+          "G3:h"
+        ],
+        [
+          "C3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-016",
+      "slug": "m6a-016",
+      "title": "C Harmonic Minor — Baroque Sequence",
+      "summary": "Descending Baroque sequence in C harmonic minor with B natural as the leading tone.",
+      "goal": "Execute a Baroque descending sequence in C harmonic minor with clean articulation.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "G4:e",
+          "Ab4:e",
+          "B4:e",
+          "C5:e",
+          "B4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e"
+        ],
+        [
+          "Eb4:e",
+          "F4:e",
+          "G4:e",
+          "Eb4:e",
+          "D4:e",
+          "Eb4:e",
+          "F4:e",
+          "G4:e"
+        ],
+        [
+          "Eb4:q",
+          "D4:q",
+          "C4:q",
+          "D4:q"
+        ],
+        [
+          "C4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "C3:h",
+          "Eb3:h"
+        ],
+        [
+          "G3:h",
+          "C3:h"
+        ],
+        [
+          "C3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-017",
+      "slug": "m6a-017",
+      "title": "C Harmonic Minor — Waltz",
+      "summary": "Waltz-style piece in 3/4 in C harmonic minor with B natural leading tone.",
+      "goal": "Shape a minor-mode waltz in C harmonic minor, using B natural for expressive tension.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 69,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "Eb4:q",
+          "G4:q"
+        ],
+        [
+          "Ab4:q",
+          "G4:q",
+          "F4:q"
+        ],
+        [
+          "G4:q",
+          "B4:q",
+          "C5:q"
+        ],
+        [
+          "Ab4:q",
+          "G4:q",
+          "Eb4:q"
+        ],
+        [
+          "D4:q",
+          "Eb4:q",
+          "F4:q"
+        ],
+        [
+          "G4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "C3:h",
+          "R:q"
+        ],
+        [
+          "Ab3:h",
+          "R:q"
+        ],
+        [
+          "G3:h",
+          "R:q"
+        ],
+        [
+          "Eb3:h",
+          "R:q"
+        ],
+        [
+          "G3:h",
+          "R:q"
+        ],
+        [
+          "C3:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-018",
+      "slug": "m6a-018",
+      "title": "Chromatic Steps — Grand Staff",
+      "summary": "Chromatic scale fragment ascending then descending in both hands simultaneously.",
+      "goal": "Play chromatic half steps evenly in both hands, maintaining a steady pulse.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "G4:e",
+          "Ab4:e",
+          "A4:e",
+          "Bb4:e",
+          "B4:e",
+          "C5:e",
+          "Db5:e",
+          "D5:e"
+        ],
+        [
+          "Eb5:e",
+          "E5:e",
+          "F5:e",
+          "Gb5:e",
+          "G5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e"
+        ],
+        [
+          "E5:e",
+          "Eb5:e",
+          "D5:e",
+          "Db5:e",
+          "C5:e",
+          "B4:e",
+          "Bb4:e",
+          "A4:e"
+        ],
+        [
+          "Ab4:h",
+          "G4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "G3:e",
+          "Ab3:e",
+          "A3:e",
+          "Bb3:e",
+          "B3:e",
+          "C4:e",
+          "Db4:e",
+          "D4:e"
+        ],
+        [
+          "Eb4:e",
+          "E4:e",
+          "F4:e",
+          "Gb4:e",
+          "G4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e"
+        ],
+        [
+          "E4:e",
+          "Eb4:e",
+          "D4:e",
+          "Db4:e",
+          "C4:e",
+          "B3:e",
+          "Bb3:e",
+          "A3:e"
+        ],
+        [
+          "Ab3:h",
+          "G3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-019",
+      "slug": "m6a-019",
+      "title": "Contrary Motion in Ab Major",
+      "summary": "Hands move in opposite directions through Ab major — right hand ascending, left hand descending.",
+      "goal": "Coordinate contrary motion in Ab major, keeping both hands steady and equal in volume.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Db5:q"
+        ],
+        [
+          "Eb5:q",
+          "F5:q",
+          "G5:q",
+          "Ab5:q"
+        ],
+        [
+          "Ab5:q",
+          "G5:q",
+          "F5:q",
+          "Eb5:q"
+        ],
+        [
+          "Db5:q",
+          "C5:q",
+          "Bb4:q",
+          "Ab4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab4:q",
+          "G4:q",
+          "F4:q",
+          "Eb4:q"
+        ],
+        [
+          "Db4:q",
+          "C4:q",
+          "Bb3:q",
+          "Ab3:q"
+        ],
+        [
+          "Ab3:q",
+          "Bb3:q",
+          "C4:q",
+          "Db4:q"
+        ],
+        [
+          "Eb4:q",
+          "F4:q",
+          "G4:q",
+          "Ab4:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6a-020",
+      "slug": "m6a-020",
+      "title": "Baroque Prelude in Ab — Synthesis",
+      "summary": "Six-measure Baroque prelude combining Ab major and F harmonic minor for a complete L6A capstone.",
+      "goal": "Bring together Ab major, F harmonic minor, and Baroque-style eighth-note texture in a unified piece.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "E5:e",
+          "F5:e",
+          "E5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Ab4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e"
+        ],
+        [
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "G4:e"
+        ],
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Eb5:q"
+        ],
+        [
+          "Ab4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab3:h",
+          "Eb4:h"
+        ],
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "Ab3:h",
+          "Eb4:h"
+        ],
+        [
+          "F3:h",
+          "Eb3:h"
+        ],
+        [
+          "Ab3:q",
+          "Bb3:q",
+          "C4:q",
+          "Eb4:q"
+        ],
+        [
+          "Ab3:w"
+        ]
+      ]
+    }
+  ]
+}

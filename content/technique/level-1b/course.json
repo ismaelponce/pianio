@@ -1,0 +1,405 @@
+{
+  "courseId": "technique-level-1b",
+  "title": "Technique Level 1B — Expansion",
+  "level": 1,
+  "summary": "Expands C major five-finger technique with eighth notes, quarter rests, Hanon-style repeated patterns, and skip-of-a-third figures. Longer phrases up to 8 measures. Single-hand exercises for both right and left hand.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "t1b-001",
+      "slug": "t1b-001",
+      "title": "Eighth Notes — C Position Run (RH)",
+      "summary": "Right hand plays continuous eighth notes ascending and descending through C4–G4.",
+      "goal": "Introduce eighth-note rhythm in C position; keep each note exactly half a beat.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["C4:e","E4:e","G4:e","E4:e","C4:e","E4:e","G4:e","E4:e"],
+        ["G4:h","C4:h"]
+      ]
+    },
+    {
+      "id": "t1b-002",
+      "slug": "t1b-002",
+      "title": "Mixed Quarter and Eighth Notes (RH)",
+      "summary": "Right hand combines quarter notes with pairs of eighth notes in C4–G4.",
+      "goal": "Alternate between quarter and eighth-note values cleanly within a measure.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","D4:e","E4:e","F4:q","G4:q"],
+        ["G4:q","F4:e","E4:e","D4:q","C4:q"],
+        ["C4:e","D4:e","E4:q","F4:e","G4:e","G4:q"],
+        ["F4:q","E4:q","D4:h"]
+      ]
+    },
+    {
+      "id": "t1b-003",
+      "slug": "t1b-003",
+      "title": "Eighth Notes in 2/4 (RH)",
+      "summary": "Right hand plays four eighth notes per 2/4 measure through C position.",
+      "goal": "Feel the two-beat pulse with four subdivisions per measure in the right hand.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e"],
+        ["G4:e","F4:e","E4:e","D4:e"],
+        ["C4:e","E4:e","G4:e","E4:e"],
+        ["D4:e","F4:e","E4:e","G4:e"],
+        ["C4:e","D4:e","E4:e","F4:e"],
+        ["G4:e","F4:e","E4:e","D4:e"],
+        ["E4:q","C4:q"],
+        ["C4:h"]
+      ]
+    },
+    {
+      "id": "t1b-004",
+      "slug": "t1b-004",
+      "title": "Quarter Rests — Staccato Drill (RH)",
+      "summary": "Right hand plays quarter notes separated by quarter rests, building rhythmic accuracy and rest awareness.",
+      "goal": "Count quarter rests precisely; stop sound cleanly on each rest.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","R:q","E4:q","R:q"],
+        ["D4:q","R:q","F4:q","R:q"],
+        ["E4:q","G4:q","R:q","E4:q"],
+        ["G4:h","R:q","C4:q"]
+      ]
+    },
+    {
+      "id": "t1b-005",
+      "slug": "t1b-005",
+      "title": "Hanon Pattern — C Position (RH)",
+      "summary": "Right hand repeats the classic five-finger Hanon ascending-descending pattern through C4–G4.",
+      "goal": "Build finger independence through the repeated C D E F G F E D cell.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["E4:e","F4:e","G4:e","F4:e","E4:e","D4:e","C4:e","D4:e"],
+        ["C4:e","E4:e","D4:e","F4:e","E4:e","G4:e","F4:e","E4:e"],
+        ["D4:q","E4:q","D4:q","C4:q"]
+      ]
+    },
+    {
+      "id": "t1b-006",
+      "slug": "t1b-006",
+      "title": "Skips of a Third (RH)",
+      "summary": "Right hand practices melodic skips of a third (C–E, D–F, E–G) through C4–G4.",
+      "goal": "Develop accuracy on third-skips without looking at the keys.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","E4:q","D4:q","F4:q"],
+        ["E4:q","G4:q","F4:q","E4:q"],
+        ["D4:q","F4:q","E4:q","G4:q"],
+        ["F4:q","E4:q","D4:q","C4:q"]
+      ]
+    },
+    {
+      "id": "t1b-007",
+      "slug": "t1b-007",
+      "title": "Steps and Skips — Eighth-Note Pattern (RH)",
+      "summary": "Right hand alternates stepwise pairs of eighth notes with a quarter-note skip.",
+      "goal": "Combine step and skip motions fluidly at a steady eighth-note pulse.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:e","D4:e","E4:q","C4:e","D4:e","E4:q"],
+        ["D4:e","E4:e","F4:q","D4:e","E4:e","F4:q"],
+        ["E4:e","G4:e","E4:q","F4:e","E4:e","D4:q"],
+        ["G4:q","E4:q","D4:q","C4:q"]
+      ]
+    },
+    {
+      "id": "t1b-008",
+      "slug": "t1b-008",
+      "title": "Extended Phrase — C Position (RH)",
+      "summary": "Eight-measure right-hand phrase combining quarter notes and eighth-note runs through C position.",
+      "goal": "Sustain concentration and evenness across a longer musical phrase.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:h","F4:q","E4:q"],
+        ["D4:q","E4:q","F4:q","G4:q"],
+        ["E4:h","C4:h"],
+        ["G4:e","F4:e","E4:e","D4:e","C4:e","D4:e","E4:e","F4:e"],
+        ["G4:h","F4:e","E4:e","D4:q"],
+        ["E4:q","F4:q","E4:q","D4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t1b-009",
+      "slug": "t1b-009",
+      "title": "Repeated-Note Drill — Eighth Notes (RH)",
+      "summary": "Right hand repeats each C-position note twice in eighth notes before stepping to the next.",
+      "goal": "Develop finger repetition speed and evenness through note-doubling.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:e","C4:e","D4:e","D4:e","E4:e","E4:e","F4:e","F4:e"],
+        ["G4:e","G4:e","F4:e","F4:e","E4:e","E4:e","D4:e","D4:e"],
+        ["C4:e","E4:e","C4:e","E4:e","C4:e","E4:e","C4:e","E4:e"],
+        ["G4:q","E4:q","C4:h"]
+      ]
+    },
+    {
+      "id": "t1b-010",
+      "slug": "t1b-010",
+      "title": "Varied Rhythms — C Position (RH)",
+      "summary": "Right hand mixes half, quarter, and eighth notes through C position in a flowing phrase.",
+      "goal": "Read and execute three different rhythmic values within the same exercise.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:h","D4:q","E4:q"],
+        ["F4:e","G4:e","F4:e","E4:e","D4:e","C4:e","D4:e","E4:e"],
+        ["F4:q","E4:e","D4:e","C4:q","D4:q"],
+        ["E4:h","C4:h"]
+      ]
+    },
+    {
+      "id": "t1b-011",
+      "slug": "t1b-011",
+      "title": "Eighth Notes — C3 Position Run (LH)",
+      "summary": "Left hand plays continuous eighth notes ascending and descending through C3–G3.",
+      "goal": "Introduce eighth-note rhythm in the left-hand C3 position.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:e","D3:e","E3:e","F3:e","G3:e","F3:e","E3:e","D3:e"],
+        ["C3:e","D3:e","E3:e","F3:e","G3:e","F3:e","E3:e","D3:e"],
+        ["C3:e","E3:e","G3:e","E3:e","C3:e","E3:e","G3:e","E3:e"],
+        ["G3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1b-012",
+      "slug": "t1b-012",
+      "title": "Mixed Quarter and Eighth Notes (LH)",
+      "summary": "Left hand combines quarter notes with pairs of eighth notes through C3–G3.",
+      "goal": "Alternate between quarter and eighth-note values cleanly in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:q","D3:e","E3:e","F3:q","G3:q"],
+        ["G3:q","F3:e","E3:e","D3:q","C3:q"],
+        ["C3:e","D3:e","E3:q","F3:e","G3:e","G3:q"],
+        ["F3:q","E3:q","D3:h"]
+      ]
+    },
+    {
+      "id": "t1b-013",
+      "slug": "t1b-013",
+      "title": "Eighth Notes in 2/4 (LH)",
+      "summary": "Left hand plays four eighth notes per 2/4 measure through C3 position.",
+      "goal": "Feel the two-beat subdivision in the left hand through C3 position.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 80,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:e","D3:e","E3:e","F3:e"],
+        ["G3:e","F3:e","E3:e","D3:e"],
+        ["C3:e","E3:e","G3:e","E3:e"],
+        ["D3:e","F3:e","E3:e","G3:e"],
+        ["C3:e","D3:e","E3:e","F3:e"],
+        ["G3:e","F3:e","E3:e","D3:e"],
+        ["E3:q","C3:q"],
+        ["C3:h"]
+      ]
+    },
+    {
+      "id": "t1b-014",
+      "slug": "t1b-014",
+      "title": "Quarter Rests — Staccato Drill (LH)",
+      "summary": "Left hand plays quarter notes separated by quarter rests through C3 position.",
+      "goal": "Count quarter rests precisely in the left hand; release sound cleanly on each rest.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:q","R:q","E3:q","R:q"],
+        ["D3:q","R:q","F3:q","R:q"],
+        ["E3:q","G3:q","R:q","E3:q"],
+        ["G3:h","R:q","C3:q"]
+      ]
+    },
+    {
+      "id": "t1b-015",
+      "slug": "t1b-015",
+      "title": "Hanon Pattern — C3 Position (LH)",
+      "summary": "Left hand repeats the five-finger Hanon ascending-descending pattern through C3–G3.",
+      "goal": "Build left-hand finger independence through the repeated C D E F G F E D cell.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:e","D3:e","E3:e","F3:e","G3:e","F3:e","E3:e","D3:e"],
+        ["E3:e","F3:e","G3:e","F3:e","E3:e","D3:e","C3:e","D3:e"],
+        ["C3:e","E3:e","D3:e","F3:e","E3:e","G3:e","F3:e","E3:e"],
+        ["D3:q","E3:q","D3:q","C3:q"]
+      ]
+    },
+    {
+      "id": "t1b-016",
+      "slug": "t1b-016",
+      "title": "Skips of a Third (LH)",
+      "summary": "Left hand practices melodic skips of a third (C–E, D–F, E–G) in C3 position.",
+      "goal": "Develop left-hand accuracy on third-skips without looking at the keys.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:q","E3:q","D3:q","F3:q"],
+        ["E3:q","G3:q","F3:q","E3:q"],
+        ["D3:q","F3:q","E3:q","G3:q"],
+        ["F3:q","E3:q","D3:q","C3:q"]
+      ]
+    },
+    {
+      "id": "t1b-017",
+      "slug": "t1b-017",
+      "title": "Steps and Skips — Eighth-Note Pattern (LH)",
+      "summary": "Left hand alternates stepwise pairs of eighth notes with a quarter-note skip through C3 position.",
+      "goal": "Combine step and skip motions fluidly in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:e","D3:e","E3:q","C3:e","D3:e","E3:q"],
+        ["D3:e","E3:e","F3:q","D3:e","E3:e","F3:q"],
+        ["E3:e","G3:e","E3:q","F3:e","E3:e","D3:q"],
+        ["G3:q","E3:q","D3:q","C3:q"]
+      ]
+    },
+    {
+      "id": "t1b-018",
+      "slug": "t1b-018",
+      "title": "Extended Phrase — C3 Position (LH)",
+      "summary": "Eight-measure left-hand phrase combining quarter notes and eighth-note runs through C3 position.",
+      "goal": "Maintain even tone and tempo in the left hand across a longer musical phrase.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["G3:h","F3:q","E3:q"],
+        ["D3:q","E3:q","F3:q","G3:q"],
+        ["E3:h","C3:h"],
+        ["G3:e","F3:e","E3:e","D3:e","C3:e","D3:e","E3:e","F3:e"],
+        ["G3:h","F3:e","E3:e","D3:q"],
+        ["E3:q","F3:q","E3:q","D3:q"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t1b-019",
+      "slug": "t1b-019",
+      "title": "Repeated-Note Drill — Eighth Notes (LH)",
+      "summary": "Left hand repeats each C3-position note twice in eighth notes before stepping to the next.",
+      "goal": "Develop left-hand finger repetition and evenness through note-doubling.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:e","C3:e","D3:e","D3:e","E3:e","E3:e","F3:e","F3:e"],
+        ["G3:e","G3:e","F3:e","F3:e","E3:e","E3:e","D3:e","D3:e"],
+        ["C3:e","E3:e","C3:e","E3:e","C3:e","E3:e","C3:e","E3:e"],
+        ["G3:q","E3:q","C3:h"]
+      ]
+    },
+    {
+      "id": "t1b-020",
+      "slug": "t1b-020",
+      "title": "Varied Rhythms — C3 Position (LH)",
+      "summary": "Left hand mixes half, quarter, and eighth notes through C3 position in a flowing phrase.",
+      "goal": "Read and execute three different rhythmic values in the left hand within the same exercise.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:h","D3:q","E3:q"],
+        ["F3:e","G3:e","F3:e","E3:e","D3:e","C3:e","D3:e","E3:e"],
+        ["F3:q","E3:e","D3:e","C3:q","D3:q"],
+        ["E3:h","C3:h"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "courseId": "method-level-6",
+  "title": "Method Level 6",
+  "level": 6,
+  "summary": "Ab major (4 flats), Dorian and Mixolydian modal scales, syncopated rhythms, and an eight-measure finale in Ab — bridging tonal and modal reading.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "method6-001",
+      "slug": "ab-scale-rh",
+      "title": "Ab Major Scale RH",
+      "summary": "Right hand Ab major scale across a full octave with all four flats.",
+      "goal": "Read and play all eight notes of Ab major, noting every flat accurately.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "keySignature": -4,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab4:q", "Bb4:q", "C5:q", "Db5:q"],
+        ["Eb5:q", "F5:q", "G5:q", "Ab5:q"],
+        ["Ab5:w"]
+      ]
+    },
+    {
+      "id": "method6-002",
+      "slug": "ab-scale-lh",
+      "title": "Ab Major Scale LH",
+      "summary": "Left hand Ab major scale across a full octave in bass clef.",
+      "goal": "Play Ab major cleanly in bass clef with all four flats.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 69,
+      "timeSignature": [4, 4],
+      "keySignature": -4,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab3:q", "Bb3:q", "C4:q", "Db4:q"],
+        ["Eb4:q", "F4:q", "G4:q", "Ab4:q"],
+        ["Ab4:w"]
+      ]
+    },
+    {
+      "id": "method6-003",
+      "slug": "ab-melody-rh",
+      "title": "Ab Major Melody RH",
+      "summary": "A four-phrase melody in Ab major moving through tonic, subdominant, and dominant.",
+      "goal": "Shape a lyrical melody in Ab major with smooth voice leading.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "keySignature": -4,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab4:h", "C5:h"],
+        ["Eb5:q", "Db5:q", "C5:q", "Bb4:q"],
+        ["Ab4:q", "Bb4:q", "C5:q", "Eb5:q"],
+        ["Db5:h", "Ab4:h"]
+      ]
+    },
+    {
+      "id": "method6-004",
+      "slug": "ab-eighth-etude",
+      "title": "Ab Eighth-Note Étude RH",
+      "summary": "Ascending and descending Ab major in eighth notes with a closing phrase.",
+      "goal": "Keep all four flats even at an eighth-note tempo in Ab major.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "keySignature": -4,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab4:e", "Bb4:e", "C5:e", "Db5:e", "Eb5:e", "F5:e", "G5:e", "Ab5:e"],
+        ["Ab5:e", "G5:e", "F5:e", "Eb5:e", "Db5:e", "C5:e", "Bb4:e", "Ab4:e"],
+        ["C5:e", "Eb5:e", "Db5:e", "C5:e", "Bb4:e", "Ab4:e", "G4:e", "Ab4:e"],
+        ["Bb4:h", "Ab4:h"]
+      ]
+    },
+    {
+      "id": "method6-005",
+      "slug": "ab-waltz",
+      "title": "Waltz in Ab",
+      "summary": "A waltz-style melody in 3/4 in Ab major across six measures.",
+      "goal": "Feel the waltz lilt in 3/4 while navigating Ab major's four flats.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [3, 4],
+      "keySignature": -4,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab4:q", "C5:q", "Eb5:q"],
+        ["F5:q", "Eb5:q", "Db5:q"],
+        ["C5:q", "Bb4:q", "Ab4:q"],
+        ["Bb4:q", "Ab4:q", "G4:q"],
+        ["Ab4:h", "C5:q"],
+        ["Ab4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "method6-006",
+      "slug": "ab-bass-line-lh",
+      "title": "Ab Bass Line LH",
+      "summary": "Left hand broken-chord bass pattern across Ab, Db, and Eb positions.",
+      "goal": "Play a flowing bass line through three Ab-key chord shapes.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "keySignature": -4,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab2:q", "Eb3:q", "Ab3:q", "Eb3:q"],
+        ["Db3:q", "Ab3:q", "F3:q", "Db3:q"],
+        ["Eb3:q", "Bb3:q", "G3:q", "Eb3:q"],
+        ["Ab3:h", "Ab2:h"]
+      ]
+    },
+    {
+      "id": "method6-007",
+      "slug": "d-dorian-scale-rh",
+      "title": "D Dorian Scale RH",
+      "summary": "Right hand D Dorian mode scale (D E F G A B C D) — a minor scale with a raised sixth.",
+      "goal": "Hear and play the distinctive raised-sixth sound of the Dorian mode.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 69,
+      "timeSignature": [4, 4],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "E4:q", "F4:q", "G4:q"],
+        ["A4:q", "B4:q", "C5:q", "D5:q"],
+        ["D5:w"]
+      ]
+    },
+    {
+      "id": "method6-008",
+      "slug": "d-dorian-melody-rh",
+      "title": "D Dorian Melody RH",
+      "summary": "A four-phrase melody in D Dorian highlighting the raised sixth B natural.",
+      "goal": "Express the modal colour of Dorian through a singable four-phrase melody.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:h", "F4:q", "A4:q"],
+        ["B4:q", "A4:q", "G4:q", "F4:q"],
+        ["E4:q", "G4:q", "A4:q", "B4:q"],
+        ["C5:h", "D5:h"]
+      ]
+    },
+    {
+      "id": "method6-009",
+      "slug": "a-dorian-scale-rh",
+      "title": "A Dorian Scale RH",
+      "summary": "Right hand A Dorian mode scale (A B C D E F# G A) — same key signature as G major.",
+      "goal": "Play A Dorian, recognising the F-sharp raised sixth against the natural seventh.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 69,
+      "timeSignature": [4, 4],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:q", "B4:q", "C5:q", "D5:q"],
+        ["E5:q", "F#5:q", "G5:q", "A5:q"],
+        ["A5:w"]
+      ]
+    },
+    {
+      "id": "method6-010",
+      "slug": "a-dorian-melody-rh",
+      "title": "A Dorian Melody RH",
+      "summary": "A four-phrase melody in A Dorian using the F-sharp colour note.",
+      "goal": "Use the raised sixth F-sharp as a melodic highlight in A Dorian.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:q", "C5:q", "E5:q", "C5:q"],
+        ["D5:q", "B4:q", "A4:q", "B4:q"],
+        ["C5:q", "F#5:q", "E5:q", "D5:q"],
+        ["C5:h", "A4:h"]
+      ]
+    },
+    {
+      "id": "method6-011",
+      "slug": "g-mixolydian-scale-rh",
+      "title": "G Mixolydian Scale RH",
+      "summary": "Right hand G Mixolydian scale (G A B C D E F G) — major scale with a lowered seventh.",
+      "goal": "Play G Mixolydian, noticing the F natural that lowers the seventh degree.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 69,
+      "timeSignature": [4, 4],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:q", "B4:q", "C5:q"],
+        ["D5:q", "E5:q", "F5:q", "G5:q"],
+        ["G5:w"]
+      ]
+    },
+    {
+      "id": "method6-012",
+      "slug": "g-mixolydian-melody-rh",
+      "title": "G Mixolydian Melody RH",
+      "summary": "A four-phrase melody in G Mixolydian featuring the lowered seventh F natural.",
+      "goal": "Express the bluesy quality of Mixolydian through a smooth four-phrase melody.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:h", "B4:h"],
+        ["C5:q", "D5:q", "E5:q", "F5:q"],
+        ["G5:q", "F5:q", "E5:q", "D5:q"],
+        ["C5:h", "G4:h"]
+      ]
+    },
+    {
+      "id": "method6-013",
+      "slug": "mixed-flat-etude",
+      "title": "Mixed Flat-Key Étude",
+      "summary": "Passages shifting between Eb and Ab regions in the three-flat key signature.",
+      "goal": "Navigate smoothly between Eb and Ab melodic regions within one étude.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "keySignature": -3,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "Ab4:e", "G4:e", "F4:e"],
+        ["Eb4:q", "Ab4:q", "Bb4:q", "Eb5:q"],
+        ["Ab4:e", "Bb4:e", "C5:e", "Db5:e", "Eb5:e", "Db5:e", "C5:e", "Bb4:e"],
+        ["Ab4:h", "Eb4:h"]
+      ]
+    },
+    {
+      "id": "method6-014",
+      "slug": "syncopated-ab",
+      "title": "Syncopated Rhythm in Ab",
+      "summary": "A melody in Ab major using the quarter–eighth–eighth syncopation pattern.",
+      "goal": "Feel the off-beat push of syncopation while reading Ab major accurately.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "keySignature": -4,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab4:q", "C5:e", "Eb5:e", "C5:q", "Ab4:q"],
+        ["Bb4:q", "Eb5:e", "Db5:e", "Bb4:q", "Ab4:q"],
+        ["C5:e", "Db5:e", "Eb5:q", "Db5:q", "C5:q"],
+        ["Bb4:h", "Ab4:h"]
+      ]
+    },
+    {
+      "id": "method6-015",
+      "slug": "finale-in-ab",
+      "title": "Finale in Ab",
+      "summary": "An eight-measure piece in Ab major drawing on scales, melody, and flat-key phrasing.",
+      "goal": "Play a complete musical statement in Ab major with smooth tone and steady rhythm.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "keySignature": -4,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab4:h", "Eb5:h"],
+        ["Db5:q", "C5:q", "Bb4:q", "Ab4:q"],
+        ["Eb5:e", "F5:e", "G5:e", "Ab5:e", "G5:q", "F5:q"],
+        ["Eb5:w"],
+        ["C5:h", "Eb5:h"],
+        ["Db5:q", "Bb4:q", "Ab4:q", "G4:q"],
+        ["Ab4:e", "Bb4:e", "C5:e", "Db5:e", "Eb5:q", "C5:q"],
+        ["Ab4:w"]
+      ]
+    }
+  ]
+}

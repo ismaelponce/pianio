@@ -1,0 +1,513 @@
+{
+  "courseId": "technique-level-4c",
+  "title": "Technique Level 4C — Inversions & Extended Arpeggios",
+  "level": 4,
+  "summary": "Chord inversions (root, 1st, 2nd) in D, A, Bb, Eb, and Ab major plus extended arpeggio patterns hands together.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "t4c-001",
+      "slug": "d-major-inversions-rh",
+      "title": "D Major Chord Inversions RH",
+      "summary": "Root position, 1st inversion, 2nd inversion of D major chord.",
+      "goal": "Play all three D major inversions smoothly.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[D4,F#4,A4]:h", "[D4,F#4,A4]:h"],
+        ["[F#4,A4,D5]:h", "[F#4,A4,D5]:h"],
+        ["[A4,D5,F#5]:h", "[A4,D5,F#5]:h"],
+        ["[D4,F#4,A4]:w"],
+        ["[D4,F#4,A4]:q", "[F#4,A4,D5]:q", "[A4,D5,F#5]:q", "[D4,F#4,A4]:q"],
+        ["[D4,F#4,A4]:q", "[F#4,A4,D5]:q", "[A4,D5,F#5]:q", "[D4,F#4,A4]:q"],
+        ["[F#4,A4,D5]:h", "[A4,D5,F#5]:h"],
+        ["[D4,F#4,A4]:w"]
+      ]
+    },
+    {
+      "id": "t4c-002",
+      "slug": "d-major-inversions-lh",
+      "title": "D Major Chord Inversions LH",
+      "summary": "D major inversions in the left hand.",
+      "goal": "Play all three D major inversions in LH.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 2,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[D3,F#3,A3]:h", "[D3,F#3,A3]:h"],
+        ["[F#3,A3,D4]:h", "[F#3,A3,D4]:h"],
+        ["[A3,D4,F#4]:h", "[A3,D4,F#4]:h"],
+        ["[D3,F#3,A3]:w"],
+        ["[D3,F#3,A3]:q", "[F#3,A3,D4]:q", "[A3,D4,F#4]:q", "[D3,F#3,A3]:q"],
+        ["[D3,F#3,A3]:q", "[F#3,A3,D4]:q", "[A3,D4,F#4]:q", "[D3,F#3,A3]:q"],
+        ["[F#3,A3,D4]:h", "[A3,D4,F#4]:h"],
+        ["[D3,F#3,A3]:w"]
+      ]
+    },
+    {
+      "id": "t4c-003",
+      "slug": "a-major-inversions-rh",
+      "title": "A Major Chord Inversions RH",
+      "summary": "Root position, 1st inversion, 2nd inversion of A major chord.",
+      "goal": "Play all three A major inversions smoothly.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[A3,C#4,E4]:h", "[A3,C#4,E4]:h"],
+        ["[C#4,E4,A4]:h", "[C#4,E4,A4]:h"],
+        ["[E4,A4,C#5]:h", "[E4,A4,C#5]:h"],
+        ["[A3,C#4,E4]:w"],
+        ["[A3,C#4,E4]:q", "[C#4,E4,A4]:q", "[E4,A4,C#5]:q", "[A3,C#4,E4]:q"],
+        ["[A3,C#4,E4]:q", "[C#4,E4,A4]:q", "[E4,A4,C#5]:q", "[A3,C#4,E4]:q"],
+        ["[C#4,E4,A4]:h", "[E4,A4,C#5]:h"],
+        ["[A3,C#4,E4]:w"]
+      ]
+    },
+    {
+      "id": "t4c-004",
+      "slug": "bb-major-inversions-rh",
+      "title": "Bb Major Chord Inversions RH",
+      "summary": "Root position, 1st inversion, 2nd inversion of Bb major chord.",
+      "goal": "Play all three Bb major inversions smoothly.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[Bb3,D4,F4]:h", "[Bb3,D4,F4]:h"],
+        ["[D4,F4,Bb4]:h", "[D4,F4,Bb4]:h"],
+        ["[F4,Bb4,D5]:h", "[F4,Bb4,D5]:h"],
+        ["[Bb3,D4,F4]:w"],
+        ["[Bb3,D4,F4]:q", "[D4,F4,Bb4]:q", "[F4,Bb4,D5]:q", "[Bb3,D4,F4]:q"],
+        ["[Bb3,D4,F4]:q", "[D4,F4,Bb4]:q", "[F4,Bb4,D5]:q", "[Bb3,D4,F4]:q"],
+        ["[D4,F4,Bb4]:h", "[F4,Bb4,D5]:h"],
+        ["[Bb3,D4,F4]:w"]
+      ]
+    },
+    {
+      "id": "t4c-005",
+      "slug": "eb-major-inversions-rh",
+      "title": "Eb Major Chord Inversions RH",
+      "summary": "Root position, 1st inversion, 2nd inversion of Eb major chord.",
+      "goal": "Play all three Eb major inversions smoothly.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[Eb4,G4,Bb4]:h", "[Eb4,G4,Bb4]:h"],
+        ["[G4,Bb4,Eb5]:h", "[G4,Bb4,Eb5]:h"],
+        ["[Bb4,Eb5,G5]:h", "[Bb4,Eb5,G5]:h"],
+        ["[Eb4,G4,Bb4]:w"],
+        ["[Eb4,G4,Bb4]:q", "[G4,Bb4,Eb5]:q", "[Bb4,Eb5,G5]:q", "[Eb4,G4,Bb4]:q"],
+        ["[Eb4,G4,Bb4]:q", "[G4,Bb4,Eb5]:q", "[Bb4,Eb5,G5]:q", "[Eb4,G4,Bb4]:q"],
+        ["[G4,Bb4,Eb5]:h", "[Bb4,Eb5,G5]:h"],
+        ["[Eb4,G4,Bb4]:w"]
+      ]
+    },
+    {
+      "id": "t4c-006",
+      "slug": "ab-major-inversions-rh",
+      "title": "Ab Major Chord Inversions RH",
+      "summary": "Root position, 1st inversion, 2nd inversion of Ab major chord.",
+      "goal": "Play all three Ab major inversions smoothly.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[Ab3,C4,Eb4]:h", "[Ab3,C4,Eb4]:h"],
+        ["[C4,Eb4,Ab4]:h", "[C4,Eb4,Ab4]:h"],
+        ["[Eb4,Ab4,C5]:h", "[Eb4,Ab4,C5]:h"],
+        ["[Ab3,C4,Eb4]:w"],
+        ["[Ab3,C4,Eb4]:q", "[C4,Eb4,Ab4]:q", "[Eb4,Ab4,C5]:q", "[Ab3,C4,Eb4]:q"],
+        ["[Ab3,C4,Eb4]:q", "[C4,Eb4,Ab4]:q", "[Eb4,Ab4,C5]:q", "[Ab3,C4,Eb4]:q"],
+        ["[C4,Eb4,Ab4]:h", "[Eb4,Ab4,C5]:h"],
+        ["[Ab3,C4,Eb4]:w"]
+      ]
+    },
+    {
+      "id": "t4c-007",
+      "slug": "d-major-arpeggio-extended",
+      "title": "D Major Arpeggio Extended HT",
+      "summary": "D major arpeggio over extended range, hands together.",
+      "goal": "Play D major arpeggios HT with fluid crossings.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "F#5:e", "D5:e", "A4:e", "F#4:e"],
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "F#5:e", "D5:e", "A4:e", "F#4:e"],
+        ["D4:q", "A4:q", "D5:q", "F#5:q"],
+        ["D5:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "F#3:e", "A3:e", "D4:e", "A3:e", "F#3:e", "D3:e", "R:e"],
+        ["D3:e", "F#3:e", "A3:e", "D4:e", "A3:e", "F#3:e", "D3:e", "R:e"],
+        ["D3:q", "A3:q", "D4:q", "R:q"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "t4c-008",
+      "slug": "a-major-arpeggio-extended",
+      "title": "A Major Arpeggio Extended HT",
+      "summary": "A major arpeggio over extended range, hands together.",
+      "goal": "Play A major arpeggios HT with fluid crossings.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "C#5:e", "E5:e", "A5:e", "E5:e", "C#5:e", "A4:e", "R:e"],
+        ["A4:e", "C#5:e", "E5:e", "A5:e", "E5:e", "C#5:e", "A4:e", "R:e"],
+        ["A4:q", "E5:q", "A5:q", "R:q"],
+        ["A4:w"]
+      ],
+      "measuresLeft": [
+        ["A2:e", "C#3:e", "E3:e", "A3:e", "E3:e", "C#3:e", "A2:e", "R:e"],
+        ["A2:e", "C#3:e", "E3:e", "A3:e", "E3:e", "C#3:e", "A2:e", "R:e"],
+        ["A2:q", "E3:q", "A3:q", "R:q"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "t4c-009",
+      "slug": "bb-major-arpeggio-extended",
+      "title": "Bb Major Arpeggio Extended HT",
+      "summary": "Bb major arpeggio over extended range, hands together.",
+      "goal": "Play Bb major arpeggios HT with fluid crossings.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb3:e", "D4:e", "F4:e", "Bb4:e", "D5:e", "Bb4:e", "F4:e", "D4:e"],
+        ["Bb3:e", "D4:e", "F4:e", "Bb4:e", "D5:e", "Bb4:e", "F4:e", "D4:e"],
+        ["Bb3:q", "F4:q", "Bb4:q", "D5:q"],
+        ["Bb4:w"]
+      ],
+      "measuresLeft": [
+        ["Bb2:e", "D3:e", "F3:e", "Bb3:e", "F3:e", "D3:e", "Bb2:e", "R:e"],
+        ["Bb2:e", "D3:e", "F3:e", "Bb3:e", "F3:e", "D3:e", "Bb2:e", "R:e"],
+        ["Bb2:q", "F3:q", "Bb3:q", "R:q"],
+        ["Bb2:w"]
+      ]
+    },
+    {
+      "id": "t4c-010",
+      "slug": "eb-major-arpeggio-extended",
+      "title": "Eb Major Arpeggio Extended HT",
+      "summary": "Eb major arpeggio over extended range, hands together.",
+      "goal": "Play Eb major arpeggios HT with fluid crossings.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:e", "G4:e", "Bb4:e", "Eb5:e", "G5:e", "Eb5:e", "Bb4:e", "G4:e"],
+        ["Eb4:e", "G4:e", "Bb4:e", "Eb5:e", "G5:e", "Eb5:e", "Bb4:e", "G4:e"],
+        ["Eb4:q", "Bb4:q", "Eb5:q", "G5:q"],
+        ["Eb5:w"]
+      ],
+      "measuresLeft": [
+        ["Eb3:e", "G3:e", "Bb3:e", "Eb4:e", "Bb3:e", "G3:e", "Eb3:e", "R:e"],
+        ["Eb3:e", "G3:e", "Bb3:e", "Eb4:e", "Bb3:e", "G3:e", "Eb3:e", "R:e"],
+        ["Eb3:q", "Bb3:q", "Eb4:q", "R:q"],
+        ["Eb3:w"]
+      ]
+    },
+    {
+      "id": "t4c-011",
+      "slug": "ab-major-arpeggio-extended",
+      "title": "Ab Major Arpeggio Extended HT",
+      "summary": "Ab major arpeggio over extended range, hands together.",
+      "goal": "Play Ab major arpeggios HT with fluid crossings.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab4:e", "C5:e", "Eb5:e", "Ab5:e", "Eb5:e", "C5:e", "Ab4:e", "R:e"],
+        ["Ab4:e", "C5:e", "Eb5:e", "Ab5:e", "Eb5:e", "C5:e", "Ab4:e", "R:e"],
+        ["Ab4:q", "Eb5:q", "Ab5:q", "R:q"],
+        ["Ab4:w"]
+      ],
+      "measuresLeft": [
+        ["Ab2:e", "C3:e", "Eb3:e", "Ab3:e", "Eb3:e", "C3:e", "Ab2:e", "R:e"],
+        ["Ab2:e", "C3:e", "Eb3:e", "Ab3:e", "Eb3:e", "C3:e", "Ab2:e", "R:e"],
+        ["Ab2:q", "Eb3:q", "Ab3:q", "R:q"],
+        ["Ab2:w"]
+      ]
+    },
+    {
+      "id": "t4c-012",
+      "slug": "d-minor-inversions",
+      "title": "D Minor Chord Inversions",
+      "summary": "Root, 1st, and 2nd inversions of D minor chord.",
+      "goal": "Play all three D minor inversions with smooth transitions.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[D4,F4,A4]:h", "[D4,F4,A4]:h"],
+        ["[F4,A4,D5]:h", "[F4,A4,D5]:h"],
+        ["[A4,D5,F5]:h", "[A4,D5,F5]:h"],
+        ["[D4,F4,A4]:w"],
+        ["[D4,F4,A4]:q", "[F4,A4,D5]:q", "[A4,D5,F5]:q", "[D4,F4,A4]:q"],
+        ["[D4,F4,A4]:q", "[F4,A4,D5]:q", "[A4,D5,F5]:q", "[D4,F4,A4]:q"],
+        ["[F4,A4,D5]:h", "[A4,D5,F5]:h"],
+        ["[D4,F4,A4]:w"]
+      ]
+    },
+    {
+      "id": "t4c-013",
+      "slug": "a-minor-inversions",
+      "title": "A Minor Chord Inversions",
+      "summary": "Root, 1st, and 2nd inversions of A minor chord.",
+      "goal": "Play all three A minor inversions smoothly.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[A3,C4,E4]:h", "[A3,C4,E4]:h"],
+        ["[C4,E4,A4]:h", "[C4,E4,A4]:h"],
+        ["[E4,A4,C5]:h", "[E4,A4,C5]:h"],
+        ["[A3,C4,E4]:w"],
+        ["[A3,C4,E4]:q", "[C4,E4,A4]:q", "[E4,A4,C5]:q", "[A3,C4,E4]:q"],
+        ["[A3,C4,E4]:q", "[C4,E4,A4]:q", "[E4,A4,C5]:q", "[A3,C4,E4]:q"],
+        ["[C4,E4,A4]:h", "[E4,A4,C5]:h"],
+        ["[A3,C4,E4]:w"]
+      ]
+    },
+    {
+      "id": "t4c-014",
+      "slug": "inversion-cycle-d",
+      "title": "Inversion Cycle in D",
+      "summary": "Cycle through I, IV, V inversions in D major.",
+      "goal": "Play D major I-IV-V using smooth inversions.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[D4,F#4,A4]:h", "[D4,F#4,A4]:h"],
+        ["[D4,G4,B4]:h", "[D4,G4,B4]:h"],
+        ["[C#4,E4,A4]:h", "[C#4,E4,A4]:h"],
+        ["[D4,F#4,A4]:w"],
+        ["[F#4,A4,D5]:h", "[G4,B4,D5]:h"],
+        ["[E4,A4,C#5]:h", "[F#4,A4,D5]:h"],
+        ["[D4,G4,B4]:h", "[C#4,E4,A4]:h"],
+        ["[D4,F#4,A4]:w"]
+      ]
+    },
+    {
+      "id": "t4c-015",
+      "slug": "inversion-cycle-bb",
+      "title": "Inversion Cycle in Bb",
+      "summary": "Cycle through I, IV, V inversions in Bb major.",
+      "goal": "Play Bb major I-IV-V using smooth inversions.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[Bb3,D4,F4]:h", "[Bb3,D4,F4]:h"],
+        ["[Bb3,Eb4,G4]:h", "[Bb3,Eb4,G4]:h"],
+        ["[A3,C4,F4]:h", "[A3,C4,F4]:h"],
+        ["[Bb3,D4,F4]:w"],
+        ["[D4,F4,Bb4]:h", "[Eb4,G4,Bb4]:h"],
+        ["[C4,F4,A4]:h", "[D4,F4,Bb4]:h"],
+        ["[Bb3,Eb4,G4]:h", "[A3,C4,F4]:h"],
+        ["[Bb3,D4,F4]:w"]
+      ]
+    },
+    {
+      "id": "t4c-016",
+      "slug": "inversion-cycle-eb",
+      "title": "Inversion Cycle in Eb",
+      "summary": "Cycle through I, IV, V inversions in Eb major.",
+      "goal": "Play Eb major I-IV-V using smooth inversions.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[Eb4,G4,Bb4]:h", "[Eb4,G4,Bb4]:h"],
+        ["[Eb4,Ab4,C5]:h", "[Eb4,Ab4,C5]:h"],
+        ["[D4,F4,Bb4]:h", "[D4,F4,Bb4]:h"],
+        ["[Eb4,G4,Bb4]:w"],
+        ["[G4,Bb4,Eb5]:h", "[Ab4,C5,Eb5]:h"],
+        ["[F4,Bb4,D5]:h", "[G4,Bb4,Eb5]:h"],
+        ["[Eb4,Ab4,C5]:h", "[D4,F4,Bb4]:h"],
+        ["[Eb4,G4,Bb4]:w"]
+      ]
+    },
+    {
+      "id": "t4c-017",
+      "slug": "contrary-motion-d",
+      "title": "Contrary Motion in D Major",
+      "summary": "D major scale in contrary motion — hands move in opposite directions.",
+      "goal": "Play D major contrary motion with synchronized hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D5:e", "C#5:e", "B4:e", "A4:e", "G4:e", "F#4:e", "E4:e", "D4:e"],
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D5:w"]
+      ],
+      "measuresLeft": [
+        ["D4:e", "C#4:e", "B3:e", "A3:e", "G3:e", "F#3:e", "E3:e", "D3:e"],
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:e", "B3:e", "C#4:e", "D4:e"],
+        ["D4:e", "C#4:e", "B3:e", "A3:e", "G3:e", "F#3:e", "E3:e", "D3:e"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "t4c-018",
+      "slug": "contrary-motion-bb",
+      "title": "Contrary Motion in Bb Major",
+      "summary": "Bb major scale in contrary motion.",
+      "goal": "Play Bb major contrary motion with synchronized hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:e", "C5:e", "D5:e", "Eb5:e", "F5:e", "G5:e", "A5:e", "Bb5:e"],
+        ["Bb5:e", "A5:e", "G5:e", "F5:e", "Eb5:e", "D5:e", "C5:e", "Bb4:e"],
+        ["Bb4:e", "C5:e", "D5:e", "Eb5:e", "F5:e", "G5:e", "A5:e", "Bb5:e"],
+        ["Bb5:w"]
+      ],
+      "measuresLeft": [
+        ["Bb3:e", "A3:e", "G3:e", "F3:e", "Eb3:e", "D3:e", "C3:e", "Bb2:e"],
+        ["Bb2:e", "C3:e", "D3:e", "Eb3:e", "F3:e", "G3:e", "A3:e", "Bb3:e"],
+        ["Bb3:e", "A3:e", "G3:e", "F3:e", "Eb3:e", "D3:e", "C3:e", "Bb2:e"],
+        ["Bb2:w"]
+      ]
+    },
+    {
+      "id": "t4c-019",
+      "slug": "sharp-flat-key-review",
+      "title": "Sharp & Flat Key Arpeggio Review",
+      "summary": "Alternating arpeggios in D major and Bb major — sharp and flat key contrast.",
+      "goal": "Switch between sharp and flat keys fluidly.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "A4:e", "F#4:e", "D4:e", "R:e"],
+        ["Bb3:e", "D4:e", "F4:e", "Bb4:e", "F4:e", "D4:e", "Bb3:e", "R:e"],
+        ["A4:e", "C#5:e", "E5:e", "A5:e", "E5:e", "C#5:e", "A4:e", "R:e"],
+        ["Eb4:e", "G4:e", "Bb4:e", "Eb5:e", "Bb4:e", "G4:e", "Eb4:e", "R:e"],
+        ["D4:q", "F#4:q", "A4:q", "D5:q"],
+        ["Bb3:q", "D4:q", "F4:q", "Bb4:q"],
+        ["A4:q", "C#5:q", "E5:q", "A5:q"],
+        ["Eb4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "F#3:e", "A3:e", "D4:e", "A3:e", "F#3:e", "D3:e", "R:e"],
+        ["Bb2:e", "D3:e", "F3:e", "Bb3:e", "F3:e", "D3:e", "Bb2:e", "R:e"],
+        ["A2:e", "C#3:e", "E3:e", "A3:e", "E3:e", "C#3:e", "A2:e", "R:e"],
+        ["Eb3:e", "G3:e", "Bb3:e", "Eb4:e", "Bb3:e", "G3:e", "Eb3:e", "R:e"],
+        ["D3:q", "F#3:q", "A3:q", "D4:q"],
+        ["Bb2:q", "D3:q", "F3:q", "Bb3:q"],
+        ["A2:q", "C#3:q", "E3:q", "A3:q"],
+        ["Eb3:w"]
+      ]
+    },
+    {
+      "id": "t4c-020",
+      "slug": "all-keys-inversion-combo",
+      "title": "All L4 Keys Inversion Combo",
+      "summary": "Cycle through chord inversions in D, A, Bb, Eb, Ab — one measure each.",
+      "goal": "Navigate all five L4 key inversions in one exercise.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[D4,F#4,A4]:q", "[F#4,A4,D5]:q", "[A4,D5,F#5]:q", "[D4,F#4,A4]:q"],
+        ["[A3,C#4,E4]:q", "[C#4,E4,A4]:q", "[E4,A4,C#5]:q", "[A3,C#4,E4]:q"],
+        ["[Bb3,D4,F4]:q", "[D4,F4,Bb4]:q", "[F4,Bb4,D5]:q", "[Bb3,D4,F4]:q"],
+        ["[Eb4,G4,Bb4]:q", "[G4,Bb4,Eb5]:q", "[Bb4,Eb5,G5]:q", "[Eb4,G4,Bb4]:q"],
+        ["[Ab3,C4,Eb4]:q", "[C4,Eb4,Ab4]:q", "[Eb4,Ab4,C5]:q", "[Ab3,C4,Eb4]:q"],
+        ["[D4,F#4,A4]:h", "[A3,C#4,E4]:h"],
+        ["[Bb3,D4,F4]:h", "[Eb4,G4,Bb4]:h"],
+        ["[Ab3,C4,Eb4]:w"]
+      ]
+    }
+  ]
+}

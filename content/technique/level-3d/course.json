@@ -1,0 +1,493 @@
+{
+  "courseId": "technique-level-3d",
+  "title": "Technique Level 3D — Application",
+  "level": 3,
+  "summary": "Czerny-style finger independence etudes, chord progressions with dynamics, pedal exercises with sustained harmonies, 12-bar blues chord patterns, and Hanon-style exercises.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "t3d-001",
+      "slug": "czerny-style-etude-1",
+      "title": "Finger Independence Etude No. 1",
+      "summary": "Czerny-style etude focusing on RH finger independence in C major.",
+      "goal": "Play with even, independent finger motion through running eighth-note patterns.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","C4:e","D4:e","E4:e","F4:e","D4:e"],
+        ["E4:e","F4:e","G4:e","E4:e","F4:e","G4:e","A4:e","F4:e"],
+        ["G4:e","A4:e","B4:e","G4:e","A4:e","B4:e","C5:e","A4:e"],
+        ["B4:e","C5:e","D5:e","B4:e","C5:h"]
+      ]
+    },
+    {
+      "id": "t3d-002",
+      "slug": "czerny-style-etude-2",
+      "title": "Finger Independence Etude No. 2",
+      "summary": "Czerny-style etude with descending patterns in C major.",
+      "goal": "Maintain even finger independence through descending runs.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C5:e","B4:e","A4:e","C5:e","B4:e","A4:e","G4:e","B4:e"],
+        ["A4:e","G4:e","F4:e","A4:e","G4:e","F4:e","E4:e","G4:e"],
+        ["F4:e","E4:e","D4:e","F4:e","E4:e","D4:e","C4:e","E4:e"],
+        ["D4:e","C4:e","D4:e","E4:e","C4:h"]
+      ]
+    },
+    {
+      "id": "t3d-003",
+      "slug": "czerny-style-etude-3",
+      "title": "Finger Independence Etude No. 3",
+      "summary": "Czerny-style etude with alternating hand patterns in G major.",
+      "goal": "Build finger agility through alternating patterns in G major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","A4:e","B4:e","A4:e","G4:e","B4:e","A4:e","G4:e"],
+        ["A4:e","B4:e","C5:e","B4:e","A4:e","C5:e","B4:e","A4:e"],
+        ["B4:e","C5:e","D5:e","C5:e","B4:e","D5:e","C5:e","B4:e"],
+        ["C5:e","D5:e","E5:e","D5:e","C5:e","B4:e","G4:q"]
+      ]
+    },
+    {
+      "id": "t3d-004",
+      "slug": "czerny-style-etude-4",
+      "title": "Finger Independence Etude No. 4",
+      "summary": "Czerny-style etude with LH finger independence in C major.",
+      "goal": "Build left hand finger agility through running patterns.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C3:e","D3:e","E3:e","C3:e","D3:e","E3:e","F3:e","D3:e"],
+        ["E3:e","F3:e","G3:e","E3:e","F3:e","G3:e","A3:e","F3:e"],
+        ["G3:e","A3:e","B3:e","G3:e","A3:e","B3:e","C4:e","A3:e"],
+        ["B3:e","C4:e","B3:e","A3:e","G3:e","F3:e","C3:q"]
+      ]
+    },
+    {
+      "id": "t3d-005",
+      "slug": "czerny-style-etude-5",
+      "title": "Finger Independence Etude No. 5",
+      "summary": "Both hands play Czerny-style patterns in parallel.",
+      "goal": "Coordinate both hands through finger independence patterns.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","C4:e","F4:e","E4:e","D4:e","C4:e"],
+        ["D4:e","E4:e","F4:e","D4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["E4:e","F4:e","G4:e","E4:e","A4:e","G4:e","F4:e","E4:e"],
+        ["F4:e","G4:e","A4:e","B4:e","C5:h"]
+      ],
+      "measuresLeft": [
+        ["C3:e","D3:e","E3:e","C3:e","F3:e","E3:e","D3:e","C3:e"],
+        ["D3:e","E3:e","F3:e","D3:e","G3:e","F3:e","E3:e","D3:e"],
+        ["E3:e","F3:e","G3:e","E3:e","A3:e","G3:e","F3:e","E3:e"],
+        ["F3:e","G3:e","A3:e","B3:e","C4:h"]
+      ]
+    },
+    {
+      "id": "t3d-006",
+      "slug": "chord-progression-dynamics-c-p",
+      "title": "Chord Progression in C — Piano",
+      "summary": "I-IV-V-I progression in C major played softly (piano dynamic).",
+      "goal": "Play chord progressions with controlled soft dynamic.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [{"measure": 1, "marking": "p"}],
+      "measures": [
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,F4,A4]:h","[C4,F4,A4]:h"],
+        ["[B3,D4,G4]:h","[B3,D4,G4]:h"],
+        ["[C4,E4,G4]:w"]
+      ]
+    },
+    {
+      "id": "t3d-007",
+      "slug": "chord-progression-dynamics-c-f",
+      "title": "Chord Progression in C — Forte",
+      "summary": "I-IV-V-I progression in C major played strongly (forte dynamic).",
+      "goal": "Play chord progressions with strong, confident forte dynamic.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [{"measure": 1, "marking": "f"}],
+      "measures": [
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,F4,A4]:h","[C4,F4,A4]:h"],
+        ["[B3,D4,G4]:h","[B3,D4,G4]:h"],
+        ["[C4,E4,G4]:w"]
+      ]
+    },
+    {
+      "id": "t3d-008",
+      "slug": "chord-progression-dynamics-g-mf",
+      "title": "Chord Progression in G — Mezzo Forte",
+      "summary": "I-IV-V-I progression in G major at mezzo forte.",
+      "goal": "Play chord progressions with moderate, even mezzo forte dynamic.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [{"measure": 1, "marking": "mf"}],
+      "measures": [
+        ["[G4,B4,D5]:h","[G4,B4,D5]:h"],
+        ["[G4,C5,E5]:h","[G4,C5,E5]:h"],
+        ["[F#4,A4,D5]:h","[F#4,A4,D5]:h"],
+        ["[G4,B4,D5]:w"]
+      ]
+    },
+    {
+      "id": "t3d-009",
+      "slug": "chord-progression-dynamics-contrast",
+      "title": "Chord Progression — Dynamic Contrast",
+      "summary": "Alternating piano and forte within a chord progression.",
+      "goal": "Control dynamic contrast between soft and loud chords.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [{"measure": 1, "marking": "p"}, {"measure": 2, "marking": "f"}, {"measure": 3, "marking": "p"}, {"measure": 4, "marking": "f"}],
+      "measures": [
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,F4,A4]:h","[C4,F4,A4]:h"],
+        ["[B3,D4,G4]:h","[B3,D4,G4]:h"],
+        ["[C4,E4,G4]:w"]
+      ]
+    },
+    {
+      "id": "t3d-010",
+      "slug": "chord-progression-crescendo",
+      "title": "Chord Progression — Crescendo",
+      "summary": "Gradually increasing volume through a chord progression.",
+      "goal": "Shape a smooth crescendo from piano to forte through chords.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [{"measure": 1, "marking": "p"}, {"measure": 2, "marking": "mp"}, {"measure": 3, "marking": "mf"}, {"measure": 4, "marking": "f"}],
+      "measures": [
+        ["[C4,E4,G4]:h","[E4,G4,C5]:h"],
+        ["[C4,F4,A4]:h","[F4,A4,C5]:h"],
+        ["[B3,D4,G4]:h","[D4,G4,B4]:h"],
+        ["[C4,E4,G4]:w"]
+      ]
+    },
+    {
+      "id": "t3d-011",
+      "slug": "pedal-sustained-harmonies-1",
+      "title": "Pedal Exercise — Sustained Harmonies I",
+      "summary": "Use pedal to sustain bass while right hand plays melody.",
+      "goal": "Practice pedal changes with sustained bass harmonies.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "pedal": [{"measure": 1, "beat": 1, "type": "down"}, {"measure": 4, "beat": 4, "type": "up"}],
+      "dynamics": [{"measure": 1, "marking": "p"}],
+      "measures": [
+        ["E4:q","G4:q","C5:q","E5:q"],
+        ["D5:h","C5:h"],
+        ["F4:q","A4:q","C5:q","F5:q"],
+        ["E5:h","C5:h"]
+      ],
+      "measuresLeft": [
+        ["C3:h","G3:h"],
+        ["C3:w"],
+        ["F3:h","C4:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t3d-012",
+      "slug": "pedal-sustained-harmonies-2",
+      "title": "Pedal Exercise — Sustained Harmonies II",
+      "summary": "Pedal technique with changing harmonies in G major.",
+      "goal": "Change pedal cleanly between different harmonic bases.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "pedal": [{"measure": 1, "beat": 1, "type": "down"}, {"measure": 4, "beat": 4, "type": "up"}],
+      "dynamics": [{"measure": 1, "marking": "mp"}],
+      "measures": [
+        ["B4:q","D5:q","G5:q","D5:q"],
+        ["B4:h","G4:h"],
+        ["C5:q","E5:q","G5:q","E5:q"],
+        ["D5:h","B4:h"]
+      ],
+      "measuresLeft": [
+        ["G2:h","D3:h"],
+        ["G2:w"],
+        ["C3:h","G3:h"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "t3d-013",
+      "slug": "pedal-legato-melody",
+      "title": "Pedal Exercise — Legato Melody",
+      "summary": "Pedal supports a flowing legato melody over held bass.",
+      "goal": "Use pedal to connect melody notes while bass sustains.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 56,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "pedal": [{"measure": 1, "beat": 1, "type": "down"}, {"measure": 4, "beat": 4, "type": "up"}],
+      "dynamics": [{"measure": 1, "marking": "p"}],
+      "measures": [
+        ["F4:q","G4:q","A4:q","Bb4:q"],
+        ["C5:h","A4:h"],
+        ["Bb4:q","C5:q","D5:q","C5:q"],
+        ["A4:h","F4:h"]
+      ],
+      "measuresLeft": [
+        ["F2:w"],
+        ["F2:h","C3:h"],
+        ["Bb2:w"],
+        ["F2:w"]
+      ]
+    },
+    {
+      "id": "t3d-014",
+      "slug": "pedal-chord-changes",
+      "title": "Pedal Exercise — Clean Chord Changes",
+      "summary": "Practice lifting and reapplying pedal between chord changes.",
+      "goal": "Execute clean pedal changes without blurring between chords.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "pedal": [{"measure": 1, "beat": 1, "type": "down"}, {"measure": 1, "beat": 3, "type": "up"}, {"measure": 1, "beat": 4, "type": "down"}, {"measure": 2, "beat": 3, "type": "up"}, {"measure": 2, "beat": 4, "type": "down"}, {"measure": 3, "beat": 3, "type": "up"}, {"measure": 3, "beat": 4, "type": "down"}, {"measure": 4, "beat": 4, "type": "up"}],
+      "dynamics": [{"measure": 1, "marking": "mp"}],
+      "measures": [
+        ["[C4,E4,G4]:h","R:q","[C4,E4,G4]:q"],
+        ["[C4,F4,A4]:h","R:q","[C4,F4,A4]:q"],
+        ["[B3,D4,G4]:h","R:q","[B3,D4,G4]:q"],
+        ["[C4,E4,G4]:w"]
+      ]
+    },
+    {
+      "id": "t3d-015",
+      "slug": "twelve-bar-blues-c-rh",
+      "title": "12-Bar Blues in C — RH Chords",
+      "summary": "Right hand plays the 12-bar blues chord pattern (I-IV-V) in C.",
+      "goal": "Learn the fundamental 12-bar blues form with blocked chords.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "swing": true,
+      "measures": [
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,F4,A4]:h","[C4,F4,A4]:h"],
+        ["[C4,F4,A4]:h","[C4,F4,A4]:h"],
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[B3,D4,G4]:h","[B3,D4,G4]:h"],
+        ["[C4,F4,A4]:h","[C4,F4,A4]:h"],
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[B3,D4,G4]:h","[C4,E4,G4]:h"]
+      ]
+    },
+    {
+      "id": "t3d-016",
+      "slug": "twelve-bar-blues-c-lh",
+      "title": "12-Bar Blues in C — LH Bass",
+      "summary": "Left hand plays walking bass pattern through 12-bar blues in C.",
+      "goal": "Play a walking bass line through the 12-bar blues form.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "swing": true,
+      "measures": [
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["C3:q","E3:q","G3:q","A3:q"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["C3:q","G3:q","E3:q","C3:q"],
+        ["F3:q","A3:q","C4:q","A3:q"],
+        ["F3:q","A3:q","C4:q","A3:q"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["G3:q","B3:q","D4:q","B3:q"],
+        ["F3:q","A3:q","C4:q","A3:q"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["G3:q","E3:q","C3:h"]
+      ]
+    },
+    {
+      "id": "t3d-017",
+      "slug": "twelve-bar-blues-c-both",
+      "title": "12-Bar Blues in C — Both Hands",
+      "summary": "Both hands play the 12-bar blues: RH chords, LH walking bass.",
+      "goal": "Combine blues chords and walking bass in the 12-bar form.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "swing": true,
+      "measures": [
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,F4,A4]:h","[C4,F4,A4]:h"],
+        ["[C4,F4,A4]:h","[C4,F4,A4]:h"],
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[B3,D4,G4]:h","[B3,D4,G4]:h"],
+        ["[C4,F4,A4]:h","[C4,F4,A4]:h"],
+        ["[C4,E4,G4]:h","[C4,E4,G4]:h"],
+        ["[B3,D4,G4]:h","[C4,E4,G4]:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["C3:q","E3:q","G3:q","A3:q"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["C3:q","G3:q","E3:q","C3:q"],
+        ["F3:q","A3:q","C4:q","A3:q"],
+        ["F3:q","A3:q","C4:q","A3:q"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["G3:q","B3:q","D4:q","B3:q"],
+        ["F3:q","A3:q","C4:q","A3:q"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["G3:q","E3:q","C3:h"]
+      ]
+    },
+    {
+      "id": "t3d-018",
+      "slug": "hanon-style-exercise-1",
+      "title": "Hanon-Style Exercise No. 1",
+      "summary": "Five-finger ascending/descending pattern for finger independence.",
+      "goal": "Play the classic 1-2-3-4-5 Hanon pattern with even tone.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","E4:e","F4:e","G4:e","A4:e","G4:e","F4:e","E4:e"],
+        ["D4:e","F4:e","G4:e","A4:e","B4:e","A4:e","G4:e","F4:e"],
+        ["E4:e","G4:e","A4:e","B4:e","C5:e","B4:e","A4:e","G4:e"],
+        ["F4:e","A4:e","B4:e","C5:e","D5:e","C5:e","B4:e","A4:e"]
+      ]
+    },
+    {
+      "id": "t3d-019",
+      "slug": "hanon-style-exercise-2",
+      "title": "Hanon-Style Exercise No. 2",
+      "summary": "Descending Hanon-style pattern for finger independence.",
+      "goal": "Play the descending Hanon pattern with even, controlled motion.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C5:e","A4:e","G4:e","F4:e","E4:e","F4:e","G4:e","A4:e"],
+        ["B4:e","G4:e","F4:e","E4:e","D4:e","E4:e","F4:e","G4:e"],
+        ["A4:e","F4:e","E4:e","D4:e","C4:e","D4:e","E4:e","F4:e"],
+        ["G4:e","E4:e","D4:e","C4:e","C4:h"]
+      ]
+    },
+    {
+      "id": "t3d-020",
+      "slug": "hanon-style-exercise-3",
+      "title": "Hanon-Style Exercise No. 3",
+      "summary": "Both hands play Hanon-style patterns in parallel.",
+      "goal": "Coordinate both hands through Hanon-style finger patterns.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","E4:e","F4:e","G4:e","A4:e","G4:e","F4:e","E4:e"],
+        ["D4:e","F4:e","G4:e","A4:e","B4:e","A4:e","G4:e","F4:e"],
+        ["E4:e","G4:e","A4:e","B4:e","C5:e","B4:e","A4:e","G4:e"],
+        ["C5:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:e","E3:e","F3:e","G3:e","A3:e","G3:e","F3:e","E3:e"],
+        ["D3:e","F3:e","G3:e","A3:e","B3:e","A3:e","G3:e","F3:e"],
+        ["E3:e","G3:e","A3:e","B3:e","C4:e","B3:e","A3:e","G3:e"],
+        ["C4:h","C3:h"]
+      ]
+    }
+  ]
+}

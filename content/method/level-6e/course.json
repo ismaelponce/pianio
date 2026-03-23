@@ -1,0 +1,2883 @@
+{
+  "courseId": "method-level-6e",
+  "title": "Method Level 6E — Mastery",
+  "level": 6,
+  "summary": "Capstone mastery exercises spanning all Level 6 keys: Ab major, F/C/Bb harmonic minor, E/B/F# harmonic minor, and chromatic passages. Velocity études, perpetual-motion figures, and longer pieces up to 12 measures complete the Method curriculum.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "m6e-001",
+      "slug": "m6e-001",
+      "title": "Velocity Étude in Ab Major",
+      "summary": "Ascending and descending Ab major scale runs in eighth notes for right hand over steady half-note harmonic bass.",
+      "goal": "Build finger velocity and evenness through the Ab major scale at tempo 108.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 108,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        },
+        {
+          "measure": 5,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e"
+        ],
+        [
+          "Ab5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e"
+        ],
+        [
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e",
+          "Eb4:e"
+        ],
+        [
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e"
+        ],
+        [
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e"
+        ],
+        [
+          "Ab4:e",
+          "C5:e",
+          "Eb5:e",
+          "G5:e",
+          "Ab5:e",
+          "G5:e",
+          "Eb5:e",
+          "C5:e"
+        ],
+        [
+          "Bb4:q",
+          "G4:q",
+          "Ab4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab2:h",
+          "Eb3:h"
+        ],
+        [
+          "Ab2:h",
+          "Eb3:h"
+        ],
+        [
+          "Db3:h",
+          "Ab3:h"
+        ],
+        [
+          "Eb3:h",
+          "Bb3:h"
+        ],
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "Db3:h",
+          "Ab3:h"
+        ],
+        [
+          "Eb3:h",
+          "G3:h"
+        ],
+        [
+          "Ab2:h",
+          "Ab3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-002",
+      "slug": "m6e-002",
+      "title": "Perpetual Motion in F Harmonic Minor",
+      "summary": "Continuous eighth-note motion through the F harmonic minor scale, featuring the raised 7th (E natural) as a leading tone.",
+      "goal": "Maintain even perpetual-motion sixteenth-note texture while outlining F harmonic minor harmony.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 96,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        },
+        {
+          "measure": 5,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "E5:e"
+        ],
+        [
+          "F5:e",
+          "E5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e"
+        ],
+        [
+          "F4:e",
+          "Ab4:e",
+          "C5:e",
+          "Eb5:e",
+          "E5:e",
+          "C5:e",
+          "Db5:e",
+          "Bb4:e"
+        ],
+        [
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e",
+          "Eb4:e",
+          "Db4:e",
+          "C4:e"
+        ],
+        [
+          "C4:e",
+          "Db4:e",
+          "Eb4:e",
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e"
+        ],
+        [
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e",
+          "E4:e",
+          "F4:e"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "E5:e",
+          "F5:e",
+          "E5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:q",
+          "G4:q",
+          "F4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "Db3:h",
+          "Ab3:h"
+        ],
+        [
+          "Bb2:h",
+          "F3:h"
+        ],
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "Db3:h",
+          "Ab3:h"
+        ],
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "F2:h",
+          "F3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-003",
+      "slug": "m6e-003",
+      "title": "Canon Fragment in C Harmonic Minor",
+      "summary": "Right hand enters with a rising C harmonic minor subject; left hand follows two beats later in strict imitation at the lower octave.",
+      "goal": "Coordinate independent voices in canonic texture while maintaining the raised 7th (B natural) in both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C5:q",
+          "D5:q",
+          "Eb5:q",
+          "F5:q"
+        ],
+        [
+          "G5:q",
+          "Ab5:q",
+          "Bb5:q",
+          "B5:q"
+        ],
+        [
+          "C5:h",
+          "B4:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:q",
+          "Ab4:q",
+          "G4:q",
+          "F4:q"
+        ],
+        [
+          "G4:h",
+          "Ab4:q",
+          "B4:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "Ab4:q",
+          "G4:q"
+        ],
+        [
+          "F4:h",
+          "G4:h"
+        ],
+        [
+          "Eb5:q",
+          "D5:q",
+          "C5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "R:h",
+          "C4:q",
+          "D4:q"
+        ],
+        [
+          "Eb4:q",
+          "F4:q",
+          "G4:q",
+          "Ab4:q"
+        ],
+        [
+          "Bb3:q",
+          "B3:q",
+          "C4:h"
+        ],
+        [
+          "Bb3:q",
+          "Ab3:q",
+          "G3:q",
+          "F3:q"
+        ],
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "Eb3:q",
+          "D3:q",
+          "C3:q",
+          "B2:q"
+        ],
+        [
+          "F3:h",
+          "G3:h"
+        ],
+        [
+          "C3:h",
+          "C4:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-004",
+      "slug": "m6e-004",
+      "title": "Tarantella in E Harmonic Minor",
+      "summary": "Fast dance in E harmonic minor with driving eighth notes in the right hand and sustained harmonic support in the left.",
+      "goal": "Execute rapid E harmonic minor passages with D# leading tone at quarter = 116.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 116,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 8,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e"
+        ],
+        [
+          "E5:e",
+          "D#5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D#5:e"
+        ],
+        [
+          "E5:q",
+          "D#5:q",
+          "E5:h"
+        ],
+        [
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D#5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e"
+        ],
+        [
+          "B5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e"
+        ],
+        [
+          "B5:e",
+          "C5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "C5:e"
+        ],
+        [
+          "D#5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e"
+        ],
+        [
+          "F#5:q",
+          "D#5:q",
+          "E5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "E3:h",
+          "B3:h"
+        ],
+        [
+          "B2:h",
+          "E3:h"
+        ],
+        [
+          "E3:h",
+          "G#3:h"
+        ],
+        [
+          "A2:h",
+          "E3:h"
+        ],
+        [
+          "G3:h",
+          "D4:h"
+        ],
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "B2:h",
+          "F#3:h"
+        ],
+        [
+          "E2:h",
+          "E3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-005",
+      "slug": "m6e-005",
+      "title": "Nocturne Capstone in Bb Minor",
+      "summary": "A flowing 3/4 nocturne in Bb harmonic minor with sustained melody and expressive use of the A natural raised 7th leading tone.",
+      "goal": "Shape a singing melody in Bb minor over 10 measures with careful voice leading to the raised 7th.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 58,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 6,
+          "marking": "mf"
+        },
+        {
+          "measure": 9,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 10,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "Db5:q"
+        ],
+        [
+          "Eb5:q",
+          "F5:q",
+          "Eb5:q"
+        ],
+        [
+          "Db5:q",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:q",
+          "Db5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "A4:q"
+        ],
+        [
+          "Bb4:q",
+          "A4:q",
+          "Bb4:q"
+        ],
+        [
+          "Gb5:q",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:h",
+          "Db5:q"
+        ],
+        [
+          "Bb4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q"
+        ],
+        [
+          "Gb2:q",
+          "Db3:q",
+          "Gb3:q"
+        ],
+        [
+          "Db3:q",
+          "Ab3:q",
+          "Db4:q"
+        ],
+        [
+          "Bb2:q",
+          "Gb3:q",
+          "Bb3:q"
+        ],
+        [
+          "Db3:q",
+          "Ab3:q",
+          "F3:q"
+        ],
+        [
+          "F3:q",
+          "C4:q",
+          "F3:q"
+        ],
+        [
+          "F3:q",
+          "A3:q",
+          "F3:q"
+        ],
+        [
+          "Gb2:q",
+          "Db3:q",
+          "Gb3:q"
+        ],
+        [
+          "F3:h",
+          "C4:q"
+        ],
+        [
+          "Bb2:h",
+          "F3:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-006",
+      "slug": "m6e-006",
+      "title": "Étude in B Harmonic Minor",
+      "summary": "Scale-based étude through B harmonic minor with running eighth notes and the A# leading tone highlighted at the top of each phrase.",
+      "goal": "Master B harmonic minor fingering at tempo 100 with clear A# raised 7th leading to the octave.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 100,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "A#5:e"
+        ],
+        [
+          "B5:e",
+          "A#5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "B4:e",
+          "D5:e",
+          "F#5:e",
+          "A#5:e",
+          "B5:e",
+          "A#5:e",
+          "F#5:e",
+          "D5:e"
+        ],
+        [
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "A#5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e"
+        ],
+        [
+          "G5:e",
+          "A5:e",
+          "A#5:e",
+          "B5:e",
+          "A#5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e"
+        ],
+        [
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "A#4:e",
+          "B4:e",
+          "C#5:e"
+        ],
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B2:h",
+          "F#3:h"
+        ],
+        [
+          "B2:h",
+          "F#3:h"
+        ],
+        [
+          "G3:h",
+          "D4:h"
+        ],
+        [
+          "E3:h",
+          "B3:h"
+        ],
+        [
+          "G3:h",
+          "D4:h"
+        ],
+        [
+          "D3:h",
+          "A3:h"
+        ],
+        [
+          "B2:h",
+          "A#2:h"
+        ],
+        [
+          "B2:h",
+          "B3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-007",
+      "slug": "m6e-007",
+      "title": "Scherzo Fragment in F# Harmonic Minor",
+      "summary": "Brisk scherzo through F# harmonic minor with E# as raised 7th enharmonic leading tone, rapid eighth-note runs.",
+      "goal": "Navigate F# harmonic minor at tempo 112, treating E# (enharmonic F) as a leading tone to F#.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 112,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        },
+        {
+          "measure": 5,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "F#4:e",
+          "G#4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "E#5:e"
+        ],
+        [
+          "F#5:e",
+          "E#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "A4:e",
+          "G#4:e"
+        ],
+        [
+          "F#4:e",
+          "A4:e",
+          "C#5:e",
+          "E#5:e",
+          "F#5:e",
+          "E#5:e",
+          "C#5:e",
+          "A4:e"
+        ],
+        [
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "E#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "G#4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "B4:e",
+          "A4:e",
+          "G#4:e",
+          "F#4:e",
+          "E#4:e",
+          "F#4:e",
+          "G#4:e",
+          "A4:e"
+        ],
+        [
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "E#5:e",
+          "F#5:e",
+          "E#5:e",
+          "E5:e",
+          "D5:e"
+        ],
+        [
+          "E5:q",
+          "C#5:q",
+          "F#4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F#3:h",
+          "C#4:h"
+        ],
+        [
+          "F#3:h",
+          "C#4:h"
+        ],
+        [
+          "D3:h",
+          "A3:h"
+        ],
+        [
+          "B2:h",
+          "F#3:h"
+        ],
+        [
+          "G#3:h",
+          "D4:h"
+        ],
+        [
+          "C#3:h",
+          "G#3:h"
+        ],
+        [
+          "F#2:h",
+          "C#3:h"
+        ],
+        [
+          "F#2:h",
+          "F#3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-008",
+      "slug": "m6e-008",
+      "title": "Sonatina in Ab Major",
+      "summary": "A lyrical sonatina in Ab major spanning 10 measures with quarter-note melody, eighth-note runs, and a broad climax in measure 7.",
+      "goal": "Play a complete sonatina exposition in Ab major with musical shaping across 10 measures.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 92,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        },
+        {
+          "measure": 6,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Db5:q"
+        ],
+        [
+          "Eb5:q",
+          "F5:q",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:q",
+          "Db5:q",
+          "Eb5:q",
+          "F5:q"
+        ],
+        [
+          "G5:q",
+          "F5:q",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:h",
+          "Bb4:q",
+          "Ab4:q"
+        ],
+        [
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e",
+          "Bb5:e",
+          "Ab5:e"
+        ],
+        [
+          "G5:q",
+          "F5:q",
+          "Eb5:h"
+        ],
+        [
+          "Ab5:q",
+          "G5:q",
+          "F5:q",
+          "Eb5:q"
+        ],
+        [
+          "Db5:q",
+          "C5:q",
+          "Ab4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab2:h",
+          "Eb3:h"
+        ],
+        [
+          "Eb3:h",
+          "Bb3:h"
+        ],
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "Db3:h",
+          "Ab3:h"
+        ],
+        [
+          "Ab2:h",
+          "Eb3:h"
+        ],
+        [
+          "Eb3:h",
+          "G3:h"
+        ],
+        [
+          "Ab3:h",
+          "Eb4:h"
+        ],
+        [
+          "Eb3:h",
+          "Bb3:h"
+        ],
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "Ab2:h",
+          "Ab3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-009",
+      "slug": "m6e-009",
+      "title": "Fugue Subject in C Harmonic Minor",
+      "summary": "A two-voice fugal texture: right hand presents the C harmonic minor subject, left hand enters one measure later at the lower octave.",
+      "goal": "Balance two independent contrapuntal voices through C harmonic minor, keeping the B natural raised 7th clear.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C5:q",
+          "D5:q",
+          "Eb5:q",
+          "F5:q"
+        ],
+        [
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e",
+          "B4:e",
+          "C5:e",
+          "D5:e"
+        ],
+        [
+          "Eb5:q",
+          "F5:q",
+          "G5:q",
+          "Ab5:q"
+        ],
+        [
+          "Bb5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e",
+          "B4:e"
+        ],
+        [
+          "C5:h",
+          "G4:h"
+        ],
+        [
+          "Ab4:q",
+          "G4:q",
+          "F4:q",
+          "Eb4:q"
+        ],
+        [
+          "D4:q",
+          "Eb4:q",
+          "F4:q",
+          "G4:q"
+        ],
+        [
+          "Ab4:q",
+          "B4:q",
+          "C5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "R:w"
+        ],
+        [
+          "C4:q",
+          "D4:q",
+          "Eb4:q",
+          "F4:q"
+        ],
+        [
+          "G4:e",
+          "F4:e",
+          "Eb4:e",
+          "D4:e",
+          "C4:e",
+          "B3:e",
+          "C4:e",
+          "D4:e"
+        ],
+        [
+          "Eb4:q",
+          "F4:q",
+          "G4:q",
+          "Ab4:q"
+        ],
+        [
+          "Bb3:e",
+          "Ab3:e",
+          "G3:e",
+          "F3:e",
+          "Eb3:e",
+          "D3:e",
+          "C3:e",
+          "B2:e"
+        ],
+        [
+          "C3:h",
+          "G3:q",
+          "Ab3:q"
+        ],
+        [
+          "Bb2:h",
+          "B2:q",
+          "C3:q"
+        ],
+        [
+          "C3:h",
+          "C4:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-010",
+      "slug": "m6e-010",
+      "title": "Romance in F Harmonic Minor",
+      "summary": "A lyrical 3/4 romance in F harmonic minor with singable melody and the raised E natural 7th resolving to F.",
+      "goal": "Sing out the melody in F harmonic minor over 10 measures, voicing the E natural raised 7th expressively.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 66,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 6,
+          "marking": "mf"
+        },
+        {
+          "measure": 9,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 10,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "F4:h",
+          "G4:q"
+        ],
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q"
+        ],
+        [
+          "Db5:h",
+          "Eb5:q"
+        ],
+        [
+          "F5:q",
+          "E5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:h",
+          "Bb4:q"
+        ],
+        [
+          "Ab4:q",
+          "G4:q",
+          "F4:q"
+        ],
+        [
+          "G4:h",
+          "Bb4:q"
+        ],
+        [
+          "Ab4:q",
+          "E4:q",
+          "F4:q"
+        ],
+        [
+          "Db5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "F4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F3:q",
+          "C4:q",
+          "F3:q"
+        ],
+        [
+          "Ab3:q",
+          "Eb3:q",
+          "Ab3:q"
+        ],
+        [
+          "Db3:q",
+          "Ab3:q",
+          "Db3:q"
+        ],
+        [
+          "C3:q",
+          "G3:q",
+          "C4:q"
+        ],
+        [
+          "F3:q",
+          "C4:q",
+          "F3:q"
+        ],
+        [
+          "F3:q",
+          "Ab3:q",
+          "C4:q"
+        ],
+        [
+          "C3:q",
+          "G3:q",
+          "Bb3:q"
+        ],
+        [
+          "C4:q",
+          "G3:q",
+          "C3:q"
+        ],
+        [
+          "Db3:h",
+          "Ab3:q"
+        ],
+        [
+          "F3:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-011",
+      "slug": "m6e-011",
+      "title": "Allegro in E Harmonic Minor",
+      "summary": "Energetic eighth-note study in E harmonic minor covering the full two-octave range with D# leading tone.",
+      "goal": "Play E harmonic minor scale passages fluently at tempo 100, emphasizing the D# raised 7th.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 100,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e"
+        ],
+        [
+          "E5:q",
+          "D#5:q",
+          "E5:h"
+        ],
+        [
+          "B4:e",
+          "C5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e"
+        ],
+        [
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D#5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e"
+        ],
+        [
+          "B5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C5:e",
+          "B4:e"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C5:e",
+          "D5:e",
+          "D#5:e",
+          "C5:e",
+          "B4:e",
+          "A4:e"
+        ],
+        [
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C5:e",
+          "D5:e",
+          "E5:e",
+          "D#5:e",
+          "E5:e"
+        ],
+        [
+          "F#5:q",
+          "D#5:q",
+          "E5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "E3:h",
+          "B3:h"
+        ],
+        [
+          "B2:h",
+          "E3:h"
+        ],
+        [
+          "G3:h",
+          "D4:h"
+        ],
+        [
+          "A2:h",
+          "E3:h"
+        ],
+        [
+          "G3:h",
+          "D4:h"
+        ],
+        [
+          "A2:h",
+          "F#3:h"
+        ],
+        [
+          "E2:h",
+          "B2:h"
+        ],
+        [
+          "E2:h",
+          "E3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-012",
+      "slug": "m6e-012",
+      "title": "Étude brillante in Ab Major",
+      "summary": "Arpeggiated figuration over Ab, Db, and Eb harmonies with sweeping eighth-note broken-chord patterns in the right hand.",
+      "goal": "Execute smooth broken-chord arpeggiation through Ab major harmony at tempo 108.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 108,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:e",
+          "C5:e",
+          "Eb5:e",
+          "Ab5:e",
+          "C5:e",
+          "Eb5:e",
+          "Ab5:e",
+          "Eb5:e"
+        ],
+        [
+          "Db5:e",
+          "F5:e",
+          "Ab5:e",
+          "Db5:e",
+          "F5:e",
+          "Ab5:e",
+          "F5:e",
+          "Db5:e"
+        ],
+        [
+          "Eb5:e",
+          "G5:e",
+          "Bb5:e",
+          "Eb5:e",
+          "G5:e",
+          "Bb5:e",
+          "G5:e",
+          "Eb5:e"
+        ],
+        [
+          "Ab4:e",
+          "C5:e",
+          "Eb5:e",
+          "Ab5:e",
+          "Bb5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e"
+        ],
+        [
+          "Eb5:e",
+          "G5:e",
+          "Ab5:e",
+          "Bb5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e"
+        ],
+        [
+          "Db5:e",
+          "F5:e",
+          "Ab5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e"
+        ],
+        [
+          "Bb5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:h",
+          "Ab5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "Ab3:q",
+          "Eb3:q"
+        ],
+        [
+          "Db3:q",
+          "Ab3:q",
+          "Db4:q",
+          "Ab3:q"
+        ],
+        [
+          "Eb3:q",
+          "G3:q",
+          "Bb3:q",
+          "G3:q"
+        ],
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "Ab3:q",
+          "C4:q"
+        ],
+        [
+          "Eb3:h",
+          "G3:h"
+        ],
+        [
+          "Db3:h",
+          "Ab3:h"
+        ],
+        [
+          "Eb3:h",
+          "Bb3:h"
+        ],
+        [
+          "Ab2:h",
+          "Ab3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-013",
+      "slug": "m6e-013",
+      "title": "Lento cantabile in B Harmonic Minor",
+      "summary": "Slow, singing melody in B harmonic minor that ascends through the full octave and lingers on A# before resolving to B.",
+      "goal": "Project a long melodic line in B harmonic minor at tempo 58, holding each note's full value.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 58,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "B4:h",
+          "C#5:q",
+          "D5:q"
+        ],
+        [
+          "E5:h",
+          "F#5:q",
+          "G5:q"
+        ],
+        [
+          "A5:h",
+          "A#5:q",
+          "B5:q"
+        ],
+        [
+          "A#5:h",
+          "A5:q",
+          "G5:q"
+        ],
+        [
+          "F#5:h",
+          "E5:q",
+          "D5:q"
+        ],
+        [
+          "C#5:h",
+          "D5:q",
+          "E5:q"
+        ],
+        [
+          "F#5:q",
+          "A#4:q",
+          "B4:h"
+        ],
+        [
+          "B4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B2:h",
+          "F#3:h"
+        ],
+        [
+          "E3:h",
+          "B3:h"
+        ],
+        [
+          "G3:h",
+          "D4:h"
+        ],
+        [
+          "F#3:h",
+          "C#4:h"
+        ],
+        [
+          "D3:h",
+          "A3:h"
+        ],
+        [
+          "C#3:h",
+          "G#3:h"
+        ],
+        [
+          "B2:h",
+          "A#2:h"
+        ],
+        [
+          "B2:h",
+          "B3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-014",
+      "slug": "m6e-014",
+      "title": "Velocity Study in F# Harmonic Minor",
+      "summary": "Two-octave velocity study through F# harmonic minor with the E# raised 7th punctuating each phrase apex.",
+      "goal": "Build speed and accuracy through the F# harmonic minor scale across two octaves at tempo 100.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 100,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        },
+        {
+          "measure": 5,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "F#4:e",
+          "G#4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "E#5:e"
+        ],
+        [
+          "F#5:e",
+          "E#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "A4:e",
+          "G#4:e"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "E#5:e",
+          "E5:e",
+          "D5:e"
+        ],
+        [
+          "C#5:e",
+          "B4:e",
+          "A4:e",
+          "G#4:e",
+          "F#4:e",
+          "E#4:e",
+          "F#4:e",
+          "G#4:e"
+        ],
+        [
+          "F#5:e",
+          "G#5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G#5:e",
+          "F#5:e",
+          "E#5:e"
+        ],
+        [
+          "E#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "A4:e",
+          "G#4:e",
+          "F#4:e"
+        ],
+        [
+          "G#4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "E#5:e",
+          "F#5:e"
+        ],
+        [
+          "E5:q",
+          "C#5:q",
+          "F#4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F#3:h",
+          "C#4:h"
+        ],
+        [
+          "F#3:h",
+          "C#4:h"
+        ],
+        [
+          "D3:h",
+          "A3:h"
+        ],
+        [
+          "B2:h",
+          "F#3:h"
+        ],
+        [
+          "G#3:h",
+          "D4:h"
+        ],
+        [
+          "C#3:h",
+          "G#3:h"
+        ],
+        [
+          "F#2:h",
+          "E#2:h"
+        ],
+        [
+          "F#2:h",
+          "F#3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-015",
+      "slug": "m6e-015",
+      "title": "Grand Waltz in Bb Minor",
+      "summary": "A 3/4 grand waltz in Bb harmonic minor with sweeping melody and the A natural raised 7th creating the characteristic harmonic tension.",
+      "goal": "Project the waltz character in Bb minor across 10 measures, placing the A natural raised 7th on a strong beat.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 80,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 6,
+          "marking": "mf"
+        },
+        {
+          "measure": 10,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "Db5:q"
+        ],
+        [
+          "Eb5:q",
+          "F5:q",
+          "Gb5:q"
+        ],
+        [
+          "Ab5:q",
+          "Gb5:q",
+          "F5:q"
+        ],
+        [
+          "Eb5:q",
+          "Db5:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:h",
+          "C5:q"
+        ],
+        [
+          "Db5:q",
+          "Eb5:q",
+          "F5:q"
+        ],
+        [
+          "A4:q",
+          "Bb4:q",
+          "C5:q"
+        ],
+        [
+          "Db5:q",
+          "Eb5:q",
+          "F5:q"
+        ],
+        [
+          "Ab5:q",
+          "F5:q",
+          "Eb5:q"
+        ],
+        [
+          "Bb4:h",
+          "R:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q"
+        ],
+        [
+          "Gb2:q",
+          "Db3:q",
+          "Gb3:q"
+        ],
+        [
+          "Db3:q",
+          "Ab3:q",
+          "Db4:q"
+        ],
+        [
+          "Bb2:q",
+          "Gb3:q",
+          "Bb3:q"
+        ],
+        [
+          "Bb2:h",
+          "F3:q"
+        ],
+        [
+          "Db3:h",
+          "Ab3:q"
+        ],
+        [
+          "F3:q",
+          "A3:q",
+          "C4:q"
+        ],
+        [
+          "Gb2:q",
+          "Db3:q",
+          "Gb3:q"
+        ],
+        [
+          "Db3:h",
+          "Ab3:q"
+        ],
+        [
+          "Bb2:h",
+          "R:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-016",
+      "slug": "m6e-016",
+      "title": "Chromatic Étude",
+      "summary": "Full chromatic scale ascending and descending from C5 to B5, with contrary-motion support in the left hand, cementing mastery of all twelve pitches.",
+      "goal": "Execute the complete chromatic scale fluently in both directions at tempo 88.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C5:e",
+          "C#5:e",
+          "D5:e",
+          "D#5:e",
+          "E5:e",
+          "F5:e",
+          "F#5:e",
+          "G5:e"
+        ],
+        [
+          "G#5:e",
+          "A5:e",
+          "A#5:e",
+          "B5:e",
+          "B5:e",
+          "A#5:e",
+          "A5:e",
+          "G#5:e"
+        ],
+        [
+          "G5:e",
+          "F#5:e",
+          "F5:e",
+          "E5:e",
+          "D#5:e",
+          "D5:e",
+          "C#5:e",
+          "C5:e"
+        ],
+        [
+          "B4:e",
+          "A#4:e",
+          "A4:e",
+          "G#4:e",
+          "G4:e",
+          "F#4:e",
+          "F4:e",
+          "E4:e"
+        ],
+        [
+          "E4:e",
+          "F4:e",
+          "F#4:e",
+          "G4:e",
+          "G#4:e",
+          "A4:e",
+          "A#4:e",
+          "B4:e"
+        ],
+        [
+          "C5:e",
+          "C#5:e",
+          "D5:e",
+          "D#5:e",
+          "E5:e",
+          "D#5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "C5:e",
+          "B4:e",
+          "A#4:e",
+          "A4:e",
+          "G#4:e",
+          "G4:e",
+          "F#4:e",
+          "F4:e"
+        ],
+        [
+          "E4:q",
+          "G4:q",
+          "C5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "C4:h",
+          "G3:h"
+        ],
+        [
+          "G3:h",
+          "C4:h"
+        ],
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "E3:h",
+          "B2:h"
+        ],
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "C3:h",
+          "F3:h"
+        ],
+        [
+          "G2:h",
+          "D3:h"
+        ],
+        [
+          "C2:h",
+          "C3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-017",
+      "slug": "m6e-017",
+      "title": "Prelude perpetuo in F Harmonic Minor",
+      "summary": "Perpetual-motion arpeggiated prelude in F harmonic minor with broken-chord figures outlining tonic, subdominant, and dominant harmony.",
+      "goal": "Sustain even broken-chord figuration through F harmonic minor across 8 measures at tempo 92.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 92,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "measures": [
+        [
+          "F4:e",
+          "Ab4:e",
+          "C5:e",
+          "F5:e",
+          "Eb5:e",
+          "C5:e",
+          "Ab4:e",
+          "F4:e"
+        ],
+        [
+          "C5:e",
+          "E5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e",
+          "E5:e"
+        ],
+        [
+          "Db5:e",
+          "F5:e",
+          "Ab5:e",
+          "Db5:e",
+          "C5:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e"
+        ],
+        [
+          "Bb4:e",
+          "Db5:e",
+          "F5:e",
+          "Bb5:e",
+          "Ab5:e",
+          "F5:e",
+          "Db5:e",
+          "Bb4:e"
+        ],
+        [
+          "C5:e",
+          "E5:e",
+          "G5:e",
+          "C5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e"
+        ],
+        [
+          "G4:e",
+          "Bb4:e",
+          "Db5:e",
+          "F5:e",
+          "E5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:e",
+          "C5:e",
+          "Eb5:e",
+          "Ab5:e",
+          "G5:e",
+          "Eb5:e",
+          "C5:e",
+          "Ab4:e"
+        ],
+        [
+          "G4:q",
+          "E4:q",
+          "F4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "Db3:h",
+          "Ab3:h"
+        ],
+        [
+          "Bb2:h",
+          "F3:h"
+        ],
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "G3:h",
+          "Db4:h"
+        ],
+        [
+          "Ab3:h",
+          "Eb4:h"
+        ],
+        [
+          "F2:h",
+          "F3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-018",
+      "slug": "m6e-018",
+      "title": "Allegro con brio in B Harmonic Minor",
+      "summary": "Fast, energetic study in B harmonic minor with driving eighth notes, reaching B5 at the peak and featuring the A# leading tone prominently.",
+      "goal": "Play B harmonic minor at tempo 112 with clear articulation and confident A# raised 7th.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 112,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "A#5:e"
+        ],
+        [
+          "B5:e",
+          "A#5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "A#5:e",
+          "B5:e",
+          "A#5:e"
+        ],
+        [
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "A#4:e"
+        ],
+        [
+          "B4:e",
+          "D5:e",
+          "F#5:e",
+          "B5:e",
+          "A#5:e",
+          "F#5:e",
+          "D5:e",
+          "B4:e"
+        ],
+        [
+          "C#5:e",
+          "E5:e",
+          "G5:e",
+          "A#5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e"
+        ],
+        [
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "A#5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e"
+        ],
+        [
+          "F#5:q",
+          "A#4:q",
+          "B4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B2:h",
+          "F#3:h"
+        ],
+        [
+          "B2:h",
+          "F#3:h"
+        ],
+        [
+          "G3:h",
+          "D4:h"
+        ],
+        [
+          "E3:h",
+          "B3:h"
+        ],
+        [
+          "B2:q",
+          "F#3:q",
+          "B3:q",
+          "F#3:q"
+        ],
+        [
+          "C#3:h",
+          "G#3:h"
+        ],
+        [
+          "E3:h",
+          "A#2:h"
+        ],
+        [
+          "B2:h",
+          "B3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-019",
+      "slug": "m6e-019",
+      "title": "Grand Étude in Ab Major",
+      "summary": "A 10-measure synthesis étude in Ab major combining scale runs, arpeggios, and melodic climax at Bb5, tying together all L6 Ab major vocabulary.",
+      "goal": "Perform the complete Ab major synthesis piece across 10 measures with consistent tempo and evenness.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 96,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 6,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e"
+        ],
+        [
+          "Ab5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e"
+        ],
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Eb5:e",
+          "G5:e",
+          "Ab5:e",
+          "Bb5:e",
+          "Ab5:e"
+        ],
+        [
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e"
+        ],
+        [
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e"
+        ],
+        [
+          "G5:e",
+          "Ab5:e",
+          "Bb5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e"
+        ],
+        [
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "Ab4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab2:h",
+          "Eb3:h"
+        ],
+        [
+          "Ab2:h",
+          "Eb3:h"
+        ],
+        [
+          "Db3:h",
+          "Ab3:h"
+        ],
+        [
+          "Eb3:h",
+          "G3:h"
+        ],
+        [
+          "Eb3:h",
+          "Bb3:h"
+        ],
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "Eb3:h",
+          "G3:h"
+        ],
+        [
+          "F3:h",
+          "Ab3:h"
+        ],
+        [
+          "Ab2:h",
+          "Eb3:h"
+        ],
+        [
+          "Ab2:h",
+          "Ab3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6e-020",
+      "slug": "m6e-020",
+      "title": "Method Level 6 Grand Finale",
+      "summary": "A 12-measure capstone finale in A harmonic minor that summarizes the entire Method curriculum: scale runs, leaps, G# raised 7th, and a triumphant closing cadence.",
+      "goal": "Perform the Method Level 6 grand finale with musicality and accuracy, bringing together all skills from Levels 1 through 6.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original composition"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 7,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "A4:q",
+          "B4:q",
+          "C5:q",
+          "D5:q"
+        ],
+        [
+          "E5:q",
+          "F5:q",
+          "G5:q",
+          "G#5:q"
+        ],
+        [
+          "A5:q",
+          "G#5:q",
+          "A5:q",
+          "G5:q"
+        ],
+        [
+          "F5:q",
+          "E5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "B4:q",
+          "C5:q",
+          "D5:q",
+          "E5:q"
+        ],
+        [
+          "G5:q",
+          "F5:q",
+          "E5:q",
+          "D5:q"
+        ],
+        [
+          "C5:e",
+          "D5:e",
+          "E5:e",
+          "F5:e",
+          "G5:e",
+          "G#5:e",
+          "A5:e",
+          "G5:e"
+        ],
+        [
+          "F5:q",
+          "E5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "E5:e",
+          "F5:e",
+          "G#5:e",
+          "A5:e",
+          "G#5:e",
+          "F5:e",
+          "E5:e",
+          "D5:e"
+        ],
+        [
+          "C5:q",
+          "B4:q",
+          "A4:h"
+        ],
+        [
+          "G#4:e",
+          "A4:e",
+          "B4:e",
+          "C5:e",
+          "D5:e",
+          "E5:e",
+          "F5:e",
+          "G#5:e"
+        ],
+        [
+          "E5:q",
+          "C5:q",
+          "A4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A3:h",
+          "E4:h"
+        ],
+        [
+          "A3:h",
+          "E4:h"
+        ],
+        [
+          "C4:h",
+          "G4:h"
+        ],
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "E3:h",
+          "B3:h"
+        ],
+        [
+          "A2:h",
+          "E3:h"
+        ],
+        [
+          "A2:h",
+          "E3:h"
+        ],
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "E3:h",
+          "G#3:h"
+        ],
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "A2:h",
+          "G#2:h"
+        ],
+        [
+          "A2:h",
+          "A3:h"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "courseId": "method-level-3c",
+  "title": "Method Level 3C — Both Hands in C/G/F Major",
+  "level": 3,
+  "summary": "Combination: first grand-staff exercises at Level 3. C major, G major, F major, A minor, and D minor with both hands coordinated. Dynamics throughout. Pedal on slow minor pieces. LH upgraded to interval and chord support. PD songs: Pop Goes the Weasel and Kumbaya.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "m3c-001",
+      "slug": "c-major-scale-review-rh",
+      "title": "C Major Scale Review (RH)",
+      "summary": "Full-octave C major scale warm-up for right hand.",
+      "goal": "Play the C major scale C4–C5 fluently as a warm-up before both-hands work.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["C5:q","B4:q","A4:q","G4:q"],
+        ["F4:e","G4:e","A4:e","B4:e","C5:e","B4:e","A4:e","G4:e"],
+        ["E4:q","D4:q","C4:h"]
+      ]
+    },
+    {
+      "id": "m3c-002",
+      "slug": "c-major-scale-review-lh",
+      "title": "C Major Scale Review (LH)",
+      "summary": "Full-octave C major scale warm-up for left hand.",
+      "goal": "Play the C major scale C3–C4 fluently as a warm-up before both-hands work.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["C3:e","D3:e","E3:e","F3:e","G3:e","A3:e","B3:e","C4:e"],
+        ["C4:q","B3:q","A3:q","G3:q"],
+        ["F3:e","G3:e","A3:e","B3:e","C4:e","B3:e","A3:e","G3:e"],
+        ["E3:q","D3:q","C3:h"]
+      ]
+    },
+    {
+      "id": "m3c-003",
+      "slug": "g-major-syncopation-rh",
+      "title": "G Major Syncopation (RH)",
+      "summary": "Syncopated right-hand melody in G major G4–G5 with F#.",
+      "goal": "Play syncopated entries in G major as a single-hand warm-up.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 3, "marking": "mf" }
+      ],
+      "measures": [
+        ["R:e","G4:e","A4:q","B4:q","C5:q"],
+        ["R:e","D5:e","C5:q","B4:q","A4:q"],
+        ["G4:e","A4:e","B4:q","C5:e","D5:e","E5:q"],
+        ["F#5:e","E5:e","D5:q","G4:h"]
+      ]
+    },
+    {
+      "id": "m3c-004",
+      "slug": "f-major-etude-lh",
+      "title": "F Major Étude (LH)",
+      "summary": "Left-hand étude in F major F2–C3 with Bb, including syncopation.",
+      "goal": "Build left-hand independence in F major with eighth notes and off-beat entries.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -1,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["F2:e","G2:e","A2:e","Bb2:e","C3:e","Bb2:e","A2:e","G2:e"],
+        ["F2:q","A2:e","C3:e","Bb2:q","A2:q"],
+        ["R:e","G2:e","A2:q","Bb2:q","C3:q"],
+        ["F2:w"]
+      ]
+    },
+    {
+      "id": "m3c-005",
+      "slug": "a-minor-melody-rh",
+      "title": "A Minor Melody with G# (RH)",
+      "summary": "Right-hand waltz melody in A harmonic minor with G# leading tone.",
+      "goal": "Play A harmonic minor in 3/4, using G# expressively.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 64,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" }
+      ],
+      "measures": [
+        ["A3:e","B3:e","C4:q","E4:q"],
+        ["D4:h","C4:q"],
+        ["E4:e","F4:e","G#4:q","A4:q"],
+        ["A4:h","R:q"]
+      ]
+    },
+    {
+      "id": "m3c-006",
+      "slug": "d-minor-study-lh",
+      "title": "D Minor Study (LH)",
+      "summary": "Left-hand D harmonic minor scale and cadence with Bb and C#.",
+      "goal": "Play D harmonic minor in bass clef with the C# leading tone resolving to D.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -1,
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 3, "marking": "mp" }
+      ],
+      "measures": [
+        ["D3:e","E3:e","F3:e","G3:e","A3:e","Bb3:e","C#4:e","D4:e"],
+        ["D4:q","C#4:q","Bb3:h"],
+        ["A3:e","G3:e","F3:e","E3:e","D3:h"],
+        ["A3:e","C#4:e","D4:q","A3:q","D3:q"]
+      ]
+    },
+    {
+      "id": "m3c-007",
+      "slug": "c-major-both-hands-intro",
+      "title": "C Major — Both Hands Introduction",
+      "summary": "First grand-staff exercise: simple C major melody over chord-interval bass.",
+      "goal": "Coordinate RH melody with LH chord-interval bass in C major for the first time.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["E4:q","F4:q","G4:q","E4:q"],
+        ["D4:q","E4:q","F4:h"],
+        ["G4:e","F4:e","E4:q","D4:q","C4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["[C3,G3]:h","[G2,D3]:h"],
+        ["[G2,D3]:h","[F2,C3]:h"],
+        ["[G2,D3]:q","F3:q","E3:q","D3:q"],
+        ["[C3,G3]:w"]
+      ]
+    },
+    {
+      "id": "m3c-008",
+      "slug": "c-major-melody-over-bass",
+      "title": "C Major Melody over Bass",
+      "summary": "RH eighth-note melody over a steady LH bass with chord support in C major.",
+      "goal": "Keep LH bass steady while RH plays flowing eighth-note melody.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 70,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 3, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:q","D4:e","E4:e","F4:q","G4:q"],
+        ["A4:e","G4:e","F4:q","E4:q","D4:q"],
+        ["E4:e","F4:e","G4:q","F4:e","E4:e","D4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["[C3,G3]:q","G3:q","[C3,G3]:q","G3:q"],
+        ["[F2,C3]:h","[G2,D3]:h"],
+        ["[G2,D3]:q","F3:q","E3:q","G2:q"],
+        ["[C3,G3]:w"]
+      ]
+    },
+    {
+      "id": "m3c-009",
+      "slug": "g-major-both-hands",
+      "title": "G Major — Both Hands",
+      "summary": "G major melody in RH over chord-interval bass in LH, including F#.",
+      "goal": "Coordinate both hands in G major, RH melody spanning G4–D5.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["G4:q","A4:e","B4:e","C5:q","D5:q"],
+        ["E5:e","D5:e","C5:q","B4:q","A4:q"],
+        ["B4:e","C5:e","D5:q","C5:e","B4:e","A4:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["[G2,D3]:h","[D3,A3]:h"],
+        ["[G2,D3]:q","B2:q","[D3,A3]:h"],
+        ["[G2,D3]:q","D3:q","[G2,D3]:q","D3:q"],
+        ["[G2,B2,D3]:w"]
+      ]
+    },
+    {
+      "id": "m3c-010",
+      "slug": "g-major-waltz-both-hands",
+      "title": "Pop Goes the Weasel",
+      "summary": "The classic nursery song in G major, 3/4 — a bright waltz melody with chord waltz accompaniment.",
+      "goal": "Play this beloved folk tune in G major with LH chord waltz pattern and a forte finish.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": { "type": "CC0-1.0", "attribution": "Traditional nursery song, arr. Pianio", "notes": "Public domain. Arrangement CC0." },
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 4, "marking": "f" }
+      ],
+      "measures": [
+        ["G4:q","A4:q","B4:q"],
+        ["C5:h","A4:q"],
+        ["G4:q","B4:q","D5:q"],
+        ["G4:dh"],
+        ["D5:q","C5:q","B4:q"],
+        ["G4:dh"]
+      ],
+      "measuresLeft": [
+        ["[G2,D3]:q","D3:q","B2:q"],
+        ["[C3,G3]:q","G3:q","G3:q"],
+        ["[G2,D3]:q","D3:q","D3:q"],
+        ["[G2,B2,D3]:dh"],
+        ["[D3,A3]:q","A3:q","F#3:q"],
+        ["[G2,B2,D3]:dh"]
+      ]
+    },
+    {
+      "id": "m3c-011",
+      "slug": "f-major-both-hands",
+      "title": "F Major — Both Hands",
+      "summary": "F major melody in RH over chord-interval bass in LH, with Bb.",
+      "goal": "Coordinate both hands in F major, RH melody spanning F4–C5.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["F4:q","G4:e","A4:e","Bb4:q","C5:q"],
+        ["C5:e","Bb4:e","A4:q","G4:q","F4:q"],
+        ["A4:e","Bb4:e","C5:q","Bb4:e","A4:e","G4:q"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["[F2,C3]:h","[C3,G3]:h"],
+        ["[F2,C3]:q","G2:q","[C3,G3]:h"],
+        ["[F2,C3]:q","[C3,G3]:q","[F2,C3]:q","[C3,G3]:q"],
+        ["[F2,C3,A2]:w"]
+      ]
+    },
+    {
+      "id": "m3c-012",
+      "slug": "f-major-waltz-both-hands",
+      "title": "F Major Waltz — Both Hands",
+      "summary": "Six-measure waltz in F major with Bb, RH melody over LH chord waltz bass.",
+      "goal": "Play a F major waltz with both hands, LH using chord waltz pattern.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 66,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 4, "marking": "mf" }
+      ],
+      "measures": [
+        ["F4:q","G4:q","A4:q"],
+        ["Bb4:h","A4:q"],
+        ["C5:e","Bb4:e","A4:q","G4:q"],
+        ["G4:e","A4:e","Bb4:q","C5:q"],
+        ["A4:e","G4:e","F4:q","G4:q"],
+        ["F4:h","R:q"]
+      ],
+      "measuresLeft": [
+        ["[F2,C3]:q","C3:q","C3:q"],
+        ["[F2,C3]:q","C3:q","C3:q"],
+        ["[F2,C3]:q","C3:q","C3:q"],
+        ["[Bb2,F3]:q","F3:q","F3:q"],
+        ["[C3,G3]:q","G3:q","E3:q"],
+        ["[F2,C3]:h","R:q"]
+      ]
+    },
+    {
+      "id": "m3c-013",
+      "slug": "a-minor-both-hands",
+      "title": "A Minor — Both Hands",
+      "summary": "Six-measure A harmonic minor melody in RH over interval bass in LH, with G#. Piano with sustain pedal.",
+      "goal": "Coordinate both hands in A minor, using G# expressively as the leading tone, with soft dynamics and pedal.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 4, "marking": "mp" },
+        { "measure": 6, "marking": "p" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 4, "beat": 1, "type": "up" },
+        { "measure": 4, "beat": 1, "type": "down" },
+        { "measure": 6, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["A3:e","B3:e","C4:q","D4:q","E4:q"],
+        ["F4:q","E4:q","D4:q","C4:q"],
+        ["E4:q","D4:e","C4:e","B3:q","A3:q"],
+        ["C4:e","D4:e","E4:q","F4:e","G#4:e","A4:q"],
+        ["A4:e","G#4:e","F4:q","E4:q","D4:q"],
+        ["A3:w"]
+      ],
+      "measuresLeft": [
+        ["[A2,E3]:h","[E3,B3]:h"],
+        ["[A2,E3]:q","C3:q","[E3,B3]:h"],
+        ["[A2,E3]:h","[E3,B3]:h"],
+        ["[E3,B3]:h","[A2,E3]:h"],
+        ["[A2,E3]:q","E3:q","[A2,E3]:q","E3:q"],
+        ["[A2,E3]:w"]
+      ]
+    },
+    {
+      "id": "m3c-014",
+      "slug": "a-minor-waltz-both-hands",
+      "title": "Kumbaya",
+      "summary": "The beloved spiritual in A harmonic minor — a gentle 3/4 melody with chord waltz accompaniment and sustain pedal.",
+      "goal": "Play this expressive folk spiritual with G# leading tone and soft, sustained character.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 60,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": { "type": "CC0-1.0", "attribution": "Traditional spiritual, arr. Pianio", "notes": "Public domain. Arrangement CC0." },
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "p" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 4, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["A3:q","C4:q","E4:q"],
+        ["E4:h","G#4:q"],
+        ["A4:q","E4:q","C4:q"],
+        ["A3:dh"]
+      ],
+      "measuresLeft": [
+        ["[A2,E3]:q","E3:q","E3:q"],
+        ["[A2,E3]:q","E3:q","E3:q"],
+        ["[A2,C3,E3]:q","E3:q","C3:q"],
+        ["[A2,E3]:dh"]
+      ]
+    },
+    {
+      "id": "m3c-015",
+      "slug": "c-major-syncopation-grand-staff",
+      "title": "C Major Syncopation — Grand Staff",
+      "summary": "Six-measure grand-staff piece with syncopated RH over steady LH pulse.",
+      "goal": "Play syncopated melody in RH while LH provides a rock-steady bass.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["R:e","C4:e","D4:q","E4:q","F4:q"],
+        ["R:e","G4:e","F4:q","E4:q","D4:q"],
+        ["C4:e","D4:q","E4:e","F4:e","G4:q","F4:e"],
+        ["E4:q","F4:e","G4:e","A4:q","G4:q"],
+        ["R:e","F4:e","E4:q","D4:q","C4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["[C3,G3]:q","G3:q","[C3,G3]:q","G3:q"],
+        ["G3:q","G3:q","C3:q","C3:q"],
+        ["[C3,G3]:q","G3:q","F3:q","G3:q"],
+        ["F3:q","G3:q","F3:q","E3:q"],
+        ["G3:q","F3:q","E3:q","D3:q"],
+        ["[C3,G3]:w"]
+      ]
+    },
+    {
+      "id": "m3c-016",
+      "slug": "g-major-eighth-notes-both-hands",
+      "title": "G Major Eighth Notes — Both Hands",
+      "summary": "Six-measure étude with eighth-note RH runs in G major over LH bass, including F#.",
+      "goal": "Play flowing G major eighth-note lines while LH provides harmonic support.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "f" }
+      ],
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","C5:e","B4:e","A4:e"],
+        ["G4:q","B4:e","D5:e","C5:q","B4:q"],
+        ["R:e","A4:e","B4:q","C5:e","D5:e","E5:q"],
+        ["F#5:e","E5:e","D5:q","C5:e","B4:e","A4:q"],
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","E5:e","F#5:e","G5:e"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["[G2,D3]:q","D3:q","[G2,D3]:q","D3:q"],
+        ["[G2,B2,D3]:q","B2:q","[D3,A3]:h"],
+        ["[G2,D3]:q","D3:q","[G2,D3]:q","D3:q"],
+        ["[D3,A3]:h","[G2,D3]:h"],
+        ["[G2,D3]:q","D3:q","[G2,D3]:q","D3:q"],
+        ["[G2,B2,D3]:w"]
+      ]
+    },
+    {
+      "id": "m3c-017",
+      "slug": "f-major-lyrical-both-hands",
+      "title": "F Major Lyrical Piece — Both Hands",
+      "summary": "Six-measure lyrical F major piece with cantabile RH melody and LH chord bass.",
+      "goal": "Shape a singing F major melody over 6 measures with smooth hand coordination.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 3, "marking": "mf" },
+        { "measure": 5, "marking": "mp" }
+      ],
+      "measures": [
+        ["F4:q","G4:e","A4:e","Bb4:h"],
+        ["C5:e","Bb4:e","A4:q","G4:h"],
+        ["G4:q","A4:e","Bb4:e","C5:q","A4:q"],
+        ["R:e","A4:e","Bb4:q","C5:q","Bb4:q"],
+        ["A4:e","G4:e","F4:q","G4:q","A4:q"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["[F2,C3]:h","[C3,G3]:h"],
+        ["[C3,G3]:h","[F2,C3]:h"],
+        ["[F2,C3]:q","G2:q","[C3,G3]:h"],
+        ["[F2,C3]:q","G2:q","A2:q","Bb2:q"],
+        ["[C3,G3]:h","[G2,D3]:h"],
+        ["[F2,A2,C3]:w"]
+      ]
+    },
+    {
+      "id": "m3c-018",
+      "slug": "c-major-march-both-hands",
+      "title": "C Major March — Both Hands",
+      "summary": "Six-measure march in 2/4 with crisp eighth notes in both hands.",
+      "goal": "Play a marching C major piece, keeping both hands rhythmically precise.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e"],
+        ["G4:q","E4:q"],
+        ["F4:e","E4:e","D4:e","C4:e"],
+        ["E4:e","F4:e","G4:q"],
+        ["G4:e","A4:e","B4:e","C5:e"],
+        ["C4:h"]
+      ],
+      "measuresLeft": [
+        ["[C3,G3]:e","G3:e","[C3,G3]:e","G3:e"],
+        ["[C3,G3]:q","G3:q"],
+        ["[C3,G3]:e","G3:e","[C3,G3]:e","G3:e"],
+        ["G3:q","C3:q"],
+        ["[C3,G3]:e","G3:e","[C3,G3]:e","G3:e"],
+        ["[C3,G3]:h"]
+      ]
+    },
+    {
+      "id": "m3c-019",
+      "slug": "d-minor-both-hands",
+      "title": "D Minor — Both Hands",
+      "summary": "Six-measure D harmonic minor piece with both hands, Bb and C# leading tone. Piano with sustain pedal.",
+      "goal": "Coordinate both hands in D minor with the C# leading tone resolving expressively, using soft dynamics and pedal.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 64,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 4, "marking": "mp" },
+        { "measure": 6, "marking": "p" }
+      ],
+      "pedal": [
+        { "measure": 1, "beat": 1, "type": "down" },
+        { "measure": 4, "beat": 1, "type": "up" },
+        { "measure": 4, "beat": 1, "type": "down" },
+        { "measure": 6, "beat": 1, "type": "up" }
+      ],
+      "measures": [
+        ["D4:q","E4:e","F4:e","G4:q","A4:q"],
+        ["Bb4:h","A4:q","G4:q"],
+        ["A4:e","G4:e","F4:q","E4:q","D4:q"],
+        ["E4:e","F4:e","G4:q","A4:e","C#5:e","D5:q"],
+        ["D5:e","C#5:e","Bb4:q","A4:q","G4:q"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["[D3,A3]:h","[A3,E4]:h"],
+        ["[Bb2,F3]:h","[A2,E3]:h"],
+        ["[D3,A3]:q","F3:q","[A2,E3]:h"],
+        ["[A2,E3]:h","[D3,A3]:h"],
+        ["[A2,E3]:q","G3:q","F3:q","E3:q"],
+        ["[D3,A3]:w"]
+      ]
+    },
+    {
+      "id": "m3c-020",
+      "slug": "level-3c-capstone",
+      "title": "Level 3C Capstone — C and G Major",
+      "summary": "Eight-measure grand-staff capstone journeying through C major and G major with F#.",
+      "goal": "Demonstrate Level 3 hands-together fluency across C major and G major in a complete piece.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original exercise" },
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 4, "marking": "mf" },
+        { "measure": 7, "marking": "f" }
+      ],
+      "measures": [
+        ["C4:q","D4:e","E4:e","F4:q","G4:q"],
+        ["E4:e","F4:e","G4:q","A4:q","G4:q"],
+        ["G4:e","A4:e","B4:e","C5:e","D5:q","B4:q"],
+        ["D5:e","C5:e","B4:q","A4:e","G4:e","F#4:q"],
+        ["R:e","G4:e","A4:q","B4:q","C5:q"],
+        ["D5:q","C5:e","B4:e","A4:q","G4:q"],
+        ["G4:q","F4:q","E4:e","D4:e","C4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["[C3,G3]:h","[G2,D3]:h"],
+        ["[F2,C3]:h","[G2,D3]:h"],
+        ["[G2,D3]:q","D3:q","[G2,D3]:q","D3:q"],
+        ["[D3,A3]:h","[G2,D3]:h"],
+        ["[G2,D3]:q","D3:q","[G2,D3]:q","D3:q"],
+        ["[D3,A3]:h","[G2,D3]:h"],
+        ["[C3,G3]:h","[G2,D3]:h"],
+        ["[C3,G3]:w"]
+      ]
+    }
+  ]
+}

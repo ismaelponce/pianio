@@ -1,0 +1,1201 @@
+{
+  "courseId": "songs-intermediate",
+  "title": "Songs: Intermediate",
+  "level": 3,
+  "summary": "30 beloved public-domain melodies at an intermediate level — from Pachelbel Canon to Schumann's Wild Horseman — with dynamics, blocked chord left-hand accompaniment, and expressive phrasing.",
+  "sourcePolicy": "public_domain_only",
+  "exercises": [
+    {
+      "id": "songs-i-001",
+      "slug": "pachelbel-canon",
+      "title": "Pachelbel Canon in D",
+      "summary": "The iconic melody from Pachelbel's Canon with blocked chord LH accompaniment in D major.",
+      "goal": "Play the Canon melody with smooth quarter notes over sustained LH chords.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 56,
+      "timeSignature": [4, 4],
+      "keySignature": 2,
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "J. Pachelbel (c. 1680), arr. Pianio", "notes": "Baroque composition in the public domain. Arrangement CC0."},
+      "category": "baroque",
+      "dynamics": [
+        { "measure": 1, "marking": "p" }
+      ],
+      "measures": [
+        ["F#5:q", "E5:q", "D5:q", "C#5:q"],
+        ["B4:q", "A4:q", "B4:q", "C#5:q"],
+        ["D5:q", "C#5:q", "D5:q", "E5:q"],
+        ["F#5:h", "D5:h"],
+        ["E5:q", "D5:q", "C#5:q", "B4:q"],
+        ["A4:q", "G4:q", "A4:q", "B4:q"],
+        ["C#5:q", "B4:q", "A4:q", "G4:q"],
+        ["F#4:h", "D4:h"]
+      ],
+      "measuresLeft": [
+        ["[D3,F#3,A3]:w"],
+        ["[A2,C#3,E3]:w"],
+        ["[D3,F#3,A3]:w"],
+        ["[D3,F#3,A3]:w"],
+        ["[G2,B2,D3]:h", "[D3,F#3,A3]:h"],
+        ["[D3,F#3,A3]:w"],
+        ["[A2,C#3,E3]:w"],
+        ["[D3,F#3,A3]:w"]
+      ]
+    },
+    {
+      "id": "songs-i-002",
+      "slug": "brahms-lullaby",
+      "title": "Brahms Lullaby",
+      "summary": "Johannes Brahms' beloved lullaby in G major with gentle LH chords.",
+      "goal": "Play the lullaby with a gentle, rocking waltz feel over sustained chords.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [3, 4],
+      "keySignature": 1,
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "J. Brahms (1868), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "lullaby",
+      "dynamics": [
+        { "measure": 1, "marking": "p" }
+      ],
+      "measures": [
+        ["G4:q", "B4:q", "D5:q"],
+        ["G5:h", "D5:q"],
+        ["C5:q", "E5:q", "A4:q"],
+        ["B4:h", "G4:q"],
+        ["G4:q", "D5:q", "B4:q"],
+        ["C5:h", "A4:q"],
+        ["B4:q", "D5:q", "G4:q"],
+        ["G4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["[G2,B2,D3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[C3,E3,G3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[C3,E3,G3]:dh"],
+        ["[D3,F#3,A3]:dh"],
+        ["[G2,B2,D3]:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-003",
+      "slug": "danny-boy",
+      "title": "Danny Boy",
+      "summary": "The timeless Irish melody in F major with dynamic arc and LH chords.",
+      "goal": "Play Danny Boy with a singing legato tone over sustained chord accompaniment.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 69,
+      "timeSignature": [4, 4],
+      "keySignature": -1,
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional Irish (Londonderry Air), arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "celtic",
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 5, "marking": "mf" },
+        { "measure": 7, "marking": "p" }
+      ],
+      "measures": [
+        ["F4:q", "A4:q", "C5:q", "A4:q"],
+        ["Bb4:q", "A4:q", "G4:q", "A4:q"],
+        ["F4:q", "F4:q", "G4:q", "A4:q"],
+        ["Bb4:h", "A4:h"],
+        ["F4:q", "A4:q", "C5:q", "F5:q"],
+        ["E5:q", "D5:q", "C5:h"],
+        ["Bb4:q", "G4:q", "F4:h"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["[F2,A2,C3]:w"],
+        ["[Bb2,D3,F3]:w"],
+        ["[F2,A2,C3]:w"],
+        ["[Bb2,D3,F3]:h", "[F2,A2,C3]:h"],
+        ["[F2,A2,C3]:w"],
+        ["[C3,E3,G3]:w"],
+        ["[Bb2,D3,F3]:h", "[F2,A2,C3]:h"],
+        ["[F2,A2,C3]:w"]
+      ]
+    },
+    {
+      "id": "songs-i-004",
+      "slug": "greensleeves",
+      "title": "Greensleeves",
+      "summary": "The classic English Renaissance ballad in A minor with LH harmonic minor chords.",
+      "goal": "Play Greensleeves with expressive minor colour over sustained chord accompaniment.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional English (16th c.), arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "p" }
+      ],
+      "measures": [
+        ["A4:q", "C5:q", "D5:q"],
+        ["E5:h", "D5:q"],
+        ["C5:q", "A4:h"],
+        ["A4:h", "A4:q"],
+        ["G#4:q", "B4:q", "C5:q"],
+        ["D5:h", "C5:q"],
+        ["B4:q", "G#4:h"],
+        ["A4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["[A2,C3,E3]:dh"],
+        ["[A2,C3,E3]:dh"],
+        ["[A2,C3,E3]:dh"],
+        ["[A2,C3,E3]:dh"],
+        ["[E3,G#3,B3]:dh"],
+        ["[A2,C3,E3]:dh"],
+        ["[E3,G#3,B3]:dh"],
+        ["[A2,C3,E3]:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-005",
+      "slug": "scarborough-fair",
+      "title": "Scarborough Fair",
+      "summary": "The haunting English folk ballad in D minor with sustained LH chords.",
+      "goal": "Capture the modal, folk character with smooth phrasing over chord accompaniment.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 63,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional English, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "p" }
+      ],
+      "measures": [
+        ["A4:q", "D5:q", "E5:q"],
+        ["D5:h", "R:q"],
+        ["F5:q", "E5:q", "D5:q"],
+        ["A4:h", "R:q"],
+        ["C5:q", "B4:q", "A4:q"],
+        ["G4:q", "F4:q", "E4:q"],
+        ["D4:q", "F4:q", "A4:q"],
+        ["D4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["[D3,F3,A3]:dh"],
+        ["[D3,F3,A3]:h", "R:q"],
+        ["[D3,F3,A3]:dh"],
+        ["[A2,C3,E3]:h", "R:q"],
+        ["[A2,C3,E3]:dh"],
+        ["[C3,E3,G3]:dh"],
+        ["[D3,F3,A3]:dh"],
+        ["[D3,F3,A3]:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-006",
+      "slug": "minuet-in-g",
+      "title": "Minuet in G",
+      "summary": "The famous Minuet in G from Bach's Notebook for Anna Magdalena, with blocked chord LH.",
+      "goal": "Play the Minuet theme gracefully over sustained I/IV/V chords in G major.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 100,
+      "timeSignature": [3, 4],
+      "keySignature": 1,
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "C. Petzold attr. (c. 1725), arr. Pianio", "notes": "Baroque composition in the public domain. Arrangement CC0."},
+      "category": "baroque",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["D5:q", "G4:q", "A4:q"],
+        ["B4:q", "C5:q", "D5:q"],
+        ["G5:h", "G4:q"],
+        ["E5:q", "C5:q", "D5:q"],
+        ["E5:q", "F#5:q", "G5:q"],
+        ["A5:h", "A4:q"],
+        ["D5:q", "G4:q", "A4:q"],
+        ["B4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["[G2,B2,D3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[C3,E3,G3]:dh"],
+        ["[D3,F#3,A3]:dh"],
+        ["[D3,F#3,A3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[G2,B2,D3]:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-007",
+      "slug": "the-swan",
+      "title": "The Swan",
+      "summary": "Saint-Sa\u00ebns' serene cello melody in G major with sustained LH chords.",
+      "goal": "Play The Swan with a long, singing legato tone over gentle chord accompaniment.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 54,
+      "timeSignature": [3, 4],
+      "keySignature": 1,
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "C. Saint-Sa\u00ebns (1886), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "meditation",
+      "dynamics": [
+        { "measure": 1, "marking": "pp" }
+      ],
+      "measures": [
+        ["D5:h", "B4:q"],
+        ["C5:q", "A4:q", "G4:q"],
+        ["G4:h", "A4:q"],
+        ["D5:h", "D4:q"],
+        ["B4:q", "A4:q", "G4:q"],
+        ["A4:h", "A4:q"],
+        ["B4:q", "A4:q", "B4:q"],
+        ["G4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["[G2,B2,D3]:dh"],
+        ["[C3,E3,G3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[D3,F#3,A3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[D3,F#3,A3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[G2,B2,D3]:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-008",
+      "slug": "gymnopedie-1",
+      "title": "Gymnop\u00e9die No. 1",
+      "summary": "Erik Satie's dreamy Gymnop\u00e9die in D major with floating LH chords.",
+      "goal": "Play Gymnop\u00e9die with a slow, floating quality over sustained chord accompaniment.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 52,
+      "timeSignature": [3, 4],
+      "keySignature": 2,
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "E. Satie (1888), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "meditation",
+      "dynamics": [
+        { "measure": 1, "marking": "pp" }
+      ],
+      "measures": [
+        ["A4:h", "R:q"],
+        ["B4:q", "A4:q", "G4:q"],
+        ["F#4:h", "D4:q"],
+        ["E4:h", "R:q"],
+        ["F#4:q", "G4:q", "A4:q"],
+        ["B4:h", "A4:q"],
+        ["G4:h", "F#4:q"],
+        ["D4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["[D3,F#3,A3]:h", "R:q"],
+        ["[G2,B2,D3]:dh"],
+        ["[D3,F#3,A3]:dh"],
+        ["[A2,C#3,E3]:h", "R:q"],
+        ["[D3,F#3,A3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[D3,F#3,A3]:dh"],
+        ["[D3,F#3,A3]:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-009",
+      "slug": "ave-maria-schubert",
+      "title": "Ave Maria (Schubert)",
+      "summary": "Schubert's reverent Ave Maria melody in C major with sustained LH chords.",
+      "goal": "Play Ave Maria with a sustained, devotional tone over gentle chord accompaniment.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 54,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "F. Schubert (1825), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "christian",
+      "dynamics": [
+        { "measure": 1, "marking": "p" }
+      ],
+      "measures": [
+        ["E5:h", "D5:h"],
+        ["C5:h", "G4:h"],
+        ["A4:q", "B4:q", "C5:q", "D5:q"],
+        ["E5:h", "E5:h"],
+        ["F5:h", "E5:h"],
+        ["D5:h", "C5:h"],
+        ["B4:q", "C5:q", "D5:q", "C5:q"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["[C3,E3,G3]:w"],
+        ["[C3,E3,G3]:w"],
+        ["[F2,A2,C3]:h", "[C3,E3,G3]:h"],
+        ["[C3,E3,G3]:w"],
+        ["[F2,A2,C3]:w"],
+        ["[G2,B2,D3]:w"],
+        ["[G2,B2,D3]:h", "[C3,E3,G3]:h"],
+        ["[C3,E3,G3]:w"]
+      ]
+    },
+    {
+      "id": "songs-i-010",
+      "slug": "fur-elise",
+      "title": "F\u00fcr Elise (Opening)",
+      "summary": "Beethoven's iconic piano piece — the famous opening theme in A minor with LH chords.",
+      "goal": "Play the F\u00fcr Elise theme with precise alternating half steps over sustained minor chords.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "L. van Beethoven (c. 1810), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "classical",
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 4, "marking": "mf" },
+        { "measure": 7, "marking": "p" }
+      ],
+      "measures": [
+        ["E5:e", "Eb5:e", "E5:e", "Eb5:e", "E5:e", "B4:e"],
+        ["D5:e", "C5:e", "A4:h"],
+        ["A4:q", "B4:q", "C5:q"],
+        ["E5:e", "Eb5:e", "E5:e", "Eb5:e", "E5:e", "B4:e"],
+        ["D5:e", "C5:e", "A4:h"],
+        ["A4:q", "E5:q", "D5:q"],
+        ["C5:h", "B4:q"],
+        ["A4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["[A2,C3,E3]:dh"],
+        ["[A2,C3,E3]:dh"],
+        ["[A2,C3,E3]:dh"],
+        ["[A2,C3,E3]:dh"],
+        ["[A2,C3,E3]:dh"],
+        ["[A2,C3,E3]:dh"],
+        ["[E3,G#3,B3]:dh"],
+        ["[A2,C3,E3]:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-011",
+      "slug": "turkish-march",
+      "title": "Turkish March",
+      "summary": "Mozart's famous Alla Turca theme in A minor with LH chord support.",
+      "goal": "Play the Turkish March with crisp articulation over steady LH chords.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 116,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "W. A. Mozart (1783), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "march",
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["A4:e", "B4:e", "A4:e", "G#4:e", "A4:e", "B4:e", "A4:e", "G#4:e"],
+        ["A4:e", "C5:e", "B4:e", "A4:e", "G#4:q", "A4:q"],
+        ["A4:e", "B4:e", "A4:e", "G#4:e", "A4:e", "B4:e", "A4:e", "G#4:e"],
+        ["A4:w"],
+        ["E5:e", "D5:e", "C5:e", "B4:e", "A4:e", "B4:e", "C5:e", "D5:e"],
+        ["E5:h", "A4:h"],
+        ["C5:e", "B4:e", "A4:e", "G#4:e", "A4:e", "B4:e", "A4:e", "G#4:e"],
+        ["A4:w"]
+      ],
+      "measuresLeft": [
+        ["[A2,C3,E3]:w"],
+        ["[A2,C3,E3]:w"],
+        ["[A2,C3,E3]:w"],
+        ["[A2,C3,E3]:w"],
+        ["[A2,C3,E3]:w"],
+        ["[A2,C3,E3]:w"],
+        ["[E3,G#3,B3]:w"],
+        ["[A2,C3,E3]:w"]
+      ]
+    },
+    {
+      "id": "songs-i-012",
+      "slug": "jesu-joy",
+      "title": "Jesu, Joy of Man's Desiring",
+      "summary": "Bach's beloved chorale theme in G major with flowing LH chords.",
+      "goal": "Play the Jesu Joy melody with a spiritual quality over sustained chord accompaniment.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "keySignature": 1,
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "J. S. Bach (1723), arr. Pianio", "notes": "Baroque composition in the public domain. Arrangement CC0."},
+      "category": "christian",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["B4:q", "D5:q", "G5:q"],
+        ["F#5:q", "G5:q", "E5:q"],
+        ["D5:q", "E5:q", "C5:q"],
+        ["B4:h", "A4:q"],
+        ["G4:q", "A4:q", "B4:q"],
+        ["C5:q", "D5:q", "E5:q"],
+        ["A4:q", "B4:q", "C5:q"],
+        ["B4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["[G2,B2,D3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[C3,E3,G3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[C3,E3,G3]:dh"],
+        ["[D3,F#3,A3]:dh"],
+        ["[G2,B2,D3]:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-013",
+      "slug": "house-rising-sun",
+      "title": "House of the Rising Sun",
+      "summary": "The haunting American folk song in A minor with LH chord progression.",
+      "goal": "Play the rising minor melody with a dark, expressive tone over chord changes.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 69,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional American, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "p" }
+      ],
+      "measures": [
+        ["A4:q", "D4:q", "F4:q"],
+        ["A4:h", "D5:q"],
+        ["F5:q", "E5:q", "C5:q"],
+        ["D5:h", "R:q"],
+        ["E4:q", "G4:q", "B4:q"],
+        ["D5:h", "B4:q"],
+        ["G4:q", "B4:q", "D5:q"],
+        ["A4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["[A2,C3,E3]:dh"],
+        ["[C3,E3,G3]:dh"],
+        ["[D3,F3,A3]:dh"],
+        ["[D3,F3,A3]:h", "R:q"],
+        ["[A2,C3,E3]:dh"],
+        ["[C3,E3,G3]:dh"],
+        ["[E3,G#3,B3]:dh"],
+        ["[A2,C3,E3]:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-014",
+      "slug": "la-paloma",
+      "title": "La Paloma",
+      "summary": "The beloved Spanish-Cuban song in F major with LH chord accompaniment.",
+      "goal": "Play La Paloma with a flowing lilt over sustained chord changes.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "keySignature": -1,
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "S. Yradier (c. 1863), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "latin",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["C5:q", "C5:q", "Bb4:q", "C5:q"],
+        ["F5:h", "F5:h"],
+        ["C5:q", "Bb4:q", "G4:q", "Bb4:q"],
+        ["A4:h", "F4:h"],
+        ["G4:q", "A4:q", "Bb4:q", "C5:q"],
+        ["D5:h", "C5:h"],
+        ["Bb4:q", "A4:q", "G4:q", "F4:q"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["[C3,E3,G3]:w"],
+        ["[F2,A2,C3]:w"],
+        ["[Bb2,D3,F3]:w"],
+        ["[F2,A2,C3]:w"],
+        ["[Bb2,D3,F3]:h", "[F2,A2,C3]:h"],
+        ["[Bb2,D3,F3]:w"],
+        ["[F2,A2,C3]:w"],
+        ["[F2,A2,C3]:w"]
+      ]
+    },
+    {
+      "id": "songs-i-015",
+      "slug": "clair-de-lune",
+      "title": "Clair de Lune (Theme)",
+      "summary": "Debussy's moonlit masterpiece theme in C major with shimmering LH chords.",
+      "goal": "Play the Clair de Lune theme with a soft, shimmering touch over gentle chords.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 50,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "C. Debussy (1905), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "meditation",
+      "dynamics": [
+        { "measure": 1, "marking": "pp" }
+      ],
+      "measures": [
+        ["E5:h", "D5:q"],
+        ["C5:q", "E5:q", "G5:q"],
+        ["F5:h", "E5:q"],
+        ["D5:h", "C5:q"],
+        ["B4:q", "D5:q", "G4:q"],
+        ["A4:h", "G4:q"],
+        ["E4:q", "G4:q", "C5:q"],
+        ["C5:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["[C3,E3,G3]:dh"],
+        ["[C3,E3,G3]:dh"],
+        ["[F2,A2,C3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[G2,B2,D3]:dh"],
+        ["[F2,A2,C3]:dh"],
+        ["[C3,E3,G3]:dh"],
+        ["[C3,E3,G3]:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-016",
+      "slug": "minuet-in-g-minor",
+      "title": "Minuet in G minor (Petzold)",
+      "summary": "The companion piece to the famous Minuet in G — darker and more expressive.",
+      "goal": "Play this minor-key minuet with expressive phrasing.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 88,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Christian Petzold (1725), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "baroque",
+      "dynamics": [
+        {"measure": 1, "marking": "mp"},
+        {"measure": 5, "marking": "mf"}
+      ],
+      "measures": [
+        ["Bb4:q", "A4:q", "G4:q"],
+        ["F4:q", "Eb4:q", "D4:q"],
+        ["Eb4:q", "D4:q", "C4:q"],
+        ["D4:h", "R:q"],
+        ["Bb4:q", "C5:q", "D5:q"],
+        ["Eb5:q", "D5:q", "C5:q"],
+        ["D5:q", "C5:q", "Bb4:q"],
+        ["A4:h", "R:q"],
+        ["A4:q", "Bb4:q", "C5:q"],
+        ["Bb4:q", "A4:q", "G4:q"],
+        ["A4:q", "G4:q", "F4:q"],
+        ["G4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["G3:h", "R:q"],
+        ["D3:h", "R:q"],
+        ["C3:h", "R:q"],
+        ["G3:q", "F3:q", "Eb3:q"],
+        ["D3:h", "R:q"],
+        ["C3:h", "R:q"],
+        ["Bb2:h", "R:q"],
+        ["D3:q", "C3:q", "D3:q"],
+        ["F3:h", "R:q"],
+        ["G3:h", "R:q"],
+        ["D3:h", "R:q"],
+        ["G3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-017",
+      "slug": "musette-in-d",
+      "title": "Musette in D (BWV Anh. 126)",
+      "summary": "A charming piece from the Bach Notebook — bright and dance-like.",
+      "goal": "Play this Musette with a light, pastoral character.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Notebook for Anna Magdalena Bach (1725), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "baroque",
+      "dynamics": [
+        {"measure": 1, "marking": "mf"}
+      ],
+      "measures": [
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:q", "D4:q"],
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:q", "D4:q"],
+        ["B4:q", "A4:q", "G4:q", "F#4:q"],
+        ["E4:q", "D4:q", "A4:h"],
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:q", "D4:q"],
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:q", "B4:q"],
+        ["A4:q", "G4:q", "F#4:q", "E4:q"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:h", "A2:h"],
+        ["D3:h", "A2:h"],
+        ["G2:h", "D3:h"],
+        ["A2:h", "D3:h"],
+        ["D3:h", "A2:h"],
+        ["D3:h", "A2:h"],
+        ["D3:h", "A2:h"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "songs-i-018",
+      "slug": "sonatina-op36-1",
+      "title": "Sonatina Op. 36 No. 1, 1st mvt (Clementi)",
+      "summary": "Clementi's most famous sonatina opening — bright and classical.",
+      "goal": "Play this sonatina with crisp articulation and classical style.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Muzio Clementi (1797), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "classical",
+      "dynamics": [
+        {"measure": 1, "marking": "f"},
+        {"measure": 5, "marking": "p"},
+        {"measure": 7, "marking": "f"}
+      ],
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:q", "G4:q"],
+        ["A4:e", "G4:e", "F4:e", "E4:e", "D4:q", "D4:q"],
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:q", "C5:q"],
+        ["B4:q", "A4:q", "G4:h"],
+        ["G4:e", "A4:e", "G4:e", "F4:e", "E4:q", "E4:q"],
+        ["F4:e", "G4:e", "F4:e", "E4:e", "D4:q", "D4:q"],
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:q", "G4:q"],
+        ["C5:q", "G4:q", "C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["F3:q", "G3:q", "G2:q", "G3:q"],
+        ["C3:q", "G3:q", "E3:q", "G3:q"],
+        ["D3:q", "G3:q", "G2:h"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["G2:q", "G3:q", "G2:q", "G3:q"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["C3:q", "G3:q", "C3:h"]
+      ]
+    },
+    {
+      "id": "songs-i-019",
+      "slug": "sonatina-op36-2",
+      "title": "Sonatina Op. 36 No. 2, 1st mvt (Clementi)",
+      "summary": "Clementi's second sonatina — more lyrical with key of G major.",
+      "goal": "Play with singing melody and crisp Alberti-style LH.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Muzio Clementi (1797), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "classical",
+      "dynamics": [
+        {"measure": 1, "marking": "f"},
+        {"measure": 5, "marking": "p"}
+      ],
+      "measures": [
+        ["D4:e", "G4:e", "F#4:e", "G4:e", "B4:q", "G4:q"],
+        ["C5:q", "B4:q", "A4:q", "G4:q"],
+        ["D4:e", "G4:e", "F#4:e", "G4:e", "A4:q", "F#4:q"],
+        ["G4:h", "R:h"],
+        ["D5:q", "C5:q", "B4:q", "A4:q"],
+        ["B4:q", "A4:q", "G4:q", "F#4:q"],
+        ["E4:e", "F#4:e", "G4:e", "A4:e", "F#4:q", "D4:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["C3:q", "G3:q", "D3:q", "G3:q"],
+        ["G2:q", "D3:q", "D3:q", "A3:q"],
+        ["G2:h", "R:h"],
+        ["D3:q", "A3:q", "D3:q", "A3:q"],
+        ["G2:q", "D3:q", "G2:q", "D3:q"],
+        ["C3:q", "D3:q", "D3:q", "A3:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "songs-i-020",
+      "slug": "march-in-d",
+      "title": "March in D (BWV Anh. 122)",
+      "summary": "A stately march from the Anna Magdalena Bach Notebook.",
+      "goal": "Play this march with firm, steady rhythm.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "C.P.E. Bach, arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "baroque",
+      "dynamics": [
+        {"measure": 1, "marking": "f"},
+        {"measure": 5, "marking": "mf"}
+      ],
+      "measures": [
+        ["D4:q", "F#4:q", "A4:q", "D5:q"],
+        ["C#5:q", "B4:q", "A4:q", "G4:q"],
+        ["F#4:q", "G4:q", "A4:q", "F#4:q"],
+        ["E4:q", "D4:q", "A4:h"],
+        ["D5:q", "C#5:q", "B4:q", "A4:q"],
+        ["G4:q", "F#4:q", "E4:q", "D4:q"],
+        ["F#4:q", "A4:q", "G4:q", "F#4:q"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:h", "A2:h"],
+        ["D3:h", "D3:h"],
+        ["D3:h", "A2:h"],
+        ["A2:h", "D3:h"],
+        ["D3:h", "D3:h"],
+        ["G2:h", "A2:h"],
+        ["D3:h", "A2:h"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "songs-i-021",
+      "slug": "ecossaise-g",
+      "title": "Ecossaise in G (WoO 23)",
+      "summary": "Beethoven's lively Scottish dance in G major.",
+      "goal": "Play this energetic dance with crisp rhythm.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 108,
+      "timeSignature": [2, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Ludwig van Beethoven, arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "classical",
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ],
+      "measures": [
+        ["G4:e", "B4:e", "D5:e", "B4:e"],
+        ["G4:e", "B4:e", "D5:e", "B4:e"],
+        ["C5:e", "A4:e", "F#4:e", "A4:e"],
+        ["D5:q", "R:q"],
+        ["G4:e", "B4:e", "D5:e", "B4:e"],
+        ["G4:e", "B4:e", "D5:e", "B4:e"],
+        ["A4:e", "C5:e", "B4:e", "A4:e"],
+        ["G4:q", "R:q"]
+      ],
+      "measuresLeft": [
+        ["G2:q", "D3:q"],
+        ["G2:q", "D3:q"],
+        ["D3:q", "A3:q"],
+        ["G2:q", "R:q"],
+        ["G2:q", "D3:q"],
+        ["G2:q", "D3:q"],
+        ["D3:q", "D3:q"],
+        ["G2:q", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-022",
+      "slug": "german-dance-c",
+      "title": "German Dance in C (Haydn)",
+      "summary": "Haydn's charming German Dance — elegant and lighthearted.",
+      "goal": "Play this dance with graceful, lilting waltz feel.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 104,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Joseph Haydn (Hob. IX:12), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "classical",
+      "dynamics": [
+        {"measure": 1, "marking": "mf"}
+      ],
+      "measures": [
+        ["E4:q", "G4:q", "C5:q"],
+        ["C5:q", "B4:q", "A4:q"],
+        ["G4:q", "F4:q", "E4:q"],
+        ["D4:h", "R:q"],
+        ["E4:q", "G4:q", "C5:q"],
+        ["C5:q", "B4:q", "A4:q"],
+        ["G4:q", "A4:q", "B4:q"],
+        ["C4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "G3:q", "E3:q"],
+        ["F3:q", "C3:q", "F3:q"],
+        ["G2:q", "D3:q", "G2:q"],
+        ["G2:h", "R:q"],
+        ["C3:q", "G3:q", "E3:q"],
+        ["F3:q", "C3:q", "F3:q"],
+        ["G2:q", "D3:q", "G2:q"],
+        ["C3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-023",
+      "slug": "bagatelle-am",
+      "title": "Bagatelle in A minor, Op. 119 No. 9 (Beethoven)",
+      "summary": "A short, expressive Beethoven bagatelle — intimate and lyrical.",
+      "goal": "Play this bagatelle with gentle expression.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Ludwig van Beethoven (Op. 119 No. 9), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "classical",
+      "dynamics": [
+        {"measure": 1, "marking": "p"},
+        {"measure": 5, "marking": "mf"}
+      ],
+      "measures": [
+        ["A4:q", "C5:q", "E5:q"],
+        ["E5:q", "D5:q", "C5:q"],
+        ["B4:q", "D5:q", "C5:q"],
+        ["A4:h", "R:q"],
+        ["A4:q", "C5:q", "E5:q"],
+        ["D5:q", "C5:q", "B4:q"],
+        ["C5:q", "B4:q", "A4:q"],
+        ["A4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["A2:q", "E3:q", "A2:q"],
+        ["A2:q", "E3:q", "A2:q"],
+        ["E3:q", "B3:q", "E3:q"],
+        ["A2:h", "R:q"],
+        ["A2:q", "E3:q", "A2:q"],
+        ["E3:q", "B3:q", "E3:q"],
+        ["A2:q", "E3:q", "A2:q"],
+        ["A2:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-024",
+      "slug": "melody-op68-1",
+      "title": "Melody, Op. 68 No. 1 (Schumann)",
+      "summary": "The gentle opening piece from Schumann's Album for the Young.",
+      "goal": "Play this simple melody with warm, singing tone.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Robert Schumann (1848, Op. 68 No. 1), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "romantic-era",
+      "dynamics": [
+        {"measure": 1, "marking": "p"},
+        {"measure": 5, "marking": "mf"}
+      ],
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "F4:q"],
+        ["G4:h", "A4:h"],
+        ["G4:q", "F4:q", "E4:q", "D4:q"],
+        ["C4:w"],
+        ["E4:q", "F4:q", "G4:q", "A4:q"],
+        ["B4:h", "C5:h"],
+        ["B4:q", "A4:q", "G4:q", "F4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:h", "G2:h"],
+        ["C3:h", "F3:h"],
+        ["G2:h", "C3:h"],
+        ["C3:w"],
+        ["C3:h", "F3:h"],
+        ["G2:h", "C3:h"],
+        ["G2:h", "G2:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "songs-i-025",
+      "slug": "soldiers-march-op68-2",
+      "title": "Soldiers' March, Op. 68 No. 2 (Schumann)",
+      "summary": "Schumann's famous march — bold and rhythmic.",
+      "goal": "Play this march with crisp staccato and strong rhythm.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 104,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Robert Schumann (1848, Op. 68 No. 2), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "romantic-era",
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ],
+      "measures": [
+        ["G4:e", "R:e", "G4:e", "R:e", "A4:q", "B4:q"],
+        ["D5:e", "R:e", "D5:e", "R:e", "C5:q", "B4:q"],
+        ["A4:e", "R:e", "A4:e", "R:e", "B4:q", "A4:q"],
+        ["G4:h", "R:h"],
+        ["G4:e", "R:e", "G4:e", "R:e", "A4:q", "B4:q"],
+        ["D5:e", "R:e", "D5:e", "R:e", "C5:q", "B4:q"],
+        ["A4:q", "D5:q", "B4:q", "A4:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G2:q", "R:q", "D3:q", "G2:q"],
+        ["G2:q", "R:q", "D3:q", "G2:q"],
+        ["D3:q", "R:q", "G2:q", "D3:q"],
+        ["G2:h", "R:h"],
+        ["G2:q", "R:q", "D3:q", "G2:q"],
+        ["G2:q", "R:q", "D3:q", "G2:q"],
+        ["D3:q", "G2:q", "D3:q", "D3:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "songs-i-026",
+      "slug": "wild-horseman-op68-8",
+      "title": "Wild Horseman, Op. 68 No. 8 (Schumann)",
+      "summary": "Schumann's energetic galloping piece in A minor.",
+      "goal": "Play this gallop with driving energy and crisp chords.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 112,
+      "timeSignature": [2, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Robert Schumann (1848, Op. 68 No. 8), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "romantic-era",
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ],
+      "measures": [
+        ["[A4,C5,E5]:q", "[A4,C5,E5]:q"],
+        ["[G4,B4,D5]:q", "[A4,C5,E5]:q"],
+        ["[A4,C5,E5]:q", "[A4,C5,E5]:q"],
+        ["[G4,B4,D5]:q", "[A4,C5,E5]:q"],
+        ["B4:e", "C5:e", "D5:e", "E5:e"],
+        ["D5:e", "C5:e", "B4:e", "A4:e"],
+        ["B4:e", "C5:e", "D5:e", "B4:e"],
+        ["A4:q", "R:q"]
+      ],
+      "measuresLeft": [
+        ["A2:q", "E3:q"],
+        ["E3:q", "A2:q"],
+        ["A2:q", "E3:q"],
+        ["E3:q", "A2:q"],
+        ["E3:q", "A2:q"],
+        ["A2:q", "E3:q"],
+        ["E3:q", "E3:q"],
+        ["A2:q", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-027",
+      "slug": "arabesque-op100-2",
+      "title": "Arabesque, Op. 100 No. 2 (Burgmüller)",
+      "summary": "Burgmüller's popular Arabesque — swift and sparkling in A minor.",
+      "goal": "Play this étude with light, rapid fingerwork.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 108,
+      "timeSignature": [2, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Friedrich Burgmüller (1852, Op. 100 No. 2), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "romantic-era",
+      "dynamics": [
+        {"measure": 1, "marking": "p"},
+        {"measure": 5, "marking": "f"}
+      ],
+      "measures": [
+        ["A4:e", "B4:e", "C5:e", "D5:e"],
+        ["E5:e", "D5:e", "C5:e", "B4:e"],
+        ["A4:e", "B4:e", "C5:e", "D5:e"],
+        ["E5:q", "R:q"],
+        ["E5:e", "D5:e", "C5:e", "B4:e"],
+        ["A4:e", "B4:e", "C5:e", "A4:e"],
+        ["G#4:e", "A4:e", "B4:e", "G#4:e"],
+        ["A4:q", "R:q"]
+      ],
+      "measuresLeft": [
+        ["A2:q", "E3:q"],
+        ["A2:q", "E3:q"],
+        ["A2:q", "E3:q"],
+        ["A2:q", "R:q"],
+        ["A2:q", "E3:q"],
+        ["A2:q", "E3:q"],
+        ["E3:q", "E3:q"],
+        ["A2:q", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-028",
+      "slug": "pastorale-op100-3",
+      "title": "Pastorale, Op. 100 No. 3 (Burgmüller)",
+      "summary": "Burgmüller's gentle Pastorale — a calm, flowing piece in G major.",
+      "goal": "Play with a smooth, pastoral legato and gentle dynamics.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 80,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Friedrich Burgmüller (1852, Op. 100 No. 3), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "romantic-era",
+      "dynamics": [
+        {"measure": 1, "marking": "p"},
+        {"measure": 5, "marking": "mf"}
+      ],
+      "pedal": [
+        {"measure": 1, "beat": 1, "type": "down"},
+        {"measure": 2, "beat": 1, "type": "up"},
+        {"measure": 2, "beat": 1, "type": "down"},
+        {"measure": 3, "beat": 1, "type": "up"},
+        {"measure": 3, "beat": 1, "type": "down"},
+        {"measure": 4, "beat": 1, "type": "up"},
+        {"measure": 5, "beat": 1, "type": "down"},
+        {"measure": 6, "beat": 1, "type": "up"},
+        {"measure": 6, "beat": 1, "type": "down"},
+        {"measure": 7, "beat": 1, "type": "up"},
+        {"measure": 7, "beat": 1, "type": "down"},
+        {"measure": 8, "beat": 1, "type": "up"}
+      ],
+      "measures": [
+        ["B4:q", "A4:q", "G4:q"],
+        ["F#4:q", "G4:q", "A4:q"],
+        ["G4:h", "R:q"],
+        ["R:h", "R:q"],
+        ["D5:q", "C5:q", "B4:q"],
+        ["A4:q", "B4:q", "C5:q"],
+        ["B4:h", "R:q"],
+        ["R:h", "R:q"],
+        ["B4:q", "C5:q", "D5:q"],
+        ["E5:q", "D5:q", "C5:q"],
+        ["B4:q", "A4:q", "G4:q"],
+        ["G4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["G2:q", "D3:q", "B3:q"],
+        ["D3:q", "A3:q", "F#3:q"],
+        ["G2:q", "D3:q", "B3:q"],
+        ["R:h", "R:q"],
+        ["G2:q", "D3:q", "B3:q"],
+        ["D3:q", "A3:q", "F#3:q"],
+        ["G2:q", "D3:q", "B3:q"],
+        ["R:h", "R:q"],
+        ["G2:q", "D3:q", "B3:q"],
+        ["C3:q", "G3:q", "E3:q"],
+        ["D3:q", "A3:q", "F#3:q"],
+        ["G2:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-i-029",
+      "slug": "gurlitt-morning-mood",
+      "title": "Morning Mood, Op. 140 No. 1 (Gurlitt)",
+      "summary": "Cornelius Gurlitt's serene morning piece — gentle and flowing.",
+      "goal": "Play with a calm, smooth legato and soft dynamics.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Cornelius Gurlitt (Op. 140 No. 1), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "romantic-era",
+      "dynamics": [
+        {"measure": 1, "marking": "p"},
+        {"measure": 5, "marking": "mp"}
+      ],
+      "measures": [
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["F4:q", "A4:q", "G4:q", "E4:q"],
+        ["D4:q", "F4:q", "E4:q", "C4:q"],
+        ["D4:h", "C4:h"],
+        ["E4:q", "G4:q", "C5:q", "G4:q"],
+        ["A4:q", "C5:q", "B4:q", "G4:q"],
+        ["F4:q", "A4:q", "G4:q", "E4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:h", "G2:h"],
+        ["F3:h", "C3:h"],
+        ["G2:h", "C3:h"],
+        ["G2:h", "C3:h"],
+        ["C3:h", "G2:h"],
+        ["F3:h", "G2:h"],
+        ["F3:h", "C3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "songs-i-030",
+      "slug": "reinecke-serenade",
+      "title": "Serenade, Op. 183 No. 6 (Reinecke)",
+      "summary": "Carl Reinecke's graceful serenade — elegant and lyrical in F major.",
+      "goal": "Play this serenade with smooth phrasing and gentle pedal.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 76,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Carl Reinecke (Op. 183 No. 6), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "romantic-era",
+      "dynamics": [
+        {"measure": 1, "marking": "mp"},
+        {"measure": 5, "marking": "mf"}
+      ],
+      "pedal": [
+        {"measure": 1, "beat": 1, "type": "down"},
+        {"measure": 2, "beat": 1, "type": "up"},
+        {"measure": 2, "beat": 1, "type": "down"},
+        {"measure": 3, "beat": 1, "type": "up"},
+        {"measure": 3, "beat": 1, "type": "down"},
+        {"measure": 4, "beat": 1, "type": "up"},
+        {"measure": 5, "beat": 1, "type": "down"},
+        {"measure": 6, "beat": 1, "type": "up"},
+        {"measure": 6, "beat": 1, "type": "down"},
+        {"measure": 7, "beat": 1, "type": "up"},
+        {"measure": 7, "beat": 1, "type": "down"},
+        {"measure": 8, "beat": 1, "type": "up"}
+      ],
+      "measures": [
+        ["A4:q", "G4:q", "F4:q"],
+        ["E4:q", "F4:q", "G4:q"],
+        ["A4:q", "Bb4:q", "A4:q"],
+        ["G4:h", "R:q"],
+        ["C5:q", "Bb4:q", "A4:q"],
+        ["G4:q", "A4:q", "Bb4:q"],
+        ["A4:q", "G4:q", "F4:q"],
+        ["F4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["F3:q", "C3:q", "A3:q"],
+        ["C3:q", "G3:q", "E3:q"],
+        ["F3:q", "C3:q", "F3:q"],
+        ["C3:h", "R:q"],
+        ["F3:q", "C3:q", "F3:q"],
+        ["C3:q", "G3:q", "E3:q"],
+        ["F3:q", "C3:q", "C3:q"],
+        ["F3:h", "R:q"]
+      ]
+    }
+  ]
+}

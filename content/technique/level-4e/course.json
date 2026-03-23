@@ -1,0 +1,647 @@
+{
+  "courseId": "technique-level-4e",
+  "title": "Technique Level 4E — Full Combo Mastery",
+  "level": 4,
+  "summary": "Speed drills, full combo exercises, contrary motion at tempo, and mastery tests across all L4 keys (D, A, Bb, Eb, Ab) with dynamics and pedal.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "t4e-001",
+      "slug": "d-major-speed-drill",
+      "title": "D Major Speed Drill HT",
+      "summary": "D major scale at 100 BPM hands together.",
+      "goal": "Play D major HT at speed with clean articulation.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ],
+      "measures": [
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D5:e", "C#5:e", "B4:e", "A4:e", "G4:e", "F#4:e", "E4:e", "D4:e"],
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D5:e", "C#5:e", "B4:e", "A4:e", "G4:e", "F#4:e", "E4:e", "D4:e"],
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "A4:e", "F#4:e", "D4:e", "R:e"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:e", "B3:e", "C#4:e", "D4:e"],
+        ["D4:e", "C#4:e", "B3:e", "A3:e", "G3:e", "F#3:e", "E3:e", "D3:e"],
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:e", "B3:e", "C#4:e", "D4:e"],
+        ["D4:e", "C#4:e", "B3:e", "A3:e", "G3:e", "F#3:e", "E3:e", "D3:e"],
+        ["D3:e", "F#3:e", "A3:e", "D4:e", "A3:e", "F#3:e", "D3:e", "R:e"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "t4e-002",
+      "slug": "a-major-speed-drill",
+      "title": "A Major Speed Drill HT",
+      "summary": "A major scale at 100 BPM hands together.",
+      "goal": "Play A major HT at speed with all three sharps clean.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ],
+      "measures": [
+        ["A4:e", "B4:e", "C#5:e", "D5:e", "E5:e", "F#5:e", "G#5:e", "A5:e"],
+        ["A5:e", "G#5:e", "F#5:e", "E5:e", "D5:e", "C#5:e", "B4:e", "A4:e"],
+        ["A4:e", "B4:e", "C#5:e", "D5:e", "E5:e", "F#5:e", "G#5:e", "A5:e"],
+        ["A5:e", "G#5:e", "F#5:e", "E5:e", "D5:e", "C#5:e", "B4:e", "A4:e"],
+        ["A4:e", "C#5:e", "E5:e", "A5:e", "E5:e", "C#5:e", "A4:e", "R:e"],
+        ["A4:w"]
+      ],
+      "measuresLeft": [
+        ["A2:e", "B2:e", "C#3:e", "D3:e", "E3:e", "F#3:e", "G#3:e", "A3:e"],
+        ["A3:e", "G#3:e", "F#3:e", "E3:e", "D3:e", "C#3:e", "B2:e", "A2:e"],
+        ["A2:e", "B2:e", "C#3:e", "D3:e", "E3:e", "F#3:e", "G#3:e", "A3:e"],
+        ["A3:e", "G#3:e", "F#3:e", "E3:e", "D3:e", "C#3:e", "B2:e", "A2:e"],
+        ["A2:e", "C#3:e", "E3:e", "A3:e", "E3:e", "C#3:e", "A2:e", "R:e"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "t4e-003",
+      "slug": "bb-major-speed-drill",
+      "title": "Bb Major Speed Drill HT",
+      "summary": "Bb major scale at 96 BPM hands together.",
+      "goal": "Play Bb major HT at speed with clean flats.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ],
+      "measures": [
+        ["Bb4:e", "C5:e", "D5:e", "Eb5:e", "F5:e", "G5:e", "A5:e", "Bb5:e"],
+        ["Bb5:e", "A5:e", "G5:e", "F5:e", "Eb5:e", "D5:e", "C5:e", "Bb4:e"],
+        ["Bb4:e", "C5:e", "D5:e", "Eb5:e", "F5:e", "G5:e", "A5:e", "Bb5:e"],
+        ["Bb5:e", "A5:e", "G5:e", "F5:e", "Eb5:e", "D5:e", "C5:e", "Bb4:e"],
+        ["Bb3:e", "D4:e", "F4:e", "Bb4:e", "F4:e", "D4:e", "Bb3:e", "R:e"],
+        ["Bb4:w"]
+      ],
+      "measuresLeft": [
+        ["Bb2:e", "C3:e", "D3:e", "Eb3:e", "F3:e", "G3:e", "A3:e", "Bb3:e"],
+        ["Bb3:e", "A3:e", "G3:e", "F3:e", "Eb3:e", "D3:e", "C3:e", "Bb2:e"],
+        ["Bb2:e", "C3:e", "D3:e", "Eb3:e", "F3:e", "G3:e", "A3:e", "Bb3:e"],
+        ["Bb3:e", "A3:e", "G3:e", "F3:e", "Eb3:e", "D3:e", "C3:e", "Bb2:e"],
+        ["Bb2:e", "D3:e", "F3:e", "Bb3:e", "F3:e", "D3:e", "Bb2:e", "R:e"],
+        ["Bb2:w"]
+      ]
+    },
+    {
+      "id": "t4e-004",
+      "slug": "eb-major-speed-drill",
+      "title": "Eb Major Speed Drill HT",
+      "summary": "Eb major scale at 96 BPM hands together.",
+      "goal": "Play Eb major HT at speed with three flats.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ],
+      "measures": [
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "C5:e", "D5:e", "Eb5:e"],
+        ["Eb5:e", "D5:e", "C5:e", "Bb4:e", "Ab4:e", "G4:e", "F4:e", "Eb4:e"],
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "C5:e", "D5:e", "Eb5:e"],
+        ["Eb5:e", "D5:e", "C5:e", "Bb4:e", "Ab4:e", "G4:e", "F4:e", "Eb4:e"],
+        ["Eb4:e", "G4:e", "Bb4:e", "Eb5:e", "Bb4:e", "G4:e", "Eb4:e", "R:e"],
+        ["Eb4:w"]
+      ],
+      "measuresLeft": [
+        ["Eb3:e", "F3:e", "G3:e", "Ab3:e", "Bb3:e", "C4:e", "D4:e", "Eb4:e"],
+        ["Eb4:e", "D4:e", "C4:e", "Bb3:e", "Ab3:e", "G3:e", "F3:e", "Eb3:e"],
+        ["Eb3:e", "F3:e", "G3:e", "Ab3:e", "Bb3:e", "C4:e", "D4:e", "Eb4:e"],
+        ["Eb4:e", "D4:e", "C4:e", "Bb3:e", "Ab3:e", "G3:e", "F3:e", "Eb3:e"],
+        ["Eb3:e", "G3:e", "Bb3:e", "Eb4:e", "Bb3:e", "G3:e", "Eb3:e", "R:e"],
+        ["Eb3:w"]
+      ]
+    },
+    {
+      "id": "t4e-005",
+      "slug": "ab-major-speed-drill",
+      "title": "Ab Major Speed Drill HT",
+      "summary": "Ab major scale at 92 BPM hands together.",
+      "goal": "Play Ab major HT at speed with four flats.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ],
+      "measures": [
+        ["Ab4:e", "Bb4:e", "C5:e", "Db5:e", "Eb5:e", "F5:e", "G5:e", "Ab5:e"],
+        ["Ab5:e", "G5:e", "F5:e", "Eb5:e", "Db5:e", "C5:e", "Bb4:e", "Ab4:e"],
+        ["Ab4:e", "Bb4:e", "C5:e", "Db5:e", "Eb5:e", "F5:e", "G5:e", "Ab5:e"],
+        ["Ab5:e", "G5:e", "F5:e", "Eb5:e", "Db5:e", "C5:e", "Bb4:e", "Ab4:e"],
+        ["Ab3:e", "C4:e", "Eb4:e", "Ab4:e", "Eb4:e", "C4:e", "Ab3:e", "R:e"],
+        ["Ab4:w"]
+      ],
+      "measuresLeft": [
+        ["Ab2:e", "Bb2:e", "C3:e", "Db3:e", "Eb3:e", "F3:e", "G3:e", "Ab3:e"],
+        ["Ab3:e", "G3:e", "F3:e", "Eb3:e", "Db3:e", "C3:e", "Bb2:e", "Ab2:e"],
+        ["Ab2:e", "Bb2:e", "C3:e", "Db3:e", "Eb3:e", "F3:e", "G3:e", "Ab3:e"],
+        ["Ab3:e", "G3:e", "F3:e", "Eb3:e", "Db3:e", "C3:e", "Bb2:e", "Ab2:e"],
+        ["Ab2:e", "C3:e", "Eb3:e", "Ab3:e", "Eb3:e", "C3:e", "Ab2:e", "R:e"],
+        ["Ab2:w"]
+      ]
+    },
+    {
+      "id": "t4e-006",
+      "slug": "arpeggio-speed-d",
+      "title": "D Major Arpeggio Speed Drill",
+      "summary": "D major arpeggio at 96 BPM hands together.",
+      "goal": "Play D major arpeggios at speed with fluid crossings.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "F#5:e", "D5:e", "A4:e", "F#4:e"],
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "F#5:e", "D5:e", "A4:e", "F#4:e"],
+        ["D4:e", "A4:e", "D5:e", "F#5:e", "D5:e", "A4:e", "F#4:e", "D4:e"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "F#3:e", "A3:e", "D4:e", "A3:e", "F#3:e", "D3:e", "R:e"],
+        ["D3:e", "F#3:e", "A3:e", "D4:e", "A3:e", "F#3:e", "D3:e", "R:e"],
+        ["D3:e", "A3:e", "D4:e", "F#3:e", "D3:e", "A3:e", "F#3:e", "D3:e"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "t4e-007",
+      "slug": "arpeggio-speed-a",
+      "title": "A Major Arpeggio Speed Drill",
+      "summary": "A major arpeggio at 96 BPM hands together.",
+      "goal": "Play A major arpeggios at speed.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "C#5:e", "E5:e", "A5:e", "E5:e", "C#5:e", "A4:e", "R:e"],
+        ["A4:e", "C#5:e", "E5:e", "A5:e", "E5:e", "C#5:e", "A4:e", "R:e"],
+        ["A4:e", "E5:e", "A5:e", "C#5:e", "A4:e", "E5:e", "C#5:e", "A4:e"],
+        ["A4:w"]
+      ],
+      "measuresLeft": [
+        ["A2:e", "C#3:e", "E3:e", "A3:e", "E3:e", "C#3:e", "A2:e", "R:e"],
+        ["A2:e", "C#3:e", "E3:e", "A3:e", "E3:e", "C#3:e", "A2:e", "R:e"],
+        ["A2:e", "E3:e", "A3:e", "C#3:e", "A2:e", "E3:e", "C#3:e", "A2:e"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "t4e-008",
+      "slug": "arpeggio-speed-bb",
+      "title": "Bb Major Arpeggio Speed Drill",
+      "summary": "Bb major arpeggio at 92 BPM hands together.",
+      "goal": "Play Bb major arpeggios at speed.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb3:e", "D4:e", "F4:e", "Bb4:e", "D5:e", "Bb4:e", "F4:e", "D4:e"],
+        ["Bb3:e", "D4:e", "F4:e", "Bb4:e", "D5:e", "Bb4:e", "F4:e", "D4:e"],
+        ["Bb3:e", "F4:e", "Bb4:e", "D5:e", "Bb4:e", "F4:e", "D4:e", "Bb3:e"],
+        ["Bb3:w"]
+      ],
+      "measuresLeft": [
+        ["Bb2:e", "D3:e", "F3:e", "Bb3:e", "F3:e", "D3:e", "Bb2:e", "R:e"],
+        ["Bb2:e", "D3:e", "F3:e", "Bb3:e", "F3:e", "D3:e", "Bb2:e", "R:e"],
+        ["Bb2:e", "F3:e", "Bb3:e", "D3:e", "Bb2:e", "F3:e", "D3:e", "Bb2:e"],
+        ["Bb2:w"]
+      ]
+    },
+    {
+      "id": "t4e-009",
+      "slug": "arpeggio-speed-eb",
+      "title": "Eb Major Arpeggio Speed Drill",
+      "summary": "Eb major arpeggio at 92 BPM hands together.",
+      "goal": "Play Eb major arpeggios at speed.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:e", "G4:e", "Bb4:e", "Eb5:e", "G5:e", "Eb5:e", "Bb4:e", "G4:e"],
+        ["Eb4:e", "G4:e", "Bb4:e", "Eb5:e", "G5:e", "Eb5:e", "Bb4:e", "G4:e"],
+        ["Eb4:e", "Bb4:e", "Eb5:e", "G5:e", "Eb5:e", "Bb4:e", "G4:e", "Eb4:e"],
+        ["Eb4:w"]
+      ],
+      "measuresLeft": [
+        ["Eb3:e", "G3:e", "Bb3:e", "Eb4:e", "Bb3:e", "G3:e", "Eb3:e", "R:e"],
+        ["Eb3:e", "G3:e", "Bb3:e", "Eb4:e", "Bb3:e", "G3:e", "Eb3:e", "R:e"],
+        ["Eb3:e", "Bb3:e", "Eb4:e", "G3:e", "Eb3:e", "Bb3:e", "G3:e", "Eb3:e"],
+        ["Eb3:w"]
+      ]
+    },
+    {
+      "id": "t4e-010",
+      "slug": "arpeggio-speed-ab",
+      "title": "Ab Major Arpeggio Speed Drill",
+      "summary": "Ab major arpeggio at 88 BPM hands together.",
+      "goal": "Play Ab major arpeggios at speed.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab4:e", "C5:e", "Eb5:e", "Ab5:e", "Eb5:e", "C5:e", "Ab4:e", "R:e"],
+        ["Ab4:e", "C5:e", "Eb5:e", "Ab5:e", "Eb5:e", "C5:e", "Ab4:e", "R:e"],
+        ["Ab4:e", "Eb5:e", "Ab5:e", "C5:e", "Ab4:e", "Eb5:e", "C5:e", "Ab4:e"],
+        ["Ab4:w"]
+      ],
+      "measuresLeft": [
+        ["Ab2:e", "C3:e", "Eb3:e", "Ab3:e", "Eb3:e", "C3:e", "Ab2:e", "R:e"],
+        ["Ab2:e", "C3:e", "Eb3:e", "Ab3:e", "Eb3:e", "C3:e", "Ab2:e", "R:e"],
+        ["Ab2:e", "Eb3:e", "Ab3:e", "C3:e", "Ab2:e", "Eb3:e", "C3:e", "Ab2:e"],
+        ["Ab2:w"]
+      ]
+    },
+    {
+      "id": "t4e-011",
+      "slug": "full-combo-d",
+      "title": "Full Combo in D Major",
+      "summary": "Scale + arpeggio + chord progression in D major with dynamics.",
+      "goal": "Complete the D major full combo at tempo.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "dynamics": [
+        {"measure": 1, "marking": "mf"},
+        {"measure": 5, "marking": "f"}
+      ],
+      "measures": [
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D5:e", "C#5:e", "B4:e", "A4:e", "G4:e", "F#4:e", "E4:e", "D4:e"],
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "F#5:e", "D5:e", "A4:e", "F#4:e"],
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "A4:e", "F#4:e", "D4:e", "R:e"],
+        ["[D4,F#4,A4]:h", "[D4,G4,B4]:h"],
+        ["[C#4,E4,A4]:h", "[D4,F#4,A4]:h"],
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["[D4,F#4,A4]:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:e", "B3:e", "C#4:e", "D4:e"],
+        ["D4:e", "C#4:e", "B3:e", "A3:e", "G3:e", "F#3:e", "E3:e", "D3:e"],
+        ["D3:e", "F#3:e", "A3:e", "D4:e", "A3:e", "F#3:e", "D3:e", "R:e"],
+        ["D3:e", "F#3:e", "A3:e", "D4:e", "A3:e", "F#3:e", "D3:e", "R:e"],
+        ["D3:h", "G2:h"],
+        ["A2:h", "D3:h"],
+        ["D3:h", "A2:h"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "t4e-012",
+      "slug": "full-combo-a",
+      "title": "Full Combo in A Major",
+      "summary": "Scale + arpeggio + chord progression in A major with dynamics.",
+      "goal": "Complete the A major full combo at tempo.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "dynamics": [
+        {"measure": 1, "marking": "mf"},
+        {"measure": 5, "marking": "f"}
+      ],
+      "measures": [
+        ["A4:e", "B4:e", "C#5:e", "D5:e", "E5:e", "F#5:e", "G#5:e", "A5:e"],
+        ["A5:e", "G#5:e", "F#5:e", "E5:e", "D5:e", "C#5:e", "B4:e", "A4:e"],
+        ["A4:e", "C#5:e", "E5:e", "A5:e", "E5:e", "C#5:e", "A4:e", "R:e"],
+        ["A4:e", "C#5:e", "E5:e", "A5:e", "E5:e", "C#5:e", "A4:e", "R:e"],
+        ["[A4,C#5,E5]:h", "[A4,D5,F#5]:h"],
+        ["[G#4,B4,E5]:h", "[A4,C#5,E5]:h"],
+        ["A4:e", "B4:e", "C#5:e", "D5:e", "E5:e", "F#5:e", "G#5:e", "A5:e"],
+        ["[A4,C#5,E5]:w"]
+      ],
+      "measuresLeft": [
+        ["A2:e", "B2:e", "C#3:e", "D3:e", "E3:e", "F#3:e", "G#3:e", "A3:e"],
+        ["A3:e", "G#3:e", "F#3:e", "E3:e", "D3:e", "C#3:e", "B2:e", "A2:e"],
+        ["A2:e", "C#3:e", "E3:e", "A3:e", "E3:e", "C#3:e", "A2:e", "R:e"],
+        ["A2:e", "C#3:e", "E3:e", "A3:e", "E3:e", "C#3:e", "A2:e", "R:e"],
+        ["A2:h", "D3:h"],
+        ["E3:h", "A2:h"],
+        ["A2:h", "E3:h"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "t4e-013",
+      "slug": "full-combo-bb",
+      "title": "Full Combo in Bb Major",
+      "summary": "Scale + arpeggio + chord progression in Bb major.",
+      "goal": "Complete the Bb major full combo at tempo.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "dynamics": [
+        {"measure": 1, "marking": "mf"},
+        {"measure": 5, "marking": "f"}
+      ],
+      "measures": [
+        ["Bb4:e", "C5:e", "D5:e", "Eb5:e", "F5:e", "G5:e", "A5:e", "Bb5:e"],
+        ["Bb5:e", "A5:e", "G5:e", "F5:e", "Eb5:e", "D5:e", "C5:e", "Bb4:e"],
+        ["Bb3:e", "D4:e", "F4:e", "Bb4:e", "D5:e", "Bb4:e", "F4:e", "D4:e"],
+        ["Bb3:e", "D4:e", "F4:e", "Bb4:e", "F4:e", "D4:e", "Bb3:e", "R:e"],
+        ["[Bb3,D4,F4]:h", "[Bb3,Eb4,G4]:h"],
+        ["[A3,C4,F4]:h", "[Bb3,D4,F4]:h"],
+        ["Bb4:e", "C5:e", "D5:e", "Eb5:e", "F5:e", "G5:e", "A5:e", "Bb5:e"],
+        ["[Bb3,D4,F4]:w"]
+      ],
+      "measuresLeft": [
+        ["Bb2:e", "C3:e", "D3:e", "Eb3:e", "F3:e", "G3:e", "A3:e", "Bb3:e"],
+        ["Bb3:e", "A3:e", "G3:e", "F3:e", "Eb3:e", "D3:e", "C3:e", "Bb2:e"],
+        ["Bb2:e", "D3:e", "F3:e", "Bb3:e", "F3:e", "D3:e", "Bb2:e", "R:e"],
+        ["Bb2:e", "D3:e", "F3:e", "Bb3:e", "F3:e", "D3:e", "Bb2:e", "R:e"],
+        ["Bb2:h", "Eb3:h"],
+        ["F3:h", "Bb2:h"],
+        ["Bb2:h", "F3:h"],
+        ["Bb2:w"]
+      ]
+    },
+    {
+      "id": "t4e-014",
+      "slug": "full-combo-eb",
+      "title": "Full Combo in Eb Major",
+      "summary": "Scale + arpeggio + chord progression in Eb major.",
+      "goal": "Complete the Eb major full combo at tempo.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "dynamics": [
+        {"measure": 1, "marking": "mf"},
+        {"measure": 5, "marking": "f"}
+      ],
+      "measures": [
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "C5:e", "D5:e", "Eb5:e"],
+        ["Eb5:e", "D5:e", "C5:e", "Bb4:e", "Ab4:e", "G4:e", "F4:e", "Eb4:e"],
+        ["Eb4:e", "G4:e", "Bb4:e", "Eb5:e", "G5:e", "Eb5:e", "Bb4:e", "G4:e"],
+        ["Eb4:e", "G4:e", "Bb4:e", "Eb5:e", "Bb4:e", "G4:e", "Eb4:e", "R:e"],
+        ["[Eb4,G4,Bb4]:h", "[Eb4,Ab4,C5]:h"],
+        ["[D4,F4,Bb4]:h", "[Eb4,G4,Bb4]:h"],
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "C5:e", "D5:e", "Eb5:e"],
+        ["[Eb4,G4,Bb4]:w"]
+      ],
+      "measuresLeft": [
+        ["Eb3:e", "F3:e", "G3:e", "Ab3:e", "Bb3:e", "C4:e", "D4:e", "Eb4:e"],
+        ["Eb4:e", "D4:e", "C4:e", "Bb3:e", "Ab3:e", "G3:e", "F3:e", "Eb3:e"],
+        ["Eb3:e", "G3:e", "Bb3:e", "Eb4:e", "Bb3:e", "G3:e", "Eb3:e", "R:e"],
+        ["Eb3:e", "G3:e", "Bb3:e", "Eb4:e", "Bb3:e", "G3:e", "Eb3:e", "R:e"],
+        ["Eb3:h", "Ab2:h"],
+        ["Bb2:h", "Eb3:h"],
+        ["Eb3:h", "Bb2:h"],
+        ["Eb3:w"]
+      ]
+    },
+    {
+      "id": "t4e-015",
+      "slug": "full-combo-ab",
+      "title": "Full Combo in Ab Major",
+      "summary": "Scale + arpeggio + chord progression in Ab major.",
+      "goal": "Complete the Ab major full combo at tempo.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "dynamics": [
+        {"measure": 1, "marking": "mf"},
+        {"measure": 5, "marking": "f"}
+      ],
+      "measures": [
+        ["Ab4:e", "Bb4:e", "C5:e", "Db5:e", "Eb5:e", "F5:e", "G5:e", "Ab5:e"],
+        ["Ab5:e", "G5:e", "F5:e", "Eb5:e", "Db5:e", "C5:e", "Bb4:e", "Ab4:e"],
+        ["Ab4:e", "C5:e", "Eb5:e", "Ab5:e", "Eb5:e", "C5:e", "Ab4:e", "R:e"],
+        ["Ab4:e", "C5:e", "Eb5:e", "Ab5:e", "Eb5:e", "C5:e", "Ab4:e", "R:e"],
+        ["[Ab3,C4,Eb4]:h", "[Ab3,Db4,F4]:h"],
+        ["[G3,Bb3,Eb4]:h", "[Ab3,C4,Eb4]:h"],
+        ["Ab4:e", "Bb4:e", "C5:e", "Db5:e", "Eb5:e", "F5:e", "G5:e", "Ab5:e"],
+        ["[Ab3,C4,Eb4]:w"]
+      ],
+      "measuresLeft": [
+        ["Ab2:e", "Bb2:e", "C3:e", "Db3:e", "Eb3:e", "F3:e", "G3:e", "Ab3:e"],
+        ["Ab3:e", "G3:e", "F3:e", "Eb3:e", "Db3:e", "C3:e", "Bb2:e", "Ab2:e"],
+        ["Ab2:e", "C3:e", "Eb3:e", "Ab3:e", "Eb3:e", "C3:e", "Ab2:e", "R:e"],
+        ["Ab2:e", "C3:e", "Eb3:e", "Ab3:e", "Eb3:e", "C3:e", "Ab2:e", "R:e"],
+        ["Ab2:h", "Db3:h"],
+        ["Eb3:h", "Ab2:h"],
+        ["Ab2:h", "Eb3:h"],
+        ["Ab2:w"]
+      ]
+    },
+    {
+      "id": "t4e-016",
+      "slug": "contrary-motion-speed-d",
+      "title": "Contrary Motion Speed: D Major",
+      "summary": "D major contrary motion at 96 BPM.",
+      "goal": "Execute contrary motion at speed in D major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D5:e", "C#5:e", "B4:e", "A4:e", "G4:e", "F#4:e", "E4:e", "D4:e"],
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D4:e", "C#4:e", "B3:e", "A3:e", "G3:e", "F#3:e", "E3:e", "D3:e"],
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:e", "B3:e", "C#4:e", "D4:e"],
+        ["D4:e", "C#4:e", "B3:e", "A3:e", "G3:e", "F#3:e", "E3:e", "D3:e"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "t4e-017",
+      "slug": "contrary-motion-speed-eb",
+      "title": "Contrary Motion Speed: Eb Major",
+      "summary": "Eb major contrary motion at 92 BPM.",
+      "goal": "Execute contrary motion at speed in Eb major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "C5:e", "D5:e", "Eb5:e"],
+        ["Eb5:e", "D5:e", "C5:e", "Bb4:e", "Ab4:e", "G4:e", "F4:e", "Eb4:e"],
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "C5:e", "D5:e", "Eb5:e"],
+        ["Eb4:w"]
+      ],
+      "measuresLeft": [
+        ["Eb4:e", "D4:e", "C4:e", "Bb3:e", "Ab3:e", "G3:e", "F3:e", "Eb3:e"],
+        ["Eb3:e", "F3:e", "G3:e", "Ab3:e", "Bb3:e", "C4:e", "D4:e", "Eb4:e"],
+        ["Eb4:e", "D4:e", "C4:e", "Bb3:e", "Ab3:e", "G3:e", "F3:e", "Eb3:e"],
+        ["Eb3:w"]
+      ]
+    },
+    {
+      "id": "t4e-018",
+      "slug": "sight-reading-sharp-keys",
+      "title": "Sight-Reading: Sharp Keys",
+      "summary": "Mixed passage in D and A major — practice reading sharps at speed.",
+      "goal": "Read and play an unfamiliar passage in sharp keys.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "dynamics": [
+        {"measure": 1, "marking": "mf"},
+        {"measure": 5, "marking": "f"}
+      ],
+      "measures": [
+        ["D4:q", "F#4:e", "A4:e", "G4:q", "E4:q"],
+        ["F#4:e", "G4:e", "A4:q", "B4:q", "A4:q"],
+        ["D5:q", "C#5:e", "B4:e", "A4:q", "F#4:q"],
+        ["G4:e", "A4:e", "B4:q", "A4:h"],
+        ["A4:q", "C#5:e", "E5:e", "D5:q", "B4:q"],
+        ["C#5:e", "D5:e", "E5:q", "F#5:q", "E5:q"],
+        ["D5:q", "C#5:e", "B4:e", "A4:q", "F#4:q"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "t4e-019",
+      "slug": "sight-reading-flat-keys",
+      "title": "Sight-Reading: Flat Keys",
+      "summary": "Mixed passage in Bb and Eb major — practice reading flats at speed.",
+      "goal": "Read and play an unfamiliar passage in flat keys.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "dynamics": [
+        {"measure": 1, "marking": "mp"},
+        {"measure": 5, "marking": "f"}
+      ],
+      "measures": [
+        ["Bb3:q", "D4:e", "F4:e", "Eb4:q", "C4:q"],
+        ["D4:e", "Eb4:e", "F4:q", "G4:q", "F4:q"],
+        ["Bb4:q", "A4:e", "G4:e", "F4:q", "D4:q"],
+        ["Eb4:e", "F4:e", "G4:q", "F4:h"],
+        ["Eb4:q", "G4:e", "Bb4:e", "Ab4:q", "F4:q"],
+        ["G4:e", "Ab4:e", "Bb4:q", "C5:q", "Bb4:q"],
+        ["Ab4:q", "G4:e", "F4:e", "Eb4:q", "D4:q"],
+        ["Bb3:w"]
+      ]
+    },
+    {
+      "id": "t4e-020",
+      "slug": "l4-final-mastery",
+      "title": "L4 Final Mastery Test",
+      "summary": "Grand finale — all five L4 keys in one exercise with dynamics, chords, and arpeggios.",
+      "goal": "Demonstrate mastery of all L4 keys in a single exercise.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "dynamics": [
+        {"measure": 1, "marking": "p"},
+        {"measure": 3, "marking": "mf"},
+        {"measure": 5, "marking": "f"},
+        {"measure": 7, "marking": "ff"},
+        {"measure": 9, "marking": "p"}
+      ],
+      "measures": [
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "A4:e", "F#4:e", "D4:e", "R:e"],
+        ["Bb4:e", "C5:e", "D5:e", "Eb5:e", "F5:e", "G5:e", "A5:e", "Bb5:e"],
+        ["Bb3:e", "D4:e", "F4:e", "Bb4:e", "F4:e", "D4:e", "Bb3:e", "R:e"],
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "C5:e", "D5:e", "Eb5:e"],
+        ["Ab4:e", "Bb4:e", "C5:e", "Db5:e", "Eb5:e", "F5:e", "G5:e", "Ab5:e"],
+        ["[D4,F#4,A4]:q", "[Bb3,D4,F4]:q", "[Eb4,G4,Bb4]:q", "[Ab3,C4,Eb4]:q"],
+        ["[A3,C#4,E4]:q", "[D4,F#4,A4]:q", "[Bb3,D4,F4]:q", "[Eb4,G4,Bb4]:q"],
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "G4:e", "F#4:e", "E4:e"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:e", "B3:e", "C#4:e", "D4:e"],
+        ["D3:h", "A2:h"],
+        ["Bb2:e", "C3:e", "D3:e", "Eb3:e", "F3:e", "G3:e", "A3:e", "Bb3:e"],
+        ["Bb2:h", "F3:h"],
+        ["Eb3:e", "F3:e", "G3:e", "Ab3:e", "Bb3:e", "C4:e", "D4:e", "Eb4:e"],
+        ["Ab2:e", "Bb2:e", "C3:e", "Db3:e", "Eb3:e", "F3:e", "G3:e", "Ab3:e"],
+        ["D3:q", "Bb2:q", "Eb3:q", "Ab2:q"],
+        ["A2:q", "D3:q", "Bb2:q", "Eb3:q"],
+        ["D3:h", "A2:h"],
+        ["D3:w"]
+      ]
+    }
+  ]
+}

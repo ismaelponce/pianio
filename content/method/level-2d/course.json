@@ -1,0 +1,487 @@
+{
+  "courseId": "method-level-2d",
+  "title": "Method Level 2D — Application",
+  "level": 2,
+  "summary": "Eighth notes arrive in D position, G position, and A minor — faster, more musical pieces with both hands.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "m2d-001",
+      "slug": "d-eighth-notes",
+      "title": "D Eighth Notes",
+      "summary": "Right hand introduces pairs of eighth notes within D position.",
+      "goal": "Play eighth-note pairs evenly within D position, keeping F-sharp accurate.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:q", "G4:q"],
+        ["F#4:e", "E4:e", "F#4:q", "G4:q", "A4:q"],
+        ["G4:e", "F#4:e", "E4:e", "D4:e", "D4:h"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "m2d-002",
+      "slug": "g-eighth-notes",
+      "title": "G Eighth Notes",
+      "summary": "Right hand explores eighth notes through G position up to D5.",
+      "goal": "Play eighth-note runs in G position evenly and in time.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "A4:e", "B4:e", "C5:e", "D5:q", "C5:q"],
+        ["B4:e", "A4:e", "B4:q", "C5:q", "D5:q"],
+        ["C5:e", "B4:e", "A4:e", "G4:e", "G4:h"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "m2d-003",
+      "slug": "a-minor-eighth-notes",
+      "title": "A Minor Eighth Notes",
+      "summary": "Right hand introduces eighth notes in A minor position.",
+      "goal": "Play eighth-note figures in A minor with a flowing, dark character.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:e", "B3:e", "C4:e", "D4:e", "E4:q", "D4:q"],
+        ["C4:e", "B3:e", "C4:q", "D4:q", "E4:q"],
+        ["D4:e", "C4:e", "B3:e", "A3:e", "A3:h"],
+        ["A3:w"]
+      ]
+    },
+    {
+      "id": "m2d-004",
+      "slug": "d-lively-dance",
+      "title": "D Lively Dance",
+      "summary": "Right hand plays a lively D-position dance in 2/4 with eighth notes.",
+      "goal": "Keep eighth notes even at a dance tempo in 2/4.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F#4:q"],
+        ["G4:e", "F#4:e", "E4:q"],
+        ["F#4:e", "G4:e", "A4:q"],
+        ["G4:e", "F#4:e", "E4:q"],
+        ["E4:e", "D4:e", "D4:q"],
+        ["D4:h"]
+      ]
+    },
+    {
+      "id": "m2d-005",
+      "slug": "d-bass-eighth-notes",
+      "title": "D Bass Eighth Notes",
+      "summary": "Left hand plays eighth-note runs through D position.",
+      "goal": "Play D-position eighth notes in bass clef with accurate F-sharp.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:q", "G3:q"],
+        ["F#3:e", "E3:e", "F#3:q", "G3:q", "A3:q"],
+        ["G3:e", "F#3:e", "E3:e", "D3:e", "D3:h"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "m2d-006",
+      "slug": "g-bass-eighth-notes",
+      "title": "G Bass Eighth Notes",
+      "summary": "Left hand plays eighth-note runs through G position.",
+      "goal": "Play G-position eighth notes in bass clef with even tone.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G2:e", "A2:e", "B2:e", "C3:e", "D3:q", "C3:q"],
+        ["B2:e", "A2:e", "B2:q", "C3:q", "D3:q"],
+        ["C3:e", "B2:e", "A2:e", "G2:e", "G2:h"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "m2d-007",
+      "slug": "a-minor-bass-eighth-notes",
+      "title": "A Minor Bass Eighth Notes",
+      "summary": "Left hand plays eighth-note figures in A minor bass position.",
+      "goal": "Play A minor eighth notes in bass clef with a flowing, expressive quality.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A2:e", "B2:e", "C3:e", "D3:e", "E3:q", "D3:q"],
+        ["C3:e", "B2:e", "C3:q", "D3:q", "E3:q"],
+        ["D3:e", "C3:e", "B2:e", "A2:e", "A2:h"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "m2d-008",
+      "slug": "d-song-with-eighths",
+      "title": "D Song with Eighths",
+      "summary": "Right hand sings a D melody with eighth notes while left hand holds the bass.",
+      "goal": "Play eighth-note melody figures over a steady left-hand bass.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F#4:q", "G4:q", "A4:q"],
+        ["G4:e", "F#4:e", "E4:q", "F#4:q", "G4:q"],
+        ["A4:q", "G4:e", "F#4:e", "E4:h"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:h", "F#3:h"],
+        ["G3:h", "A3:h"],
+        ["G3:h", "E3:h"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "m2d-009",
+      "slug": "g-song-with-eighths",
+      "title": "G Song with Eighths",
+      "summary": "Right hand plays a G melody with eighth notes above a bass line.",
+      "goal": "Balance eighth-note melody figures over a left-hand bass in G position.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "A4:e", "B4:q", "C5:q", "D5:q"],
+        ["C5:e", "B4:e", "A4:q", "B4:q", "C5:q"],
+        ["D5:q", "C5:e", "B4:e", "A4:h"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G2:h", "B2:h"],
+        ["C3:h", "D3:h"],
+        ["C3:h", "B2:h"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "m2d-010",
+      "slug": "a-minor-song-with-eighths",
+      "title": "A Minor Song with Eighths",
+      "summary": "A minor melody with eighth notes over a sustained bass.",
+      "goal": "Play eighth-note figures in A minor with an expressive, flowing character.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:e", "B3:e", "C4:q", "D4:q", "E4:q"],
+        ["D4:e", "C4:e", "B3:q", "C4:q", "D4:q"],
+        ["E4:q", "D4:e", "C4:e", "B3:h"],
+        ["A3:w"]
+      ],
+      "measuresLeft": [
+        ["A2:h", "C3:h"],
+        ["E3:h", "D3:h"],
+        ["C3:h", "E3:h"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "m2d-011",
+      "slug": "d-waltz-with-eighths",
+      "title": "D Waltz with Eighths",
+      "summary": "Both hands in a D-position waltz with eighth-note decoration.",
+      "goal": "Add eighth-note ornamentation to a waltz melody in D position.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F#4:q", "G4:q"],
+        ["A4:q", "G4:e", "F#4:e", "R:q"],
+        ["G4:e", "F#4:e", "E4:q", "D4:q"],
+        ["D4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["D3:h", "R:q"],
+        ["A3:h", "R:q"],
+        ["G3:h", "R:q"],
+        ["D3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "m2d-012",
+      "slug": "g-waltz-with-eighths",
+      "title": "G Waltz with Eighths",
+      "summary": "Both hands in a G-position waltz with eighth-note figures.",
+      "goal": "Coordinate eighth-note waltz decoration in G position with both hands.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "A4:e", "B4:q", "C5:q"],
+        ["D5:q", "C5:e", "B4:e", "R:q"],
+        ["C5:e", "B4:e", "A4:q", "G4:q"],
+        ["G4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["G2:h", "R:q"],
+        ["D3:h", "R:q"],
+        ["C3:h", "R:q"],
+        ["G2:h", "R:q"]
+      ]
+    },
+    {
+      "id": "m2d-013",
+      "slug": "d-lively-both-hands",
+      "title": "D Lively Both Hands",
+      "summary": "Both hands in a lively D-position dance in 2/4 with eighth notes.",
+      "goal": "Coordinate eighth-note dance figures in both hands in 2/4 time.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F#4:q"],
+        ["G4:e", "F#4:e", "E4:q"],
+        ["F#4:e", "G4:e", "A4:q"],
+        ["G4:e", "F#4:e", "E4:q"],
+        ["E4:e", "D4:e", "D4:q"],
+        ["D4:h"]
+      ],
+      "measuresLeft": [
+        ["D3:q", "F#3:q"],
+        ["G3:q", "E3:q"],
+        ["F#3:q", "D3:q"],
+        ["G3:q", "F#3:q"],
+        ["A3:q", "E3:q"],
+        ["D3:h"]
+      ]
+    },
+    {
+      "id": "m2d-014",
+      "slug": "g-lively-both-hands",
+      "title": "G Lively Both Hands",
+      "summary": "Both hands in a lively G-position dance with eighth notes in 2/4.",
+      "goal": "Keep eighth-note figures clean and in time in G position, both hands.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "A4:e", "B4:q"],
+        ["C5:e", "B4:e", "A4:q"],
+        ["B4:e", "C5:e", "D5:q"],
+        ["C5:e", "B4:e", "A4:q"],
+        ["A4:e", "G4:e", "G4:q"],
+        ["G4:h"]
+      ],
+      "measuresLeft": [
+        ["G2:q", "B2:q"],
+        ["C3:q", "A2:q"],
+        ["B2:q", "G2:q"],
+        ["C3:q", "B2:q"],
+        ["A2:q", "G2:q"],
+        ["G2:h"]
+      ]
+    },
+    {
+      "id": "m2d-015",
+      "slug": "a-minor-dance",
+      "title": "A Minor Dance",
+      "summary": "Both hands in a three-beat A minor dance with eighth-note figures.",
+      "goal": "Play an A minor waltz-character dance with eighth notes in both hands.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 68,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:e", "B3:e", "C4:q", "D4:q"],
+        ["E4:q", "D4:e", "C4:e", "R:q"],
+        ["B3:e", "C4:e", "B3:q", "A3:q"],
+        ["A3:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["A2:h", "R:q"],
+        ["E3:h", "R:q"],
+        ["C3:h", "R:q"],
+        ["A2:h", "R:q"]
+      ]
+    },
+    {
+      "id": "m2d-016",
+      "slug": "d-musical-piece",
+      "title": "D Musical Piece",
+      "summary": "Six-measure D-position piece mixing eighth notes and longer values with both hands.",
+      "goal": "Shape a complete musical phrase in D position with varied rhythm and two hands.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 70,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "E4:e", "F#4:e", "G4:q", "A4:q"],
+        ["G4:q", "F#4:e", "E4:e", "F#4:h"],
+        ["E4:q", "D4:e", "E4:e", "F#4:q", "G4:q"],
+        ["A4:h", "G4:h"],
+        ["F#4:e", "G4:e", "F#4:q", "E4:h"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:h", "A3:h"],
+        ["D3:h", "G3:h"],
+        ["D3:h", "A3:h"],
+        ["D3:h", "E3:h"],
+        ["G3:h", "A3:h"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "m2d-017",
+      "slug": "g-musical-piece",
+      "title": "G Musical Piece",
+      "summary": "Six-measure G-position piece with eighth-note figures and both hands.",
+      "goal": "Shape a complete G-position musical phrase with eighth notes and bass support.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 70,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:e", "B4:e", "C5:q", "D5:q"],
+        ["C5:q", "B4:e", "A4:e", "B4:h"],
+        ["A4:q", "G4:e", "A4:e", "B4:q", "C5:q"],
+        ["D5:h", "C5:h"],
+        ["B4:e", "C5:e", "B4:q", "A4:h"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G2:h", "D3:h"],
+        ["G2:h", "C3:h"],
+        ["G2:h", "D3:h"],
+        ["G2:h", "B2:h"],
+        ["C3:h", "D3:h"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "m2d-018",
+      "slug": "a-minor-nocturne",
+      "title": "A Minor Nocturne",
+      "summary": "A slow, expressive A minor piece with eighth-note ornaments and a sustained bass.",
+      "goal": "Play a lyrical minor-mode piece, using eighth notes to ornament the melody.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 58,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A3:h", "E4:h"],
+        ["D4:e", "C4:e", "B3:q", "C4:h"],
+        ["B3:h", "E4:h"],
+        ["C4:q", "B3:e", "A3:e", "B3:h"],
+        ["A3:w"]
+      ],
+      "measuresLeft": [
+        ["A2:h", "C3:h"],
+        ["E3:h", "D3:h"],
+        ["C3:h", "E3:h"],
+        ["D3:h", "E3:h"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "m2d-019",
+      "slug": "d-application-song",
+      "title": "D Application Song",
+      "summary": "Six-measure right-hand D-position song mixing eighth notes with a musical arc.",
+      "goal": "Play a complete musical statement in D position with eighth-note variety.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:q", "E4:e", "F#4:e", "G4:q", "A4:q"],
+        ["A4:e", "G4:e", "F#4:q", "G4:h"],
+        ["F#4:e", "E4:e", "F#4:q", "G4:q", "A4:q"],
+        ["G4:q", "F#4:e", "E4:e", "F#4:h"],
+        ["E4:e", "F#4:e", "E4:q", "D4:h"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "m2d-020",
+      "slug": "application-capstone",
+      "title": "Application Capstone",
+      "summary": "Six-measure grand-staff D-position capstone with eighth-note melody and bass support.",
+      "goal": "Demonstrate Level 2D mastery: eighth notes, D position, both hands, musical phrasing.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 70,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F#4:q", "G4:q", "A4:q"],
+        ["A4:q", "G4:e", "F#4:e", "E4:h"],
+        ["F#4:e", "G4:e", "F#4:q", "E4:q", "D4:q"],
+        ["E4:h", "F#4:h"],
+        ["G4:e", "F#4:e", "E4:q", "F#4:h"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:h", "F#3:h"],
+        ["G3:h", "E3:h"],
+        ["D3:h", "A3:h"],
+        ["G3:h", "F#3:h"],
+        ["G3:h", "A3:h"],
+        ["D3:w"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "courseId": "technique-level-6c",
+  "title": "Technique Level 6C — Double Thirds & Sixths",
+  "level": 6,
+  "summary": "Parallel thirds and sixths in C, G, F, D, and A major — building the legato double-note technique used in Romantic-era repertoire.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "t6c-001",
+      "slug": "thirds-c-rh-asc",
+      "title": "Parallel Thirds in C Major RH Ascending",
+      "summary": "Right hand parallel thirds ascending through C major.",
+      "goal": "Play thirds legato — both notes even, no gaps between pairs.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,E4]:q", "[D4,F4]:q", "[E4,G4]:q", "[F4,A4]:q"],
+        ["[G4,B4]:q", "[A4,C5]:q", "[B4,D5]:q", "[C5,E5]:q"],
+        ["[C5,E5]:q", "[B4,D5]:q", "[A4,C5]:q", "[G4,B4]:q"],
+        ["[F4,A4]:q", "[E4,G4]:q", "[D4,F4]:q", "[C4,E4]:q"],
+        ["[C4,E4]:w"]
+      ]
+    },
+    {
+      "id": "t6c-002",
+      "slug": "thirds-c-lh-asc",
+      "title": "Parallel Thirds in C Major LH Ascending",
+      "summary": "Left hand parallel thirds ascending through C major.",
+      "goal": "Play LH thirds legato — build even double-note technique.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C3,E3]:q", "[D3,F3]:q", "[E3,G3]:q", "[F3,A3]:q"],
+        ["[G3,B3]:q", "[A3,C4]:q", "[B3,D4]:q", "[C4,E4]:q"],
+        ["[C4,E4]:q", "[B3,D4]:q", "[A3,C4]:q", "[G3,B3]:q"],
+        ["[F3,A3]:q", "[E3,G3]:q", "[D3,F3]:q", "[C3,E3]:q"],
+        ["[C3,E3]:w"]
+      ]
+    },
+    {
+      "id": "t6c-003",
+      "slug": "thirds-c-ht",
+      "title": "Parallel Thirds in C Major HT",
+      "summary": "Both hands parallel thirds in C major.",
+      "goal": "Synchronize thirds in both hands — a significant coordination challenge.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,E4]:q", "[D4,F4]:q", "[E4,G4]:q", "[F4,A4]:q"],
+        ["[G4,B4]:q", "[A4,C5]:q", "[B4,D5]:q", "[C5,E5]:q"],
+        ["[C5,E5]:q", "[B4,D5]:q", "[A4,C5]:q", "[G4,B4]:q"],
+        ["[C4,E4]:w"]
+      ],
+      "measuresLeft": [
+        ["[C3,E3]:q", "[D3,F3]:q", "[E3,G3]:q", "[F3,A3]:q"],
+        ["[G3,B3]:q", "[A3,C4]:q", "[B3,D4]:q", "[C4,E4]:q"],
+        ["[C4,E4]:q", "[B3,D4]:q", "[A3,C4]:q", "[G3,B3]:q"],
+        ["[C3,E3]:w"]
+      ]
+    },
+    {
+      "id": "t6c-004",
+      "slug": "thirds-g-rh",
+      "title": "Parallel Thirds in G Major RH",
+      "summary": "Right hand parallel thirds ascending through G major.",
+      "goal": "Play thirds in G major with F# — maintain legato through the sharp.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[G4,B4]:q", "[A4,C5]:q", "[B4,D5]:q", "[C5,E5]:q"],
+        ["[D5,F#5]:q", "[E5,G5]:q", "[F#5,A5]:q", "[G5,B5]:q"],
+        ["[G5,B5]:q", "[F#5,A5]:q", "[E5,G5]:q", "[D5,F#5]:q"],
+        ["[C5,E5]:q", "[B4,D5]:q", "[A4,C5]:q", "[G4,B4]:q"],
+        ["[G4,B4]:w"]
+      ]
+    },
+    {
+      "id": "t6c-005",
+      "slug": "thirds-f-rh",
+      "title": "Parallel Thirds in F Major RH",
+      "summary": "Right hand parallel thirds ascending through F major.",
+      "goal": "Play thirds in F major with Bb — legato through the flat.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[F4,A4]:q", "[G4,Bb4]:q", "[A4,C5]:q", "[Bb4,D5]:q"],
+        ["[C5,E5]:q", "[D5,F5]:q", "[E5,G5]:q", "[F5,A5]:q"],
+        ["[F5,A5]:q", "[E5,G5]:q", "[D5,F5]:q", "[C5,E5]:q"],
+        ["[Bb4,D5]:q", "[A4,C5]:q", "[G4,Bb4]:q", "[F4,A4]:q"],
+        ["[F4,A4]:w"]
+      ]
+    },
+    {
+      "id": "t6c-006",
+      "slug": "sixths-c-rh-asc",
+      "title": "Parallel Sixths in C Major RH Ascending",
+      "summary": "Right hand parallel sixths ascending through C major.",
+      "goal": "Play sixths legato — wider interval, more hand stretch required.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,A4]:q", "[D4,B4]:q", "[E4,C5]:q", "[F4,D5]:q"],
+        ["[G4,E5]:q", "[A4,F5]:q", "[B4,G5]:q", "[C5,A5]:q"],
+        ["[C5,A5]:q", "[B4,G5]:q", "[A4,F5]:q", "[G4,E5]:q"],
+        ["[F4,D5]:q", "[E4,C5]:q", "[D4,B4]:q", "[C4,A4]:q"],
+        ["[C4,A4]:w"]
+      ]
+    },
+    {
+      "id": "t6c-007",
+      "slug": "sixths-c-lh-asc",
+      "title": "Parallel Sixths in C Major LH Ascending",
+      "summary": "Left hand parallel sixths ascending through C major.",
+      "goal": "Build LH sixth technique — wider hand position.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C2,A2]:q", "[D2,B2]:q", "[E2,C3]:q", "[F2,D3]:q"],
+        ["[G2,E3]:q", "[A2,F3]:q", "[B2,G3]:q", "[C3,A3]:q"],
+        ["[C3,A3]:q", "[B2,G3]:q", "[A2,F3]:q", "[G2,E3]:q"],
+        ["[F2,D3]:q", "[E2,C3]:q", "[D2,B2]:q", "[C2,A2]:q"],
+        ["[C2,A2]:w"]
+      ]
+    },
+    {
+      "id": "t6c-008",
+      "slug": "sixths-g-rh",
+      "title": "Parallel Sixths in G Major RH",
+      "summary": "Right hand parallel sixths in G major.",
+      "goal": "Play sixths in G major with F# — legato through the sharp.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[G4,E5]:q", "[A4,F#5]:q", "[B4,G5]:q", "[C5,A5]:q"],
+        ["[C5,A5]:q", "[B4,G5]:q", "[A4,F#5]:q", "[G4,E5]:q"],
+        ["[G4,E5]:w"]
+      ]
+    },
+    {
+      "id": "t6c-009",
+      "slug": "sixths-f-rh",
+      "title": "Parallel Sixths in F Major RH",
+      "summary": "Right hand parallel sixths in F major.",
+      "goal": "Play sixths in F major with Bb — wider stretches in flat keys.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[F4,D5]:q", "[G4,E5]:q", "[A4,F5]:q", "[Bb4,G5]:q"],
+        ["[Bb4,G5]:q", "[A4,F5]:q", "[G4,E5]:q", "[F4,D5]:q"],
+        ["[F4,D5]:w"]
+      ]
+    },
+    {
+      "id": "t6c-010",
+      "slug": "thirds-d-rh",
+      "title": "Parallel Thirds in D Major RH",
+      "summary": "Right hand parallel thirds ascending through D major.",
+      "goal": "Play thirds with F# and C# in D major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[D4,F#4]:q", "[E4,G4]:q", "[F#4,A4]:q", "[G4,B4]:q"],
+        ["[A4,C#5]:q", "[B4,D5]:q", "[C#5,E5]:q", "[D5,F#5]:q"],
+        ["[D5,F#5]:q", "[C#5,E5]:q", "[B4,D5]:q", "[A4,C#5]:q"],
+        ["[G4,B4]:q", "[F#4,A4]:q", "[E4,G4]:q", "[D4,F#4]:q"],
+        ["[D4,F#4]:w"]
+      ]
+    },
+    {
+      "id": "t6c-011",
+      "slug": "thirds-a-rh",
+      "title": "Parallel Thirds in A Major RH",
+      "summary": "Right hand parallel thirds ascending through A major.",
+      "goal": "Play thirds with three sharps in A major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[A4,C#5]:q", "[B4,D5]:q", "[C#5,E5]:q", "[D5,F#5]:q"],
+        ["[E5,G#5]:q", "[F#5,A5]:q", "[G#5,B5]:q", "[A5,C#5]:q"],
+        ["[A5,C#5]:q", "[G#5,B5]:q", "[F#5,A5]:q", "[E5,G#5]:q"],
+        ["[D5,F#5]:q", "[C#5,E5]:q", "[B4,D5]:q", "[A4,C#5]:q"],
+        ["[A4,C#5]:w"]
+      ]
+    },
+    {
+      "id": "t6c-012",
+      "slug": "thirds-eighth-c-rh",
+      "title": "Thirds in Eighth Notes C Major RH",
+      "summary": "Parallel thirds at double speed — eighth notes in C major.",
+      "goal": "Play thirds at eighth-note speed — twice as fast, maintain legato.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,E4]:e", "[D4,F4]:e", "[E4,G4]:e", "[F4,A4]:e", "[G4,B4]:e", "[A4,C5]:e", "[B4,D5]:e", "[C5,E5]:e"],
+        ["[C5,E5]:e", "[B4,D5]:e", "[A4,C5]:e", "[G4,B4]:e", "[F4,A4]:e", "[E4,G4]:e", "[D4,F4]:e", "[C4,E4]:e"],
+        ["[C4,E4]:w"]
+      ]
+    },
+    {
+      "id": "t6c-013",
+      "slug": "sixths-eighth-c-rh",
+      "title": "Sixths in Eighth Notes C Major RH",
+      "summary": "Parallel sixths at eighth-note speed in C major.",
+      "goal": "Play sixths at speed — the hand must stretch and contract rapidly.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,A4]:e", "[D4,B4]:e", "[E4,C5]:e", "[F4,D5]:e", "[G4,E5]:e", "[A4,F5]:e", "[B4,G5]:e", "[C5,A5]:e"],
+        ["[C5,A5]:e", "[B4,G5]:e", "[A4,F5]:e", "[G4,E5]:e", "[F4,D5]:e", "[E4,C5]:e", "[D4,B4]:e", "[C4,A4]:e"],
+        ["[C4,A4]:w"]
+      ]
+    },
+    {
+      "id": "t6c-014",
+      "slug": "thirds-ht-g",
+      "title": "Parallel Thirds in G Major HT",
+      "summary": "Both hands parallel thirds in G major.",
+      "goal": "Synchronize thirds in both hands in G major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[G4,B4]:q", "[A4,C5]:q", "[B4,D5]:q", "[C5,E5]:q"],
+        ["[D5,F#5]:q", "[E5,G5]:q", "[D5,F#5]:q", "[C5,E5]:q"],
+        ["[B4,D5]:q", "[A4,C5]:q", "[G4,B4]:h"]
+      ],
+      "measuresLeft": [
+        ["[G2,B2]:q", "[A2,C3]:q", "[B2,D3]:q", "[C3,E3]:q"],
+        ["[D3,F#3]:q", "[E3,G3]:q", "[D3,F#3]:q", "[C3,E3]:q"],
+        ["[B2,D3]:q", "[A2,C3]:q", "[G2,B2]:h"]
+      ]
+    },
+    {
+      "id": "t6c-015",
+      "slug": "sixths-ht-c",
+      "title": "Parallel Sixths in C Major HT",
+      "summary": "Both hands parallel sixths in C major.",
+      "goal": "Synchronize sixths in both hands — advanced double-note coordination.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,A4]:q", "[D4,B4]:q", "[E4,C5]:q", "[F4,D5]:q"],
+        ["[G4,E5]:q", "[F4,D5]:q", "[E4,C5]:q", "[D4,B4]:q"],
+        ["[C4,A4]:w"]
+      ],
+      "measuresLeft": [
+        ["[C2,A2]:q", "[D2,B2]:q", "[E2,C3]:q", "[F2,D3]:q"],
+        ["[G2,E3]:q", "[F2,D3]:q", "[E2,C3]:q", "[D2,B2]:q"],
+        ["[C2,A2]:w"]
+      ]
+    },
+    {
+      "id": "t6c-016",
+      "slug": "thirds-chromatic-rh",
+      "title": "Chromatic Thirds RH",
+      "summary": "Parallel thirds ascending chromatically — every half step.",
+      "goal": "Navigate chromatic thirds smoothly — the ultimate finger independence test.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 68,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,E4]:e", "[C#4,F4]:e", "[D4,F#4]:e", "[Eb4,G4]:e", "[E4,G#4]:e", "[F4,A4]:e", "[F#4,Bb4]:e", "[G4,B4]:e"],
+        ["[G4,B4]:e", "[F#4,Bb4]:e", "[F4,A4]:e", "[E4,G#4]:e", "[Eb4,G4]:e", "[D4,F#4]:e", "[C#4,F4]:e", "[C4,E4]:e"],
+        ["[C4,E4]:w"]
+      ]
+    },
+    {
+      "id": "t6c-017",
+      "slug": "thirds-melody-c-ht",
+      "title": "Thirds Melody over Bass in C HT",
+      "summary": "Right hand melody in thirds over left hand bass notes.",
+      "goal": "Play a melodic line in thirds — musical application of the technique.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,E4]:q", "[D4,F4]:q", "[E4,G4]:h"],
+        ["[F4,A4]:q", "[G4,B4]:q", "[A4,C5]:h"],
+        ["[G4,B4]:q", "[F4,A4]:q", "[E4,G4]:q", "[D4,F4]:q"],
+        ["[C4,E4]:w"]
+      ],
+      "measuresLeft": [
+        ["C3:h", "G3:h"],
+        ["F3:h", "C3:h"],
+        ["G3:h", "G2:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t6c-018",
+      "slug": "sixths-melody-g-ht",
+      "title": "Sixths Melody over Bass in G HT",
+      "summary": "Right hand melody in sixths over left hand bass in G major.",
+      "goal": "Play a melodic line in sixths — wider interval, more stretch.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[G4,E5]:q", "[A4,F#5]:q", "[B4,G5]:h"],
+        ["[C5,A5]:q", "[B4,G5]:q", "[A4,F#5]:h"],
+        ["[G4,E5]:q", "[A4,F#5]:q", "[B4,G5]:q", "[A4,F#5]:q"],
+        ["[G4,E5]:w"]
+      ],
+      "measuresLeft": [
+        ["G2:h", "D3:h"],
+        ["C3:h", "D3:h"],
+        ["G2:h", "D3:h"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "t6c-019",
+      "slug": "thirds-speed-c-rh",
+      "title": "Speed Thirds in C Major RH",
+      "summary": "Parallel thirds at elevated tempo — pushing double-note speed.",
+      "goal": "Play thirds at 84 BPM in quarter notes — speed and accuracy.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,E4]:q", "[D4,F4]:q", "[E4,G4]:q", "[F4,A4]:q"],
+        ["[G4,B4]:q", "[A4,C5]:q", "[B4,D5]:q", "[C5,E5]:q"],
+        ["[C5,E5]:q", "[B4,D5]:q", "[A4,C5]:q", "[G4,B4]:q"],
+        ["[F4,A4]:q", "[E4,G4]:q", "[D4,F4]:q", "[C4,E4]:q"],
+        ["[C4,E4]:w"]
+      ]
+    },
+    {
+      "id": "t6c-020",
+      "slug": "thirds-sixths-mastery-ht",
+      "title": "Thirds & Sixths Mastery Review HT",
+      "summary": "Mixed thirds and sixths across C and G — the L6C mastery test.",
+      "goal": "Demonstrate double-note fluency in both intervals and both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,E4]:q", "[D4,F4]:q", "[E4,G4]:q", "[F4,A4]:q"],
+        ["[C4,A4]:q", "[D4,B4]:q", "[E4,C5]:q", "[F4,D5]:q"],
+        ["[G4,B4]:q", "[A4,C5]:q", "[G4,E5]:q", "[F4,D5]:q"],
+        ["[C4,E4]:w"]
+      ],
+      "measuresLeft": [
+        ["[C3,E3]:q", "[D3,F3]:q", "[E3,G3]:q", "[F3,A3]:q"],
+        ["[C2,A2]:q", "[D2,B2]:q", "[E2,C3]:q", "[F2,D3]:q"],
+        ["[G2,B2]:q", "[A2,C3]:q", "[G2,E3]:q", "[F2,D3]:q"],
+        ["[C3,E3]:w"]
+      ]
+    }
+  ]
+}

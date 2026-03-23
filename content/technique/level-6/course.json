@@ -1,0 +1,794 @@
+{
+  "courseId": "technique-level-6",
+  "title": "Technique Level 6",
+  "level": 6,
+  "summary": "Full chromatic round-trips, Eb/Bb/Ab arpeggios in both hands, Hanon thirds, speed études in Ab and Eb, melodic sixths leaps, and a combined final étude.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "tech6-001",
+      "slug": "chromatic-round-trip-rh",
+      "title": "Chromatic Round Trip RH",
+      "summary": "Right hand chromatic from C4 ascending to C5 then immediately descending back to C4.",
+      "goal": "Reverse direction at the octave peak without breaking the even eighth-note flow.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:e",
+          "C#4:e",
+          "D4:e",
+          "D#4:e",
+          "E4:e",
+          "F4:e",
+          "F#4:e",
+          "G4:e"
+        ],
+        [
+          "G#4:e",
+          "A4:e",
+          "A#4:e",
+          "B4:e",
+          "C5:e",
+          "B4:e",
+          "A#4:e",
+          "A4:e"
+        ],
+        [
+          "G#4:e",
+          "G4:e",
+          "F#4:e",
+          "F4:e",
+          "E4:e",
+          "D#4:e",
+          "D4:e",
+          "C#4:e"
+        ],
+        [
+          "C4:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech6-002",
+      "slug": "chromatic-round-trip-lh",
+      "title": "Chromatic Round Trip LH",
+      "summary": "Left hand chromatic from C3 ascending to C4 then descending back to C3.",
+      "goal": "Reverse direction at the octave peak in the left hand without pausing.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C3:e",
+          "C#3:e",
+          "D3:e",
+          "D#3:e",
+          "E3:e",
+          "F3:e",
+          "F#3:e",
+          "G3:e"
+        ],
+        [
+          "G#3:e",
+          "A3:e",
+          "A#3:e",
+          "B3:e",
+          "C4:e",
+          "B3:e",
+          "A#3:e",
+          "A3:e"
+        ],
+        [
+          "G#3:e",
+          "G3:e",
+          "F#3:e",
+          "F3:e",
+          "E3:e",
+          "D#3:e",
+          "D3:e",
+          "C#3:e"
+        ],
+        [
+          "C3:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech6-003",
+      "slug": "eb-arpeggio-rh",
+      "title": "Eb Major Arpeggio RH",
+      "summary": "Right hand Eb major broken triad ascending across two octaves and returning.",
+      "goal": "Play a smooth two-octave Eb major arpeggio with even eighth notes.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -3,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "Eb4:e",
+          "G4:e",
+          "Bb4:e",
+          "Eb5:e",
+          "Bb4:e",
+          "G4:e",
+          "Eb4:e",
+          "G4:e"
+        ],
+        [
+          "Bb4:e",
+          "Eb5:e",
+          "G5:e",
+          "Bb5:e",
+          "G5:e",
+          "Eb5:e",
+          "Bb4:e",
+          "Eb4:e"
+        ],
+        [
+          "G4:h",
+          "Eb4:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech6-004",
+      "slug": "eb-arpeggio-lh",
+      "title": "Eb Major Arpeggio LH",
+      "summary": "Left hand Eb major broken triad ascending across two octaves and returning.",
+      "goal": "Play a two-octave Eb major arpeggio in bass clef with even eighth notes.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -3,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "Eb3:e",
+          "G3:e",
+          "Bb3:e",
+          "Eb4:e",
+          "Bb3:e",
+          "G3:e",
+          "Eb3:e",
+          "G3:e"
+        ],
+        [
+          "Bb3:e",
+          "Eb4:e",
+          "G4:e",
+          "Bb4:e",
+          "G4:e",
+          "Eb4:e",
+          "Bb3:e",
+          "Eb3:e"
+        ],
+        [
+          "G3:h",
+          "Eb3:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech6-005",
+      "slug": "bb-arpeggio-rh",
+      "title": "Bb Major Arpeggio RH",
+      "summary": "Right hand Bb major broken triad across two octaves and returning.",
+      "goal": "Execute a two-octave Bb major arpeggio cleanly at a steady tempo.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -2,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "Bb4:e",
+          "D5:e",
+          "F5:e",
+          "Bb5:e",
+          "F5:e",
+          "D5:e",
+          "Bb4:e",
+          "F4:e"
+        ],
+        [
+          "D4:e",
+          "Bb3:e",
+          "D4:q",
+          "F4:q",
+          "Bb4:q"
+        ]
+      ]
+    },
+    {
+      "id": "tech6-006",
+      "slug": "ab-arpeggio-rh",
+      "title": "Ab Major Arpeggio RH",
+      "summary": "Right hand Ab major broken triad across two octaves and returning.",
+      "goal": "Execute a two-octave Ab major arpeggio cleanly with four-flat accuracy.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -4,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "Ab4:e",
+          "C5:e",
+          "Eb5:e",
+          "Ab5:e",
+          "Eb5:e",
+          "C5:e",
+          "Ab4:e",
+          "Eb4:e"
+        ],
+        [
+          "C4:e",
+          "Ab3:e",
+          "C4:q",
+          "Eb4:q",
+          "Ab4:q"
+        ]
+      ]
+    },
+    {
+      "id": "tech6-007",
+      "slug": "eb-scale-round-trip-rh",
+      "title": "Eb Scale Round Trip RH",
+      "summary": "Right hand Eb major scale ascending and descending in continuous eighth notes.",
+      "goal": "Reverse direction at the top of Eb major without disrupting the pulse.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 84,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -3,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "Eb4:e",
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:e"
+        ],
+        [
+          "Eb5:e",
+          "D5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e",
+          "Eb4:e"
+        ],
+        [
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e"
+        ],
+        [
+          "Bb4:h",
+          "Eb4:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech6-008",
+      "slug": "hanon-thirds-rh",
+      "title": "Hanon Thirds Pattern RH",
+      "summary": "Ascending and descending C major pattern where each note skips up a third.",
+      "goal": "Build independent finger movement through rapid third-interval leaps.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:e",
+          "E4:e",
+          "D4:e",
+          "F4:e",
+          "E4:e",
+          "G4:e",
+          "F4:e",
+          "A4:e"
+        ],
+        [
+          "G4:e",
+          "B4:e",
+          "A4:e",
+          "C5:e",
+          "B4:e",
+          "D5:e",
+          "C5:e",
+          "E5:e"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "C5:e",
+          "D5:e",
+          "B4:e",
+          "C5:e",
+          "A4:e",
+          "B4:e"
+        ],
+        [
+          "G4:h",
+          "C4:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech6-009",
+      "slug": "speed-etude-3-ab",
+      "title": "Speed Étude 3 — Ab Major Runs",
+      "summary": "Rapid Ab major scale passages ascending, descending, and through a closing phrase.",
+      "goal": "Reach a higher target tempo on Ab major while keeping all four flats crisp.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 96,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -4,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "Ab5:e"
+        ],
+        [
+          "Ab5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e"
+        ],
+        [
+          "C5:e",
+          "Eb5:e",
+          "G5:e",
+          "Ab5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "Db5:e"
+        ],
+        [
+          "C5:h",
+          "Ab4:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech6-010",
+      "slug": "speed-etude-4-eb",
+      "title": "Speed Étude 4 — Eb Major Runs",
+      "summary": "Rapid Eb major scale passages ascending, descending, and through a closing phrase.",
+      "goal": "Reach a higher target tempo on Eb major with all three flats clean.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 96,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -3,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "Eb4:e",
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:e"
+        ],
+        [
+          "D5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e",
+          "Eb4:e",
+          "F4:e"
+        ],
+        [
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e"
+        ],
+        [
+          "Eb4:h",
+          "Eb5:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech6-011",
+      "slug": "bb-arpeggio-lh",
+      "title": "Bb Major Arpeggio LH",
+      "summary": "Left hand Bb major broken triad across two octaves in bass clef.",
+      "goal": "Play a fluid two-octave Bb major arpeggio in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -2,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "Bb2:e",
+          "D3:e",
+          "F3:e",
+          "Bb3:e",
+          "F3:e",
+          "D3:e",
+          "Bb2:e",
+          "D3:e"
+        ],
+        [
+          "F3:e",
+          "Bb3:e",
+          "D4:e",
+          "F4:e",
+          "D4:e",
+          "Bb3:e",
+          "F3:e",
+          "Bb2:e"
+        ],
+        [
+          "D3:h",
+          "Bb2:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech6-012",
+      "slug": "eb-scale-lh",
+      "title": "Eb Major Scale LH",
+      "summary": "Left hand Eb major scale over a full octave in bass clef.",
+      "goal": "Play the complete Eb major scale cleanly in the left hand with three flats.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -3,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "Eb3:q",
+          "F3:q",
+          "G3:q",
+          "Ab3:q"
+        ],
+        [
+          "Bb3:q",
+          "C4:q",
+          "D4:q",
+          "Eb4:q"
+        ],
+        [
+          "Eb4:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech6-013",
+      "slug": "chromatic-scale-mixup",
+      "title": "Chromatic and Scale Mixup",
+      "summary": "A passage that alternates between chromatic runs and diatonic scale segments.",
+      "goal": "Switch between chromatic and scale fingering patterns without hesitation.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 84,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:e",
+          "C#4:e",
+          "D4:e",
+          "D#4:e",
+          "E4:e",
+          "F4:e",
+          "G4:e",
+          "A4:e"
+        ],
+        [
+          "B4:e",
+          "C5:e",
+          "B4:e",
+          "Bb4:e",
+          "A4:e",
+          "Ab4:e",
+          "G4:e",
+          "F#4:e"
+        ],
+        [
+          "F4:e",
+          "E4:e",
+          "Eb4:e",
+          "D4:e",
+          "C4:e",
+          "D4:e",
+          "E4:e",
+          "F4:e"
+        ],
+        [
+          "G4:h",
+          "C4:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech6-014",
+      "slug": "melodic-sixths-rh",
+      "title": "Melodic Sixths RH",
+      "summary": "A study of ascending and descending melodic sixth leaps in C major.",
+      "goal": "Land each sixth leap accurately and keep the line singing across the register changes.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:e",
+          "A4:e",
+          "D4:e",
+          "B4:e",
+          "E4:e",
+          "C5:e",
+          "F4:e",
+          "D5:e"
+        ],
+        [
+          "G4:e",
+          "E5:e",
+          "F4:e",
+          "D5:e",
+          "E4:e",
+          "C5:e",
+          "D4:e",
+          "B4:e"
+        ],
+        [
+          "C4:e",
+          "A4:e",
+          "B3:e",
+          "G4:e",
+          "A3:e",
+          "F4:e",
+          "G3:e",
+          "E4:e"
+        ],
+        [
+          "F3:h",
+          "C4:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech6-015",
+      "slug": "final-etude-eb",
+      "title": "Final Étude in Eb",
+      "summary": "A six-measure étude in Eb major combining a scale run, arpeggio sweep, chromatic fragment, and closing phrase.",
+      "goal": "Shift fluidly between three different technique types within a single musical statement.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -3,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "Eb4:e",
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:e"
+        ],
+        [
+          "Eb5:e",
+          "G5:e",
+          "Bb5:e",
+          "G5:e",
+          "Eb5:e",
+          "Bb4:e",
+          "G4:e",
+          "Eb4:e"
+        ],
+        [
+          "C4:e",
+          "C#4:e",
+          "D4:e",
+          "D#4:e",
+          "E4:e",
+          "F4:e",
+          "F#4:e",
+          "G4:e"
+        ],
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Eb5:q"
+        ],
+        [
+          "Eb5:e",
+          "D5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e",
+          "Eb4:e"
+        ],
+        [
+          "Eb4:w"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "courseId": "technique-level-5b",
+  "title": "Technique Level 5B — Extended Arpeggios",
+  "level": 5,
+  "summary": "Two-octave arpeggios in all major and minor keys covered so far — building speed and fluency across the full keyboard range.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "t5b-001",
+      "slug": "arpeggio-c-major-rh-2oct",
+      "title": "C Major Arpeggio RH 2 Octaves",
+      "summary": "Right hand C major arpeggio ascending and descending over two octaves.",
+      "goal": "Play C major arpeggio RH smoothly with thumb crossings at 88 BPM.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "E4:e", "G4:e", "C5:e", "E5:e", "G5:e", "C5:e", "G4:e"],
+        ["E4:e", "C4:e", "E4:e", "G4:e", "C5:e", "G4:e", "E4:e", "C4:e"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t5b-002",
+      "slug": "arpeggio-c-major-lh-2oct",
+      "title": "C Major Arpeggio LH 2 Octaves",
+      "summary": "Left hand C major arpeggio ascending and descending over two octaves.",
+      "goal": "Play C major arpeggio LH with even finger crossings at 88 BPM.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C2:e", "E2:e", "G2:e", "C3:e", "E3:e", "G3:e", "C3:e", "G2:e"],
+        ["E2:e", "C2:e", "E2:e", "G2:e", "C3:e", "G2:e", "E2:e", "C2:e"],
+        ["C2:w"]
+      ]
+    },
+    {
+      "id": "t5b-003",
+      "slug": "arpeggio-c-major-ht-2oct",
+      "title": "C Major Arpeggio HT 2 Octaves",
+      "summary": "Both hands C major arpeggio in parallel motion over two octaves.",
+      "goal": "Synchronize both hands on C major arpeggios — thumbs cross together.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "E4:e", "G4:e", "C5:e", "E5:e", "G5:e", "C5:e", "G4:e"],
+        ["E4:e", "C4:e", "E4:e", "G4:e", "C5:e", "G4:e", "E4:e", "C4:e"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "E3:e", "G3:e", "C4:e", "E3:e", "G3:e", "C4:e", "G3:e"],
+        ["E3:e", "C3:e", "E3:e", "G3:e", "C4:e", "G3:e", "E3:e", "C3:e"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t5b-004",
+      "slug": "arpeggio-g-major-rh-2oct",
+      "title": "G Major Arpeggio RH 2 Octaves",
+      "summary": "Right hand G major arpeggio over two octaves.",
+      "goal": "Play G major arpeggio RH with clean B naturals at 88 BPM.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "B4:e", "D5:e", "G5:e", "D5:e", "B4:e", "G4:e", "B4:e"],
+        ["D5:e", "G5:e", "D5:e", "B4:e", "G4:h"]
+      ]
+    },
+    {
+      "id": "t5b-005",
+      "slug": "arpeggio-g-major-ht-2oct",
+      "title": "G Major Arpeggio HT 2 Octaves",
+      "summary": "Both hands G major arpeggio in parallel motion.",
+      "goal": "Synchronize G major arpeggios across both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "B4:e", "D5:e", "G5:e", "D5:e", "B4:e", "G4:e", "B4:e"],
+        ["D5:e", "G5:e", "D5:e", "B4:e", "G4:h"]
+      ],
+      "measuresLeft": [
+        ["G2:e", "B2:e", "D3:e", "G3:e", "D3:e", "B2:e", "G2:e", "B2:e"],
+        ["D3:e", "G3:e", "D3:e", "B2:e", "G2:h"]
+      ]
+    },
+    {
+      "id": "t5b-006",
+      "slug": "arpeggio-f-major-rh-2oct",
+      "title": "F Major Arpeggio RH 2 Octaves",
+      "summary": "Right hand F major arpeggio over two octaves.",
+      "goal": "Play F major arpeggio RH with smooth thumb crossings at 88 BPM.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F4:e", "A4:e", "C5:e", "F5:e", "C5:e", "A4:e", "F4:e", "A4:e"],
+        ["C5:e", "F5:e", "C5:e", "A4:e", "F4:h"]
+      ]
+    },
+    {
+      "id": "t5b-007",
+      "slug": "arpeggio-f-major-ht-2oct",
+      "title": "F Major Arpeggio HT 2 Octaves",
+      "summary": "Both hands F major arpeggio in parallel motion.",
+      "goal": "Synchronize F major arpeggios across both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F4:e", "A4:e", "C5:e", "F5:e", "C5:e", "A4:e", "F4:e", "A4:e"],
+        ["C5:e", "F5:e", "C5:e", "A4:e", "F4:h"]
+      ],
+      "measuresLeft": [
+        ["F2:e", "A2:e", "C3:e", "F3:e", "C3:e", "A2:e", "F2:e", "A2:e"],
+        ["C3:e", "F3:e", "C3:e", "A2:e", "F2:h"]
+      ]
+    },
+    {
+      "id": "t5b-008",
+      "slug": "arpeggio-d-major-rh-2oct",
+      "title": "D Major Arpeggio RH 2 Octaves",
+      "summary": "Right hand D major arpeggio over two octaves.",
+      "goal": "Play D major arpeggio RH with F# at 88 BPM.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "F#5:e", "A5:e", "D5:e", "A4:e"],
+        ["F#4:e", "D4:e", "F#4:e", "A4:e", "D5:e", "A4:e", "F#4:e", "D4:e"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "t5b-009",
+      "slug": "arpeggio-d-major-ht-2oct",
+      "title": "D Major Arpeggio HT 2 Octaves",
+      "summary": "Both hands D major arpeggio in parallel motion.",
+      "goal": "Synchronize D major arpeggios across both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "F#5:e", "A5:e", "D5:e", "A4:e"],
+        ["F#4:e", "D4:e", "F#4:e", "A4:e", "D5:e", "A4:e", "F#4:e", "D4:e"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "F#3:e", "A3:e", "D4:e", "F#3:e", "A3:e", "D4:e", "A3:e"],
+        ["F#3:e", "D3:e", "F#3:e", "A3:e", "D4:e", "A3:e", "F#3:e", "D3:e"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "t5b-010",
+      "slug": "arpeggio-a-major-rh-2oct",
+      "title": "A Major Arpeggio RH 2 Octaves",
+      "summary": "Right hand A major arpeggio over two octaves.",
+      "goal": "Play A major arpeggio RH with C# and G# at 88 BPM.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "C#5:e", "E5:e", "A5:e", "E5:e", "C#5:e", "A4:e", "C#5:e"],
+        ["E5:e", "A5:e", "E5:e", "C#5:e", "A4:h"]
+      ]
+    },
+    {
+      "id": "t5b-011",
+      "slug": "arpeggio-a-major-ht-2oct",
+      "title": "A Major Arpeggio HT 2 Octaves",
+      "summary": "Both hands A major arpeggio in parallel motion.",
+      "goal": "Synchronize A major arpeggios across both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "C#5:e", "E5:e", "A5:e", "E5:e", "C#5:e", "A4:e", "C#5:e"],
+        ["E5:e", "A5:e", "E5:e", "C#5:e", "A4:h"]
+      ],
+      "measuresLeft": [
+        ["A2:e", "C#3:e", "E3:e", "A3:e", "E3:e", "C#3:e", "A2:e", "C#3:e"],
+        ["E3:e", "A3:e", "E3:e", "C#3:e", "A2:h"]
+      ]
+    },
+    {
+      "id": "t5b-012",
+      "slug": "arpeggio-am-rh-2oct",
+      "title": "A Minor Arpeggio RH 2 Octaves",
+      "summary": "Right hand A minor arpeggio over two octaves.",
+      "goal": "Play A minor arpeggio RH — hear the minor quality at speed.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "C5:e", "E5:e", "A5:e", "E5:e", "C5:e", "A4:e", "C5:e"],
+        ["E5:e", "A5:e", "E5:e", "C5:e", "A4:h"]
+      ]
+    },
+    {
+      "id": "t5b-013",
+      "slug": "arpeggio-dm-rh-2oct",
+      "title": "D Minor Arpeggio RH 2 Octaves",
+      "summary": "Right hand D minor arpeggio over two octaves.",
+      "goal": "Play D minor arpeggio RH smoothly with F natural.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "F4:e", "A4:e", "D5:e", "F5:e", "A5:e", "D5:e", "A4:e"],
+        ["F4:e", "D4:e", "F4:e", "A4:e", "D5:e", "A4:e", "F4:e", "D4:e"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "t5b-014",
+      "slug": "arpeggio-em-ht-2oct",
+      "title": "E Minor Arpeggio HT 2 Octaves",
+      "summary": "Both hands E minor arpeggio in parallel motion.",
+      "goal": "Synchronize E minor arpeggios across both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["E4:e", "G4:e", "B4:e", "E5:e", "G5:e", "B5:e", "E5:e", "B4:e"],
+        ["G4:e", "E4:e", "G4:e", "B4:e", "E5:e", "B4:e", "G4:e", "E4:e"],
+        ["E4:w"]
+      ],
+      "measuresLeft": [
+        ["E3:e", "G3:e", "B3:e", "E4:e", "G3:e", "B3:e", "E4:e", "B3:e"],
+        ["G3:e", "E3:e", "G3:e", "B3:e", "E4:e", "B3:e", "G3:e", "E3:e"],
+        ["E3:w"]
+      ]
+    },
+    {
+      "id": "t5b-015",
+      "slug": "arpeggio-bb-major-rh-2oct",
+      "title": "Bb Major Arpeggio RH 2 Octaves",
+      "summary": "Right hand Bb major arpeggio over two octaves.",
+      "goal": "Play Bb major arpeggio RH with Bb and D at 84 BPM.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:e", "D5:e", "F5:e", "Bb5:e", "F5:e", "D5:e", "Bb4:e", "D5:e"],
+        ["F5:e", "Bb5:e", "F5:e", "D5:e", "Bb4:h"]
+      ]
+    },
+    {
+      "id": "t5b-016",
+      "slug": "arpeggio-eb-major-rh-2oct",
+      "title": "Eb Major Arpeggio RH 2 Octaves",
+      "summary": "Right hand Eb major arpeggio over two octaves.",
+      "goal": "Play Eb major arpeggio RH with Eb, G, Bb at 84 BPM.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:e", "G4:e", "Bb4:e", "Eb5:e", "G5:e", "Bb5:e", "Eb5:e", "Bb4:e"],
+        ["G4:e", "Eb4:e", "G4:e", "Bb4:e", "Eb5:e", "Bb4:e", "G4:e", "Eb4:e"],
+        ["Eb4:w"]
+      ]
+    },
+    {
+      "id": "t5b-017",
+      "slug": "arpeggio-ab-major-ht-2oct",
+      "title": "Ab Major Arpeggio HT 2 Octaves",
+      "summary": "Both hands Ab major arpeggio in parallel motion.",
+      "goal": "Synchronize Ab major arpeggios — the most challenging flat key arpeggio.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab4:e", "C5:e", "Eb5:e", "Ab5:e", "Eb5:e", "C5:e", "Ab4:e", "C5:e"],
+        ["Eb5:e", "Ab5:e", "Eb5:e", "C5:e", "Ab4:h"]
+      ],
+      "measuresLeft": [
+        ["Ab2:e", "C3:e", "Eb3:e", "Ab3:e", "Eb3:e", "C3:e", "Ab2:e", "C3:e"],
+        ["Eb3:e", "Ab3:e", "Eb3:e", "C3:e", "Ab2:h"]
+      ]
+    },
+    {
+      "id": "t5b-018",
+      "slug": "arpeggio-chain-major",
+      "title": "Major Arpeggio Chain RH",
+      "summary": "Cycle through C-G-D-A-F major arpeggios without stopping.",
+      "goal": "Transition smoothly between five major arpeggios in sequence.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "E4:e", "G4:e", "C5:e", "G4:e", "E4:e", "C4:e", "G4:e"],
+        ["G4:e", "B4:e", "D5:e", "G5:e", "D5:e", "B4:e", "G4:e", "D5:e"],
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "A4:e", "F#4:e", "D4:e", "A4:e"],
+        ["A4:e", "C#5:e", "E5:e", "A5:e", "E5:e", "C#5:e", "A4:e", "E5:e"],
+        ["F4:e", "A4:e", "C5:e", "F5:e", "C5:e", "A4:e", "F4:e", "C5:e"],
+        ["C5:w"]
+      ]
+    },
+    {
+      "id": "t5b-019",
+      "slug": "arpeggio-chain-minor",
+      "title": "Minor Arpeggio Chain RH",
+      "summary": "Cycle through Am-Dm-Em-Cm arpeggios without stopping.",
+      "goal": "Transition smoothly between four minor arpeggios in sequence.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "C5:e", "E5:e", "A5:e", "E5:e", "C5:e", "A4:e", "E5:e"],
+        ["D4:e", "F4:e", "A4:e", "D5:e", "A4:e", "F4:e", "D4:e", "A4:e"],
+        ["E4:e", "G4:e", "B4:e", "E5:e", "B4:e", "G4:e", "E4:e", "B4:e"],
+        ["C4:e", "Eb4:e", "G4:e", "C5:e", "G4:e", "Eb4:e", "C4:e", "G4:e"],
+        ["A4:w"]
+      ]
+    },
+    {
+      "id": "t5b-020",
+      "slug": "arpeggio-all-keys-review-ht",
+      "title": "All-Keys Arpeggio Review HT",
+      "summary": "Both hands arpeggios cycling through C, G, D, F, Bb, Eb — the L5B mastery test.",
+      "goal": "Demonstrate arpeggio fluency in all keys — smooth hand coordination throughout.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "E4:e", "G4:e", "C5:e", "G4:e", "E4:e", "C4:q"],
+        ["G4:e", "B4:e", "D5:e", "G5:e", "D5:e", "B4:e", "G4:q"],
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "A4:e", "F#4:e", "D4:q"],
+        ["F4:e", "A4:e", "C5:e", "F5:e", "C5:e", "A4:e", "F4:q"],
+        ["Bb4:e", "D5:e", "F5:e", "Bb5:e", "F5:e", "D5:e", "Bb4:q"],
+        ["Eb4:e", "G4:e", "Bb4:e", "Eb5:e", "Bb4:e", "G4:e", "Eb4:q"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "E3:e", "G3:e", "C4:e", "G3:e", "E3:e", "C3:q"],
+        ["G2:e", "B2:e", "D3:e", "G3:e", "D3:e", "B2:e", "G2:q"],
+        ["D3:e", "F#3:e", "A3:e", "D4:e", "A3:e", "F#3:e", "D3:q"],
+        ["F2:e", "A2:e", "C3:e", "F3:e", "C3:e", "A2:e", "F2:q"],
+        ["Bb2:e", "D3:e", "F3:e", "Bb3:e", "F3:e", "D3:e", "Bb2:q"],
+        ["Eb3:e", "G3:e", "Bb3:e", "Eb4:e", "Bb3:e", "G3:e", "Eb3:q"],
+        ["C3:w"]
+      ]
+    }
+  ]
+}

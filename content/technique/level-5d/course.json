@@ -1,0 +1,482 @@
+{
+  "courseId": "technique-level-5d",
+  "title": "Technique Level 5D — Hanon-Style Finger Independence",
+  "level": 5,
+  "summary": "Original Hanon-style finger independence exercises in multiple keys — building evenness, strength, and agility across all fingers.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "t5d-001",
+      "slug": "hanon-4-c-rh",
+      "title": "Hanon Pattern #4 in C Major RH",
+      "summary": "Ascending 1-3-2-4-3-5 finger pattern in C major, right hand.",
+      "goal": "Play the ascending pattern evenly — no accent on weak fingers.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "E4:e", "D4:e", "F4:e", "E4:e", "G4:e", "F4:e", "A4:e"],
+        ["G4:e", "B4:e", "A4:e", "C5:e", "B4:e", "D5:e", "C5:e", "E5:e"],
+        ["E5:e", "C5:e", "D5:e", "B4:e", "C5:e", "A4:e", "B4:e", "G4:e"],
+        ["A4:e", "F4:e", "G4:e", "E4:e", "F4:e", "D4:e", "E4:e", "C4:e"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t5d-002",
+      "slug": "hanon-4-c-lh",
+      "title": "Hanon Pattern #4 in C Major LH",
+      "summary": "Same ascending 1-3-2-4-3-5 pattern in C major, left hand.",
+      "goal": "Match the right hand pattern in the left hand with equal evenness.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:e", "E3:e", "D3:e", "F3:e", "E3:e", "G3:e", "F3:e", "A3:e"],
+        ["G3:e", "B3:e", "A3:e", "C4:e", "B3:e", "D4:e", "C4:e", "E4:e"],
+        ["E4:e", "C4:e", "D4:e", "B3:e", "C4:e", "A3:e", "B3:e", "G3:e"],
+        ["A3:e", "F3:e", "G3:e", "E3:e", "F3:e", "D3:e", "E3:e", "C3:e"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t5d-003",
+      "slug": "hanon-4-c-ht",
+      "title": "Hanon Pattern #4 in C Major HT",
+      "summary": "Both hands together on Hanon pattern #4 in parallel motion.",
+      "goal": "Synchronize both hands perfectly on the pattern — no rushing or dragging.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "E4:e", "D4:e", "F4:e", "E4:e", "G4:e", "F4:e", "A4:e"],
+        ["G4:e", "B4:e", "A4:e", "C5:e", "B4:e", "D5:e", "C5:e", "E5:e"],
+        ["E5:e", "C5:e", "D5:e", "B4:e", "C5:e", "A4:e", "B4:e", "G4:e"],
+        ["A4:e", "F4:e", "G4:e", "E4:e", "F4:e", "D4:e", "E4:e", "C4:e"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "E3:e", "D3:e", "F3:e", "E3:e", "G3:e", "F3:e", "A3:e"],
+        ["G3:e", "B3:e", "A3:e", "C4:e", "B3:e", "D4:e", "C4:e", "E4:e"],
+        ["E4:e", "C4:e", "D4:e", "B3:e", "C4:e", "A3:e", "B3:e", "G3:e"],
+        ["A3:e", "F3:e", "G3:e", "E3:e", "F3:e", "D3:e", "E3:e", "C3:e"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t5d-004",
+      "slug": "hanon-5-c-rh",
+      "title": "Hanon Pattern #5 in C Major RH",
+      "summary": "Ascending 1-2-3-4-5-4-3-2 wave pattern in C major, right hand.",
+      "goal": "Play the wave pattern with equal weight on every finger.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "F4:e", "E4:e", "D4:e"],
+        ["D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "G4:e", "F4:e", "E4:e"],
+        ["E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "A4:e", "G4:e", "F4:e"],
+        ["F4:e", "G4:e", "A4:e", "B4:e", "C5:e", "B4:e", "A4:e", "G4:e"],
+        ["C5:w"]
+      ]
+    },
+    {
+      "id": "t5d-005",
+      "slug": "hanon-5-c-ht",
+      "title": "Hanon Pattern #5 in C Major HT",
+      "summary": "Both hands together on the wave pattern in parallel motion.",
+      "goal": "Synchronize the wave pattern in both hands — a coordination challenge.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "F4:e", "E4:e", "D4:e"],
+        ["D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "G4:e", "F4:e", "E4:e"],
+        ["E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "A4:e", "G4:e", "F4:e"],
+        ["F4:e", "G4:e", "A4:e", "B4:e", "C5:e", "B4:e", "A4:e", "G4:e"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "D3:e", "E3:e", "F3:e", "G3:e", "F3:e", "E3:e", "D3:e"],
+        ["D3:e", "E3:e", "F3:e", "G3:e", "A3:e", "G3:e", "F3:e", "E3:e"],
+        ["E3:e", "F3:e", "G3:e", "A3:e", "B3:e", "A3:e", "G3:e", "F3:e"],
+        ["F3:e", "G3:e", "A3:e", "B3:e", "C4:e", "B3:e", "A3:e", "G3:e"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t5d-006",
+      "slug": "hanon-6-g-rh",
+      "title": "Hanon Pattern #6 in G Major RH",
+      "summary": "Thirds pattern (1-3, 2-4, 3-5) ascending in G major.",
+      "goal": "Play ascending thirds evenly with F# in G major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "B4:e", "A4:e", "C5:e", "B4:e", "D5:e", "C5:e", "E5:e"],
+        ["D5:e", "F#5:e", "E5:e", "G5:e", "F#5:e", "A5:e", "G5:q"],
+        ["G5:e", "E5:e", "F#5:e", "D5:e", "E5:e", "C5:e", "D5:e", "B4:e"],
+        ["C5:e", "A4:e", "B4:e", "G4:e", "A4:e", "F#4:e", "G4:q"]
+      ]
+    },
+    {
+      "id": "t5d-007",
+      "slug": "hanon-6-g-ht",
+      "title": "Hanon Pattern #6 in G Major HT",
+      "summary": "Both hands thirds pattern in G major.",
+      "goal": "Synchronize thirds pattern in both hands through G major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "B4:e", "A4:e", "C5:e", "B4:e", "D5:e", "C5:e", "E5:e"],
+        ["D5:e", "F#5:e", "E5:e", "G5:e", "F#5:e", "A5:e", "G5:q"],
+        ["G5:e", "E5:e", "F#5:e", "D5:e", "E5:e", "C5:e", "D5:e", "B4:e"],
+        ["C5:e", "A4:e", "B4:e", "G4:e", "A4:e", "F#4:e", "G4:q"]
+      ],
+      "measuresLeft": [
+        ["G3:e", "B3:e", "A3:e", "C4:e", "B3:e", "D4:e", "C4:e", "E4:e"],
+        ["D3:e", "F#3:e", "E3:e", "G3:e", "F#3:e", "A3:e", "G3:q"],
+        ["G3:e", "E3:e", "F#3:e", "D3:e", "E3:e", "C3:e", "D3:e", "B2:e"],
+        ["C3:e", "A2:e", "B2:e", "G2:e", "A2:e", "F#2:e", "G2:q"]
+      ]
+    },
+    {
+      "id": "t5d-008",
+      "slug": "hanon-7-d-rh",
+      "title": "Hanon Pattern #7 in D Major RH",
+      "summary": "Alternating skip pattern in D major — 1-3-5-3-2-4 ascending.",
+      "goal": "Play the skip pattern evenly through F# and C# in D major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "F#4:e", "A4:e", "F#4:e", "E4:e", "G4:e", "B4:e", "G4:e"],
+        ["F#4:e", "A4:e", "C#5:e", "A4:e", "G4:e", "B4:e", "D5:e", "B4:e"],
+        ["D5:e", "B4:e", "G4:e", "B4:e", "C#5:e", "A4:e", "F#4:e", "A4:e"],
+        ["B4:e", "G4:e", "E4:e", "G4:e", "A4:e", "F#4:e", "D4:q"]
+      ]
+    },
+    {
+      "id": "t5d-009",
+      "slug": "hanon-7-d-ht",
+      "title": "Hanon Pattern #7 in D Major HT",
+      "summary": "Both hands skip pattern in D major.",
+      "goal": "Synchronize the skip pattern in both hands through D major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "F#4:e", "A4:e", "F#4:e", "E4:e", "G4:e", "B4:e", "G4:e"],
+        ["F#4:e", "A4:e", "C#5:e", "A4:e", "G4:e", "B4:e", "D5:e", "B4:e"],
+        ["D5:e", "B4:e", "G4:e", "B4:e", "C#5:e", "A4:e", "F#4:e", "A4:e"],
+        ["B4:e", "G4:e", "E4:e", "G4:e", "A4:e", "F#4:e", "D4:q"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "F#3:e", "A3:e", "F#3:e", "E3:e", "G3:e", "B3:e", "G3:e"],
+        ["F#3:e", "A3:e", "C#4:e", "A3:e", "G3:e", "B3:e", "D4:e", "B3:e"],
+        ["D4:e", "B3:e", "G3:e", "B3:e", "C#4:e", "A3:e", "F#3:e", "A3:e"],
+        ["B3:e", "G3:e", "E3:e", "G3:e", "A3:e", "F#3:e", "D3:q"]
+      ]
+    },
+    {
+      "id": "t5d-010",
+      "slug": "hanon-8-f-rh",
+      "title": "Hanon Pattern #8 in F Major RH",
+      "summary": "Chromatic neighbor-tone pattern in F major — approach each scale tone from below.",
+      "goal": "Play neighbor-tone patterns with Bb in F major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F4:e", "E4:e", "F4:e", "G4:e", "A4:e", "G4:e", "A4:e", "Bb4:e"],
+        ["C5:e", "Bb4:e", "C5:e", "D5:e", "E5:e", "D5:e", "E5:e", "F5:e"],
+        ["F5:e", "E5:e", "D5:e", "E5:e", "C5:e", "D5:e", "Bb4:e", "C5:e"],
+        ["A4:e", "Bb4:e", "G4:e", "A4:e", "F4:h"]
+      ]
+    },
+    {
+      "id": "t5d-011",
+      "slug": "hanon-8-f-ht",
+      "title": "Hanon Pattern #8 in F Major HT",
+      "summary": "Both hands neighbor-tone pattern in F major.",
+      "goal": "Synchronize neighbor-tone pattern in both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F4:e", "E4:e", "F4:e", "G4:e", "A4:e", "G4:e", "A4:e", "Bb4:e"],
+        ["C5:e", "Bb4:e", "C5:e", "D5:e", "E5:e", "D5:e", "E5:e", "F5:e"],
+        ["F5:e", "E5:e", "D5:e", "E5:e", "C5:e", "D5:e", "Bb4:e", "C5:e"],
+        ["A4:e", "Bb4:e", "G4:e", "A4:e", "F4:h"]
+      ],
+      "measuresLeft": [
+        ["F3:e", "E3:e", "F3:e", "G3:e", "A3:e", "G3:e", "A3:e", "Bb3:e"],
+        ["C4:e", "Bb3:e", "C4:e", "D4:e", "E4:e", "D4:e", "E4:e", "F4:e"],
+        ["F4:e", "E4:e", "D4:e", "E4:e", "C4:e", "D4:e", "Bb3:e", "C4:e"],
+        ["A3:e", "Bb3:e", "G3:e", "A3:e", "F3:h"]
+      ]
+    },
+    {
+      "id": "t5d-012",
+      "slug": "hanon-9-a-rh",
+      "title": "Hanon Pattern #9 in A Major RH",
+      "summary": "Broken third pattern ascending and descending in A major.",
+      "goal": "Play broken thirds evenly through three sharps.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "C#5:e", "B4:e", "D5:e", "C#5:e", "E5:e", "D5:e", "F#5:e"],
+        ["E5:e", "G#5:e", "F#5:e", "A5:e", "G#5:e", "A5:e", "A5:q"],
+        ["A5:e", "F#5:e", "G#5:e", "E5:e", "F#5:e", "D5:e", "E5:e", "C#5:e"],
+        ["D5:e", "B4:e", "C#5:e", "A4:e", "B4:e", "A4:e", "A4:q"]
+      ]
+    },
+    {
+      "id": "t5d-013",
+      "slug": "hanon-9-a-ht",
+      "title": "Hanon Pattern #9 in A Major HT",
+      "summary": "Both hands broken third pattern in A major.",
+      "goal": "Synchronize broken thirds in both hands — three sharps, full coordination.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "C#5:e", "B4:e", "D5:e", "C#5:e", "E5:e", "D5:e", "F#5:e"],
+        ["E5:e", "G#5:e", "F#5:e", "A5:e", "G#5:e", "A5:e", "A5:q"],
+        ["A5:e", "F#5:e", "G#5:e", "E5:e", "F#5:e", "D5:e", "E5:e", "C#5:e"],
+        ["D5:e", "B4:e", "C#5:e", "A4:e", "B4:e", "A4:e", "A4:q"]
+      ],
+      "measuresLeft": [
+        ["A2:e", "C#3:e", "B2:e", "D3:e", "C#3:e", "E3:e", "D3:e", "F#3:e"],
+        ["E3:e", "G#3:e", "F#3:e", "A3:e", "G#3:e", "A3:e", "A3:q"],
+        ["A3:e", "F#3:e", "G#3:e", "E3:e", "F#3:e", "D3:e", "E3:e", "C#3:e"],
+        ["D3:e", "B2:e", "C#3:e", "A2:e", "B2:e", "A2:e", "A2:q"]
+      ]
+    },
+    {
+      "id": "t5d-014",
+      "slug": "hanon-10-bb-rh",
+      "title": "Hanon Pattern #10 in Bb Major RH",
+      "summary": "Zigzag pattern in Bb major — 1-3-2-1-2-4-3-2 ascending.",
+      "goal": "Play the zigzag pattern with Bb and Eb at 84 BPM.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:e", "D5:e", "C5:e", "Bb4:e", "C5:e", "Eb5:e", "D5:e", "C5:e"],
+        ["D5:e", "F5:e", "Eb5:e", "D5:e", "Eb5:e", "G5:e", "F5:e", "Eb5:e"],
+        ["F5:e", "Eb5:e", "D5:e", "Eb5:e", "D5:e", "C5:e", "Bb4:e", "C5:e"],
+        ["Bb4:e", "C5:e", "D5:e", "C5:e", "Bb4:h"]
+      ]
+    },
+    {
+      "id": "t5d-015",
+      "slug": "hanon-10-bb-ht",
+      "title": "Hanon Pattern #10 in Bb Major HT",
+      "summary": "Both hands zigzag pattern in Bb major.",
+      "goal": "Synchronize the zigzag pattern in flat keys — advanced coordination.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:e", "D5:e", "C5:e", "Bb4:e", "C5:e", "Eb5:e", "D5:e", "C5:e"],
+        ["D5:e", "F5:e", "Eb5:e", "D5:e", "Eb5:e", "G5:e", "F5:e", "Eb5:e"],
+        ["F5:e", "Eb5:e", "D5:e", "Eb5:e", "D5:e", "C5:e", "Bb4:e", "C5:e"],
+        ["Bb4:e", "C5:e", "D5:e", "C5:e", "Bb4:h"]
+      ],
+      "measuresLeft": [
+        ["Bb2:e", "D3:e", "C3:e", "Bb2:e", "C3:e", "Eb3:e", "D3:e", "C3:e"],
+        ["D3:e", "F3:e", "Eb3:e", "D3:e", "Eb3:e", "G3:e", "F3:e", "Eb3:e"],
+        ["F3:e", "Eb3:e", "D3:e", "Eb3:e", "D3:e", "C3:e", "Bb2:e", "C3:e"],
+        ["Bb2:e", "C3:e", "D3:e", "C3:e", "Bb2:h"]
+      ]
+    },
+    {
+      "id": "t5d-016",
+      "slug": "hanon-contrary-c-ht",
+      "title": "Contrary Motion Hanon in C HT",
+      "summary": "Hands move in opposite directions — RH ascends while LH descends.",
+      "goal": "Maintain evenness while hands move in contrary motion.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["C5:e", "B4:e", "A4:e", "G4:e", "F4:e", "E4:e", "D4:e", "C4:e"],
+        ["C4:e", "E4:e", "G4:e", "C5:e", "G4:e", "E4:e", "C4:q"]
+      ],
+      "measuresLeft": [
+        ["C4:e", "B3:e", "A3:e", "G3:e", "F3:e", "E3:e", "D3:e", "C3:e"],
+        ["C3:e", "D3:e", "E3:e", "F3:e", "G3:e", "A3:e", "B3:e", "C4:e"],
+        ["C4:e", "A3:e", "F3:e", "C3:e", "F3:e", "A3:e", "C4:q"]
+      ]
+    },
+    {
+      "id": "t5d-017",
+      "slug": "hanon-contrary-g-ht",
+      "title": "Contrary Motion Hanon in G HT",
+      "summary": "Contrary motion pattern in G major with F#.",
+      "goal": "Navigate contrary motion through G major — hands cross paths smoothly.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "A4:e", "B4:e", "C5:e", "D5:e", "E5:e", "F#5:e", "G5:e"],
+        ["G5:e", "F#5:e", "E5:e", "D5:e", "C5:e", "B4:e", "A4:e", "G4:e"],
+        ["G4:e", "B4:e", "D5:e", "G5:e", "D5:e", "B4:e", "G4:q"]
+      ],
+      "measuresLeft": [
+        ["G3:e", "F#3:e", "E3:e", "D3:e", "C3:e", "B2:e", "A2:e", "G2:e"],
+        ["G2:e", "A2:e", "B2:e", "C3:e", "D3:e", "E3:e", "F#3:e", "G3:e"],
+        ["G3:e", "D3:e", "B2:e", "G2:e", "B2:e", "D3:e", "G3:q"]
+      ]
+    },
+    {
+      "id": "t5d-018",
+      "slug": "hanon-accent-shift-c",
+      "title": "Accent Shift Hanon in C Major RH",
+      "summary": "Same C scale pattern but with accent shifting every 3 notes (implied by grouping).",
+      "goal": "Feel rhythmic groupings shift against the bar line — metric displacement.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["D5:e", "E5:e", "F5:e", "E5:e", "D5:e", "C5:e", "B4:e", "A4:e"],
+        ["G4:e", "F4:e", "E4:e", "D4:e", "C4:e", "D4:e", "E4:e", "F4:e"],
+        ["G4:e", "A4:e", "B4:e", "C5:e", "C5:h"]
+      ]
+    },
+    {
+      "id": "t5d-019",
+      "slug": "hanon-eb-ht",
+      "title": "Hanon Pattern in Eb Major HT",
+      "summary": "Step-skip pattern in Eb major — combining scale and arpeggio elements.",
+      "goal": "Navigate three flats with Hanon-style independence in both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:e", "F4:e", "G4:e", "Bb4:e", "Ab4:e", "Bb4:e", "C5:e", "Eb5:e"],
+        ["D5:e", "Eb5:e", "F5:e", "G5:e", "Eb5:e", "F5:e", "Eb5:q"],
+        ["Eb5:e", "D5:e", "C5:e", "Bb4:e", "Ab4:e", "G4:e", "F4:e", "Eb4:e"],
+        ["Eb4:w"]
+      ],
+      "measuresLeft": [
+        ["Eb3:e", "F3:e", "G3:e", "Bb3:e", "Ab3:e", "Bb3:e", "C4:e", "Eb4:e"],
+        ["D4:e", "Eb4:e", "F4:e", "G4:e", "Eb4:e", "F4:e", "Eb4:q"],
+        ["Eb4:e", "D4:e", "C4:e", "Bb3:e", "Ab3:e", "G3:e", "F3:e", "Eb3:e"],
+        ["Eb3:w"]
+      ]
+    },
+    {
+      "id": "t5d-020",
+      "slug": "hanon-all-keys-mastery",
+      "title": "Hanon All-Keys Mastery Review HT",
+      "summary": "Cycles through C, G, D, F, A, Bb patterns — the L5D mastery test.",
+      "goal": "Demonstrate Hanon-style finger independence in all keys — even, fast, controlled.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "E4:e", "D4:e", "F4:e", "E4:e", "G4:e", "F4:e", "A4:e"],
+        ["G4:e", "B4:e", "A4:e", "C5:e", "B4:e", "D5:e", "C5:q"],
+        ["D4:e", "F#4:e", "E4:e", "G4:e", "F#4:e", "A4:e", "G4:e", "B4:e"],
+        ["A4:e", "C#5:e", "B4:e", "D5:e", "C#5:e", "E5:e", "D5:q"],
+        ["F4:e", "A4:e", "G4:e", "Bb4:e", "A4:e", "C5:e", "Bb4:e", "D5:e"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "E3:e", "D3:e", "F3:e", "E3:e", "G3:e", "F3:e", "A3:e"],
+        ["G3:e", "B3:e", "A3:e", "C4:e", "B3:e", "D4:e", "C4:q"],
+        ["D3:e", "F#3:e", "E3:e", "G3:e", "F#3:e", "A3:e", "G3:e", "B3:e"],
+        ["A3:e", "C#4:e", "B3:e", "D4:e", "C#4:e", "E4:e", "D4:q"],
+        ["F3:e", "A3:e", "G3:e", "Bb3:e", "A3:e", "C4:e", "Bb3:e", "D4:e"],
+        ["C3:w"]
+      ]
+    }
+  ]
+}

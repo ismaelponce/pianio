@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@pianio/content-schema": ["packages/content-schema/src/index.ts"],
+      "@pianio/core-engine": ["packages/core-engine/src/index.ts"],
+      "@pianio/midi-web": ["packages/midi-web/src/index.ts"],
+      "@pianio/notation": ["packages/notation/src/index.ts"]
+    }
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "courseId": "technique-level-6e",
+  "title": "Technique Level 6E — Virtuosic Mastery",
+  "level": 6,
+  "summary": "Capstone mastery exercises combining all techniques — scales, arpeggios, octaves, thirds, trills, ornaments — across all keys at concert tempo.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "t6e-001",
+      "slug": "etude-c-major-ht",
+      "title": "Étude in C Major HT",
+      "summary": "Scale runs, arpeggios, and chords combined in C major.",
+      "goal": "Play the C major étude cleanly at 108 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 108,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["C5:e", "E5:e", "G5:e", "E5:e", "C5:e", "G4:e", "E4:e", "C4:e"],
+        ["[C4,E4,G4]:q", "[F4,A4,C5]:q", "[G4,B4,D5]:q", "[C4,E4,G4]:q"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "D3:e", "E3:e", "F3:e", "G3:e", "A3:e", "B3:e", "C4:e"],
+        ["C3:e", "E3:e", "G3:e", "E3:e", "C3:e", "G2:e", "E2:e", "C2:e"],
+        ["[C3,G3]:q", "[F3,C4]:q", "[G3,D4]:q", "[C3,G3]:q"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t6e-002",
+      "slug": "etude-g-major-ht",
+      "title": "Étude in G Major HT",
+      "summary": "Scale runs, arpeggios, and octaves in G major.",
+      "goal": "Play the G major étude at 108 BPM with F#.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 108,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "A4:e", "B4:e", "C5:e", "D5:e", "E5:e", "F#5:e", "G5:e"],
+        ["G4:e", "B4:e", "D5:e", "G5:e", "D5:e", "B4:e", "G4:e", "D5:e"],
+        ["[G4,B4,D5]:q", "[C5,E5,G5]:q", "[D5,F#5,A5]:q", "[G4,B4,D5]:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G3:e", "A3:e", "B3:e", "C4:e", "D4:e", "E4:e", "F#4:e", "G4:e"],
+        ["G2:e", "B2:e", "D3:e", "G3:e", "D3:e", "B2:e", "G2:e", "D3:e"],
+        ["[G2,D3]:q", "[C3,G3]:q", "[D3,A3]:q", "[G2,D3]:q"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "t6e-003",
+      "slug": "etude-d-major-ht",
+      "title": "Étude in D Major HT",
+      "summary": "Scale, arpeggio, and thirds combined in D major.",
+      "goal": "Play the D major étude at 104 BPM with F# and C#.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 104,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["[D4,F#4]:e", "[E4,G4]:e", "[F#4,A4]:e", "[G4,B4]:e", "[A4,C#5]:e", "[B4,D5]:e", "[C#5,E5]:e", "[D5,F#5]:e"],
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "A4:e", "F#4:e", "D4:q"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:e", "B3:e", "C#4:e", "D4:e"],
+        ["[D3,F#3]:e", "[E3,G3]:e", "[F#3,A3]:e", "[G3,B3]:e", "[A3,C#4]:e", "[B3,D4]:e", "[C#4,E4]:e", "[D4,F#4]:e"],
+        ["D3:e", "F#3:e", "A3:e", "D4:e", "A3:e", "F#3:e", "D3:q"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "t6e-004",
+      "slug": "etude-f-major-ht",
+      "title": "Étude in F Major HT",
+      "summary": "Scale, arpeggio, and trill figures in F major.",
+      "goal": "Play the F major étude at 104 BPM with Bb.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 104,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F4:e", "G4:e", "A4:e", "Bb4:e", "C5:e", "D5:e", "E5:e", "F5:e"],
+        ["F4:e", "A4:e", "C5:e", "F5:e", "C5:e", "A4:e", "F4:e", "A4:e"],
+        ["E5:e", "F5:e", "E5:e", "F5:e", "E5:e", "F5:e", "G5:q"],
+        ["F5:w"]
+      ],
+      "measuresLeft": [
+        ["F3:e", "G3:e", "A3:e", "Bb3:e", "C4:e", "D4:e", "E4:e", "F4:e"],
+        ["F2:e", "A2:e", "C3:e", "F3:e", "C3:e", "A2:e", "F2:e", "A2:e"],
+        ["C3:q", "F3:q", "G3:q", "C3:q"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "t6e-005",
+      "slug": "etude-a-major-ht",
+      "title": "Étude in A Major HT",
+      "summary": "Scale, arpeggio, and ornament combined in A major.",
+      "goal": "Play the A major étude at 100 BPM with three sharps.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "B4:e", "C#5:e", "D5:e", "E5:e", "F#5:e", "G#5:e", "A5:e"],
+        ["A4:e", "C#5:e", "E5:e", "A5:e", "E5:e", "C#5:e", "A4:e", "C#5:e"],
+        ["B4:e", "A4:e", "G#4:e", "A4:e", "C#5:e", "B4:e", "A4:e", "B4:e"],
+        ["A4:w"]
+      ],
+      "measuresLeft": [
+        ["A2:e", "B2:e", "C#3:e", "D3:e", "E3:e", "F#3:e", "G#3:e", "A3:e"],
+        ["A2:e", "C#3:e", "E3:e", "A3:e", "E3:e", "C#3:e", "A2:e", "C#3:e"],
+        ["D3:q", "E3:q", "A2:h"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "t6e-006",
+      "slug": "etude-bb-major-ht",
+      "title": "Étude in Bb Major HT",
+      "summary": "Scale, arpeggio, and sixths in Bb major.",
+      "goal": "Play the Bb major étude at 96 BPM with two flats.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:e", "C5:e", "D5:e", "Eb5:e", "F5:e", "G5:e", "A5:e", "Bb5:e"],
+        ["Bb4:e", "D5:e", "F5:e", "Bb5:e", "F5:e", "D5:e", "Bb4:e", "D5:e"],
+        ["[Bb4,G5]:q", "[C5,A5]:q", "[D5,Bb5]:q", "[Bb4,G5]:q"],
+        ["Bb4:w"]
+      ],
+      "measuresLeft": [
+        ["Bb2:e", "C3:e", "D3:e", "Eb3:e", "F3:e", "G3:e", "A3:e", "Bb3:e"],
+        ["Bb2:e", "D3:e", "F3:e", "Bb3:e", "F3:e", "D3:e", "Bb2:e", "D3:e"],
+        ["Eb3:q", "F3:q", "Bb2:h"],
+        ["Bb2:w"]
+      ]
+    },
+    {
+      "id": "t6e-007",
+      "slug": "etude-eb-major-ht",
+      "title": "Étude in Eb Major HT",
+      "summary": "Scale and arpeggio patterns in Eb major.",
+      "goal": "Play the Eb major étude at 96 BPM with three flats.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:e", "F4:e", "G4:e", "Ab4:e", "Bb4:e", "C5:e", "D5:e", "Eb5:e"],
+        ["Eb4:e", "G4:e", "Bb4:e", "Eb5:e", "Bb4:e", "G4:e", "Eb4:e", "G4:e"],
+        ["[Eb4,G4,Bb4]:q", "[Ab4,C5,Eb5]:q", "[Bb4,D5,F5]:q", "[Eb4,G4,Bb4]:q"],
+        ["Eb4:w"]
+      ],
+      "measuresLeft": [
+        ["Eb3:e", "F3:e", "G3:e", "Ab3:e", "Bb3:e", "C4:e", "D4:e", "Eb4:e"],
+        ["Eb3:e", "G3:e", "Bb3:e", "Eb4:e", "Bb3:e", "G3:e", "Eb3:e", "G3:e"],
+        ["[Eb3,Bb3]:q", "[Ab3,Eb4]:q", "[Bb3,F4]:q", "[Eb3,Bb3]:q"],
+        ["Eb3:w"]
+      ]
+    },
+    {
+      "id": "t6e-008",
+      "slug": "etude-ab-major-ht",
+      "title": "Étude in Ab Major HT",
+      "summary": "Scale and arpeggio patterns in Ab major — the most challenging flat key.",
+      "goal": "Play the Ab major étude at 92 BPM with four flats.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Ab4:e", "Bb4:e", "C5:e", "Db5:e", "Eb5:e", "F5:e", "G5:e", "Ab5:e"],
+        ["Ab4:e", "C5:e", "Eb5:e", "Ab5:e", "Eb5:e", "C5:e", "Ab4:e", "C5:e"],
+        ["[Ab4,C5,Eb5]:h", "[Ab5,C5,Eb5]:h"],
+        ["Ab4:w"]
+      ],
+      "measuresLeft": [
+        ["Ab2:e", "Bb2:e", "C3:e", "Db3:e", "Eb3:e", "F3:e", "G3:e", "Ab3:e"],
+        ["Ab2:e", "C3:e", "Eb3:e", "Ab3:e", "Eb3:e", "C3:e", "Ab2:e", "C3:e"],
+        ["[Ab2,Eb3]:h", "[Ab3,Eb4]:h"],
+        ["Ab2:w"]
+      ]
+    },
+    {
+      "id": "t6e-009",
+      "slug": "speed-scale-all-keys-rh",
+      "title": "Speed Scale Chain All Keys RH",
+      "summary": "One-octave scales cycling through C, G, D, A, F, Bb, Eb at 120 BPM.",
+      "goal": "Shift keys seamlessly at full speed — the ultimate scale challenge.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 120,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["G4:e", "A4:e", "B4:e", "C5:e", "D5:e", "E5:e", "F#5:e", "G5:e"],
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["F4:e", "G4:e", "A4:e", "Bb4:e", "C5:e", "D5:e", "E5:e", "F5:e"],
+        ["Bb4:e", "C5:e", "D5:e", "Eb5:e", "F5:e", "G5:e", "A5:e", "Bb5:e"],
+        ["C5:w"]
+      ]
+    },
+    {
+      "id": "t6e-010",
+      "slug": "speed-arpeggio-all-keys-rh",
+      "title": "Speed Arpeggio Chain All Keys RH",
+      "summary": "Arpeggios cycling through C, G, D, A, F, Bb at 108 BPM.",
+      "goal": "Shift arpeggio keys seamlessly at concert tempo.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 108,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "E4:e", "G4:e", "C5:e", "G4:e", "E4:e", "C4:e", "G4:e"],
+        ["G4:e", "B4:e", "D5:e", "G5:e", "D5:e", "B4:e", "G4:e", "D5:e"],
+        ["D4:e", "F#4:e", "A4:e", "D5:e", "A4:e", "F#4:e", "D4:e", "A4:e"],
+        ["F4:e", "A4:e", "C5:e", "F5:e", "C5:e", "A4:e", "F4:e", "C5:e"],
+        ["Bb4:e", "D5:e", "F5:e", "Bb5:e", "F5:e", "D5:e", "Bb4:e", "F5:e"],
+        ["C5:w"]
+      ]
+    },
+    {
+      "id": "t6e-011",
+      "slug": "octave-etude-c-rh",
+      "title": "Octave Étude in C Major RH",
+      "summary": "Octave scale and arpeggio passage at concert tempo.",
+      "goal": "Play octave passages at 88 BPM with musical expression.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[C4,C5]:q", "[E4,E5]:q", "[G4,G5]:q", "[C4,C5]:q"],
+        ["[D4,D5]:q", "[F4,F5]:q", "[A4,A5]:q", "[D4,D5]:q"],
+        ["[E4,E5]:q", "[G4,G5]:q", "[B4,B5]:q", "[C4,C5]:q"],
+        ["[C4,C5]:w"]
+      ]
+    },
+    {
+      "id": "t6e-012",
+      "slug": "thirds-etude-g-ht",
+      "title": "Thirds Étude in G Major HT",
+      "summary": "Double thirds passage with both hands at concert tempo.",
+      "goal": "Play thirds musically in both hands at 80 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["[G4,B4]:e", "[A4,C5]:e", "[B4,D5]:e", "[C5,E5]:e", "[D5,F#5]:e", "[E5,G5]:e", "[F#5,A5]:e", "[G5,B5]:e"],
+        ["[G5,B5]:e", "[F#5,A5]:e", "[E5,G5]:e", "[D5,F#5]:e", "[C5,E5]:e", "[B4,D5]:e", "[A4,C5]:e", "[G4,B4]:e"],
+        ["[G4,B4]:w"]
+      ],
+      "measuresLeft": [
+        ["[G2,B2]:e", "[A2,C3]:e", "[B2,D3]:e", "[C3,E3]:e", "[D3,F#3]:e", "[E3,G3]:e", "[F#3,A3]:e", "[G3,B3]:e"],
+        ["[G3,B3]:e", "[F#3,A3]:e", "[E3,G3]:e", "[D3,F#3]:e", "[C3,E3]:e", "[B2,D3]:e", "[A2,C3]:e", "[G2,B2]:e"],
+        ["[G2,B2]:w"]
+      ]
+    },
+    {
+      "id": "t6e-013",
+      "slug": "trill-etude-d-ht",
+      "title": "Trill Étude in D Major HT",
+      "summary": "Extended trills with accompaniment in D major.",
+      "goal": "Sustain trills over changing harmonies at 96 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D5:e", "E5:e", "D5:e", "E5:e", "D5:e", "E5:e", "D5:e", "E5:e"],
+        ["F#5:e", "G5:e", "F#5:e", "G5:e", "F#5:e", "G5:e", "A5:q"],
+        ["D5:w"]
+      ],
+      "measuresLeft": [
+        ["[D3,A3]:h", "[G3,B3]:h"],
+        ["[D3,A3]:h", "[A3,E4]:q", "[D3,A3]:q"],
+        ["[D3,F#3,A3]:w"]
+      ]
+    },
+    {
+      "id": "t6e-014",
+      "slug": "alberti-etude-f-ht",
+      "title": "Alberti Étude in F Major HT",
+      "summary": "Flowing melody over Alberti bass in F major at concert tempo.",
+      "goal": "Play a musical Alberti texture at 88 BPM — Classical elegance.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F5:e", "G5:e", "A5:e", "G5:e", "F5:e", "E5:e", "D5:e", "C5:e"],
+        ["Bb4:e", "C5:e", "D5:e", "E5:e", "F5:e", "E5:e", "D5:e", "C5:e"],
+        ["A4:e", "Bb4:e", "C5:e", "D5:e", "C5:e", "Bb4:e", "A4:e", "G4:e"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["F3:e", "C4:e", "A3:e", "C4:e", "F3:e", "C4:e", "A3:e", "C4:e"],
+        ["Bb3:e", "F4:e", "D4:e", "F4:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["F3:e", "C4:e", "A3:e", "C4:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["F3:e", "C4:e", "A3:e", "C4:e", "F3:h"]
+      ]
+    },
+    {
+      "id": "t6e-015",
+      "slug": "swing-etude-c-ht",
+      "title": "Swing Étude in C Major HT",
+      "summary": "Jazz-style swing passage with walking bass.",
+      "goal": "Play a swing étude musically at 108 BPM — jazz technique mastery.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 108,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C5:e", "E5:e", "G5:e", "E5:e", "C5:e", "Bb4:e", "G4:e", "E4:e"],
+        ["F4:e", "A4:e", "C5:e", "A4:e", "F4:e", "Eb4:e", "C4:e", "A4:e"],
+        ["G4:e", "B4:e", "D5:e", "F5:e", "E5:e", "D5:e", "C5:e", "B4:e"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "E3:q", "G3:q", "Bb3:q"],
+        ["F3:q", "A3:q", "C4:q", "Eb3:q"],
+        ["G3:q", "B3:q", "D4:q", "G3:q"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t6e-016",
+      "slug": "contrary-etude-c-ht",
+      "title": "Contrary Motion Étude C Major HT",
+      "summary": "Scale runs and arpeggios in contrary motion at speed.",
+      "goal": "Play contrary motion patterns at 112 BPM — peak coordination.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 112,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["C5:e", "E5:e", "G5:e", "E5:e", "C5:e", "G4:e", "E4:e", "C4:e"],
+        ["[C4,E4,G4]:w"]
+      ],
+      "measuresLeft": [
+        ["C4:e", "B3:e", "A3:e", "G3:e", "F3:e", "E3:e", "D3:e", "C3:e"],
+        ["C3:e", "E3:e", "G3:e", "E3:e", "C3:e", "E3:e", "G3:e", "C4:e"],
+        ["[C3,E3,G3]:w"]
+      ]
+    },
+    {
+      "id": "t6e-017",
+      "slug": "chromatic-etude-ht",
+      "title": "Chromatic Étude HT",
+      "summary": "Full chromatic passage in both hands at concert tempo.",
+      "goal": "Play chromatic runs cleanly at 108 BPM in both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 108,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "C#4:e", "D4:e", "Eb4:e", "E4:e", "F4:e", "F#4:e", "G4:e"],
+        ["G#4:e", "A4:e", "Bb4:e", "B4:e", "C5:e", "B4:e", "Bb4:e", "A4:e"],
+        ["G#4:e", "G4:e", "F#4:e", "F4:e", "E4:e", "Eb4:e", "D4:e", "C#4:e"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "C#3:e", "D3:e", "Eb3:e", "E3:e", "F3:e", "F#3:e", "G3:e"],
+        ["G#3:e", "A3:e", "Bb3:e", "B3:e", "C4:e", "B3:e", "Bb3:e", "A3:e"],
+        ["G#3:e", "G3:e", "F#3:e", "F3:e", "E3:e", "Eb3:e", "D3:e", "C#3:e"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t6e-018",
+      "slug": "dotted-etude-a-ht",
+      "title": "Dotted Rhythm Étude in A Major HT",
+      "summary": "Dotted-quarter patterns with arpeggios in A major.",
+      "goal": "Play dotted rhythms musically at 96 BPM in A major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:dq", "B4:e", "C#5:dq", "D5:e"],
+        ["E5:e", "C#5:e", "A4:e", "C#5:e", "E5:e", "A5:e", "E5:q"],
+        ["F#5:dq", "E5:e", "D5:dq", "C#5:e"],
+        ["A4:w"]
+      ],
+      "measuresLeft": [
+        ["A2:dq", "B2:e", "C#3:dq", "D3:e"],
+        ["A2:e", "C#3:e", "E3:e", "C#3:e", "A2:e", "E3:e", "A3:q"],
+        ["D3:dq", "C#3:e", "B2:dq", "A2:e"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "t6e-019",
+      "slug": "concert-etude-c-ht",
+      "title": "Concert Étude in C Major HT",
+      "summary": "Full concert-level passage combining every technique — the penultimate test.",
+      "goal": "Play a concert-level passage at 112 BPM — all L6 skills in one piece.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 112,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["[C4,E4]:e", "[D4,F4]:e", "[E4,G4]:e", "[F4,A4]:e", "[G4,B4]:e", "[A4,C5]:e", "[B4,D5]:e", "[C5,E5]:e"],
+        ["C5:e", "D5:e", "C5:e", "D5:e", "C5:e", "D5:e", "E5:q"],
+        ["[C4,E4,G4]:q", "[F4,A4,C5]:q", "[G4,B4,D5]:q", "[C5,E5,G5]:q"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "G3:e", "E3:e", "G3:e", "C3:e", "G3:e", "E3:e", "G3:e"],
+        ["C3:e", "E3:e", "G3:e", "C4:e", "G3:e", "E3:e", "C3:e", "E3:e"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["[C3,G3]:q", "[F3,C4]:q", "[G3,D4]:q", "[C3,G3]:q"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t6e-020",
+      "slug": "l6-final-mastery",
+      "title": "L6 Final Mastery Test HT",
+      "summary": "The ultimate capstone — scales, arpeggios, octaves, thirds, trills across C, G, D, F at concert tempo.",
+      "goal": "Pass the L6 mastery test — prove virtuosic fluency across all techniques and keys.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 120,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["C4:e", "E4:e", "G4:e", "C5:e", "E5:e", "G5:e", "E5:e", "C5:e"],
+        ["[C4,C5]:q", "[D4,D5]:q", "[E4,E5]:q", "[F4,F5]:q"],
+        ["[C4,E4]:q", "[D4,F4]:q", "[E4,G4]:q", "[F4,A4]:q"],
+        ["C5:e", "D5:e", "C5:e", "D5:e", "C5:e", "D5:e", "E5:q"],
+        ["[C4,E4,G4]:h", "[C5,E5,G5]:h"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "D3:e", "E3:e", "F3:e", "G3:e", "A3:e", "B3:e", "C4:e"],
+        ["C3:e", "E3:e", "G3:e", "C4:e", "E3:e", "G3:e", "E3:e", "C3:e"],
+        ["[C2,C3]:q", "[D2,D3]:q", "[E2,E3]:q", "[F2,F3]:q"],
+        ["[C3,E3]:q", "[D3,F3]:q", "[E3,G3]:q", "[F3,A3]:q"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["[C3,E3,G3]:h", "[C2,E2,G2]:h"],
+        ["C3:w"]
+      ]
+    }
+  ]
+}

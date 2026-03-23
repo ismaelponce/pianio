@@ -1,0 +1,1599 @@
+{
+  "courseId": "method-level-4a",
+  "title": "Method Level 4A — Foundations",
+  "level": 4,
+  "summary": "Introduction to D major, A major, Bb major, and Eb major. Five-finger orientation, scale passages, and first grand-staff pieces in each new key.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "m4a-001",
+      "slug": "d-major-orientation",
+      "title": "D Major Orientation",
+      "summary": "Right-hand five-finger introduction to D major with F# and C# inline.",
+      "goal": "Orient the right hand in D major position and play the key notes with F# and C# clearly.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D4:q",
+          "E4:q",
+          "F#4:q",
+          "G4:q"
+        ],
+        [
+          "A4:h",
+          "G4:h"
+        ],
+        [
+          "F#4:q",
+          "E4:q",
+          "D4:q",
+          "E4:q"
+        ],
+        [
+          "D4:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-002",
+      "slug": "d-major-left-hand",
+      "title": "D Major Left Hand",
+      "summary": "Left-hand five-finger study in D major, bass clef, with F# and C# inline.",
+      "goal": "Establish D major position in the left hand and identify F# in the bass register.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 2,
+      "tempoBpm": 68,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D3:q",
+          "E3:q",
+          "F#3:q",
+          "G3:q"
+        ],
+        [
+          "A3:h",
+          "G3:h"
+        ],
+        [
+          "F#3:q",
+          "E3:q",
+          "D3:q",
+          "E3:q"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-003",
+      "slug": "d-major-scale-study",
+      "title": "D Major Scale Study",
+      "summary": "Right-hand D major scale from D4 to D5 and back, with C# and F# explicit.",
+      "goal": "Play the full D major octave scale ascending and descending in the right hand.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D4:q",
+          "E4:q",
+          "F#4:q",
+          "G4:q"
+        ],
+        [
+          "A4:q",
+          "B4:q",
+          "C#5:q",
+          "D5:q"
+        ],
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:q",
+          "A4:q"
+        ],
+        [
+          "G4:q",
+          "F#4:q",
+          "E4:q",
+          "D4:q"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-004",
+      "slug": "a-major-orientation",
+      "title": "A Major Orientation",
+      "summary": "Right-hand five-finger introduction to A major with C#, F#, and G# inline.",
+      "goal": "Orient the right hand in A major position and recognise the three sharps.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 68,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "A4:q",
+          "B4:q",
+          "C#5:q",
+          "D5:q"
+        ],
+        [
+          "E5:h",
+          "D5:h"
+        ],
+        [
+          "C#5:q",
+          "B4:q",
+          "A4:q",
+          "G#4:q"
+        ],
+        [
+          "A4:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-005",
+      "slug": "a-major-left-hand",
+      "title": "A Major Left Hand",
+      "summary": "Left-hand five-finger study in A major, bass clef, with C#, G# inline.",
+      "goal": "Establish A major position in the left hand with accurate sharps.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 3,
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "A2:q",
+          "B2:q",
+          "C#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:h",
+          "D3:h"
+        ],
+        [
+          "C#3:q",
+          "B2:q",
+          "A2:q",
+          "G#2:q"
+        ],
+        [
+          "A2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-006",
+      "slug": "bb-major-orientation",
+      "title": "Bb Major Orientation",
+      "summary": "Right-hand five-finger introduction to Bb major with Bb and Eb inline.",
+      "goal": "Orient the right hand in Bb major position and play Bb and Eb clearly.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 68,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "D5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:h",
+          "Eb5:h"
+        ],
+        [
+          "D5:q",
+          "C5:q",
+          "Bb4:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-007",
+      "slug": "bb-major-left-hand",
+      "title": "Bb Major Left Hand",
+      "summary": "Left-hand five-finger study in Bb major, bass clef, with Bb and Eb inline.",
+      "goal": "Establish Bb major position in the left hand with accurate flats.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -2,
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb2:q",
+          "C3:q",
+          "D3:q",
+          "Eb3:q"
+        ],
+        [
+          "F3:h",
+          "Eb3:h"
+        ],
+        [
+          "D3:q",
+          "C3:q",
+          "Bb2:q",
+          "C3:q"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-008",
+      "slug": "eb-major-orientation",
+      "title": "Eb Major Orientation",
+      "summary": "Right-hand five-finger introduction to Eb major with Eb, Ab, and Bb inline.",
+      "goal": "Orient the right hand in Eb major and navigate three flats clearly.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Eb4:q",
+          "F4:q",
+          "G4:q",
+          "Ab4:q"
+        ],
+        [
+          "Bb4:h",
+          "Ab4:h"
+        ],
+        [
+          "G4:q",
+          "F4:q",
+          "Eb4:q",
+          "F4:q"
+        ],
+        [
+          "Eb4:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-009",
+      "slug": "d-major-duet",
+      "title": "D Major Duet",
+      "summary": "First grand-staff piece in D major: melody in RH, bass support in LH.",
+      "goal": "Coordinate both hands in D major with F# and C# accurate in each voice.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D5:q",
+          "E5:q",
+          "F#5:q",
+          "E5:q"
+        ],
+        [
+          "D5:h",
+          "D5:h"
+        ],
+        [
+          "F#5:q",
+          "E5:q",
+          "D5:q",
+          "C#5:q"
+        ],
+        [
+          "D5:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "E3:q"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-010",
+      "slug": "d-major-melody-with-bass",
+      "title": "D Major Melody with Bass",
+      "summary": "Six-measure D major grand-staff piece with flowing RH melody and LH harmonic support.",
+      "goal": "Shape a melodic phrase in D major while maintaining steady LH bass line.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D5:q",
+          "E5:q",
+          "F#5:q",
+          "A5:q"
+        ],
+        [
+          "B4:h",
+          "A4:h"
+        ],
+        [
+          "G4:q",
+          "F#4:q",
+          "E4:q",
+          "D4:q"
+        ],
+        [
+          "F#4:q",
+          "G4:q",
+          "A4:q",
+          "B4:q"
+        ],
+        [
+          "C#5:h",
+          "D5:h"
+        ],
+        [
+          "D5:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "F#3:q",
+          "A3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "D3:h"
+        ],
+        [
+          "G3:q",
+          "F#3:q",
+          "E3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "A3:h",
+          "E3:h"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-011",
+      "slug": "a-major-grand-staff",
+      "title": "A Major Grand Staff",
+      "summary": "First grand-staff piece in A major: RH melody with C#, LH bass with C# and G#.",
+      "goal": "Coordinate both hands in A major with three sharps maintained in each voice.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 68,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "A4:q",
+          "B4:q",
+          "C#5:q",
+          "D5:q"
+        ],
+        [
+          "E5:h",
+          "D5:h"
+        ],
+        [
+          "C#5:q",
+          "B4:q",
+          "A4:q",
+          "B4:q"
+        ],
+        [
+          "A4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A2:q",
+          "E3:q",
+          "C#3:q",
+          "A2:q"
+        ],
+        [
+          "E3:h",
+          "A2:h"
+        ],
+        [
+          "D3:q",
+          "C#3:q",
+          "B2:q",
+          "A2:q"
+        ],
+        [
+          "A2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-012",
+      "slug": "a-major-song",
+      "title": "A Major Song",
+      "summary": "Six-measure song in A major for both hands; RH sings, LH provides steady support.",
+      "goal": "Maintain musical phrasing in A major across six measures with both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "A4:q",
+          "B4:q",
+          "C#5:q",
+          "E5:q"
+        ],
+        [
+          "D5:h",
+          "C#5:h"
+        ],
+        [
+          "B4:q",
+          "A4:q",
+          "B4:q",
+          "C#5:q"
+        ],
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:q",
+          "A4:q"
+        ],
+        [
+          "E5:h",
+          "A5:h"
+        ],
+        [
+          "A4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A3:q",
+          "E3:q",
+          "C#3:q",
+          "A2:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "C#3:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "C#3:q",
+          "A2:q"
+        ],
+        [
+          "E3:h",
+          "E3:h"
+        ],
+        [
+          "A2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-013",
+      "slug": "bb-major-grand-staff",
+      "title": "Bb Major Grand Staff",
+      "summary": "First grand-staff piece in Bb major: RH melody with Bb/Eb, LH bass support.",
+      "goal": "Coordinate both hands in Bb major with Bb and Eb accurate in both voices.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 68,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "D5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:h",
+          "Eb5:h"
+        ],
+        [
+          "D5:q",
+          "C5:q",
+          "Bb4:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "F3:q",
+          "Eb3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-014",
+      "slug": "bb-major-waltz",
+      "title": "Bb Major Waltz",
+      "summary": "Six-measure waltz in Bb major, 3/4 time, with Bb and Eb inline throughout.",
+      "goal": "Maintain a graceful waltz character in 3/4 while navigating Bb and Eb in both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "D5:q"
+        ],
+        [
+          "Eb5:h",
+          "D5:q"
+        ],
+        [
+          "D5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "F5:h",
+          "Eb5:q"
+        ],
+        [
+          "Eb5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "F5:q",
+          "D5:q",
+          "Bb4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q"
+        ],
+        [
+          "Bb2:q",
+          "Eb3:q",
+          "Bb3:q"
+        ],
+        [
+          "F3:q",
+          "Bb2:q",
+          "D3:q"
+        ],
+        [
+          "C3:q",
+          "G3:q",
+          "Eb3:q"
+        ],
+        [
+          "F3:q",
+          "C4:q",
+          "A3:q"
+        ],
+        [
+          "Bb2:h",
+          "Bb2:q"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-015",
+      "slug": "eb-major-introduction",
+      "title": "Eb Major Introduction",
+      "summary": "First grand-staff piece in Eb major with Eb, Ab, and Bb inline.",
+      "goal": "Coordinate both hands in Eb major and accurately place all three flats.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Eb4:q",
+          "F4:q",
+          "G4:q",
+          "Ab4:q"
+        ],
+        [
+          "Bb4:h",
+          "Ab4:h"
+        ],
+        [
+          "G4:q",
+          "F4:q",
+          "Eb4:q",
+          "F4:q"
+        ],
+        [
+          "Eb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Eb3:q",
+          "F3:q",
+          "G3:q",
+          "Ab3:q"
+        ],
+        [
+          "Bb3:h",
+          "Ab3:h"
+        ],
+        [
+          "G3:q",
+          "F3:q",
+          "Eb3:q",
+          "F3:q"
+        ],
+        [
+          "Eb3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-016",
+      "slug": "eb-major-study",
+      "title": "Eb Major Study",
+      "summary": "Six-measure Eb major grand-staff piece expanding to Bb4 and above in the RH.",
+      "goal": "Navigate a fuller range of Eb major in both hands across six measures.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 70,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Eb4:q",
+          "F4:q",
+          "G4:q",
+          "Ab4:q"
+        ],
+        [
+          "Bb4:h",
+          "G4:h"
+        ],
+        [
+          "Ab4:q",
+          "G4:q",
+          "F4:q",
+          "Eb4:q"
+        ],
+        [
+          "F4:q",
+          "G4:q",
+          "Ab4:q",
+          "Bb4:q"
+        ],
+        [
+          "Eb5:h",
+          "Bb4:h"
+        ],
+        [
+          "Eb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Eb3:q",
+          "Bb3:q",
+          "G3:q",
+          "Eb3:q"
+        ],
+        [
+          "Ab3:h",
+          "Eb3:h"
+        ],
+        [
+          "Bb3:q",
+          "Eb3:q",
+          "G3:q",
+          "Bb3:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "G3:q"
+        ],
+        [
+          "Ab3:h",
+          "Bb3:h"
+        ],
+        [
+          "Eb3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-017",
+      "slug": "d-major-andante",
+      "title": "D Major Andante",
+      "summary": "Eight-measure andante in D major for both hands; RH sings over LH harmonic pillars.",
+      "goal": "Sustain a long melodic line in D major while LH provides clear harmonic support.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "D4:q",
+          "E4:q",
+          "F#4:q",
+          "G4:q"
+        ],
+        [
+          "A4:h",
+          "G4:h"
+        ],
+        [
+          "F#4:q",
+          "E4:q",
+          "D4:q",
+          "C#4:q"
+        ],
+        [
+          "D4:h",
+          "D4:h"
+        ],
+        [
+          "E4:q",
+          "F#4:q",
+          "G4:q",
+          "A4:q"
+        ],
+        [
+          "B4:h",
+          "A4:h"
+        ],
+        [
+          "G4:q",
+          "F#4:q",
+          "E4:q",
+          "D4:q"
+        ],
+        [
+          "D4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "F#3:q",
+          "A3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "E3:q"
+        ],
+        [
+          "D3:h",
+          "D3:h"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "G3:h",
+          "D3:h"
+        ],
+        [
+          "A3:q",
+          "F#3:q",
+          "E3:q",
+          "D3:q"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-018",
+      "slug": "a-major-pastoral",
+      "title": "A Major Pastoral",
+      "summary": "Eight-measure pastoral piece in A major for both hands with expressive phrases.",
+      "goal": "Play a lyrical A major piece maintaining three sharps accurately in both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 70,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "A4:q",
+          "B4:q",
+          "C#5:q",
+          "D5:q"
+        ],
+        [
+          "E5:h",
+          "D5:h"
+        ],
+        [
+          "C#5:q",
+          "B4:q",
+          "A4:q",
+          "G#4:q"
+        ],
+        [
+          "A4:h",
+          "A4:h"
+        ],
+        [
+          "F#5:q",
+          "E5:q",
+          "D5:q",
+          "C#5:q"
+        ],
+        [
+          "B4:h",
+          "A4:h"
+        ],
+        [
+          "G#4:q",
+          "A4:q",
+          "B4:q",
+          "C#5:q"
+        ],
+        [
+          "A4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A2:q",
+          "E3:q",
+          "C#3:q",
+          "A2:q"
+        ],
+        [
+          "E3:h",
+          "A2:h"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "C#3:q",
+          "A2:q"
+        ],
+        [
+          "A2:h",
+          "A2:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "E3:q",
+          "C#3:q",
+          "A2:q",
+          "E3:q"
+        ],
+        [
+          "A2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-019",
+      "slug": "bb-major-serenade",
+      "title": "Bb Major Serenade",
+      "summary": "Eight-measure serenade in Bb major for both hands with smooth melodic contour.",
+      "goal": "Perform a flowing Bb major piece with accurate Bb and Eb in both voices.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "D5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:h",
+          "Eb5:h"
+        ],
+        [
+          "D5:q",
+          "C5:q",
+          "Bb4:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:h",
+          "Bb4:h"
+        ],
+        [
+          "Eb5:q",
+          "D5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "F5:q",
+          "G5:q",
+          "F5:q",
+          "Eb5:q"
+        ],
+        [
+          "D5:q",
+          "Eb5:q",
+          "F5:q",
+          "D5:q"
+        ],
+        [
+          "Bb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "F3:q",
+          "C4:q",
+          "A3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:h",
+          "Bb2:h"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb2:q"
+        ],
+        [
+          "C3:q",
+          "G3:q",
+          "Eb3:q",
+          "C3:q"
+        ],
+        [
+          "F3:q",
+          "A3:q",
+          "C4:q",
+          "A3:q"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4a-020",
+      "slug": "level-4-keys-foundation-piece",
+      "title": "Level 4 Keys Foundation Piece",
+      "summary": "Eight-measure capstone in D major drawing on all L4A techniques and range.",
+      "goal": "Demonstrate fluency in D major with both hands through a complete musical statement.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:q",
+          "A4:q"
+        ],
+        [
+          "G4:h",
+          "F#4:h"
+        ],
+        [
+          "E4:q",
+          "F#4:q",
+          "G4:q",
+          "A4:q"
+        ],
+        [
+          "D5:h",
+          "D5:h"
+        ],
+        [
+          "F#5:q",
+          "E5:q",
+          "D5:q",
+          "C#5:q"
+        ],
+        [
+          "B4:h",
+          "A4:h"
+        ],
+        [
+          "G4:q",
+          "A4:q",
+          "B4:q",
+          "C#5:q"
+        ],
+        [
+          "D5:h",
+          "D5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:h",
+          "D3:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G2:q",
+          "D3:q",
+          "B3:q",
+          "G2:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "C#3:q",
+          "A2:q"
+        ],
+        [
+          "D3:h",
+          "D3:h"
+        ]
+      ]
+    }
+  ]
+}

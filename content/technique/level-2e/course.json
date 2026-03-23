@@ -1,0 +1,438 @@
+{
+  "courseId": "technique-level-2e",
+  "title": "Technique Level 2E — Mastery",
+  "level": 2,
+  "summary": "All Level 2 keys (C, D, G, Am) at speed with contrary motion, syncopation, and accidental drills — the L2 capstone.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "t2e-001",
+      "slug": "speed-c-rh",
+      "title": "Speed Scale C Major RH",
+      "summary": "C major scale at 100 BPM in eighth notes, right hand.",
+      "goal": "Play C major RH at speed with no hesitation.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["C5:e", "B4:e", "A4:e", "G4:e", "F4:e", "E4:e", "D4:e", "C4:e"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t2e-002",
+      "slug": "speed-g-rh",
+      "title": "Speed Scale G Major RH",
+      "summary": "G major scale at 100 BPM in eighth notes, right hand.",
+      "goal": "Play G major RH at speed with clean F#.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "A4:e", "B4:e", "C5:e", "D5:e", "E5:e", "F#5:e", "G5:e"],
+        ["G5:e", "F#5:e", "E5:e", "D5:e", "C5:e", "B4:e", "A4:e", "G4:e"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "t2e-003",
+      "slug": "speed-d-rh",
+      "title": "Speed Scale D Major RH",
+      "summary": "D major scale at 96 BPM in eighth notes, right hand.",
+      "goal": "Play D major RH at speed with F# and C#.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D5:e", "C#5:e", "B4:e", "A4:e", "G4:e", "F#4:e", "E4:e", "D4:e"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "t2e-004",
+      "slug": "speed-am-rh",
+      "title": "Speed Scale A Minor RH",
+      "summary": "A natural minor scale at 96 BPM in eighth notes.",
+      "goal": "Play A minor RH at speed — hear the minor quality.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:e", "B4:e", "C5:e", "D5:e", "E5:e", "F5:e", "G5:e", "A5:e"],
+        ["A5:e", "G5:e", "F5:e", "E5:e", "D5:e", "C5:e", "B4:e", "A4:e"],
+        ["A4:w"]
+      ]
+    },
+    {
+      "id": "t2e-005",
+      "slug": "speed-c-lh",
+      "title": "Speed Scale C Major LH",
+      "summary": "C major scale at 100 BPM, left hand.",
+      "goal": "Play C major LH at speed — match RH fluency.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:e", "D3:e", "E3:e", "F3:e", "G3:e", "A3:e", "B3:e", "C4:e"],
+        ["C4:e", "B3:e", "A3:e", "G3:e", "F3:e", "E3:e", "D3:e", "C3:e"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t2e-006",
+      "slug": "speed-g-lh",
+      "title": "Speed Scale G Major LH",
+      "summary": "G major scale at 100 BPM, left hand.",
+      "goal": "Play G major LH at speed with F#.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 1,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G2:e", "A2:e", "B2:e", "C3:e", "D3:e", "E3:e", "F#3:e", "G3:e"],
+        ["G3:e", "F#3:e", "E3:e", "D3:e", "C3:e", "B2:e", "A2:e", "G2:e"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "t2e-007",
+      "slug": "contrary-c-ht",
+      "title": "Contrary Motion C Major HT",
+      "summary": "C major scale in contrary motion — RH up, LH down.",
+      "goal": "Play contrary motion smoothly — hands moving independently.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["C5:e", "B4:e", "A4:e", "G4:e", "F4:e", "E4:e", "D4:e", "C4:e"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C4:e", "B3:e", "A3:e", "G3:e", "F3:e", "E3:e", "D3:e", "C3:e"],
+        ["C3:e", "D3:e", "E3:e", "F3:e", "G3:e", "A3:e", "B3:e", "C4:e"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t2e-008",
+      "slug": "contrary-g-ht",
+      "title": "Contrary Motion G Major HT",
+      "summary": "G major scale in contrary motion.",
+      "goal": "Play G major contrary motion with F# in both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "A4:e", "B4:e", "C5:e", "D5:e", "E5:e", "F#5:e", "G5:e"],
+        ["G5:e", "F#5:e", "E5:e", "D5:e", "C5:e", "B4:e", "A4:e", "G4:e"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G3:e", "F#3:e", "E3:e", "D3:e", "C3:e", "B2:e", "A2:e", "G2:e"],
+        ["G2:e", "A2:e", "B2:e", "C3:e", "D3:e", "E3:e", "F#3:e", "G3:e"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "t2e-009",
+      "slug": "five-finger-varied-c",
+      "title": "Five-Finger Fluency in C Major RH",
+      "summary": "Five-finger patterns with varied rhythms — quarters, eighths, halves mixed.",
+      "goal": "Play varied rhythmic patterns within the five-finger position.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:e", "E4:e", "F4:q", "G4:q"],
+        ["G4:e", "F4:e", "E4:q", "D4:e", "C4:e", "D4:q"],
+        ["C4:e", "E4:e", "G4:q", "F4:e", "D4:e", "C4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t2e-010",
+      "slug": "five-finger-varied-g",
+      "title": "Five-Finger Fluency in G Major RH",
+      "summary": "Varied rhythm patterns in G major five-finger position.",
+      "goal": "Navigate G major five-finger patterns with mixed rhythms.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:e", "B4:e", "C5:q", "D5:q"],
+        ["D5:e", "C5:e", "B4:q", "A4:e", "G4:e", "A4:q"],
+        ["G4:e", "B4:e", "D5:q", "C5:e", "A4:e", "G4:q"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "t2e-011",
+      "slug": "accidental-sharp-drill",
+      "title": "Sharp Accidental Drill RH",
+      "summary": "Exercises mixing F#, C#, and G# in context.",
+      "goal": "Play sharps accurately in context — no wrong black keys.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "F#4:q"],
+        ["G4:q", "A4:q", "B4:q", "C#5:q"],
+        ["D5:q", "C#5:q", "B4:q", "A4:q"],
+        ["G#4:q", "A4:q", "F#4:q", "G4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t2e-012",
+      "slug": "accidental-flat-drill",
+      "title": "Flat Accidental Drill RH",
+      "summary": "Exercises mixing Bb, Eb, and Ab in context.",
+      "goal": "Play flats accurately in context — correct black key placement.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "Eb4:q", "F4:q"],
+        ["G4:q", "Ab4:q", "Bb4:q", "C5:q"],
+        ["C5:q", "Bb4:q", "Ab4:q", "G4:q"],
+        ["F4:q", "Eb4:q", "D4:q", "C4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t2e-013",
+      "slug": "syncopation-c-rh",
+      "title": "Syncopation Pattern in C Major RH",
+      "summary": "Off-beat accents using tied notes in C major.",
+      "goal": "Feel the syncopated rhythm — accents land between beats.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["R:e", "C4:q", "D4:e", "R:e", "E4:q", "F4:e"],
+        ["R:e", "G4:q", "A4:e", "R:e", "B4:q", "C5:e"],
+        ["R:e", "C5:q", "B4:e", "R:e", "A4:q", "G4:e"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t2e-014",
+      "slug": "syncopation-g-rh",
+      "title": "Syncopation Pattern in G Major RH",
+      "summary": "Syncopated rhythm patterns in G major.",
+      "goal": "Maintain syncopation feel through G major with F#.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["R:e", "G4:q", "A4:e", "R:e", "B4:q", "C5:e"],
+        ["R:e", "D5:q", "E5:e", "R:e", "F#5:q", "G5:e"],
+        ["R:e", "G5:q", "F#5:e", "R:e", "E5:q", "D5:e"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "t2e-015",
+      "slug": "speed-c-ht",
+      "title": "Speed Scale C Major HT",
+      "summary": "Both hands C major scale at 96 BPM in parallel.",
+      "goal": "Synchronize both hands at speed in C major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["C5:e", "B4:e", "A4:e", "G4:e", "F4:e", "E4:e", "D4:e", "C4:e"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "D3:e", "E3:e", "F3:e", "G3:e", "A3:e", "B3:e", "C4:e"],
+        ["C4:e", "B3:e", "A3:e", "G3:e", "F3:e", "E3:e", "D3:e", "C3:e"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t2e-016",
+      "slug": "speed-g-ht",
+      "title": "Speed Scale G Major HT",
+      "summary": "Both hands G major scale at 96 BPM in parallel.",
+      "goal": "Synchronize both hands at speed in G major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "A4:e", "B4:e", "C5:e", "D5:e", "E5:e", "F#5:e", "G5:e"],
+        ["G5:e", "F#5:e", "E5:e", "D5:e", "C5:e", "B4:e", "A4:e", "G4:e"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G3:e", "A3:e", "B3:e", "C4:e", "D4:e", "E4:e", "F#4:e", "G4:e"],
+        ["G4:e", "F#4:e", "E4:e", "D4:e", "C4:e", "B3:e", "A3:e", "G3:e"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "t2e-017",
+      "slug": "speed-d-ht",
+      "title": "Speed Scale D Major HT",
+      "summary": "Both hands D major scale at 92 BPM in parallel.",
+      "goal": "Synchronize both hands at speed in D major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "B4:e", "C#5:e", "D5:e"],
+        ["D5:e", "C#5:e", "B4:e", "A4:e", "G4:e", "F#4:e", "E4:e", "D4:e"],
+        ["D4:w"]
+      ],
+      "measuresLeft": [
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:e", "B3:e", "C#4:e", "D4:e"],
+        ["D4:e", "C#4:e", "B3:e", "A3:e", "G3:e", "F#3:e", "E3:e", "D3:e"],
+        ["D3:w"]
+      ]
+    },
+    {
+      "id": "t2e-018",
+      "slug": "syncopation-ht-c",
+      "title": "Syncopation HT in C Major",
+      "summary": "Syncopated melody over steady bass in C major.",
+      "goal": "Maintain syncopation in RH while LH keeps steady time.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["R:e", "E4:q", "G4:e", "R:e", "C5:q", "G4:e"],
+        ["R:e", "A4:q", "F4:e", "R:e", "G4:q", "E4:e"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["F3:q", "C4:q", "G3:q", "C3:q"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t2e-019",
+      "slug": "sight-reading-mixed",
+      "title": "Sight-Reading Challenge Mixed Keys",
+      "summary": "Short phrases switching between C, G, and D positions.",
+      "goal": "Read and play key changes on the fly — real sight-reading practice.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:q", "E4:q"],
+        ["G4:e", "A4:e", "B4:e", "C5:e", "D5:q", "B4:q"],
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:q", "F#4:q"],
+        ["C5:q", "B4:q", "A4:q", "G4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t2e-020",
+      "slug": "l2-final-mastery",
+      "title": "L2 Final Mastery Test HT",
+      "summary": "All L2 keys, contrary motion, syncopation — the L2 mastery capstone.",
+      "goal": "Pass the L2 mastery test — fluency in all L2 keys and techniques.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["G4:e", "A4:e", "B4:e", "C5:e", "D5:e", "C5:e", "B4:e", "A4:e"],
+        ["D4:e", "E4:e", "F#4:e", "G4:e", "A4:e", "G4:e", "F#4:e", "E4:e"],
+        ["R:e", "C4:q", "E4:e", "R:e", "G4:q", "C5:e"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:e", "D3:e", "E3:e", "F3:e", "G3:e", "A3:e", "B3:e", "C4:e"],
+        ["G2:e", "A2:e", "B2:e", "C3:e", "D3:e", "C3:e", "B2:e", "A2:e"],
+        ["D3:e", "E3:e", "F#3:e", "G3:e", "A3:e", "G3:e", "F#3:e", "E3:e"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["C3:w"]
+      ]
+    }
+  ]
+}

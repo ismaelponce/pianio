@@ -1,0 +1,1721 @@
+{
+  "courseId": "method-level-6c",
+  "title": "Method Level 6C — Combination",
+  "level": 6,
+  "summary": "Combination: B harmonic minor (2 sharps) and F# harmonic minor (3 sharps) introduced; Romantic style characteristics applied across all L6 minor keys; synthesis pieces mixing Baroque, Classical, and Romantic idioms — all exercises in grand staff.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "m6c-001",
+      "slug": "m6c-001",
+      "title": "B Harmonic Minor Scale — Grand Staff",
+      "summary": "B harmonic minor scale ascending and descending in both hands, featuring the raised leading tone A sharp.",
+      "goal": "Navigate B harmonic minor in grand staff, placing A sharp accurately as the raised 7th against the two-sharp key signature.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "B4:q",
+          "C#5:q",
+          "D5:q",
+          "E5:q"
+        ],
+        [
+          "F#5:q",
+          "G5:q",
+          "A#5:q",
+          "B5:q"
+        ],
+        [
+          "B5:q",
+          "A#5:q",
+          "G5:q",
+          "F#5:q"
+        ],
+        [
+          "E5:q",
+          "D5:q",
+          "C#5:q",
+          "B4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B3:q",
+          "C#4:q",
+          "D4:q",
+          "E4:q"
+        ],
+        [
+          "F#4:q",
+          "G4:q",
+          "A#4:q",
+          "B4:q"
+        ],
+        [
+          "B4:q",
+          "A#4:q",
+          "G4:q",
+          "F#4:q"
+        ],
+        [
+          "E4:q",
+          "D4:q",
+          "C#4:q",
+          "B3:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-002",
+      "slug": "m6c-002",
+      "title": "B Harmonic Minor — Five-Finger Pattern",
+      "summary": "Five-note B harmonic minor ascending and descending in both hands.",
+      "goal": "Build B harmonic minor five-finger fluency in grand staff before the full scale.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "B4:q",
+          "C#5:q",
+          "D5:q",
+          "E5:q"
+        ],
+        [
+          "F#5:h",
+          "E5:h"
+        ],
+        [
+          "E5:q",
+          "D5:q",
+          "C#5:q",
+          "B4:q"
+        ],
+        [
+          "B4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B3:q",
+          "C#4:q",
+          "D4:q",
+          "E4:q"
+        ],
+        [
+          "F#4:h",
+          "E4:h"
+        ],
+        [
+          "E4:q",
+          "D4:q",
+          "C#4:q",
+          "B3:q"
+        ],
+        [
+          "B3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-003",
+      "slug": "m6c-003",
+      "title": "B Harmonic Minor — Melody",
+      "summary": "Expressive melody in B harmonic minor with A sharp resolving up to B.",
+      "goal": "Shape a cantabile line in B harmonic minor, using A sharp to create dramatic leading-tone tension.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "B4:q",
+          "D5:q",
+          "F#5:q",
+          "D5:q"
+        ],
+        [
+          "B5:h",
+          "A#5:q",
+          "G5:q"
+        ],
+        [
+          "F#5:q",
+          "E5:q",
+          "D5:q",
+          "C#5:q"
+        ],
+        [
+          "B4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B3:h",
+          "F#4:h"
+        ],
+        [
+          "B3:h",
+          "G4:h"
+        ],
+        [
+          "F#4:h",
+          "D4:h"
+        ],
+        [
+          "B3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-004",
+      "slug": "m6c-004",
+      "title": "B Harmonic Minor — Étude in Eighths",
+      "summary": "Eighth-note étude through B harmonic minor including A sharp as the raised leading tone.",
+      "goal": "Maintain even eighth-note motion in B harmonic minor, placing A sharp accurately before the bar-line resolution.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A#5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "D5:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e"
+        ],
+        [
+          "B4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B3:h",
+          "F#4:h"
+        ],
+        [
+          "B3:h",
+          "G4:h"
+        ],
+        [
+          "F#4:h",
+          "D4:h"
+        ],
+        [
+          "B3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-005",
+      "slug": "m6c-005",
+      "title": "B Minor — Baroque Sequence",
+      "summary": "Descending Baroque sequence in B harmonic minor with A sharp as the characteristic leading tone.",
+      "goal": "Execute a Baroque descending sequence in B harmonic minor with clean articulation and rhythmic precision.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "F#5:e",
+          "G5:e",
+          "A#5:e",
+          "B5:e",
+          "A#5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "D5:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e"
+        ],
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:q",
+          "C#5:q"
+        ],
+        [
+          "B4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B3:h",
+          "F#4:h"
+        ],
+        [
+          "B3:h",
+          "G3:h"
+        ],
+        [
+          "F#3:h",
+          "B3:h"
+        ],
+        [
+          "B3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-006",
+      "slug": "m6c-006",
+      "title": "F Sharp Harmonic Minor Scale — Grand Staff",
+      "summary": "F sharp harmonic minor scale ascending and descending in both hands, featuring the raised leading tone E sharp.",
+      "goal": "Navigate F sharp harmonic minor in grand staff, placing E sharp accurately as the raised 7th against the three-sharp key signature.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "F#4:q",
+          "G#4:q",
+          "A4:q",
+          "B4:q"
+        ],
+        [
+          "C#5:q",
+          "D5:q",
+          "E#5:q",
+          "F#5:q"
+        ],
+        [
+          "F#5:q",
+          "E#5:q",
+          "D5:q",
+          "C#5:q"
+        ],
+        [
+          "B4:q",
+          "A4:q",
+          "G#4:q",
+          "F#4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F#3:q",
+          "G#3:q",
+          "A3:q",
+          "B3:q"
+        ],
+        [
+          "C#4:q",
+          "D4:q",
+          "E#4:q",
+          "F#4:q"
+        ],
+        [
+          "F#4:q",
+          "E#4:q",
+          "D4:q",
+          "C#4:q"
+        ],
+        [
+          "B3:q",
+          "A3:q",
+          "G#3:q",
+          "F#3:q"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-007",
+      "slug": "m6c-007",
+      "title": "F Sharp Harmonic Minor — Five-Finger Pattern",
+      "summary": "Five-note F sharp harmonic minor pattern ascending and descending in both hands.",
+      "goal": "Build F sharp harmonic minor five-finger fluency in grand staff before tackling the full scale.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "F#4:q",
+          "G#4:q",
+          "A4:q",
+          "B4:q"
+        ],
+        [
+          "C#5:h",
+          "B4:h"
+        ],
+        [
+          "B4:q",
+          "A4:q",
+          "G#4:q",
+          "F#4:q"
+        ],
+        [
+          "F#4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F#3:q",
+          "G#3:q",
+          "A3:q",
+          "B3:q"
+        ],
+        [
+          "C#4:h",
+          "B3:h"
+        ],
+        [
+          "B3:q",
+          "A3:q",
+          "G#3:q",
+          "F#3:q"
+        ],
+        [
+          "F#3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-008",
+      "slug": "m6c-008",
+      "title": "F Sharp Harmonic Minor — Melody",
+      "summary": "Expressive melody in F sharp harmonic minor with E sharp resolving up to F sharp.",
+      "goal": "Shape a cantabile line in F sharp harmonic minor, using E sharp to create dramatic leading-tone tension.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "F#4:q",
+          "A4:q",
+          "C#5:q",
+          "A4:q"
+        ],
+        [
+          "F#5:h",
+          "E#5:q",
+          "D5:q"
+        ],
+        [
+          "C#5:q",
+          "B4:q",
+          "A4:q",
+          "G#4:q"
+        ],
+        [
+          "F#4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F#3:h",
+          "C#4:h"
+        ],
+        [
+          "F#3:h",
+          "D4:h"
+        ],
+        [
+          "C#4:h",
+          "A3:h"
+        ],
+        [
+          "F#3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-009",
+      "slug": "m6c-009",
+      "title": "F Sharp Harmonic Minor — Étude in Eighths",
+      "summary": "Eighth-note étude through F sharp harmonic minor including E sharp as the raised leading tone.",
+      "goal": "Maintain even eighth-note motion in F sharp harmonic minor, placing E sharp accurately.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "F#4:e",
+          "G#4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "B4:e",
+          "A4:e",
+          "G#4:e"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E#5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "A4:e",
+          "G#4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e"
+        ],
+        [
+          "F#4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F#3:h",
+          "C#4:h"
+        ],
+        [
+          "F#3:h",
+          "D4:h"
+        ],
+        [
+          "A3:h",
+          "C#4:h"
+        ],
+        [
+          "F#3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-010",
+      "slug": "m6c-010",
+      "title": "F Sharp Minor — Baroque Sequence",
+      "summary": "Descending Baroque sequence in F sharp harmonic minor with E sharp as the leading tone.",
+      "goal": "Execute a Baroque descending sequence in F sharp harmonic minor with clean articulation.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "C#5:e",
+          "D5:e",
+          "E#5:e",
+          "F#5:e",
+          "E#5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "A4:e",
+          "G#4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e"
+        ],
+        [
+          "A4:q",
+          "G#4:q",
+          "F#4:q",
+          "G#4:q"
+        ],
+        [
+          "F#4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F#3:h",
+          "C#4:h"
+        ],
+        [
+          "F#3:h",
+          "A3:h"
+        ],
+        [
+          "C#4:h",
+          "F#3:h"
+        ],
+        [
+          "F#3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-011",
+      "slug": "m6c-011",
+      "title": "F Minor — Romantic Nocturne Theme",
+      "summary": "Slow Romantic nocturne-style theme in F harmonic minor with lyrical phrasing.",
+      "goal": "Play a Romantic nocturne theme in F harmonic minor — slow, singing tone, attending to phrase shape and E natural resolution.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 60,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 4,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "F4:q",
+          "Ab4:q",
+          "C5:q",
+          "Ab4:q"
+        ],
+        [
+          "F5:h",
+          "E5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "Ab4:q",
+          "G4:q"
+        ],
+        [
+          "Ab4:q",
+          "G4:q",
+          "F4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "F3:h",
+          "Db4:h"
+        ],
+        [
+          "Eb4:h",
+          "G3:h"
+        ],
+        [
+          "F3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-012",
+      "slug": "m6c-012",
+      "title": "C Minor — Romantic Theme",
+      "summary": "Six-measure Romantic theme in C harmonic minor with expressive use of B natural.",
+      "goal": "Shape a Romantic-era melodic arc in C harmonic minor, building tension with B natural and resolving dramatically.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 63,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "Eb4:q",
+          "G4:q",
+          "Eb4:q"
+        ],
+        [
+          "C5:h",
+          "B4:h"
+        ],
+        [
+          "Ab4:q",
+          "G4:q",
+          "Ab4:q",
+          "B4:q"
+        ],
+        [
+          "C5:h",
+          "R:h"
+        ],
+        [
+          "G4:e",
+          "Ab4:e",
+          "B4:e",
+          "C5:e",
+          "B4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e"
+        ],
+        [
+          "Eb4:q",
+          "D4:q",
+          "C4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "C3:h",
+          "G3:h"
+        ],
+        [
+          "Eb3:h",
+          "G3:h"
+        ],
+        [
+          "Ab3:h",
+          "Eb3:h"
+        ],
+        [
+          "G3:h",
+          "C3:h"
+        ],
+        [
+          "Ab3:h",
+          "G3:h"
+        ],
+        [
+          "C3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-013",
+      "slug": "m6c-013",
+      "title": "Bb Minor — Romantic Elegy",
+      "summary": "Six-measure slow elegy in Bb harmonic minor with A natural giving the melody a poignant quality.",
+      "goal": "Play a Romantic elegy in Bb harmonic minor — sing the melody, let A natural resolve tenderly to Bb.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -5,
+      "tempoBpm": 60,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "Db5:q",
+          "F5:q",
+          "Db5:q"
+        ],
+        [
+          "Bb5:h",
+          "A5:h"
+        ],
+        [
+          "Gb5:q",
+          "F5:q",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:q",
+          "Db5:q",
+          "Eb5:q",
+          "F5:q"
+        ],
+        [
+          "Gb5:q",
+          "A5:q",
+          "Bb5:h"
+        ],
+        [
+          "Bb4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb3:h",
+          "F4:h"
+        ],
+        [
+          "Bb3:h",
+          "Gb3:h"
+        ],
+        [
+          "Gb3:h",
+          "F3:h"
+        ],
+        [
+          "Eb3:h",
+          "F3:h"
+        ],
+        [
+          "F3:h",
+          "Eb3:h"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-014",
+      "slug": "m6c-014",
+      "title": "B Minor — Classical Balanced Phrase",
+      "summary": "Classical antecedent–consequent phrase in B harmonic minor with a clear cadential resolution.",
+      "goal": "Play a balanced Classical period in B harmonic minor, shaping the question–answer phrase structure.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "B4:q",
+          "D5:q",
+          "F#5:q",
+          "D5:q"
+        ],
+        [
+          "E5:q",
+          "F#5:q",
+          "G5:h"
+        ],
+        [
+          "F#5:q",
+          "E5:q",
+          "D5:q",
+          "E5:q"
+        ],
+        [
+          "C#5:q",
+          "B4:q",
+          "A#4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B3:h",
+          "F#4:h"
+        ],
+        [
+          "G3:h",
+          "F#3:h"
+        ],
+        [
+          "B3:h",
+          "E4:h"
+        ],
+        [
+          "F#3:h",
+          "B2:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-015",
+      "slug": "m6c-015",
+      "title": "F Sharp Minor — Classical Balanced Phrase",
+      "summary": "Classical antecedent–consequent phrase in F sharp harmonic minor with E sharp leading to F sharp.",
+      "goal": "Play a balanced Classical period in F sharp harmonic minor, shaping the antecedent tension and consequent resolution.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "F#4:q",
+          "A4:q",
+          "C#5:q",
+          "A4:q"
+        ],
+        [
+          "B4:q",
+          "C#5:q",
+          "D5:h"
+        ],
+        [
+          "C#5:q",
+          "D5:q",
+          "E#5:q",
+          "F#5:q"
+        ],
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F#3:h",
+          "C#4:h"
+        ],
+        [
+          "F#3:h",
+          "D4:h"
+        ],
+        [
+          "A3:h",
+          "C#4:h"
+        ],
+        [
+          "C#4:h",
+          "F#3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-016",
+      "slug": "m6c-016",
+      "title": "A Minor — Romantic Style",
+      "summary": "Six-measure Romantic piece in A harmonic minor revisiting familiar minor vocabulary in an expressive new context.",
+      "goal": "Apply Romantic-era expressive qualities to A harmonic minor — sing the melody, shape the phrase, feel the G sharp resolution.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 63,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "A4:q",
+          "C5:q",
+          "E5:q",
+          "C5:q"
+        ],
+        [
+          "A5:h",
+          "G#5:q",
+          "E5:q"
+        ],
+        [
+          "F5:q",
+          "E5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "B4:q",
+          "C5:q",
+          "E5:h"
+        ],
+        [
+          "G#5:q",
+          "A5:h",
+          "R:q"
+        ],
+        [
+          "A4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A3:h",
+          "E4:h"
+        ],
+        [
+          "A3:h",
+          "C4:h"
+        ],
+        [
+          "F3:h",
+          "C4:h"
+        ],
+        [
+          "E3:h",
+          "G#3:h"
+        ],
+        [
+          "A3:h",
+          "E3:h"
+        ],
+        [
+          "A2:h",
+          "R:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-017",
+      "slug": "m6c-017",
+      "title": "D Minor — Romantic Style",
+      "summary": "Six-measure Romantic piece in D harmonic minor with C sharp as the expressive leading tone.",
+      "goal": "Play D harmonic minor in a Romantic expressive style — project the melody, let C sharp create poignant tension before D.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 63,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 6,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "D4:q",
+          "F4:q",
+          "A4:q",
+          "F4:q"
+        ],
+        [
+          "D5:h",
+          "C#5:q",
+          "A4:q"
+        ],
+        [
+          "Bb4:q",
+          "A4:q",
+          "G4:q",
+          "F4:q"
+        ],
+        [
+          "E4:q",
+          "F4:q",
+          "A4:h"
+        ],
+        [
+          "C#5:q",
+          "D5:h",
+          "R:q"
+        ],
+        [
+          "D4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:h",
+          "A3:h"
+        ],
+        [
+          "D3:h",
+          "F3:h"
+        ],
+        [
+          "Bb2:h",
+          "A2:h"
+        ],
+        [
+          "A2:h",
+          "D3:h"
+        ],
+        [
+          "A2:h",
+          "G2:h"
+        ],
+        [
+          "D3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-018",
+      "slug": "m6c-018",
+      "title": "B Minor — Expanded Étude",
+      "summary": "Six-measure étude in B harmonic minor with continuous eighth-note motion and a lyrical closing phrase.",
+      "goal": "Sustain fluent eighth-note passage work in B harmonic minor across six measures before settling to a quiet cadence.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A#5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "D5:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e"
+        ],
+        [
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e"
+        ],
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:q",
+          "C#5:q"
+        ],
+        [
+          "B4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B3:h",
+          "F#4:h"
+        ],
+        [
+          "B3:h",
+          "G4:h"
+        ],
+        [
+          "B3:h",
+          "F#4:h"
+        ],
+        [
+          "G3:h",
+          "F#4:h"
+        ],
+        [
+          "F#3:h",
+          "B3:h"
+        ],
+        [
+          "B3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-019",
+      "slug": "m6c-019",
+      "title": "F Sharp Minor — Expanded Piece",
+      "summary": "Six-measure lyrical piece in F sharp harmonic minor exploring the full expressive range of the key.",
+      "goal": "Shape a musical arc in F sharp harmonic minor, building to E sharp and resolving to F sharp with conviction.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "F#4:q",
+          "G#4:q",
+          "A4:q",
+          "B4:q"
+        ],
+        [
+          "C#5:h",
+          "B4:h"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E#5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e"
+        ],
+        [
+          "A4:q",
+          "B4:q",
+          "C#5:q",
+          "D5:q"
+        ],
+        [
+          "E#5:q",
+          "F#5:q",
+          "E#5:q",
+          "D5:q"
+        ],
+        [
+          "C#5:q",
+          "B4:q",
+          "F#4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "F#3:h",
+          "C#4:h"
+        ],
+        [
+          "A3:h",
+          "D4:h"
+        ],
+        [
+          "F#3:h",
+          "C#4:h"
+        ],
+        [
+          "D4:h",
+          "A3:h"
+        ],
+        [
+          "C#4:h",
+          "F#3:h"
+        ],
+        [
+          "C#4:h",
+          "F#3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m6c-020",
+      "slug": "m6c-020",
+      "title": "Nocturne in B Minor — L6C Synthesis",
+      "summary": "Eight-measure Romantic nocturne theme in B harmonic minor combining all L6C vocabulary in a complete musical statement.",
+      "goal": "Bring together B harmonic minor, Baroque and Romantic idioms in an eight-measure nocturne — project the melody and shape the long phrase arc.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 60,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": "Original exercise"
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "B4:q",
+          "D5:q",
+          "F#5:q",
+          "D5:q"
+        ],
+        [
+          "B5:h",
+          "A#5:q",
+          "G5:q"
+        ],
+        [
+          "F#5:q",
+          "E5:q",
+          "D5:q",
+          "C#5:q"
+        ],
+        [
+          "D5:h",
+          "C#5:h"
+        ],
+        [
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A#5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e"
+        ],
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:q",
+          "A#4:q"
+        ],
+        [
+          "B4:h",
+          "R:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "B3:h",
+          "F#4:h"
+        ],
+        [
+          "B3:h",
+          "G4:h"
+        ],
+        [
+          "F#4:h",
+          "D4:h"
+        ],
+        [
+          "G3:h",
+          "F#3:h"
+        ],
+        [
+          "B3:h",
+          "F#4:h"
+        ],
+        [
+          "B3:h",
+          "G4:h"
+        ],
+        [
+          "F#3:h",
+          "E3:h"
+        ],
+        [
+          "B2:w"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "courseId": "technique-level-5",
+  "title": "Technique Level 5",
+  "level": 5,
+  "summary": "Full chromatic scales, Ab major (4 flats), extended arpeggios across C/G/F, speed études, and a combined étude drawing on all Level 5 skills.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "tech5-001",
+      "slug": "chromatic-scale-rh-asc",
+      "title": "Chromatic Scale RH Ascending",
+      "summary": "Right hand chromatic scale from C4 to C5 in eighth notes.",
+      "goal": "Play all twelve semitones evenly with no hesitation on the black keys.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:e",
+          "C#4:e",
+          "D4:e",
+          "D#4:e",
+          "E4:e",
+          "F4:e",
+          "F#4:e",
+          "G4:e"
+        ],
+        [
+          "G#4:e",
+          "A4:e",
+          "A#4:e",
+          "B4:e",
+          "C5:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech5-002",
+      "slug": "chromatic-scale-lh-asc",
+      "title": "Chromatic Scale LH Ascending",
+      "summary": "Left hand chromatic scale from C3 to C4 in eighth notes.",
+      "goal": "Play all twelve semitones evenly in the left hand in bass clef.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C3:e",
+          "C#3:e",
+          "D3:e",
+          "D#3:e",
+          "E3:e",
+          "F3:e",
+          "F#3:e",
+          "G3:e"
+        ],
+        [
+          "G#3:e",
+          "A3:e",
+          "A#3:e",
+          "B3:e",
+          "C4:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech5-003",
+      "slug": "chromatic-scale-rh-round-trip",
+      "title": "Chromatic Scale RH Round Trip",
+      "summary": "Right hand chromatic scale descending from C5 to C4 then ascending back.",
+      "goal": "Reverse direction smoothly at the octave without pausing.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C5:e",
+          "B4:e",
+          "A#4:e",
+          "A4:e",
+          "G#4:e",
+          "G4:e",
+          "F#4:e",
+          "F4:e"
+        ],
+        [
+          "E4:e",
+          "D#4:e",
+          "D4:e",
+          "C#4:e",
+          "C4:h"
+        ],
+        [
+          "C4:e",
+          "C#4:e",
+          "D4:e",
+          "D#4:e",
+          "E4:e",
+          "F4:e",
+          "F#4:e",
+          "G4:e"
+        ],
+        [
+          "G#4:e",
+          "A4:e",
+          "A#4:e",
+          "B4:e",
+          "C5:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech5-004",
+      "slug": "ab-five-finger-rh",
+      "title": "Ab Major Five-Finger RH",
+      "summary": "Right hand Ab major five-finger pattern with all four flats.",
+      "goal": "Navigate Ab Bb C Db Eb with clean fingering on four black-key flats.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -4,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Db5:q"
+        ],
+        [
+          "Eb5:q",
+          "Db5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "Ab4:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech5-005",
+      "slug": "ab-five-finger-lh",
+      "title": "Ab Major Five-Finger LH",
+      "summary": "Left hand Ab major five-finger pattern in bass clef.",
+      "goal": "Play Ab major with four flats comfortably in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 63,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -4,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "Ab3:q",
+          "Bb3:q",
+          "C4:q",
+          "Db4:q"
+        ],
+        [
+          "Eb4:q",
+          "Db4:q",
+          "C4:q",
+          "Bb3:q"
+        ],
+        [
+          "Ab3:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech5-006",
+      "slug": "ab-scale-rh",
+      "title": "Ab Major Scale RH Full Octave",
+      "summary": "Right hand Ab major scale over a full octave with four flats.",
+      "goal": "Play the complete Ab major scale with all four flats clean and even.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -4,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Db5:q"
+        ],
+        [
+          "Eb5:q",
+          "F5:q",
+          "G5:q",
+          "Ab5:q"
+        ],
+        [
+          "Ab5:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech5-007",
+      "slug": "c-major-arpeggio-rh",
+      "title": "C Major Arpeggio RH",
+      "summary": "Right hand C major broken triad ascending across two octaves and back.",
+      "goal": "Play a smooth two-octave C major arpeggio with even eighth notes.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:e",
+          "E4:e",
+          "G4:e",
+          "C5:e",
+          "E5:e",
+          "G5:e",
+          "E5:e",
+          "C5:e"
+        ],
+        [
+          "G4:e",
+          "E4:e",
+          "C4:q",
+          "E4:q",
+          "G4:q"
+        ]
+      ]
+    },
+    {
+      "id": "tech5-008",
+      "slug": "g-major-arpeggio-rh",
+      "title": "G Major Arpeggio RH",
+      "summary": "Right hand G major broken triad ascending across two octaves and back.",
+      "goal": "Play a two-octave G major arpeggio cleanly with accurate F-sharp.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "G4:e",
+          "B4:e",
+          "D5:e",
+          "G5:e",
+          "D5:e",
+          "B4:e",
+          "G4:e",
+          "D4:e"
+        ],
+        [
+          "B3:e",
+          "G3:e",
+          "B3:q",
+          "D4:q",
+          "G4:q"
+        ]
+      ]
+    },
+    {
+      "id": "tech5-009",
+      "slug": "f-major-arpeggio-rh",
+      "title": "F Major Arpeggio RH",
+      "summary": "Right hand F major broken triad ascending across two octaves and back.",
+      "goal": "Execute a two-octave F major arpeggio with a clean Bb in the upper register.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -1,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "F4:e",
+          "A4:e",
+          "C5:e",
+          "F5:e",
+          "C5:e",
+          "A4:e",
+          "F4:e",
+          "C4:e"
+        ],
+        [
+          "A3:e",
+          "F3:e",
+          "A3:q",
+          "C4:q",
+          "F4:q"
+        ]
+      ]
+    },
+    {
+      "id": "tech5-010",
+      "slug": "speed-etude-1-seconds",
+      "title": "Speed Étude 1 — Ascending Seconds",
+      "summary": "Hanon-style repeated-second pattern ascending through C major and back.",
+      "goal": "Build finger independence and evenness through quick repeated-note pairs.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:e",
+          "D4:e",
+          "D4:e",
+          "E4:e",
+          "E4:e",
+          "F4:e",
+          "F4:e",
+          "G4:e"
+        ],
+        [
+          "G4:e",
+          "A4:e",
+          "A4:e",
+          "B4:e",
+          "B4:e",
+          "C5:e",
+          "C5:e",
+          "D5:e"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "E5:e",
+          "F5:e",
+          "F5:e",
+          "G5:e",
+          "G5:e",
+          "F5:e"
+        ],
+        [
+          "E5:q",
+          "D5:q",
+          "C5:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech5-011",
+      "slug": "speed-etude-2-g-major",
+      "title": "Speed Étude 2 — G Major Runs",
+      "summary": "Rapid ascending and descending G major scale passages in eighth notes.",
+      "goal": "Reach tempo on G major runs keeping F-sharp crisp throughout.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 92,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e"
+        ],
+        [
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C5:e",
+          "B4:e",
+          "A4:e",
+          "G4:e"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C5:e",
+          "D5:e",
+          "E5:e",
+          "D5:e",
+          "C5:e",
+          "B4:e"
+        ],
+        [
+          "A4:h",
+          "G4:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech5-012",
+      "slug": "broken-triad-sequence-cfg",
+      "title": "Broken Triad Sequence C–F–G",
+      "summary": "Continuous broken triads through C, F, and G major shapes in C major.",
+      "goal": "Shift hand position smoothly between three chord shapes without pausing.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:e",
+          "E4:e",
+          "G4:e",
+          "C5:e",
+          "F4:e",
+          "A4:e",
+          "C5:e",
+          "F5:e"
+        ],
+        [
+          "G4:e",
+          "B4:e",
+          "D5:e",
+          "G5:e",
+          "F4:e",
+          "A4:e",
+          "C5:e",
+          "F4:e"
+        ],
+        [
+          "E4:e",
+          "G4:e",
+          "C5:e",
+          "E5:e",
+          "D5:e",
+          "C5:e",
+          "B4:e",
+          "G4:e"
+        ],
+        [
+          "C4:h",
+          "C5:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech5-013",
+      "slug": "chromatic-rhythm-variation",
+      "title": "Chromatic Rhythm Variation",
+      "summary": "Chromatic passages with mixed quarter and eighth-note values.",
+      "goal": "Execute chromatic runs that start from long notes without losing the beat.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:q",
+          "C#4:e",
+          "D4:e",
+          "D#4:q",
+          "E4:q"
+        ],
+        [
+          "F4:q",
+          "F#4:e",
+          "G4:e",
+          "G#4:q",
+          "A4:q"
+        ],
+        [
+          "A#4:e",
+          "B4:e",
+          "C5:h",
+          "G4:q"
+        ],
+        [
+          "F4:h",
+          "C4:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech5-014",
+      "slug": "ab-melody-rh",
+      "title": "Ab Major Melody RH",
+      "summary": "A flowing four-phrase melody in Ab major using tonic, third, fifth, and sixth.",
+      "goal": "Play a musical phrase in Ab major with smooth voice leading through the flats.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -4,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "Ab4:q",
+          "C5:q",
+          "Eb5:q",
+          "C5:q"
+        ],
+        [
+          "Db5:q",
+          "Bb4:q",
+          "Ab4:q",
+          "Bb4:q"
+        ],
+        [
+          "C5:q",
+          "Eb5:q",
+          "Db5:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:h",
+          "Ab4:h"
+        ]
+      ]
+    },
+    {
+      "id": "tech5-015",
+      "slug": "combined-etude",
+      "title": "Combined Étude",
+      "summary": "A four-measure étude mixing a chromatic fragment, a G arpeggio, and a scale run.",
+      "goal": "Shift fluidly between chromatic, arpeggio, and scalar technique in one piece.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 84,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 0,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:e",
+          "C#4:e",
+          "D4:e",
+          "D#4:e",
+          "E4:e",
+          "F4:e",
+          "F#4:e",
+          "G4:e"
+        ],
+        [
+          "G4:e",
+          "B4:e",
+          "D5:e",
+          "G5:e",
+          "D5:e",
+          "B4:e",
+          "G4:e",
+          "E4:e"
+        ],
+        [
+          "F4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C5:e",
+          "D5:e",
+          "E5:e",
+          "F5:e"
+        ],
+        [
+          "E5:h",
+          "C5:h"
+        ]
+      ]
+    }
+  ]
+}

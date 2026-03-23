@@ -1,0 +1,479 @@
+{
+  "courseId": "technique-level-1c",
+  "title": "Technique Level 1C — Combination",
+  "level": 1,
+  "summary": "Combines all Level 1A and 1B material — whole/half/quarter/eighth notes, Hanon patterns, third-skips, and rests — and introduces hands-together coordination in C major. Ten single-hand review exercises plus ten grand-staff both-hands exercises including parallel motion, contrary motion, and a complete étude.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "t1c-001",
+      "slug": "t1c-001",
+      "title": "Full Rhythm Review — C Position (RH)",
+      "summary": "Right hand combines whole, half, quarter, and eighth notes in a single six-measure phrase through C4–G4.",
+      "goal": "Fluently switch between all four note values in the right hand within one exercise.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:e","D4:e","E4:q","F4:q","G4:q"],
+        ["G4:h","F4:e","E4:e","D4:q"],
+        ["C4:q","E4:q","G4:q","E4:q"],
+        ["D4:e","E4:e","F4:h","E4:q"],
+        ["G4:e","F4:e","E4:e","D4:e","C4:e","D4:e","E4:e","F4:e"],
+        ["G4:h","C4:h"]
+      ]
+    },
+    {
+      "id": "t1c-002",
+      "slug": "t1c-002",
+      "title": "Full Rhythm Review — C3 Position (LH)",
+      "summary": "Left hand combines whole, half, quarter, and eighth notes in a six-measure phrase through C3–G3.",
+      "goal": "Fluently switch between all four note values in the left hand within one exercise.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:e","D3:e","E3:q","F3:q","G3:q"],
+        ["G3:h","F3:e","E3:e","D3:q"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["D3:e","E3:e","F3:h","E3:q"],
+        ["G3:e","F3:e","E3:e","D3:e","C3:e","D3:e","E3:e","F3:e"],
+        ["G3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1c-003",
+      "slug": "t1c-003",
+      "title": "Thirds and Eighth Notes (RH)",
+      "summary": "Right hand combines skip-of-a-third figures with running eighth notes through C4–G4.",
+      "goal": "Connect skip and step motion using eighth notes for smooth transitions.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:e","E4:e","D4:e","F4:e","E4:e","G4:e","F4:e","E4:e"],
+        ["D4:e","F4:e","E4:e","G4:e","F4:q","E4:q"],
+        ["C4:e","E4:e","C4:e","E4:e","D4:e","F4:e","D4:e","F4:e"],
+        ["E4:q","G4:q","C4:h"]
+      ]
+    },
+    {
+      "id": "t1c-004",
+      "slug": "t1c-004",
+      "title": "Thirds and Eighth Notes (LH)",
+      "summary": "Left hand combines skip-of-a-third figures with running eighth notes through C3–G3.",
+      "goal": "Connect skip and step motion using eighth notes in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:e","E3:e","D3:e","F3:e","E3:e","G3:e","F3:e","E3:e"],
+        ["D3:e","F3:e","E3:e","G3:e","F3:q","E3:q"],
+        ["C3:e","E3:e","C3:e","E3:e","D3:e","F3:e","D3:e","F3:e"],
+        ["E3:q","G3:q","C3:h"]
+      ]
+    },
+    {
+      "id": "t1c-005",
+      "slug": "t1c-005",
+      "title": "Hanon + Quarter Notes (RH)",
+      "summary": "Right hand alternates Hanon eighth-note cells with quarter-note skips across six measures.",
+      "goal": "Contrast the Hanon running pattern with deliberate quarter-note skips in the same exercise.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["C4:q","E4:q","G4:q","E4:q"],
+        ["D4:e","E4:e","F4:e","G4:e","F4:e","E4:e","D4:e","C4:e"],
+        ["D4:q","F4:q","E4:q","G4:q"],
+        ["E4:e","F4:e","G4:e","F4:e","E4:e","D4:e","C4:e","D4:e"],
+        ["E4:h","C4:h"]
+      ]
+    },
+    {
+      "id": "t1c-006",
+      "slug": "t1c-006",
+      "title": "Hanon + Quarter Notes (LH)",
+      "summary": "Left hand alternates Hanon eighth-note cells with quarter-note skips across six measures.",
+      "goal": "Contrast the Hanon running pattern with deliberate quarter-note skips in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:e","D3:e","E3:e","F3:e","G3:e","F3:e","E3:e","D3:e"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["D3:e","E3:e","F3:e","G3:e","F3:e","E3:e","D3:e","C3:e"],
+        ["D3:q","F3:q","E3:q","G3:q"],
+        ["E3:e","F3:e","G3:e","F3:e","E3:e","D3:e","C3:e","D3:e"],
+        ["E3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1c-007",
+      "slug": "t1c-007",
+      "title": "3/4 with Eighth Notes (RH)",
+      "summary": "Right hand combines quarter and eighth notes in 3/4 time through C4–G4.",
+      "goal": "Feel the three-beat pulse while subdividing into eighths in the right hand.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","D4:e","E4:e","F4:q"],
+        ["G4:q","F4:e","E4:e","D4:q"],
+        ["E4:e","F4:e","G4:q","F4:q"],
+        ["E4:e","D4:e","C4:q","E4:q"],
+        ["G4:e","F4:e","E4:e","D4:e","C4:q"],
+        ["E4:q","D4:q","C4:q"]
+      ]
+    },
+    {
+      "id": "t1c-008",
+      "slug": "t1c-008",
+      "title": "3/4 with Eighth Notes (LH)",
+      "summary": "Left hand combines quarter and eighth notes in 3/4 time through C3–G3.",
+      "goal": "Feel the three-beat pulse while subdividing into eighths in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:q","D3:e","E3:e","F3:q"],
+        ["G3:q","F3:e","E3:e","D3:q"],
+        ["E3:e","F3:e","G3:q","F3:q"],
+        ["E3:e","D3:e","C3:q","E3:q"],
+        ["G3:e","F3:e","E3:e","D3:e","C3:q"],
+        ["E3:q","D3:q","C3:q"]
+      ]
+    },
+    {
+      "id": "t1c-009",
+      "slug": "t1c-009",
+      "title": "Rests and Eighth-Note Bursts (RH)",
+      "summary": "Right hand alternates rests with short eighth-note runs, practicing silence followed by precise attacks.",
+      "goal": "Place eighth-note bursts immediately after rests with accurate timing.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","R:q","D4:e","E4:e","F4:q"],
+        ["G4:e","F4:e","E4:e","D4:e","R:q","C4:q"],
+        ["R:q","C4:e","D4:e","E4:q","F4:e","G4:e"],
+        ["G4:h","R:q","C4:q"]
+      ]
+    },
+    {
+      "id": "t1c-010",
+      "slug": "t1c-010",
+      "title": "Rests and Eighth-Note Bursts (LH)",
+      "summary": "Left hand alternates rests with short eighth-note runs through C3–G3.",
+      "goal": "Place eighth-note bursts after rests precisely in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C3:q","R:q","D3:e","E3:e","F3:q"],
+        ["G3:e","F3:e","E3:e","D3:e","R:q","C3:q"],
+        ["R:q","C3:e","D3:e","E3:q","F3:e","G3:e"],
+        ["G3:h","R:q","C3:q"]
+      ]
+    },
+    {
+      "id": "t1c-011",
+      "slug": "t1c-011",
+      "title": "Whole Notes — Both Hands Parallel",
+      "summary": "Both hands play the same C-position notes one octave apart in whole notes.",
+      "goal": "Listen for balance between hands while holding whole notes together.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 56,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:w"],
+        ["E4:w"],
+        ["G4:w"],
+        ["E4:w"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:w"],
+        ["E3:w"],
+        ["G3:w"],
+        ["E3:w"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t1c-012",
+      "slug": "t1c-012",
+      "title": "Half Notes — Both Hands Parallel",
+      "summary": "Both hands play half-note pairs in parallel octaves through C position.",
+      "goal": "Synchronize note attacks and releases with both hands on half notes.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:h","E4:h"],
+        ["G4:h","E4:h"],
+        ["D4:h","F4:h"],
+        ["E4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:h","E3:h"],
+        ["G3:h","E3:h"],
+        ["D3:h","F3:h"],
+        ["E3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1c-013",
+      "slug": "t1c-013",
+      "title": "Quarter Notes — Both Hands Parallel",
+      "summary": "Both hands play quarter notes in parallel octaves, ascending and descending through C position.",
+      "goal": "Keep both hands exactly together at a steady quarter-note pulse.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:q","F4:q","E4:q","D4:q"],
+        ["E4:q","F4:q","G4:q","E4:q"],
+        ["D4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["G3:q","F3:q","E3:q","D3:q"],
+        ["E3:q","F3:q","G3:q","E3:q"],
+        ["D3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1c-014",
+      "slug": "t1c-014",
+      "title": "Contrary Motion — C Position",
+      "summary": "Right hand ascends while left hand descends simultaneously, then they reverse directions.",
+      "goal": "Move both hands independently in opposite directions through C position.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:q","F4:q","E4:q","D4:q"],
+        ["E4:q","F4:q","G4:q","F4:q"],
+        ["E4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["G3:q","F3:q","E3:q","D3:q"],
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["G3:q","F3:q","E3:q","F3:q"],
+        ["E3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1c-015",
+      "slug": "t1c-015",
+      "title": "Melody and Accompaniment — C Position",
+      "summary": "Right hand plays a flowing quarter and eighth-note melody while left hand holds steady half notes.",
+      "goal": "Keep left-hand half notes even while right hand moves through varied rhythms independently.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:e","F4:e","E4:e","D4:e","C4:e","D4:e","E4:e","F4:e"],
+        ["G4:h","F4:q","E4:q"],
+        ["D4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:h","G3:h"],
+        ["C3:h","G3:h"],
+        ["F3:h","G3:h"],
+        ["G3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1c-016",
+      "slug": "t1c-016",
+      "title": "Eighth Notes — Both Hands in Parallel",
+      "summary": "Both hands play continuous eighth notes in parallel octaves through C position.",
+      "goal": "Synchronize eighth-note runs exactly between both hands at a moderate tempo.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["C4:e","E4:e","G4:e","E4:e","C4:e","E4:e","G4:e","E4:e"],
+        ["G4:e","F4:e","E4:e","D4:e","C4:e","D4:e","E4:e","F4:e"],
+        ["G4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:e","D3:e","E3:e","F3:e","G3:e","F3:e","E3:e","D3:e"],
+        ["C3:e","E3:e","G3:e","E3:e","C3:e","E3:e","G3:e","E3:e"],
+        ["G3:e","F3:e","E3:e","D3:e","C3:e","D3:e","E3:e","F3:e"],
+        ["G3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1c-017",
+      "slug": "t1c-017",
+      "title": "Hanon Pattern — Both Hands Together",
+      "summary": "Both hands execute the Hanon C D E F G F E D cell in parallel octaves.",
+      "goal": "Coordinate the Hanon five-finger pattern between both hands simultaneously.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["E4:e","F4:e","G4:e","F4:e","E4:e","D4:e","C4:e","D4:e"],
+        ["C4:e","E4:e","D4:e","F4:e","E4:e","G4:e","F4:e","E4:e"],
+        ["D4:q","E4:q","D4:q","C4:q"]
+      ],
+      "measuresLeft": [
+        ["C3:e","D3:e","E3:e","F3:e","G3:e","F3:e","E3:e","D3:e"],
+        ["E3:e","F3:e","G3:e","F3:e","E3:e","D3:e","C3:e","D3:e"],
+        ["C3:e","E3:e","D3:e","F3:e","E3:e","G3:e","F3:e","E3:e"],
+        ["D3:q","E3:q","D3:q","C3:q"]
+      ]
+    },
+    {
+      "id": "t1c-018",
+      "slug": "t1c-018",
+      "title": "Contrary Motion — Mixed Rhythms",
+      "summary": "Hands move in opposite directions through C position using a combination of half, quarter, and eighth notes.",
+      "goal": "Maintain contrary-motion independence while reading multiple rhythmic values simultaneously.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:h","D4:q","E4:q"],
+        ["F4:e","G4:e","F4:e","E4:e","D4:e","C4:e","D4:e","E4:e"],
+        ["F4:h","G4:h"],
+        ["G4:q","F4:q","E4:q","D4:q"],
+        ["E4:e","F4:e","G4:q","F4:q","E4:q"],
+        ["D4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["G3:h","F3:q","E3:q"],
+        ["D3:e","C3:e","D3:e","E3:e","F3:e","G3:e","F3:e","E3:e"],
+        ["D3:h","C3:h"],
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["G3:e","F3:e","E3:q","D3:q","C3:q"],
+        ["E3:h","C3:h"]
+      ]
+    },
+    {
+      "id": "t1c-019",
+      "slug": "t1c-019",
+      "title": "Both Hands in 3/4",
+      "summary": "Both hands play C-position notes in waltz-time 3/4, moving in parallel octaves.",
+      "goal": "Feel the three-beat waltz pulse with both hands together.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:h","D4:q"],
+        ["E4:h","F4:q"],
+        ["G4:q","F4:q","E4:q"],
+        ["D4:h","E4:q"],
+        ["F4:q","E4:q","D4:q"],
+        ["E4:q","D4:q","C4:q"]
+      ],
+      "measuresLeft": [
+        ["C3:h","D3:q"],
+        ["E3:h","F3:q"],
+        ["G3:q","F3:q","E3:q"],
+        ["D3:h","E3:q"],
+        ["F3:q","E3:q","D3:q"],
+        ["E3:q","D3:q","C3:q"]
+      ]
+    },
+    {
+      "id": "t1c-020",
+      "slug": "t1c-020",
+      "title": "C-Position Étude — Both Hands",
+      "summary": "An eight-measure grand-staff étude combining all Level 1 techniques: quarter and eighth notes, Hanon-style runs, and skips, with both hands in parallel octaves.",
+      "goal": "Perform the complete C-major Level 1 étude with both hands, demonstrating mastery of all Level 1 techniques.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "Original composition" },
+      "measures": [
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:h","F4:q","E4:q"],
+        ["D4:e","E4:e","F4:q","G4:q","F4:q"],
+        ["E4:h","C4:h"],
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["C4:q","E4:q","G4:q","E4:q"],
+        ["D4:e","E4:e","D4:e","C4:e","D4:e","E4:e","F4:e","G4:e"],
+        ["E4:h","C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q","D3:q","E3:q","F3:q"],
+        ["G3:h","F3:q","E3:q"],
+        ["D3:e","E3:e","F3:q","G3:q","F3:q"],
+        ["E3:h","C3:h"],
+        ["C3:e","D3:e","E3:e","F3:e","G3:e","F3:e","E3:e","D3:e"],
+        ["C3:q","E3:q","G3:q","E3:q"],
+        ["D3:e","E3:e","D3:e","C3:e","D3:e","E3:e","F3:e","G3:e"],
+        ["E3:h","C3:h"]
+      ]
+    }
+  ]
+}

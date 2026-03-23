@@ -1,0 +1,666 @@
+{
+  "courseId": "technique-level-3",
+  "title": "Technique Level 3",
+  "level": 3,
+  "summary": "F major and D minor scales, contrary motion, Hanon patterns 2–3, arpeggios, wrist rotation, and dynamic control.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "tech3-001",
+      "slug": "f-major-rh-scale",
+      "title": "F Major Scale RH",
+      "summary": "Right hand F major scale over one octave with B-flat.",
+      "goal": "Play F major evenly with a clean B-flat fingering.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -1,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "F4:q",
+          "G4:q",
+          "A4:q",
+          "Bb4:q"
+        ],
+        [
+          "C5:q",
+          "D5:q",
+          "E5:q",
+          "F5:q"
+        ],
+        [
+          "F5:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech3-002",
+      "slug": "f-major-lh-scale",
+      "title": "F Major Scale LH",
+      "summary": "Left hand F major scale over one octave in bass clef.",
+      "goal": "Navigate F major with B-flat in the left hand smoothly.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": -1,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "F3:q",
+          "G3:q",
+          "A3:q",
+          "Bb3:q"
+        ],
+        [
+          "C4:q",
+          "D4:q",
+          "E4:q",
+          "F4:q"
+        ],
+        [
+          "F4:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech3-003",
+      "slug": "d-natural-minor-rh",
+      "title": "D Natural Minor RH",
+      "summary": "Right hand D natural minor scale ascending and descending.",
+      "goal": "Feel the natural minor sound through D minor in the right hand.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "D4:q",
+          "E4:q",
+          "F4:q",
+          "G4:q"
+        ],
+        [
+          "A4:q",
+          "Bb4:q",
+          "C5:q",
+          "D5:q"
+        ],
+        [
+          "D5:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech3-004",
+      "slug": "d-natural-minor-lh",
+      "title": "D Natural Minor LH",
+      "summary": "Left hand D natural minor scale in bass clef.",
+      "goal": "Internalize the D natural minor scale in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 63,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "D3:q",
+          "E3:q",
+          "F3:q",
+          "G3:q"
+        ],
+        [
+          "A3:q",
+          "Bb3:q",
+          "C4:q",
+          "D4:q"
+        ],
+        [
+          "D4:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech3-005",
+      "slug": "c-major-contrary-motion",
+      "title": "C Major Contrary Motion",
+      "summary": "Both hands play C major moving in opposite directions from C4.",
+      "goal": "Coordinate independent hand movements in contrary motion.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 63,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:q",
+          "D4:q",
+          "E4:q",
+          "F4:q"
+        ],
+        [
+          "G4:q",
+          "A4:q",
+          "B4:q",
+          "C5:q"
+        ],
+        [
+          "C5:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech3-006",
+      "slug": "hanon-2-rh",
+      "title": "Hanon Pattern 2 RH",
+      "summary": "Hanon exercise 2: ascending 1-2-3-4-5 with varied accent.",
+      "goal": "Strengthen each finger independently with Hanon pattern 2.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:e",
+          "E4:e",
+          "D4:e",
+          "F4:e",
+          "E4:e",
+          "G4:e",
+          "F4:e",
+          "A4:e"
+        ],
+        [
+          "G4:e",
+          "B4:e",
+          "A4:e",
+          "C5:e",
+          "B4:e",
+          "D5:e",
+          "C5:e",
+          "E5:e"
+        ],
+        [
+          "C5:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech3-007",
+      "slug": "hanon-2-lh",
+      "title": "Hanon Pattern 2 LH",
+      "summary": "Hanon exercise 2 in bass clef for the left hand.",
+      "goal": "Build left hand independence with Hanon pattern 2.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C3:e",
+          "E3:e",
+          "D3:e",
+          "F3:e",
+          "E3:e",
+          "G3:e",
+          "F3:e",
+          "A3:e"
+        ],
+        [
+          "G3:e",
+          "B3:e",
+          "A3:e",
+          "C4:e",
+          "B3:e",
+          "D4:e",
+          "C4:e",
+          "E4:e"
+        ],
+        [
+          "C4:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech3-008",
+      "slug": "hanon-3-rh",
+      "title": "Hanon Pattern 3 RH",
+      "summary": "Hanon exercise 3: ascending run with 1-3-2-4 finger groupings.",
+      "goal": "Develop 3rd and 4th finger independence with Hanon 3.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:e",
+          "D4:e",
+          "E4:e",
+          "F4:e",
+          "D4:e",
+          "E4:e",
+          "F4:e",
+          "G4:e"
+        ],
+        [
+          "E4:e",
+          "F4:e",
+          "G4:e",
+          "A4:e",
+          "F4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e"
+        ],
+        [
+          "C5:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech3-009",
+      "slug": "c-major-arpeggio-rh",
+      "title": "C Major Arpeggio RH",
+      "summary": "Right hand C major broken chord arpeggio pattern.",
+      "goal": "Play C-E-G arpeggios smoothly with even tone across strings.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:e",
+          "E4:e",
+          "G4:e",
+          "C5:e",
+          "E5:e",
+          "G5:e",
+          "C5:e",
+          "G4:e"
+        ],
+        [
+          "E4:e",
+          "C4:e",
+          "G3:e",
+          "E3:e",
+          "C3:e",
+          "E3:e",
+          "G3:e",
+          "C4:e"
+        ],
+        [
+          "C4:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech3-010",
+      "slug": "g-major-arpeggio-rh",
+      "title": "G Major Arpeggio RH",
+      "summary": "Right hand G major arpeggio pattern ascending and descending.",
+      "goal": "Apply arpeggio technique to G major with smooth tone.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "keySignature": 1,
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "G4:e",
+          "B4:e",
+          "D5:e",
+          "G5:e",
+          "D5:e",
+          "B4:e",
+          "G4:e",
+          "D4:e"
+        ],
+        [
+          "G4:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech3-011",
+      "slug": "wrist-rotation-exercise",
+      "title": "Wrist Rotation Exercise",
+      "summary": "Alternating thirds to develop fluid wrist rotation.",
+      "goal": "Use forearm rotation to connect thirds without tension.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 69,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:e",
+          "E4:e",
+          "D4:e",
+          "F4:e",
+          "E4:e",
+          "G4:e",
+          "F4:e",
+          "A4:e"
+        ],
+        [
+          "E4:e",
+          "G4:e",
+          "F4:e",
+          "A4:e",
+          "G4:e",
+          "B4:e",
+          "A4:e",
+          "C5:e"
+        ],
+        [
+          "G4:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech3-012",
+      "slug": "dynamic-control-p-to-f",
+      "title": "Dynamic Contrast Study",
+      "summary": "A scale passage practicing soft to loud dynamic shaping.",
+      "goal": "Gradually increase tone weight from piano to forte across a scale.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 3,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "C4:q",
+          "D4:q",
+          "E4:q",
+          "F4:q"
+        ],
+        [
+          "G4:q",
+          "A4:q",
+          "B4:q",
+          "C5:q"
+        ],
+        [
+          "C5:h",
+          "G4:h"
+        ],
+        [
+          "C4:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech3-013",
+      "slug": "staccato-scale",
+      "title": "Staccato Scale",
+      "summary": "C major scale in staccato quarter notes for articulation control.",
+      "goal": "Play each note short and crisp while maintaining rhythm.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "measures": [
+        [
+          "C4:q",
+          "D4:q",
+          "E4:q",
+          "F4:q"
+        ],
+        [
+          "G4:q",
+          "A4:q",
+          "B4:q",
+          "C5:q"
+        ],
+        [
+          "G4:q",
+          "F4:q",
+          "E4:q",
+          "D4:q"
+        ],
+        [
+          "C4:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech3-014",
+      "slug": "tech3-checkpoint",
+      "title": "Technique 3 Checkpoint",
+      "summary": "A combined passage using F major, arpeggios, and varied articulation.",
+      "goal": "Apply Level 3 technique: flat key, arpeggios, and staccato/legato contrast.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 3,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "F4:q",
+          "A4:q",
+          "C5:q",
+          "A4:q"
+        ],
+        [
+          "F4:e",
+          "G4:e",
+          "A4:e",
+          "Bb4:e",
+          "C5:h"
+        ],
+        [
+          "A4:q",
+          "G4:q",
+          "F4:h"
+        ],
+        [
+          "F4:w"
+        ]
+      ]
+    },
+    {
+      "id": "tech3-015",
+      "slug": "tech3-finale",
+      "title": "Technique 3 Finale",
+      "summary": "A complete etude combining scales, arpeggios, and dynamic shaping.",
+      "goal": "Demonstrate Level 3 technique fluency across all concepts learned.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "Pianio original curriculum",
+        "notes": "Written for the open starter curriculum."
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 3,
+          "marking": "f"
+        }
+      ],
+      "measures": [
+        [
+          "C4:e",
+          "D4:e",
+          "E4:e",
+          "F4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C5:e"
+        ],
+        [
+          "C5:e",
+          "E5:e",
+          "G5:e",
+          "C5:e",
+          "G4:e",
+          "E4:e",
+          "C4:e",
+          "G3:e"
+        ],
+        [
+          "A3:q",
+          "C4:q",
+          "E4:q",
+          "A4:q"
+        ],
+        [
+          "C4:w"
+        ]
+      ]
+    }
+  ]
+}

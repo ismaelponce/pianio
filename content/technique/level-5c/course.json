@@ -1,0 +1,476 @@
+{
+  "courseId": "technique-level-5c",
+  "title": "Technique Level 5C — Dotted Rhythms & Swing",
+  "level": 5,
+  "summary": "Dotted eighth patterns and swing feel exercises — mastering uneven rhythmic divisions and jazz-style timing.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "t5c-001",
+      "slug": "dotted-eighth-c-rh",
+      "title": "Dotted Eighth Scale in C Major RH",
+      "summary": "C major scale using dotted quarter + eighth rhythm pattern.",
+      "goal": "Play dotted-quarter eighth patterns with steady pulse in C major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:dq", "D4:e", "E4:dq", "F4:e"],
+        ["G4:dq", "A4:e", "B4:dq", "C5:e"],
+        ["C5:dq", "B4:e", "A4:dq", "G4:e"],
+        ["F4:dq", "E4:e", "D4:dq", "C4:e"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t5c-002",
+      "slug": "dotted-eighth-c-lh",
+      "title": "Dotted Eighth Scale in C Major LH",
+      "summary": "C major scale LH using dotted quarter + eighth rhythm.",
+      "goal": "Play dotted-quarter eighth patterns smoothly in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:dq", "D3:e", "E3:dq", "F3:e"],
+        ["G3:dq", "A3:e", "B3:dq", "C4:e"],
+        ["C4:dq", "B3:e", "A3:dq", "G3:e"],
+        ["F3:dq", "E3:e", "D3:dq", "C3:e"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t5c-003",
+      "slug": "dotted-eighth-g-ht",
+      "title": "Dotted Eighth Scale in G Major HT",
+      "summary": "Both hands G major scale with dotted quarter + eighth rhythm.",
+      "goal": "Synchronize dotted rhythm in both hands through G major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:dq", "A4:e", "B4:dq", "C5:e"],
+        ["D5:dq", "E5:e", "F#5:dq", "G5:e"],
+        ["G5:dq", "F#5:e", "E5:dq", "D5:e"],
+        ["C5:dq", "B4:e", "A4:dq", "G4:e"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G3:dq", "A3:e", "B3:dq", "C4:e"],
+        ["D4:dq", "E4:e", "F#4:dq", "G4:e"],
+        ["G4:dq", "F#4:e", "E4:dq", "D4:e"],
+        ["C4:dq", "B3:e", "A3:dq", "G3:e"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "t5c-004",
+      "slug": "dotted-eighth-d-rh",
+      "title": "Dotted Eighth Patterns in D Major RH",
+      "summary": "D major scale fragments with dotted quarter + eighth combinations.",
+      "goal": "Navigate F# and C# with dotted rhythm at 80 BPM.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["D4:dq", "E4:e", "F#4:dq", "G4:e"],
+        ["A4:dq", "B4:e", "C#5:dq", "D5:e"],
+        ["D5:dq", "C#5:e", "B4:dq", "A4:e"],
+        ["G4:dq", "F#4:e", "E4:dq", "D4:e"],
+        ["D4:w"]
+      ]
+    },
+    {
+      "id": "t5c-005",
+      "slug": "dotted-eighth-f-ht",
+      "title": "Dotted Eighth Scale in F Major HT",
+      "summary": "Both hands F major scale with dotted quarter + eighth rhythm.",
+      "goal": "Synchronize dotted rhythm in F major with Bb.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F4:dq", "G4:e", "A4:dq", "Bb4:e"],
+        ["C5:dq", "D5:e", "E5:dq", "F5:e"],
+        ["F5:dq", "E5:e", "D5:dq", "C5:e"],
+        ["Bb4:dq", "A4:e", "G4:dq", "F4:e"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["F3:dq", "G3:e", "A3:dq", "Bb3:e"],
+        ["C4:dq", "D4:e", "E4:dq", "F4:e"],
+        ["F4:dq", "E4:e", "D4:dq", "C4:e"],
+        ["Bb3:dq", "A3:e", "G3:dq", "F3:e"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "t5c-006",
+      "slug": "dotted-arpeggio-c-rh",
+      "title": "Dotted Arpeggio in C Major RH",
+      "summary": "C major arpeggio with dotted quarter + eighth rhythm.",
+      "goal": "Apply dotted rhythm to arpeggios — a common Classical figuration.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:dq", "E4:e", "G4:dq", "C5:e"],
+        ["E5:dq", "C5:e", "G4:dq", "E4:e"],
+        ["C4:dq", "G4:e", "E5:dq", "C5:e"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t5c-007",
+      "slug": "dotted-mixed-rhythm-c",
+      "title": "Mixed Dotted and Straight in C Major RH",
+      "summary": "Alternating between dotted and straight eighth note patterns.",
+      "goal": "Switch between dotted and even rhythms within the same phrase.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:dq", "D4:e", "E4:e", "F4:e", "G4:q"],
+        ["A4:dq", "G4:e", "F4:e", "E4:e", "D4:q"],
+        ["C4:dq", "E4:e", "G4:e", "E4:e", "C4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "t5c-008",
+      "slug": "swing-eighth-c-rh",
+      "title": "Swing Eighths in C Major RH",
+      "summary": "Straight eighth notes with swing feel enabled — off-beats shift to triplet feel.",
+      "goal": "Feel the swing groove — even notation, uneven execution.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "D4:e", "E4:e", "F4:e", "G4:e", "A4:e", "B4:e", "C5:e"],
+        ["C5:e", "B4:e", "A4:e", "G4:e", "F4:e", "E4:e", "D4:e", "C4:e"],
+        ["C4:e", "E4:e", "G4:e", "C5:e", "G4:e", "E4:e", "C4:e", "E4:e"],
+        ["G4:e", "E4:e", "C4:e", "E4:e", "C4:h"]
+      ]
+    },
+    {
+      "id": "t5c-009",
+      "slug": "swing-eighth-g-rh",
+      "title": "Swing Eighths in G Major RH",
+      "summary": "G major swing eighth note patterns.",
+      "goal": "Apply swing feel to G major — maintain groove through F#.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:e", "A4:e", "B4:e", "C5:e", "D5:e", "E5:e", "F#5:e", "G5:e"],
+        ["G5:e", "F#5:e", "E5:e", "D5:e", "C5:e", "B4:e", "A4:e", "G4:e"],
+        ["G4:e", "B4:e", "D5:e", "G5:e", "D5:e", "B4:e", "G4:e", "B4:e"],
+        ["D5:e", "B4:e", "G4:e", "B4:e", "G4:h"]
+      ]
+    },
+    {
+      "id": "t5c-010",
+      "slug": "swing-eighth-f-lh",
+      "title": "Swing Eighths in F Major LH",
+      "summary": "Left hand swing eighth note patterns in F major.",
+      "goal": "Build swing feel in the left hand — essential for jazz bass lines.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -1,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F2:e", "G2:e", "A2:e", "Bb2:e", "C3:e", "D3:e", "E3:e", "F3:e"],
+        ["F3:e", "E3:e", "D3:e", "C3:e", "Bb2:e", "A2:e", "G2:e", "F2:e"],
+        ["F2:e", "A2:e", "C3:e", "F3:e", "C3:e", "A2:e", "F2:e", "A2:e"],
+        ["C3:e", "A2:e", "F2:e", "A2:e", "F2:h"]
+      ]
+    },
+    {
+      "id": "t5c-011",
+      "slug": "swing-walking-bass-c",
+      "title": "Swing Walking Bass in C LH",
+      "summary": "Left hand walking bass line with swing feel through I-IV-V in C.",
+      "goal": "Walk through chord changes with swing — the jazz bassist's fundamental skill.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "E3:q", "G3:q", "A3:q"],
+        ["C3:q", "E3:q", "G3:q", "Bb3:q"],
+        ["F3:q", "A3:q", "C4:q", "A3:q"],
+        ["G3:q", "B3:q", "D4:q", "B3:q"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t5c-012",
+      "slug": "swing-ht-c",
+      "title": "Swing Eighths HT in C Major",
+      "summary": "Both hands swing eighth note patterns in C major.",
+      "goal": "Coordinate swing feel between both hands simultaneously.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C5:e", "D5:e", "E5:e", "F5:e", "G5:e", "F5:e", "E5:e", "D5:e"],
+        ["C5:e", "E5:e", "G5:e", "E5:e", "C5:e", "E5:e", "G5:e", "E5:e"],
+        ["F5:e", "A5:e", "F5:e", "C5:e", "G5:e", "E5:e", "D5:e", "B4:e"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "E3:q", "G3:q", "E3:q"],
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["F3:q", "A3:q", "G3:q", "B3:q"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t5c-013",
+      "slug": "dotted-a-major-ht",
+      "title": "Dotted Eighth Scale in A Major HT",
+      "summary": "Both hands A major scale with dotted quarter + eighth rhythm.",
+      "goal": "Navigate three sharps with dotted rhythm in both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["A4:dq", "B4:e", "C#5:dq", "D5:e"],
+        ["E5:dq", "F#5:e", "G#5:dq", "A5:e"],
+        ["A5:dq", "G#5:e", "F#5:dq", "E5:e"],
+        ["D5:dq", "C#5:e", "B4:dq", "A4:e"],
+        ["A4:w"]
+      ],
+      "measuresLeft": [
+        ["A3:dq", "B3:e", "C#4:dq", "D4:e"],
+        ["E3:dq", "F#3:e", "G#3:dq", "A3:e"],
+        ["A3:dq", "G#3:e", "F#3:dq", "E3:e"],
+        ["D3:dq", "C#3:e", "B2:dq", "A2:e"],
+        ["A2:w"]
+      ]
+    },
+    {
+      "id": "t5c-014",
+      "slug": "swing-blues-scale-c",
+      "title": "Swing Blues Scale in C RH",
+      "summary": "Blues scale (C-Eb-F-F#-G-Bb-C) with swing feel.",
+      "goal": "Play the blues scale with authentic swing feel — the sound of jazz.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "Eb4:e", "F4:e", "F#4:e", "G4:e", "Bb4:e", "C5:q"],
+        ["C5:e", "Bb4:e", "G4:e", "F#4:e", "F4:e", "Eb4:e", "C4:q"],
+        ["C4:e", "Eb4:e", "G4:e", "Bb4:e", "C5:e", "Bb4:e", "G4:e", "Eb4:e"],
+        ["C4:e", "G4:e", "C5:e", "G4:e", "C4:h"]
+      ]
+    },
+    {
+      "id": "t5c-015",
+      "slug": "swing-blues-scale-f",
+      "title": "Swing Blues Scale in F RH",
+      "summary": "Blues scale in F (F-Ab-Bb-B-C-Eb-F) with swing feel.",
+      "goal": "Play the F blues scale with swing — a common jazz key.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["F4:e", "Ab4:e", "Bb4:e", "B4:e", "C5:e", "Eb5:e", "F5:q"],
+        ["F5:e", "Eb5:e", "C5:e", "B4:e", "Bb4:e", "Ab4:e", "F4:q"],
+        ["F4:e", "Ab4:e", "C5:e", "Eb5:e", "F5:e", "Eb5:e", "C5:e", "Ab4:e"],
+        ["F4:e", "C5:e", "F5:e", "C5:e", "F4:h"]
+      ]
+    },
+    {
+      "id": "t5c-016",
+      "slug": "swing-arpeggio-c-ht",
+      "title": "Swing Arpeggios HT in C Major",
+      "summary": "Both hands arpeggios with swing feel — I-IV-V-I progression.",
+      "goal": "Apply swing groove to arpeggio patterns in both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:e", "E4:e", "G4:e", "C5:e", "G4:e", "E4:e", "C4:e", "E4:e"],
+        ["F4:e", "A4:e", "C5:e", "F5:e", "C5:e", "A4:e", "F4:e", "A4:e"],
+        ["G4:e", "B4:e", "D5:e", "G5:e", "D5:e", "B4:e", "G4:e", "B4:e"],
+        ["C5:e", "G4:e", "E4:e", "C4:e", "C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "G3:q", "C3:q", "G3:q"],
+        ["F3:q", "C4:q", "F3:q", "C4:q"],
+        ["G3:q", "D4:q", "G3:q", "D4:q"],
+        ["C3:q", "G3:q", "C3:h"]
+      ]
+    },
+    {
+      "id": "t5c-017",
+      "slug": "dotted-bb-major-rh",
+      "title": "Dotted Eighth Scale in Bb Major RH",
+      "summary": "Bb major scale with dotted quarter + eighth rhythm.",
+      "goal": "Navigate Bb and Eb with dotted rhythm at 76 BPM.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:dq", "C5:e", "D5:dq", "Eb5:e"],
+        ["F5:dq", "G5:e", "A5:dq", "Bb5:e"],
+        ["Bb5:dq", "A5:e", "G5:dq", "F5:e"],
+        ["Eb5:dq", "D5:e", "C5:dq", "Bb4:e"],
+        ["Bb4:w"]
+      ]
+    },
+    {
+      "id": "t5c-018",
+      "slug": "swing-walking-bass-g",
+      "title": "Swing Walking Bass in G LH",
+      "summary": "Left hand walking bass with swing through I-IV-V in G.",
+      "goal": "Walk through G major chord changes with authentic swing timing.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 1,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G2:q", "B2:q", "D3:q", "E3:q"],
+        ["G2:q", "B2:q", "D3:q", "F3:q"],
+        ["C3:q", "E3:q", "G3:q", "E3:q"],
+        ["D3:q", "F#3:q", "A3:q", "F#3:q"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "t5c-019",
+      "slug": "dotted-swing-combo-c",
+      "title": "Dotted + Swing Combo in C Major HT",
+      "summary": "Swing eighths in RH over dotted-quarter bass in LH.",
+      "goal": "Layer different rhythmic feels between hands — advanced independence.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C5:e", "E5:e", "G5:e", "E5:e", "C5:e", "E5:e", "G5:e", "E5:e"],
+        ["F5:e", "A5:e", "F5:e", "C5:e", "E5:e", "G5:e", "E5:e", "C5:e"],
+        ["D5:e", "F5:e", "A5:e", "F5:e", "G5:e", "E5:e", "D5:e", "B4:e"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:dq", "E3:e", "G3:dq", "E3:e"],
+        ["F3:dq", "A3:e", "C3:dq", "G3:e"],
+        ["D3:dq", "F3:e", "G3:dq", "B3:e"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t5c-020",
+      "slug": "dotted-swing-mastery",
+      "title": "Dotted & Swing Mastery Review HT",
+      "summary": "Combines dotted and swing patterns across C, G, and F — the L5C mastery test.",
+      "goal": "Demonstrate fluency with all dotted and swing patterns from L5C.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "swing": true,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C5:e", "D5:e", "E5:e", "F5:e", "G5:e", "A5:e", "B5:q"],
+        ["G4:e", "A4:e", "B4:e", "C5:e", "D5:e", "E5:e", "F#5:q"],
+        ["F4:e", "G4:e", "A4:e", "Bb4:e", "C5:e", "D5:e", "E5:q"],
+        ["C5:dq", "B4:e", "A4:dq", "G4:e"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "E3:q", "G3:q", "E3:q"],
+        ["G2:q", "B2:q", "D3:q", "B2:q"],
+        ["F2:q", "A2:q", "C3:q", "A2:q"],
+        ["G3:dq", "F3:e", "E3:dq", "D3:e"],
+        ["C3:w"]
+      ]
+    }
+  ]
+}

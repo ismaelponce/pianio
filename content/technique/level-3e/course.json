@@ -1,0 +1,479 @@
+{
+  "courseId": "technique-level-3e",
+  "title": "Technique Level 3E — Mastery",
+  "level": 3,
+  "summary": "All Level 3 scales at 100+ BPM, arpeggios at tempo, dynamic contrast studies from pp to ff, scale-chord-arpeggio full combos, and sight-reading challenge exercises.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "t3e-001",
+      "slug": "c-major-scale-100bpm",
+      "title": "C Major Scale at 100 BPM",
+      "summary": "C major scale hands together at mastery tempo.",
+      "goal": "Play C major smoothly at 100 BPM without hesitation.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["D5:e","E5:e","F5:e","G5:e","G5:e","F5:e","E5:e","D5:e"],
+        ["C5:e","B4:e","A4:e","G4:e","F4:e","E4:e","D4:e","C4:e"],
+        ["C4:q","E4:q","G4:q","C5:q"]
+      ],
+      "measuresLeft": [
+        ["C3:e","D3:e","E3:e","F3:e","G3:e","A3:e","B3:e","C4:e"],
+        ["D4:e","E4:e","F4:e","G4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["C4:e","B3:e","A3:e","G3:e","F3:e","E3:e","D3:e","C3:e"],
+        ["C3:q","E3:q","G3:q","C4:q"]
+      ]
+    },
+    {
+      "id": "t3e-002",
+      "slug": "g-major-scale-100bpm",
+      "title": "G Major Scale at 100 BPM",
+      "summary": "G major scale hands together at mastery tempo.",
+      "goal": "Play G major smoothly at 100 BPM without hesitation.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","E5:e","F#5:e","G5:e"],
+        ["G5:e","F#5:e","E5:e","D5:e","C5:e","B4:e","A4:e","G4:e"],
+        ["G4:e","B4:e","D5:e","G5:e","D5:e","B4:e","G4:e","B4:e"],
+        ["D5:q","G5:q","D5:q","G4:q"]
+      ],
+      "measuresLeft": [
+        ["G2:e","A2:e","B2:e","C3:e","D3:e","E3:e","F#3:e","G3:e"],
+        ["G3:e","F#3:e","E3:e","D3:e","C3:e","B2:e","A2:e","G2:e"],
+        ["G2:e","B2:e","D3:e","G3:e","D3:e","B2:e","G2:e","B2:e"],
+        ["D3:q","G3:q","D3:q","G2:q"]
+      ]
+    },
+    {
+      "id": "t3e-003",
+      "slug": "f-major-scale-100bpm",
+      "title": "F Major Scale at 100 BPM",
+      "summary": "F major scale hands together at mastery tempo.",
+      "goal": "Play F major smoothly at 100 BPM without hesitation.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","D5:e","E5:e","F5:e"],
+        ["F5:e","E5:e","D5:e","C5:e","Bb4:e","A4:e","G4:e","F4:e"],
+        ["F4:e","A4:e","C5:e","F5:e","C5:e","A4:e","F4:e","A4:e"],
+        ["C5:q","F5:q","C5:q","F4:q"]
+      ],
+      "measuresLeft": [
+        ["F2:e","G2:e","A2:e","Bb2:e","C3:e","D3:e","E3:e","F3:e"],
+        ["F3:e","E3:e","D3:e","C3:e","Bb2:e","A2:e","G2:e","F2:e"],
+        ["F2:e","A2:e","C3:e","F3:e","C3:e","A2:e","F2:e","A2:e"],
+        ["C3:q","F3:q","C3:q","F2:q"]
+      ]
+    },
+    {
+      "id": "t3e-004",
+      "slug": "a-minor-scale-100bpm",
+      "title": "A Harmonic Minor Scale at 100 BPM",
+      "summary": "A harmonic minor scale hands together at mastery tempo.",
+      "goal": "Play A harmonic minor smoothly at 100 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["A4:e","B4:e","C5:e","D5:e","E5:e","F5:e","G#5:e","A5:e"],
+        ["A5:e","G#5:e","F5:e","E5:e","D5:e","C5:e","B4:e","A4:e"],
+        ["A4:e","C5:e","E5:e","A5:e","E5:e","C5:e","A4:e","C5:e"],
+        ["E5:q","A5:q","E5:q","A4:q"]
+      ],
+      "measuresLeft": [
+        ["A2:e","B2:e","C3:e","D3:e","E3:e","F3:e","G#3:e","A3:e"],
+        ["A3:e","G#3:e","F3:e","E3:e","D3:e","C3:e","B2:e","A2:e"],
+        ["A2:e","C3:e","E3:e","A3:e","E3:e","C3:e","A2:e","C3:e"],
+        ["E3:q","A3:q","E3:q","A2:q"]
+      ]
+    },
+    {
+      "id": "t3e-005",
+      "slug": "d-minor-scale-100bpm",
+      "title": "D Harmonic Minor Scale at 100 BPM",
+      "summary": "D harmonic minor scale hands together at mastery tempo.",
+      "goal": "Play D harmonic minor smoothly at 100 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["D4:e","E4:e","F4:e","G4:e","A4:e","Bb4:e","C#5:e","D5:e"],
+        ["D5:e","C#5:e","Bb4:e","A4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["D4:e","F4:e","A4:e","D5:e","A4:e","F4:e","D4:e","F4:e"],
+        ["A4:q","D5:q","A4:q","D4:q"]
+      ],
+      "measuresLeft": [
+        ["D3:e","E3:e","F3:e","G3:e","A3:e","Bb3:e","C#4:e","D4:e"],
+        ["D4:e","C#4:e","Bb3:e","A3:e","G3:e","F3:e","E3:e","D3:e"],
+        ["D3:e","F3:e","A3:e","D4:e","A3:e","F3:e","D3:e","F3:e"],
+        ["A3:q","D4:q","A3:q","D3:q"]
+      ]
+    },
+    {
+      "id": "t3e-006",
+      "slug": "arpeggio-c-at-tempo",
+      "title": "C Major Arpeggio at Tempo",
+      "summary": "C major arpeggio hands together at mastery speed.",
+      "goal": "Play C major arpeggios fluently at 96 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","E4:e","G4:e","C5:e","E5:e","G5:e","E5:e","C5:e"],
+        ["G4:e","E4:e","C4:e","E4:e","G4:e","C5:e","G4:e","C4:e"],
+        ["C4:e","E4:e","G4:e","C5:e","E5:e","C5:e","G4:e","E4:e"],
+        ["C4:q","G4:q","C5:q","C4:q"]
+      ],
+      "measuresLeft": [
+        ["C3:e","E3:e","G3:e","C4:e","E4:e","G4:e","E4:e","C4:e"],
+        ["G3:e","E3:e","C3:e","E3:e","G3:e","C4:e","G3:e","C3:e"],
+        ["C3:e","E3:e","G3:e","C4:e","E4:e","C4:e","G3:e","E3:e"],
+        ["C3:q","G3:q","C4:q","C3:q"]
+      ]
+    },
+    {
+      "id": "t3e-007",
+      "slug": "arpeggio-g-at-tempo",
+      "title": "G Major Arpeggio at Tempo",
+      "summary": "G major arpeggio hands together at mastery speed.",
+      "goal": "Play G major arpeggios fluently at 96 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","B4:e","D5:e","G5:e","D5:e","B4:e","G4:e","B4:e"],
+        ["D5:e","G5:e","D5:e","B4:e","G4:e","B4:e","D5:e","G5:e"],
+        ["G5:e","D5:e","B4:e","G4:e","B4:e","D5:e","G5:e","D5:e"],
+        ["G4:q","D5:q","G5:q","G4:q"]
+      ],
+      "measuresLeft": [
+        ["G2:e","B2:e","D3:e","G3:e","D3:e","B2:e","G2:e","B2:e"],
+        ["D3:e","G3:e","D3:e","B2:e","G2:e","B2:e","D3:e","G3:e"],
+        ["G3:e","D3:e","B2:e","G2:e","B2:e","D3:e","G3:e","D3:e"],
+        ["G2:q","D3:q","G3:q","G2:q"]
+      ]
+    },
+    {
+      "id": "t3e-008",
+      "slug": "arpeggio-f-at-tempo",
+      "title": "F Major Arpeggio at Tempo",
+      "summary": "F major arpeggio hands together at mastery speed.",
+      "goal": "Play F major arpeggios fluently at 96 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","A4:e","C5:e","F5:e","C5:e","A4:e","F4:e","A4:e"],
+        ["C5:e","F5:e","C5:e","A4:e","F4:e","A4:e","C5:e","F5:e"],
+        ["F5:e","C5:e","A4:e","F4:e","A4:e","C5:e","F5:e","C5:e"],
+        ["F4:q","C5:q","F5:q","F4:q"]
+      ],
+      "measuresLeft": [
+        ["F2:e","A2:e","C3:e","F3:e","C3:e","A2:e","F2:e","A2:e"],
+        ["C3:e","F3:e","C3:e","A2:e","F2:e","A2:e","C3:e","F3:e"],
+        ["F3:e","C3:e","A2:e","F2:e","A2:e","C3:e","F3:e","C3:e"],
+        ["F2:q","C3:q","F3:q","F2:q"]
+      ]
+    },
+    {
+      "id": "t3e-009",
+      "slug": "arpeggio-am-at-tempo",
+      "title": "A Minor Arpeggio at Tempo",
+      "summary": "A minor arpeggio hands together at mastery speed.",
+      "goal": "Play A minor arpeggios fluently at 96 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["A4:e","C5:e","E5:e","A5:e","E5:e","C5:e","A4:e","C5:e"],
+        ["E5:e","A5:e","E5:e","C5:e","A4:e","C5:e","E5:e","A5:e"],
+        ["A5:e","E5:e","C5:e","A4:e","C5:e","E5:e","A5:e","E5:e"],
+        ["A4:q","E5:q","A5:q","A4:q"]
+      ],
+      "measuresLeft": [
+        ["A2:e","C3:e","E3:e","A3:e","E3:e","C3:e","A2:e","C3:e"],
+        ["E3:e","A3:e","E3:e","C3:e","A2:e","C3:e","E3:e","A3:e"],
+        ["A3:e","E3:e","C3:e","A2:e","C3:e","E3:e","A3:e","E3:e"],
+        ["A2:q","E3:q","A3:q","A2:q"]
+      ]
+    },
+    {
+      "id": "t3e-010",
+      "slug": "arpeggio-dm-at-tempo",
+      "title": "D Minor Arpeggio at Tempo",
+      "summary": "D minor arpeggio hands together at mastery speed.",
+      "goal": "Play D minor arpeggios fluently at 96 BPM.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["D4:e","F4:e","A4:e","D5:e","A4:e","F4:e","D4:e","F4:e"],
+        ["A4:e","D5:e","A4:e","F4:e","D4:e","F4:e","A4:e","D5:e"],
+        ["D5:e","A4:e","F4:e","D4:e","F4:e","A4:e","D5:e","A4:e"],
+        ["D4:q","A4:q","D5:q","D4:q"]
+      ],
+      "measuresLeft": [
+        ["D3:e","F3:e","A3:e","D4:e","A3:e","F3:e","D3:e","F3:e"],
+        ["A3:e","D4:e","A3:e","F3:e","D3:e","F3:e","A3:e","D4:e"],
+        ["D4:e","A3:e","F3:e","D3:e","F3:e","A3:e","D4:e","A3:e"],
+        ["D3:q","A3:q","D4:q","D3:q"]
+      ]
+    },
+    {
+      "id": "t3e-011",
+      "slug": "dynamic-contrast-pp-ff",
+      "title": "Dynamic Contrast Study — pp to ff",
+      "summary": "Scale passages with extreme dynamic contrast from pianissimo to fortissimo.",
+      "goal": "Control the full dynamic range from pp to ff.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [{"measure": 1, "marking": "pp"}, {"measure": 3, "marking": "ff"}],
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["C5:e","B4:e","A4:e","G4:e","F4:e","E4:e","D4:e","C4:e"],
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["C5:e","B4:e","A4:e","G4:e","F4:e","E4:e","D4:e","C4:e"]
+      ]
+    },
+    {
+      "id": "t3e-012",
+      "slug": "dynamic-contrast-crescendo-decrescendo",
+      "title": "Dynamic Contrast — Crescendo & Decrescendo",
+      "summary": "Gradual crescendo then decrescendo through a scale passage.",
+      "goal": "Shape a smooth crescendo to forte then decrescendo back to piano.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [{"measure": 1, "marking": "p"}, {"measure": 2, "marking": "mf"}, {"measure": 3, "marking": "f"}, {"measure": 4, "marking": "p"}],
+      "measures": [
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:q","A4:q","B4:q","C5:q"],
+        ["C5:q","B4:q","A4:q","G4:q"],
+        ["F4:q","E4:q","D4:q","C4:q"]
+      ]
+    },
+    {
+      "id": "t3e-013",
+      "slug": "dynamic-contrast-subito",
+      "title": "Dynamic Contrast — Subito Changes",
+      "summary": "Sudden dynamic shifts between forte and piano.",
+      "goal": "Execute immediate dynamic changes without gradual transition.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [{"measure": 1, "marking": "f"}, {"measure": 2, "marking": "p"}, {"measure": 3, "marking": "ff"}, {"measure": 4, "marking": "pp"}],
+      "measures": [
+        ["[C4,E4,G4]:q","[C4,E4,G4]:q","[C4,E4,G4]:q","[C4,E4,G4]:q"],
+        ["[C4,E4,G4]:q","[C4,E4,G4]:q","[C4,E4,G4]:q","[C4,E4,G4]:q"],
+        ["[C4,E4,G4]:q","[C4,E4,G4]:q","[C4,E4,G4]:q","[C4,E4,G4]:q"],
+        ["[C4,E4,G4]:w"]
+      ]
+    },
+    {
+      "id": "t3e-014",
+      "slug": "dynamic-contrast-chords",
+      "title": "Dynamic Contrast — Chord Dynamics",
+      "summary": "Chord progressions with varied dynamics across all L3 keys.",
+      "goal": "Apply dynamic variety to chord progressions in multiple keys.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "dynamics": [{"measure": 1, "marking": "p"}, {"measure": 2, "marking": "mf"}, {"measure": 3, "marking": "f"}, {"measure": 4, "marking": "mp"}],
+      "measures": [
+        ["[C4,E4,G4]:h","[E4,G4,C5]:h"],
+        ["[G4,B4,D5]:h","[G4,C5,E5]:h"],
+        ["[F4,A4,C5]:h","[F4,Bb4,D5]:h"],
+        ["[C4,E4,G4]:w"]
+      ]
+    },
+    {
+      "id": "t3e-015",
+      "slug": "full-combo-c-major",
+      "title": "Full Combo — C Major",
+      "summary": "Scale + arpeggio + chord in C major as one continuous exercise.",
+      "goal": "Execute scale, arpeggio, and chord patterns seamlessly in C major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","D4:e","E4:e","F4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["C5:e","B4:e","A4:e","G4:e","F4:e","E4:e","D4:e","C4:e"],
+        ["C4:e","E4:e","G4:e","C5:e","E5:e","C5:e","G4:e","E4:e"],
+        ["[C4,E4,G4]:h","[E4,G4,C5]:h"]
+      ]
+    },
+    {
+      "id": "t3e-016",
+      "slug": "full-combo-g-major",
+      "title": "Full Combo — G Major",
+      "summary": "Scale + arpeggio + chord in G major as one continuous exercise.",
+      "goal": "Execute scale, arpeggio, and chord patterns seamlessly in G major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","E5:e","F#5:e","G5:e"],
+        ["G5:e","F#5:e","E5:e","D5:e","C5:e","B4:e","A4:e","G4:e"],
+        ["G4:e","B4:e","D5:e","G5:e","D5:e","B4:e","G4:e","B4:e"],
+        ["[G4,B4,D5]:h","[B4,D5,G5]:h"]
+      ]
+    },
+    {
+      "id": "t3e-017",
+      "slug": "full-combo-f-major",
+      "title": "Full Combo — F Major",
+      "summary": "Scale + arpeggio + chord in F major as one continuous exercise.",
+      "goal": "Execute scale, arpeggio, and chord patterns seamlessly in F major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","D5:e","E5:e","F5:e"],
+        ["F5:e","E5:e","D5:e","C5:e","Bb4:e","A4:e","G4:e","F4:e"],
+        ["F4:e","A4:e","C5:e","F5:e","C5:e","A4:e","F4:e","A4:e"],
+        ["[F4,A4,C5]:h","[A4,C5,F5]:h"]
+      ]
+    },
+    {
+      "id": "t3e-018",
+      "slug": "sight-reading-challenge-1",
+      "title": "Sight-Reading Challenge No. 1",
+      "summary": "Unfamiliar pattern mixing scales and chords in C and G.",
+      "goal": "Read and play an unfamiliar pattern accurately on first attempt.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["E4:q","G4:e","F4:e","A4:q","C5:q"],
+        ["B4:e","A4:e","G4:q","[C4,E4,G4]:h"],
+        ["D5:q","C5:e","B4:e","A4:q","G4:q"],
+        ["[C4,E4,G4]:h","C5:h"]
+      ]
+    },
+    {
+      "id": "t3e-019",
+      "slug": "sight-reading-challenge-2",
+      "title": "Sight-Reading Challenge No. 2",
+      "summary": "Mixed meter feel with scale fragments and chords in F major.",
+      "goal": "Navigate a challenging mix of rhythms and patterns in F major.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","A4:e","C5:q","[F4,A4,C5]:h"],
+        ["Bb4:q","A4:e","G4:e","F4:q","E4:q"],
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:q","A4:q"],
+        ["[F4,A4,C5]:w"]
+      ]
+    },
+    {
+      "id": "t3e-020",
+      "slug": "sight-reading-challenge-3",
+      "title": "Sight-Reading Challenge No. 3",
+      "summary": "Both hands with mixed patterns in A minor.",
+      "goal": "Coordinate both hands through an unfamiliar A minor passage.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["A4:q","C5:e","B4:e","E5:q","D5:q"],
+        ["C5:e","B4:e","A4:q","[A4,C5,E5]:h"],
+        ["E5:q","D5:e","C5:e","B4:q","A4:q"],
+        ["[A4,C5,E5]:w"]
+      ],
+      "measuresLeft": [
+        ["A2:q","E3:q","A3:q","E3:q"],
+        ["A2:h","A2:h"],
+        ["E3:q","A3:q","E3:q","A2:q"],
+        ["A2:w"]
+      ]
+    }
+  ]
+}

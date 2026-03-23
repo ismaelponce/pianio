@@ -1,0 +1,439 @@
+{
+  "courseId": "technique-level-3b",
+  "title": "Technique Level 3B — Expansion",
+  "level": 3,
+  "summary": "Scales with varied articulation (legato, staccato), chromatic scale fragments, Alberti-like broken chord patterns, pedal technique, and minor scale fluency.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "t3b-001",
+      "slug": "c-major-scale-legato-rh",
+      "title": "C Major Scale — Legato, RH",
+      "summary": "Right hand C major scale with smooth legato touch.",
+      "goal": "Play the C major scale with connected, singing legato.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:q","D4:q","E4:q","F4:q"],
+        ["G4:q","A4:q","B4:q","C5:q"],
+        ["C5:q","B4:q","A4:q","G4:q"],
+        ["F4:q","E4:q","D4:q","C4:q"]
+      ]
+    },
+    {
+      "id": "t3b-002",
+      "slug": "c-major-scale-staccato-rh",
+      "title": "C Major Scale — Staccato, RH",
+      "summary": "Right hand C major scale with crisp staccato touch.",
+      "goal": "Play the C major scale with bouncing staccato articulation.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","R:e","D4:e","R:e","E4:e","R:e","F4:e","R:e"],
+        ["G4:e","R:e","A4:e","R:e","B4:e","R:e","C5:e","R:e"],
+        ["C5:e","R:e","B4:e","R:e","A4:e","R:e","G4:e","R:e"],
+        ["F4:e","R:e","E4:e","R:e","D4:e","R:e","C4:e","R:e"]
+      ]
+    },
+    {
+      "id": "t3b-003",
+      "slug": "g-major-scale-legato-rh",
+      "title": "G Major Scale — Legato, RH",
+      "summary": "Right hand G major scale with smooth legato touch.",
+      "goal": "Play the G major scale legato with correct F# placement.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:q","A4:q","B4:q","C5:q"],
+        ["D5:q","E5:q","F#5:q","G5:q"],
+        ["G5:q","F#5:q","E5:q","D5:q"],
+        ["C5:q","B4:q","A4:q","G4:q"]
+      ]
+    },
+    {
+      "id": "t3b-004",
+      "slug": "g-major-scale-staccato-rh",
+      "title": "G Major Scale — Staccato, RH",
+      "summary": "Right hand G major scale with crisp staccato touch.",
+      "goal": "Play the G major scale with bouncing staccato in G.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","R:e","A4:e","R:e","B4:e","R:e","C5:e","R:e"],
+        ["D5:e","R:e","E5:e","R:e","F#5:e","R:e","G5:e","R:e"],
+        ["G5:e","R:e","F#5:e","R:e","E5:e","R:e","D5:e","R:e"],
+        ["C5:e","R:e","B4:e","R:e","A4:e","R:e","G4:e","R:e"]
+      ]
+    },
+    {
+      "id": "t3b-005",
+      "slug": "f-major-scale-legato-rh",
+      "title": "F Major Scale — Legato, RH",
+      "summary": "Right hand F major scale with smooth legato touch.",
+      "goal": "Play the F major scale legato with correct Bb placement.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:q","G4:q","A4:q","Bb4:q"],
+        ["C5:q","D5:q","E5:q","F5:q"],
+        ["F5:q","E5:q","D5:q","C5:q"],
+        ["Bb4:q","A4:q","G4:q","F4:q"]
+      ]
+    },
+    {
+      "id": "t3b-006",
+      "slug": "f-major-scale-staccato-rh",
+      "title": "F Major Scale — Staccato, RH",
+      "summary": "Right hand F major scale with crisp staccato touch.",
+      "goal": "Play the F major scale with bouncing staccato in F.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","R:e","G4:e","R:e","A4:e","R:e","Bb4:e","R:e"],
+        ["C5:e","R:e","D5:e","R:e","E5:e","R:e","F5:e","R:e"],
+        ["F5:e","R:e","E5:e","R:e","D5:e","R:e","C5:e","R:e"],
+        ["Bb4:e","R:e","A4:e","R:e","G4:e","R:e","F4:e","R:e"]
+      ]
+    },
+    {
+      "id": "t3b-007",
+      "slug": "chromatic-scale-c-to-f-rh",
+      "title": "Chromatic Scale C to F — RH",
+      "summary": "Right hand chromatic scale fragment ascending from C4 to F4.",
+      "goal": "Play chromatic half-steps smoothly from C to F.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","C#4:e","D4:e","D#4:e","E4:e","F4:e","E4:e","D#4:e"],
+        ["D4:e","C#4:e","C4:q","C4:e","C#4:e","D4:e","D#4:e"],
+        ["E4:e","F4:e","F#4:e","G4:e","G#4:e","A4:e","A#4:e","B4:e"],
+        ["C5:h","C4:h"]
+      ]
+    },
+    {
+      "id": "t3b-008",
+      "slug": "chromatic-scale-f-to-c-rh",
+      "title": "Chromatic Scale F to C — RH",
+      "summary": "Right hand chromatic scale fragment descending from F5 to C5.",
+      "goal": "Play chromatic half-steps smoothly descending from F to C.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F5:e","E5:e","D#5:e","D5:e","C#5:e","C5:e","C#5:e","D5:e"],
+        ["D#5:e","E5:e","F5:q","F5:e","E5:e","D#5:e","D5:e"],
+        ["C#5:e","C5:e","B4:e","Bb4:e","A4:e","G#4:e","G4:e","F#4:e"],
+        ["F4:h","C5:h"]
+      ]
+    },
+    {
+      "id": "t3b-009",
+      "slug": "chromatic-scale-lh",
+      "title": "Chromatic Scale Fragments — LH",
+      "summary": "Left hand chromatic scale ascending and descending.",
+      "goal": "Build chromatic fluency with the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C3:e","C#3:e","D3:e","D#3:e","E3:e","F3:e","F#3:e","G3:e"],
+        ["G#3:e","A3:e","A#3:e","B3:e","C4:h"],
+        ["C4:e","B3:e","A#3:e","A3:e","G#3:e","G3:e","F#3:e","F3:e"],
+        ["E3:e","D#3:e","D3:e","C#3:e","C3:h"]
+      ]
+    },
+    {
+      "id": "t3b-010",
+      "slug": "chromatic-scale-ht",
+      "title": "Chromatic Scale — Hands Together",
+      "summary": "Both hands play chromatic scale fragments in parallel.",
+      "goal": "Coordinate both hands through chromatic half-step patterns.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C4:e","C#4:e","D4:e","D#4:e","E4:e","F4:e","F#4:e","G4:e"],
+        ["G#4:e","A4:e","A#4:e","B4:e","C5:h"],
+        ["C5:e","B4:e","A#4:e","A4:e","G#4:e","G4:e","F#4:e","F4:e"],
+        ["E4:e","D#4:e","D4:e","C#4:e","C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:e","C#3:e","D3:e","D#3:e","E3:e","F3:e","F#3:e","G3:e"],
+        ["G#3:e","A3:e","A#3:e","B3:e","C4:h"],
+        ["C4:e","B3:e","A#3:e","A3:e","G#3:e","G3:e","F#3:e","F3:e"],
+        ["E3:e","D#3:e","D3:e","C#3:e","C3:h"]
+      ]
+    },
+    {
+      "id": "t3b-011",
+      "slug": "alberti-bass-c-major",
+      "title": "Alberti Bass Pattern — C Major",
+      "summary": "Left hand Alberti bass pattern (C-G-E-G) in C major.",
+      "goal": "Play the Alberti bass pattern smoothly in C major.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["C3:e","G3:e","E3:e","G3:e","C3:e","G3:e","E3:e","G3:e"],
+        ["F3:e","C4:e","A3:e","C4:e","F3:e","C4:e","A3:e","C4:e"],
+        ["G3:e","D4:e","B3:e","D4:e","G3:e","D4:e","B3:e","D4:e"],
+        ["C3:e","G3:e","E3:e","G3:e","C3:h"]
+      ]
+    },
+    {
+      "id": "t3b-012",
+      "slug": "alberti-bass-g-major",
+      "title": "Alberti Bass Pattern — G Major",
+      "summary": "Left hand Alberti bass pattern in G major.",
+      "goal": "Play the Alberti bass pattern smoothly in G major.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G2:e","D3:e","B2:e","D3:e","G2:e","D3:e","B2:e","D3:e"],
+        ["C3:e","G3:e","E3:e","G3:e","C3:e","G3:e","E3:e","G3:e"],
+        ["D3:e","A3:e","F#3:e","A3:e","D3:e","A3:e","F#3:e","A3:e"],
+        ["G2:e","D3:e","B2:e","D3:e","G2:h"]
+      ]
+    },
+    {
+      "id": "t3b-013",
+      "slug": "alberti-bass-f-major",
+      "title": "Alberti Bass Pattern — F Major",
+      "summary": "Left hand Alberti bass pattern in F major.",
+      "goal": "Play the Alberti bass pattern smoothly in F major.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": -1,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F2:e","C3:e","A2:e","C3:e","F2:e","C3:e","A2:e","C3:e"],
+        ["Bb2:e","F3:e","D3:e","F3:e","Bb2:e","F3:e","D3:e","F3:e"],
+        ["C3:e","G3:e","E3:e","G3:e","C3:e","G3:e","E3:e","G3:e"],
+        ["F2:e","C3:e","A2:e","C3:e","F2:h"]
+      ]
+    },
+    {
+      "id": "t3b-014",
+      "slug": "alberti-bass-am",
+      "title": "Alberti Bass Pattern — A Minor",
+      "summary": "Left hand Alberti bass pattern in A minor.",
+      "goal": "Play the Alberti bass pattern smoothly in A minor.",
+      "hands": "left",
+      "clef": "F",
+      "keySignature": 0,
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["A2:e","E3:e","C3:e","E3:e","A2:e","E3:e","C3:e","E3:e"],
+        ["D3:e","A3:e","F3:e","A3:e","D3:e","A3:e","F3:e","A3:e"],
+        ["E3:e","B3:e","G#3:e","B3:e","E3:e","B3:e","G#3:e","B3:e"],
+        ["A2:e","E3:e","C3:e","E3:e","A2:h"]
+      ]
+    },
+    {
+      "id": "t3b-015",
+      "slug": "pedal-sustained-bass-c",
+      "title": "Pedal Technique — Sustained Bass in C",
+      "summary": "Left hand sustained bass notes with legato melody in right hand.",
+      "goal": "Practice sustaining bass notes with the pedal while shaping a melody.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["E4:q","F4:q","G4:q","A4:q"],
+        ["G4:h","E4:h"],
+        ["F4:q","G4:q","A4:q","B4:q"],
+        ["C5:w"]
+      ],
+      "measuresLeft": [
+        ["C3:w"],
+        ["C3:w"],
+        ["F3:w"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "t3b-016",
+      "slug": "pedal-sustained-bass-g",
+      "title": "Pedal Technique — Sustained Bass in G",
+      "summary": "Left hand sustained bass with legato melody in G major.",
+      "goal": "Practice sustained pedal bass technique in G major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["B4:q","C5:q","D5:q","E5:q"],
+        ["D5:h","B4:h"],
+        ["C5:q","D5:q","E5:q","F#5:q"],
+        ["G5:w"]
+      ],
+      "measuresLeft": [
+        ["G2:w"],
+        ["G2:w"],
+        ["C3:w"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "t3b-017",
+      "slug": "pedal-sustained-bass-f",
+      "title": "Pedal Technique — Sustained Bass in F",
+      "summary": "Left hand sustained bass with legato melody in F major.",
+      "goal": "Practice sustained pedal bass technique in F major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["A4:q","Bb4:q","C5:q","D5:q"],
+        ["C5:h","A4:h"],
+        ["Bb4:q","C5:q","D5:q","E5:q"],
+        ["F5:w"]
+      ],
+      "measuresLeft": [
+        ["F2:w"],
+        ["F2:w"],
+        ["Bb2:w"],
+        ["F2:w"]
+      ]
+    },
+    {
+      "id": "t3b-018",
+      "slug": "a-minor-scale-fluency",
+      "title": "A Minor Scale Fluency",
+      "summary": "A harmonic minor scale at increased speed with varied rhythms.",
+      "goal": "Build fluency and speed in the A harmonic minor scale.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["A4:e","B4:e","C5:e","D5:e","E5:e","F5:e","G#5:e","A5:e"],
+        ["A5:e","G#5:e","F5:e","E5:e","D5:e","C5:e","B4:e","A4:e"],
+        ["A4:q","C5:e","B4:e","D5:q","C5:e","B4:e"],
+        ["A4:e","B4:e","C5:e","D5:e","E5:h"]
+      ]
+    },
+    {
+      "id": "t3b-019",
+      "slug": "d-minor-scale-fluency",
+      "title": "D Minor Scale Fluency",
+      "summary": "D harmonic minor scale at increased speed with varied rhythms.",
+      "goal": "Build fluency and speed in the D harmonic minor scale.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": -1,
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["D4:e","E4:e","F4:e","G4:e","A4:e","Bb4:e","C#5:e","D5:e"],
+        ["D5:e","C#5:e","Bb4:e","A4:e","G4:e","F4:e","E4:e","D4:e"],
+        ["D4:q","F4:e","E4:e","G4:q","F4:e","E4:e"],
+        ["D4:e","E4:e","F4:e","G4:e","A4:h"]
+      ]
+    },
+    {
+      "id": "t3b-020",
+      "slug": "minor-scale-fluency-ht",
+      "title": "Minor Scale Fluency — Hands Together",
+      "summary": "Both hands play A minor and D minor scales at speed.",
+      "goal": "Coordinate both hands in minor key scale runs.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["A4:e","B4:e","C5:e","D5:e","E5:e","F5:e","G#5:e","A5:e"],
+        ["A5:e","G#5:e","F5:e","E5:e","D5:e","C5:e","B4:e","A4:e"],
+        ["A4:q","C5:q","E5:q","A5:q"],
+        ["A5:q","E5:q","C5:q","A4:q"]
+      ],
+      "measuresLeft": [
+        ["A2:e","B2:e","C3:e","D3:e","E3:e","F3:e","G#3:e","A3:e"],
+        ["A3:e","G#3:e","F3:e","E3:e","D3:e","C3:e","B2:e","A2:e"],
+        ["A2:q","C3:q","E3:q","A3:q"],
+        ["A3:q","E3:q","C3:q","A2:q"]
+      ]
+    }
+  ]
+}

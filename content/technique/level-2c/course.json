@@ -1,0 +1,489 @@
+{
+  "courseId": "technique-level-2c",
+  "title": "Technique Level 2C — Combination",
+  "level": 2,
+  "summary": "Single-hand review combined with hands-together exercises in G major and F major. Parallel motion, contrary motion, melody with bass, and broken chord coordination.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "t2c-001",
+      "slug": "g-major-rh-review",
+      "title": "G Major RH Review",
+      "summary": "Right hand G major review combining eighth-note runs and broken chord patterns.",
+      "goal": "Fluently mix stepwise runs and arpeggiated G major patterns.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","C5:e","B4:e","A4:e"],
+        ["G4:e","B4:e","D5:e","B4:e","G4:e","B4:e","D5:e","B4:e"],
+        ["D5:e","C5:e","B4:e","A4:e","G4:e","A4:e","B4:e","C5:e"],
+        ["D5:q","C5:q","B4:q","A4:q"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "t2c-002",
+      "slug": "g-major-lh-review",
+      "title": "G Major LH Review",
+      "summary": "Left hand G major review combining eighth-note runs and broken chord patterns.",
+      "goal": "Fluently mix stepwise runs and arpeggiated G major patterns with the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G3:e","A3:e","B3:e","C4:e","D4:e","C4:e","B3:e","A3:e"],
+        ["G3:e","B3:e","D4:e","B3:e","G3:e","B3:e","D4:e","B3:e"],
+        ["D4:e","C4:e","B3:e","A3:e","G3:e","A3:e","B3:e","C4:e"],
+        ["D4:q","C4:q","B3:q","A3:q"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "t2c-003",
+      "slug": "f-major-rh-review",
+      "title": "F Major RH Review",
+      "summary": "Right hand F major review combining eighth-note runs and broken chord patterns.",
+      "goal": "Mix F major stepwise runs and F–A–C broken chord figures at speed.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","Bb4:e","A4:e","G4:e"],
+        ["F4:e","A4:e","C5:e","A4:e","F4:e","A4:e","C5:e","A4:e"],
+        ["C5:e","Bb4:e","A4:e","G4:e","F4:e","G4:e","A4:e","Bb4:e"],
+        ["C5:q","Bb4:q","A4:q","G4:q"],
+        ["F4:w"]
+      ]
+    },
+    {
+      "id": "t2c-004",
+      "slug": "f-major-lh-review",
+      "title": "F Major LH Review",
+      "summary": "Left hand F major review combining eighth-note runs and broken chord patterns.",
+      "goal": "Mix F major runs and F–A–C broken chord figures with the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F3:e","G3:e","A3:e","Bb3:e","C4:e","Bb3:e","A3:e","G3:e"],
+        ["F3:e","A3:e","C4:e","A3:e","F3:e","A3:e","C4:e","A3:e"],
+        ["C4:e","Bb3:e","A3:e","G3:e","F3:e","G3:e","A3:e","Bb3:e"],
+        ["C4:q","Bb3:q","A3:q","G3:q"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "t2c-005",
+      "slug": "g-major-rh-extended",
+      "title": "G Major RH Extended",
+      "summary": "Eight-measure right hand G major study in 3/4 mixing runs and broken chord figures.",
+      "goal": "Sustain an eight-measure G major phrase with fluent rhythm changes.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:q","A4:q","B4:q"],
+        ["C5:e","B4:e","A4:q","G4:q"],
+        ["G4:e","B4:e","D5:q","B4:q"],
+        ["D5:h","R:q"],
+        ["D5:q","C5:q","B4:q"],
+        ["A4:e","B4:e","C5:q","D5:q"],
+        ["C5:q","B4:q","A4:q"],
+        ["G4:h","R:q"]
+      ]
+    },
+    {
+      "id": "t2c-006",
+      "slug": "f-major-rh-rests",
+      "title": "F Major RH with Rests",
+      "summary": "Right hand F major study mixing eighth notes, quarter notes, and quarter rests.",
+      "goal": "Re-enter cleanly after rests in an F major phrase, placing Bb accurately.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:q","R:q","G4:q","A4:q"],
+        ["Bb4:e","A4:e","G4:q","R:q","F4:q"],
+        ["F4:e","G4:e","A4:e","Bb4:e","C5:e","Bb4:e","A4:e","G4:e"],
+        ["C5:q","Bb4:q","R:q","A4:q"],
+        ["G4:q","R:q","F4:q","A4:q"],
+        ["F4:w"]
+      ]
+    },
+    {
+      "id": "t2c-007",
+      "slug": "f-major-lh-extended",
+      "title": "F Major LH Extended",
+      "summary": "Eight-measure left hand F major study in 3/4 mixing runs and broken chord figures.",
+      "goal": "Build LH fluency over a long F major phrase, placing Bb3 with confidence.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 88,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F3:q","G3:q","A3:q"],
+        ["Bb3:e","A3:e","G3:q","F3:q"],
+        ["F3:e","A3:e","C4:q","A3:q"],
+        ["C4:h","R:q"],
+        ["C4:q","Bb3:q","A3:q"],
+        ["G3:e","A3:e","Bb3:q","C4:q"],
+        ["Bb3:q","A3:q","G3:q"],
+        ["F3:h","R:q"]
+      ]
+    },
+    {
+      "id": "t2c-008",
+      "slug": "g-major-rh-velocity",
+      "title": "G Major RH Velocity",
+      "summary": "Right hand G major velocity study with continuous eighth notes at a brisk tempo.",
+      "goal": "Play clean, even eighth notes through G major at increased speed.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","A4:e","B4:e","C5:e","D5:e","C5:e","B4:e","A4:e"],
+        ["B4:e","A4:e","G4:e","A4:e","B4:e","C5:e","D5:e","C5:e"],
+        ["B4:e","C5:e","D5:e","C5:e","B4:e","A4:e","G4:e","A4:e"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "t2c-009",
+      "slug": "f-major-lh-velocity",
+      "title": "F Major LH Velocity",
+      "summary": "Left hand F major velocity study with continuous eighth notes at a brisk tempo.",
+      "goal": "Play clean, even eighth notes through F major with the left hand at speed.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F3:e","G3:e","A3:e","Bb3:e","C4:e","Bb3:e","A3:e","G3:e"],
+        ["A3:e","G3:e","F3:e","G3:e","A3:e","Bb3:e","C4:e","Bb3:e"],
+        ["A3:e","Bb3:e","C4:e","Bb3:e","A3:e","G3:e","F3:e","G3:e"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "t2c-010",
+      "slug": "g-major-lh-rests",
+      "title": "G Major LH with Rests",
+      "summary": "Left hand G major study mixing eighth notes, quarter notes, and quarter rests.",
+      "goal": "Hold rests steady and re-enter precisely in G major with the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G3:q","R:q","A3:q","B3:q"],
+        ["C4:e","B3:e","A3:q","R:q","G3:q"],
+        ["G3:e","B3:e","D4:e","B3:e","G3:e","A3:e","B3:e","C4:e"],
+        ["D4:q","C4:q","R:q","B3:q"],
+        ["A3:q","R:q","G3:q","B3:q"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "t2c-011",
+      "slug": "g-major-parallel-motion",
+      "title": "G Major Parallel Motion",
+      "summary": "Both hands move in parallel through the G major five-finger position.",
+      "goal": "Coordinate both hands in G major, moving in the same direction simultaneously.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:q","A4:q","B4:q","C5:q"],
+        ["D5:h","C5:h"],
+        ["B4:q","A4:q","G4:q","A4:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G3:q","A3:q","B3:q","C4:q"],
+        ["D4:h","C4:h"],
+        ["B3:q","A3:q","G3:q","A3:q"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "t2c-012",
+      "slug": "g-major-contrary-motion",
+      "title": "G Major Contrary Motion",
+      "summary": "Hands move in opposite directions: RH ascends while LH descends in G major.",
+      "goal": "Track independent directions with each hand simultaneously in G major.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:q","A4:q","B4:q","C5:q"],
+        ["D5:h","C5:h"],
+        ["B4:q","A4:q","G4:q","A4:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["D4:q","C4:q","B3:q","A3:q"],
+        ["G3:h","A3:h"],
+        ["B3:q","C4:q","D4:q","C4:q"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "t2c-013",
+      "slug": "f-major-parallel-motion",
+      "title": "F Major Parallel Motion",
+      "summary": "Both hands move in parallel through the F major five-finger position.",
+      "goal": "Coordinate both hands in F major, placing Bb accurately in both hands.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:q","G4:q","A4:q","Bb4:q"],
+        ["C5:h","Bb4:h"],
+        ["A4:q","G4:q","F4:q","G4:q"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["F3:q","G3:q","A3:q","Bb3:q"],
+        ["C4:h","Bb3:h"],
+        ["A3:q","G3:q","F3:q","G3:q"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "t2c-014",
+      "slug": "f-major-contrary-motion",
+      "title": "F Major Contrary Motion",
+      "summary": "Hands move in opposite directions in F major: RH ascends while LH descends.",
+      "goal": "Track contrary motion in F major, placing Bb in both hands independently.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:q","G4:q","A4:q","Bb4:q"],
+        ["C5:h","Bb4:h"],
+        ["A4:q","G4:q","F4:q","G4:q"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["C4:q","Bb3:q","A3:q","G3:q"],
+        ["F3:h","G3:h"],
+        ["A3:q","Bb3:q","C4:q","Bb3:q"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "t2c-015",
+      "slug": "g-major-melody-bass",
+      "title": "G Major Melody and Bass",
+      "summary": "RH plays a flowing eighth-note melody while LH holds half-note bass notes.",
+      "goal": "Maintain independent rhythms in each hand across a G major phrase.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","A4:e","B4:q","C5:q","D5:q"],
+        ["D5:e","C5:e","B4:q","A4:h"],
+        ["C5:e","D5:e","C5:q","B4:q","A4:q"],
+        ["B4:e","A4:e","G4:q","A4:h"],
+        ["D5:e","C5:e","B4:e","A4:e","G4:q","R:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G3:h","D4:h"],
+        ["G3:h","B3:h"],
+        ["C4:h","G3:h"],
+        ["D4:h","G3:h"],
+        ["G3:h","B3:h"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "t2c-016",
+      "slug": "f-major-melody-bass",
+      "title": "F Major Melody and Bass",
+      "summary": "RH plays a flowing melody in F major while LH holds sustained bass notes.",
+      "goal": "Balance melody and bass with independent rhythms in F major.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","G4:e","A4:q","Bb4:q","C5:q"],
+        ["C5:e","Bb4:e","A4:q","G4:h"],
+        ["Bb4:e","C5:e","Bb4:q","A4:q","G4:q"],
+        ["A4:e","G4:e","F4:q","G4:h"],
+        ["C5:e","Bb4:e","A4:e","G4:e","F4:q","R:q"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["F3:h","C4:h"],
+        ["F3:h","A3:h"],
+        ["Bb3:h","F3:h"],
+        ["C4:h","F3:h"],
+        ["F3:h","A3:h"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "t2c-017",
+      "slug": "g-major-broken-chord-together",
+      "title": "G Major Broken Chord Together",
+      "summary": "Both hands arpeggiate the G major triad simultaneously.",
+      "goal": "Coordinate broken chord G–B–D figures in both hands at the same time.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:e","B4:e","D5:e","B4:e","G4:e","B4:e","D5:e","B4:e"],
+        ["D5:e","B4:e","G4:e","B4:e","D5:e","B4:e","G4:e","B4:e"],
+        ["G4:e","A4:e","B4:e","D5:e","B4:e","A4:e","G4:e","R:e"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G3:e","B3:e","D4:e","B3:e","G3:e","B3:e","D4:e","B3:e"],
+        ["D4:e","B3:e","G3:e","B3:e","D4:e","B3:e","G3:e","B3:e"],
+        ["G3:e","A3:e","B3:e","D4:e","B3:e","A3:e","G3:e","R:e"],
+        ["G3:w"]
+      ]
+    },
+    {
+      "id": "t2c-018",
+      "slug": "f-major-broken-chord-together",
+      "title": "F Major Broken Chord Together",
+      "summary": "Both hands arpeggiate the F major triad simultaneously.",
+      "goal": "Coordinate broken chord F–A–C figures in both hands at the same time.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:e","A4:e","C5:e","A4:e","F4:e","A4:e","C5:e","A4:e"],
+        ["C5:e","A4:e","F4:e","A4:e","C5:e","A4:e","F4:e","A4:e"],
+        ["F4:e","G4:e","A4:e","C5:e","A4:e","G4:e","F4:e","R:e"],
+        ["F4:w"]
+      ],
+      "measuresLeft": [
+        ["F3:e","A3:e","C4:e","A3:e","F3:e","A3:e","C4:e","A3:e"],
+        ["C4:e","A3:e","F3:e","A3:e","C4:e","A3:e","F3:e","A3:e"],
+        ["F3:e","G3:e","A3:e","C4:e","A3:e","G3:e","F3:e","R:e"],
+        ["F3:w"]
+      ]
+    },
+    {
+      "id": "t2c-019",
+      "slug": "g-major-grand-staff-extended",
+      "title": "G Major Grand Staff Extended",
+      "summary": "Eight-measure grand-staff piece in G major with RH melody and LH harmonic support.",
+      "goal": "Perform a complete G major grand-staff piece with musical phrasing.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 84,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["G4:q","A4:q","B4:q"],
+        ["C5:e","B4:e","A4:q","G4:q"],
+        ["B4:e","C5:e","D5:q","C5:q"],
+        ["D5:h","R:q"],
+        ["D5:q","C5:q","B4:q"],
+        ["A4:e","B4:e","C5:q","D5:q"],
+        ["B4:q","A4:q","G4:q"],
+        ["G4:h","R:q"]
+      ],
+      "measuresLeft": [
+        ["G3:h","B3:q"],
+        ["C4:q","D4:q","G3:q"],
+        ["D4:h","G3:q"],
+        ["G3:h","R:q"],
+        ["G3:q","B3:q","D4:q"],
+        ["C4:h","G3:q"],
+        ["D4:q","B3:q","G3:q"],
+        ["G3:h","R:q"]
+      ]
+    },
+    {
+      "id": "t2c-020",
+      "slug": "f-major-grand-staff-extended",
+      "title": "F Major Grand Staff Extended",
+      "summary": "Eight-measure grand-staff piece in F major with RH melody and LH harmonic support.",
+      "goal": "Perform a complete F major grand-staff piece with Bb placed naturally.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 84,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": { "type": "CC0-1.0", "attribution": "", "notes": "" },
+      "measures": [
+        ["F4:q","G4:q","A4:q"],
+        ["Bb4:e","A4:e","G4:q","F4:q"],
+        ["A4:e","Bb4:e","C5:q","Bb4:q"],
+        ["C5:h","R:q"],
+        ["C5:q","Bb4:q","A4:q"],
+        ["G4:e","A4:e","Bb4:q","C5:q"],
+        ["Bb4:q","A4:q","G4:q"],
+        ["F4:h","R:q"]
+      ],
+      "measuresLeft": [
+        ["F3:h","A3:q"],
+        ["Bb3:q","C4:q","F3:q"],
+        ["C4:h","F3:q"],
+        ["F3:h","R:q"],
+        ["F3:q","A3:q","C4:q"],
+        ["Bb3:h","F3:q"],
+        ["C4:q","A3:q","F3:q"],
+        ["F3:h","R:q"]
+      ]
+    }
+  ]
+}

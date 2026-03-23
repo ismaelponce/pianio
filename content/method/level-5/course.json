@@ -1,0 +1,308 @@
+{
+  "courseId": "method-level-5",
+  "title": "Method Level 5",
+  "level": 5,
+  "summary": "Bb major (2 flats) and Eb major (3 flats), relative minors, eighth-note études, and waltz-style pieces bridging into intermediate reading.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "method5-001",
+      "slug": "bb-scale-rh",
+      "title": "Bb Major Scale RH",
+      "summary": "Right hand Bb major scale across a full octave with Bb and Eb.",
+      "goal": "Read and play all eight notes of Bb major, noting both flats.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "keySignature": -2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:q", "C5:q", "D5:q", "Eb5:q"],
+        ["F5:q", "G5:q", "A5:q", "Bb5:q"],
+        ["Bb5:w"]
+      ]
+    },
+    {
+      "id": "method5-002",
+      "slug": "bb-scale-lh",
+      "title": "Bb Major Scale LH",
+      "summary": "Left hand Bb major scale across a full octave in bass clef.",
+      "goal": "Read and play Bb major in bass clef with accurate Bb and Eb.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 69,
+      "timeSignature": [4, 4],
+      "keySignature": -2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb3:q", "C4:q", "D4:q", "Eb4:q"],
+        ["F4:q", "G4:q", "A4:q", "Bb4:q"],
+        ["Bb4:w"]
+      ]
+    },
+    {
+      "id": "method5-003",
+      "slug": "eb-five-finger-rh",
+      "title": "Eb Major Five-Finger RH",
+      "summary": "Right hand Eb major five-finger pattern with three flats.",
+      "goal": "Play Eb major five-finger with accurate Eb, Ab, and Bb.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "keySignature": -3,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:q", "F4:q", "G4:q", "Ab4:q"],
+        ["Bb4:q", "Ab4:q", "G4:q", "F4:q"],
+        ["Eb4:w"]
+      ]
+    },
+    {
+      "id": "method5-004",
+      "slug": "eb-five-finger-lh",
+      "title": "Eb Major Five-Finger LH",
+      "summary": "Left hand Eb major five-finger pattern in bass clef.",
+      "goal": "Navigate Eb major with three flats in the left hand.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 63,
+      "timeSignature": [4, 4],
+      "keySignature": -3,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb3:q", "F3:q", "G3:q", "Ab3:q"],
+        ["Bb3:q", "Ab3:q", "G3:q", "F3:q"],
+        ["Eb3:w"]
+      ]
+    },
+    {
+      "id": "method5-005",
+      "slug": "bb-melody-rh",
+      "title": "Bb Major Melody RH",
+      "summary": "A four-measure singable melody in Bb major using tonic, third, and fifth.",
+      "goal": "Shape a lyrical melody using the Bb major triad tones across four phrases.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "keySignature": -2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:q", "D5:q", "F5:q", "D5:q"],
+        ["Eb5:q", "C5:q", "Bb4:q", "C5:q"],
+        ["D5:q", "F5:q", "Eb5:q", "D5:q"],
+        ["C5:h", "Bb4:h"]
+      ]
+    },
+    {
+      "id": "method5-006",
+      "slug": "eb-scale-rh",
+      "title": "Eb Major Scale RH Full Octave",
+      "summary": "Right hand Eb major scale across a full octave with all three flats.",
+      "goal": "Play the complete Eb major scale cleanly, landing each flat accurately.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "keySignature": -3,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:q", "F4:q", "G4:q", "Ab4:q"],
+        ["Bb4:q", "C5:q", "D5:q", "Eb5:q"],
+        ["Eb5:w"]
+      ]
+    },
+    {
+      "id": "method5-007",
+      "slug": "eb-scale-lh",
+      "title": "Eb Major Scale LH Full Octave",
+      "summary": "Left hand Eb major scale across a full octave in bass clef.",
+      "goal": "Read and play the complete Eb major scale in bass clef with three flats.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 69,
+      "timeSignature": [4, 4],
+      "keySignature": -3,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb3:q", "F3:q", "G3:q", "Ab3:q"],
+        ["Bb3:q", "C4:q", "D4:q", "Eb4:q"],
+        ["Eb4:w"]
+      ]
+    },
+    {
+      "id": "method5-008",
+      "slug": "waltz-in-bb",
+      "title": "Waltz in Bb",
+      "summary": "A waltz-style melody in 3/4 in Bb major spanning a full phrase.",
+      "goal": "Feel the waltz lilt in 3/4 while playing a smooth Bb major melody.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [3, 4],
+      "keySignature": -2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:q", "D5:q", "F5:q"],
+        ["G5:q", "F5:q", "Eb5:q"],
+        ["D5:q", "C5:q", "Bb4:q"],
+        ["C5:q", "Bb4:q", "A4:q"],
+        ["Bb4:h", "D5:q"],
+        ["Bb4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "method5-009",
+      "slug": "bb-eighth-etude",
+      "title": "Eighth-Note Étude in Bb",
+      "summary": "Ascending and descending Bb major in eighth notes across an extended range.",
+      "goal": "Keep eighth notes even through register shifts in a flat key.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "keySignature": -2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:e", "C5:e", "D5:e", "Eb5:e", "F5:e", "G5:e", "A5:e", "Bb5:e"],
+        ["Bb5:e", "A5:e", "G5:e", "F5:e", "Eb5:e", "D5:e", "C5:e", "Bb4:e"],
+        ["D5:e", "C5:e", "Bb4:e", "A4:e", "G4:e", "F4:e", "Eb4:e", "D4:e"],
+        ["Eb4:h", "Bb4:h"]
+      ]
+    },
+    {
+      "id": "method5-010",
+      "slug": "bb-bass-line-lh",
+      "title": "Bb Bass Line LH",
+      "summary": "Left hand broken-chord bass pattern using Bb, Eb, and F positions.",
+      "goal": "Play a flowing arpeggiated bass line across three Bb-key chord shapes.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "keySignature": -2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb2:q", "F3:q", "Bb3:q", "F3:q"],
+        ["Eb3:q", "G3:q", "Bb3:q", "G3:q"],
+        ["F3:q", "A3:q", "C4:q", "A3:q"],
+        ["Bb3:h", "Bb2:h"]
+      ]
+    },
+    {
+      "id": "method5-011",
+      "slug": "eb-melody-rh",
+      "title": "Eb Major Melody RH",
+      "summary": "A flowing melody in Eb major using tonic, third, fifth, and sixth.",
+      "goal": "Play a smooth Eb melody with accurate Ab and Bb in a musical phrase.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "keySignature": -3,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Eb4:q", "G4:q", "Bb4:q", "G4:q"],
+        ["Ab4:q", "F4:q", "Eb4:q", "F4:q"],
+        ["G4:q", "Bb4:q", "Ab4:q", "G4:q"],
+        ["F4:h", "Eb4:h"]
+      ]
+    },
+    {
+      "id": "method5-012",
+      "slug": "bb-mixed-rhythm",
+      "title": "Mixed Rhythm Study in Bb",
+      "summary": "A melody mixing half notes, quarter notes, and eighth notes in Bb.",
+      "goal": "Hold longer notes while executing quick eighth-note runs in a flat key.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 78,
+      "timeSignature": [4, 4],
+      "keySignature": -2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:h", "D5:q", "Eb5:q"],
+        ["F5:e", "G5:e", "F5:e", "Eb5:e", "D5:h"],
+        ["Eb5:q", "D5:q", "C5:q", "Bb4:q"],
+        ["A4:h", "Bb4:h"]
+      ]
+    },
+    {
+      "id": "method5-013",
+      "slug": "g-minor-five-finger-rh",
+      "title": "G Minor Five-Finger RH",
+      "summary": "Right hand G natural minor five-finger pattern, relative minor of Bb.",
+      "goal": "Feel the darker color of the relative minor using the same Bb key signature.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 66,
+      "timeSignature": [4, 4],
+      "keySignature": -2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "A4:q", "Bb4:q", "C5:q"],
+        ["D5:q", "C5:q", "Bb4:q", "A4:q"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "method5-014",
+      "slug": "g-minor-melody",
+      "title": "G Minor Melody",
+      "summary": "A four-phrase melody in G natural minor sharing the Bb key signature.",
+      "goal": "Contrast the minor mood against the Bb major pieces learned in this level.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "keySignature": -2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:h", "A4:q", "Bb4:q"],
+        ["C5:q", "D5:q", "C5:q", "Bb4:q"],
+        ["A4:q", "Bb4:q", "G4:q", "A4:q"],
+        ["G4:w"]
+      ]
+    },
+    {
+      "id": "method5-015",
+      "slug": "cantabile-in-bb",
+      "title": "Cantabile in Bb",
+      "summary": "A flowing eight-measure piece in Bb major drawing on all Level 5 skills.",
+      "goal": "Play a lyrical piece in Bb major with smooth phrasing and steady rhythm.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "keySignature": -2,
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["Bb4:h", "D5:h"],
+        ["Eb5:q", "D5:q", "C5:q", "Bb4:q"],
+        ["F5:h", "Eb5:q", "D5:q"],
+        ["C5:w"],
+        ["D5:h", "F5:h"],
+        ["Eb5:q", "C5:q", "D5:q", "Eb5:q"],
+        ["F5:h", "Bb4:h"],
+        ["Bb4:w"]
+      ]
+    }
+  ]
+}

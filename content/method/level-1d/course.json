@@ -1,0 +1,553 @@
+{
+  "courseId": "method-level-1d",
+  "title": "Method Level 1D — Application",
+  "level": 1,
+  "summary": "Musical phrases and character pieces in C position — apply technique with dynamics, dotted rhythms, and ties inside real melodic contexts. Includes folk songs Jolly Old Saint Nicholas and Yankee Doodle.",
+  "sourcePolicy": "original_only",
+  "exercises": [
+    {
+      "id": "m1d-001",
+      "slug": "morning-song",
+      "title": "Morning Song",
+      "summary": "A five-measure right-hand melody with a gentle rise and fall, ending on a dotted half note.",
+      "goal": "Shape a musical phrase with clear soft-to-loud contrast and a dotted half ending.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["F4:q", "E4:q", "D4:h"],
+        ["E4:q", "D4:q", "C4:q", "D4:q"],
+        ["E4:h", "C4:h"],
+        ["C4:dh", "R:q"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "p"},
+        {"measure": 3, "marking": "f"},
+        {"measure": 5, "marking": "p"}
+      ]
+    },
+    {
+      "id": "m1d-002",
+      "slug": "evening-hymn",
+      "title": "Evening Hymn",
+      "summary": "Slow half-note hymn melody descending peacefully to C with a dotted half ending.",
+      "goal": "Sustain long tones with a calm, singing quality at piano dynamic.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 50,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:h", "E4:h"],
+        ["G4:h", "F4:h"],
+        ["E4:h", "D4:h"],
+        ["C4:dh", "R:q"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "p"}
+      ]
+    },
+    {
+      "id": "m1d-003",
+      "slug": "dance-tune",
+      "title": "Dance Tune",
+      "summary": "A light six-measure dance in 3/4 with a lift on beat 1.",
+      "goal": "Convey a dance character with clear forte dynamic and strong-beat emphasis.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 70,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q"],
+        ["G4:h", "R:q"],
+        ["F4:q", "E4:q", "D4:q"],
+        ["E4:h", "R:q"],
+        ["D4:q", "E4:q", "D4:q"],
+        ["C4:h", "R:q"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ]
+    },
+    {
+      "id": "m1d-004",
+      "slug": "lullaby-phrase",
+      "title": "Jolly Old Saint Nicholas",
+      "summary": "The beloved Christmas folk song arranged for right hand in C position with dotted half notes.",
+      "goal": "Play a recognizable folk melody with dotted half notes and dynamic contrast.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional American Christmas carol, public domain", "notes": "Simplified arrangement in C position for beginner piano."},
+      "category": "festive",
+      "measures": [
+        ["E4:q", "E4:q", "E4:q", "E4:q"],
+        ["D4:q", "D4:q", "D4:h"],
+        ["C4:q", "C4:q", "C4:q", "C4:q"],
+        ["D4:dh", "R:q"],
+        ["E4:q", "E4:q", "E4:q", "E4:q"],
+        ["D4:q", "D4:q", "C4:q", "D4:q"],
+        ["E4:dh", "R:q"],
+        ["C4:w"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "p"},
+        {"measure": 5, "marking": "f"}
+      ]
+    },
+    {
+      "id": "m1d-005",
+      "slug": "walking-song",
+      "title": "Walking Song",
+      "summary": "A seven-measure walking tune in 2/4 with a steady step feel.",
+      "goal": "Play with a light, walking character at forte dynamic.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q"],
+        ["E4:q", "F4:q"],
+        ["G4:q", "F4:q"],
+        ["E4:q", "D4:q"],
+        ["E4:q", "C4:q"],
+        ["D4:h"],
+        ["C4:h"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ]
+    },
+    {
+      "id": "m1d-006",
+      "slug": "bass-morning-song",
+      "title": "Bass Morning Song",
+      "summary": "Left hand plays the morning song melody in bass clef, ending on a dotted half note.",
+      "goal": "Shape a phrase with musical direction in the bass register with dynamic contrast.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "E3:q", "G3:q", "E3:q"],
+        ["F3:q", "E3:q", "D3:h"],
+        ["E3:q", "D3:q", "C3:q", "D3:q"],
+        ["E3:h", "C3:h"],
+        ["C3:dh", "R:q"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "p"},
+        {"measure": 3, "marking": "f"},
+        {"measure": 5, "marking": "p"}
+      ]
+    },
+    {
+      "id": "m1d-007",
+      "slug": "bass-evening-hymn",
+      "title": "Bass Evening Hymn",
+      "summary": "Slow hymn melody in bass clef descending to C with a dotted half ending.",
+      "goal": "Produce a deep, sustained tone on each half note at piano dynamic.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 50,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:h", "E3:h"],
+        ["G3:h", "F3:h"],
+        ["E3:h", "D3:h"],
+        ["C3:dh", "R:q"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "p"}
+      ]
+    },
+    {
+      "id": "m1d-008",
+      "slug": "bass-dance",
+      "title": "Bass Dance",
+      "summary": "Left hand plays the dance tune in 3/4 bass clef.",
+      "goal": "Convey dance character with clear forte emphasis in the bass.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 70,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "D3:q", "E3:q"],
+        ["G3:h", "R:q"],
+        ["F3:q", "E3:q", "D3:q"],
+        ["E3:h", "R:q"],
+        ["D3:q", "E3:q", "D3:q"],
+        ["C3:h", "R:q"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ]
+    },
+    {
+      "id": "m1d-009",
+      "slug": "bass-lullaby",
+      "title": "Bass Lullaby",
+      "summary": "Gentle left-hand lullaby in bass clef.",
+      "goal": "Play softly and smoothly, conveying a rocking lullaby feel at piano dynamic.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 54,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "D3:q", "E3:h"],
+        ["G3:q", "E3:q", "F3:h"],
+        ["E3:q", "D3:q", "E3:h"],
+        ["C3:w"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "p"}
+      ]
+    },
+    {
+      "id": "m1d-010",
+      "slug": "bass-walking-song",
+      "title": "Bass Walking Song",
+      "summary": "Left hand walks steadily in 2/4 bass clef style.",
+      "goal": "Maintain a light, walking character in the bass register at forte.",
+      "hands": "left",
+      "clef": "F",
+      "tempoBpm": 72,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C3:q", "D3:q"],
+        ["E3:q", "F3:q"],
+        ["G3:q", "F3:q"],
+        ["E3:q", "D3:q"],
+        ["E3:q", "C3:q"],
+        ["D3:h"],
+        ["C3:h"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ]
+    },
+    {
+      "id": "m1d-011",
+      "slug": "morning-duet",
+      "title": "Morning Duet",
+      "summary": "Both hands play the morning song melody together in parallel with dynamic shading.",
+      "goal": "Play an identical phrase in both hands with a piano-to-forte swell.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["F4:q", "E4:q", "D4:h"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "E3:q", "G3:q", "E3:q"],
+        ["F3:q", "E3:q", "D3:h"],
+        ["C3:w"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "p"},
+        {"measure": 2, "marking": "f"}
+      ]
+    },
+    {
+      "id": "m1d-012",
+      "slug": "hymn-together",
+      "title": "Hymn Together",
+      "summary": "Right hand carries the hymn melody with a tied note across the barline while left hand sustains whole-note harmonies.",
+      "goal": "Sustain a tied note across a barline while maintaining the left-hand accompaniment.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 52,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "F4:q"],
+        ["G4:h", "E4:h~"],
+        ["E4:q", "D4:q", "C4:q", "D4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:w"],
+        ["E3:w"],
+        ["G3:w"],
+        ["C3:w"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "p"},
+        {"measure": 3, "marking": "f"}
+      ]
+    },
+    {
+      "id": "m1d-013",
+      "slug": "dance-together",
+      "title": "Dance Together",
+      "summary": "Both hands dance in 3/4 — right hand melodic, left hand rhythmic.",
+      "goal": "Keep both hands coordinated in a dance character with forte energy.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 70,
+      "timeSignature": [3, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q"],
+        ["F4:q", "E4:q", "D4:q"],
+        ["G4:h", "R:q"],
+        ["E4:q", "D4:q", "C4:q"],
+        ["C4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["C3:h", "R:q"],
+        ["G3:h", "R:q"],
+        ["C3:q", "D3:q", "E3:q"],
+        ["G3:h", "R:q"],
+        ["C3:h", "R:q"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ]
+    },
+    {
+      "id": "m1d-014",
+      "slug": "lullaby-duet",
+      "title": "Lullaby Duet",
+      "summary": "Right hand carries the lullaby with a tied C across the barline while left hand rocks gently.",
+      "goal": "Sustain a tied note into the final measure for a gentle, held lullaby ending.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 54,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:h"],
+        ["G4:q", "E4:q", "F4:h"],
+        ["E4:q", "D4:q", "C4:h~"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:h", "G3:h"],
+        ["E3:h", "C3:h"],
+        ["G3:h", "E3:h"],
+        ["C3:w"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "p"}
+      ]
+    },
+    {
+      "id": "m1d-015",
+      "slug": "walking-together",
+      "title": "Walking Together",
+      "summary": "Both hands walk together in 2/4 in parallel motion.",
+      "goal": "Sustain a unified walking character with both hands at forte.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [2, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "E4:q"],
+        ["D4:q", "F4:q"],
+        ["E4:q", "G4:q"],
+        ["G4:q", "F4:q"],
+        ["E4:q", "D4:q"],
+        ["C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "E3:q"],
+        ["D3:q", "F3:q"],
+        ["E3:q", "G3:q"],
+        ["G3:q", "F3:q"],
+        ["E3:q", "D3:q"],
+        ["C3:h"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ]
+    },
+    {
+      "id": "m1d-016",
+      "slug": "question-answer-full",
+      "title": "Question and Answer — Full",
+      "summary": "Right hand asks a forte question; left hand responds piano.",
+      "goal": "Shape a call-and-response dialogue with dynamic contrast between hands.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "G4:q"],
+        ["R:w"],
+        ["E4:q", "D4:q", "C4:h"]
+      ],
+      "measuresLeft": [
+        ["R:w"],
+        ["G3:q", "F3:q", "E3:q", "D3:q"],
+        ["C3:w"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "f"},
+        {"measure": 2, "marking": "p"},
+        {"measure": 3, "marking": "f"}
+      ]
+    },
+    {
+      "id": "m1d-017",
+      "slug": "flowing-contrary",
+      "title": "Flowing Contrary",
+      "summary": "Hands move in opposite directions with a tied F across the barline then converge on C.",
+      "goal": "Track contrary motion with a sustained tied note bridging two measures.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 58,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "F4:q"],
+        ["G4:h", "F4:h~"],
+        ["F4:q", "E4:q", "D4:q", "C4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["G3:q", "F3:q", "E3:q", "D3:q"],
+        ["C3:h", "D3:h"],
+        ["E3:q", "F3:q", "G3:h"],
+        ["C3:w"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "p"},
+        {"measure": 2, "marking": "f"},
+        {"measure": 4, "marking": "p"}
+      ]
+    },
+    {
+      "id": "m1d-018",
+      "slug": "flowing-melody",
+      "title": "Yankee Doodle",
+      "summary": "The patriotic march arranged for both hands with dotted half notes and simple bass accompaniment.",
+      "goal": "Play a recognizable march melody with both hands and dotted half note phrasing.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional American patriotic song, public domain", "notes": "Simplified arrangement in C position for beginner piano."},
+      "category": "patriotic",
+      "measures": [
+        ["C4:q", "C4:q", "D4:q", "E4:q"],
+        ["C4:q", "E4:q", "D4:h"],
+        ["C4:q", "C4:q", "D4:q", "E4:q"],
+        ["C4:dh", "R:q"],
+        ["C4:q", "C4:q", "D4:q", "E4:q"],
+        ["F4:q", "E4:q", "D4:q", "C4:q"],
+        ["D4:q", "E4:q", "D4:h"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:w"],
+        ["G3:h", "E3:h"],
+        ["C3:w"],
+        ["C3:dh", "R:q"],
+        ["C3:w"],
+        ["F3:h", "C3:h"],
+        ["G3:h", "E3:h"],
+        ["C3:w"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "f"}
+      ]
+    },
+    {
+      "id": "m1d-019",
+      "slug": "two-voice-song",
+      "title": "Two Voice Song",
+      "summary": "Both hands carry independent melodic lines that move against each other with dynamic shading.",
+      "goal": "Maintain two independent voices with clear tone and dynamic contrast.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 60,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["G4:q", "F4:q", "E4:q", "D4:q"],
+        ["E4:h", "G4:h"],
+        ["F4:q", "E4:q", "D4:h"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:q", "D3:q", "E3:q", "F3:q"],
+        ["G3:h", "C3:h"],
+        ["G3:q", "F3:q", "E3:h"],
+        ["C3:w"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "p"},
+        {"measure": 3, "marking": "f"}
+      ]
+    },
+    {
+      "id": "m1d-020",
+      "slug": "application-capstone",
+      "title": "Application Capstone",
+      "summary": "A five-measure grand-staff piece with dynamics and a tied ending — the culmination of Level 1D.",
+      "goal": "Perform a complete piece with phrase shape, dynamics, and a sustained tied ending.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 62,
+      "timeSignature": [4, 4],
+      "sourceKind": "original",
+      "license": {"type": "CC0-1.0", "attribution": "Pianio original curriculum", "notes": "Written for the open starter curriculum."},
+      "measures": [
+        ["C4:q", "E4:q", "G4:q", "E4:q"],
+        ["F4:q", "E4:q", "D4:h"],
+        ["E4:q", "G4:q", "F4:h"],
+        ["E4:q", "D4:q", "C4:h~"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:w"],
+        ["G3:h", "E3:h"],
+        ["C3:h", "G3:h"],
+        ["E3:h", "G3:h"],
+        ["C3:w"]
+      ],
+      "dynamics": [
+        {"measure": 1, "marking": "p"},
+        {"measure": 3, "marking": "f"},
+        {"measure": 5, "marking": "p"}
+      ]
+    }
+  ]
+}

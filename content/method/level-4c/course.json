@@ -1,0 +1,2361 @@
+{
+  "courseId": "method-level-4c",
+  "title": "Method Level 4C — Combination",
+  "level": 4,
+  "summary": "Combines all Level 4 keys in grand-staff pieces. Mixes eighth notes, quarter notes, and syncopation across D, A, Bb, Eb, and Ab major.",
+  "sourcePolicy": "original",
+  "exercises": [
+    {
+      "id": "m4c-001",
+      "slug": "d-major-combination-study",
+      "title": "D Major Combination Study",
+      "summary": "Six-measure D major grand-staff piece mixing quarter and eighth notes.",
+      "goal": "Combine quarter and eighth-note rhythms in both hands in D major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:q",
+          "D5:q",
+          "A5:q"
+        ],
+        [
+          "B4:h",
+          "A4:h"
+        ],
+        [
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "D5:q",
+          "C#5:q",
+          "B4:h"
+        ],
+        [
+          "E4:e",
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "B4:q",
+          "A4:q"
+        ],
+        [
+          "D5:h",
+          "D5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:h",
+          "D3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-002",
+      "slug": "d-major-syncopation",
+      "title": "D Major Syncopation",
+      "summary": "Six-measure D major grand-staff piece with off-beat entries and syncopated RH.",
+      "goal": "Execute syncopated off-beat entries accurately in D major with both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "R:e",
+          "D5:e",
+          "G5:q",
+          "F#5:q",
+          "E5:q"
+        ],
+        [
+          "D5:h",
+          "D5:h"
+        ],
+        [
+          "R:e",
+          "E5:e",
+          "A5:q",
+          "G5:q",
+          "F#5:q"
+        ],
+        [
+          "E5:h",
+          "D5:h"
+        ],
+        [
+          "R:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:q",
+          "D5:q"
+        ],
+        [
+          "D5:h",
+          "D5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "F#3:q",
+          "A3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "D3:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:h",
+          "D3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-003",
+      "slug": "d-major-waltz",
+      "title": "D Major Waltz",
+      "summary": "Six-measure waltz in D major, 3/4 time, for both hands.",
+      "goal": "Project waltz character in D major with graceful 1-2-3 feel.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 80,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D5:q",
+          "F#5:q",
+          "A5:q"
+        ],
+        [
+          "B4:h",
+          "B4:q"
+        ],
+        [
+          "A5:q",
+          "G5:q",
+          "F#5:q"
+        ],
+        [
+          "E5:h",
+          "D5:q"
+        ],
+        [
+          "C#5:q",
+          "D5:q",
+          "E5:q"
+        ],
+        [
+          "D5:h",
+          "D5:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "F#3:q",
+          "A3:q"
+        ],
+        [
+          "G3:q",
+          "D3:q",
+          "G3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "C#3:q"
+        ],
+        [
+          "D3:h",
+          "D3:q"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-004",
+      "slug": "d-major-sonatina",
+      "title": "D Major Sonatina",
+      "summary": "Eight-measure sonatina in D major for both hands, combining scale runs with sustained melody.",
+      "goal": "Shape a classical sonatina phrase in D major with balanced hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D5:q",
+          "E5:q",
+          "F#5:q",
+          "G5:q"
+        ],
+        [
+          "A5:h",
+          "G5:h"
+        ],
+        [
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "D5:h",
+          "D5:h"
+        ],
+        [
+          "E5:q",
+          "F#5:q",
+          "G5:q",
+          "A5:q"
+        ],
+        [
+          "B4:h",
+          "A4:h"
+        ],
+        [
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:q",
+          "E5:q"
+        ],
+        [
+          "D5:h",
+          "D5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "G3:q",
+          "D3:q",
+          "G3:q",
+          "D3:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:h",
+          "D3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-005",
+      "slug": "a-major-combination",
+      "title": "A Major Combination",
+      "summary": "Six-measure A major grand-staff piece mixing eighth and quarter note patterns.",
+      "goal": "Blend eighth and quarter note rhythms in A major with accurate three-sharp placement.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:q",
+          "A4:q",
+          "E5:q"
+        ],
+        [
+          "D5:h",
+          "C#5:h"
+        ],
+        [
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "F#5:q",
+          "E5:q"
+        ],
+        [
+          "E5:h",
+          "E5:h"
+        ],
+        [
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:q",
+          "A4:q"
+        ],
+        [
+          "A4:h",
+          "A4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A2:q",
+          "E3:q",
+          "C#3:q",
+          "A2:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:h",
+          "A2:h"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-006",
+      "slug": "a-major-syncopation",
+      "title": "A Major Syncopation",
+      "summary": "Six-measure A major grand-staff piece with syncopated off-beat RH entries.",
+      "goal": "Place syncopated off-beat entries precisely in A major with LH providing steady beats.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "R:e",
+          "A4:e",
+          "D5:q",
+          "C#5:q",
+          "B4:q"
+        ],
+        [
+          "A4:h",
+          "A4:h"
+        ],
+        [
+          "R:e",
+          "C#5:e",
+          "E5:q",
+          "D5:q",
+          "C#5:q"
+        ],
+        [
+          "B4:h",
+          "A4:h"
+        ],
+        [
+          "R:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:q",
+          "A4:q"
+        ],
+        [
+          "A4:h",
+          "A4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A3:q",
+          "E3:q",
+          "C#3:q",
+          "A2:q"
+        ],
+        [
+          "E3:h",
+          "A2:h"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "A2:h",
+          "A2:h"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-007",
+      "slug": "a-major-andante",
+      "title": "A Major Andante",
+      "summary": "Eight-measure andante in A major for both hands with lyrical phrasing.",
+      "goal": "Sustain an expressive A major melody for eight measures with balanced hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 68,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "p"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        },
+        {
+          "measure": 7,
+          "marking": "mp"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "A4:h",
+          "C#5:h"
+        ],
+        [
+          "E5:q",
+          "D5:q",
+          "C#5:q",
+          "B4:q"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:q",
+          "C#5:q"
+        ],
+        [
+          "A4:h",
+          "A4:h"
+        ],
+        [
+          "F#5:q",
+          "E5:q",
+          "D5:q",
+          "C#5:q"
+        ],
+        [
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "D5:h"
+        ],
+        [
+          "C#5:q",
+          "D5:q",
+          "E5:q",
+          "F#5:q"
+        ],
+        [
+          "A4:h",
+          "A4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A3:q",
+          "E3:q",
+          "C#3:q",
+          "A2:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "A2:h",
+          "A2:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "A3:q"
+        ],
+        [
+          "A3:q",
+          "F#3:q",
+          "E3:q",
+          "C#3:q"
+        ],
+        [
+          "A2:h",
+          "A2:h"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-008",
+      "slug": "bb-major-combination",
+      "title": "Bb Major Combination",
+      "summary": "Six-measure Bb major grand-staff piece mixing eighth runs with melodic quarters.",
+      "goal": "Combine running and sustained passages in Bb major with accurate Bb and Eb.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:e",
+          "C5:e",
+          "D5:q",
+          "Bb4:q",
+          "F5:q"
+        ],
+        [
+          "Eb5:h",
+          "D5:h"
+        ],
+        [
+          "C5:e",
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:q",
+          "F5:q"
+        ],
+        [
+          "F5:h",
+          "Eb5:h"
+        ],
+        [
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e"
+        ],
+        [
+          "Bb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "C3:q",
+          "G3:q",
+          "Eb3:q",
+          "Bb2:q"
+        ],
+        [
+          "F3:q",
+          "C4:q",
+          "A3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-009",
+      "slug": "bb-major-syncopation",
+      "title": "Bb Major Syncopation",
+      "summary": "Six-measure Bb major grand-staff piece with syncopated off-beat RH melody.",
+      "goal": "Execute syncopated Bb major passages with steady LH support.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "R:e",
+          "Bb4:e",
+          "Eb5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:h",
+          "Bb4:h"
+        ],
+        [
+          "R:e",
+          "D5:e",
+          "F5:q",
+          "Eb5:q",
+          "D5:q"
+        ],
+        [
+          "C5:h",
+          "Bb4:h"
+        ],
+        [
+          "R:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "Bb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "F3:q",
+          "A3:q",
+          "C4:q",
+          "A3:q"
+        ],
+        [
+          "C3:q",
+          "G3:q",
+          "Eb3:q",
+          "Bb2:q"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-010",
+      "slug": "bb-major-waltz",
+      "title": "Bb Major Waltz",
+      "summary": "Eight-measure waltz in Bb major, 3/4 time, with flowing RH and LH bass-line.",
+      "goal": "Sustain a graceful waltz in Bb major across eight measures.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        3,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "pedal": [
+        {
+          "measure": 1,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "up"
+        },
+        {
+          "measure": 5,
+          "beat": 1,
+          "type": "down"
+        },
+        {
+          "measure": 8,
+          "beat": 1,
+          "type": "up"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "D5:q"
+        ],
+        [
+          "Eb5:h",
+          "D5:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "A4:q"
+        ],
+        [
+          "Bb4:h",
+          "Bb4:q"
+        ],
+        [
+          "F5:q",
+          "Eb5:q",
+          "D5:q"
+        ],
+        [
+          "C5:h",
+          "Bb4:q"
+        ],
+        [
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:e",
+          "F5:q"
+        ],
+        [
+          "Bb4:h",
+          "Bb4:q"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q"
+        ],
+        [
+          "Bb2:q",
+          "Eb3:q",
+          "Bb3:q"
+        ],
+        [
+          "F3:q",
+          "A3:q",
+          "C4:q"
+        ],
+        [
+          "Bb2:h",
+          "Bb2:q"
+        ],
+        [
+          "C3:q",
+          "G3:q",
+          "Eb3:q"
+        ],
+        [
+          "F3:q",
+          "A3:q",
+          "C4:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q"
+        ],
+        [
+          "Bb2:h",
+          "Bb2:q"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-011",
+      "slug": "eb-major-combination",
+      "title": "Eb Major Combination",
+      "summary": "Six-measure Eb major grand-staff piece blending eighth runs with quarter melody.",
+      "goal": "Combine running and melodic passages in Eb major with three flats accurate.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 70,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Eb4:e",
+          "F4:e",
+          "G4:q",
+          "Eb4:q",
+          "Bb4:q"
+        ],
+        [
+          "Ab4:h",
+          "G4:h"
+        ],
+        [
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "Eb5:q",
+          "Bb4:q"
+        ],
+        [
+          "Ab4:h",
+          "G4:h"
+        ],
+        [
+          "Eb4:e",
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e"
+        ],
+        [
+          "Eb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Eb3:q",
+          "Bb3:q",
+          "G3:q",
+          "Eb3:q"
+        ],
+        [
+          "Ab3:h",
+          "Eb3:h"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "Ab3:q",
+          "Eb3:q",
+          "Ab3:q",
+          "Eb3:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb3:q"
+        ],
+        [
+          "Eb3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-012",
+      "slug": "eb-major-study",
+      "title": "Eb Major Study",
+      "summary": "Eight-measure Eb major grand-staff study with varied rhythms and expressive phrasing.",
+      "goal": "Navigate eight measures of Eb major in both hands with dynamic range and rhythmic variety.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -3,
+      "tempoBpm": 68,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Eb5:h",
+          "Bb4:h"
+        ],
+        [
+          "Ab4:q",
+          "G4:q",
+          "F4:q",
+          "Eb4:q"
+        ],
+        [
+          "F4:e",
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "Eb5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e"
+        ],
+        [
+          "F4:h",
+          "Eb4:h"
+        ],
+        [
+          "Bb4:q",
+          "C5:q",
+          "Bb4:q",
+          "Ab4:q"
+        ],
+        [
+          "G4:e",
+          "Ab4:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "F4:e",
+          "Eb4:e",
+          "F4:e"
+        ],
+        [
+          "Eb4:q",
+          "F4:q",
+          "G4:q",
+          "Ab4:q"
+        ],
+        [
+          "Eb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Eb3:h",
+          "Bb3:h"
+        ],
+        [
+          "Ab3:h",
+          "Eb3:h"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb2:q",
+          "F3:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb3:q",
+          "Ab3:q",
+          "Eb3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "Ab3:q",
+          "Eb3:q",
+          "Ab3:q",
+          "Bb3:q"
+        ],
+        [
+          "Eb3:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-013",
+      "slug": "ab-major-combination",
+      "title": "Ab Major Combination",
+      "summary": "Six-measure Ab major grand-staff piece mixing eighth notes and quarter melody.",
+      "goal": "Combine running and sustained passages in Ab major with four flats accurate.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 66,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 4,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:q",
+          "Ab4:q",
+          "Eb5:q"
+        ],
+        [
+          "Db5:h",
+          "C5:h"
+        ],
+        [
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "Ab5:q",
+          "Eb5:q"
+        ],
+        [
+          "Db5:h",
+          "C5:h"
+        ],
+        [
+          "Eb5:e",
+          "Db5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:q",
+          "Bb4:q"
+        ],
+        [
+          "Ab4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "C3:q",
+          "Ab2:q"
+        ],
+        [
+          "Db3:h",
+          "Ab2:h"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb2:q"
+        ],
+        [
+          "Ab2:q",
+          "C3:q",
+          "Eb3:q",
+          "C3:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Ab2:q"
+        ],
+        [
+          "Ab2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-014",
+      "slug": "ab-major-study",
+      "title": "Ab Major Study",
+      "summary": "Eight-measure Ab major grand-staff study with scale passages and sustained melody.",
+      "goal": "Perform eight measures of Ab major with four flats maintained precisely in both hands.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -4,
+      "tempoBpm": 64,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Ab4:q",
+          "Bb4:q",
+          "C5:q",
+          "Db5:q"
+        ],
+        [
+          "Eb5:h",
+          "Db5:h"
+        ],
+        [
+          "C5:e",
+          "Db5:e",
+          "Eb5:e",
+          "C5:e",
+          "Bb4:e",
+          "Ab4:e",
+          "G4:e",
+          "Ab4:e"
+        ],
+        [
+          "Ab4:h",
+          "Ab4:h"
+        ],
+        [
+          "Eb5:q",
+          "Db5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "Ab4:e",
+          "Bb4:e",
+          "C5:e",
+          "Db5:e",
+          "Eb5:q",
+          "Db5:q"
+        ],
+        [
+          "C5:q",
+          "Bb4:q",
+          "Ab4:q",
+          "G4:q"
+        ],
+        [
+          "Ab4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "C3:q",
+          "Ab2:q"
+        ],
+        [
+          "Eb3:h",
+          "Ab2:h"
+        ],
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "Ab3:q",
+          "Eb3:q"
+        ],
+        [
+          "Db3:h",
+          "Ab2:h"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb2:q"
+        ],
+        [
+          "Ab2:q",
+          "Eb3:q",
+          "C3:q",
+          "Ab2:q"
+        ],
+        [
+          "Eb3:q",
+          "C3:q",
+          "Ab2:q",
+          "Eb3:q"
+        ],
+        [
+          "Ab2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-015",
+      "slug": "cross-key-study-d-a",
+      "title": "Cross-Key Study D–A",
+      "summary": "Eight-measure piece in D major that draws on A major vocabulary, exploring shared sharps.",
+      "goal": "Navigate the relationship between D and A major through shared scale passages.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D5:q",
+          "E5:q",
+          "F#5:q",
+          "G5:q"
+        ],
+        [
+          "A5:h",
+          "G5:h"
+        ],
+        [
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "A4:e",
+          "G4:e",
+          "F#4:e"
+        ],
+        [
+          "E4:q",
+          "F#4:q",
+          "G4:h"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:q",
+          "C#5:q"
+        ],
+        [
+          "F#5:q",
+          "E5:q",
+          "D5:q",
+          "C#5:q"
+        ],
+        [
+          "B4:q",
+          "C#5:q",
+          "D5:q",
+          "E5:q"
+        ],
+        [
+          "D5:h",
+          "D5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "A3:q",
+          "F#3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:q",
+          "D3:q",
+          "G3:q",
+          "D3:q"
+        ],
+        [
+          "D3:h",
+          "D3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-016",
+      "slug": "flat-keys-combination",
+      "title": "Flat Keys Combination",
+      "summary": "Eight-measure Bb major piece with syncopation and eighth-note momentum.",
+      "goal": "Demonstrate fluency in the flat-key sound world with syncopation in Bb major.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 72,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "D5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:h",
+          "Eb5:h"
+        ],
+        [
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e"
+        ],
+        [
+          "Bb4:h",
+          "D5:h"
+        ],
+        [
+          "R:e",
+          "Bb4:e",
+          "Eb5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "F5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e",
+          "Bb4:e",
+          "A4:e"
+        ],
+        [
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:e",
+          "F5:q",
+          "G5:q"
+        ],
+        [
+          "Bb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "F3:q",
+          "A3:q",
+          "C4:q",
+          "A3:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb3:q"
+        ],
+        [
+          "F3:q",
+          "C4:q",
+          "A3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "Bb3:q",
+          "F3:q"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-017",
+      "slug": "d-major-etude",
+      "title": "D Major Étude",
+      "summary": "Eight-measure D major étude at faster tempo with continuous eighth-note motion in RH.",
+      "goal": "Maintain smooth eighth-note motion in D major at an increased tempo.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 84,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e"
+        ],
+        [
+          "D5:q",
+          "A4:q",
+          "F#4:q",
+          "D4:q"
+        ],
+        [
+          "E4:e",
+          "F#4:e",
+          "G4:e",
+          "A4:e",
+          "B4:e",
+          "A4:e",
+          "G4:e",
+          "F#4:e"
+        ],
+        [
+          "E4:q",
+          "F#4:q",
+          "G4:h"
+        ],
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e"
+        ],
+        [
+          "A4:q",
+          "B4:q",
+          "C#5:h"
+        ],
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "B5:e",
+          "A5:e",
+          "G5:e"
+        ],
+        [
+          "D5:h",
+          "D5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "D3:h",
+          "D3:h"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-018",
+      "slug": "a-major-caprice",
+      "title": "A Major Caprice",
+      "summary": "Eight-measure caprice in A major with lively eighth-note passages reaching the upper register.",
+      "goal": "Perform a spirited A major caprice with accurate three-sharp placement and upper-range notes.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 3,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "A4:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e"
+        ],
+        [
+          "A4:q",
+          "C#5:q",
+          "E5:q",
+          "A5:q"
+        ],
+        [
+          "G#5:e",
+          "A5:e",
+          "G#5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e"
+        ],
+        [
+          "A4:h",
+          "A4:h"
+        ],
+        [
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "C#5:e",
+          "D5:e",
+          "E5:e"
+        ],
+        [
+          "F#5:q",
+          "G#5:q",
+          "A5:q",
+          "E5:q"
+        ],
+        [
+          "D5:e",
+          "C#5:e",
+          "B4:e",
+          "A4:e",
+          "G#4:e",
+          "A4:e",
+          "B4:e",
+          "C#5:e"
+        ],
+        [
+          "A4:h",
+          "A4:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "A2:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "C#3:q",
+          "A2:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "A2:h",
+          "A2:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "E3:q",
+          "B2:q",
+          "E3:q",
+          "B2:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "C#3:q",
+          "A2:q"
+        ],
+        [
+          "A2:h",
+          "A2:h"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-019",
+      "slug": "bb-major-grand-study",
+      "title": "Bb Major Grand Study",
+      "summary": "Eight-measure Bb major study combining scale runs, syncopation, and sustained melody.",
+      "goal": "Integrate all L4C rhythmic techniques in a comprehensive Bb major grand-staff piece.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": -2,
+      "tempoBpm": 76,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "Bb4:q",
+          "C5:q",
+          "D5:q",
+          "Eb5:q"
+        ],
+        [
+          "F5:h",
+          "Eb5:h"
+        ],
+        [
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F5:e",
+          "Eb5:e"
+        ],
+        [
+          "D5:h",
+          "C5:h"
+        ],
+        [
+          "R:e",
+          "Bb4:e",
+          "Eb5:q",
+          "D5:q",
+          "C5:q"
+        ],
+        [
+          "Bb4:e",
+          "C5:e",
+          "D5:e",
+          "Eb5:e",
+          "F5:e",
+          "Eb5:e",
+          "D5:e",
+          "C5:e"
+        ],
+        [
+          "Eb5:q",
+          "D5:q",
+          "C5:q",
+          "Bb4:q"
+        ],
+        [
+          "Bb4:w"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "Eb3:h",
+          "Bb2:h"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "F3:q",
+          "C4:q",
+          "A3:q",
+          "F3:q"
+        ],
+        [
+          "Eb3:q",
+          "Bb2:q",
+          "Eb3:q",
+          "Bb3:q"
+        ],
+        [
+          "F3:q",
+          "A3:q",
+          "C4:q",
+          "A3:q"
+        ],
+        [
+          "Bb2:q",
+          "F3:q",
+          "D3:q",
+          "Bb2:q"
+        ],
+        [
+          "Bb2:w"
+        ]
+      ]
+    },
+    {
+      "id": "m4c-020",
+      "slug": "l4c-capstone",
+      "title": "L4C Capstone",
+      "summary": "Eight-measure capstone in D major drawing on all L4C rhythmic and harmonic techniques.",
+      "goal": "Demonstrate command of all L4C material in a complete grand-staff piece.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 2,
+      "tempoBpm": 80,
+      "timeSignature": [
+        4,
+        4
+      ],
+      "sourceKind": "original",
+      "license": {
+        "type": "CC0-1.0",
+        "attribution": "",
+        "notes": ""
+      },
+      "dynamics": [
+        {
+          "measure": 1,
+          "marking": "mp"
+        },
+        {
+          "measure": 5,
+          "marking": "mf"
+        }
+      ],
+      "measures": [
+        [
+          "D5:e",
+          "E5:e",
+          "F#5:q",
+          "G5:q",
+          "A5:q"
+        ],
+        [
+          "B4:h",
+          "A4:h"
+        ],
+        [
+          "R:e",
+          "G5:e",
+          "F#5:q",
+          "E5:q",
+          "D5:q"
+        ],
+        [
+          "C#5:h",
+          "D5:h"
+        ],
+        [
+          "F#5:e",
+          "G5:e",
+          "A5:e",
+          "G5:e",
+          "F#5:e",
+          "E5:e",
+          "D5:e",
+          "C#5:e"
+        ],
+        [
+          "B4:q",
+          "C#5:q",
+          "D5:q",
+          "E5:q"
+        ],
+        [
+          "F#5:q",
+          "E5:q",
+          "D5:q",
+          "C#5:q"
+        ],
+        [
+          "D5:h",
+          "D5:h"
+        ]
+      ],
+      "measuresLeft": [
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "D3:q",
+          "A3:q"
+        ],
+        [
+          "A3:q",
+          "E3:q",
+          "A3:q",
+          "E3:q"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "D3:q"
+        ],
+        [
+          "G3:h",
+          "A3:h"
+        ],
+        [
+          "D3:q",
+          "A3:q",
+          "F#3:q",
+          "E3:q"
+        ],
+        [
+          "D3:h",
+          "D3:h"
+        ]
+      ]
+    }
+  ]
+}

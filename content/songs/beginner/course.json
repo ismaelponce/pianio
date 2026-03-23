@@ -1,0 +1,946 @@
+{
+  "courseId": "songs-beginner",
+  "title": "Songs: Beginner",
+  "level": 2,
+  "summary": "Play 30 beloved public-domain melodies from Ode to Joy to Zum Gali Gali — beginner arrangements with simple dynamics and left-hand accompaniment on selected songs.",
+  "sourcePolicy": "public_domain_only",
+  "exercises": [
+    {
+      "id": "songs-b-001",
+      "slug": "ode-to-joy",
+      "title": "Ode to Joy",
+      "summary": "Beethoven's famous theme from Symphony No. 9, arranged in C major with simple LH bass.",
+      "goal": "Play the Ode to Joy melody with left-hand bass support.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "L. van Beethoven (1824), arr. Pianio", "notes": "Original composition in the public domain. Arrangement CC0."},
+      "category": "classical",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "f" }
+      ],
+      "measures": [
+        ["E4:q", "E4:q", "F4:q", "G4:q"],
+        ["G4:q", "F4:q", "E4:q", "D4:q"],
+        ["C4:q", "C4:q", "D4:q", "E4:q"],
+        ["E4:q", "D4:q", "D4:h"],
+        ["E4:q", "E4:q", "F4:q", "G4:q"],
+        ["G4:q", "F4:q", "E4:q", "D4:q"],
+        ["C4:q", "C4:q", "D4:q", "E4:q"],
+        ["D4:q", "C4:q", "C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:w"],
+        ["C3:h", "G2:h"],
+        ["C3:w"],
+        ["G2:h", "C3:h"],
+        ["C3:w"],
+        ["C3:h", "G2:h"],
+        ["F3:h", "C3:h"],
+        ["G2:h", "C3:h"]
+      ]
+    },
+    {
+      "id": "songs-b-002",
+      "slug": "twinkle-twinkle",
+      "title": "Twinkle Twinkle Little Star",
+      "summary": "The classic nursery rhyme in C major with simple LH accompaniment.",
+      "goal": "Play the full Twinkle Twinkle melody with left-hand bass support.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 5, "marking": "mf" },
+        { "measure": 9, "marking": "p" }
+      ],
+      "measures": [
+        ["C4:q", "C4:q", "G4:q", "G4:q"],
+        ["A4:q", "A4:q", "G4:h"],
+        ["F4:q", "F4:q", "E4:q", "E4:q"],
+        ["D4:q", "D4:q", "C4:h"],
+        ["G4:q", "G4:q", "F4:q", "F4:q"],
+        ["E4:q", "E4:q", "D4:h"],
+        ["G4:q", "G4:q", "F4:q", "F4:q"],
+        ["E4:q", "E4:q", "D4:h"],
+        ["C4:q", "C4:q", "G4:q", "G4:q"],
+        ["A4:q", "A4:q", "G4:h"],
+        ["F4:q", "F4:q", "E4:q", "E4:q"],
+        ["D4:q", "D4:q", "C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:w"],
+        ["F3:h", "C3:h"],
+        ["F3:h", "C3:h"],
+        ["G2:h", "C3:h"],
+        ["C3:w"],
+        ["C3:h", "G2:h"],
+        ["C3:w"],
+        ["C3:h", "G2:h"],
+        ["C3:w"],
+        ["F3:h", "C3:h"],
+        ["F3:h", "C3:h"],
+        ["G2:h", "C3:h"]
+      ]
+    },
+    {
+      "id": "songs-b-003",
+      "slug": "mary-had-a-little-lamb",
+      "title": "Mary Had a Little Lamb",
+      "summary": "The beloved children's song in C major position.",
+      "goal": "Play the complete Mary Had a Little Lamb melody from memory.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional (Sarah Josepha Hale, 1830), arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["E4:q", "D4:q", "C4:q", "D4:q"],
+        ["E4:q", "E4:q", "E4:h"],
+        ["D4:q", "D4:q", "D4:h"],
+        ["E4:q", "G4:q", "G4:h"],
+        ["E4:q", "D4:q", "C4:q", "D4:q"],
+        ["E4:q", "E4:q", "E4:q", "E4:q"],
+        ["D4:q", "D4:q", "E4:q", "D4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "songs-b-004",
+      "slug": "hot-cross-buns",
+      "title": "Hot Cross Buns",
+      "summary": "A simple three-note song - perfect for your first melody.",
+      "goal": "Play Hot Cross Buns cleanly using only E, D, and C.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["E4:q", "D4:q", "C4:h"],
+        ["E4:q", "D4:q", "C4:h"],
+        ["C4:e", "C4:e", "C4:e", "C4:e", "D4:e", "D4:e", "D4:e", "D4:e"],
+        ["E4:q", "D4:q", "C4:h"]
+      ]
+    },
+    {
+      "id": "songs-b-005",
+      "slug": "jingle-bells",
+      "title": "Jingle Bells",
+      "summary": "The famous chorus of Jingle Bells in C major with LH bass.",
+      "goal": "Play the Jingle Bells chorus with energy, steady rhythm, and bass support.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 112,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "J. Lord Pierpont (1857), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "festive",
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["E4:q", "E4:q", "E4:h"],
+        ["E4:q", "E4:q", "E4:h"],
+        ["E4:q", "G4:q", "C4:q", "D4:q"],
+        ["E4:w"],
+        ["F4:q", "F4:q", "F4:q", "F4:q"],
+        ["F4:q", "E4:q", "E4:q", "E4:q"],
+        ["G4:q", "G4:q", "F4:q", "D4:q"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:w"],
+        ["C3:w"],
+        ["C3:w"],
+        ["C3:w"],
+        ["F3:w"],
+        ["F3:h", "C3:h"],
+        ["G2:w"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "songs-b-006",
+      "slug": "old-macdonald",
+      "title": "Old MacDonald Had a Farm",
+      "summary": "The classic farm song in C major.",
+      "goal": "Play Old MacDonald with clear quarter and half notes.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["C4:q", "C4:q", "C4:q", "G4:q"],
+        ["A4:q", "A4:q", "G4:h"],
+        ["E4:q", "E4:q", "D4:q", "D4:q"],
+        ["C4:w"],
+        ["C4:q", "C4:q", "C4:q", "G4:q"],
+        ["A4:q", "A4:q", "G4:h"],
+        ["E4:q", "E4:q", "D4:q", "D4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "songs-b-007",
+      "slug": "oh-susanna",
+      "title": "Oh! Susanna",
+      "summary": "Stephen Foster's beloved folk song in C major with simple LH bass.",
+      "goal": "Play the Oh Susanna melody and chorus with left-hand support.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 104,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "S. Foster (1848), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "G4:q"],
+        ["G4:q", "A4:q", "G4:q", "E4:q"],
+        ["C4:q", "D4:q", "E4:q", "E4:q"],
+        ["G4:q", "E4:q", "D4:h"],
+        ["E4:q", "E4:q", "G4:q", "A4:q"],
+        ["G4:h", "E4:h"],
+        ["C4:q", "D4:q", "E4:q", "G4:q"],
+        ["E4:q", "D4:q", "C4:h"]
+      ],
+      "measuresLeft": [
+        ["C3:w"],
+        ["C3:w"],
+        ["C3:w"],
+        ["G2:h", "C3:h"],
+        ["C3:w"],
+        ["C3:w"],
+        ["C3:w"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "songs-b-008",
+      "slug": "happy-birthday",
+      "title": "Happy Birthday to You",
+      "summary": "The world's most-sung song in F major, 3/4 time, with waltz-style LH bass.",
+      "goal": "Play Happy Birthday in waltz time with bass support and dynamic shape.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [3, 4],
+      "keySignature": -1,
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "M. J. Hill & P. S. Hill (1893), arr. Pianio", "notes": "Melody ruled in public domain (Good Morning to All). Arrangement CC0."},
+      "category": "festive",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "f" }
+      ],
+      "measures": [
+        ["F4:e", "F4:e", "G4:q", "F4:q"],
+        ["A4:h", "F4:q"],
+        ["F4:e", "F4:e", "G4:q", "F4:q"],
+        ["Bb4:h", "A4:q"],
+        ["F4:e", "F4:e", "C5:q", "A4:q"],
+        ["Bb4:h", "G4:q"],
+        ["A4:e", "A4:e", "Bb4:q", "G4:q"],
+        ["F4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["F3:dh"],
+        ["F3:dh"],
+        ["F3:dh"],
+        ["Bb2:dh"],
+        ["F3:dh"],
+        ["Bb2:dh"],
+        ["C3:dh"],
+        ["F3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-b-009",
+      "slug": "amazing-grace",
+      "title": "Amazing Grace",
+      "summary": "The timeless hymn by John Newton in 3/4 time with gentle LH bass.",
+      "goal": "Play Amazing Grace with a singing tone and soft bass support.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "J. Newton (1779), arr. Pianio", "notes": "Hymn text and melody in the public domain. Arrangement CC0."},
+      "category": "christian",
+      "dynamics": [
+        { "measure": 1, "marking": "p" }
+      ],
+      "measures": [
+        ["C4:q", "E4:q", "G4:q"],
+        ["A4:h", "G4:q"],
+        ["E4:h", "C4:q"],
+        ["D4:h", "R:q"],
+        ["C4:q", "E4:q", "G4:q"],
+        ["A4:h", "G4:q"],
+        ["E4:h", "C4:q"],
+        ["C4:h", "R:q"]
+      ],
+      "measuresLeft": [
+        ["C3:dh"],
+        ["F3:dh"],
+        ["C3:dh"],
+        ["G2:dh"],
+        ["C3:dh"],
+        ["F3:dh"],
+        ["C3:dh"],
+        ["C3:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-b-010",
+      "slug": "london-bridge",
+      "title": "London Bridge Is Falling Down",
+      "summary": "The classic English nursery rhyme in C major.",
+      "goal": "Play London Bridge with bright, steady rhythm.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional English, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["G4:q", "A4:q", "G4:q", "F4:q"],
+        ["E4:q", "F4:q", "G4:h"],
+        ["D4:q", "E4:q", "F4:h"],
+        ["E4:q", "F4:q", "G4:h"],
+        ["G4:q", "A4:q", "G4:q", "F4:q"],
+        ["E4:q", "F4:q", "G4:h"],
+        ["D4:h", "G4:h"],
+        ["E4:h", "C4:h"]
+      ]
+    },
+    {
+      "id": "songs-b-011",
+      "slug": "skip-to-my-lou",
+      "title": "Skip to My Lou",
+      "summary": "A lively American folk dance song in C major.",
+      "goal": "Play Skip to My Lou with a bright, rhythmic touch.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 112,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional American, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "G4:q"],
+        ["G4:q", "G4:q", "E4:q", "E4:q"],
+        ["C4:q", "D4:q", "E4:q", "G4:q"],
+        ["G4:h", "C4:h"],
+        ["E4:q", "E4:q", "E4:q", "E4:q"],
+        ["D4:q", "D4:q", "D4:q", "E4:q"],
+        ["E4:q", "E4:q", "G4:q", "G4:q"],
+        ["G4:h", "C4:h"]
+      ]
+    },
+    {
+      "id": "songs-b-012",
+      "slug": "camptown-races",
+      "title": "Camptown Races",
+      "summary": "Stephen Foster's upbeat folk song in C major.",
+      "goal": "Play Camptown Races with a lively, bouncy feel.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 120,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "S. Foster (1850), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["G4:q", "G4:q", "E4:q", "G4:q"],
+        ["G4:q", "E4:q", "C4:q", "D4:q"],
+        ["E4:q", "D4:q", "C4:q", "D4:q"],
+        ["E4:h", "C4:h"],
+        ["G4:q", "G4:q", "E4:q", "G4:q"],
+        ["G4:q", "E4:q", "C4:q", "D4:q"],
+        ["E4:q", "D4:q", "C4:q", "D4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "songs-b-013",
+      "slug": "simple-gifts",
+      "title": "Simple Gifts",
+      "summary": "The beloved Shaker hymn by Elder Joseph Brackett in C major.",
+      "goal": "Play Simple Gifts with a peaceful, flowing phrase.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "E. J. Brackett (1848), arr. Pianio", "notes": "Shaker hymn in the public domain. Arrangement CC0."},
+      "category": "christian",
+      "dynamics": [
+        { "measure": 1, "marking": "p" },
+        { "measure": 5, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "F4:q"],
+        ["G4:q", "G4:q", "F4:q", "E4:q"],
+        ["D4:q", "C4:q", "D4:q", "E4:q"],
+        ["F4:h", "D4:h"],
+        ["C4:q", "D4:q", "E4:q", "F4:q"],
+        ["G4:q", "A4:q", "G4:q", "F4:q"],
+        ["E4:q", "C4:q", "D4:q", "E4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "songs-b-014",
+      "slug": "frere-jacques",
+      "title": "Fr\u00e8re Jacques",
+      "summary": "The classic French round in C major — Are You Sleeping, Brother John?",
+      "goal": "Play Fr\u00e8re Jacques with even rhythm and a clear melodic line.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 96,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional French, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "C4:q"],
+        ["C4:q", "D4:q", "E4:q", "C4:q"],
+        ["E4:q", "F4:q", "G4:h"],
+        ["E4:q", "F4:q", "G4:h"],
+        ["G4:e", "A4:e", "G4:e", "F4:e", "E4:q", "C4:q"],
+        ["G4:e", "A4:e", "G4:e", "F4:e", "E4:q", "C4:q"],
+        ["C4:q", "G4:q", "C4:h"],
+        ["C4:q", "G4:q", "C4:h"]
+      ]
+    },
+    {
+      "id": "songs-b-015",
+      "slug": "yankee-doodle",
+      "title": "Yankee Doodle",
+      "summary": "The patriotic American classic in C major.",
+      "goal": "Play Yankee Doodle with bright, steady quarter notes.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 120,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional American, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "patriotic",
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["C4:q", "C4:q", "D4:q", "E4:q"],
+        ["C4:q", "E4:q", "D4:h"],
+        ["C4:q", "C4:q", "D4:q", "E4:q"],
+        ["C4:h", "R:h"],
+        ["E4:q", "E4:q", "F4:q", "G4:q"],
+        ["G4:q", "F4:q", "E4:q", "D4:q"],
+        ["C4:q", "D4:q", "E4:q", "C4:q"],
+        ["D4:h", "C4:h"]
+      ]
+    },
+    {
+      "id": "songs-b-016",
+      "slug": "baa-baa-black-sheep",
+      "title": "Baa Baa Black Sheep",
+      "summary": "Classic nursery rhyme in C major — same melody as Twinkle Twinkle!",
+      "goal": "Play Baa Baa Black Sheep with steady quarter notes.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 88,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional nursery rhyme, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:q", "C4:q", "G4:q", "G4:q"],
+        ["A4:q", "A4:q", "G4:h"],
+        ["F4:q", "F4:q", "E4:q", "E4:q"],
+        ["D4:q", "D4:q", "C4:h"],
+        ["G4:q", "G4:q", "F4:q", "F4:q"],
+        ["E4:q", "E4:q", "D4:h"],
+        ["G4:q", "G4:q", "F4:q", "F4:q"],
+        ["E4:q", "E4:q", "D4:h"]
+      ]
+    },
+    {
+      "id": "songs-b-017",
+      "slug": "row-row-row-your-boat",
+      "title": "Row Row Row Your Boat",
+      "summary": "The famous round in C major with dotted quarter notes.",
+      "goal": "Play Row Row Row Your Boat with a gentle, rocking feel.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 80,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional (1852), arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:h", "C4:q"],
+        ["C4:q", "D4:q", "E4:q"],
+        ["E4:q", "D4:q", "E4:q"],
+        ["E4:q", "F4:q", "G4:q"],
+        ["G4:h", "R:q"],
+        ["E4:q", "E4:q", "E4:q"],
+        ["C4:q", "C4:q", "C4:q"],
+        ["G4:q", "F4:q", "E4:q"],
+        ["D4:q", "C4:h"]
+      ]
+    },
+    {
+      "id": "songs-b-018",
+      "slug": "this-old-man",
+      "title": "This Old Man",
+      "summary": "A counting nursery rhyme in C major with a catchy chorus.",
+      "goal": "Play This Old Man with bouncy, clear quarter notes.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional nursery rhyme, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["E4:q", "G4:q", "G4:h"],
+        ["E4:q", "G4:q", "G4:h"],
+        ["F4:q", "E4:q", "F4:q", "G4:q"],
+        ["E4:q", "D4:q", "C4:h"],
+        ["C4:e", "C4:e", "C4:e", "C4:e", "C4:e", "D4:e", "E4:e", "C4:e"],
+        ["D4:q", "E4:q", "F4:h"],
+        ["C4:e", "C4:e", "C4:e", "C4:e", "C4:e", "D4:e", "E4:e", "C4:e"],
+        ["D4:q", "G4:q", "C4:h"]
+      ]
+    },
+    {
+      "id": "songs-b-019",
+      "slug": "pop-goes-the-weasel",
+      "title": "Pop Goes the Weasel",
+      "summary": "Traditional English nursery rhyme in G major with a surprise ending.",
+      "goal": "Play Pop Goes the Weasel in 3/4 time with a light, playful feel.",
+      "hands": "right",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 100,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional English, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 7, "marking": "f" }
+      ],
+      "measures": [
+        ["G4:q", "G4:q", "B4:q"],
+        ["A4:q", "A4:q", "D4:q"],
+        ["G4:q", "G4:q", "B4:q"],
+        ["A4:h", "R:q"],
+        ["G4:q", "G4:q", "B4:q"],
+        ["A4:q", "A4:q", "D5:q"],
+        ["D5:q", "C5:q", "B4:q"],
+        ["G4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-b-020",
+      "slug": "chopsticks",
+      "title": "Chopsticks",
+      "summary": "The famous duet melody in C major, arranged for solo piano.",
+      "goal": "Play the Chopsticks melody with steady rhythm in 3/4 time.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 120,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Euphemia Allen (1877), arr. Pianio", "notes": "Composition in the public domain. Arrangement CC0."},
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["F4:q", "G4:q", "R:q"],
+        ["F4:q", "G4:q", "R:q"],
+        ["F4:q", "G4:q", "R:q"],
+        ["F4:q", "G4:q", "R:q"],
+        ["E4:q", "G4:q", "R:q"],
+        ["E4:q", "G4:q", "R:q"],
+        ["E4:q", "G4:q", "R:q"],
+        ["E4:q", "G4:q", "R:q"],
+        ["D4:q", "F4:q", "R:q"],
+        ["D4:q", "F4:q", "R:q"],
+        ["E4:q", "G4:q", "R:q"],
+        ["E4:q", "G4:q", "R:q"],
+        ["F4:q", "G4:q", "R:q"],
+        ["F4:q", "G4:q", "R:q"],
+        ["F4:q", "G4:q", "R:q"],
+        ["F4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-b-021",
+      "slug": "lightly-row",
+      "title": "Lightly Row",
+      "summary": "A gentle German folk melody in C major — a classic beginner piece.",
+      "goal": "Play Lightly Row with smooth, connected notes.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 92,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional German, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 5, "marking": "mf" }
+      ],
+      "measures": [
+        ["E4:q", "D4:q", "C4:q", "D4:q"],
+        ["E4:q", "E4:q", "E4:h"],
+        ["D4:q", "D4:q", "D4:h"],
+        ["E4:q", "G4:q", "G4:h"],
+        ["E4:q", "D4:q", "C4:q", "D4:q"],
+        ["E4:q", "E4:q", "E4:q", "E4:q"],
+        ["D4:q", "D4:q", "E4:q", "D4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "songs-b-022",
+      "slug": "go-tell-aunt-rhody",
+      "title": "Go Tell Aunt Rhody",
+      "summary": "Traditional American folk song in C major — a staple of piano method books.",
+      "goal": "Play Go Tell Aunt Rhody with a clear, singing tone.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 84,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Jean-Jacques Rousseau, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["E4:q", "D4:q", "C4:q", "D4:q"],
+        ["E4:q", "E4:q", "E4:h"],
+        ["D4:q", "D4:q", "D4:h"],
+        ["E4:q", "E4:q", "E4:h"],
+        ["E4:q", "D4:q", "C4:q", "D4:q"],
+        ["E4:q", "E4:q", "E4:q", "E4:q"],
+        ["D4:q", "D4:q", "E4:q", "D4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "songs-b-023",
+      "slug": "wheels-on-the-bus",
+      "title": "The Wheels on the Bus",
+      "summary": "The beloved children's action song in C major.",
+      "goal": "Play The Wheels on the Bus with a fun, steady beat.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["C4:q", "C4:q", "C4:q", "E4:q"],
+        ["G4:q", "G4:q", "G4:h"],
+        ["G4:q", "A4:q", "G4:q", "F4:q"],
+        ["E4:q", "C4:q", "E4:h"],
+        ["D4:q", "D4:q", "E4:q", "D4:q"],
+        ["C4:q", "E4:q", "D4:h"],
+        ["C4:q", "C4:q", "C4:q", "E4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "songs-b-024",
+      "slug": "hickory-dickory-dock",
+      "title": "Hickory Dickory Dock",
+      "summary": "Classic nursery rhyme in C major with a waltz feel.",
+      "goal": "Play Hickory Dickory Dock in 3/4 time with a light touch.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 108,
+      "timeSignature": [3, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional nursery rhyme, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:q", "D4:q", "E4:q"],
+        ["F4:q", "G4:h"],
+        ["G4:q", "A4:q", "G4:q"],
+        ["F4:q", "E4:q", "D4:q"],
+        ["C4:h", "R:q"],
+        ["E4:q", "F4:q", "G4:q"],
+        ["E4:q", "D4:q", "C4:q"],
+        ["C4:h", "R:q"]
+      ]
+    },
+    {
+      "id": "songs-b-025",
+      "slug": "jack-and-jill",
+      "title": "Jack and Jill",
+      "summary": "Traditional nursery rhyme in C major.",
+      "goal": "Play Jack and Jill with a bright, even rhythm.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 104,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional nursery rhyme, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "children",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:q", "D4:q", "E4:q", "F4:q"],
+        ["G4:q", "A4:q", "G4:h"],
+        ["A4:q", "G4:q", "F4:q", "E4:q"],
+        ["D4:q", "C4:q", "D4:h"],
+        ["E4:q", "F4:q", "G4:q", "A4:q"],
+        ["G4:q", "F4:q", "E4:h"],
+        ["D4:q", "E4:q", "F4:q", "D4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "songs-b-026",
+      "slug": "michael-row-the-boat",
+      "title": "Michael Row the Boat Ashore",
+      "summary": "African American spiritual in C major with gentle LH accompaniment.",
+      "goal": "Play this spiritual with a smooth, singing tone and bass support.",
+      "hands": "together",
+      "clef": "G",
+      "tempoBpm": 76,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional spiritual, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "mp" },
+        { "measure": 5, "marking": "mf" }
+      ],
+      "measures": [
+        ["C4:q", "E4:q", "E4:q", "E4:q"],
+        ["E4:q", "F4:q", "E4:h"],
+        ["E4:q", "F4:q", "G4:h"],
+        ["G4:q", "F4:q", "E4:h"],
+        ["E4:q", "F4:q", "E4:q", "D4:q"],
+        ["C4:q", "D4:q", "E4:h"],
+        ["D4:q", "C4:q", "C4:h"],
+        ["C4:w"]
+      ],
+      "measuresLeft": [
+        ["C3:w"],
+        ["C3:h", "G2:h"],
+        ["C3:w"],
+        ["G2:h", "C3:h"],
+        ["F3:h", "C3:h"],
+        ["G2:h", "C3:h"],
+        ["G2:h", "C3:h"],
+        ["C3:w"]
+      ]
+    },
+    {
+      "id": "songs-b-027",
+      "slug": "when-the-saints",
+      "title": "When the Saints Go Marching In",
+      "summary": "The classic spiritual march in G major with LH bass.",
+      "goal": "Play this march with energy and solid LH bass support.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 100,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional spiritual, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["G4:q", "B4:q", "D5:q", "R:q"],
+        ["G4:q", "B4:q", "D5:q", "R:q"],
+        ["G4:q", "B4:q", "D5:q", "B4:q"],
+        ["A4:h", "G4:h"],
+        ["A4:q", "G4:q", "A4:q", "B4:q"],
+        ["G4:q", "A4:q", "G4:h"],
+        ["G4:q", "B4:q", "A4:q", "G4:q"],
+        ["D4:h", "G4:h"]
+      ],
+      "measuresLeft": [
+        ["G2:w"],
+        ["G2:w"],
+        ["G2:h", "D3:h"],
+        ["D3:h", "G2:h"],
+        ["D3:h", "G2:h"],
+        ["G2:h", "D3:h"],
+        ["G2:h", "D3:h"],
+        ["G2:h", "G2:h"]
+      ]
+    },
+    {
+      "id": "songs-b-028",
+      "slug": "hush-little-baby",
+      "title": "Hush Little Baby",
+      "summary": "A gentle lullaby in C major — play softly and smoothly.",
+      "goal": "Play this lullaby with a quiet, soothing tone.",
+      "hands": "right",
+      "clef": "G",
+      "tempoBpm": 72,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional lullaby, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "lullaby",
+      "dynamics": [
+        { "measure": 1, "marking": "p" }
+      ],
+      "measures": [
+        ["E4:q", "E4:q", "E4:q", "F4:q"],
+        ["G4:q", "G4:q", "G4:q", "A4:q"],
+        ["G4:q", "F4:q", "E4:q", "F4:q"],
+        ["G4:h", "E4:h"],
+        ["E4:q", "E4:q", "E4:q", "F4:q"],
+        ["G4:q", "G4:q", "G4:q", "A4:q"],
+        ["G4:q", "F4:q", "E4:q", "D4:q"],
+        ["C4:w"]
+      ]
+    },
+    {
+      "id": "songs-b-029",
+      "slug": "this-little-light",
+      "title": "This Little Light of Mine",
+      "summary": "Uplifting spiritual in G major with LH accompaniment.",
+      "goal": "Play this spiritual with bright energy and solid bass support.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 1,
+      "tempoBpm": 104,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional spiritual, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "folk",
+      "dynamics": [
+        { "measure": 1, "marking": "f" }
+      ],
+      "measures": [
+        ["D4:q", "D4:q", "D4:q", "D4:q"],
+        ["G4:q", "G4:q", "G4:h"],
+        ["A4:q", "A4:q", "A4:q", "G4:q"],
+        ["B4:h", "A4:h"],
+        ["G4:q", "G4:q", "A4:q", "G4:q"],
+        ["B4:q", "A4:q", "G4:h"],
+        ["D4:q", "G4:q", "A4:q", "G4:q"],
+        ["G4:w"]
+      ],
+      "measuresLeft": [
+        ["G2:w"],
+        ["G2:h", "D3:h"],
+        ["D3:w"],
+        ["G2:h", "D3:h"],
+        ["G2:w"],
+        ["D3:h", "G2:h"],
+        ["G2:h", "D3:h"],
+        ["G2:w"]
+      ]
+    },
+    {
+      "id": "songs-b-030",
+      "slug": "zum-gali-gali",
+      "title": "Zum Gali Gali",
+      "summary": "Israeli folk song in A minor — a hauntingly beautiful work song.",
+      "goal": "Play this minor-key folk song with rhythmic drive and LH support.",
+      "hands": "together",
+      "clef": "G",
+      "keySignature": 0,
+      "tempoBpm": 108,
+      "timeSignature": [4, 4],
+      "sourceKind": "public_domain",
+      "license": {"type": "CC0-1.0", "attribution": "Traditional Israeli folk song, arr. Pianio", "notes": "Traditional melody in the public domain. Arrangement CC0."},
+      "category": "world",
+      "dynamics": [
+        { "measure": 1, "marking": "mf" },
+        { "measure": 5, "marking": "f" }
+      ],
+      "measures": [
+        ["A4:q", "A4:q", "A4:q", "A4:q"],
+        ["A4:q", "G4:q", "A4:h"],
+        ["A4:q", "A4:q", "A4:q", "A4:q"],
+        ["A4:q", "G4:q", "A4:h"],
+        ["E4:q", "A4:q", "B4:q", "C5:q"],
+        ["B4:q", "A4:q", "G4:q", "A4:q"],
+        ["E4:q", "A4:q", "B4:q", "C5:q"],
+        ["B4:q", "A4:q", "A4:h"]
+      ],
+      "measuresLeft": [
+        ["A2:h", "E3:h"],
+        ["A2:h", "E3:h"],
+        ["A2:h", "E3:h"],
+        ["A2:h", "E3:h"],
+        ["A2:w"],
+        ["E3:h", "A2:h"],
+        ["A2:w"],
+        ["E3:h", "A2:h"]
+      ]
+    }
+  ]
+}
