@@ -1,5 +1,15 @@
 # Pianio
 
+Free piano lessons that listen.
+
+https://github.com/user-attachments/assets/c39e6335-71bb-4d38-9abf-772879aa217a
+
+**80 courses · 1500+ exercises · Open source**
+
+🎹 [Try it live](https://dipiano.web.app) · 💻 [View source](https://github.com/ismaelponce/pianio)
+
+---
+
 A free, open-source piano learning platform. Practice method courses, technique drills, and real songs — all in your browser with a MIDI keyboard.
 
 ## Features
@@ -19,15 +29,9 @@ A free, open-source piano learning platform. Practice method courses, technique 
 
 ## Tech Stack
 
-- **React 19** + TypeScript
-- **Vite 7** — fast dev server and build
-- **Tone.js** — piano audio playback (Salamander samples)
-- **OSMD** — MusicXML sheet music rendering
-- **Web MIDI API** — browser-native MIDI input
-- **Firebase Hosting** — static SPA deployment
+React 19 · TypeScript · Vite 7 · Tone.js · OSMD · Web MIDI API · Firebase Hosting
 
 ## Getting Started
-
 ```bash
 pnpm install
 pnpm dev
@@ -36,13 +40,11 @@ pnpm dev
 This regenerates content assets and starts the Vite dev server at `http://localhost:5173`.
 
 ## Build
-
 ```bash
 pnpm build
 ```
 
 ## Project Structure
-
 ```
 apps/web/              Vite SPA (React)
 packages/core-engine/  Practice matching engine
@@ -58,5 +60,4 @@ Piano sounds use the [Salamander Grand Piano](https://sfzinstruments.github.io/p
 
 ## License
 
-Code: [MIT](LICENSE)
-Original content: [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Code: [MIT](LICENSE) · Content: [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)
