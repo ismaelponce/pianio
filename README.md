@@ -6,7 +6,7 @@ https://github.com/user-attachments/assets/c39e6335-71bb-4d38-9abf-772879aa217a
 
 **80 courses · 1500+ exercises · Open source**
 
-🎹 [Try it live](https://dipiano.web.app) · 💻 [View source](https://github.com/ismaelponce/pianio)
+🎹 [Try it live](https://pianio.org)
 
 ---
 
