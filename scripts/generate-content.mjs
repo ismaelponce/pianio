@@ -332,6 +332,46 @@ function buildExpectedNotes(exercise) {
     }
   }
 
+  // Merge simultaneous notes (same startBeat) into chord events for hands-together
+  if (exercise.measuresLeft) {
+    const merged = [];
+    let i = 0;
+    while (i < expectedNotes.length) {
+      const current = expectedNotes[i];
+      const group = [current];
+      while (i + 1 < expectedNotes.length && expectedNotes[i + 1].startBeat === current.startBeat) {
+        i++;
+        group.push(expectedNotes[i]);
+      }
+      if (group.length === 1) {
+        merged.push(current);
+      } else {
+        const allNoteNumbers = [];
+        let hasRight = false, hasLeft = false;
+        for (const note of group) {
+          if (note.noteNumbers) {
+            allNoteNumbers.push(...note.noteNumbers);
+          } else {
+            allNoteNumbers.push(note.noteNumber);
+          }
+          if (note.hand === "right") hasRight = true;
+          if (note.hand === "left") hasLeft = true;
+        }
+        merged.push({
+          noteNumber: allNoteNumbers[0],
+          noteNumbers: allNoteNumbers,
+          startBeat: current.startBeat,
+          durationBeats: Math.max(...group.map(n => n.durationBeats)),
+          hand: (hasRight && hasLeft) ? "together" : current.hand,
+          dynamicMarking: current.dynamicMarking,
+          pedalState: current.pedalState
+        });
+      }
+      i++;
+    }
+    return merged;
+  }
+
   return expectedNotes;
 }
 

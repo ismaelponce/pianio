@@ -44,10 +44,6 @@ export async function startAudio(): Promise<void> {
   getBackgroundSampler();
 }
 
-export function isSamplerReady(): boolean {
-  return getBackgroundSampler().loaded;
-}
-
 let metronomeLoop: Tone.Loop | null = null;
 let metronomeSynth: Tone.Synth | null = null;
 
@@ -143,6 +139,44 @@ export function playChord(midiNotes: number[]): void {
       // ignore
     }
   }
+}
+
+/**
+ * Start a metronome-synced count-in for performance mode.
+ * Clicks on each beat using the Transport, calls onCountBeat with remaining beats,
+ * then calls onStart exactly on the downbeat after count-in.
+ * The metronome continues ticking during and after the piece.
+ */
+export function startPerformanceCountIn(
+  bpm: number,
+  countInBeats: number,
+  onCountBeat: (remaining: number) => void,
+  onStart: () => void
+): void {
+  stopMetronome();
+  Tone.getTransport().bpm.value = bpm;
+  const synth = getMetronomeSynth();
+  let beat = 0;
+
+  metronomeLoop = new Tone.Loop((time) => {
+    const freq = beat % 4 === 0 ? "C6" : "G5";
+    synth.triggerAttackRelease(freq, "32n", time);
+
+    const currentBeat = beat;
+    Tone.getDraw().schedule(() => {
+      if (currentBeat < countInBeats) {
+        onCountBeat(countInBeats - currentBeat);
+      }
+      if (currentBeat === countInBeats) {
+        onStart();
+      }
+    }, time);
+
+    beat++;
+  }, "4n");
+
+  metronomeLoop.start(0);
+  Tone.getTransport().start();
 }
 
 export interface ScheduledNote {

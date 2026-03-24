@@ -815,6 +815,7 @@ function ExerciseScreen({
             exercise={exercise}
             courseId={course.id}
             nextExerciseHref={nextExercise ? getExerciseHref(course.id, nextExercise.slug) : undefined}
+            courseHref={getCourseHref(course.id)}
             onComplete={onExerciseComplete}
             resetRef={panelResetRef}
           />
@@ -1216,6 +1217,10 @@ export default function App() {
       })
       .then((data) => {
         if (active) {
+          data.courses = data.courses.filter((c) => {
+            const m = c.id.match(/^(method|technique)-level-\d+$/);
+            return !m;
+          });
           setCatalog(data);
         }
       })
@@ -1355,9 +1360,6 @@ export default function App() {
             </a>
             {hasProgress && resumeTarget && (
               <p className="hero-resume-hint">Next up: {resumeTarget.label}</p>
-            )}
-            {hasProgress && (
-              <a className="action-link secondary" href={getCatalogHref()}>Browse all courses</a>
             )}
               <div className="hero-steps" aria-label="How it works">
                 <div className="hero-step">

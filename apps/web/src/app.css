@@ -1907,6 +1907,12 @@ p { margin-bottom: 0; }
 }
 .start-perform-btn:active { transform: scale(0.98); }
 
+.perform-options-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .perform-midi-row {
   display: flex;
   align-items: center;
@@ -1990,7 +1996,8 @@ p { margin-bottom: 0; }
   font-size: var(--text-base);
 }
 .score-hit,
-.score-miss {
+.score-miss,
+.score-wrong {
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -1998,6 +2005,7 @@ p { margin-bottom: 0; }
 }
 .score-hit { color: var(--ok); }
 .score-miss { color: var(--warn); }
+.score-wrong { color: var(--error); }
 
 /* ── Score zoom controls ── */
 
@@ -2098,6 +2106,12 @@ p { margin-bottom: 0; }
   background: rgba(201, 51, 18, 0.10);
   color: var(--error);
   font-weight: 600;
+}
+
+.practice-hint {
+  font-size: var(--text-xs);
+  color: var(--muted);
+  font-style: italic;
 }
 
 .hand-tag {

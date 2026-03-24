@@ -96,7 +96,17 @@ interface Props {
 }
 
 export function PianoKeyboard({ nextNoteNumbers, nextNoteHand, pressedNotes, wrongNote, noteLabels }: Props) {
+  const isTogether = nextNoteHand === "together";
   const isLeft = nextNoteHand === "left";
+  // For "together", split by middle C (60): below = left hand, at/above = right hand
+  const handForNote = (midi: number) =>
+    isTogether ? (midi < 60 ? "left" : "right") : (isLeft ? "left" : "right");
+  const fillFor   = (h: string) => h === "left" ? LEFT_FILL   : RIGHT_FILL;
+  const strokeFor = (h: string) => h === "left" ? LEFT_STROKE : RIGHT_STROKE;
+  const textFor   = (h: string) => h === "left" ? LEFT_TEXT   : RIGHT_TEXT;
+  const dotFor    = (h: string) => h === "left" ? LEFT_DOT    : RIGHT_DOT;
+  const bFillFor  = (h: string) => h === "left" ? LEFT_BLACK_FILL : RIGHT_BLACK_FILL;
+  // Fallback single-color for non-together
   const nFill   = isLeft ? LEFT_FILL   : RIGHT_FILL;
   const nStroke = isLeft ? LEFT_STROKE : RIGHT_STROKE;
   const nText   = isLeft ? LEFT_TEXT   : RIGHT_TEXT;
@@ -126,8 +136,9 @@ export function PianoKeyboard({ nextNoteNumbers, nextNoteHand, pressedNotes, wro
           const isPressed = pressedNotes?.has(midi);
           const isChordHeld = isNext && isPressed;
           const staticLabel = cLabel(midi);
-          const fill = isWrong ? "#fdd5cc" : isChordHeld ? (isLeft ? "#e5c8a0" : "#8ec5d0") : isNext ? nFill : isPressed ? "#F5CDB4" : "var(--piano-key-white, #fff)";
-          const stroke = isWrong ? "#C93312" : isNext ? nStroke : "#c5bdb5";
+          const h = isTogether ? handForNote(midi) : (isLeft ? "left" : "right");
+          const fill = isWrong ? "#fdd5cc" : isChordHeld ? (h === "left" ? "#e5c8a0" : "#8ec5d0") : isNext ? fillFor(h) : isPressed ? "#F5CDB4" : "var(--piano-key-white, #fff)";
+          const stroke = isWrong ? "#C93312" : isNext ? strokeFor(h) : "#c5bdb5";
           return (
             <g key={midi} transform={isPressed ? "translate(0, 1)" : undefined}>
               {/* Shadow beneath key */}
@@ -158,7 +169,7 @@ export function PianoKeyboard({ nextNoteNumbers, nextNoteHand, pressedNotes, wro
                   y={WH - 5}
                   textAnchor="middle"
                   fontSize={8}
-                  fill={isWrong ? "#C93312" : nText}
+                  fill={isWrong ? "#C93312" : textFor(h)}
                   fontFamily="inherit"
                   fontWeight="700"
                 >
@@ -195,7 +206,7 @@ export function PianoKeyboard({ nextNoteNumbers, nextNoteHand, pressedNotes, wro
                   cx={x + WW / 2}
                   cy={WH - 18}
                   r={3}
-                  fill={nDot}
+                  fill={dotFor(h)}
                 />
               )}
             </g>
@@ -208,8 +219,9 @@ export function PianoKeyboard({ nextNoteNumbers, nextNoteHand, pressedNotes, wro
           const isWrong = midi === wrongNote;
           const isPressed = pressedNotes?.has(midi);
           const isChordHeld = isNext && isPressed;
-          const fill = isWrong ? "#C93312" : isChordHeld ? (isLeft ? "#c47a1a" : "#2d7a8f") : isNext ? nBFill : isPressed ? "#0B775E" : "url(#black-key-grad)";
-          const stroke = isWrong ? "#8a2510" : isNext ? nStroke : "#1a1a1a";
+          const bh = isTogether ? handForNote(midi) : (isLeft ? "left" : "right");
+          const fill = isWrong ? "#C93312" : isChordHeld ? (bh === "left" ? "#c47a1a" : "#2d7a8f") : isNext ? bFillFor(bh) : isPressed ? "#0B775E" : "url(#black-key-grad)";
+          const stroke = isWrong ? "#8a2510" : isNext ? strokeFor(bh) : "#1a1a1a";
           return (
             <g key={midi} transform={isPressed ? "translate(0, 1)" : undefined}>
               <rect
@@ -229,7 +241,7 @@ export function PianoKeyboard({ nextNoteNumbers, nextNoteHand, pressedNotes, wro
                   y={BH - 6}
                   textAnchor="middle"
                   fontSize={7}
-                  fill={isWrong ? "#fdd5cc" : nFill}
+                  fill={isWrong ? "#fdd5cc" : fillFor(bh)}
                   fontFamily="inherit"
                   fontWeight="700"
                 >

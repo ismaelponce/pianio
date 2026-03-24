@@ -29,7 +29,8 @@ export interface MidiMessageContext {
 
 export interface MidiMessageEventLike {
   data: ArrayLike<number>;
-  receivedTime: number;
+  receivedTime?: number;
+  timeStamp?: number;
 }
 
 export interface MidiInputLike {
@@ -277,7 +278,7 @@ export function createMidiAccessAdapter(access: MidiAccessLike): MidiAccessAdapt
                 manufacturer: input.manufacturer ?? null
               },
               data: event.data,
-              receivedTime: event.receivedTime
+              receivedTime: event.timeStamp ?? event.receivedTime ?? performance.now()
             });
 
             if (parsedEvent) {

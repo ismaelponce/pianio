@@ -5,7 +5,7 @@ import { PianoKeyboard } from "./PianoKeyboard";
 import { markExerciseComplete } from "../progress";
 import confetti from "canvas-confetti";
 import { Check, X as XIcon, Play, ArrowRight, RotateCcw, ChevronDown } from "lucide-react";
-import { playNote, releaseNote, startAudio, scheduleExercisePlayback, startMetronome, stopMetronome, isSamplerReady } from "../audio/pianoSampler";
+import { playNote, releaseNote, startAudio, scheduleExercisePlayback, startMetronome, stopMetronome, startPerformanceCountIn } from "../audio/pianoSampler";
 import {
   createPracticeExpectedSequence,
   createPracticeMatcher,
@@ -47,6 +47,10 @@ export function StarRating({ stars, size = 14 }: { stars: 1 | 2 | 3; size?: numb
   );
 }
 
+// Module-level MIDI access cache — survives component unmount/remount
+let cachedMidiAccess: MidiAccessLike | null = null;
+let cachedMidiAccessState: "idle" | "granted" = "idle";
+
 const PARTICLE_CONFIGS = [
   { left: '18%', top: '30%', size: 7, color: '#FFC857', delay: '0s', dur: '1.3s' },
   { left: '75%', top: '25%', size: 5, color: '#3B9AB2', delay: '0.1s', dur: '1.1s' },
@@ -72,15 +76,15 @@ function createSessionState(sequence: PracticeExpectedSequence): PracticeSession
   };
 }
 
-export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, onComplete, resetRef }: { exercise: CatalogExercise; courseId: string; nextExerciseHref?: string; onComplete?: () => void; resetRef?: React.MutableRefObject<(() => void) | null> }) {
+export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, courseHref, onComplete, resetRef }: { exercise: CatalogExercise; courseId: string; nextExerciseHref?: string; courseHref?: string; onComplete?: () => void; resetRef?: React.MutableRefObject<(() => void) | null> }) {
   const sequence = createPracticeExpectedSequence(exercise.expectedNotes);
   const beatsPerMeasure = exercise.timeSignature[0];
   const totalMeasures = Math.max(1, Math.ceil(
     exercise.expectedNotes.reduce((max, n) => Math.max(max, n.startBeat + n.durationBeats), 0) / beatsPerMeasure
   ));
   const midiSupport = describeMidiSupport();
-  const [access, setAccess] = useState<MidiAccessLike | null>(null);
-  const [accessState, setAccessState] = useState<"idle" | "requesting" | "granted" | "error">("idle");
+  const [access, setAccess] = useState<MidiAccessLike | null>(cachedMidiAccess);
+  const [accessState, setAccessState] = useState<"idle" | "requesting" | "granted" | "error">(cachedMidiAccessState);
   const [toastMsg, setToastMsg] = useState<string | null>(null);
   const toastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const showToast = (msg: string) => {
@@ -98,7 +102,6 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
   const [pedalEngaged, setPedalEngaged] = useState(false);
   const [metronomeOn, setMetronomeOn] = useState(false);
   const [isPreviewing, setIsPreviewing] = useState(false);
-  const [isLoadingPiano, setIsLoadingPiano] = useState(false);
   const previewTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const [showCelebration, setShowCelebration] = useState(false);
@@ -132,6 +135,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
   const performHitsRef = useRef<Set<number>>(new Set());
   const playbackStartRef = useRef<number>(0);
   const expectedTimesRef = useRef<Array<{ noteNumber: number; timeMs: number; index: number; dynamicMarking?: string; pedalState?: string | null }>>([]);
+  const performWrongRef = useRef<number>(0);
   const performVelocityRef = useRef<{ correct: number; total: number }>({ correct: 0, total: 0 });
   const performPedalRef = useRef<{ correct: number; total: number }>({ correct: 0, total: 0 });
   const [performCursorIndex, setPerformCursorIndex] = useState(0);
@@ -146,20 +150,13 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
     setLoopActive(false);
     setLoopStart(1);
     setLoopEnd(totalMeasures);
+    setShowCelebration(false);
+    resetPerformance();
   }, [exercise.id]);
 
   const handlePreview = async () => {
-    if (isPreviewing || isLoadingPiano) return;
+    if (isPreviewing) return;
     await startAudio();
-    if (!isSamplerReady()) {
-      setIsLoadingPiano(true);
-      await new Promise<void>((resolve) => {
-        const check = setInterval(() => {
-          if (isSamplerReady()) { clearInterval(check); resolve(); }
-        }, 100);
-      });
-      setIsLoadingPiano(false);
-    }
     setIsPreviewing(true);
     const bpm = exercise.tempoBpm * tempoMultiplier;
     scheduleExercisePlayback(exercise.expectedNotes, bpm);
@@ -265,16 +262,15 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
               }
             }
           }
-          if (result.complete) {
+          if (result.complete && !autoLoop) {
             const totalWrong = result.state.wrongNoteCount;
             const stars: 1 | 2 | 3 =
               totalWrong === 0 ? 3 : totalWrong <= 3 ? 2 : 1;
-            markExerciseComplete(courseId, exercise.slug, stars);
+            // Practice mode does NOT mark completion — only performance does
             setCelebrationStars(stars);
             setCelebrationMode("practice");
             setShowCelebration(true);
             confetti({ particleCount: stars === 3 ? 150 : 80, spread: 70, origin: { y: 0.6 } });
-            onComplete?.();
           }
           if (result.kind === "wrong-note") {
             if (wrongNoteTimerRef.current) clearTimeout(wrongNoteTimerRef.current);
@@ -329,6 +325,9 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
         startTransition(() => {
           setPerformHits(new Set(performHitsRef.current));
         });
+      } else {
+        // Wrong note — no expected note matched
+        performWrongRef.current++;
       }
     }
   });
@@ -354,6 +353,8 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
     try {
       await startAudio();
       const midiAccess = await requestMidiAccess();
+      cachedMidiAccess = midiAccess;
+      cachedMidiAccessState = "granted";
       setAccess(midiAccess);
       setAccessState("granted");
       showToast("MIDI connected");
@@ -371,6 +372,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
     performHitsRef.current = new Set();
     setPerformHits(new Set());
     setPerformCursorIndex(0);
+    performWrongRef.current = 0;
     performVelocityRef.current = { correct: 0, total: 0 };
     performPedalRef.current = { correct: 0, total: 0 };
   };
@@ -412,6 +414,8 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
       setLastError(null);
       try {
         const midiAccess = await requestMidiAccess();
+        cachedMidiAccess = midiAccess;
+        cachedMidiAccessState = "granted";
         setAccess(midiAccess);
         setAccessState("granted");
       } catch (err) {
@@ -451,34 +455,23 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
     performHitsRef.current = freshHits;
     setPerformHits(freshHits);
 
-    // Start count-in
-    setPerformPhase("counting-in");
-    setCountBeat(countInBeats);
-
-    for (let i = countInBeats; i >= 1; i--) {
-      const delay = (countInBeats - i) * beatMs;
-      setTimeout(() => setCountBeat(i), delay);
-    }
-
-    // Piece starts after count-in
-    setTimeout(() => {
+    // Shared logic: start the piece after count-in
+    const beginPlayback = () => {
       playbackStartRef.current = performance.now();
       setPerformPhase("playing");
-
-      // Schedule background audio
       scheduleExercisePlayback(exercise.expectedNotes, bpm);
-
-      // Calculate last note end
       const lastNoteEndMs = exercise.expectedNotes.reduce((max, note) => {
         return Math.max(max, (note.startBeat + note.durationBeats) * beatMs);
       }, 0);
-
-      // Complete after piece ends + 1.5s buffer
       setTimeout(() => {
+        stopMetronome();
         setPerformPhase("complete");
         const hits = performHitsRef.current.size;
         const total = expectedTimesRef.current.length;
-        const pct = total > 0 ? Math.round((hits / total) * 100) : 0;
+        const wrongs = performWrongRef.current;
+        // Penalize wrong/extra notes: effective = hits - wrongs, clamped to 0
+        const effective = Math.max(0, hits - wrongs);
+        const pct = total > 0 ? Math.round((effective / total) * 100) : 0;
         const stars: 1 | 2 | 3 = pct >= 95 ? 3 : pct >= 75 ? 2 : 1;
         markExerciseComplete(courseId, exercise.slug, stars);
         setCelebrationStars(stars);
@@ -487,7 +480,23 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
         confetti({ particleCount: stars === 3 ? 150 : 80, spread: 70, origin: { y: 0.6 } });
         onComplete?.();
       }, lastNoteEndMs + 1500);
-    }, countInMs);
+    };
+
+    // Start count-in — synced to metronome transport when metro is on
+    setPerformPhase("counting-in");
+    setCountBeat(countInBeats);
+
+    if (metronomeOn) {
+      // Transport-synced: count-in clicks ARE metronome beats, playback starts on the downbeat
+      startPerformanceCountIn(bpm, countInBeats, setCountBeat, beginPlayback);
+    } else {
+      // Standalone: setTimeout-based count-in (no clicks)
+      for (let i = countInBeats; i >= 1; i--) {
+        const delay = (countInBeats - i) * beatMs;
+        setTimeout(() => setCountBeat(i), delay);
+      }
+      setTimeout(beginPlayback, countInMs);
+    }
   };
 
   const nextExpected = getNextPracticeExpectedEvent(session.matcherState);
@@ -513,8 +522,9 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
       ? {
           total: expectedTimesRef.current.length,
           hits: performHits.size,
+          wrong: performWrongRef.current,
           percentage: expectedTimesRef.current.length > 0
-            ? Math.round((performHits.size / expectedTimesRef.current.length) * 100)
+            ? Math.round((Math.max(0, performHits.size - performWrongRef.current) / expectedTimesRef.current.length) * 100)
             : 0
         }
       : null;
@@ -533,7 +543,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
           <button
             className={`mode-tab${mode === "performance" ? " active" : ""}`}
             type="button"
-            onClick={() => { setMode("performance"); setMetronomeOn(false); resetPerformance(); }}
+            onClick={() => { setMode("performance"); resetPerformance(); }}
           >
             Performance
           </button>
@@ -542,10 +552,10 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
           className={`preview-btn${isPreviewing ? " previewing" : ""}`}
           type="button"
           onClick={handlePreview}
-          disabled={isPreviewing || isLoadingPiano}
+          disabled={isPreviewing}
           title="Hear the exercise played through"
         >
-          {isLoadingPiano ? <><Play size={13} /> Loading piano…</> : isPreviewing ? <><Play size={13} /> Listening…</> : <><Play size={13} /> Preview</>}
+          {isPreviewing ? <><Play size={13} /> Listening…</> : <><Play size={13} /> Preview</>}
         </button>
       </div>
 
@@ -668,11 +678,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
                 {summary.wrongNotes > 0 && (
                   <span className="wrong-count-chip">{summary.wrongNotes} wrong</span>
                 )}
-                {nextExerciseHref && (
-                  <a className="action-link primary next-exercise-btn" href={nextExerciseHref}>
-                    Next exercise <ArrowRight size={14} />
-                  </a>
-                )}
+                <span className="practice-hint">Complete in Performance mode to unlock next</span>
               </>
             ) : null}
             {session.lastResult && session.lastResult.kind !== "ignored" && (
@@ -801,7 +807,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
             <div className="tool-group">
               <span className="tool-group-label">Actions</span>
               <button className="reset-btn" type="button" onClick={handleReset}>
-                Reset
+                <RotateCcw size={13} /> Reset
               </button>
             </div>
           </div>
@@ -829,6 +835,16 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
                     </button>
                   ))}
                   <span className="tempo-select-bpm">{Math.round(exercise.tempoBpm * tempoMultiplier)} bpm</span>
+                </div>
+                <div className="perform-options-row">
+                  <button
+                    className={`metronome-btn${metronomeOn ? " active" : ""}`}
+                    type="button"
+                    onClick={() => setMetronomeOn((v) => !v)}
+                    title="Toggle metronome"
+                  >
+                    Metro
+                  </button>
                 </div>
                 <button className="start-perform-btn" type="button" onClick={startPerformance}>
                   <Play size={14} /> Start Performance
@@ -882,6 +898,9 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
               <div className="score-breakdown">
                 <span className="score-hit"><Check size={13} /> {performScore.hits} correct</span>
                 <span className="score-miss"><XIcon size={13} /> {performScore.total - performScore.hits} missed</span>
+                {performScore.wrong > 0 && (
+                  <span className="score-wrong"><XIcon size={13} /> {performScore.wrong} wrong</span>
+                )}
                 {performVelocityRef.current.total > 0 && (
                   <span className="score-velocity">
                     ♪ Dynamics: {Math.round((performVelocityRef.current.correct / performVelocityRef.current.total) * 100)}%
@@ -895,13 +914,17 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
               </div>
               <div className="perform-score-actions">
                 <button className="reset-btn" type="button" onClick={resetPerformance}>
-                  Try again
+                  <RotateCcw size={13} /> Try again
                 </button>
-                {nextExerciseHref && (
+                {nextExerciseHref ? (
                   <a className="action-link primary next-exercise-btn" href={nextExerciseHref}>
                     Next exercise <ArrowRight size={14} />
                   </a>
-                )}
+                ) : courseHref ? (
+                  <a className="action-link primary next-exercise-btn" href={courseHref}>
+                    Course complete <ArrowRight size={14} />
+                  </a>
+                ) : null}
               </div>
             </div>
           )}
@@ -949,6 +972,9 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
               <div className="celebration-stats">
                 <span className="celebration-stat-ok"><Check size={14} /> {performScore.hits} correct</span>
                 <span className="celebration-stat-warn"><XIcon size={14} /> {performScore.total - performScore.hits} missed</span>
+                {performScore.wrong > 0 && (
+                  <span className="celebration-stat-warn"><XIcon size={14} /> {performScore.wrong} wrong</span>
+                )}
               </div>
             )}
             <div className="celebration-actions">
@@ -956,12 +982,22 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, on
                 onClick={() => { setShowCelebration(false); handleReset(); }}>
                 Try again
               </button>
-              {nextExerciseHref && (
+              {celebrationMode === "performance" && nextExerciseHref ? (
                 <a className="celebration-btn primary" href={nextExerciseHref}
                   onClick={() => setShowCelebration(false)}>
                   Next exercise
                 </a>
-              )}
+              ) : celebrationMode === "performance" && !nextExerciseHref && courseHref ? (
+                <a className="celebration-btn primary" href={courseHref}
+                  onClick={() => setShowCelebration(false)}>
+                  Course complete
+                </a>
+              ) : celebrationMode === "practice" ? (
+                <button className="celebration-btn primary" type="button"
+                  onClick={() => { setShowCelebration(false); setMode("performance"); resetPerformance(); }}>
+                  Try Performance
+                </button>
+              ) : null}
             </div>
           </div>
         </div>
