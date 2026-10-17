@@ -1,0 +1,15 @@
+{
+  "courseId": "replace-with-source-course-id",
+  "title": "",
+  "summary": "",
+  "exercises": {
+    "replace-with-source-exercise-id": {
+      "title": "",
+      "summary": "",
+      "goal": "",
+      "license": {
+        "notes": ""
+      }
+    }
+  }
+}

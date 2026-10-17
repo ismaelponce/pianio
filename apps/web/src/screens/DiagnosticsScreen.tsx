@@ -1,13 +1,16 @@
 import { startTransition, useDeferredValue, useEffect, useEffectEvent, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import {
   createMidiAccessAdapter,
   describeMidiSupport,
-  formatMidiNote,
   requestMidiAccess,
   type MidiAccessLike,
   type MidiInputSummary,
   type ParsedMidiEvent
 } from "@pianio/midi-web";
+import { formatNote } from "../i18n/formatNote";
+import type { Language } from "../i18n/language";
+import { midiSupportMessages, nativeErrorMessage, renderMessage, resolveLanguage, type MessageDescriptor } from "../i18n/messages";
 
 interface LoggedMidiEvent {
   id: number;
@@ -21,7 +24,7 @@ interface MidiDebugSession {
   requestCount: number;
   accessRequestedAt: string | null;
   accessGrantedAt: string | null;
-  lastError: string | null;
+  lastError: MessageDescriptor | null;
   inputs: MidiInputSummary[];
   events: LoggedMidiEvent[];
 }
@@ -29,12 +32,6 @@ interface MidiDebugSession {
 type AccessState = "idle" | "requesting" | "granted" | "error";
 
 const MAX_DEBUG_EVENTS = 40;
-const timestampFormatter = new Intl.DateTimeFormat(undefined, {
-  hour: "2-digit",
-  minute: "2-digit",
-  second: "2-digit"
-});
-
 function createEmptySession(inputs: MidiInputSummary[] = []): MidiDebugSession {
   const now = new Date().toISOString();
 
@@ -50,37 +47,37 @@ function createEmptySession(inputs: MidiInputSummary[] = []): MidiDebugSession {
   };
 }
 
-function formatTimestamp(value: string | null): string {
+function formatTimestamp(value: string | null, language: Language, notYet: string): string {
   if (!value) {
-    return "Not yet";
+    return notYet;
   }
-
-  return timestampFormatter.format(new Date(value));
+  return new Intl.DateTimeFormat(language, { hour: "2-digit", minute: "2-digit", second: "2-digit" }).format(new Date(value));
 }
 
 function formatRawData(data: readonly number[]): string {
   return data.map((value) => value.toString(16).padStart(2, "0")).join(" ");
 }
 
-function formatEventSummary(event: ParsedMidiEvent): string {
+function formatEventSummary(event: ParsedMidiEvent, language: Language, t: (key: string, options?: Record<string, unknown>) => string): string {
   if (event.type === "sustain") {
-    return event.engaged ? "Sustain pedal engaged" : "Sustain pedal released";
+    return event.engaged ? t("ui.event.pedalDown") : t("ui.event.pedalUp");
   }
-
-  const action = event.type === "note-on" ? "Note on" : "Note off";
-  return `${action} ${formatMidiNote(event.note)}`;
+  return t(event.type === "note-on" ? "ui.event.noteOn" : "ui.event.noteOff", { note: formatNote(event.note, language) });
 }
 
-function formatEventDetail(event: ParsedMidiEvent): string {
+function formatEventDetail(event: ParsedMidiEvent, t: (key: string, options?: Record<string, unknown>) => string): string {
   if (event.type === "sustain") {
-    return `Channel ${event.channel} | value ${event.value}`;
+    return t("ui.event.channelValue", { channel: event.channel, value: event.value });
   }
-
-  return `Channel ${event.channel} | velocity ${event.velocity}`;
+  return t("ui.event.channelVelocity", { channel: event.channel, velocity: event.velocity });
 }
 
 export function DiagnosticsScreen() {
+  const { i18n, t: translate } = useTranslation("diagnostics");
+  const t = translate as (key: string, options?: Record<string, unknown>) => string;
+  const language = resolveLanguage(i18n.resolvedLanguage ?? i18n.language);
   const midiSupport = describeMidiSupport();
+  const supportMessages = midiSupportMessages(midiSupport);
   const [access, setAccess] = useState<MidiAccessLike | null>(null);
   const [accessState, setAccessState] = useState<AccessState>("idle");
   const [session, setSession] = useState<MidiDebugSession>(() => createEmptySession());
@@ -161,7 +158,7 @@ export function DiagnosticsScreen() {
       }));
     } catch (error) {
       const failedAt = new Date().toISOString();
-      const message = error instanceof Error ? error.message : "Failed to request MIDI access.";
+      const message = nativeErrorMessage(error, "midi");
 
       setAccess(null);
       setAccessState("error");
@@ -184,17 +181,16 @@ export function DiagnosticsScreen() {
     }));
   };
 
-  const requestButtonLabel = access ? "Re-request MIDI access" : "Request MIDI access";
+  const requestButtonLabel = access ? t("ui.requestAgain") : t("ui.requestAccess");
 
   return (
     <div className="screen-stack diagnostics-page">
       <section className="diagnostics-header">
         <div>
-          <span className="eyebrow">Diagnostics</span>
-          <h1>MIDI check</h1>
+          <span className="eyebrow">{t("ui.title")}</span>
+          <h1>{t("ui.midiCheck")}</h1>
           <p>
-            Request Web MIDI access, verify connected inputs, and capture note and sustain
-            pedal traffic without leaving the browser.
+            {t("ui.intro")}
           </p>
           <div className="button-row">
             <button
@@ -203,22 +199,21 @@ export function DiagnosticsScreen() {
               onClick={handleRequestAccess}
               disabled={!midiSupport.available || accessState === "requesting"}
             >
-              {accessState === "requesting" ? "Requesting access..." : requestButtonLabel}
+              {accessState === "requesting" ? t("ui.requesting") : requestButtonLabel}
             </button>
             <button className="secondary-button" type="button" onClick={handleResetSession}>
-              Reset session
+              {t("ui.resetSession")}
             </button>
           </div>
         </div>
         <div className="panel status-card">
-          <h2>Browser readiness</h2>
+          <h2>{t("ui.browserReadiness")}</h2>
           <p className={midiSupport.available ? "status ok" : "status warn"}>
-            {midiSupport.summary}
+            {renderMessage(supportMessages.summary)}
           </p>
-          <p>{midiSupport.detail}</p>
+          <p>{renderMessage(supportMessages.detail)}</p>
           <p className="hint">
-            Primary validation target: desktop Chrome over HTTPS. This screen remains useful
-            even when no keyboard is connected.
+            {t("ui.validationHint")}
           </p>
         </div>
       </section>
@@ -227,62 +222,61 @@ export function DiagnosticsScreen() {
         <article className="panel">
           <div className="section-head">
             <div>
-              <span className="eyebrow">Session</span>
-              <h2>Debug state</h2>
+              <span className="eyebrow">{t("ui.session")}</span>
+              <h2>{t("ui.debugState")}</h2>
             </div>
             <p className={accessState === "error" ? "status warn" : "status ok"}>
-              {accessState === "idle" && "Permission not requested"}
-              {accessState === "requesting" && "Waiting for permission"}
-              {accessState === "granted" && "Access granted"}
-              {accessState === "error" && "Request failed"}
+              {accessState === "idle" && t("ui.permissionIdle")}
+              {accessState === "requesting" && t("ui.permissionWaiting")}
+              {accessState === "granted" && t("ui.permissionGranted")}
+              {accessState === "error" && t("ui.permissionFailed")}
             </p>
           </div>
 
           <div className="session-grid">
             <div>
-              <span className="meta-label">Session started</span>
-              <strong>{formatTimestamp(session.startedAt)}</strong>
+              <span className="meta-label">{t("ui.started")}</span>
+              <strong>{formatTimestamp(session.startedAt, language, t("ui.notYet"))}</strong>
             </div>
             <div>
-              <span className="meta-label">Last update</span>
-              <strong>{formatTimestamp(session.lastUpdatedAt)}</strong>
+              <span className="meta-label">{t("ui.lastUpdate")}</span>
+              <strong>{formatTimestamp(session.lastUpdatedAt, language, t("ui.notYet"))}</strong>
             </div>
             <div>
-              <span className="meta-label">Access requested</span>
-              <strong>{formatTimestamp(session.accessRequestedAt)}</strong>
+              <span className="meta-label">{t("ui.accessRequested")}</span>
+              <strong>{formatTimestamp(session.accessRequestedAt, language, t("ui.notYet"))}</strong>
             </div>
             <div>
-              <span className="meta-label">Access granted</span>
-              <strong>{formatTimestamp(session.accessGrantedAt)}</strong>
+              <span className="meta-label">{t("ui.accessGranted")}</span>
+              <strong>{formatTimestamp(session.accessGrantedAt, language, t("ui.notYet"))}</strong>
             </div>
             <div>
-              <span className="meta-label">Request count</span>
+              <span className="meta-label">{t("ui.requestCount")}</span>
               <strong>{session.requestCount}</strong>
             </div>
             <div>
-              <span className="meta-label">Captured events</span>
+              <span className="meta-label">{t("ui.capturedEvents")}</span>
               <strong>{session.events.length}</strong>
             </div>
           </div>
 
-          {session.lastError ? <p className="status warn">{session.lastError}</p> : null}
+          {session.lastError ? <p className="status warn">{renderMessage(session.lastError)}{session.lastError.technicalDetail ? <code> — {session.lastError.technicalDetail}</code> : null}</p> : null}
         </article>
 
         <article className="panel">
           <div className="section-head">
             <div>
-              <span className="eyebrow">Inputs</span>
-              <h2>Detected MIDI devices</h2>
+              <span className="eyebrow">{t("ui.inputs")}</span>
+              <h2>{t("ui.devices")}</h2>
             </div>
-            <p>{session.inputs.length} visible</p>
+            <p>{t("ui.visibleCount", { count: session.inputs.length })}</p>
           </div>
 
           {session.inputs.length === 0 ? (
             <div className="empty-state">
-              <strong>No MIDI inputs detected</strong>
+              <strong>{t("ui.noInputs")}</strong>
               <p>
-                After permission is granted, compatible devices should appear here automatically.
-                You can keep this page open while connecting a keyboard.
+                {t("ui.noInputsHint")}
               </p>
             </div>
           ) : (
@@ -290,12 +284,12 @@ export function DiagnosticsScreen() {
               {session.inputs.map((input) => (
                 <li className="input-card" key={input.id}>
                   <div>
-                    <strong>{input.name ?? "Unnamed input"}</strong>
-                    <p>{input.manufacturer ?? "Unknown manufacturer"}</p>
+                    <strong>{input.name ?? t("ui.unnamedInput")}</strong>
+                    <p>{input.manufacturer ?? t("ui.unknownManufacturer")}</p>
                   </div>
                   <div className="input-meta">
-                    <span className="pill">{input.state}</span>
-                    <span className="pill muted">{input.connection}</span>
+                    <span className="pill">{t(`ui.deviceState.${input.state}`)}</span>
+                    <span className="pill muted">{t(`ui.connectionState.${input.connection}`)}</span>
                   </div>
                 </li>
               ))}
@@ -307,38 +301,37 @@ export function DiagnosticsScreen() {
       <section className="panel">
         <div className="section-head">
           <div>
-            <span className="eyebrow">Events</span>
-            <h2>Recent MIDI traffic</h2>
+              <span className="eyebrow">{t("ui.events")}</span>
+              <h2>{t("ui.recentTraffic")}</h2>
           </div>
-          <p>Logging note on, note off, and sustain pedal messages only.</p>
+          <p>{t("ui.loggingHint")}</p>
         </div>
 
         {deferredEvents.length === 0 ? (
           <div className="empty-state">
-            <strong>No matching MIDI events yet</strong>
+            <strong>{t("ui.noEvents")}</strong>
             <p>
-              Press keys or move the sustain pedal after granting access. Unsupported message
-              types are ignored so the log stays focused.
+              {t("ui.noEventsHint")}
             </p>
           </div>
         ) : (
-          <div className="event-table" role="table" aria-label="Recent MIDI events">
+          <div className="event-table" role="table" aria-label={t("ui.recentEventsLabel")}>
             <div className="event-row event-row-header" role="row">
-              <span role="columnheader">Time</span>
-              <span role="columnheader">Event</span>
-              <span role="columnheader">Details</span>
-              <span role="columnheader">Source</span>
-              <span role="columnheader">Raw</span>
+              <span role="columnheader">{t("ui.time")}</span>
+              <span role="columnheader">{t("ui.event")}</span>
+              <span role="columnheader">{t("ui.details")}</span>
+              <span role="columnheader">{t("ui.source")}</span>
+              <span role="columnheader">{t("ui.raw")}</span>
             </div>
             {deferredEvents.map((entry) => (
               <div className="event-row" key={entry.id} role="row">
-                <span role="cell">{formatTimestamp(entry.capturedAt)}</span>
+                <span role="cell">{formatTimestamp(entry.capturedAt, language, t("ui.notYet"))}</span>
                 <span role="cell">
-                  <span className={`event-chip ${entry.event.type}`}>{formatEventSummary(entry.event)}</span>
+                  <span className={`event-chip ${entry.event.type}`}>{formatEventSummary(entry.event, language, t)}</span>
                 </span>
-                <span role="cell">{formatEventDetail(entry.event)}</span>
+                <span role="cell">{formatEventDetail(entry.event, t)}</span>
                 <span role="cell">
-                  {entry.event.source.name ?? "Unknown input"}
+                  {entry.event.source.name ?? t("ui.unknownInput")}
                   {entry.event.source.manufacturer ? ` (${entry.event.source.manufacturer})` : ""}
                 </span>
                 <code className="mono" role="cell">

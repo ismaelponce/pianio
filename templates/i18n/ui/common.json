@@ -1,0 +1,49 @@
+{
+  "document": {
+    "title": "",
+    "description": ""
+  },
+  "ui": {
+    "skip": "",
+    "nav": {
+      "courses": "",
+      "progress": "",
+      "backToCourses": "",
+      "catalog": ""
+    },
+    "theme": {
+      "light": "",
+      "dark": ""
+    },
+    "midiDiagnostics": "",
+    "sidebar": {
+      "show": "",
+      "hide": ""
+    },
+    "outline": {
+      "show": "",
+      "hide": ""
+    },
+    "backToTop": "",
+    "unavailable": "",
+    "returnCatalog": "",
+    "page404": "",
+    "navigation": "",
+    "footer": "",
+    "breadcrumb": "",
+    "license": ""
+  },
+  "language": {
+    "label": "",
+    "loading": "",
+    "deferred": "",
+    "fallback": "",
+    "error": "",
+    "initialError": "",
+    "retry": "",
+    "partial": "",
+    "coursePartial": "",
+    "scoreFallback": "",
+    "scoreRetry": ""
+  }
+}

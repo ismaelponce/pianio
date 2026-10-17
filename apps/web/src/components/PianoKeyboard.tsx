@@ -1,3 +1,8 @@
+import { useTranslation } from "react-i18next";
+import { formatNote, formatNoteName } from "../i18n/formatNote";
+import { resolveLanguage } from "../i18n/messages";
+import type { Language } from "../i18n/language";
+
 /**
  * A visual piano keyboard spanning C2–B5.
  * Highlights the next expected note and any currently pressed keys.
@@ -57,16 +62,9 @@ function buildKeys() {
 
 const { whites, blacks, totalWidth } = buildKeys();
 
-const NOTE_NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
-
-function fullNoteName(midi: number): string {
-  const octave = Math.floor(midi / 12) - 1;
-  return `${NOTE_NAMES[midi % 12]}${octave}`;
-}
-
 /** Always-visible label: only on C keys */
-function cLabel(midi: number): string | null {
-  return midi % 12 === 0 ? fullNoteName(midi) : null;
+function cLabel(midi: number, language: Language): string | null {
+  return midi % 12 === 0 ? formatNote(midi, language) : null;
 }
 
 // Colour palette for hand highlights — Wes Anderson palette
@@ -96,6 +94,8 @@ interface Props {
 }
 
 export function PianoKeyboard({ nextNoteNumbers, nextNoteHand, pressedNotes, wrongNote, noteLabels }: Props) {
+  const { i18n } = useTranslation();
+  const language = resolveLanguage(i18n.resolvedLanguage ?? i18n.language);
   const isTogether = nextNoteHand === "together";
   const isLeft = nextNoteHand === "left";
   // For "together", split by middle C (60): below = left hand, at/above = right hand
@@ -121,7 +121,7 @@ export function PianoKeyboard({ nextNoteNumbers, nextNoteHand, pressedNotes, wro
         width={totalWidth}
         height={svgHeight}
         className="piano-keyboard-svg"
-        aria-label="Piano keyboard"
+        aria-label={i18n.t("practice:ui.keyboard.label")}
       >
         <defs>
           <linearGradient id="black-key-grad" x1="0" y1="0" x2="0" y2="1">
@@ -135,7 +135,7 @@ export function PianoKeyboard({ nextNoteNumbers, nextNoteHand, pressedNotes, wro
           const isWrong = midi === wrongNote;
           const isPressed = pressedNotes?.has(midi);
           const isChordHeld = isNext && isPressed;
-          const staticLabel = cLabel(midi);
+          const staticLabel = cLabel(midi, language);
           const h = isTogether ? handForNote(midi) : (isLeft ? "left" : "right");
           const fill = isWrong ? "#fdd5cc" : isChordHeld ? (h === "left" ? "#e5c8a0" : "#8ec5d0") : isNext ? fillFor(h) : isPressed ? "#F5CDB4" : "var(--piano-key-white, #fff)";
           const stroke = isWrong ? "#C93312" : isNext ? strokeFor(h) : "#c5bdb5";
@@ -173,7 +173,7 @@ export function PianoKeyboard({ nextNoteNumbers, nextNoteHand, pressedNotes, wro
                   fontFamily="inherit"
                   fontWeight="700"
                 >
-                  {fullNoteName(midi)}
+                  {formatNote(midi, language)}
                 </text>
               ) : noteLabels ? (
                 /* Note-labels mode: letter on every white key */
@@ -186,7 +186,7 @@ export function PianoKeyboard({ nextNoteNumbers, nextNoteHand, pressedNotes, wro
                   fontFamily="inherit"
                   fontWeight={midi % 12 === 0 ? "700" : "400"}
                 >
-                  {NOTE_NAMES[midi % 12]}
+                  {formatNoteName(midi, language)}
                 </text>
               ) : staticLabel ? (
                 /* Default: C labels only */
@@ -245,7 +245,7 @@ export function PianoKeyboard({ nextNoteNumbers, nextNoteHand, pressedNotes, wro
                   fontFamily="inherit"
                   fontWeight="700"
                 >
-                  {fullNoteName(midi).replace(/\d/, "")}
+                  {formatNoteName(midi, language)}
                 </text>
               )}
             </g>

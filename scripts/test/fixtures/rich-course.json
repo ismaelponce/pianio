@@ -1,0 +1,19 @@
+{
+  "courseId": "fixture-course",
+  "title": "Fixture course",
+  "summary": "A source fixture with every sensitive notation feature.",
+  "level": 1,
+  "sourcePolicy": "original_only",
+  "exercises": [{
+    "id": "fixture-001", "slug": "rich-score", "title": "Original score",
+    "summary": "Chords, staves, ties, dotted values, swing, dynamics and pedal.",
+    "goal": "Read carefully & hold < full value.", "hands": "together", "clef": "G",
+    "tempoBpm": 72, "timeSignature": [4, 4], "keySignature": -1,
+    "sourceKind": "original", "license": {"type": "CC0-1.0", "attribution": "Original author & arranger", "notes": "An original fixture."},
+    "measures": [["C4:dq~", "C4:e", "[D4,F4,A4]:q", "R:q"], ["C4:q~", "C4:q", "E4:de", "F4:e", "G4:de"]],
+    "measuresLeft": [["C3:h~", "C3:h"], ["[C3,E3]:w"]],
+    "swing": true,
+    "dynamics": [{"measure": 1, "marking": "p"}, {"measure": 2, "beat": 3, "marking": "f"}],
+    "pedal": [{"measure": 1, "beat": 1, "type": "down"}, {"measure": 2, "beat": 4, "type": "up"}]
+  }]
+}

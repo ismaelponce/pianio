@@ -1,0 +1,49 @@
+{
+  "document": {
+    "title": "Pianio — Free, open piano lessons",
+    "description": "Learn piano with real-time MIDI feedback. 80 courses, 1500+ exercises, completely free and open source."
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "nav": {
+      "courses": "Courses",
+      "progress": "Progress",
+      "backToCourses": "Back to courses",
+      "catalog": "All courses"
+    },
+    "theme": {
+      "light": "Switch to light mode",
+      "dark": "Switch to dark mode"
+    },
+    "midiDiagnostics": "MIDI diagnostics",
+    "sidebar": {
+      "show": "Show sidebar",
+      "hide": "Collapse sidebar"
+    },
+    "outline": {
+      "show": "Show outline",
+      "hide": "Collapse outline"
+    },
+    "backToTop": "Back to top",
+    "unavailable": "Unavailable",
+    "returnCatalog": "Return to catalog",
+    "page404": "This page doesn't exist",
+    "navigation": "Navigation",
+    "footer": "Free, open-source piano lessons that listen.",
+    "breadcrumb": "Breadcrumb",
+    "license": "MIT License"
+  },
+  "language": {
+    "label": "Language",
+    "loading": "Loading selected language…",
+    "deferred": "The selected language will apply when audio finishes.",
+    "fallback": "Localized content is unavailable. English content is shown.",
+    "error": "The language could not be loaded. Your current session is preserved. Try again.",
+    "initialError": "The catalog could not be loaded. Try again.",
+    "retry": "Try again",
+    "partial": "Localized content is incomplete. Untranslated courses and fields use English.",
+    "coursePartial": "This course includes English fallback content.",
+    "scoreFallback": "The localized score is unavailable. Showing the corresponding English score.",
+    "scoreRetry": "Retry localized score"
+  }
+}

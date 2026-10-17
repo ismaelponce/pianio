@@ -1,0 +1,139 @@
+{
+  "score": {
+    "error": {
+      "http": "Could not load the score (HTTP {{status}}).",
+      "network": "A network error prevented the score from loading.",
+      "unknown": "Could not load or display the score."
+    }
+  },
+  "midi": {
+    "connected": "MIDI connected",
+    "connection-failed": "MIDI connection failed"
+  },
+  "ui": {
+    "keyboard": {
+      "label": "Piano keyboard"
+    },
+    "score": {
+      "failed": "Failed to load score",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "loading": "Loading score...",
+      "scroll": "Scroll the score horizontally to read long instructions."
+    },
+    "hand": {
+      "left": "Left hand",
+      "right": "Right hand",
+      "together": "Hands together",
+      "leftShort": "LH",
+      "rightShort": "RH"
+    },
+    "clef": {
+      "treble": "Treble clef",
+      "bass": "Bass clef",
+      "grand": "Treble and bass clefs"
+    },
+    "reset": "reset",
+    "navigate": "navigate",
+    "outline": {
+      "title": "Course Outline",
+      "viewCourse": "View course"
+    },
+    "mode": {
+      "practice": "Practice",
+      "performance": "Performance"
+    },
+    "preview": {
+      "title": "Hear the exercise played through",
+      "listening": "Listening…",
+      "action": "Preview"
+    },
+    "midi": {
+      "connecting": "Connecting…",
+      "connect": "Connect MIDI",
+      "retry": "Retry MIDI",
+      "device": "Device"
+    },
+    "unit": {
+      "notes_one": "{{count}} note",
+      "notes_other": "{{count}} notes",
+      "bpm": "{{bpm}} bpm"
+    },
+    "loop": {
+      "badge": "Loop: m{{start}}–m{{end}}",
+      "start": "Loop start measure",
+      "end": "Loop end measure",
+      "disable": "Disable section loop",
+      "selected": "Loop selected measures",
+      "section": "Section"
+    },
+    "feedback": {
+      "next": "Next",
+      "unlockNext": "Complete in Performance mode to unlock next",
+      "tooLoud": "Too loud",
+      "tooSoft": "Too soft",
+      "pressPedal": "Press pedal",
+      "releasePedal": "Release pedal"
+    },
+    "result": {
+      "perfect": "Perfect!",
+      "complete": "Complete",
+      "wrongNote": "Wrong note",
+      "extra": "Extra",
+      "wrongNotes_one": "{{count}} wrong note",
+      "wrongNotes_other": "{{count}} wrong notes",
+      "accuracy": "{{percent}}% accuracy",
+      "correct_one": "{{count}} correct",
+      "correct_other": "{{count}} correct",
+      "missed_one": "{{count}} missed",
+      "missed_other": "{{count}} missed",
+      "wrong_one": "{{count}} wrong",
+      "wrong_other": "{{count}} wrong",
+      "dynamics": "Dynamics",
+      "pedal": "Pedal"
+    },
+    "action": {
+      "tryAgain": "Try again"
+    },
+    "navigation": {
+      "nextExercise": "Next exercise",
+      "courseComplete": "Course complete",
+      "previousExercise": "Previous exercise"
+    },
+    "celebration": {
+      "perfect": "Perfect!",
+      "great": "Great job!",
+      "flawless": "No wrong notes — flawless",
+      "tryPerformance": "Try Performance"
+    },
+    "performance": {
+      "intro": "The exercise plays in the background. Play along and your notes are graded on accuracy.",
+      "start": "Start Performance",
+      "getReady": "Get ready…",
+      "playing": "Playing",
+      "notesMatched": "notes matched"
+    },
+    "tools": {
+      "speed": "Speed",
+      "features": "Features",
+      "metronome": "Toggle metronome",
+      "metroShort": "Metro",
+      "hide": "Hide tools",
+      "show": "Show practice tools",
+      "title": "Tools",
+      "showHints": "Show next-note hints",
+      "hideHints": "Hide next-note hints (sight-reading)",
+      "hideNoteNames": "Hide note names",
+      "showNoteNames": "Show note names on keyboard",
+      "namesShort": "Names",
+      "sightShort": "Sight",
+      "disableLoop": "Disable auto-loop",
+      "autoLoop": "Auto-repeat exercise on completion",
+      "loop": "Loop",
+      "stop": "Stop",
+      "actions": "Actions",
+      "pedalShort": "Ped",
+      "swing": "Swing"
+    }
+  }
+}

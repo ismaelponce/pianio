@@ -1,6 +1,6 @@
 import { deepEqual, equal } from "node:assert/strict";
 import test from "node:test";
-import { collectMidiInputs, formatMidiNote, parseMidiMessage } from "../src/index.js";
+import { collectMidiInputs, describeMidiSupport, formatMidiNote, parseMidiMessage } from "../src/index.js";
 
 const source = {
   id: "launchkey-1",
@@ -116,4 +116,25 @@ test("collectMidiInputs normalizes and sorts visible inputs", () => {
 test("formatMidiNote renders common piano note labels", () => {
   equal(formatMidiNote(60), "C4");
   equal(formatMidiNote(73), "C#5");
+});
+
+test("describeMidiSupport assigns a stable code to every support branch", () => {
+  const originalWindow = Object.getOwnPropertyDescriptor(globalThis, "window");
+  const originalNavigator = Object.getOwnPropertyDescriptor(globalThis, "navigator");
+  try {
+    Reflect.deleteProperty(globalThis, "window");
+    equal(describeMidiSupport().code, "environment-not-browser");
+    Object.defineProperty(globalThis, "window", { configurable: true, value: { isSecureContext: false } });
+    equal(describeMidiSupport().code, "insecure-context");
+    Object.defineProperty(globalThis, "window", { configurable: true, value: { isSecureContext: true } });
+    Object.defineProperty(globalThis, "navigator", { configurable: true, value: {} });
+    equal(describeMidiSupport().code, "api-unavailable");
+    Object.defineProperty(globalThis, "navigator", { configurable: true, value: { requestMIDIAccess: () => Promise.resolve({}) } });
+    equal(describeMidiSupport().code, "available");
+  } finally {
+    if (originalWindow) Object.defineProperty(globalThis, "window", originalWindow);
+    else Reflect.deleteProperty(globalThis, "window");
+    if (originalNavigator) Object.defineProperty(globalThis, "navigator", originalNavigator);
+    else Reflect.deleteProperty(globalThis, "navigator");
+  }
 });

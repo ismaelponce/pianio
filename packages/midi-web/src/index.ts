@@ -2,6 +2,7 @@ export type MidiPortDeviceState = "connected" | "disconnected";
 export type MidiPortConnectionState = "open" | "closed" | "pending";
 
 export interface MidiSupportDescription {
+  code: "environment-not-browser" | "insecure-context" | "api-unavailable" | "available";
   available: boolean;
   summary: string;
   detail: string;
@@ -118,6 +119,7 @@ export function isWebMidiSupported(): boolean {
 export function describeMidiSupport(): MidiSupportDescription {
   if (typeof window === "undefined") {
     return {
+      code: "environment-not-browser",
       available: false,
       summary: "Browser APIs unavailable",
       detail: "This check only runs meaningfully in the browser."
@@ -126,6 +128,7 @@ export function describeMidiSupport(): MidiSupportDescription {
 
   if (!window.isSecureContext) {
     return {
+      code: "insecure-context",
       available: false,
       summary: "Secure context required",
       detail: "Web MIDI access needs HTTPS on hosted environments."
@@ -134,6 +137,7 @@ export function describeMidiSupport(): MidiSupportDescription {
 
   if (!isWebMidiSupported()) {
     return {
+      code: "api-unavailable",
       available: false,
       summary: "Web MIDI not exposed",
       detail: "The current browser does not expose navigator.requestMIDIAccess."
@@ -141,6 +145,7 @@ export function describeMidiSupport(): MidiSupportDescription {
   }
 
   return {
+    code: "available",
     available: true,
     summary: "Web MIDI available",
     detail: "This browser can request MIDI access and enumerate compatible devices."

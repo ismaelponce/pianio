@@ -1,0 +1,30 @@
+{
+  "progress": {
+    "import": {
+      "success": "",
+      "invalid-json": "",
+      "unsupported-format": "",
+      "storage-write-failed": ""
+    }
+  },
+  "ui": {
+    "startTitle": "",
+    "startDescription": "",
+    "startPractice": "",
+    "yourProgress": "",
+    "summary": "",
+    "continue": "",
+    "export": "",
+    "import": "",
+    "reset": "",
+    "confirmReset": "",
+    "complete": "",
+    "dayStreak_one": "",
+    "dayStreak_other": "",
+    "yourCourses": "",
+    "byCategory": "",
+    "ofComplete": "",
+    "perfect_one": "",
+    "perfect_other": ""
+  }
+}

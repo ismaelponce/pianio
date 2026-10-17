@@ -11,11 +11,16 @@
   "packageManager": "pnpm@10.18.3",
   "scripts": {
     "dev": "pnpm generate:content && pnpm --filter @pianio/web dev",
-    "build": "pnpm generate:content && pnpm --filter @pianio/web build",
+    "build": "pnpm check:i18n && pnpm generate:content && pnpm --filter @pianio/web build",
     "typecheck": "pnpm --filter @pianio/web typecheck",
     "test": "pnpm --filter @pianio/midi-web test",
+    "test:ui": "pnpm --filter @pianio/web test:ui",
+    "check:i18n": "node ./scripts/check-translations.mjs",
+    "i18n:scaffold": "node ./scripts/scaffold-translations.mjs",
     "generate:content": "node ./scripts/generate-content.mjs",
-    "deploy": "pnpm build && firebase deploy --only hosting"
+    "deploy": "pnpm build && firebase deploy --only hosting",
+    "check:i18n:full": "node ./scripts/check-translations.mjs --full",
+    "test:content": "node --test scripts/test/*.test.mjs"
   },
   "devDependencies": {
     "typescript": "^5.9.2"

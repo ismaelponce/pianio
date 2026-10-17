@@ -110,6 +110,34 @@ export interface CatalogExercise {
   swing?: boolean;
 }
 
+/** Only editorial fields may be overridden. Empty/missing strings use source English. */
+export interface ExerciseTranslation {
+  title?: string;
+  summary?: string;
+  goal?: string;
+  license?: { notes?: string };
+}
+export interface CourseTranslationDocument {
+  courseId: string;
+  title?: string;
+  summary?: string;
+  exercises?: Record<string, ExerciseTranslation>;
+}
+/** Full text shape; runtime also requires license.notes when source notes are nonempty. */
+export interface CompleteCourseTranslationDocument extends CourseTranslationDocument {
+  title: string;
+  summary: string;
+  exercises: Record<string, Required<Omit<ExerciseTranslation, "license">> & { license?: { notes: string } }>;
+}
+export interface ContentCoverage {
+  locale: string;
+  sourceLanguage: string;
+  totalFields: number;
+  sourceFields: number;
+  translatedFields: number;
+  fallbackFields: number;
+  fields: Record<string, "source" | "translated" | "fallback">;
+}
 export interface CatalogCourse {
   id: string;
   title: string;
@@ -117,10 +145,19 @@ export interface CatalogCourse {
   summary: string;
   sourcePolicy: string;
   exerciseCount: number;
+  /** Optional while existing callers migrate; always emitted by the new generator. */
+  coverage?: ContentCoverage;
   exercises: CatalogExercise[];
 }
 
 export interface GeneratedCatalog {
+  /** Optional for compatibility with pre-localization fixtures and callers. */
+  locale?: string;
   generatedAt: string;
   courses: CatalogCourse[];
+}
+/** Phase 5 loader may require the stronger generated contract after runtime checks. */
+export interface LocalizedCatalog extends GeneratedCatalog {
+  locale: string;
+  courses: Array<CatalogCourse & { coverage: ContentCoverage }>;
 }

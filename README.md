@@ -58,6 +58,15 @@ scripts/               Content generation pipeline
 
 Piano sounds use the [Salamander Grand Piano](https://sfzinstruments.github.io/pianos/salamander/) samples by Alexander Holm, licensed under [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/), served via the Tone.js CDN.
 
+
+## Internationalization
+
+The interface and generated course catalog use a localization pipeline with English as the source and fallback language. UI text is organized into typed namespaces, and the locale registry and validation scripts support adding languages without changing application screens.
+
+See [the language contribution guide](docs/ADDING-A-LANGUAGE.en.md) and [the content pipeline](docs/I18N-CONTENT-PIPELINE.md).
+Reusable UI templates and the course translation scaffolder are available in [`templates/i18n/`](templates/i18n/) and `pnpm i18n:scaffold --locale <language>`.
+
+
 ## License
 
 Code: [MIT](LICENSE) · Content: [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)

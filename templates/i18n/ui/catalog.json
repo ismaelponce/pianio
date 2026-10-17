@@ -1,0 +1,91 @@
+{
+  "error": {
+    "http": "",
+    "network": "",
+    "unknown": ""
+  },
+  "ui": {
+    "group": {
+      "method": "",
+      "technique": "",
+      "songs": "",
+      "other": ""
+    },
+    "col": {
+      "foundations": "",
+      "building": "",
+      "combined": "",
+      "applied": "",
+      "mastery": ""
+    },
+    "exercises_one": "",
+    "exercises_other": "",
+    "level": "",
+    "openFirst": "",
+    "completed": "",
+    "completePercent": "",
+    "exercisesLabel": "",
+    "titleMethod": "",
+    "titleTechnique": "",
+    "titleSongs": "",
+    "howItWorks": "",
+    "tagline": "",
+    "stats": "",
+    "continue": "",
+    "startLearning": "",
+    "resumeHint": "",
+    "connect": "",
+    "connectHint": "",
+    "play": "",
+    "playHint": "",
+    "learn": "",
+    "learnHint": "",
+    "courseNotFound": "",
+    "exerciseNotFound": "",
+    "courseMissing": "",
+    "exerciseMissing": "",
+    "catalogError": "",
+    "contentError": "",
+    "loading": "",
+    "exercises_many": "",
+    "category": {
+      "baroque": "",
+      "celtic": "",
+      "children": "",
+      "christian": "",
+      "classical": "",
+      "dance": "",
+      "festive": "",
+      "folk": "",
+      "jazzBlues": "",
+      "latin": "",
+      "lullaby": "",
+      "march": "",
+      "meditation": "",
+      "patriotic": "",
+      "ragtime": "",
+      "romanticEra": "",
+      "waltz": "",
+      "world": "",
+      "other": "",
+      "filmTv": "",
+      "opera": "",
+      "seaShanty": "",
+      "musicalTheater": ""
+    },
+    "source": {
+      "original": "",
+      "public_domain": "",
+      "open_license": ""
+    },
+    "policy": {
+      "original": "",
+      "original_only": "",
+      "public_domain_only": ""
+    },
+    "sidebarLoading": "",
+    "courseCatalog": "",
+    "progressStats": "",
+    "cellTooltip": ""
+  }
+}

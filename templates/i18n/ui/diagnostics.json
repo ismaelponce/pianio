@@ -1,0 +1,82 @@
+{
+  "midi": {
+    "support": {
+      "environment-not-browser": {
+        "summary": "",
+        "detail": ""
+      },
+      "insecure-context": {
+        "summary": "",
+        "detail": ""
+      },
+      "api-unavailable": {
+        "summary": "",
+        "detail": ""
+      },
+      "available": {
+        "summary": "",
+        "detail": ""
+      }
+    },
+    "error": {
+      "permission-denied": "",
+      "security": "",
+      "aborted": "",
+      "invalid-state": "",
+      "unsupported": "",
+      "unknown": ""
+    }
+  },
+  "ui": {
+    "event": "",
+    "title": "",
+    "midiCheck": "",
+    "intro": "",
+    "requestAgain": "",
+    "requestAccess": "",
+    "requesting": "",
+    "resetSession": "",
+    "browserReadiness": "",
+    "validationHint": "",
+    "session": "",
+    "debugState": "",
+    "permissionIdle": "",
+    "permissionWaiting": "",
+    "permissionGranted": "",
+    "permissionFailed": "",
+    "started": "",
+    "lastUpdate": "",
+    "accessRequested": "",
+    "accessGranted": "",
+    "requestCount": "",
+    "capturedEvents": "",
+    "notYet": "",
+    "inputs": "",
+    "devices": "",
+    "visibleCount": "",
+    "noInputs": "",
+    "noInputsHint": "",
+    "unnamedInput": "",
+    "unknownManufacturer": "",
+    "events": "",
+    "recentTraffic": "",
+    "loggingHint": "",
+    "noEvents": "",
+    "noEventsHint": "",
+    "recentEventsLabel": "",
+    "time": "",
+    "details": "",
+    "source": "",
+    "raw": "",
+    "unknownInput": "",
+    "deviceState": {
+      "connected": "",
+      "disconnected": ""
+    },
+    "connectionState": {
+      "open": "",
+      "closed": "",
+      "pending": ""
+    }
+  }
+}

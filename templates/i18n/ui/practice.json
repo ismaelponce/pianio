@@ -1,0 +1,139 @@
+{
+  "score": {
+    "error": {
+      "http": "",
+      "network": "",
+      "unknown": ""
+    }
+  },
+  "midi": {
+    "connected": "",
+    "connection-failed": ""
+  },
+  "ui": {
+    "keyboard": {
+      "label": ""
+    },
+    "score": {
+      "failed": "",
+      "zoomIn": "",
+      "zoomOut": "",
+      "loading": "",
+      "scroll": ""
+    },
+    "hand": {
+      "left": "",
+      "right": "",
+      "together": "",
+      "leftShort": "",
+      "rightShort": ""
+    },
+    "clef": {
+      "treble": "",
+      "bass": "",
+      "grand": ""
+    },
+    "reset": "",
+    "navigate": "",
+    "outline": {
+      "title": "",
+      "viewCourse": ""
+    },
+    "mode": {
+      "practice": "",
+      "performance": ""
+    },
+    "preview": {
+      "title": "",
+      "listening": "",
+      "action": ""
+    },
+    "midi": {
+      "connecting": "",
+      "connect": "",
+      "retry": "",
+      "device": ""
+    },
+    "unit": {
+      "notes_one": "",
+      "notes_other": "",
+      "bpm": ""
+    },
+    "loop": {
+      "badge": "",
+      "start": "",
+      "end": "",
+      "disable": "",
+      "selected": "",
+      "section": ""
+    },
+    "feedback": {
+      "next": "",
+      "unlockNext": "",
+      "tooLoud": "",
+      "tooSoft": "",
+      "pressPedal": "",
+      "releasePedal": ""
+    },
+    "result": {
+      "perfect": "",
+      "complete": "",
+      "wrongNote": "",
+      "extra": "",
+      "wrongNotes_one": "",
+      "wrongNotes_other": "",
+      "accuracy": "",
+      "correct_one": "",
+      "correct_other": "",
+      "missed_one": "",
+      "missed_other": "",
+      "wrong_one": "",
+      "wrong_other": "",
+      "dynamics": "",
+      "pedal": ""
+    },
+    "action": {
+      "tryAgain": ""
+    },
+    "navigation": {
+      "nextExercise": "",
+      "courseComplete": "",
+      "previousExercise": ""
+    },
+    "celebration": {
+      "perfect": "",
+      "great": "",
+      "flawless": "",
+      "tryPerformance": ""
+    },
+    "performance": {
+      "intro": "",
+      "start": "",
+      "getReady": "",
+      "playing": "",
+      "notesMatched": ""
+    },
+    "tools": {
+      "speed": "",
+      "features": "",
+      "metronome": "",
+      "metroShort": "",
+      "hide": "",
+      "show": "",
+      "title": "",
+      "showHints": "",
+      "hideHints": "",
+      "hideNoteNames": "",
+      "showNoteNames": "",
+      "namesShort": "",
+      "sightShort": "",
+      "disableLoop": "",
+      "autoLoop": "",
+      "loop": "",
+      "stop": "",
+      "actions": "",
+      "pedalShort": "",
+      "swing": ""
+    }
+  }
+}

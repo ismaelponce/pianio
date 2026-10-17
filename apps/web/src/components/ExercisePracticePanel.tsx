@@ -1,5 +1,8 @@
-import React, { startTransition, useEffect, useEffectEvent, useRef, useState } from "react";
+import { readPreference, savePreference } from "../storage";
+import React, { startTransition, useEffect, useEffectEvent, useRef, useState, useMemo } from "react";
+import { useTranslation } from "react-i18next";
 import type { CatalogExercise } from "@pianio/content-schema";
+import { useLanguage } from "../i18n/LanguageProvider";
 import { ScoreViewer } from "./ScoreViewer";
 import { PianoKeyboard } from "./PianoKeyboard";
 import { markExerciseComplete } from "../progress";
@@ -21,12 +24,13 @@ import {
 import {
   createMidiAccessAdapter,
   describeMidiSupport,
-  formatMidiNote,
   requestMidiAccess,
   type MidiAccessLike,
   type MidiInputSummary,
   type ParsedMidiEvent
 } from "@pianio/midi-web";
+import { formatNote } from "../i18n/formatNote";
+import { midiSupportMessages, nativeErrorMessage, renderMessage, resolveLanguage, type MessageDescriptor } from "../i18n/messages";
 
 const STAR_PATH = "M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z";
 
@@ -77,7 +81,25 @@ function createSessionState(sequence: PracticeExpectedSequence): PracticeSession
 }
 
 export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, courseHref, onComplete, resetRef }: { exercise: CatalogExercise; courseId: string; nextExerciseHref?: string; courseHref?: string; onComplete?: () => void; resetRef?: React.MutableRefObject<(() => void) | null> }) {
-  const sequence = createPracticeExpectedSequence(exercise.expectedNotes);
+  const { i18n, t: translate } = useTranslation("practice");
+  const t = translate as (key: string, options?: Record<string, unknown>) => string;
+  const language = resolveLanguage(i18n.resolvedLanguage ?? i18n.language);
+  const { beginActivity } = useLanguage();
+  const sequence = useMemo(() => createPracticeExpectedSequence(exercise.expectedNotes), [exercise.expectedNotes]);
+  const mountedRef = useRef(false);
+  const performanceRunRef = useRef(0);
+  const performanceActivityRef = useRef<{ release: () => void; playing: boolean } | null>(null);
+  useEffect(() => {
+    mountedRef.current = true;
+    return () => {
+      mountedRef.current = false;
+      ++performanceRunRef.current;
+      // Scheduled audio finishes naturally; a count-in must not start a new piece after navigation.
+      if (!performanceActivityRef.current?.playing) performanceActivityRef.current?.release();
+      if (toastTimerRef.current) clearTimeout(toastTimerRef.current);
+      if (wrongNoteTimerRef.current) clearTimeout(wrongNoteTimerRef.current);
+    };
+  }, []);
   const beatsPerMeasure = exercise.timeSignature[0];
   const totalMeasures = Math.max(1, Math.ceil(
     exercise.expectedNotes.reduce((max, n) => Math.max(max, n.startBeat + n.durationBeats), 0) / beatsPerMeasure
@@ -85,14 +107,14 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
   const midiSupport = describeMidiSupport();
   const [access, setAccess] = useState<MidiAccessLike | null>(cachedMidiAccess);
   const [accessState, setAccessState] = useState<"idle" | "requesting" | "granted" | "error">(cachedMidiAccessState);
-  const [toastMsg, setToastMsg] = useState<string | null>(null);
+  const [toastMsg, setToastMsg] = useState<MessageDescriptor | null>(null);
   const toastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const showToast = (msg: string) => {
+  const showToast = (msg: MessageDescriptor) => {
     if (toastTimerRef.current) clearTimeout(toastTimerRef.current);
     setToastMsg(msg);
     toastTimerRef.current = setTimeout(() => setToastMsg(null), 3000);
   };
-  const [lastError, setLastError] = useState<string | null>(null);
+  const [lastError, setLastError] = useState<MessageDescriptor | null>(null);
   const [inputs, setInputs] = useState<MidiInputSummary[]>([]);
   const [session, setSession] = useState<PracticeSessionState>(() => createSessionState(sequence));
   const [pressedNotes, setPressedNotes] = useState<Set<number>>(new Set());
@@ -107,19 +129,19 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
   const [showCelebration, setShowCelebration] = useState(false);
   const [celebrationStars, setCelebrationStars] = useState<1 | 2 | 3>(1);
   const [celebrationMode, setCelebrationMode] = useState<"practice" | "performance">("practice");
-  const [toolsOpen, setToolsOpen] = useState(() => localStorage.getItem("pianio:tools") === "1");
+  const [toolsOpen, setToolsOpen] = useState(() => readPreference("pianio:tools") === "1");
 
   const [mode, setMode] = useState<"practice" | "performance">("practice");
   const [sightReading, setSightReading] = useState(false);
   const [noteLabels, setNoteLabels] = useState(false);
   const [tempoMultiplier, setTempoMultiplier] = useState<0.25 | 0.5 | 0.75 | 1>(() => {
-    const saved = localStorage.getItem("pianio:tempo");
+    const saved = readPreference("pianio:tempo");
     return (saved === "0.25" || saved === "0.5" || saved === "0.75" || saved === "1")
       ? (Number(saved) as 0.25 | 0.5 | 0.75 | 1)
       : 1;
   });
   const handleTempoChange = (mult: 0.25 | 0.5 | 0.75 | 1) => {
-    localStorage.setItem("pianio:tempo", String(mult));
+    savePreference("pianio:tempo", String(mult));
     setTempoMultiplier(mult);
   };
   const [autoLoop, setAutoLoop] = useState(false);
@@ -156,8 +178,10 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
 
   const handlePreview = async () => {
     if (isPreviewing) return;
-    await startAudio();
+    const release = beginActivity();
     setIsPreviewing(true);
+    try { await startAudio(); } catch { release(); setIsPreviewing(false); return; }
+    if (!mountedRef.current) { release(); return; }
     const bpm = exercise.tempoBpm * tempoMultiplier;
     scheduleExercisePlayback(exercise.expectedNotes, bpm);
     const beatMs = 60000 / bpm;
@@ -165,7 +189,10 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
       (max, n) => Math.max(max, (n.startBeat + n.durationBeats) * beatMs),
       0
     );
-    previewTimerRef.current = setTimeout(() => setIsPreviewing(false), lastNoteEndMs + 800);
+    previewTimerRef.current = setTimeout(() => {
+      release();
+      if (mountedRef.current) setIsPreviewing(false);
+    }, lastNoteEndMs + 800);
   };
 
   useEffect(() => {
@@ -357,16 +384,18 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
       cachedMidiAccessState = "granted";
       setAccess(midiAccess);
       setAccessState("granted");
-      showToast("MIDI connected");
+      showToast({ namespace: "practice", key: "midi.connected" });
     } catch (error) {
       setAccess(null);
       setAccessState("error");
-      setLastError(error instanceof Error ? error.message : "Failed to request MIDI access.");
-      showToast("MIDI connection failed");
+      setLastError(nativeErrorMessage(error, "midi"));
+      showToast({ namespace: "practice", key: "midi.connection-failed" });
     }
   };
 
   const resetPerformance = () => {
+    ++performanceRunRef.current;
+    if (!performanceActivityRef.current?.playing) performanceActivityRef.current?.release();
     setPerformPhase("idle");
     setCountBeat(4);
     performHitsRef.current = new Set();
@@ -379,7 +408,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
 
   const handleToolsToggle = () => {
     setToolsOpen((v) => {
-      localStorage.setItem("pianio:tools", v ? "0" : "1");
+      savePreference("pianio:tools", v ? "0" : "1");
       return !v;
     });
   };
@@ -405,8 +434,13 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
   });
 
   const startPerformance = async () => {
-    // Ensure audio is started
-    await startAudio();
+    const run = ++performanceRunRef.current;
+    const activity = { release: beginActivity(), playing: false };
+    performanceActivityRef.current = activity;
+    const isCurrent = () => mountedRef.current && run === performanceRunRef.current;
+    // Include audio/MIDI initialization in the activity to avoid a switch during setup.
+    try { await startAudio(); } catch { activity.release(); return; }
+    if (!isCurrent()) { activity.release(); return; }
 
     // Request MIDI access if not already granted
     if (accessState !== "granted") {
@@ -414,12 +448,14 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
       setLastError(null);
       try {
         const midiAccess = await requestMidiAccess();
+        if (!isCurrent()) { activity.release(); return; }
         cachedMidiAccess = midiAccess;
         cachedMidiAccessState = "granted";
         setAccess(midiAccess);
         setAccessState("granted");
       } catch (err) {
-        setLastError(err instanceof Error ? err.message : "MIDI unavailable");
+        if (!isCurrent()) { activity.release(); return; }
+        setLastError(nativeErrorMessage(err, "midi"));
         setAccessState("error");
         // Continue anyway — user can still hear the piece
       }
@@ -457,6 +493,8 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
 
     // Shared logic: start the piece after count-in
     const beginPlayback = () => {
+      if (!isCurrent()) { activity.release(); return; }
+      activity.playing = true;
       playbackStartRef.current = performance.now();
       setPerformPhase("playing");
       scheduleExercisePlayback(exercise.expectedNotes, bpm);
@@ -464,6 +502,8 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
         return Math.max(max, (note.startBeat + note.durationBeats) * beatMs);
       }, 0);
       setTimeout(() => {
+        activity.release();
+        if (!isCurrent()) return;
         stopMetronome();
         setPerformPhase("complete");
         const hits = performHitsRef.current.size;
@@ -488,12 +528,12 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
 
     if (metronomeOn) {
       // Transport-synced: count-in clicks ARE metronome beats, playback starts on the downbeat
-      startPerformanceCountIn(bpm, countInBeats, setCountBeat, beginPlayback);
+      startPerformanceCountIn(bpm, countInBeats, beat => { if (isCurrent()) setCountBeat(beat); }, beginPlayback);
     } else {
       // Standalone: setTimeout-based count-in (no clicks)
       for (let i = countInBeats; i >= 1; i--) {
         const delay = (countInBeats - i) * beatMs;
-        setTimeout(() => setCountBeat(i), delay);
+        setTimeout(() => { if (isCurrent()) setCountBeat(i); }, delay);
       }
       setTimeout(beginPlayback, countInMs);
     }
@@ -538,24 +578,24 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
             type="button"
             onClick={() => { setMode("practice"); resetPerformance(); }}
           >
-            Practice
+            {t("ui.mode.practice")}
           </button>
           <button
             className={`mode-tab${mode === "performance" ? " active" : ""}`}
             type="button"
             onClick={() => { setMode("performance"); resetPerformance(); }}
           >
-            Performance
+            {t("ui.mode.performance")}
           </button>
         </div>
         <button
           className={`preview-btn${isPreviewing ? " previewing" : ""}`}
           type="button"
           onClick={handlePreview}
-          disabled={isPreviewing}
-          title="Hear the exercise played through"
+          disabled={isPreviewing || performPhase === "counting-in" || performPhase === "playing"}
+          title={t("ui.preview.title")}
         >
-          {isPreviewing ? <><Play size={13} /> Listening…</> : <><Play size={13} /> Preview</>}
+          {isPreviewing ? <><Play size={13} /> {t("ui.preview.listening")}</> : <><Play size={13} /> {t("ui.preview.action")}</>}
         </button>
       </div>
 
@@ -582,7 +622,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
           if (!hasPedal && !pedalEngaged) return null;
           return (
             <div className={`pedal-indicator${pedalEngaged ? " engaged" : ""}${pedalMismatch ? " mismatch" : expectedPedalDown && pedalEngaged ? " correct" : ""}`}>
-              <span className="pedal-label">Ped</span>
+              <span className="pedal-label">{t("ui.tools.pedalShort")}</span>
               <div className="pedal-bar">
                 <div className="pedal-bar-fill" style={{ width: pedalEngaged ? "100%" : "0%" }} />
               </div>
@@ -631,41 +671,41 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
               onClick={handleRequestAccess}
               disabled={!midiSupport.available || accessState === "requesting"}
             >
-              {accessState === "requesting" && "Connecting…"}
-              {accessState === "granted" && "● MIDI connected"}
-              {accessState === "idle" && "Connect MIDI"}
-              {accessState === "error" && "Retry MIDI"}
+              {accessState === "requesting" && t("ui.midi.connecting")}
+              {accessState === "granted" && `● ${t("midi.connected")}`}
+              {accessState === "idle" && t("ui.midi.connect")}
+              {accessState === "error" && t("ui.midi.retry")}
             </button>
             {inputs.map((input) => (
-              <span className="device-chip" key={input.id}>{input.name ?? "Device"}</span>
+              <span className="device-chip" key={input.id}>{input.name ?? t("ui.midi.device")}</span>
             ))}
-            {lastError && <span className="bar-warn">{lastError}</span>}
-            {!midiSupport.available && <span className="bar-warn">{midiSupport.detail}</span>}
+            {lastError && <span className="bar-warn">{renderMessage(lastError)}</span>}
+            {!midiSupport.available && <span className="bar-warn">{renderMessage(midiSupportMessages(midiSupport).detail)}</span>}
           </div>
 
           <div className="practice-bar-progress">
             <span className="progress-fraction">
               {summary.matched}<span className="progress-sep">/</span>{exercise.expectedNotes.length}
             </span>
-            <span className="progress-label">notes</span>
+              <span className="progress-label">{t("ui.unit.notes", { count: exercise.expectedNotes.length })}</span>
             {exercise.swing && (
-              <span className="swing-badge">Swing</span>
+              <span className="swing-badge">{t("ui.tools.swing")}</span>
             )}
             {session.matcherState.currentDynamic && (
               <span className="dynamic-badge">{session.matcherState.currentDynamic}</span>
             )}
             {loopActive && (
-              <span className="loop-badge">Loop: m{loopStart}-m{loopEnd}</span>
+                <span className="loop-badge">{t("ui.loop.badge", { start: loopStart, end: loopEnd })}</span>
             )}
             {summary.wrongNotes > 0 && !practiceComplete && (
               <span className="wrong-tally-chip">{summary.wrongNotes} ✗</span>
             )}
             {nextExpected && !sightReading ? (
               <span className="next-note-chip">
-                Next: <strong>{(nextExpected.noteNumbers ?? [nextExpected.noteNumber]).map(n => formatMidiNote(n)).join(" ")}</strong>
+                {t("ui.feedback.next")}: <strong>{(nextExpected.noteNumbers ?? [nextExpected.noteNumber]).map(n => formatNote(n, language)).join(" ")}</strong>
                 {nextExpected.hand !== "together" && (
                   <span className={`hand-tag hand-tag-${nextExpected.hand}`}>
-                    {nextExpected.hand === "left" ? "LH" : "RH"}
+                    {t(nextExpected.hand === "left" ? "ui.hand.leftShort" : "ui.hand.rightShort")}
                   </span>
                 )}
               </span>
@@ -673,46 +713,46 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
               <>
                 <span className="complete-chip">
                   <StarRating stars={summary.wrongNotes === 0 ? 3 : summary.wrongNotes <= 3 ? 2 : 1} size={13} />
-                  {summary.wrongNotes === 0 ? " Perfect!" : " Complete"}
+                  {summary.wrongNotes === 0 ? ` ${t("ui.result.perfect")}` : ` ${t("ui.result.complete")}`}
                 </span>
                 {summary.wrongNotes > 0 && (
-                  <span className="wrong-count-chip">{summary.wrongNotes} wrong</span>
+                  <span className="wrong-count-chip">{t("ui.result.wrong", { count: summary.wrongNotes })}</span>
                 )}
-                <span className="practice-hint">Complete in Performance mode to unlock next</span>
+                  <span className="practice-hint">{t("ui.feedback.unlockNext")}</span>
               </>
             ) : null}
             {session.lastResult && session.lastResult.kind !== "ignored" && (
               <span className={`result-chip result-${session.lastResult.kind}`}>
                 {session.lastResult.kind === "matched" && <Check size={14} />}
                 {session.lastResult.kind === "chord-progress" && <><Check size={14} />…</>}
-                {session.lastResult.kind === "wrong-note" && "✗ Wrong note"}
-                {session.lastResult.kind === "extra-note" && "Extra"}
+                {session.lastResult.kind === "wrong-note" && `✗ ${t("ui.result.wrongNote")}`}
+                {session.lastResult.kind === "extra-note" && t("ui.result.extra")}
               </span>
             )}
             {session.lastResult?.velocityFeedback && (
               <span className="velocity-hint">
-                {session.lastResult.velocityFeedback === "too-loud" ? "Too loud" : "Too soft"}
+                {session.lastResult.velocityFeedback === "too-loud" ? t("ui.feedback.tooLoud") : t("ui.feedback.tooSoft")}
               </span>
             )}
             {session.lastResult?.pedalFeedback && (
               <span className="pedal-hint">
-                {session.lastResult.pedalFeedback === "pedal-needed" ? "Press pedal" : "Release pedal"}
+                {session.lastResult.pedalFeedback === "pedal-needed" ? t("ui.feedback.pressPedal") : t("ui.feedback.releasePedal")}
               </span>
             )}
             <button
               className={`tools-toggle${toolsOpen ? " open" : ""}`}
               type="button"
               onClick={handleToolsToggle}
-              title={toolsOpen ? "Hide tools" : "Show practice tools"}
+              title={toolsOpen ? t("ui.tools.hide") : t("ui.tools.show")}
             >
-              Tools <ChevronDown size={13} className="tools-toggle-arrow" />
+              {t("ui.tools.title")} <ChevronDown size={13} className="tools-toggle-arrow" />
             </button>
           </div>
 
           {toolsOpen && (
           <div className="practice-bar-actions practice-bar-tools">
             <div className="tool-group">
-              <span className="tool-group-label">Speed</span>
+              <span className="tool-group-label">{t("ui.tools.speed")}</span>
               {([0.25, 0.5, 0.75, 1] as const).map((mult) => (
                 <button
                   key={mult}
@@ -724,46 +764,46 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
                 </button>
               ))}
               <span className="tempo-display">
-                {Math.round(exercise.tempoBpm * tempoMultiplier)} bpm
+                {t("ui.unit.bpm", { bpm: new Intl.NumberFormat(language).format(Math.round(exercise.tempoBpm * tempoMultiplier)) })}
               </span>
             </div>
             <div className="tool-group">
-              <span className="tool-group-label">Features</span>
+              <span className="tool-group-label">{t("ui.tools.features")}</span>
               <button
                 className={`metronome-btn${metronomeOn ? " active" : ""}`}
                 type="button"
                 onClick={() => setMetronomeOn((v) => !v)}
-                title="Toggle metronome"
+                title={t("ui.tools.metronome")}
               >
-                Metro
+                {t("ui.tools.metroShort")}
               </button>
               <button
                 className={`sight-reading-btn${sightReading ? " active" : ""}`}
                 type="button"
                 onClick={() => setSightReading((v) => !v)}
-                title={sightReading ? "Show next-note hints" : "Hide next-note hints (sight-reading)"}
+                title={sightReading ? t("ui.tools.showHints") : t("ui.tools.hideHints")}
               >
-                Sight
+                {t("ui.tools.sightShort")}
               </button>
               <button
                 className={`note-labels-btn${noteLabels ? " active" : ""}`}
                 type="button"
                 onClick={() => setNoteLabels((v) => !v)}
-                title={noteLabels ? "Hide note names" : "Show note names on keyboard"}
+                title={noteLabels ? t("ui.tools.hideNoteNames") : t("ui.tools.showNoteNames")}
               >
-                Names
+                {t("ui.tools.namesShort")}
               </button>
               <button
                 className={`auto-loop-btn${autoLoop ? " active" : ""}`}
                 type="button"
                 onClick={() => setAutoLoop((v) => !v)}
-                title={autoLoop ? "Disable auto-loop" : "Auto-repeat exercise on completion"}
+                title={autoLoop ? t("ui.tools.disableLoop") : t("ui.tools.autoLoop")}
               >
-                Loop
+                {t("ui.tools.loop")}
               </button>
             </div>
             <div className="tool-group">
-              <span className="tool-group-label">Loop</span>
+              <span className="tool-group-label">{t("ui.tools.loop")}</span>
               <input
                 type="number"
                 className="loop-input"
@@ -771,7 +811,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
                 max={loopEnd}
                 value={loopStart}
                 onChange={(e) => setLoopStart(Math.max(1, Math.min(loopEnd, Number(e.target.value) || 1)))}
-                title="Loop start measure"
+                title={t("ui.loop.start")}
               />
               <span className="loop-dash">-</span>
               <input
@@ -781,7 +821,7 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
                 max={totalMeasures}
                 value={loopEnd}
                 onChange={(e) => setLoopEnd(Math.max(loopStart, Math.min(totalMeasures, Number(e.target.value) || 1)))}
-                title="Loop end measure"
+                title={t("ui.loop.end")}
               />
               <button
                 className={`loop-section-btn${loopActive ? " active" : ""}`}
@@ -799,15 +839,15 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
                   }
                   setLoopActive((v) => !v);
                 }}
-                title={loopActive ? "Disable section loop" : "Loop selected measures"}
+                title={loopActive ? t("ui.loop.disable") : t("ui.loop.selected")}
               >
-                {loopActive ? "Stop" : "Section"}
+                {loopActive ? t("ui.tools.stop") : t("ui.loop.section")}
               </button>
             </div>
             <div className="tool-group">
-              <span className="tool-group-label">Actions</span>
+              <span className="tool-group-label">{t("ui.tools.actions")}</span>
               <button className="reset-btn" type="button" onClick={handleReset}>
-                <RotateCcw size={13} /> Reset
+                <RotateCcw size={13} /> {t("ui.reset")}
               </button>
             </div>
           </div>
@@ -819,11 +859,11 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
           {performPhase === "idle" && (
             <>
               <div className="perform-intro">
-                <p>The exercise plays in the background. Play along and your notes are graded on accuracy.</p>
+                <p>{t("ui.performance.intro")}</p>
               </div>
               <div className="perform-controls">
                 <div className="tempo-select-row">
-                  <span className="tempo-select-label">Speed</span>
+                  <span className="tempo-select-label">{t("ui.tools.speed")}</span>
                   {([0.25, 0.5, 0.75, 1] as const).map((mult) => (
                     <button
                       key={mult}
@@ -834,20 +874,20 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
                       {mult === 1 ? "100%" : mult === 0.75 ? "75%" : mult === 0.5 ? "50%" : "25%"}
                     </button>
                   ))}
-                  <span className="tempo-select-bpm">{Math.round(exercise.tempoBpm * tempoMultiplier)} bpm</span>
+                  <span className="tempo-select-bpm">{t("ui.unit.bpm", { bpm: new Intl.NumberFormat(language).format(Math.round(exercise.tempoBpm * tempoMultiplier)) })}</span>
                 </div>
                 <div className="perform-options-row">
                   <button
                     className={`metronome-btn${metronomeOn ? " active" : ""}`}
                     type="button"
                     onClick={() => setMetronomeOn((v) => !v)}
-                    title="Toggle metronome"
+                    title={t("ui.tools.metronome")}
                   >
-                    Metro
+                    {t("ui.tools.metroShort")}
                   </button>
                 </div>
                 <button className="start-perform-btn" type="button" onClick={startPerformance}>
-                  <Play size={14} /> Start Performance
+                <Play size={14} /> {t("ui.performance.start")}
                 </button>
                 <div className="perform-midi-row">
                   <button
@@ -856,10 +896,10 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
                     onClick={handleRequestAccess}
                     disabled={!midiSupport.available || accessState === "requesting"}
                   >
-                    {accessState === "granted" ? "● MIDI connected" : "Connect MIDI"}
+                    {accessState === "granted" ? `● ${t("midi.connected")}` : t("ui.midi.connect")}
                   </button>
                   {inputs.map((input) => (
-                    <span className="device-chip" key={input.id}>{input.name ?? "Device"}</span>
+                    <span className="device-chip" key={input.id}>{input.name ?? t("ui.midi.device")}</span>
                   ))}
                 </div>
               </div>
@@ -869,18 +909,18 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
           {performPhase === "counting-in" && (
             <div className="perform-countdown">
               <div className="count-number">{countBeat}</div>
-              <p className="count-label">Get ready…</p>
+              <p className="count-label">{t("ui.performance.getReady")}</p>
             </div>
           )}
 
           {performPhase === "playing" && (
             <div className="perform-playing">
-              <div className="playing-indicator">● Playing</div>
+              <div className="playing-indicator">● {t("ui.performance.playing")}</div>
               <div className="playing-progress">
                 <span className="progress-fraction">
                   {performHits.size}<span className="progress-sep">/</span>{expectedTimesRef.current.length}
                 </span>
-                <span className="progress-label">notes matched</span>
+                <span className="progress-label">{t("ui.performance.notesMatched")}</span>
               </div>
             </div>
           )}
@@ -893,36 +933,36 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
               </div>
               <span className="complete-chip perform-stars">
                 <StarRating stars={performScore.percentage >= 95 ? 3 : performScore.percentage >= 75 ? 2 : 1} size={15} />
-                {performScore.percentage >= 95 ? " Perfect!" : " Complete"}
+                {performScore.percentage >= 95 ? ` ${t("ui.result.perfect")}` : ` ${t("ui.result.complete")}`}
               </span>
               <div className="score-breakdown">
-                <span className="score-hit"><Check size={13} /> {performScore.hits} correct</span>
-                <span className="score-miss"><XIcon size={13} /> {performScore.total - performScore.hits} missed</span>
+                <span className="score-hit"><Check size={13} /> {t("ui.result.correct", { count: performScore.hits })}</span>
+                <span className="score-miss"><XIcon size={13} /> {t("ui.result.missed", { count: performScore.total - performScore.hits })}</span>
                 {performScore.wrong > 0 && (
-                  <span className="score-wrong"><XIcon size={13} /> {performScore.wrong} wrong</span>
+                  <span className="score-wrong"><XIcon size={13} /> {t("ui.result.wrong", { count: performScore.wrong })}</span>
                 )}
                 {performVelocityRef.current.total > 0 && (
                   <span className="score-velocity">
-                    ♪ Dynamics: {Math.round((performVelocityRef.current.correct / performVelocityRef.current.total) * 100)}%
+                    ♪ {t("ui.result.dynamics")}: {new Intl.NumberFormat(language).format(Math.round((performVelocityRef.current.correct / performVelocityRef.current.total) * 100))}%
                   </span>
                 )}
                 {performPedalRef.current.total > 0 && (
                   <span className="score-pedal">
-                    ◎ Pedal: {Math.round((performPedalRef.current.correct / performPedalRef.current.total) * 100)}%
+                    ◎ {t("ui.result.pedal")}: {new Intl.NumberFormat(language).format(Math.round((performPedalRef.current.correct / performPedalRef.current.total) * 100))}%
                   </span>
                 )}
               </div>
               <div className="perform-score-actions">
                 <button className="reset-btn" type="button" onClick={resetPerformance}>
-                  <RotateCcw size={13} /> Try again
+                  <RotateCcw size={13} /> {t("ui.action.tryAgain")}
                 </button>
                 {nextExerciseHref ? (
                   <a className="action-link primary next-exercise-btn" href={nextExerciseHref}>
-                    Next exercise <ArrowRight size={14} />
+                    {t("ui.navigation.nextExercise")} <ArrowRight size={14} />
                   </a>
                 ) : courseHref ? (
                   <a className="action-link primary next-exercise-btn" href={courseHref}>
-                    Course complete <ArrowRight size={14} />
+                    {t("ui.navigation.courseComplete")} <ArrowRight size={14} />
                   </a>
                 ) : null}
               </div>
@@ -959,50 +999,50 @@ export function ExercisePracticePanel({ exercise, courseId, nextExerciseHref, co
               ))}
             </div>
             <h3 className="celebration-title">
-              {celebrationStars === 3 ? "Perfect!" : celebrationStars === 2 ? "Great job!" : "Complete!"}
+              {celebrationStars === 3 ? t("ui.celebration.perfect") : celebrationStars === 2 ? t("ui.celebration.great") : t("ui.result.complete")}
             </h3>
             <p className="celebration-subtitle">
               {celebrationMode === "practice"
                 ? (summary.wrongNotes === 0
-                    ? "No wrong notes — flawless"
-                    : `${summary.wrongNotes} wrong note${summary.wrongNotes > 1 ? "s" : ""}`)
-                : `${performScore?.percentage ?? 0}% accuracy`}
+                    ? t("ui.celebration.flawless")
+                    : t("ui.result.wrongNotes", { count: summary.wrongNotes }))
+                : t("ui.result.accuracy", { percent: performScore?.percentage ?? 0 })}
             </p>
             {celebrationMode === "performance" && performScore && (
               <div className="celebration-stats">
-                <span className="celebration-stat-ok"><Check size={14} /> {performScore.hits} correct</span>
-                <span className="celebration-stat-warn"><XIcon size={14} /> {performScore.total - performScore.hits} missed</span>
+                <span className="celebration-stat-ok"><Check size={14} /> {t("ui.result.correct", { count: performScore.hits })}</span>
+                <span className="celebration-stat-warn"><XIcon size={14} /> {t("ui.result.missed", { count: performScore.total - performScore.hits })}</span>
                 {performScore.wrong > 0 && (
-                  <span className="celebration-stat-warn"><XIcon size={14} /> {performScore.wrong} wrong</span>
+                  <span className="celebration-stat-warn"><XIcon size={14} /> {t("ui.result.wrong", { count: performScore.wrong })}</span>
                 )}
               </div>
             )}
             <div className="celebration-actions">
               <button className="celebration-btn secondary" type="button"
                 onClick={() => { setShowCelebration(false); handleReset(); }}>
-                Try again
+                {t("ui.action.tryAgain")}
               </button>
               {celebrationMode === "performance" && nextExerciseHref ? (
                 <a className="celebration-btn primary" href={nextExerciseHref}
                   onClick={() => setShowCelebration(false)}>
-                  Next exercise
+                  {t("ui.navigation.nextExercise")}
                 </a>
               ) : celebrationMode === "performance" && !nextExerciseHref && courseHref ? (
                 <a className="celebration-btn primary" href={courseHref}
                   onClick={() => setShowCelebration(false)}>
-                  Course complete
+                  {t("ui.navigation.courseComplete")}
                 </a>
               ) : celebrationMode === "practice" ? (
                 <button className="celebration-btn primary" type="button"
                   onClick={() => { setShowCelebration(false); setMode("performance"); resetPerformance(); }}>
-                  Try Performance
+                  {t("ui.celebration.tryPerformance")}
                 </button>
               ) : null}
             </div>
           </div>
         </div>
       )}
-      {toastMsg && <div className="toast">{toastMsg}</div>}
+      {toastMsg && <div className="toast">{renderMessage(toastMsg)}</div>}
     </>
   );
 }

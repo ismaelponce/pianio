@@ -1,265 +1,166 @@
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { OpenSheetMusicDisplay } from "opensheetmusicdisplay";
+import { nativeErrorMessage, renderMessage, type MessageDescriptor } from "../i18n/messages";
+import { sourceLanguage, supportedLanguages } from "../i18n/language";
 
-interface ScoreViewerProps {
-  scorePath: string;
-  matchedCount: number;
+interface ScoreViewerProps { scorePath: string; matchedCount: number }
+type LoadState = "loading" | "ready" | "error";
+const ZOOM_MIN = 0.5, ZOOM_MAX = 1.8, ZOOM_STEP = 0.15;
+
+export function englishScorePath(path: string): string | null {
+  const match = path.match(/^\/generated\/([a-z-]+)\/scores\/[a-z0-9-]+\/[a-z0-9-]+\.musicxml$/);
+  const locale = supportedLanguages.find(language => language === match?.[1]);
+  return locale && locale !== sourceLanguage ? path.replace(`/generated/${locale}/`, `/generated/${sourceLanguage}/`) : null;
 }
 
-type LoadState = "idle" | "loading" | "ready" | "error";
-
-const ZOOM_MIN = 0.5;
-const ZOOM_MAX = 1.8;
-const ZOOM_STEP = 0.15;
-
 export function ScoreViewer({ scorePath, matchedCount }: ScoreViewerProps) {
+  const { t } = useTranslation("practice");
+  const { t: common } = useTranslation("common");
   const containerRef = useRef<HTMLDivElement>(null);
   const osmdRef = useRef<OpenSheetMusicDisplay | null>(null);
   const noteStepMapRef = useRef<number[]>([]);
-  const currentCursorStepRef = useRef<number>(0);
+  const matchedRef = useRef(matchedCount);
+  matchedRef.current = matchedCount;
+  const [loadState, setLoadState] = useState<LoadState>("loading");
+  const [errorMessage, setErrorMessage] = useState<MessageDescriptor | null>(null);
+  const [fallback, setFallback] = useState(false);
+  const [attempt, setAttempt] = useState(0);
+  const [zoom, setZoom] = useState(1);
+  const zoomRef = useRef(zoom);
+  zoomRef.current = zoom;
 
-  const [loadState, setLoadState] = useState<LoadState>("idle");
-  const [errorMessage, setErrorMessage] = useState<string | null>(null);
-  const [zoom, setZoom] = useState(1.0);
-  const zoomRef = useRef(1.0);
-
-  // Helper: re-render OSMD at given zoom and restore cursor to current step
-  const rerender = (osmd: OpenSheetMusicDisplay, zoomLevel: number) => {
-    osmd.zoom = zoomLevel;
-    osmd.render();
-    osmd.cursor.show();
+  function restoreCursor(osmd: OpenSheetMusicDisplay) {
+    const map = noteStepMapRef.current;
     osmd.cursor.reset();
-    for (let i = 0; i < currentCursorStepRef.current; i++) {
-      if (!osmd.cursor.Iterator.EndReached) osmd.cursor.next();
+    if (matchedRef.current >= map.length) { osmd.cursor.hide(); return; }
+    const target = map[matchedRef.current] ?? 0;
+    for (let i = 0; i < target && !osmd.cursor.Iterator.EndReached; i++) osmd.cursor.next();
+    osmd.cursor.show();
+  }
+  function fitInstructions() {
+    // OSMD can place long directions outside its SVG viewBox. Extend the viewport,
+    // without scaling the music, so the scroll region can expose the entire text.
+    for (const svg of containerRef.current?.querySelectorAll("svg") ?? []) {
+      const bounds = svg.getBBox();
+      const box = svg.viewBox.baseVal;
+      const right = Math.ceil(bounds.x + bounds.width + 16);
+      if (right > box.width) {
+        svg.setAttribute("width", String(right));
+        svg.setAttribute("viewBox", `${box.x} ${box.y} ${right} ${box.height}`);
+      }
     }
-  };
+  }
+  function rerender(osmd: OpenSheetMusicDisplay) {
+    osmd.zoom = zoomRef.current;
+    osmd.render();
+    fitInstructions();
+    restoreCursor(osmd);
+  }
 
-  // Main effect: load and render score when scorePath changes
   useEffect(() => {
     const container = containerRef.current;
-    if (!container) {
-      return;
-    }
-
+    if (!container) return;
     let cancelled = false;
-
-    // Clear any previous OSMD rendering before starting fresh
+    const controller = new AbortController();
     osmdRef.current = null;
-    container.innerHTML = "";
-    noteStepMapRef.current = [];
-    currentCursorStepRef.current = 0;
-
     setLoadState("loading");
     setErrorMessage(null);
+    setFallback(false);
 
-    const osmd = new OpenSheetMusicDisplay(container, {
-      followCursor: true,
-      drawTitle: false,
-      drawSubtitle: false,
-      drawComposer: false,
-      drawLyricist: false,
-      drawingParameters: "default",
-    });
-    osmdRef.current = osmd;
-
-    const run = async () => {
-      let xml: string;
-
+    async function load(path: string) {
+      const response = await fetch(path, { signal: controller.signal });
+      if (!response.ok) throw new Error(`Score HTTP ${response.status}`);
+      const xml = await response.text();
+      const document = new DOMParser().parseFromString(xml, "application/xml");
+      if (document.querySelector("parsererror") || !["score-partwise", "score-timewise"].includes(document.documentElement.tagName)) throw new Error("Invalid MusicXML");
+      if (cancelled) return null;
+      // Each load owns its host: a late OSMD.load cannot replace a newer rendering.
+      const host = window.document.createElement("div");
+      host.style.width = `${container!.clientWidth}px`;
+      const osmd = new OpenSheetMusicDisplay(host, { followCursor: true, drawTitle: false, drawSubtitle: false, drawComposer: false, drawLyricist: false, drawingParameters: "default" });
+      await osmd.load(xml);
+      return { host, osmd };
+    }
+    async function display(path: string) {
+      const result = await load(path);
+      if (cancelled || !result) return;
+      const { host, osmd } = result;
+      container!.replaceChildren(host);
+      host.style.width = "100%";
+      await new Promise<void>(resolve => requestAnimationFrame(() => resolve()));
+      if (cancelled) return;
+      osmd.zoom = zoomRef.current;
+      osmd.render();
+      fitInstructions();
+      osmd.cursor.reset();
+      const map: number[] = [];
+      let step = 0;
+      while (!osmd.cursor.Iterator.EndReached) {
+        if (osmd.cursor.NotesUnderCursor().some(n => !n.isRest())) map.push(step);
+        step++;
+        osmd.cursor.next();
+      }
+      noteStepMapRef.current = map;
+      osmdRef.current = osmd;
+      restoreCursor(osmd); // Current session position, even without another MIDI event.
+    }
+    void (async () => {
       try {
-        const response = await fetch(scorePath);
-        if (!response.ok) {
-          throw new Error(`Failed to fetch score: ${response.status} ${response.statusText}`);
+        let usedFallback = false;
+        try { await display(scorePath); }
+        catch (error) {
+          const english = englishScorePath(scorePath);
+          if (cancelled || !english) throw error;
+          await display(english);
+          usedFallback = true;
         }
-        xml = await response.text();
-      } catch (err) {
-        if (!cancelled) {
-          setLoadState("error");
-          setErrorMessage(err instanceof Error ? err.message : "Failed to load score");
-        }
-        return;
+        if (cancelled) return;
+        setFallback(usedFallback);
+        setLoadState("ready");
+      } catch (error) {
+        if (cancelled) return;
+        container.replaceChildren();
+        setErrorMessage(nativeErrorMessage(error, "score"));
+        setLoadState("error");
       }
+    })();
+    return () => { cancelled = true; controller.abort(); };
+  }, [scorePath, attempt]);
 
-      if (cancelled) {
-        return;
-      }
-
-      try {
-        await osmd.load(xml);
-
-        if (cancelled) {
-          return;
-        }
-
-        // Wait for browser layout so the container has its real width before OSMD renders.
-        await new Promise<void>((resolve) => requestAnimationFrame(() => resolve()));
-
-        if (cancelled) {
-          return;
-        }
-
-        osmd.zoom = zoomRef.current;
-        osmd.render();
-        osmd.cursor.show();
-
-        // Build noteStepMap by stepping through cursor positions
-        const noteStepMap: number[] = [];
-        let stepCount = 0;
-
-        osmd.cursor.reset();
-
-        while (!osmd.cursor.Iterator.EndReached) {
-          const notes = osmd.cursor.NotesUnderCursor();
-          if (notes.length > 0 && notes.some((n) => !n.isRest())) {
-            noteStepMap.push(stepCount);
-          }
-          stepCount++;
-          if (!osmd.cursor.Iterator.EndReached) {
-            osmd.cursor.next();
-          }
-        }
-
-        noteStepMapRef.current = noteStepMap;
-
-        // Reset cursor and advance to first actual note
-        osmd.cursor.reset();
-        currentCursorStepRef.current = 0;
-
-        if (noteStepMap.length > 0) {
-          const target = noteStepMap[0];
-          for (let i = 0; i < target; i++) {
-            if (!osmd.cursor.Iterator.EndReached) {
-              osmd.cursor.next();
-            }
-          }
-          currentCursorStepRef.current = target;
-        }
-
-        if (!cancelled) {
-          setLoadState("ready");
-        }
-      } catch (err) {
-        if (!cancelled) {
-          setLoadState("error");
-          setErrorMessage(err instanceof Error ? err.message : "Failed to render score");
-        }
-      }
-    };
-
-    void run();
-
-    return () => {
-      cancelled = true;
-    };
-  }, [scorePath]);
-
-  // Effect: re-render when zoom changes (after score is ready)
   useEffect(() => {
-    zoomRef.current = zoom;
-    if (loadState !== "ready") return;
-    const osmd = osmdRef.current;
-    if (!osmd) return;
-    rerender(osmd, zoom);
+    if (loadState === "ready" && osmdRef.current) rerender(osmdRef.current);
   }, [zoom, loadState]);
-
-  // Effect: re-render score when container width changes (sidebar toggle, window resize)
   useEffect(() => {
-    if (loadState !== "ready") return;
+    if (loadState === "ready" && osmdRef.current) restoreCursor(osmdRef.current);
+  }, [matchedCount, loadState]);
+  useEffect(() => {
     const container = containerRef.current;
-    const osmd = osmdRef.current;
-    if (!container || !osmd) return;
-
+    if (!container || loadState !== "ready") return;
     let lastWidth = container.offsetWidth;
     const observer = new ResizeObserver(() => {
       const width = container.offsetWidth;
       if (width > 0 && Math.abs(width - lastWidth) > 10) {
         lastWidth = width;
-        rerender(osmd, zoomRef.current);
+        if (osmdRef.current) rerender(osmdRef.current);
       }
     });
     observer.observe(container);
     return () => observer.disconnect();
   }, [loadState]);
 
-  // Effect: sync cursor when matchedCount changes (after score is ready)
-  useEffect(() => {
-    if (loadState !== "ready") {
-      return;
-    }
-
-    const osmd = osmdRef.current;
-    if (!osmd) {
-      return;
-    }
-
-    const noteStepMap = noteStepMapRef.current;
-
-    if (matchedCount >= noteStepMap.length) {
-      // Exercise complete — hide cursor
-      osmd.cursor.hide();
-      return;
-    }
-
-    osmd.cursor.show();
-
-    const target = noteStepMap[matchedCount];
-    const current = currentCursorStepRef.current;
-
-    if (target === current) {
-      return;
-    }
-
-    if (target > current) {
-      // Advance forward
-      const steps = target - current;
-      for (let i = 0; i < steps; i++) {
-        if (!osmd.cursor.Iterator.EndReached) {
-          osmd.cursor.next();
-        }
-      }
-      currentCursorStepRef.current = target;
-    } else {
-      // target < current: reset then advance to target
-      osmd.cursor.reset();
-      currentCursorStepRef.current = 0;
-      for (let i = 0; i < target; i++) {
-        if (!osmd.cursor.Iterator.EndReached) {
-          osmd.cursor.next();
-        }
-      }
-      currentCursorStepRef.current = target;
-    }
-  }, [matchedCount, loadState]);
-
-  return (
-    <div className="score-viewer-wrap">
-      {loadState === "loading" && (
-        <div className="score-skeleton" />
-      )}
-      {loadState === "error" && (
-        <div className="score-placeholder">{errorMessage ?? "Failed to load score"}</div>
-      )}
-      {loadState === "ready" && (
-        <div className="score-zoom-controls">
-          <button
-            className="score-zoom-btn"
-            type="button"
-            onClick={() => setZoom((z) => Math.max(ZOOM_MIN, +(z - ZOOM_STEP).toFixed(2)))}
-            disabled={zoom <= ZOOM_MIN}
-            title="Zoom out"
-          >−</button>
-          <span className="score-zoom-label">{Math.round(zoom * 100)}%</span>
-          <button
-            className="score-zoom-btn"
-            type="button"
-            onClick={() => setZoom((z) => Math.min(ZOOM_MAX, +(z + ZOOM_STEP).toFixed(2)))}
-            disabled={zoom >= ZOOM_MAX}
-            title="Zoom in"
-          >+</button>
-        </div>
-      )}
-      {/* Container is always in the DOM so OSMD can measure its real width.
-          It's empty (height 0) until render() fills it with SVG. */}
-      <div ref={containerRef} className="score-viewer" />
-    </div>
-  );
+  return <div className="score-viewer-wrap" aria-busy={loadState === "loading"}>
+    {loadState === "loading" && <div className="score-skeleton" />}
+    {(fallback || loadState === "error") && <div className="language-notice" role="status">
+      {fallback ? common("language.scoreFallback") : errorMessage ? renderMessage(errorMessage) : t("ui.score.failed")}
+      {" "}<button type="button" onClick={() => setAttempt(a => a + 1)}>{common(fallback ? "language.scoreRetry" : "language.retry")}</button>
+    </div>}
+    {loadState === "ready" && <div className="score-zoom-controls">
+      <button className="score-zoom-btn" type="button" onClick={() => setZoom(z => Math.max(ZOOM_MIN, +(z - ZOOM_STEP).toFixed(2)))} disabled={zoom <= ZOOM_MIN} title={t("ui.score.zoomOut")} aria-label={t("ui.score.zoomOut")}>−</button>
+      <span className="score-zoom-label">{Math.round(zoom * 100)}%</span>
+      <button className="score-zoom-btn" type="button" onClick={() => setZoom(z => Math.min(ZOOM_MAX, +(z + ZOOM_STEP).toFixed(2)))} disabled={zoom >= ZOOM_MAX} title={t("ui.score.zoomIn")} aria-label={t("ui.score.zoomIn")}>+</button>
+    </div>}
+    <div ref={containerRef} className="score-viewer" data-score-scroll tabIndex={0} role="region" aria-label={t("ui.score.scroll")} />
+    {loadState === "ready" && <p className="score-scroll-hint">{t("ui.score.scroll")}</p>}
+  </div>;
 }

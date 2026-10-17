@@ -194,12 +194,16 @@ export function exportProgress(): void {
   URL.revokeObjectURL(url);
 }
 
-export function importProgress(json: string): { ok: boolean; message: string } {
+export type ProgressImportResult =
+  | { outcome: "success"; code: "progress.import.success"; params: { importedCount: number }; ok: true }
+  | { outcome: "failure"; code: "progress.import.invalid-json" | "progress.import.unsupported-format" | "progress.import.storage-write-failed"; params: Record<string, never>; ok: false };
+
+export function importProgress(json: string): ProgressImportResult {
   let data: unknown;
-  try { data = JSON.parse(json); } catch { return { ok: false, message: "Invalid JSON file." }; }
+  try { data = JSON.parse(json); } catch { return { outcome: "failure", code: "progress.import.invalid-json", params: {}, ok: false }; }
 
   if (!data || typeof data !== "object" || (data as ProgressExport).version !== 1) {
-    return { ok: false, message: "Unrecognised format — expected a Pianio progress export." };
+    return { outcome: "failure", code: "progress.import.unsupported-format", params: {}, ok: false };
   }
 
   const p = data as ProgressExport;
@@ -207,8 +211,9 @@ export function importProgress(json: string): { ok: boolean; message: string } {
     if (Array.isArray(p.completed)) localStorage.setItem(STORAGE_KEY, JSON.stringify(p.completed));
     if (p.stars && typeof p.stars === "object") localStorage.setItem(STARS_KEY, JSON.stringify(p.stars));
     if (Array.isArray(p.streakDates)) localStorage.setItem(STREAK_KEY, JSON.stringify(p.streakDates));
-    return { ok: true, message: `Imported ${p.completed?.length ?? 0} completed exercises.` };
+    const importedCount = p.completed?.length ?? 0;
+    return { outcome: "success", code: "progress.import.success", params: { importedCount }, ok: true };
   } catch {
-    return { ok: false, message: "Failed to write to localStorage." };
+    return { outcome: "failure", code: "progress.import.storage-write-failed", params: {}, ok: false };
   }
 }

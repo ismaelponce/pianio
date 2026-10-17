@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "exportedAt": "2025-01-02T12:00:00.000Z",
+  "completed": ["method-level-1a/single-c-pulse", "method-level-1a/c-and-d"],
+  "stars": {"method-level-1a/single-c-pulse": 3, "method-level-1a/c-and-d": 2},
+  "streakDates": ["2025-01-01", "2025-01-02"]
+}

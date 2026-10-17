@@ -1,0 +1,91 @@
+{
+  "error": {
+    "http": "Could not load the course catalog (HTTP {{status}}).",
+    "network": "A network error prevented the course catalog from loading.",
+    "unknown": "Could not load the course catalog."
+  },
+  "ui": {
+    "group": {
+      "method": "Method",
+      "technique": "Technique",
+      "songs": "Songs",
+      "other": "Other"
+    },
+    "col": {
+      "foundations": "Foundations",
+      "building": "Building Blocks",
+      "combined": "Combined Skills",
+      "applied": "Applied Practice",
+      "mastery": "Mastery"
+    },
+    "exercises_one": "{{count}} exercise",
+    "exercises_other": "{{count}} exercises",
+    "level": "Level {{level}}",
+    "openFirst": "Open first exercise",
+    "completed": "{{count}} completed",
+    "completePercent": "{{percent}}% complete",
+    "exercisesLabel": "Exercises",
+    "titleMethod": "Structured piano curriculum from beginner to advanced",
+    "titleTechnique": "Technical exercises for building finger strength and accuracy",
+    "titleSongs": "Complete songs to practice your skills",
+    "howItWorks": "How it works",
+    "tagline": "Free piano lessons that listen. Connect a MIDI keyboard, sight-read real scores, and get graded in real time.",
+    "stats": "{{courses}} courses / {{exercises}} exercises / Open source",
+    "continue": "Continue",
+    "startLearning": "Start learning",
+    "resumeHint": "Next up: {{title}}",
+    "connect": "Connect",
+    "connectHint": "Plug in any MIDI keyboard",
+    "play": "Play",
+    "playHint": "Follow real sheet music in real time",
+    "learn": "Learn",
+    "learnHint": "Get graded and track your progress",
+    "courseNotFound": "Course not found",
+    "exerciseNotFound": "Exercise not found",
+    "courseMissing": "The selected course route does not exist in the generated catalog.",
+    "exerciseMissing": "The selected exercise route does not exist in this course.",
+    "catalogError": "Catalog Error",
+    "contentError": "Unable to load generated content",
+    "loading": "Loading…",
+    "exercises_many": "{{count}} exercises",
+    "category": {
+      "baroque": "Baroque",
+      "celtic": "Celtic",
+      "children": "Children’s songs",
+      "christian": "Christian",
+      "classical": "Classical",
+      "dance": "Dance",
+      "festive": "Festive",
+      "folk": "Folk",
+      "jazzBlues": "Jazz & Blues",
+      "latin": "Latin",
+      "lullaby": "Lullaby",
+      "march": "March",
+      "meditation": "Meditation",
+      "patriotic": "Patriotic",
+      "ragtime": "Ragtime",
+      "romanticEra": "Romantic era",
+      "waltz": "Waltz",
+      "world": "World",
+      "other": "Other",
+      "filmTv": "Film & TV",
+      "opera": "Opera",
+      "seaShanty": "Sea shanties",
+      "musicalTheater": "Musical theater"
+    },
+    "source": {
+      "original": "Original",
+      "public_domain": "Public domain",
+      "open_license": "Open license"
+    },
+    "policy": {
+      "original": "Original works only",
+      "original_only": "Original works only",
+      "public_domain_only": "Public domain works only"
+    },
+    "sidebarLoading": "Course list appears after the generated catalog loads.",
+    "courseCatalog": "Course catalog",
+    "progressStats": "{{done}}/{{count}} exercises · {{percent}}%",
+    "cellTooltip": "{{title}}\n{{done}}/{{count}} exercises"
+  }
+}

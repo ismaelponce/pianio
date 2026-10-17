@@ -1,0 +1,64 @@
+[
+  {
+    "noteNumber": 60,
+    "noteNumbers": [
+      60,
+      48
+    ],
+    "startBeat": 0,
+    "durationBeats": 4,
+    "hand": "together",
+    "dynamicMarking": "p",
+    "pedalState": "down"
+  },
+  {
+    "noteNumber": 62,
+    "noteNumbers": [
+      62,
+      65,
+      69
+    ],
+    "startBeat": 2,
+    "durationBeats": 1,
+    "hand": "right",
+    "dynamicMarking": "p",
+    "pedalState": "down"
+  },
+  {
+    "noteNumber": 60,
+    "noteNumbers": [
+      60,
+      48,
+      52
+    ],
+    "startBeat": 4,
+    "durationBeats": 4,
+    "hand": "together",
+    "dynamicMarking": "p",
+    "pedalState": "down"
+  },
+  {
+    "noteNumber": 64,
+    "startBeat": 6,
+    "durationBeats": 0.75,
+    "hand": "right",
+    "dynamicMarking": "f",
+    "pedalState": "down"
+  },
+  {
+    "noteNumber": 65,
+    "startBeat": 6.75,
+    "durationBeats": 0.5,
+    "hand": "right",
+    "dynamicMarking": "f",
+    "pedalState": "down"
+  },
+  {
+    "noteNumber": 67,
+    "startBeat": 7.25,
+    "durationBeats": 0.75,
+    "hand": "right",
+    "dynamicMarking": "f",
+    "pedalState": "up"
+  }
+]

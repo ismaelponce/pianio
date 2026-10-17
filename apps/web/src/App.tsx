@@ -1,7 +1,14 @@
 import { lazy, Suspense, useCallback, useEffect, useRef, useState, type ReactNode } from "react";
+import { useTranslation } from "react-i18next";
 import type { CatalogCourse, CatalogExercise, GeneratedCatalog } from "@pianio/content-schema";
 import { getBestStars, getCompletedCount, getCompletedSlugs, getPracticeStreak, isExerciseComplete, recordPracticeDay, exportProgress, importProgress, resetProgress } from "./progress";
 import { describeMidiSupport } from "@pianio/midi-web";
+import { importProgressMessage, midiSupportMessages, renderMessage, type MessageDescriptor } from "./i18n/messages";
+import { LanguageSelector } from "./components/LanguageSelector";
+import { useLanguage } from "./i18n/LanguageProvider";
+import { isEditingTarget } from "./i18n/shortcuts";
+import { sourceLanguage, supportedLanguages } from "./i18n/language";
+import { readPreference, savePreference } from "./storage";
 import { startAudio } from "./audio/pianoSampler";
 import { DiagnosticsScreen } from "./screens/DiagnosticsScreen";
 import {
@@ -242,20 +249,27 @@ function getExerciseHref(courseId: string, exerciseSlug: string) {
   return `${getCourseHref(courseId)}/exercises/${encodeURIComponent(exerciseSlug)}`;
 }
 
-function formatHands(value: CatalogExercise["hands"]) {
-  return value === "together" ? "Hands together" : `${capitalize(value)} hand`;
+function formatHands(value: CatalogExercise["hands"], t: (key: string) => string) {
+  return t(value === "together" ? "practice:ui.hand.together" : value === "left" ? "practice:ui.hand.left" : "practice:ui.hand.right");
 }
 
-function formatClef(value: CatalogExercise["clef"]) {
-  return value === "G" ? "Treble clef" : "Bass clef";
+function formatClef(value: CatalogExercise["clef"], t: (key: string) => string) {
+  return t(value === "G" ? "practice:ui.clef.treble" : String(value) === "GF" ? "practice:ui.clef.grand" : "practice:ui.clef.bass");
 }
 
-function formatSourceKind(value: CatalogExercise["sourceKind"]) {
-  return value.replaceAll("_", " ");
+function formatSourceKind(value: CatalogExercise["sourceKind"], t: (key: string) => string) {
+  const keys: Record<CatalogExercise["sourceKind"], string> = { original: "original", public_domain: "public_domain", open_license: "open_license" };
+  return t(`catalog:ui.source.${keys[value]}`);
 }
 
-function formatCategory(value: string) {
-  return value.split("-").map(capitalize).join(" ");
+function formatCategory(value: string, t: (key: string) => string) {
+  const categoryKeys: Record<string, string> = {
+    baroque: "baroque", celtic: "celtic", children: "children", christian: "christian", classical: "classical",
+    dance: "dance", festive: "festive", folk: "folk", "jazz-blues": "jazzBlues", latin: "latin",
+    lullaby: "lullaby", march: "march", meditation: "meditation", patriotic: "patriotic", ragtime: "ragtime",
+    "romantic-era": "romanticEra", waltz: "waltz", world: "world", "film-tv": "filmTv", opera: "opera", "sea-shanty": "seaShanty", "musical-theater": "musicalTheater"
+  };
+  return t(`catalog:ui.category.${categoryKeys[value] ?? "other"}`);
 }
 
 function formatTimeSignature([top, bottom]: CatalogExercise["timeSignature"]) {
@@ -299,10 +313,10 @@ type CourseGroup = { label: string; courses: CatalogCourse[] };
 
 function groupCourses(courses: CatalogCourse[]): CourseGroup[] {
   const groups: Record<string, CourseGroup> = {
-    method: { label: "Method", courses: [] },
-    technique: { label: "Technique", courses: [] },
-    songs: { label: "Songs", courses: [] },
-    other: { label: "Other", courses: [] }
+    method: { label: "method", courses: [] },
+    technique: { label: "technique", courses: [] },
+    songs: { label: "songs", courses: [] },
+    other: { label: "other", courses: [] }
   };
   for (const course of courses) {
     if (course.id.startsWith("method")) groups.method.courses.push(course);
@@ -385,6 +399,8 @@ function buildShelfRows(courses: CatalogCourse[]): ShelfRow[] {
 }
 
 function ShelfCellTile({ cell, cellIndex = 0, level = 1 }: { cell: ShelfCell; cellIndex?: number; level?: number }) {
+  const { t: translate, i18n } = useTranslation();
+  const t = translate as (key: string, options?: Record<string, unknown>) => string;
   const pct = cell.total > 0 ? cell.done / cell.total : 0;
   const status = pct === 1 ? "complete" : pct > 0 ? "progress" : "pending";
   const trophyVariant = status === "complete" ? "gold" as const : status === "progress" ? "silver" as const : "bronze" as const;
@@ -400,7 +416,7 @@ function ShelfCellTile({ cell, cellIndex = 0, level = 1 }: { cell: ShelfCell; ce
     <a
       className={`shelf-cell shelf-${status} shelf-tier-${levelTier}`}
       href={getCourseHref(cell.course.id)}
-      title={`${cell.course.title}\n${cell.done}/${cell.total} exercises`}
+      title={t("catalog:ui.cellTooltip", { title: cell.course.title, done: new Intl.NumberFormat(i18n.language).format(cell.done), count: cell.total })}
       style={{ '--fill-pct': status === "progress" ? Math.round(pct * 100) + '%' : undefined, '--cell-idx': cellIndex } as React.CSSProperties}
       onPointerMove={(e) => {
         const rect = e.currentTarget.getBoundingClientRect();
@@ -429,6 +445,8 @@ function ShelfCellTile({ cell, cellIndex = 0, level = 1 }: { cell: ShelfCell; ce
 }
 
 function ShelfGrid({ courses, title, category }: { courses: CatalogCourse[]; title: string; category: "method" | "technique" }) {
+  const { t: translate, i18n } = useTranslation();
+  const t = translate as (key: string, options?: Record<string, unknown>) => string;
   const rows = buildShelfRows(courses);
   const totalDone = courses.reduce((t, c) => t + getCompletedCount(c.id), 0);
   const totalExercises = courses.reduce((t, c) => t + c.exerciseCount, 0);
@@ -441,14 +459,14 @@ function ShelfGrid({ courses, title, category }: { courses: CatalogCourse[]; tit
     return max;
   }), 0);
   const colHeaders = ["A", "B", "C", "D", "E"].slice(0, maxCols);
-  const COL_HINTS: Record<string, string> = { A: "Foundations", B: "Building Blocks", C: "Combined Skills", D: "Applied Practice", E: "Mastery" };
+  const COL_HINTS: Record<string, string> = { A: t("catalog:ui.col.foundations"), B: t("catalog:ui.col.building"), C: t("catalog:ui.col.combined"), D: t("catalog:ui.col.applied"), E: t("catalog:ui.col.mastery") };
 
   return (
     <section className={`shelf-section panel shelf-${category}`}>
       <div className="shelf-header">
         <div>
-          <h3 className="shelf-title" title={category === "method" ? "Structured piano curriculum from beginner to advanced" : "Technical exercises for building finger strength and accuracy"}>{title}</h3>
-          <span className="shelf-stats">{totalDone > 0 ? `${totalDone}/${totalExercises} exercises \u00b7 ${pctOverall}%` : `${totalExercises} exercises`}</span>
+          <h3 className="shelf-title" title={category === "method" ? t("catalog:ui.titleMethod") : t("catalog:ui.titleTechnique")}>{title}</h3>
+          <span className="shelf-stats">{totalDone > 0 ? t("catalog:ui.progressStats", { done: new Intl.NumberFormat(i18n.language).format(totalDone), count: totalExercises, percent: new Intl.NumberFormat(i18n.language).format(pctOverall) }) : t("catalog:ui.exercises", { count: totalExercises })}</span>
         </div>
         <div className="shelf-header-bar">
           <div className="shelf-header-bar-fill" style={{ width: `${pctOverall}%` }} />
@@ -475,7 +493,7 @@ function ShelfGrid({ courses, title, category }: { courses: CatalogCourse[]; tit
                 <a
                   className={`shelf-cell-wide shelf-${status}`}
                   href={getCourseHref(row.parent.id)}
-                  title={`${row.parent.title}\n${done}/${row.parent.exerciseCount} exercises`}
+                  title={t("catalog:ui.cellTooltip", { title: row.parent.title, done: new Intl.NumberFormat(i18n.language).format(done), count: row.parent.exerciseCount })}
                   style={{ '--cell-idx': rowIdx * maxCols } as React.CSSProperties}
                 >
                   <span className="shelf-row-level">{row.level}</span>
@@ -497,7 +515,7 @@ function ShelfGrid({ courses, title, category }: { courses: CatalogCourse[]; tit
                   <a
                     href={getCourseHref(row.parent.id)}
                     className="shelf-level-link"
-                    title={`${row.parent.title}\n${getCompletedCount(row.parent.id)}/${row.parent.exerciseCount} exercises`}
+                    title={t("catalog:ui.cellTooltip", { title: row.parent.title, done: getCompletedCount(row.parent.id), count: row.parent.exerciseCount })}
                   >
                     {row.level}
                   </a>
@@ -532,14 +550,16 @@ const SONG_ACCENT: Record<string, string> = {
 };
 
 function SongCards({ courses }: { courses: CatalogCourse[] }) {
+  const { t: translate, i18n } = useTranslation();
+  const t = translate as (key: string, options?: Record<string, unknown>) => string;
   const sorted = [...courses].sort((a, b) => a.level - b.level);
   return (
     <section className="shelf-section panel shelf-songs">
       <div className="shelf-header">
         <div>
-          <h3 className="shelf-title" title="Complete songs to practice your skills">Songs</h3>
+          <h3 className="shelf-title" title={t("catalog:ui.titleSongs")}>{t("catalog:ui.group.songs")}</h3>
           <span className="shelf-stats">
-            {(() => { const d = sorted.reduce((t, c) => t + getCompletedCount(c.id), 0); const tot = sorted.reduce((t, c) => t + c.exerciseCount, 0); return d > 0 ? `${d}/${tot} exercises` : `${tot} exercises`; })()}
+            {(() => { const d = sorted.reduce((t, c) => t + getCompletedCount(c.id), 0); const tot = sorted.reduce((t, c) => t + c.exerciseCount, 0); return d > 0 ? t("catalog:ui.progressStats", { done: new Intl.NumberFormat(i18n.language).format(d), count: tot, percent: new Intl.NumberFormat(i18n.language).format(Math.round((d / tot) * 100)) }) : t("catalog:ui.exercises", { count: tot }); })()}
           </span>
         </div>
       </div>
@@ -562,8 +582,8 @@ function SongCards({ courses }: { courses: CatalogCourse[] }) {
                 {course.level <= 2 ? <Music size={28} /> : course.level <= 4 ? <Music2 size={28} /> : <Music4 size={28} />}
               </span>
               <h4 className="song-card-title">{course.title.replace(/^Songs:\s*/, "")}</h4>
-              <span className="song-card-level">Level {course.level}</span>
-              <span className="song-card-fraction">{done > 0 ? `${done}/${course.exerciseCount}` : `${course.exerciseCount} exercises`}</span>
+              <span className="song-card-level">{t("catalog:ui.level", { level: new Intl.NumberFormat(i18n.language).format(course.level) })}</span>
+              <span className="song-card-fraction">{done > 0 ? `${done}/${course.exerciseCount}` : t("catalog:ui.exercises", { count: course.exerciseCount })}</span>
               <div className="shelf-cell-bar song-card-bar">
                 <div className="shelf-cell-bar-fill" style={{ width: `${pct}%` }} />
               </div>
@@ -625,18 +645,20 @@ function CourseTableSection({ course }: { course: CatalogCourse }) {
 }
 
 function CatalogScreen({ catalog, progressVersion }: { catalog: GeneratedCatalog; progressVersion: number }) {
+  const { t: translate } = useTranslation();
+  const t = translate as (key: string) => string;
   void progressVersion;
   const groups = groupCourses(catalog.courses);
 
-  const methodCourses = groups.find(g => g.label === "Method")?.courses ?? [];
-  const techniqueCourses = groups.find(g => g.label === "Technique")?.courses ?? [];
-  const songCourses = groups.find(g => g.label === "Songs")?.courses ?? [];
+  const methodCourses = groups.find(g => g.label === "method")?.courses ?? [];
+  const techniqueCourses = groups.find(g => g.label === "technique")?.courses ?? [];
+  const songCourses = groups.find(g => g.label === "songs")?.courses ?? [];
 
   return (
     <div className="screen-stack">
       <div className="catalog-triptych">
-        {methodCourses.length > 0 && <ShelfGrid courses={methodCourses} title="Method" category="method" />}
-        {techniqueCourses.length > 0 && <ShelfGrid courses={techniqueCourses} title="Technique" category="technique" />}
+        {methodCourses.length > 0 && <ShelfGrid courses={methodCourses} title={t("catalog:ui.group.method")} category="method" />}
+        {techniqueCourses.length > 0 && <ShelfGrid courses={techniqueCourses} title={t("catalog:ui.group.technique")} category="technique" />}
         {songCourses.length > 0 && <SongCards courses={songCourses} />}
       </div>
     </div>
@@ -644,6 +666,8 @@ function CatalogScreen({ catalog, progressVersion }: { catalog: GeneratedCatalog
 }
 
 function CourseScreen({ course, progressVersion }: { course: CatalogCourse; progressVersion: number }) {
+  const { t: translate, i18n } = useTranslation();
+  const t = translate as (key: string, options?: Record<string, unknown>) => string;
   void progressVersion;
   const completedSlugs = getCompletedSlugs(course.id);
   return (
@@ -657,18 +681,18 @@ function CourseScreen({ course, progressVersion }: { course: CatalogCourse; prog
             className="action-link primary"
             href={getExerciseHref(course.id, course.exercises[0].slug)}
           >
-            Open first exercise
+            {t("catalog:ui.openFirst")}
           </a>
         </div>
         <p className="lead">{course.summary}</p>
         <div className="course-meta-line">
-          <span>Level <strong>{course.level}</strong></span>
+          <span>{t("catalog:ui.level", { level: course.level })}</span>
           <span className="course-meta-dot" />
-          <span><strong>{course.exerciseCount}</strong> exercises</span>
+          <span>{t("catalog:ui.exercises", { count: course.exerciseCount })}</span>
           {completedSlugs.size > 0 && (
             <>
               <span className="course-meta-dot" />
-              <span><strong>{completedSlugs.size}</strong>/{course.exerciseCount} completed</span>
+              <span>{t("catalog:ui.completed", { count: completedSlugs.size })}/{course.exerciseCount}</span>
             </>
           )}
         </div>
@@ -681,7 +705,7 @@ function CourseScreen({ course, progressVersion }: { course: CatalogCourse; prog
               />
             </div>
             <span className="course-progress-label">
-              {Math.round((completedSlugs.size / course.exerciseCount) * 100)}% complete
+              {t("catalog:ui.completePercent", { percent: new Intl.NumberFormat(i18n.language).format(Math.round((completedSlugs.size / course.exerciseCount) * 100)) })}
             </span>
           </>
         )}
@@ -690,8 +714,8 @@ function CourseScreen({ course, progressVersion }: { course: CatalogCourse; prog
       <section className="panel surface-card">
         <div className="section-head">
           <div>
-            <span className="eyebrow">Exercises</span>
-            <h3>{course.exerciseCount} exercises</h3>
+            <span className="eyebrow">{t("catalog:ui.exercisesLabel")}</span>
+            <h3>{t("catalog:ui.exercises", { count: course.exerciseCount })}</h3>
           </div>
         </div>
         <div className="exercise-table" role="list">
@@ -730,6 +754,8 @@ function ExerciseScreen({
   progressVersion: number;
   onExerciseComplete: () => void;
 }) {
+  const { t: translate } = useTranslation();
+  const t = translate as (key: string, options?: Record<string, unknown>) => string;
   void progressVersion;
   const completedSlugs = getCompletedSlugs(course.id);
   const exerciseIndex = course.exercises.findIndex((entry) => entry.slug === exercise.slug);
@@ -745,8 +771,7 @@ function ExerciseScreen({
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      const tag = (e.target as HTMLElement).tagName;
-      if (tag === "INPUT" || tag === "TEXTAREA" || tag === "BUTTON") return;
+      if (isEditingTarget(e.target)) return;
       if (e.metaKey || e.ctrlKey || e.altKey) return;
 
       if (e.key === "ArrowRight" && nextExercise) {
@@ -774,7 +799,7 @@ function ExerciseScreen({
             </a>
             <div className="exercise-pager">
               {previousExercise ? (
-                <a className="pager-link" href={getExerciseHref(course.id, previousExercise.slug)}>
+                <a className="pager-link" aria-label={t("practice:ui.navigation.previousExercise")} href={getExerciseHref(course.id, previousExercise.slug)}>
                   <ChevronLeft size={16} />
                 </a>
               ) : (
@@ -782,14 +807,14 @@ function ExerciseScreen({
               )}
               <span className="pager-count">{exerciseIndex + 1} / {course.exerciseCount}</span>
               {nextExercise ? (
-                <a className="pager-link" href={getExerciseHref(course.id, nextExercise.slug)}>
+                <a className="pager-link" aria-label={t("practice:ui.navigation.nextExercise")} href={getExerciseHref(course.id, nextExercise.slug)}>
                   <ChevronRight size={16} />
                 </a>
               ) : (
                 <span className="pager-link disabled"><ChevronRight size={16} /></span>
               )}
               {!outlineOpen && (
-                <button className="panel-toggle-btn expand" onClick={() => setOutlineOpen(true)} title="Show outline" aria-label="Show outline"><Menu size={16} /></button>
+                <button className="panel-toggle-btn expand" onClick={() => setOutlineOpen(true)} title={t("common:ui.outline.show")} aria-label={t("common:ui.outline.show")}><Menu size={16} /></button>
               )}
             </div>
           </div>
@@ -798,20 +823,21 @@ function ExerciseScreen({
             <p className="exercise-goal">{exercise.goal}</p>
           </div>
           <div className="exercise-chips">
-            <span className="chip">{formatHands(exercise.hands)}</span>
-            <span className="chip">{formatClef(exercise.clef)}</span>
-            {exercise.category ? <span className="chip">{formatCategory(exercise.category)}</span> : null}
+            <span className="chip">{formatHands(exercise.hands, t)}</span>
+            <span className="chip">{formatClef(exercise.clef, t)}</span>
+            {exercise.category ? <span className="chip">{formatCategory(exercise.category, t)}</span> : null}
             <span className="chip">{exercise.tempoBpm} bpm</span>
             <span className="chip">{formatTimeSignature(exercise.timeSignature)}</span>
             <span className="kbd-hints">
-              <kbd>R</kbd> reset
-              <kbd><ArrowLeft size={10} /></kbd><kbd><ArrowRight size={10} /></kbd> navigate
+              <kbd>R</kbd> {t("practice:ui.reset")}
+              <kbd><ArrowLeft size={10} /></kbd><kbd><ArrowRight size={10} /></kbd> {t("practice:ui.navigate")}
             </span>
           </div>
         </div>
 
-        <Suspense fallback={<div className="score-loading">Loading score...</div>}>
+        <Suspense fallback={<div className="score-loading">{t("practice:ui.score.loading")}</div>}>
           <ExercisePracticePanelLazy
+            key={`${course.id}/${exercise.id}`}
             exercise={exercise}
             courseId={course.id}
             nextExerciseHref={nextExercise ? getExerciseHref(course.id, nextExercise.slug) : undefined}
@@ -825,14 +851,14 @@ function ExerciseScreen({
       {outlineOpen && <aside className="outline-panel panel">
         <div className="section-head">
           <div>
-            <span className="eyebrow">Course Outline</span>
+            <span className="eyebrow">{t("practice:ui.outline.title")}</span>
             <h3>{course.title}</h3>
           </div>
           <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
             <a className="plain-link" href={getCourseHref(course.id)}>
-              View course
+              {t("practice:ui.outline.viewCourse")}
             </a>
-            <button className="panel-toggle-btn" onClick={() => setOutlineOpen(false)} title="Collapse outline" aria-label="Collapse outline"><X size={14} /></button>
+            <button className="panel-toggle-btn" onClick={() => setOutlineOpen(false)} title={t("common:ui.outline.hide")} aria-label={t("common:ui.outline.hide")}><X size={14} /></button>
           </div>
         </div>
 
@@ -949,6 +975,8 @@ function SidebarShelf({ courses, title, activeCourseId }: { courses: CatalogCour
 }
 
 function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: GeneratedCatalog; progressVersion: number; onImport: () => void }) {
+  const { i18n, t: translate } = useTranslation();
+  const t = translate as (key: string, options?: Record<string, unknown>) => string;
   void progressVersion;
 
   const totalExercises = catalog.courses.reduce((t, c) => t + c.exerciseCount, 0);
@@ -968,7 +996,7 @@ function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: Gener
   const groups = groupCourses(catalog.courses);
   const resumeTarget = getResumeTarget(catalog);
   const streak = getPracticeStreak();
-  const [importMsg, setImportMsg] = useState<string | null>(null);
+  const [importMsg, setImportMsg] = useState<MessageDescriptor | null>(null);
   const [confirmReset, setConfirmReset] = useState(false);
 
   const handleReset = () => {
@@ -991,7 +1019,7 @@ function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: Gener
       const reader = new FileReader();
       reader.onload = (e) => {
         const result = importProgress(e.target?.result as string);
-        setImportMsg(result.message);
+        setImportMsg(importProgressMessage(result));
         if (result.ok) onImport();
         setTimeout(() => setImportMsg(null), 4000);
       };
@@ -1004,38 +1032,41 @@ function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: Gener
   const firstExerciseHref = firstMethodCourse
     ? getExerciseHref(firstMethodCourse.id, firstMethodCourse.exercises[0].slug)
     : getCatalogHref();
+  const fileActions = <>
+    <button className="action-link secondary" type="button" onClick={exportProgress}>{t("progress:ui.export")}</button>
+    <button className="action-link secondary" type="button" onClick={handleImport}>{t("progress:ui.import")}</button>
+  </>;
 
   return (
     <div className="screen-stack">
       {totalCompleted === 0 ? (
         <div className="progress-empty-state">
           <PianioMascot height={80} />
-          <h3>Start your journey</h3>
-          <p>Complete your first exercise to begin tracking progress. Every note counts toward your first star.</p>
-          <a className="action-link primary" href={firstExerciseHref}>Start practicing</a>
+          <h3>{t("progress:ui.startTitle")}</h3>
+          <p>{t("progress:ui.startDescription")}</p>
+          <a className="action-link primary" href={firstExerciseHref}>{t("progress:ui.startPractice")}</a>
+          <div className="progress-actions">{fileActions}</div>
         </div>
       ) : (
       <section className="progress-header">
         <div className="section-head">
           <div>
-            <span className="eyebrow">Your Progress</span>
-            <h2>Practice Summary</h2>
+            <span className="eyebrow">{t("progress:ui.yourProgress")}</span>
+            <h2>{t("progress:ui.summary")}</h2>
           </div>
           <div className="progress-actions">
-            <a className="action-link primary" href={resumeTarget.href}>Continue practice</a>
-            <button className="action-link secondary" type="button" onClick={exportProgress}>Export</button>
-            <button className="action-link secondary" type="button" onClick={handleImport}>Import</button>
+            <a className="action-link primary" href={resumeTarget.href}>{t("progress:ui.continue")}</a>
+            {fileActions}
             <button
               className={`action-link secondary${confirmReset ? " danger" : ""}`}
               type="button"
               onClick={handleReset}
               onBlur={() => setConfirmReset(false)}
             >
-              {confirmReset ? "Confirm reset?" : "Reset"}
+              {confirmReset ? t("progress:ui.confirmReset") : t("progress:ui.reset")}
             </button>
           </div>
         </div>
-        {importMsg && <p className="import-msg">{importMsg}</p>}
 
         <div className="progress-journey">
           <div className="journey-bar">
@@ -1044,41 +1075,42 @@ function ProgressScreen({ catalog, progressVersion, onImport }: { catalog: Gener
           <div className="journey-stats">
             <span className="journey-stat">
               <strong>{pctOverall > 0 ? `${pctOverall}%` : totalCompleted}</strong>
-              {" "}{pctOverall > 0 ? "complete" : `of ${totalExercises} complete`}
+              {" "}{pctOverall > 0 ? t("progress:ui.complete") : t("progress:ui.ofComplete", { count: totalExercises })}
             </span>
             {total3 > 0 && (
               <>
                 <span className="journey-dot" />
-                <span className="journey-stat"><strong>{total3}</strong> perfect</span>
+                <span className="journey-stat">{t("progress:ui.perfect", { count: total3 })}</span>
               </>
             )}
             {streak > 0 && (
               <>
                 <span className="journey-dot" />
-                <span className="journey-stat"><strong>{streak}</strong> day streak</span>
+                <span className="journey-stat">{t("progress:ui.dayStreak", { count: streak })}</span>
               </>
             )}
           </div>
         </div>
       </section>
       )}
+      {importMsg && <p className="import-msg">{renderMessage(importMsg)}</p>}
 
       <div className="section-head">
         <div>
-          <span className="eyebrow">Your Courses</span>
-          <h2>Progress by Category</h2>
+          <span className="eyebrow">{t("progress:ui.yourCourses")}</span>
+          <h2>{t("progress:ui.byCategory")}</h2>
         </div>
       </div>
 
       <div className="catalog-triptych progress-triptych">
         {(() => {
-          const methodCourses = groups.find(g => g.label === "Method")?.courses ?? [];
-          const techniqueCourses = groups.find(g => g.label === "Technique")?.courses ?? [];
-          const songCourses = groups.find(g => g.label === "Songs")?.courses ?? [];
+          const methodCourses = groups.find(g => g.label === "method")?.courses ?? [];
+          const techniqueCourses = groups.find(g => g.label === "technique")?.courses ?? [];
+          const songCourses = groups.find(g => g.label === "songs")?.courses ?? [];
           return (
             <>
-              {methodCourses.length > 0 && <ShelfGrid courses={methodCourses} title="Method" category="method" />}
-              {techniqueCourses.length > 0 && <ShelfGrid courses={techniqueCourses} title="Technique" category="technique" />}
+              {methodCourses.length > 0 && <ShelfGrid courses={methodCourses} title={t("catalog:ui.group.method")} category="method" />}
+              {techniqueCourses.length > 0 && <ShelfGrid courses={techniqueCourses} title={t("catalog:ui.group.technique")} category="technique" />}
               {songCourses.length > 0 && <SongCards courses={songCourses} />}
             </>
           );
@@ -1095,19 +1127,23 @@ function EmptyScreen({
   title: string;
   description: string;
 }) {
+  const { t: translate } = useTranslation();
+  const t = translate as (key: string) => string;
   return (
     <section className="panel empty-panel">
-      <span className="eyebrow">Unavailable</span>
+      <span className="eyebrow">{t("common:ui.unavailable")}</span>
       <h2>{title}</h2>
       <p>{description}</p>
       <a className="action-link primary" href={getCatalogHref()}>
-        Return to catalog
+        {t("common:ui.returnCatalog")}
       </a>
     </section>
   );
 }
 
 function ScrollToTop() {
+  const { t: translate } = useTranslation();
+  const t = translate as (key: string) => string;
   const [visible, setVisible] = useState(false);
   useEffect(() => {
     const onScroll = () => setVisible(window.scrollY > 300);
@@ -1119,8 +1155,8 @@ function ScrollToTop() {
     <button
       className="scroll-to-top"
       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-      title="Back to top"
-      aria-label="Back to top"
+      title={t("common:ui.backToTop")}
+      aria-label={t("common:ui.backToTop")}
     >
       <ChevronLeft size={18} style={{ transform: 'rotate(90deg)' }} />
     </button>
@@ -1128,11 +1164,14 @@ function ScrollToTop() {
 }
 
 function TopNav({ midi, darkMode, setDarkMode, route }: {
-  midi: { available: boolean; summary: string };
+  midi: ReturnType<typeof describeMidiSupport>;
   darkMode: boolean;
   setDarkMode: (fn: (v: boolean) => boolean) => void;
   route: Route;
 }) {
+  const { i18n, t: translate } = useTranslation();
+  const t = translate as (key: string, options?: Record<string, unknown>) => string;
+  const midiMessages = midiSupportMessages(midi);
   return (
     <header className="top-nav">
       <a className="top-nav-logo" href={getCatalogHref()}>
@@ -1140,22 +1179,23 @@ function TopNav({ midi, darkMode, setDarkMode, route }: {
         Pianio
       </a>
       <nav className="top-nav-links">
-        <a className={route.screen === "catalog" ? "active" : undefined} href={getCatalogHref()}>Courses</a>
-        <a className={route.screen === "progress" ? "active" : undefined} href={getProgressHref()}>Progress</a>
+        <a className={route.screen === "catalog" ? "active" : undefined} href={getCatalogHref()}>{t("common:ui.nav.courses")}</a>
+        <a className={route.screen === "progress" ? "active" : undefined} href={getProgressHref()}>{t("common:ui.nav.progress")}</a>
       </nav>
       <div className="top-nav-right">
+        {supportedLanguages.length > 1 && <LanguageSelector />}
         <span className={midi.available ? "midi-indicator ok" : "midi-indicator warn"}>
           <span className="midi-dot" />
-          {midi.summary}
+          {renderMessage(midiMessages.summary)}
         </span>
-        <a className="top-nav-settings" href="#/diagnostics" title="MIDI Diagnostics" aria-label="MIDI diagnostics">
+        <a className="top-nav-settings" href="#/diagnostics" title={t("common:ui.midiDiagnostics")} aria-label={t("common:ui.midiDiagnostics")}>
           <Settings size={16} />
         </a>
         <button
           className="theme-toggle-btn"
           onClick={() => setDarkMode((v) => !v)}
-          title={darkMode ? "Switch to light mode" : "Switch to dark mode"}
-          aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
+          title={darkMode ? t("common:ui.theme.light") : t("common:ui.theme.dark")}
+          aria-label={darkMode ? t("common:ui.theme.light") : t("common:ui.theme.dark")}
         >
           {darkMode ? <Sun size={16} /> : <Moon size={16} />}
         </button>
@@ -1165,11 +1205,12 @@ function TopNav({ midi, darkMode, setDarkMode, route }: {
 }
 
 export default function App() {
-  const [catalog, setCatalog] = useState<GeneratedCatalog | null>(null);
-  const [error, setError] = useState<string | null>(null);
+  const { i18n, t: translate } = useTranslation();
+  const t = translate as (key: string, options?: Record<string, unknown>) => string;
+  const { catalog, error, retry, activeLanguage, contentLanguage } = useLanguage();
   const [progressVersion, setProgressVersion] = useState(0);
   const [sidebarOpen, setSidebarOpen] = useState(true);
-  const [darkMode, setDarkMode] = useState(() => localStorage.getItem("pianio:dark") === "1");
+  const [darkMode, setDarkMode] = useState(() => readPreference("pianio:dark") === "1");
   const handleExerciseComplete = () => { recordPracticeDay(); setProgressVersion((v) => v + 1); };
   const resumeTarget = catalog ? getResumeTarget(catalog) : null;
   const hasProgress = catalog
@@ -1201,39 +1242,8 @@ export default function App() {
     } else {
       document.documentElement.removeAttribute("data-theme");
     }
-    localStorage.setItem("pianio:dark", darkMode ? "1" : "0");
+    savePreference("pianio:dark", darkMode ? "1" : "0");
   }, [darkMode]);
-
-  useEffect(() => {
-    let active = true;
-
-    fetch("/generated/catalog.json")
-      .then(async (response) => {
-        if (!response.ok) {
-          throw new Error(`Catalog request failed with ${response.status}`);
-        }
-
-        return (await response.json()) as GeneratedCatalog;
-      })
-      .then((data) => {
-        if (active) {
-          data.courses = data.courses.filter((c) => {
-            const m = c.id.match(/^(method|technique)-level-\d+$/);
-            return !m;
-          });
-          setCatalog(data);
-        }
-      })
-      .catch((fetchError) => {
-        if (active) {
-          setError(fetchError instanceof Error ? fetchError.message : "Unknown error");
-        }
-      });
-
-    return () => {
-      active = false;
-    };
-  }, []);
 
   useEffect(() => {
     if (typeof window === "undefined") {
@@ -1271,29 +1281,30 @@ export default function App() {
   useEffect(() => {
     const base = "Pianio";
     if (route.screen === "progress") {
-      document.title = `My Progress | ${base}`;
+      document.title = `${t("common:ui.nav.progress")} | ${base}`;
     } else if (route.screen === "diagnostics") {
-      document.title = `Diagnostics | ${base}`;
+      document.title = `${t("common:ui.midiDiagnostics")} | ${base}`;
     } else if (route.screen === "course" && selectedCourse) {
       document.title = `${selectedCourse.title} | ${base}`;
     } else if (route.screen === "exercise" && selectedExercise && selectedCourse) {
       document.title = `${selectedExercise.title} - ${selectedCourse.title} | ${base}`;
     } else {
-      document.title = base;
+      document.title = t("common:document.title");
     }
     // Emotional contrast: scope backgrounds per screen
     const screenType = route.screen === "exercise" ? "practice" : route.screen === "progress" ? "progress" : "catalog";
     document.documentElement.setAttribute("data-screen", screenType);
-  }, [route.screen, selectedCourse, selectedExercise]);
+  }, [route.screen, selectedCourse, selectedExercise, activeLanguage]);
 
   let content: ReactNode = null;
 
-  if (error) {
+  if (error && !catalog) {
     content = (
       <section className="panel empty-panel">
-        <span className="eyebrow">Catalog Error</span>
-        <h2>Unable to load generated content</h2>
-        <p>{error}</p>
+        <span className="eyebrow">{t("catalog:ui.catalogError")}</span>
+        <h2>{t("catalog:ui.contentError")}</h2>
+        <p>{t("common:language.initialError")}</p>
+        <button type="button" onClick={retry}>{t("common:language.retry")}</button>
       </section>
     );
   } else if (!catalog) {
@@ -1313,15 +1324,15 @@ export default function App() {
     content = (
       <section className="panel empty-panel notfound-panel">
         <h2 className="notfound-title">404</h2>
-        <p>This page doesn't exist</p>
-        <a className="action-link primary" href={getCatalogHref()}>Back to courses</a>
+        <p>{t("common:ui.page404")}</p>
+        <a className="action-link primary" href={getCatalogHref()}>{t("common:ui.nav.backToCourses")}</a>
       </section>
     );
   } else if (!selectedCourse) {
     content = (
       <EmptyScreen
-        title="Course not found"
-        description="The selected course route does not exist in the generated catalog."
+        title={t("catalog:ui.courseNotFound")}
+        description={t("catalog:ui.courseMissing")}
       />
     );
   } else if (route.screen === "course") {
@@ -1329,8 +1340,8 @@ export default function App() {
   } else if (!selectedExercise) {
     content = (
       <EmptyScreen
-        title="Exercise not found"
-        description="The selected exercise route does not exist in this course."
+        title={t("catalog:ui.exerciseNotFound")}
+        description={t("catalog:ui.exerciseMissing")}
       />
     );
   } else {
@@ -1346,36 +1357,36 @@ export default function App() {
 
   return (
     <>
-    <a href="#main-content" className="skip-link">Skip to content</a>
+    <a href="#main-content" className="skip-link">{t("common:ui.skip")}</a>
     <TopNav midi={midi} darkMode={darkMode} setDarkMode={setDarkMode} route={route} />
     {route.screen === "catalog" && (
       <header className="hero-panel">
         <div className="hero-inner">
           <div className="hero-copy">
             <h1>Pianio</h1>
-            <p className="hero-tagline">Free piano lessons that listen. Connect a MIDI keyboard, sight-read real scores, and get graded in real time.</p>
-            <p className="hero-stat-line">{catalog?.courses.length ?? '…'} courses &middot; {catalog?.courses.reduce((t, c) => t + c.exerciseCount, 0) ?? '…'} exercises &middot; Open source</p>
+            <p className="hero-tagline">{t("catalog:ui.tagline")}</p>
+            <p className="hero-stat-line">{t("catalog:ui.stats", { courses: new Intl.NumberFormat(i18n.language).format(catalog?.courses.length ?? 0), exercises: new Intl.NumberFormat(i18n.language).format(catalog?.courses.reduce((n, c) => n + c.exerciseCount, 0) ?? 0) })}</p>
             <a className="action-link primary hero-cta" href={resumeTarget?.href ?? getCatalogHref()}>
-              {hasProgress ? "Continue" : "Start learning"}
+              {hasProgress ? t("catalog:ui.continue") : t("catalog:ui.startLearning")}
             </a>
             {hasProgress && resumeTarget && (
-              <p className="hero-resume-hint">Next up: {resumeTarget.label}</p>
+              <p className="hero-resume-hint">{t("catalog:ui.resumeHint", { title: resumeTarget.label })}</p>
             )}
-              <div className="hero-steps" aria-label="How it works">
+              <div className="hero-steps" aria-label={t("catalog:ui.howItWorks")}>
                 <div className="hero-step">
                   <Keyboard size={24} />
-                  <h3>Connect</h3>
-                  <p>Plug in any MIDI keyboard</p>
+                  <h3>{t("catalog:ui.connect")}</h3>
+                  <p>{t("catalog:ui.connectHint")}</p>
                 </div>
                 <div className="hero-step">
                   <Music size={24} />
-                  <h3>Play</h3>
-                  <p>Follow real sheet music in real time</p>
+                  <h3>{t("catalog:ui.play")}</h3>
+                  <p>{t("catalog:ui.playHint")}</p>
                 </div>
                 <div className="hero-step">
                   <Check size={24} />
-                  <h3>Learn</h3>
-                  <p>Get graded and track your progress</p>
+                  <h3>{t("catalog:ui.learn")}</h3>
+                  <p>{t("catalog:ui.learnHint")}</p>
                 </div>
               </div>
           </div>
@@ -1393,30 +1404,30 @@ export default function App() {
             <section className="panel sidebar-panel">
               <div className="section-head">
                 <div>
-                  <span className="eyebrow">Navigation</span>
-                  <h2>Courses</h2>
+                  <span className="eyebrow">{t("common:ui.navigation")}</span>
+                  <h2>{t("common:ui.nav.courses")}</h2>
                 </div>
                 <div className="sidebar-nav-actions">
-                  <button className="panel-toggle-btn" onClick={() => setSidebarOpen(false)} title="Collapse sidebar" aria-label="Collapse sidebar"><X size={14} /></button>
-                  <a className="plain-link" href={getCatalogHref()}>All courses</a>
-                  <a className="plain-link" href={getProgressHref()}>Progress</a>
+                  <button className="panel-toggle-btn" onClick={() => setSidebarOpen(false)} title={t("common:ui.sidebar.hide")} aria-label={t("common:ui.sidebar.hide")}><X size={14} /></button>
+                  <a className="plain-link" href={getCatalogHref()}>{t("common:ui.nav.catalog")}</a>
+                  <a className="plain-link" href={getProgressHref()}>{t("common:ui.nav.progress")}</a>
                 </div>
               </div>
 
               {!catalog ? (
-                <p className="support-copy">Course list appears after the generated catalog loads.</p>
+                <p className="support-copy">{t("catalog:ui.sidebarLoading")}</p>
               ) : (
-                <nav className="course-nav sidebar-shelves" aria-label="Course catalog">
+                <nav className="course-nav sidebar-shelves" aria-label={t("catalog:ui.courseCatalog")}>
                   {(() => {
                     const groups = groupCourses(catalog.courses);
-                    const methodCourses = groups.find(g => g.label === "Method")?.courses ?? [];
-                    const techniqueCourses = groups.find(g => g.label === "Technique")?.courses ?? [];
-                    const songCourses = groups.find(g => g.label === "Songs")?.courses ?? [];
+                    const methodCourses = groups.find(g => g.label === "method")?.courses ?? [];
+                    const techniqueCourses = groups.find(g => g.label === "technique")?.courses ?? [];
+                    const songCourses = groups.find(g => g.label === "songs")?.courses ?? [];
                     return (
                       <>
-                        {methodCourses.length > 0 && <SidebarShelf courses={methodCourses} title="Method" activeCourseId={activeCourseId} />}
-                        {techniqueCourses.length > 0 && <SidebarShelf courses={techniqueCourses} title="Technique" activeCourseId={activeCourseId} />}
-                        {songCourses.length > 0 && <SidebarShelf courses={songCourses} title="Songs" activeCourseId={activeCourseId} />}
+                        {methodCourses.length > 0 && <SidebarShelf courses={methodCourses} title={t("catalog:ui.group.method")} activeCourseId={activeCourseId} />}
+                        {techniqueCourses.length > 0 && <SidebarShelf courses={techniqueCourses} title={t("catalog:ui.group.technique")} activeCourseId={activeCourseId} />}
+                        {songCourses.length > 0 && <SidebarShelf courses={songCourses} title={t("catalog:ui.group.songs")} activeCourseId={activeCourseId} />}
                       </>
                     );
                   })()}
@@ -1428,11 +1439,11 @@ export default function App() {
 
         <section className="browser-main">
           {route.screen !== "progress" && route.screen !== "diagnostics" && route.screen !== "catalog" && (
-          <nav className="breadcrumbs" aria-label="Breadcrumb">
+          <nav className="breadcrumbs" aria-label={t("common:ui.breadcrumb")}>
             {!sidebarOpen && (
-              <button className="panel-toggle-btn expand" onClick={() => setSidebarOpen(true)} title="Show sidebar" aria-label="Show sidebar"><Menu size={16} /></button>
+              <button className="panel-toggle-btn expand" onClick={() => setSidebarOpen(true)} title={t("common:ui.sidebar.show")} aria-label={t("common:ui.sidebar.show")}><Menu size={16} /></button>
             )}
-            <a href={getCatalogHref()}>Courses</a>
+        <a href={getCatalogHref()}>{t("common:ui.nav.courses")}</a>
             {selectedCourse ? (
               <>
                 <span>/</span>
@@ -1448,6 +1459,12 @@ export default function App() {
           </nav>
           )}
 
+          {error && catalog && <div className="language-notice" role="alert">
+            {t("common:language.error")} <button type="button" onClick={retry}>{t("common:language.retry")}</button>
+          </div>}
+          {catalog && activeLanguage !== contentLanguage && <p className="language-notice" role="status">{t("common:language.fallback")}</p>}
+          {activeLanguage !== sourceLanguage && catalog?.courses.some(c => (c.coverage?.fallbackFields ?? 0) > 0) && <p className="language-notice">{t("common:language.partial")}</p>}
+          {activeLanguage !== sourceLanguage && (selectedCourse?.coverage?.fallbackFields ?? 0) > 0 && <p className="language-notice">{t("common:language.coursePartial")}</p>}
           {content}
         </section>
       </div>
@@ -1458,10 +1475,10 @@ export default function App() {
         <PianioMascot height={32} />
         <span className="site-footer-brand">Pianio</span>
       </div>
-      <div className="footer-tagline">Free, open-source piano lessons that listen.</div>
+      <div className="footer-tagline">{t("common:ui.footer")}</div>
       <div className="site-footer-links">
         <a href="https://github.com/ismaelponce/pianio" target="_blank" rel="noreferrer"><Github size={14} /> GitHub</a>
-        <a href="https://github.com/ismaelponce/pianio/blob/main/LICENSE" target="_blank" rel="noreferrer">MIT License</a>
+        <a href="https://github.com/ismaelponce/pianio/blob/main/LICENSE" target="_blank" rel="noreferrer">{t("common:ui.license")}</a>
         <span className="footer-midi-badge"><Keyboard size={12} /> MIDI</span>
       </div>
     </footer>

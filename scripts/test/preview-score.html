@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><meta charset="UTF-8"><title>Pianio — sample score preview</title>
+<style>body{margin:24px;background:#f4f6f8;color:#182c36;font:16px system-ui}h1{font-size:24px}select{font:inherit;padding:8px}#score{background:white;margin-top:24px;padding:20px;overflow:auto}p{max-width:900px}</style>
+<h1>Pianio · sample course score preview</h1><p>Generated MusicXML rendered with the same OSMD library used by the app. This standalone technical preview does not use the React catalog loader.</p>
+<label>Exercise <select id="exercise"><option value="single-c-pulse">Single C pulse · RH</option><option value="bass-c-position">C position in bass clef · LH</option><option value="foundation-capstone">Foundation review · RH</option></select></label>
+<p id="status" role="status">Loading…</p><div id="score"></div>
+<script type="module">
+import { OpenSheetMusicDisplay } from 'opensheetmusicdisplay';
+const score = new OpenSheetMusicDisplay(document.getElementById('score'), { backend: 'svg', autoResize: true, drawTitle: true, drawComposer: true });
+async function render() {
+ const slug = document.getElementById('exercise').value;
+ const url = `/generated/en/scores/method-level-1a/${slug}.musicxml`;
+ const response = await fetch(url); if (!response.ok) throw new Error(`${response.status}`);
+ await score.load(await response.text()); score.render();
+ document.getElementById('status').textContent = `Score loaded: ${url}`;
+}
+document.getElementById('exercise').addEventListener('change', () => render());
+render().catch(e => document.getElementById('status').textContent = e.message);
+</script></html>

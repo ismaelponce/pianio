@@ -1,0 +1,30 @@
+{
+  "progress": {
+    "import": {
+      "success": "Imported {{importedCount}} completed exercises.",
+      "invalid-json": "The selected file is not valid JSON.",
+      "unsupported-format": "Unrecognised format. Expected a Pianio progress export.",
+      "storage-write-failed": "Could not save imported progress in this browser."
+    }
+  },
+  "ui": {
+    "startTitle": "Start your journey",
+    "startDescription": "Complete your first exercise to begin tracking progress. Every note counts toward your first star.",
+    "startPractice": "Start practicing",
+    "yourProgress": "Your Progress",
+    "summary": "Practice Summary",
+    "continue": "Continue practice",
+    "export": "Export",
+    "import": "Import",
+    "reset": "Reset",
+    "confirmReset": "Confirm reset?",
+    "complete": "complete",
+    "dayStreak_one": "{{count}} day streak",
+    "dayStreak_other": "{{count}} day streak",
+    "yourCourses": "Your Courses",
+    "byCategory": "Progress by Category",
+    "ofComplete": "of {{count}} complete",
+    "perfect_one": "{{count}} perfect",
+    "perfect_other": "{{count}} perfect"
+  }
+}

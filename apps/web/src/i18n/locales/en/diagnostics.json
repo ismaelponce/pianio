@@ -1,0 +1,82 @@
+{
+  "midi": {
+    "support": {
+      "environment-not-browser": {
+        "summary": "Browser APIs unavailable",
+        "detail": "This check only runs meaningfully in the browser."
+      },
+      "insecure-context": {
+        "summary": "Secure context required",
+        "detail": "Web MIDI access needs HTTPS on hosted environments."
+      },
+      "api-unavailable": {
+        "summary": "Web MIDI not exposed",
+        "detail": "The current browser does not expose navigator.requestMIDIAccess."
+      },
+      "available": {
+        "summary": "Web MIDI available",
+        "detail": "This browser can request MIDI access and enumerate compatible devices."
+      }
+    },
+    "error": {
+      "permission-denied": "MIDI permission was denied.",
+      "security": "The browser blocked MIDI access for security reasons.",
+      "aborted": "The MIDI access request was interrupted.",
+      "invalid-state": "The MIDI access request could not be completed in the current state.",
+      "unsupported": "The browser does not support this MIDI request.",
+      "unknown": "Could not request MIDI access."
+    }
+  },
+  "ui": {
+    "event": "Event",
+    "title": "Diagnostics",
+    "midiCheck": "MIDI check",
+    "intro": "Request Web MIDI access, verify connected inputs, and capture note and sustain pedal traffic without leaving the browser.",
+    "requestAgain": "Re-request MIDI access",
+    "requestAccess": "Request MIDI access",
+    "requesting": "Requesting access...",
+    "resetSession": "Reset session",
+    "browserReadiness": "Browser readiness",
+    "validationHint": "Primary validation target: desktop Chrome over HTTPS. This screen remains useful even when no keyboard is connected.",
+    "session": "Session",
+    "debugState": "Debug state",
+    "permissionIdle": "Permission not requested",
+    "permissionWaiting": "Waiting for permission",
+    "permissionGranted": "Access granted",
+    "permissionFailed": "Request failed",
+    "started": "Session started",
+    "lastUpdate": "Last update",
+    "accessRequested": "Access requested",
+    "accessGranted": "Access granted",
+    "requestCount": "Request count",
+    "capturedEvents": "Captured events",
+    "notYet": "Not yet",
+    "inputs": "Inputs",
+    "devices": "Detected MIDI devices",
+    "visibleCount": "{{count}} visible",
+    "noInputs": "No MIDI inputs detected",
+    "noInputsHint": "After permission is granted, compatible devices should appear here automatically. You can keep this page open while connecting a keyboard.",
+    "unnamedInput": "Unnamed input",
+    "unknownManufacturer": "Unknown manufacturer",
+    "events": "Events",
+    "recentTraffic": "Recent MIDI traffic",
+    "loggingHint": "Logging note on, note off, and sustain pedal messages only.",
+    "noEvents": "No matching MIDI events yet",
+    "noEventsHint": "Press keys or move the sustain pedal after granting access. Unsupported message types are ignored so the log stays focused.",
+    "recentEventsLabel": "Recent MIDI events",
+    "time": "Time",
+    "details": "Details",
+    "source": "Source",
+    "raw": "Raw",
+    "unknownInput": "Unknown input",
+    "deviceState": {
+      "connected": "Connected",
+      "disconnected": "Disconnected"
+    },
+    "connectionState": {
+      "open": "Open",
+      "closed": "Closed",
+      "pending": "Pending"
+    }
+  }
+}
